@@ -11,7 +11,7 @@ import CartPage from './pages/cart/cart';
 import ProductListPage from './pages/products/products/Products';
 import Category from './pages/products/category/Category';
 import SubCategory from './pages/products/subCategory/SubCategory';
-import Variant from './pages/products/variant/variant';
+import Variant from './pages/products/variant/Variant';
 import Name from './pages/products/name/Name';
 import CheckoutPage from './pages/checkout/Checkout';
 
