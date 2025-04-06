@@ -6,7 +6,7 @@ const spideySeparator = '/spidey/spider-separator.png'
 const spideyScroll = '/spidey/scroll.png'
 
 //--------------Constants Import
-import PcPeripherals from '../../components/carousels/PcPeripherals/PcPeripherals'
+import PcPeripherals from '../../components/carousels/pcPeripherals/PcPeripherals'
 import PcSetUpComponent from '../../components/pcSetupComponent/PcSetUpComponent'
 import SpideyDialogBox from '../../components/spideyDialogBox/SpideyDialogBox'
 import GamesCarousel from '../../components/carousels/gamesCarousel/GamesCarousel'

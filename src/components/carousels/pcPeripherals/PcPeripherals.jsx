@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useRef, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux'; // Import useDispatch
 import Slider from "react-slick";
