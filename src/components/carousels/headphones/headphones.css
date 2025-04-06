@@ -1,0 +1,195 @@
+.headphones-headphones-carousel-section {
+    color: #fff;
+    position: relative;
+}
+
+.headphones-carousel-header{
+    margin: 2rem 0;
+}
+
+.headphones-carousel-header h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: var(--dark-color);
+}
+
+.headphones-carousel-header p {
+    margin: 0;
+    color: var(--primary-color);
+    transform: translateY(-1rem);
+}
+
+.headphones-carousel-item {
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.headphones-carousel-card {
+    background-color: rgb(26, 26, 46, .1);
+    backdrop-filter: blur(20px);
+    max-width: 250px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 1px solid var(--primary-color);
+}
+
+.headphones-carousel-card-header {
+    display: flex;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.headphones-carousel-card-header .headphones-percentage-off{
+    background-color: var(--primary-color);
+    font-weight: 600;
+    padding: .125rem .5rem;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.headphones-carousel-card-header .headphones-card-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.headphones-carousel-card-header .headphones-card-icons img{
+    height: 20px;
+}
+.headphones-carousel-card-header .headphones-card-icons i {
+    font-size: 20px;
+    color: var(--dark-color);
+}
+
+.headphones-carousel-image {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    object-fit: contain;
+}
+
+.headphones-carousel-title {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+    text-align: left;
+}
+
+.headphones-top-specs h6 {
+    color: #000;
+    border-bottom: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.headphones-top-specs h6 span:last-child {
+    color: var(--primary-color);
+    text-align: right;
+}
+
+.headphones-price-div {
+   display: flex;
+   width: 100%;
+   justify-content: space-between;
+   place-items: center;
+}
+
+.headphones-price-div h6 {
+    color: gray;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.headphones-price-div h4 {
+    margin: 0;
+    color: var(--dark-color);
+    font-weight: 900;
+}
+.headphones-action-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5rem;
+}
+
+.headphones-carousel-button {
+    background-color: #42a5f5;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.headphones-carousel-button:hover {
+    background-color: #1e88e5;
+}
+
+
+.headphones-carousel-buttons {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.headphones-carousel-buttons button{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+.headphones-headphones-carousel-section .slick-dots{
+    margin-left: 2rem;
+}
+
+.headphones-headphones-carousel-section .slick-dots li button:before{
+    background-color: var(--dark-color);
+    height: 10px;
+}
+
+@media (max-width: 768px) {
+    .headphones-carousel-item {
+        padding: 0;
+    }
+    
+    .headphones-carousel-header{
+        padding: 0 1rem;
+        margin: 1rem 0;
+    }
+    
+    .headphones-carousel-header h2 {
+        font-size: 2rem;
+    }
+    
+    .headphones-carousel-header p {
+        font-size: 10px;
+    }
+
+    .headphones-carousel-card {
+        max-width: 80%;
+        margin-left: .8rem;
+    }
+
+    .headphones-carousel-buttons {
+        top: 1rem;
+    }
+
+    .headphones-headphones-carousel-section .slick-dots{
+        width: 90%;
+        margin-left: 0;
+        padding-left: 1rem;
+    }
+}

@@ -1,0 +1,39 @@
+/* Container for the scroll buttons */
+.scroll-buttons-container {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  gap: 10px;
+  z-index: 999;
+}
+
+/* General button styling */
+.scroll-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+
+/* Top button-specific styling */
+.top-button {
+  background-color: var(--primary-color);
+}
+
+/* Bottom button-specific styling */
+.bottom-button {
+  background-color: var(--secondary-color);
+}
+
+
+/* Ensure the buttons fade in and out */
+.scroll-buttons-container {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}

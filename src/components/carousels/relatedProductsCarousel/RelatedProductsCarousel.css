@@ -1,0 +1,228 @@
+.related-products-section {
+    padding: 4rem 0;
+    margin-top: 2rem;
+    border-top: 1px solid #000;
+}
+
+.related-products-title {
+    margin-bottom: 1.5rem;
+    color: #333;
+    margin-left: .5rem;
+}
+
+.related-products-title span{
+    background-image: url(../../../../../public/graphic/scratch.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.related-products-carousel-wrapper {
+    position: relative;
+    padding: 0;
+}
+
+.related-product-card {
+    aspect-ratio: 1 / 1.5;
+    background: linear-gradient(-45deg, rgb(6, 144, 243, .1), rgb(239, 53, 99, .1));
+    border: 1px solid transparent;
+    border-image: linear-gradient(var(--primary-color), var(--secondary-color));
+    border-image-slice: 1;
+    background-color: rgb(6, 144, 243, 0.1);
+    padding: 1rem;
+    transform: scale(.95);
+}
+
+.related-product-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.related-product-platform {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.related-product-platform img {
+    width: 25px;
+    height: 25px;
+    background: #555;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.related-product-badges {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.discount-badge {
+    background-color: #ff4444;
+    color: #000;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.related-product-image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.related-product-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.related-product-info {
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+}
+
+.related-product-info h4 {
+    color: var(--text-color);
+}
+
+.related-product-info h5 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: var(--secondary-color);
+    position: relative;
+    transform: translateX(2.5rem);
+    text-transform: none;
+    text-transform: capitalize;
+}
+
+.related-product-info h5::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 2rem;
+    background-color: var(--secondary-color);
+    top: 45%;
+    left: 0;
+    transform: translateX(-2.5rem);
+}
+
+.related-product-pricing {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.related-product-pricing .original-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+
+.related-product-pricing .current-price {
+    color: #ff4444;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.related-product-actions {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.related-product-actions span {
+    display: flex;
+    column-gap: .25rem;
+}
+
+.related-product-actions .product-list-quick-view {
+    border: 1px solid var(--secondary-color);
+    background: transparent;
+    color: var(--secondary-color) !important;
+    padding: .15rem .4rem;
+    cursor: pointer;
+}
+
+.related-product-actions a {
+    padding: .25rem .5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.product-list-cart-button {
+    border: 1px solid;
+}
+
+.view-details-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.view-details-btn:hover {
+    background-color: #555;
+}
+
+
+
+.carousel-navigation {
+    position: absolute;
+    right: 1rem;
+    bottom: -2.5rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.nav-btn{
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .related-products-carousel-wrapper {
+        padding: 0 1rem;
+    }
+
+    .related-products-section {
+        padding: 0;
+        padding-bottom: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .related-product-card {
+        margin: 0.25rem;
+    }
+
+    .related-products-title{
+        padding: 0 1.5rem;
+        font-size: 35px;
+        margin: 0;
+        margin-top: 2rem;
+        text-align: center;
+    }
+}

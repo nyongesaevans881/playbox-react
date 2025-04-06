@@ -1,0 +1,60 @@
+.text-separator-wrapper{
+    margin-bottom: 2rem;
+    overflow-x: hidden;
+}
+
+.text-scroll {
+    white-space: nowrap;
+    transition: all .5s ease-in-out;
+}
+
+.text-scroll div {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    letter-spacing: 2px;
+    opacity: .5;
+}
+
+.text-scroll img {
+    height: 50px;
+}
+
+.text-scroll span {
+    color: var(--secondary-color);
+    -webkit-text-fill-color: var(--secondary-color);
+}
+
+.right-left {
+    animation: RightToLeft 40s infinite linear;
+}
+
+@keyframes RightToLeft {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-160%);
+    }
+}
+
+.left-right {
+    animation: LeftToRight 40s infinite linear;
+}
+
+@keyframes LeftToRight {
+    from {
+        transform: translateX(-160%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+

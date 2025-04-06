@@ -1,0 +1,48 @@
+.button-49-wrapper{
+  background: linear-gradient(45deg, rgb(118, 240, 255), rgb(228, 106, 253));
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  padding: 1rem;
+  gap: .5rem;
+  cursor: pointer;
+}
+
+.button-49-wrapper img {
+  height: 20px;
+  transition: all .4s ease-in-out;
+}
+
+.button-49-wrapper .button-49-rotated {
+  transform: rotate(180deg);
+}
+
+
+.button-49-wrapper .button-49 img {
+  height: 20px;
+}
+
+.button-49 {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: .5rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.button-49-wrapper:hover {
+  background: linear-gradient(120deg, rgb(118, 240, 255), rgb(228, 106, 253));
+}
+
+.button-49-wrapper:hover .button-49-right-img{
+  transform: translateX(.6rem);
+}
+
+.button-49-wrapper:hover .button-49-rotated{
+  transform: rotate(180deg) translateX(.6rem);
+}
+

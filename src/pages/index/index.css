@@ -1,0 +1,457 @@
+/*===============ANIMATED HERO SECTION FORMATTING ==============*/
+.hero-section {
+    height: 600px;
+    background: url('https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931427/banner-alt-2_lywuw7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+  }
+  
+  .hero-section h1 {
+    text-align: center;
+    transform: translateY(-4rem);
+  }
+  
+  .call-to-action-hero{
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .call-to-action-hero a {
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+    padding: .5rem 2rem;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .call-to-action-hero a:hover {
+    background: linear-gradient(45deg, var(--secondary-color),  var(--primary-color));
+  }
+  
+  
+  
+  @media screen and (max-width: 1024px) {
+    .hero-section {
+        height: 500px;
+    }
+    .hero-section h1 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+    .hero-section {
+        height: 400px;
+    }
+    .hero-section h1 {
+        font-size: 20px;
+        transform: none;
+        line-height: 20px;
+    }
+  
+    .call-to-action-hero a {
+        padding: .25rem 1rem;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    
+  }
+  
+  
+  
+  
+  /* ######################################################### */
+  /*================== BEST SELLER FORMATTING =============*/
+  .best-sellers {
+    height: 650px;
+  }
+  
+  
+  /* ######################################################### */
+  /*================== BEST SELLER FORMATTING =============*/
+  .popular-products{
+    padding-bottom: 8rem;
+  }
+  
+  
+  
+  
+  
+  
+  /* ######################################################### */
+  /*============ SPIDEY SEPARATOR FORMATTING ===========*/
+  .spidey-separator {
+    position: relative;
+  }
+  
+  .spidey-separator-dialog-box-wrapper {
+    position: absolute;
+    z-index: 999;
+    left: 13%;
+    top: 0;
+  }
+  
+  .spidey-separator .separator-image {
+    width: 100%;
+    transform: translateY(-4rem);
+  }
+  
+  /*============ SPIDEY SEPARATOR RESONSIVE ===========*/
+  @media (max-width: 768px) {
+    .spidey-separator .separator-image {
+        width: 100%;
+        transform: translateY(-.1rem);
+    }
+  
+    .spidey-separator-dialog-box-wrapper {
+        position: absolute;
+        z-index: 999;
+        left: 13%;
+        top: -4rem;
+    }
+  
+    .popular-products{
+      padding-bottom: 8rem;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  /* ######################################################### */
+  /*=============== GAMING LAPTOPS & PCs SET-UP =============*/
+  .white-laptops-section {
+    background-color: #fff;
+    height: 1450px;
+  }
+  
+  .paybox-laptops-tags-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .paybox-laptops-tags-wrapper a {
+    margin: .25rem;
+    padding: .125rem .25rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    background: linear-gradient(45deg, var(--primary-color), var(--primary-color));
+  }
+  
+  .pc-setup-section{
+    margin-top: 2rem;
+    display: flex;
+  }
+  
+  .pc-spidey-commment{
+    position: relative;
+  }
+  
+  .pc-spidey-commment .pc-spidey {
+    height: 450px;
+  }
+  
+  .pc-spidey-commment-box-wrapper{
+    position: absolute;
+    right: 60%;
+  }
+  
+  @media (max-width: 768px) {
+  .pc-spidey-commment .pc-spidey {
+    height: 100px;
+  }
+  
+  .pc-spidey-commment-box-wrapper{
+    position: absolute;
+    right: 60%;
+    top: -40%;
+  }
+  .pc-setup-section{
+    margin-top: 12rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .pc-spidey-commment{
+    position: relative;
+    height: 150px;
+  }
+  
+  .pc-spidey-commment-box-wrapper{
+    /* position: absolute; */
+    right: 2rem;
+    top: -180%;
+    /* background-color: red; */
+  }
+  
+  .pc-spidey {
+    display: none;
+  }
+  
+  .paybox-laptops-tags-wrapper{
+    justify-content: center;
+  }
+  
+  .paybox-laptops-buttons-wrapper{
+    padding-left: 1.5rem;
+  }
+  
+  }
+  
+  
+  
+  
+  /* ######################################################### */
+  /*=============== GAMES CAROUSEL FORMATTING =============*/
+  .home-page-games {
+    height: 300px;
+    position: relative;
+  }
+  
+  .home-page-games-content {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    top: -30rem;
+  }
+  
+  @media (max-width: 768px) {
+    .home-page-games {
+      height: 350px;
+      }
+  }
+  
+  
+  
+  
+  /* ######################################################### */
+  /*=============== PS-5: ACCESSORIES AND SKINS SECTION =============*/
+  .white-skins-secion {
+    background-color: #fff;
+  }
+  
+  .playbox-skins-section {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 1rem;
+    place-items: center;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    position: relative;
+  }
+  
+  
+  /* .paybox-skins-heading h2 {
+    color: #000;
+    margin: 0;
+    line-height: 35px;
+    font-size: 20px;
+  } */
+  
+  .ps-5-vr-image img{
+    max-width: 300px;
+  }
+  
+  .paybox-laptops-buttons-wrapper {
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: .5rem;
+  }
+  
+  .playbox-skin-contollers-sliders{
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .playbox-gaming-laptops-sliders{
+    max-width: 800px;
+  }
+  
+  
+  .skins-image-small {
+    width: 200px;
+    object-fit: contain;
+  }
+  
+  .skins-image-large {
+    width: 400px;
+  }
+  
+  .playbox-skins-categories {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+  }
+  
+  .playbox-skins-categories a {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 3px;
+    padding: 0 .5rem;
+  }
+  
+  .slider-text-separator {
+   background: rgb(6, 144, 243, .2);
+  }
+  
+  
+  
+  /*=============== PS-5: ACCESSORIES AND SKINS RESPONSIVE =============*/
+  @media (max-width: 768px) {
+    .white-laptops-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 1450px;
+    }
+  
+    .playbox-gaming-laptops-sliders{
+        max-width: 320px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .playbox-skins-section {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 0;
+        padding: 2rem 1.5rem 0;
+        text-align: center;
+    }
+  
+    .playbox-skins-section.container{
+        margin: 0;
+        max-width: 100%;
+    }
+  
+    .skins-image-small {
+        width: 80px;
+        object-fit: contain;
+    }
+    
+    .skins-image-large {
+        width: 180px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* ######################################################### */
+  /*=============== DECOR AND FURNITURE SECTION =============*/
+  .white-accessories-secion{
+    background-color: #fff;
+  }
+  .playbox-accessories-section{
+    background-color: #fff;
+  }
+  .playbox-accessories-heading{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    place-items: center;
+  }
+  
+  .playbox-accessories-heading h2 {
+    color: #000;
+    line-height: 30px;
+    font-weight: 950;
+  }
+  
+  .playbox-accessories-categories{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    place-items: center;
+    gap: 1rem;
+  }
+  
+  
+  .playbox-accessories-sliders {
+    padding-bottom: 4rem;
+  }
+  
+  
+  @media (max-width: 768px) {
+  .playbox-accessories-heading{
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
+  .playbox-accessories-categories{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .playbox-accessories-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+  }
+  
+  /* ######################################################### */
+  /*=============== ULTIMATE GAMERS BLOG SECTION =============*/
+  .gaming-blog-section{
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .gamers-blog-header{
+    width: 100%;
+  }
+  
+  
+  
+  /* ######################################################### */
+  /*=============== PLAYBOX HEADPHONES SECTION =============*/
+  .playbox-headphones-section{
+    background-color: #fff;
+    padding-bottom: 5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /* Scroll Bar */
+  /* The entire scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  /* The scrollbar track (the background) */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light gray color */
+  }
+  
+  /* The scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color); /* Gradient color */
+  }
+  

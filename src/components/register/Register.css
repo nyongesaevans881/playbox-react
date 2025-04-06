@@ -1,0 +1,294 @@
+.register-auth-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.register-auth-popup {
+    background: rgb(28, 31, 38, .5);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    width: 80%;
+    max-height: 550px;
+    padding: 2rem;
+    position: relative;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    border: 1px solid #f0f0f0;
+    display: flex;
+}
+
+/* Left Section: Banner */
+.register-banner {
+    flex: 1;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right Section: Registration Form */
+.register-form {
+    flex: 1.5;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    overflow-y: auto;
+}
+
+.register-form h1 {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.register-form form {
+    display: flex;
+    flex-direction: column;
+    max-width: 530px;
+}
+
+.sign-up-input-group {
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+    margin: .25rem 0;
+    height: 40px;
+    padding: 0 1rem;
+}
+
+.sign-up-input-group input {
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 100%;
+}
+
+.sign-up-input-group .fa-eye-slash {
+    cursor: pointer;
+}
+
+.sign-up-input-group input::placeholder {
+    color: var(--body-color);
+    font-size: 14px;
+}
+
+.register-input-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    margin-bottom: 0;
+    display: flex;
+    place-items: center;
+    gap: .5rem;
+}
+
+.checkbox-group input {
+    cursor: pointer;
+}
+
+.checkbox-group label {
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox-group label a {
+    color: var(--secondary-color);
+}
+
+.sign-up-submitt-button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #5e60ce;
+    color: #5e60ce;
+    text-transform: uppercase;
+    font-weight: 900;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.sign-up-error-message {
+    background: rgb(255, 0, 0, .1);
+    padding: .1rem 1rem;
+    border: 1px solid red;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    transition: all .4s ease-in-out;
+    margin-top: 1rem;
+}
+
+/* Avatar Selection */
+.avatar-selection {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.avatar.selected {
+    border-color: #5e60ce;
+}
+
+.register-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.register-close-btn:hover {
+    transform: rotate(180deg);
+    color: var(--primary-color);
+}
+
+
+
+
+.register-scale {
+    transform: scale(10);
+    transition: all .2s ease-in-out;
+}
+
+.register-success-message {
+    text-align: center;
+    padding: 20px;
+    flex: 1.5;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    row-gap: 0;
+    transition: all .1s ease-in-out;
+    transform: scale(1);
+}
+
+.register-success-message img {
+    width: 100px;
+    height: auto;
+    margin: 10px auto;
+}
+
+.register-success-message h1 {
+    line-height: 45px;
+}
+
+.register-success-message p strong {
+    color: var(--secondary-color);
+}
+
+.user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.register-success-message button {
+    outline: none;
+    background: var(--primary-color);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    color: var(--body-color);
+    gap: 1rem;
+    place-items: center;
+    padding: .5rem 5rem;
+    border: 2px solid var(--primary-color);
+    cursor: pointer;
+}
+
+.register-success-message button i {}
+
+@media screen and (max-width: 768px) {
+    .register-auth-popup {
+        flex-direction: column-reverse;
+        max-height: 90%;
+        width: 85%;
+        padding: .5rem;
+    }
+
+    .register-banner{
+        display: none;
+    }
+
+    .register-form{
+        height: 100%;
+        overflow: hidden;
+        flex: -1;
+        padding: 2.5rem .5rem;
+        text-align: center;
+        overflow-y: auto;
+    }
+
+    .register-form::-webkit-scrollbar{
+        display: none;
+    }
+
+    .register-input-group{
+        flex-direction: column;
+    }
+
+    .register-form h1 {
+        font-size: 20px;
+    }
+
+    .register-close-btn{
+        font-size: 2.5rem;
+        top: 0;
+        right: 0;
+    }
+
+    .avatar-selection{
+        flex-wrap: wrap;
+        place-items: center;
+        text-align: center;
+    }
+
+    .sign-up-error-message{
+        text-align: left;
+    }
+
+    .register-success-message h1 {
+        font-size: 30px;
+    }
+}

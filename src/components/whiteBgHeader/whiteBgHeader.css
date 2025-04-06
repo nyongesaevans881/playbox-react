@@ -1,0 +1,18 @@
+.light-header-container {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .light-header {
+    color: #333;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, #0690f3, #dd163b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  

@@ -1,0 +1,62 @@
+
+.spidey-dialog-box {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: .125rem;
+    align-items: center;
+    border: 1px solid #ef3563;
+    width: 250px;
+    height: 80px;
+    border-radius: 10px;
+    animation: bounce 2s infinite;
+    z-index: 99999;
+    padding: .5rem;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+.spidey-dialog-box img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.spidey-dialog-box p {
+    color: #000;
+    padding: 0;
+    margin: 0;
+    line-height: 15px;
+}
+
+.spidey-dialog-box p span {
+    color: #ef3563;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .spidey-dialog-box {
+        width: 200px;
+        height: 70px;
+        column-gap: 1px;
+    }
+
+    .spidey-dialog-box p {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .spidey-dialog-box img{
+        width: max-content;
+    }
+
+}

@@ -1,0 +1,111 @@
+.pc-peripheral-carousel-wrapper {
+    position: relative;
+}
+
+.pc-peripheral-carousel-item{
+    max-width: 250px;
+    border: 1px solid var(--primary-color);
+    background-color: rgb(6, 144, 243, .1);
+    backdrop-filter: blur(20px);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.pc-peripheral-carousel-item-head {
+    color: var(--dark-color);
+    font-weight: 60;
+}
+
+.pc-peripheral-carousel-item-img img {
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pc-peripheral-carousel-item-title h2{
+    color: var(--dark-color);
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+}
+
+
+.pc-peripheral-carousel-item-title h6 {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: var(--secondary-color);
+    position: relative;
+    transform: translateX(2.5rem);
+    text-transform: none;
+}
+
+.pc-peripheral-carousel-item-title h6::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 2rem;
+    background-color: var(--secondary-color);
+    top: 45%;
+    left: 0;
+    transform: translateX(-2.5rem);
+}
+
+
+.pc-peripheral-carousel-item-price {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+
+.pc-peripheral-carousel-item-price h6 {
+    color: var(--dark-color);
+    font-size: 14px;
+    margin: 0;
+    text-decoration: line-through;
+    opacity: .5;
+    text-transform: none;
+}
+
+.pc-peripheral-carousel-item-price h3 {
+    margin: 0;
+    color: var(--secondary-color);
+    text-transform: none;
+    font-size: 20px;
+}
+
+.pc-peripheral-carousel-item-buttons{
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.pc-peripheral-carousel-item-buttons div {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: .125rem 1rem;
+}
+
+.pc-peripheral-carousel-buttons {
+    position: absolute;
+    left: 2rem;
+    bottom: -4.5rem;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.pc-peripheral-carousel-buttons button{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    font-size: 20px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    .pc-peripheral-carousel-item{
+        max-width: 280px;
+    }
+}

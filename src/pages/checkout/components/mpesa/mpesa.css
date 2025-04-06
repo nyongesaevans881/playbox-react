@@ -1,0 +1,244 @@
+/* M-Pesa Popup Styles */
+.mpesa-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+  }
+  
+  .mpesa-popup-content {
+    background: white;
+    padding: 2rem;
+    margin: 0 1rem;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .mpesa-popup-content h2 {
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+  }
+  
+  .mpesa-popup-content p {
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+  }
+  
+  .mpesa-close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #6b7280;
+    padding: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .mpesa-close-btn:hover {
+    color: #1a1a1a;
+    transform: rotate(360deg);
+  }
+  
+  .mpesa-popup-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .mpesa-popup-content input[type="tel"] {
+    padding: 0.75rem 1rem;
+    border: 1px solid #c8cace;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+  }
+  
+  .mpesa-popup-content input[type="tel"]:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+  
+  .mpesa-popup-content button[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .mpesa-popup-content button[type="submit"]:hover {
+    background-color: var(--secondary-color);
+  }
+  
+  .mpesa-popup-content button[type="submit"]:disabled {
+    background-color: #93c5fd;
+    cursor: not-allowed;
+  }
+  
+  .payment-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f3f4f6;
+  }
+  
+  .success-message {
+    color: #059669;
+    background-color: #d1fae5;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .error-message {
+    color: #dc2626;
+    background-color: #fee2e2;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 640px) {
+    .mpesa-popup-content {
+      width: 95%;
+      padding: 1.5rem;
+    }
+    
+    .mpesa-popup-content h2 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  /* Amount Display Styling */
+  .mpesa-popup-amount-display {
+    background-color: #f3f4f6;
+    margin-bottom: 1.5rem;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .mpesa-popup-amount-display img{
+    height: 100px;
+  }
+
+  .mpesa-popup-amount-display p {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mpesa-popup-amount-display span {
+    font-weight: 600;
+    color: var(--secondary-color);
+  }
+
+  .stk-sucess-loader img {
+    width: 100%;
+    height:50px;
+    object-fit: cover;
+  }
+
+  .stk-sucess-loader-message{
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+    border: 1px solid green;
+    background: rgb(0, 128, 0, .1);
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+
+  .stk-sucess-loader-message img{
+    height: 40px;
+  }
+
+  .stk-sucess-loader-message p{
+    margin: 0;
+  }
+
+  .mpesa-check-payment-status-btn{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0;
+    gap: 0.5rem;
+  }
+
+  .mpesa-pop-up-sucess-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    min-height: 250px;
+    position: relative;
+  }
+
+  .mpesa-pop-up-sucess-div img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+  }
+
+  .mpesa-pop-up-sucess-div p{
+    position: absolute;
+    bottom: -1rem;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(18, 215, 110);
+  }
