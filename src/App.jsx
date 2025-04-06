@@ -8,7 +8,7 @@ import Footer from "./components/footer/Footer";
 import { Toaster } from 'react-hot-toast';
 import CartSidebar from './components/cartSidebar/CartSidebar';
 import CartPage from './pages/cart/cart';
-import ProductListPage from './pages/products/products/products';
+import ProductListPage from './pages/products/products/Products';
 import Category from './pages/products/category/Category';
 import SubCategory from './pages/products/subCategory/SubCategory';
 import Variant from './pages/products/variant/variant';
