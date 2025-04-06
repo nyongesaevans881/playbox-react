@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useEffect } from 'react';
 import './ScrollButtons.css'; // Import the CSS file for styling
 

@@ -14,6 +14,7 @@ import SubCategory from './pages/products/subCategory/SubCategory';
 import Variant from './pages/products/variant/Variant';
 import Name from './pages/products/name/Name';
 import CheckoutPage from './pages/checkout/Checkout';
+import ScrollButtons from './components/ScrollButtons/ScrollButtons';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
 
           <Route path='/checkout' element={<CheckoutPage />} />
         </Routes>
+
+        <ScrollButtons />
 
         <Footer />
       </Router>
