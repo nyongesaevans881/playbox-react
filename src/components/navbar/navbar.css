@@ -508,7 +508,6 @@
     padding: 0 0 0 1rem;
     display: flex !important;
     justify-content: space-between !important;
-    /* background-color: blue; */
   }
 
   .nav-bar-mid-content {
@@ -547,7 +546,7 @@
   .navbar-logo img {
     width: 150px;
     height: auto;
-    transform: translateX(-.5rem);
+    transform: translateX(-.5rem) translateY(-.5rem);
   }
 
   .navbar-search {

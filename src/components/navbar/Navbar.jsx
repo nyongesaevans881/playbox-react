@@ -98,29 +98,29 @@ const Navbar = () => {
     const handleCategoryChange = (event) => {
         setSelectedCategory(event.target.value);
     };
-    
+
 
     const filteredProducts = products.filter((product) => {
         if (!product.Title || !product.SubTitle || !product.category || !product.tags) {
             console.log("Product with missing fields:", product);
             return false;
         }
-    
+
         // Convert search query to lowercase
         const query = searchQuery.toLowerCase();
-    
+
         // Check if the product matches the search query
         const matchesSearch =
             product.Title.toLowerCase().includes(query) ||
             product.SubTitle.toLowerCase().includes(query) ||
             product.tags.some((tag) => tag.toLowerCase().includes(query));
-    
+
         // Apply category filter (if not 'all')
         const matchesCategory = selectedCategory === "all" || product.category === selectedCategory;
-    
+
         return matchesSearch && matchesCategory;
     });
-    
+
 
     // List of categories
     const categories = [
@@ -279,7 +279,7 @@ const Navbar = () => {
                                 )}
                             </div>
 
-                            <div className="flex gap-4 items-center">
+                            <div className="flex gap-4 items-center max-md:hidden">
                                 <a href="https://x.com/playbox__ke?t=oIgieBaNb9KjLdQHvv0Y3w&s=09">
                                     <FaXTwitter className='text-white font-bold text-2xl hover:text-gray-200 cursor-pointer transition-all' />
                                 </a>
