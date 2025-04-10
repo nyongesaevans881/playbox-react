@@ -22,9 +22,6 @@
 }
 
 .best-seller-header .arrow{
-    position: absolute;
-    right: -4.5rem;
-    bottom: -.8rem;
     display: none;
 }
 
@@ -241,6 +238,9 @@
 
     .best-seller-header .arrow{ 
         display: block;
+            position: absolute;
+    right: -3rem;
+    bottom: -2rem;
     }
 
     .best-seller-cards-wrapper {

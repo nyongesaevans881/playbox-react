@@ -4,11 +4,11 @@
 
 .pc-peripheral-carousel-item{
     max-width: 250px;
+    height: 400px;
     border: 1px solid var(--primary-color);
     background-color: rgb(6, 144, 243, .1);
     backdrop-filter: blur(20px);
     padding: 10px;
-    cursor: pointer;
 }
 
 .pc-peripheral-carousel-item-head {
@@ -17,7 +17,7 @@
 }
 
 .pc-peripheral-carousel-item-img img {
-    height: 150px;
+    height: 200px;
     width: 100%;
     object-fit: contain;
 }
@@ -65,6 +65,7 @@
     text-decoration: line-through;
     opacity: .5;
     text-transform: none;
+    font-weight: bold;
 }
 
 .pc-peripheral-carousel-item-price h3 {
@@ -72,6 +73,7 @@
     color: var(--secondary-color);
     text-transform: none;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .pc-peripheral-carousel-item-buttons{
@@ -87,8 +89,8 @@
 
 .pc-peripheral-carousel-buttons {
     position: absolute;
-    left: 2rem;
-    bottom: -4.5rem;
+    right: 2rem;
+    bottom: -3.5rem;
     display: flex;
     column-gap: 1rem;
 }

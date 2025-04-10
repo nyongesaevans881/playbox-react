@@ -27,8 +27,8 @@ const Index = () => {
       <div className="hero-section">
         <h1 className='text-5xl uppercase font-bold text-white'>"Your Ultimate Gaming Destination"</h1>
         <div className="call-to-action-hero max-md:flex-col max-md:mt-5">
-          <a href="/products" className='flex items-center gap-2'><ShoppingCart className='h-6'/> Shop Products</a>
-          <a href="/products/games" className='flex items-center gap-2'><Rocket className='h-6'/> Video Games</a>
+          <a href="/products" className='flex items-center gap-2'><ShoppingCart className='h-6' /> Shop Products</a>
+          <a href="/products/games" className='flex items-center gap-2'><Rocket className='h-6' /> Video Games</a>
         </div>
       </div>
       {/*=========== END: HERO SECTION =============*/}
@@ -55,31 +55,23 @@ const Index = () => {
         <div className="playbox-skins-section container">
           <div className="paybox-skins-heading">
             <h2 className='text-4xl font-bold'>Pc <span className="gradient-text">Peripherals</span> & <span className="gradient-text">Accessories</span></h2>
-            <p>Get you PC essentials from our curated collection of peripherals and accessories.</p>
-            <div className='flex flex-col gap-2 my-2'>
-              <a href="" className='text-primary font-bold uppercase flex items-center py-2 px-4 text-center justify-center gap-2 border-2'>
-              <LaptopMinimalCheck />
-                Gaming Laptops
+            <p className='font-medium text-justify'>PC peripherals and accessories. RGB-enhanced mechanical keyboards & precision gaming mice, we've got <span className='text-secondary font-bold'>everything you need</span> to dominate the competition.</p>
+            <div className='mb-4'>
+              <a href="/products/keyboards">
+                <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741498214/keyboard_tvlrnd.png" alt="" className='cursor-pointer' title='Click to explore gaming keyboards' />
               </a>
-              <a href="" className='text-primary font-bold uppercase flex items-center py-2 px-4 text-center justify-center gap-2 border-2'>
-              <PcCase />
-              Gaming Computers
-              </a>
-            </div>
-            <div className="paybox-laptops-tags-wrapper">
-              <a href="#">Keyboards</a>
-              <a href="#">Mice</a>
-              <a href="#">Speakers</a>
-              <a href="#">Microphones</a>
-              <a href="#">Mouse Pads</a>
-              <a href="#">Headphones</a>
-              <a href="#">Lights</a>
+              <div className='flex justify-between'>
+                <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1742219751/pc-case-1_rdvuec.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' title='Click to explore gaming pc cases' />
+                <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744298582/mouse-black_hik0da.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' title='Click to explore gaming mice' />
+                <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1742219751/pc-case-1_rdvuec.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' />
+                <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1742219751/pc-case-1_rdvuec.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' />
+              </div>
             </div>
             <div className="paybox-laptops-buttons-wrapper">
-              <Button49 text={"Explore All Items"} picIcon={"/pc/pc-peripherals.png"} />
+              <Button49 text={"Explore All Items"} />
             </div>
           </div>
-          <div className="playbox-gaming-laptops-sliders">
+          <div className="playbox-gaming-laptops-sliders h-full">
             <PcPeripherals />
           </div>
         </div>
@@ -89,7 +81,7 @@ const Index = () => {
           <PcSetUpComponent />
           <div className="pc-spidey-commment">
             <div className="pc-spidey-commment-box-wrapper">
-              <SpideyDialogBox text='<span>SWEET!</span> Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum.' imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png' />
+              <SpideyDialogBox text='Build a <span>KILLER SETUP!</span> We provide you with all the essential components and guides.' imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png' />
             </div>
             <img className='pc-spidey' src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png" alt="" loading='lazy' />
           </div>

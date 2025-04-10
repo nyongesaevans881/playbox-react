@@ -124,11 +124,11 @@ const Headphones = () => {
                 })}
             </Slider>
 
-            <div className="absolute bottom-6 -left-105 flex gap-2 max-md:left-60 max-md:-bottom-18">
-                <button onClick={() => arrowRef.current.slickPrev()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-4xl max-md:w-20 max-md:h-20">
+            <div className="absolute bottom-6 -left-105 flex gap-2 max-md:left-0 max-md:-bottom-18">
+                <button onClick={() => arrowRef.current.slickPrev()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-2xl max-md:w-15 max-md:h-10">
                     <i className="fa fa-chevron-left"></i>
                 </button>
-                <button onClick={() => arrowRef.current.slickNext()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-4xl max-md:w-20 max-md:h-20">
+                <button onClick={() => arrowRef.current.slickNext()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-2xl max-md:w-15 max-md:h-10">
                     <i className="fa fa-chevron-right"></i>
                 </button>
             </div>

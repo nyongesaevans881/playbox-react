@@ -97,6 +97,15 @@ const Category = ({ params }) => {
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+    if (allProducts === null) {
+        return (
+            <>
+            <h1 className='text-5xl text-black'>No prods</h1>
+            <NoProducts />
+            </>
+        )
+    }
+
 
     return (
         <section className="product-list-container-wrapper">

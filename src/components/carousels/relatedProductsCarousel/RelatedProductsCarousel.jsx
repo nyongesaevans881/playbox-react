@@ -134,12 +134,12 @@ const RelatedProductsCarousel = ({ category }) => {
                                         >
                                             <i className="fa fa-eye"></i>
                                         </button>
-                                        <Link
+                                        <a
                                             href={`/products/${product.category}/${product.subCategory}/${product.variant}/${product.name}`}
                                             className="outlined-seller-card-button font-bold text-xl cursor-pointer text-gray-600"
                                         >
                                             <i className="fa fa-external-link"></i> Specs
-                                        </Link>
+                                        </a>
                                     </div>
                                     <button
                                         className="border border-gray-600 px-4 py-1 font-bold cursor-pointer text-gray-700 hover:bg-secondary hover:text-white hover:border-secondary"

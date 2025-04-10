@@ -7,6 +7,8 @@ import "./PcPeripherals.css";
 import Snackbar from '../../snackHelper/Snackbar';
 import ProductPopup from '../../productsPopup/ProductsPopup';
 import { addToCart } from '../../../redux/cartSlice';
+import toast from 'react-hot-toast';
+import { Link } from 'react-router-dom';
 
 const PcPeripherals = () => {
     const arrowRef = useRef(null);
@@ -14,9 +16,11 @@ const PcPeripherals = () => {
     const [showPopup, setShowPopup] = useState(false);
     const [productID, setProductID] = useState(null);
     const [snackbar, setSnackbar] = useState({ visible: false, type: '', message: '' });
+    const [productCategory, setproductCategory] = useState(null);
 
     // Handle product click to show popup with product ID
-    const handleProductClick = (id) => {
+    const handleProductClick = (id, productCategory) => {
+        setproductCategory(productCategory)
         setProductID(id);
         setShowPopup(true);
     };
@@ -36,22 +40,23 @@ const PcPeripherals = () => {
         (product) => Array.isArray(product.carousels) && product.carousels.includes('pcPeripherals')
     );
 
-    //Show Snackbar
-    const showSnackbar = (type, message) => {
-        setSnackbar({ visible: true, type, message });
-    };
 
     // Handle Add to Cart click
     const handleAddToCart = (id) => {
         const product = products.find((p) => p.productID === id);
 
-        dispatch(
-            addToCart({
-                productId: id,
-                color: product.defaultColor,
-            })
-        );
-        showSnackbar('success', 'Item added to cart successfully!');
+        if (product) {
+            dispatch(
+                addToCart({
+                    category: product.category,
+                    productId: id,
+                    color: product.defaultColor || 'default',
+                })
+            );
+            toast.success('Item added to cart successfully!');
+        } else {
+            toast.error('Product not found!');
+        }
     };
 
 
@@ -98,18 +103,18 @@ const PcPeripherals = () => {
                 {pcPeripherals.map((component, index) => {
                     const percentageOff = Math.round(((component.prevPrice - component.nowPrice) / component.prevPrice) * 100);
                     return <div key={index} className="pc-peripheral-carousel-item">
-                        <div className="pc-peripheral-carousel-item-head flex items-center justify-between" onClick={() => handleProductClick(component.productID)}>
+                        <div className="pc-peripheral-carousel-item-head flex items-center justify-between cursor-pointer" onClick={() => handleProductClick(component.productID, component.category)}>
                             <span className='font-bold'>{percentageOff}% OFF</span>
                             <i className="far fa-heart"></i>
                         </div>
-                        <div className="pc-peripheral-carousel-item-img" onClick={() => handleProductClick(component.productID)}>
+                        <div className="pc-peripheral-carousel-item-img mb-2 cursor-pointer" onClick={() => handleProductClick(component.productID, component.category)}>
                             <img src={component.mainproductImage} alt="" />
                         </div>
-                        <div className="pc-peripheral-carousel-item-title" onClick={() => handleProductClick(component.productID)}>
+                        <div className="pc-peripheral-carousel-item-title mb-3 cursor-pointer" onClick={() => handleProductClick(component.productID, component.category)}>
                             <h2 className='font-bold text-xl line-clamp-2'>{component.Title}</h2>
                             <h6 className='capitalize'>{component.SubTitle}</h6>
                         </div>
-                        <div className="pc-peripheral-carousel-item-price" onClick={() => handleProductClick(component.productID)}>
+                        <div className="pc-peripheral-carousel-item-price mb-3 cursor-pointer" onClick={() => handleProductClick(component.productID, component.category)}>
                             <h6>Ksh. {component.prevPrice.toLocaleString()}</h6>
                             <h3>Ksh. {component.nowPrice.toLocaleString()}</h3>
                         </div>
@@ -121,10 +126,10 @@ const PcPeripherals = () => {
                                 <i className="fa fa-cart"></i>
                                 &nbsp; Add to Cart
                             </div>
-                            <div href="#" onClick={() => handleProductClick(component.productID)}>
+                            <a href={`/products/${component.category}/${component.subCategory}/${component.variant}/${component.name}`} className='border border-primary text-primary px-2 py-0.5'>
                                 <i className="fa fa-external-link"></i>
                                 &nbsp; Specs
-                            </div>
+                            </a>
                         </div>
                     </div>
                 })}
@@ -149,7 +154,7 @@ const PcPeripherals = () => {
                 />
             )}
 
-            {showPopup && <ProductPopup productId={productID} onClose={closePopup} />}
+            {showPopup && <ProductPopup productId={productID} onClose={closePopup} productCategory={productCategory} />}
         </div>
     );
 };
