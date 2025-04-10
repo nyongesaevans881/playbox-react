@@ -320,6 +320,10 @@
         width: 100%;
         height: 1450px;
     }
+
+    .paybox-laptops-buttons-wrapper {
+      padding-left: 0;
+    }
   
     .playbox-gaming-laptops-sliders{
         max-width: 320px;
@@ -331,7 +335,7 @@
         grid-template-columns: 1fr;
         gap: 1rem;
         margin-top: 0;
-        padding: 2rem 1.5rem 0;
+        padding: 2rem 1rem 0;
         text-align: center;
     }
   

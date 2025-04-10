@@ -71,7 +71,7 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
           </div>
           <div className="popup-info-section">
             <div className="pop-up-header-section">
-              <h4 className='font-bold text-3xl text-gray-200'>{product.Title}</h4>
+              <h4 className='font-bold text-3xl text-gray-200 max-md:text-xl'>{product.Title}</h4>
               <h6 className='font-bold capitalize'>{product.brand}</h6>
             </div>
             <p className="product-description">{product.description}</p>

@@ -55,7 +55,7 @@ const Index = () => {
         <div className="playbox-skins-section container">
           <div className="paybox-skins-heading">
             <h2 className='text-4xl font-bold'>Pc <span className="gradient-text">Peripherals</span> & <span className="gradient-text">Accessories</span></h2>
-            <p className='font-medium text-justify'>PC peripherals and accessories. RGB-enhanced mechanical keyboards & precision gaming mice, we've got <span className='text-secondary font-bold'>everything you need</span> to dominate the competition.</p>
+            <p className='font-medium text-justify max-md:text-center'>PC peripherals and accessories. RGB-enhanced mechanical keyboards & precision gaming mice, we've got <span className='text-secondary font-bold'>everything you need</span> to dominate the competition.</p>
             <div className='mb-4'>
               <a href="/products/keyboards">
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741498214/keyboard_tvlrnd.png" alt="" className='cursor-pointer' title='Click to explore gaming keyboards' />
@@ -68,7 +68,7 @@ const Index = () => {
               </div>
             </div>
             <div className="paybox-laptops-buttons-wrapper">
-              <Button49 text={"Explore All Items"} />
+              <Button49 text={"Explore All Items"} to={"/products/hardware"}/>
             </div>
           </div>
           <div className="playbox-gaming-laptops-sliders h-full">

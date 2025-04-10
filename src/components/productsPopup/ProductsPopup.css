@@ -248,6 +248,10 @@ h2 {
 
 
 @media (max-width: 768px) {
+  .popup-container {
+    width: 90%;
+  }
+
   .popup-content {
     flex-direction: column;
   }
@@ -263,6 +267,14 @@ h2 {
 
   .product-popup-action-buttons {
     flex-direction: column;
+  }
+
+  .product-details-top-specs h6{
+    text-align: left;
+  }
+
+  .product-details-top-specs h6 span{
+    text-align: right;
   }
 
   .quantity-selector {
