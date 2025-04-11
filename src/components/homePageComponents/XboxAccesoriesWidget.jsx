@@ -1,4 +1,4 @@
-import XboxAccesories from "../carousels/xboxAccesories/xboxAccesories";
+import XboxAccesories from "../carousels/xboxAccesories/XboxAccesories";
 
 const XboxAccesoriesWidget = () => {
     return (
