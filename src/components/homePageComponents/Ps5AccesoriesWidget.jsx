@@ -3,7 +3,7 @@ import Ps5Accessories from "../carousels/ps5Accessories/Ps5Accessories";
 
 const Ps5AccesoriesWidget = () => {
     return (
-        <div className="grid grid-cols-3 items-center relative max-md:grid max-md:grid-cols-1 max-md:mx-4">
+        <div className="grid grid-cols-3 items-center relative max-md:grid max-md:grid-cols-1 max-md:mx-4 z-0">
             <div className='relative flex bg-gray-200 p-8 w-100 max-md:w-full h-100 overflow-hidden max-md:mb-10'>
                 <div className="flex flex-col justify-between">
                     <div className="text-2xl text-gray-500">

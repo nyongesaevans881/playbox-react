@@ -105,7 +105,7 @@ const Index = () => {
 
       {/*=========== START: PS-5: ACCESSORIES & SKINS SECTION ============*/}
       <div className="white-accessories-secion">
-        <div className="spidey-separator z-10">
+        <div className="spidey-separator z-2">
           <div className="spidey-separator-dialog-box-wrapper">
             <SpideyDialogBox
               imageSrc="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png"
@@ -145,7 +145,7 @@ const Index = () => {
 
       {/*=========== START: HEADPHONES SECTION ============*/}
       <section className="bg-white">
-        <div className='container py-20 max-md:pt-10 pb-20'>
+        <div className='container py-20 max-md:pt-0 pb-20'>
           <HeadphonesWidget />
         </div>
         <div className="container py-0 pb-20">

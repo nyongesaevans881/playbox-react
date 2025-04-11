@@ -60,7 +60,7 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
   };
 
   return (
-    <div className="popup-overlay z-999999">
+    <div className="popup-overlay z-999">
       <div className="popup-container">
         <button className="popup-close mr-4" onClick={onClose}>
           <i className="fa fa-close"></i>

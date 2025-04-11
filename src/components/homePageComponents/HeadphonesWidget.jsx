@@ -7,7 +7,7 @@ const HeadphonesWidget = () => {
                 <img
                     src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743937746/headphones-static_oibyyp.png"
                     alt=""
-                    className="h-130 w-500 object-cover rounded-sm"
+                    className="h-130 w-500 object-cover rounded-sm max-md:h-60 max-md:rounded-none"
                     loading="lazy"
                 />
                 <div className="absolute top-5 right-5 text-white">
@@ -15,7 +15,7 @@ const HeadphonesWidget = () => {
                         <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741506069/headphones_fhmq4k.png" alt="" className="h-8 max-md:h-5" />
                         Pro Gaming
                     </div>
-                    <p className="text-right p-0 m-0 text-2xl max-md:text-sm">Headphones</p>
+                    <p className="text-right p-0 m-0 text-2xl max-md:text-sm text-white font-extrabold">— Headphones</p>
                 </div>
                 <div className="absolute bottom-12 right-5">
                     <a href="/products/headphones" className="bg-primary py-2 px-6 font-semibold cursor-pointer text-white text-xl max-md:text-sm max-md:py-1 max-md:px-3">
