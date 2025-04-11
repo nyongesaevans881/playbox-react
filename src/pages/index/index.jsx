@@ -23,6 +23,7 @@ import XboxAccesoriesWidget from '../../components/homePageComponents/XboxAcceso
 import ProductPopup from '../../components/productsPopup/ProductsPopup'
 import { useState } from 'react'
 import StoreCategoriesSection from '../../components/homePageComponents/StoreCategoriesSection'
+import BrandLogoCarousel from '../../components/homePageComponents/BrandLogoCarousel'
 
 const Index = () => {
   const [productCategory, setproductCategory] = useState(null);
@@ -36,7 +37,7 @@ const Index = () => {
   };
 
   return (
-    <section className='home-main-section'>
+    <section className='home-main-section max-md:overflow-x-hidden'>
       {/*=========== START: HERO SECTION =============*/}
       <div className="hero-section">
         <h1 className='text-5xl uppercase font-bold text-white'>"Your Ultimate Gaming Destination"</h1>
@@ -169,6 +170,10 @@ const Index = () => {
 
       <div className="StoreCategoriesSection">
         <StoreCategoriesSection />
+      </div>
+
+      <div>
+        <BrandLogoCarousel />
       </div>
 
       <div>

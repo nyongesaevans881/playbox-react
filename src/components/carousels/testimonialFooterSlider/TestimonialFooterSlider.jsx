@@ -53,6 +53,10 @@ const TestimonialFooterSlider = () => {
                             <div className="testimonial-stars">
                                 {renderStars(testimonial.rating)}
                             </div>
+                            <div className="text-white flex items-center gap-2">
+                                <img src="/icons/google.webp" alt="" className="h-5" />
+                                <p className="text-sm">Google Review ({testimonial.rating} Stars)</p>
+                            </div>
                         </div>
                     </div>
                 ))}

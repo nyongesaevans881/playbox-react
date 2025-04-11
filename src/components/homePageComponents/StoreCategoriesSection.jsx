@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Gamepad, Gift } from 'lucide-react';
 import { PiOfficeChair } from "react-icons/pi";
 import { GiSkateboard } from "react-icons/gi";
+import { TbFidgetSpinner } from "react-icons/tb";
 
 export default function StoreCategoriesSection() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -13,15 +14,15 @@ export default function StoreCategoriesSection() {
       description: "Skateboards, longboards, scooters, BMX, bikes, Drones",
       icon: <GiSkateboard size={32} />,
       imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744398555/skate-removebg-preview_ayevyf.png",
-      color: "#ff4500" // Orange
+      color: "#ef3563" // Orange
     },
     {
       id: 2,
       title: "TOYS & COLLECTABLES",
       description: "Figurines, limited editions, merchandise, and rare items",
-      icon: <Gift size={32} />,
+      icon: <TbFidgetSpinner size={32} />,
       imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744399688/fidget-removebg-preview_mgbwcs.png",
-      color: "#0690f3" // Your primary color
+      color: "#ef3563" // Your primary color
     },
     {
       id: 3,
@@ -36,8 +37,8 @@ export default function StoreCategoriesSection() {
       title: "FURNITURE",
       description: "Gaming chairs, desks, storage units, and accessories",
       icon: <PiOfficeChair size={32}/>,
-      imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744399686/chair-removebg-preview_vdsons.png",
-      color: "#8c44f7" // Purple
+      imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744403324/chair-removebg-preview_lyu8hf.png",
+      color: "#ef3563" // Purple
     }
   ];
 
