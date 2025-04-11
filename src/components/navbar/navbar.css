@@ -606,7 +606,7 @@
   }
 
   .navbar.sticky .mobile-menu-toggle {
-    transform: translateX(-2.5rem);
+    transform: translateX(-1rem);
   }
   
 }

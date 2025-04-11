@@ -161,6 +161,8 @@
 
     .carousel-component-heading {
         padding-right: .5rem;
+        font-size: 20px;
+        line-height: 18px;
       }
 
       .carousel-component-item {

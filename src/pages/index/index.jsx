@@ -60,7 +60,7 @@ const Index = () => {
               <a href="/products/keyboards">
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741498214/keyboard_tvlrnd.png" alt="" className='cursor-pointer' title='Click to explore gaming keyboards' />
               </a>
-              <div className='flex justify-between'>
+              <div className='flex justify-between max-md:mx-6'>
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1742219751/pc-case-1_rdvuec.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' title='Click to explore gaming pc cases' />
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744298582/mouse-black_hik0da.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' title='Click to explore gaming mice' />
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1742219751/pc-case-1_rdvuec.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' />

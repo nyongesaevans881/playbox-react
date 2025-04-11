@@ -399,5 +399,10 @@
     justify-content: start;
     place-items: start;
   }
+
+  .mobile-responsive-chevron,
+  .product-details-page-head-left .mobile-responsive-name-title {
+    display: none;
+  }
   
 }

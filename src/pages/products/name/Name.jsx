@@ -50,8 +50,8 @@ const Name = ({ params }) => {
             <a href="/products">Products</a>
             <i className="fa fa-chevron-right"></i>
             <a href={product.category}>{product.category}</a>
-            <i className="fa fa-chevron-right"></i>
-            <a href=""> {product.Title}</a>
+            <i className="fa fa-chevron-right mobile-responsive-chevron"></i>
+            <a href="" className='mobile-responsive-name-title'> {product.Title}</a>
           </div>
           <div className="product-details-page-head-right">
             <img src={product.playboxRatingIcon} alt='spidey-rating' />
