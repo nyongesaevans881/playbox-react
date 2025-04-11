@@ -78,14 +78,14 @@ const Headphones = () => {
                     const percentageOff = Math.round(((item.prevPrice - item.nowPrice) / item.prevPrice) * 100);
 
                     return <div className="max-w-70 max-md:max-w-full flex justify-center items-center relative" key={index}>
-                        <div className='p-1 bg-gray-100 flex items-center justify-center h-50 w-50 mx-auto absolute top-0 left-10 shadow-md max-md:h-80 max-md:w-80 max-md:left-12'>
+                        <div className='p-1 bg-gray-100 flex items-center justify-center h-50 w-50 mx-auto absolute top-0 left-10 shadow-md max-md:h-50 max-md:w-50 max-md:left-[25%] max-md:top-10'>
                             <img src={item.mainproductImage} alt={item.Title} className='h-80 w-80 object-contain' />
                             <span className='absolute top-5 right-5 text-secondary cursor-pointer'><Heart /></span>
-                            <img src={item.platformIcon} alt="headphones" className='absolute bg-secondary p-2 h-15 -bottom-5 -left-5 border-2 border-white' />
+                            <img src={item.platformIcon} alt="headphones" className='absolute bg-secondary p-2 h-15 -bottom-5 -left-5 border-2 border-white max-md:h-12' />
                         </div>
-                        <div className='w-full h-100 border-2 border-gray-300 mt-15 pb-5 max-md:mt-42'>
+                        <div className='w-full h-100 border-2 border-gray-300 mt-15 pb-5 max-md:mt-42 max-md:w-80 max-md:block max-md:mx-auto max-md:h-80'>
                             <div className='-translate-y-4'>
-                                <div className='mt-50 mx-4'>
+                                <div className='mt-50 mx-4 max-md:mt-30'>
                                     <h1 className='text-gray-600 text-center text-md uppercase font-extrabold line-clamp-2'>{item.Title}</h1>
                                 </div>
                                 <div>
@@ -124,11 +124,11 @@ const Headphones = () => {
                 })}
             </Slider>
 
-            <div className="absolute bottom-6 -left-105 flex gap-2 max-md:left-0 max-md:-bottom-18">
-                <button onClick={() => arrowRef.current.slickPrev()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-2xl max-md:w-15 max-md:h-10">
+            <div className="absolute -bottom-15 right-4 flex gap-2 max-md:left-5 max-md:-bottom-18">
+                <button onClick={() => arrowRef.current.slickPrev()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-2xl max-md:w-15 max-md:h-10 border-2 border-gray-300">
                     <i className="fa fa-chevron-left"></i>
                 </button>
-                <button onClick={() => arrowRef.current.slickNext()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-2xl max-md:w-15 max-md:h-10">
+                <button onClick={() => arrowRef.current.slickNext()} className="bg-white text-gray-600 w-10 h-10 font-bold cursor-pointer shadow-xl max-md:text-2xl max-md:w-15 max-md:h-10 border-2 border-gray-300">
                     <i className="fa fa-chevron-right"></i>
                 </button>
             </div>

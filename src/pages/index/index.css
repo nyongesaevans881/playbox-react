@@ -233,6 +233,9 @@
     .home-page-games {
       height: 350px;
       }
+      .home-page-games-content {
+        top: -25rem;
+      }
   }
   
   

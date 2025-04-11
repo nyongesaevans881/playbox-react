@@ -551,6 +551,76 @@ export const accessories = [
         rating: "4.5",
     },
     
+    {
+        productID: 243,
+        platform: "XBox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241971/xbox_l2axm1.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741453634/xbox-ElectricVolt_nyfiz4.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741453634/xbox-ElectricVolt_nyfiz4.png",
+                color: "#D4FF00",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741453635/xbox-ElectricVolt_4_g0vnny.png",
+                color: "#D4FF00",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741453633/xbox-ElectricVolt_2_pct9fk.png",
+                color: "#D4FF00",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741453634/xbox-ElectricVolt_3_hcjfub.jpg",
+                color: "#D4FF00",
+            }
+        ],
+        defaultColor: "#D4FF00",
+        Title: "Microsoft Xbox Wireless Controller Electric Volt",
+        SubTitle: "Controller",
+        category: "controllers",
+        subCategory: "xbox",
+        variant: "microsoft-xbox",
+        brand: "microsoft-xbox",
+        name: "microsoft-xbox-wireless-controller-electric-volt",
+        description: "Take your gaming experience to the next level with the Microsoft Xbox Wireless Controller in Electric Volt. Designed for comfort during long gaming sessions, it features a sculpted surface, textured grips, and a hybrid D-pad for precise control. With Bluetooth and Xbox Wireless connectivity, it works seamlessly across Xbox Series X|S, Xbox One, Windows 10 PCs, and mobile devices.",
+        detailsDescription: "The Microsoft Xbox Wireless Controller Electric Volt enhances your gaming with a dedicated Share button for capturing your best moments. Customize button mapping through the Xbox Accessories app to fit your play style. The controller operates up to 40 hours with AA batteries and offers a 3.5mm audio jack for wired headsets. Enjoy superior grip and hybrid D-pad precision for immersive gameplay.",
+        topSpecs: [
+            "<h6><span>Wireless Technology</span><span>Xbox Wireless & Bluetooth</span></h6>",
+            "<h6><span>Battery Life</span><span>Up to 40 hours</span></h6>",
+            "<h6><span>Connectivity</span><span>USB Type-C, 3.5mm Audio Jack</span></h6>",
+            "<h6><span>Compatibility</span><span>Xbox Series X|S, Xbox One, PC, Android</span></h6>",
+            "<h6><span>Customization</span><span>Button Mapping via Xbox Accessories App</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SCULPTED DESIGN</span><span class='detail-specs-h6'>- Ergonomically designed for long gaming sessions with textured grips.</span></h6>",
+            "<h6><span>HYBRID D-PAD</span><span class='detail-specs-h6'>- Enhanced precision with a hybrid D-pad for improved directional control.</span></h6>",
+            "<h6><span>DEDICATED SHARE BUTTON</span><span class='detail-specs-h6'>- Capture and share game clips and screenshots instantly.</span></h6>",
+            "<h6><span>VERSATILE CONNECTIVITY</span><span class='detail-specs-h6'>- Supports Xbox Wireless, Bluetooth, and USB Type-C for wired play.</span></h6>",
+            "<h6><span>CROSS-PLATFORM COMPATIBILITY</span><span class='detail-specs-h6'>- Works with Xbox Series X|S, Xbox One, Windows 10 PCs, and Android devices.</span></h6>"
+        ],
+        tags: [
+            "xbox",
+            "wireless-controller",
+            "gaming-accessory",
+            "microsoft",
+            "Electric Volt"
+        ],
+        carousels: [
+            "latestArrivals"
+        ],
+        storage: "",
+        dropURL: "https://cellularkenya.co.ke/product/microsoft-xbox-wireless-controller-electric-volt/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/dYJDfehe0b4?si=UFUapOcd8vj1vFTF",
+        unboxingVideo: "https://www.youtube.com/embed/2waD3J7lUkc?si=w2lW2ZeI83qU79Lm",
+        prevPrice: 12000,
+        nowPrice: 9500,
+        stock: 10,
+        condition: "New",
+        rating: "4.5",
+    },
 
     //------------- Handheld Accesories
     {

@@ -83,12 +83,12 @@
 
 @media (max-width: 768px) {
     .icon {
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
     }
 
     .icon i {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .icon:hover::after {

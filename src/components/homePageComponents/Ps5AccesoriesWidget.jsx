@@ -28,6 +28,8 @@ const Ps5AccesoriesWidget = () => {
                 <span><Rocket /></span>
                 <span>Accessories</span>
             </button>
+
+            <h1 className="absolute -top-40 text-9xl uppercase font-extrabold z-1 text-gray-100 max-md:text-4xl">Accessories</h1>
         </div>
     );
 };

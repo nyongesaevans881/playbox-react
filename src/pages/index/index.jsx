@@ -19,6 +19,7 @@ import HeadphonesWidget from '../../components/homePageComponents/HeadphonesWidg
 import { LaptopMinimalCheck, PcCase, Rocket, ShoppingCart } from 'lucide-react'
 import BestSellers from '../../components/carousels/bestSellers/BestSellers'
 import LatestArrivals from '../../components/carousels/latestArrivals/LatestArrivals'
+import XboxAccesoriesWidget from '../../components/homePageComponents/XboxAccesoriesWidget'
 
 const Index = () => {
   return (
@@ -104,7 +105,7 @@ const Index = () => {
 
       {/*=========== START: PS-5: ACCESSORIES & SKINS SECTION ============*/}
       <div className="white-accessories-secion">
-        <div className="spidey-separator">
+        <div className="spidey-separator z-10">
           <div className="spidey-separator-dialog-box-wrapper">
             <SpideyDialogBox
               imageSrc="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png"
@@ -121,6 +122,9 @@ const Index = () => {
           </div>
           <div className='py-15'>
             <AccessoriesWidget />
+          </div>
+          <div>
+            <XboxAccesoriesWidget />
           </div>
         </div>
       </div>
@@ -141,7 +145,7 @@ const Index = () => {
 
       {/*=========== START: HEADPHONES SECTION ============*/}
       <section className="bg-white">
-        <div className='container py-20'>
+        <div className='container py-20 max-md:pt-10 pb-20'>
           <HeadphonesWidget />
         </div>
         <div className="container py-0 pb-20">
