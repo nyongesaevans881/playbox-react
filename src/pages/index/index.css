@@ -420,12 +420,6 @@
   
   /* ######################################################### */
   /*=============== ULTIMATE GAMERS BLOG SECTION =============*/
-  .gaming-blog-section{
-    padding-bottom: 4rem;
-    display: flex;
-    flex-direction: column;
-  }
-  
   .gamers-blog-header{
     width: 100%;
   }

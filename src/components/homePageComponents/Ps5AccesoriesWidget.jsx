@@ -1,7 +1,7 @@
 import { Rocket } from "lucide-react";
 import Ps5Accessories from "../carousels/ps5Accessories/Ps5Accessories";
 
-const Ps5AccesoriesWidget = () => {
+const Ps5AccesoriesWidget = ({ setproductCategory, setProductID, setShowPopup }) => {
     return (
         <div className="grid grid-cols-3 items-center relative max-md:grid max-md:grid-cols-1 max-md:mx-4 z-0">
             <div className='relative flex bg-gray-200 p-8 w-100 max-md:w-full h-100 overflow-hidden max-md:mb-10'>
@@ -22,14 +22,16 @@ const Ps5AccesoriesWidget = () => {
                 </div>
             </div>
             <div className="col-span-2 h-full">
-                <Ps5Accessories />
+                <Ps5Accessories setproductCategory={setproductCategory} setProductID={setProductID} setShowPopup={setShowPopup} />
             </div>
             <button className="absolute -top-20 right-2 bg-primary text-white py-2 px-4 uppercase shadow cursor-pointer flex gap-4 hover:bg-blue-700">
                 <span><Rocket /></span>
                 <span>Accessories</span>
             </button>
 
-            <h1 className="absolute -top-40 text-9xl uppercase font-extrabold z-1 text-gray-100 max-md:text-4xl">Accessories</h1>
+            <h1 className="absolute -top-40 text-9xl uppercase font-extrabold z-1 text-gray-200 max-md:text-4xl">
+                Accessories
+            </h1>
         </div>
     );
 };

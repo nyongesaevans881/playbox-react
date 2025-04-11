@@ -16,12 +16,25 @@ import Ps5AccesoriesWidget from '../../components/homePageComponents/Ps5Accesori
 import AudioWidget from '../../components/homePageComponents/AudioWidget'
 import GamingBlog from '../../components/gamingBlog/GamingBlog'
 import HeadphonesWidget from '../../components/homePageComponents/HeadphonesWidget'
-import { LaptopMinimalCheck, PcCase, Rocket, ShoppingCart } from 'lucide-react'
+import { Rocket, ShoppingCart } from 'lucide-react'
 import BestSellers from '../../components/carousels/bestSellers/BestSellers'
 import LatestArrivals from '../../components/carousels/latestArrivals/LatestArrivals'
 import XboxAccesoriesWidget from '../../components/homePageComponents/XboxAccesoriesWidget'
+import ProductPopup from '../../components/productsPopup/ProductsPopup'
+import { useState } from 'react'
+import StoreCategoriesSection from '../../components/homePageComponents/StoreCategoriesSection'
 
 const Index = () => {
+  const [productCategory, setproductCategory] = useState(null);
+  const [showPopup, setShowPopup] = useState(false);
+  const [productID, setProductID] = useState(null);
+
+
+  const closePopup = () => {
+    setShowPopup(false);
+    setProductID(null);
+  };
+
   return (
     <section className='home-main-section'>
       {/*=========== START: HERO SECTION =============*/}
@@ -69,7 +82,7 @@ const Index = () => {
               </div>
             </div>
             <div className="paybox-laptops-buttons-wrapper">
-              <Button49 text={"Explore All Items"} to={"/products/hardware"}/>
+              <Button49 text={"Explore All Items"} to={"/products/hardware"} />
             </div>
           </div>
           <div className="playbox-gaming-laptops-sliders h-full">
@@ -118,13 +131,13 @@ const Index = () => {
         {/* //----------- Ps-5 Accessories */}
         <div className='container max-md:pt-30'>
           <div>
-            <Ps5AccesoriesWidget />
+            <Ps5AccesoriesWidget setproductCategory={setproductCategory} setProductID={setProductID} setShowPopup={setShowPopup} />
           </div>
           <div className='py-15'>
             <AccessoriesWidget />
           </div>
           <div>
-            <XboxAccesoriesWidget />
+            <XboxAccesoriesWidget setproductCategory={setproductCategory} setProductID={setProductID} setShowPopup={setShowPopup} />
           </div>
         </div>
       </div>
@@ -134,7 +147,7 @@ const Index = () => {
 
 
       {/*=========== START: GAMING BLOG SECTION ============*/}
-      <section className="gaming-blog-section">
+      <section>
         <div className="container">
           <GamingBlog />
         </div>
@@ -154,7 +167,13 @@ const Index = () => {
       </section>
       {/*=========== END: HEADPHONES SECTION ============*/}
 
+      <div className="StoreCategoriesSection">
+        <StoreCategoriesSection />
+      </div>
 
+      <div>
+        {showPopup && <ProductPopup productId={productID} productCategory={productCategory} onClose={closePopup} />}
+      </div>
     </section>
   )
 }

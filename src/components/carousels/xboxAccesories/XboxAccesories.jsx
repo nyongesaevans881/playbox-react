@@ -7,14 +7,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./xboxAccesories.css";
 import { Heart, ScanEye, ShoppingCart } from 'lucide-react';
-import ProductPopup from '../../productsPopup/ProductsPopup';
 
 
-const XboxAccesories = () => {
+const XboxAccesories = ({ setproductCategory, setProductID, setShowPopup }) => {
     const arrowRef = useRef(null);
-    const [productCategory, setproductCategory] = useState(null);
-    const [showPopup, setShowPopup] = useState(false);
-    const [productID, setProductID] = useState(null);
 
     const settings = {
         dots: false,
@@ -60,10 +56,6 @@ const XboxAccesories = () => {
         setShowPopup(true);
     };
 
-    const closePopup = () => {
-        setShowPopup(false);
-        setProductID(null);
-    };
 
     return (
         <div className="p-2 w-full h-full relative">
@@ -71,7 +63,6 @@ const XboxAccesories = () => {
                 {accessories
                     .filter((component) => component.subCategory === "xbox")
                     .map((component, index) => {
-                        const percentageOff = Math.round(((component.oldPrice - component.newPrice) / component.oldPrice) * 100);
 
                         return <div key={index} className="bg-white max-w-75 p-4 border-2 border-gray-300 max-md:max-w-full">
                             <div>
@@ -110,8 +101,6 @@ const XboxAccesories = () => {
                     <i className="fa fa-chevron-right"></i>
                 </button>
             </div>
-
-            {showPopup && <ProductPopup productId={productID} productCategory={productCategory} onClose={closePopup} />}
         </div>
     );
 };
