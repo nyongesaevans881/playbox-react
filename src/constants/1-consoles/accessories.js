@@ -552,7 +552,7 @@ export const accessories = [
     },
     
     {
-        productID: 243,
+        productID: 244,
         platform: "XBox",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
         playboxRating: "Classic",

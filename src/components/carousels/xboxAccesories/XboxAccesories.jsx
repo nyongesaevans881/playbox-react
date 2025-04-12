@@ -61,10 +61,10 @@ const XboxAccesories = ({ setproductCategory, setProductID, setShowPopup }) => {
         <div className="p-2 w-full h-full relative">
             <Slider ref={arrowRef} {...settings}>
                 {accessories
-                    .filter((component) => component.subCategory === "xbox")
+                    .filter((component) => component.subCategory === "playstation")
                     .map((component, index) => {
 
-                        return <div key={index} className="bg-white max-w-75 p-4 border-2 border-gray-300 max-md:max-w-full">
+                        return <div key={index} className="bg-white max-w-80 p-4 border-2 border-gray-300 max-md:max-w-full">
                             <div>
                                 <span className='text-primary font-semibold text-sm capitalize flex justify-between'>
                                     <span>{component.SubTitle}</span>

@@ -110,7 +110,7 @@ const Index = () => {
       {/*=========== START: GAMES CAROUSEL SECTION ============*/}
       <section className="home-page-games container">
         <div className="home-page-games-content max-md:block max-md:mx-auto">
-          <GamesCarousel />
+          <GamesCarousel setproductCategory={setproductCategory} setProductID={setProductID} setShowPopup={setShowPopup}/>
         </div>
       </section>
       {/*=========== END: GAMES CAROUSEL SECTION ============*/}

@@ -9,25 +9,16 @@ import { useSelector } from 'react-redux';
 import { Heart, ScanEye, ShoppingCart } from 'lucide-react';
 import ProductPopup from '../../productsPopup/ProductsPopup';
 
-const GamesCarousel = () => {
+const GamesCarousel = ({ setproductCategory, setProductID, setShowPopup }) => {
     const arrowRef = useRef(null);
     const allProducts = useSelector((state) => state.products["games"] || []);
     const VideoGames = allProducts.filter((product) => product.carousels.includes('indexGames'));
-    const [showPopup, setShowPopup] = useState(false);
-    const [productID, setProductID] = useState(null);
-    const [productCategory, setproductCategory] = useState(null);
-
 
     // Handle product click to show popup with product ID
     const handleProductClick = (id, productCategory) => {
         setproductCategory(productCategory)
         setProductID(id);
         setShowPopup(true);
-    };
-
-    const closePopup = () => {
-        setShowPopup(false);
-        setProductID(null);
     };
 
     // Handle Add to Cart click
@@ -101,7 +92,7 @@ const GamesCarousel = () => {
                                     <img src={game.platformIcon} alt="" className='h-10 bg-secondary p-1' />
                                 </h3>
                             </div>
-                            <div className="games-carousel-image">
+                            <div className="games-carousel-image cursor-pointer" onClick={() => handleProductClick(game.productID, game.category)}>
                                 <img src={game.mainproductImage} alt={game.Title} className="game-image" />
                             </div>
                             <div className="games-carousel-specs">
@@ -144,8 +135,6 @@ const GamesCarousel = () => {
                     </button>
                 </div>
             </div>
-
-            {showPopup && <ProductPopup productId={productID} productCategory={productCategory} onClose={closePopup} />}
         </section>
     );
 };

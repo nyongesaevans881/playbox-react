@@ -7,6 +7,7 @@ import { mice } from "../constants/2-pc/mice.js";
 import { accessories } from "../constants/1-consoles/accessories.js";
 import { games } from "../constants/1-consoles/games.js";
 import { hardware } from "../constants/2-pc/hardware.js";
+import { actionnride } from "../constants/3-ride/actionnride.js";
 
 const initialState = {
   consoles,
@@ -17,6 +18,7 @@ const initialState = {
   accessories,
   games,
   hardware,
+  actionnride,
 };
 
 const productSlice = createSlice({
