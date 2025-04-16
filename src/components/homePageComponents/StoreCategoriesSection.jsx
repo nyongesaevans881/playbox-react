@@ -24,7 +24,7 @@ export default function StoreCategoriesSection() {
       icon: <TbFidgetSpinner size={32} />,
       imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744399688/fidget-removebg-preview_mgbwcs.png",
       color: "#ef3563",
-      href: ""
+      href: "toys"
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ export default function StoreCategoriesSection() {
       icon: <Gamepad size={32} />,
       imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744399687/decor-removebg-preview_r8bcjt.png",
       color: "#ef3563",
-      href: ""
+      href: "decor"
     },
     {
       id: 4,

@@ -8,6 +8,10 @@ import { accessories } from "../constants/1-consoles/accessories.js";
 import { games } from "../constants/1-consoles/games.js";
 import { hardware } from "../constants/2-pc/hardware.js";
 import { actionnride } from "../constants/3-ride/actionnride.js";
+import { toys } from "../constants/4-toys/toys.js";
+import { decor } from "../constants/5-decor/decor.js";
+import { furniture } from "../constants/6-furniture/furniture.js";
+
 
 const initialState = {
   consoles,
@@ -19,6 +23,9 @@ const initialState = {
   games,
   hardware,
   actionnride,
+  toys,
+  decor,
+  furniture
 };
 
 const productSlice = createSlice({
