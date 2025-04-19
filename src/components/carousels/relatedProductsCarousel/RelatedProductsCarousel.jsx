@@ -9,16 +9,19 @@ import './RelatedProductsCarousel.css'
 import { addToCart } from '../../../redux/cartSlice';
 import ProductPopup from '../../productsPopup/ProductsPopup';
 import toast from 'react-hot-toast';
-import { Link } from 'react-router-dom';
 
 
-const RelatedProductsCarousel = ({ category }) => {
+const RelatedProductsCarousel = ({ category, subCategory }) => {
     const arrowRef = useRef(null);
     const dispatch = useDispatch();
     const [showPopup, setShowPopup] = useState(false);
     const [productID, setProductID] = useState(null);
     const [productCategory, setproductCategory] = useState(null);
-    const products = useSelector((state) => state.products[category] || []);
+    const productsState = useSelector((state) => state.products);
+    const allProducts = Object.values(productsState).flat();
+
+    const MAX_PRODUCTS = 20;
+    const MIN_SUBCATEGORY_MATCHES = 5;
 
     // Handle product click to show popup with product ID
     const handleProductClick = (id, productCategory) => {
@@ -33,12 +36,29 @@ const RelatedProductsCarousel = ({ category }) => {
     };
 
 
-    // Filter products with the same category, excluding the current product
-    const relatedProducts = products.filter((product) =>
-        product.category === category
-    ).slice(0, 8); // Limit to 8 related products
+    // 1. Start with subCategory matches
+    let relatedProducts = allProducts.filter(product => product.subCategory === subCategory).sort(() => 0.5 - Math.random());
 
+    // 2. If less than 5, supplement with category matches
+    if (relatedProducts.length < MIN_SUBCATEGORY_MATCHES) {
+        const alreadyIncludedIds = new Set(relatedProducts.map(p => p.productID));
+        const categoryMatches = allProducts.filter(
+            product => product.category === category && !alreadyIncludedIds.has(product.productID)
+        );
 
+        relatedProducts = [...relatedProducts, ...categoryMatches];
+    }
+
+    // 3. If still not enough, fill with random products
+    if (relatedProducts.length < MIN_SUBCATEGORY_MATCHES) {
+        const alreadyIncludedIds = new Set(relatedProducts.map(p => p.productID));
+        const remaining = allProducts.filter(p => !alreadyIncludedIds.has(p.productID));
+
+        const shuffled = remaining.sort(() => 0.5 - Math.random());
+        relatedProducts = [...relatedProducts, ...shuffled].slice(0, MAX_PRODUCTS);
+    } else {
+        relatedProducts = relatedProducts.slice(0, MAX_PRODUCTS);
+    }
 
     // Handle Add to Cart click
     const handleAddToCart = (id) => {

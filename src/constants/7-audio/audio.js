@@ -1393,16 +1393,28 @@ export const audio = [
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744995497/speaker_jmygsl.png",
         playboxRating: "Classic",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744992307/speakers_zhmn1p.jpg",
-        mainproductImage: "",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745051635/jbl-partybox-310-1_azl4uh.png",
         imageColorMap: [
             {
-                image: "",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745051635/jbl-partybox-310-1_azl4uh.png",
                 color: "Black"
-            }
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745051635/jbl-partybox-310-3_hrxeff.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745051635/jbl-partybox-310-2_pgcjam.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745051635/jbl-partybox-310-4_izvpzz.png",
+                color: "Black"
+            },
         ],
         defaultColor: "Black",
-        Title: "JBL PartyBox 310",
-        SubTitle: "Big Sound. Bigger Party. All Night Long.",
+        Title: "JBL PartyBox 310 - Big Sound. Bigger Party. All Night Long.",
+        SubTitle: "PartyBox",
         category: "audio",
         subCategory: "speakers",
         variant: "partybox-310",
@@ -1417,16 +1429,16 @@ export const audio = [
             "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth 5.1, USB, Aux, Mic/Guitar inputs</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>BRAND</span><span>JBL</span></h6>",
-            "<h6><span>MODEL</span><span>PartyBox 310</span></h6>",
-            "<h6><span>POWER OUTPUT</span><span>240 Watts</span></h6>",
-            "<h6><span>FREQUENCY RESPONSE</span><span>45Hz - 20kHz</span></h6>",
-            "<h6><span>INPUT POWER</span><span>100-240V AC, 50/60Hz</span></h6>",
-            "<h6><span>BATTERY LIFE</span><span>Up to 18 hours</span></h6>",
-            "<h6><span>CHARGING TYPE</span><span>AC Power Cord</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span>Bluetooth 5.1, USB-A, 3.5mm, 1/4″ TS</span></h6>",
-            "<h6><span>DIMENSIONS</span><span>32.6 x 68.8 x 36.8 cm</span></h6>",
-            "<h6><span>WEIGHT</span><span>17.42 kg</span></h6>"
+            "<h6><span>BRAND</span><span> --- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> --- PartyBox 310</span></h6>",
+            "<h6><span>POWER OUTPUT</span><span> --- 240 Watts</span></h6>",
+            "<h6><span>FREQUENCY RESPONSE</span><span> --- 45Hz - 20kHz</span></h6>",
+            "<h6><span>INPUT POWER</span><span> --- 100-240V AC, 50/60Hz</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> --- Up to 18 hours</span></h6>",
+            "<h6><span>CHARGING TYPE</span><span> --- AC Power Cord</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> --- Bluetooth 5.1, USB-A, 3.5mm, 1/4″ TS</span></h6>",
+            "<h6><span>DIMENSIONS</span><span> --- 32.6 x 68.8 x 36.8 cm</span></h6>",
+            "<h6><span>WEIGHT</span><span> --- 17.42 kg</span></h6>"
         ],
         tags: [
             "partybox",
@@ -1436,16 +1448,362 @@ export const audio = [
             "240w-speaker"
         ],
         carousels: ["partyReady", "outdoorAudio", "topPicks"],
-        dropURL: "",
-        youtubeReview: "",
-        unboxingVideo: "",
+        dropURL: "https://gadgetsleo.com/product/jbl-partybox-310/?gad_source=1&gclid=CjwKCAjwk43ABhBIEiwAvvMEB6MHB3tgKon3cqp9aSOLqyTu4Zgsn-BBUiaIlMxx3zsRISDgQHqtiBoCHJcQAvD_BwE",
+        youtubeReview: "https://www.youtube.com/embed/l6njobvcdkU?si=v2lj_V9Dt1wfRJtu",
+        unboxingVideo: "https://www.youtube.com/embed/ukueXWlOUxM?si=GKsL5l8-irO9q3ei",
         prevPrice: 69999,
         nowPrice: 65000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 7116,
+        platform: "Speakers",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744995497/speaker_jmygsl.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744992307/speakers_zhmn1p.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054109/jbl-partybox-club-320_zuny76.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054109/jbl-partybox-club-320_zuny76.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054109/jbl-partybox-club-320-2_q4xyeo.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054109/jbl-partybox-club-320-3_yv6u5j.jpg",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "JBL PartyBox Club 320 - 240W of JBL Pro Sound with Light Show and AI Boost",
+        SubTitle: "JBL",
+        category: "audio",
+        subCategory: "speakers",
+        variant: "partybox-club-320",
+        brand: "JBL",
+        name: "jbl-partybox-club-320",
+        description: "Turn any gathering into a vibrant party with the JBL PartyBox Club 320. Featuring 240W of powerful JBL Pro Sound, dual woofers, tweeters, multicolor LED light effects, and water-resistant design, it's built for high-energy events indoors or out.",
+        detailsDescription: "With the JBL PartyBox Club 320, you get more than just music—you get a whole experience. It combines deep bass from 2 x 6.5'' woofers, crisp highs from dual 1'' tweeters, and synchronized LED light shows. The replaceable battery provides up to 18 hours of playtime, and AI Sound Boost enhances the clarity and depth of any audio. Ideal for parties, karaoke, or jam sessions, it supports Bluetooth streaming, dual mic/guitar inputs, and has wheels and a telescoping handle for mobility.",
+        topSpecs: [
+            "<h6><span>SOUND</span><span class='detail-specs-h6'>- 240W RMS audio with AI Sound Boost</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Up to 18 hours playback, replaceable battery</span></h6>",
+            "<h6><span>LIGHTING</span><span class='detail-specs-h6'>- Multicolor LED light show</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth, dual mic/guitar inputs</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span>JBL</span></h6>",
+            "<h6><span>MODEL</span><span>PartyBox Club 320</span></h6>",
+            "<h6><span>POWER OUTPUT</span><span>240W RMS</span></h6>",
+            "<h6><span>WOOFERS</span><span>2 x 6.5\"</span></h6>",
+            "<h6><span>TWEETERS</span><span>2 x 1\"</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span>Up to 18 hours</span></h6>",
+            "<h6><span>BATTERY TYPE</span><span>Replaceable</span></h6>",
+            "<h6><span>LIGHT SHOW</span><span>Multicolor LED, beat-sync</span></h6>",
+            "<h6><span>INPUTS</span><span>Dual Mic/Guitar, Bluetooth</span></h6>",
+            "<h6><span>SPECIAL FEATURES</span><span>AI Sound Boost, Water-resistant, Telescoping handle & wheels</span></h6>"
+        ],
+        tags: [
+            "partybox-club-320",
+            "jbl-partybox",
+            "bluetooth-speaker",
+            "light-show-speaker",
+            "ai-sound"
+        ],
+        carousels: ["partyReady", "premiumSound", "outdoorAudio"],
+        dropURL: "https://urbanmac.co.ke/product/jbl-partybox-stage-320-portable-speaker/?gad_source=1&gclid=CjwKCAjwk43ABhBIEiwAvvMEB3IDFDmeNRXUCbyedlZ-dc31bwdQitZckimOaavH7R1g93T3puKRohoC758QAvD_BwE",
+        youtubeReview: "https://www.youtube.com/embed/JvMTDy5O1-M?si=KY4BZ4L9lHci9OOD",
+        unboxingVideo: "https://www.youtube.com/embed/hOuGE7ltSZg?si=Han5n0i4wUOLxYcC",
+        prevPrice: 79999,
+        nowPrice: 64499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9,
+    },
+    {
+        productID: 7117,
+        platform: "Speakers",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744995497/speaker_jmygsl.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744992307/speakers_zhmn1p.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054750/partybox-on-the-go_ez0zew.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054750/partybox-on-the-go_ez0zew.png", 
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054751/partybox-on-the-go-2_jeppd2.png", 
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745054751/partybox-on-the-go-3_uppi10.jpg", 
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "JBL PartyBox On The Go - 100W Portable Party Speaker with Mic, Bass Boost & Bluetooth",
+        SubTitle: "JBL",
+        category: "audio",
+        subCategory: "speakers",
+        variant: "partybox-on-the-go",
+        brand: "JBL",
+        name: "jbl-partybox-on-the-go",
+        description: "Take the party wherever you go with the JBL PartyBox On The Go. This portable speaker delivers 100W of powerful sound, includes a wireless mic for karaoke fun, and features Bluetooth streaming, bass boost, and a splashproof design.",
+        detailsDescription: "The JBL PartyBox On The Go is designed for mobility and party-ready action. With 100 watts of JBL Pro Sound, Bluetooth 4.1, bass boost, and a wireless microphone, it’s perfect for outdoor events, karaoke nights, or spontaneous road trips. Featuring a 133mm woofer, 44mm tweeters, and ANC technology, you’ll get immersive audio quality. It also has a built-in light show, shoulder strap for portability, and a rugged, splashproof build to handle the elements.",
+        topSpecs: [
+            "<h6><span>SOUND</span><span class='detail-specs-h6'>- 100W JBL Pro Sound with Bass Boost</span></h6>",
+            "<h6><span>MIC</span><span class='detail-specs-h6'>- Comes with wireless microphone</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 2500mAh, up to 6 hrs playback</span></h6>",
+            "<h6><span>PORTABILITY</span><span class='detail-specs-h6'>- Carry strap and splashproof design</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> --- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> --- PartyBox On The Go</span></h6>",
+            "<h6><span>POWER OUTPUT</span><span> --- 100W RMS</span></h6>",
+            "<h6><span>WOOFER</span><span> --- 133mm</span></h6>",
+            "<h6><span>TWEETERS</span><span> --- 44mm</span></h6>",
+            "<h6><span>BATTERY</span><span> --- 2500mAh, 6 hours playback</span></h6>",
+            "<h6><span>CHARGING TIME</span><span> --- 6 hours</span></h6>",
+            "<h6><span>WIRELESS</span><span> --- Bluetooth 4.1</span></h6>",
+            "<h6><span>ACTIVE NOISE CANCELLATION</span><span> --- Yes</span></h6>",
+            "<h6><span>SPECIAL FEATURES</span><span> --- Bass Boost, Wireless Mic, Splashproof</span></h6>"
+        ],
+        tags: [
+            "partybox-on-the-go",
+            "jbl-partybox",
+            "portable-speaker",
+            "karaoke-speaker",
+            "wireless-mic",
+            "bass-boost"
+        ],
+        carousels: ["partyReady", "portableAudio", "karaokeVibes"],
+        dropURL: "https://phonesstorekenya.com/product/jbl-partybox-on-the-go/?gad_source=1&gclid=CjwKCAjwk43ABhBIEiwAvvMEBycVAYOss-MYbhjZmkvQKrHVB0lHGulq9QZrUlpUoE5fs-FDvsEAdhoCH-8QAvD_BwE",
+        youtubeReview: "https://www.youtube.com/embed/1_VJ_WZIQZI?si=wYKm75sKtDAp8qNl",
+        unboxingVideo: "https://www.youtube.com/embed/UpqkFz-vpL0?si=Pn36QqyiGQwdgmlC",
+        prevPrice: 54999,
+        nowPrice: 42499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8,
+    },   
+    {
+        productID: 7118,
+        platform: "Speakers",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744995497/speaker_jmygsl.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744992307/speakers_zhmn1p.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745055389/jbl-pulse-4-1_a4qlgr.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745055389/jbl-pulse-4-2_iegcrs.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745055389/jbl-pulse-4-2_iegcrs.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745055389/jbl-pulse-4-3_egmcvl.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "white",
+        Title: "JBL Pulse 4 - 360° Sound & LED Lightshow Bluetooth Speaker",
+        SubTitle: "JBL",
+        category: "audio",
+        subCategory: "speakers",
+        variant: "pulse-4",
+        brand: "JBL",
+        name: "jbl-pulse-4",
+        description: "The JBL Pulse 4 delivers powerful 360-degree JBL sound with a dazzling, customizable LED light show that syncs to the beat. Waterproof, wireless, and with 12 hours of battery life, it's your go-to speaker for vibrant sound and light on the go.",
+        detailsDescription: "The JBL Pulse 4 Portable Bluetooth Speaker brings your favorite tracks to life with not just sound but light. With its high-resolution, 360-degree LED lightshow and powerful JBL Signature Sound, the Pulse 4 is made for immersive party vibes. Boasting IPX7 waterproofing, 12 hours of playtime, and wireless Bluetooth streaming, it’s the perfect companion for pool parties, beach days, or late-night jams. Use the JBL Connect App to customize the light show and sync multiple PartyBoost-compatible speakers for even bigger sound.",
+        topSpecs: [
+            "<h6><span>LIGHTSHOW</span><span class='detail-specs-h6'>- 360° customizable LED light display</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Up to 12 hrs, 7260mAh Li-ion battery</span></h6>",
+            "<h6><span>WATERPROOF</span><span class='detail-specs-h6'>- IPX7 rated for poolside fun</span></h6>",
+            "<h6><span>SOUND</span><span class='detail-specs-h6'>- JBL Signature Sound in all directions</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> --- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> --- Pulse 4</span></h6>",
+            "<h6><span>BLUETOOTH VERSION</span><span> --- 4.2</span></h6>",
+            "<h6><span>BATTERY CAPACITY</span><span> --- 7260mAh (26 Wh, 3.6V)</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> --- Up to 12 hours</span></h6>",
+            "<h6><span>CHARGING TIME</span><span> --- 3.5 hours</span></h6>",
+            "<h6><span>DIMENSIONS</span><span> --- 3.8 x 8.1 x 3.8 in</span></h6>",
+            "<h6><span>WEIGHT</span><span> --- 1.26 kg</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span> --- IPX7 waterproof</span></h6>",
+            "<h6><span>APP FEATURES</span><span> --- JBL Connect App – light control & sync</span></h6>",
+            "<h6><span>PARTYBOOST</span><span> --- Pair multiple JBL PartyBoost speakers</span></h6>"
+        ],
+        tags: [
+            "jbl-pulse",
+            "led-bluetooth-speaker",
+            "party-light-speaker",
+            "portable-speaker",
+            "ipx7-waterproof",
+            "jbl-pulse-4"
+        ],
+        carousels: ["lightShowSpeakers", "portableAudio", "poolPartyReady"],
+        dropURL: "https://fortresselectronics.co.ke/product/jbl-pulse-4-portable-bluetooth-speaker/",
+        youtubeReview: "https://www.youtube.com/embed/wCmcA0zxNGc?si=cwbMheIkKq0sBeL2",
+        unboxingVideo: "https://www.youtube.com/embed/3y4AciymfXI?si=P0LTS0hwWWfwTWM2",
+        prevPrice: 22000,
+        nowPrice: 19850,
         stock: "In Stock",
         freeShipping: true,
         condition: "New",
-        rating: ""
+        rating: 4.8,
     },
+    {
+        productID: 7119,
+        platform: "Speakers",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744995497/speaker_jmygsl.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744992307/speakers_zhmn1p.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745056839/jbl-wind-3_er9hl7.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745056839/jbl-wind-3_er9hl7.png",
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745056840/jbl-wind-3-2_pfydfb.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745056840/jbl-wind-3-3_dngudd.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745056841/jbl-wind-3-4_bqwjkk.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "JBL Wind 3 - Portable Bike Bluetooth Speaker with FM Tuner",
+        SubTitle: "JBL",
+        category: "audio",
+        subCategory: "speakers",
+        variant: "wind-3",
+        brand: "JBL",
+        name: "jbl-wind-3",
+        description: "Designed for cycling and outdoor adventures, the JBL Wind 3 is a compact Bluetooth speaker with a built-in FM tuner, IP67 waterproof rating, and up to 5 hours of playback. Clip it, mount it, or carry it—it’s the perfect ride-along speaker.",
+        detailsDescription: "The JBL Wind 3 is your ultimate travel companion. Compact and lightweight, this 5W speaker features a built-in FM tuner and Bluetooth 5.0 connectivity, making it perfect for cycling, hiking, or chilling outdoors. With IP67 water and dust resistance, you don’t have to worry about rain or dirt. Clip it to your backpack or mount it on your bike using the included hardware and enjoy music your way for up to 5 hours on a single charge.",
+        topSpecs: [
+            "<h6><span>POWER</span><span class='detail-specs-h6'>- 5W RMS output</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth 5.0 + FM Tuner</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 1050mAh, up to 5 hrs playtime</span></h6>",
+            "<h6><span>RUGGEDNESS</span><span class='detail-specs-h6'>- IP67 water & dust resistant</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span>JBL</span></h6>",
+            "<h6><span>MODEL</span><span>Wind 3</span></h6>",
+            "<h6><span>OUTPUT POWER</span><span>5W RMS</span></h6>",
+            "<h6><span>AMPLIFIER</span><span>Yes</span></h6>",
+            "<h6><span>FREQUENCY RESPONSE</span><span>110Hz – 20kHz</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span>IP67 rated</span></h6>",
+            "<h6><span>FM TUNER</span><span>Yes, built-in</span></h6>",
+            "<h6><span>BLUETOOTH VERSION</span><span>5.0</span></h6>",
+            "<h6><span>BATTERY CAPACITY</span><span>1050mAh</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span>Up to 5 hours</span></h6>",
+            "<h6><span>CHARGING TIME</span><span>2.5 hours</span></h6>"
+        ],
+        tags: [
+            "jbl-wind",
+            "bike-speaker",
+            "portable-fm-speaker",
+            "outdoor-speaker",
+            "waterproof-bluetooth",
+            "wind-3"
+        ],
+        carousels: ["outdoorSpeakers", "bikeAccessories", "portableAudio"],
+        dropURL: "https://fortresselectronics.co.ke/product/jbl-wind-3/",
+        youtubeReview: "https://www.youtube.com/embed/GZ_y-ZE1QQM?si=Fb746XSAo8MBU0VM",
+        unboxingVideo: "https://www.youtube.com/embed/Ky14Z8NuAXw?si=DwoYOT4hhg913iYN",
+        prevPrice: 6999,
+        nowPrice: 6000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8,
+    },
+    {
+        productID: 7120,
+        platform: "Speakers",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744995497/speaker_jmygsl.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744992307/speakers_zhmn1p.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745058054/jbl-xtreme-4-3_chk02b.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745058054/jbl-xtreme-4-3_chk02b.png",
+                color: "camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745057744/JBL-Xtreme-4-2-removebg-preview_kqr3j4.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745057744/JBL-Xtreme-4-removebg-preview_hjrbyp.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "camouflage",
+        Title: "JBL Xtreme 4 - Rugged Portable Bluetooth Speaker with 30H Battery ",
+        SubTitle: "AI Sound Boost",
+        category: "audio",
+        subCategory: "speakers",
+        variant: "xtreme-4",
+        brand: "JBL",
+        name: "jbl-xtreme-4",
+        description: "The JBL Xtreme 4 is built to bring thunderous sound and durability together in a sleek, rugged speaker. With 30 hours of playtime, IP67 waterproof rating, and AI Sound Boost technology, it’s the perfect companion for big sound anywhere.",
+        detailsDescription: "Turn up the volume with the JBL Xtreme 4. This powerful Bluetooth speaker delivers room-filling sound enhanced by AI Sound Boost technology, all wrapped in a durable IP67-rated waterproof and dustproof build. With 30 hours of playtime on a single charge, a convenient carry strap, and support for the JBL Portable App, it's ready for parties, hikes, beach days, and everything in between. JBL PartyBoost lets you pair multiple JBL speakers for a massive audio experience.",
+        topSpecs: [
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- Up to 30 Hours</span></h6>",
+            "<h6><span>WATERPROOF</span><span class='detail-specs-h6'>- IP67 Dust & Water Resistant</span></h6>",
+            "<h6><span>PORTABILITY</span><span class='detail-specs-h6'>- Carry strap included</span></h6>",
+            "<h6><span>AUDIO TECH</span><span class='detail-specs-h6'>- AI Sound Boost & PartyBoost</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> --- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> --- Xtreme 4</span></h6>",
+            "<h6><span>WEIGHT</span><span> --- 2.1kg</span></h6>",
+            "<h6><span>WATERPROOF RATING</span><span> --- IP67</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> --- Up to 30 hours</span></h6>",
+            "<h6><span>BATTERY TYPE</span><span> --- Rechargeable, replaceable</span></h6>",
+            "<h6><span>JBL PORTABLE APP</span><span> --- Supported</span></h6>",
+            "<h6><span>AI SOUND BOOST</span><span> --- Yes</span></h6>",
+            "<h6><span>JBL PARTYBOOST</span><span> --- Yes</span></h6>",
+            "<h6><span>STRAP</span><span> --- Included</span></h6>"
+        ],
+        tags: [
+            "jbl-xtreme",
+            "xtreme-4",
+            "ai-sound-boost",
+            "jbl-partyboost",
+            "portable-bluetooth-speaker",
+            "outdoor-speaker",
+            "rugged-jbl"
+        ],
+        carousels: ["outdoorSpeakers", "ruggedAudio", "partyBoostReady"],
+        dropURL: "https://fortresselectronics.co.ke/product/jbl-xtreme-4/",
+        youtubeReview: "https://www.youtube.com/embed/8ry4P2jWUZE?si=17t4pgDETWp7CyOn",
+        unboxingVideo: "https://www.youtube.com/embed/AFUtfiY6jUs?si=tuyhSG9tuVgZYflL",
+        prevPrice: 41999,
+        nowPrice: 34495,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    }
+            
     
-
 ]
