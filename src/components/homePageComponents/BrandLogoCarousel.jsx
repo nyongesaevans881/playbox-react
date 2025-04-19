@@ -6,14 +6,14 @@ export default function BrandLogoCarousel() {
   
   // Sample logos - you'll replace these with your actual brand images
   const brandLogos = [
-    { id: 1, name: "Brand 1", imageUrl: "/api/placeholder/160/80" },
-    { id: 2, name: "Brand 2", imageUrl: "/api/placeholder/160/80" },
-    { id: 3, name: "Brand 3", imageUrl: "/api/placeholder/160/80" },
-    { id: 4, name: "Brand 4", imageUrl: "/api/placeholder/160/80" },
-    { id: 5, name: "Brand 5", imageUrl: "/api/placeholder/160/80" },
-    { id: 6, name: "Brand 6", imageUrl: "/api/placeholder/160/80" },
-    { id: 7, name: "Brand 7", imageUrl: "/api/placeholder/160/80" },
-    { id: 8, name: "Brand 8", imageUrl: "/api/placeholder/160/80" },
+    { id: 1, name: "Brand 1", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989185/molten_znisvt.png" },
+    { id: 2, name: "Brand 2", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989184/x-box_d0pj1n.png" },
+    { id: 3, name: "Brand 3", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989184/adcom_dawmnb.png" },
+    { id: 4, name: "Brand 4", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989184/switch_yw1eym.png" },
+    { id: 5, name: "Brand 5", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989185/spalding_v40bnr.png" },
+    { id: 6, name: "Brand 6", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989184/jbl_kqcgnr.png" },
+    { id: 7, name: "Brand 7", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989418/ps5_ccaikx.png" },
+    { id: 8, name: "Brand 8", imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744989418/ps4_wb3gnr.png" },
   ];
   
   // Animation using requestAnimationFrame for smooth performance
@@ -55,7 +55,7 @@ export default function BrandLogoCarousel() {
             {/* First set of logos */}
             {brandLogos.map(logo => (
               <div key={logo.id} className="flex-none px-8 py-4">
-                <div className="h-16 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
+                <div className="h-16 flex items-center justify-center grayscale cursor-pointer hover:grayscale-0 transition-all duration-300">
                   <img 
                     src={logo.imageUrl} 
                     alt={`${logo.name} logo`} 

@@ -5,7 +5,7 @@ const AudioWidget = () => {
                 <div className="flex flex-col items-start max-w-[50%] z-6">
                     <span className="text-pink-600 font-bold">Upto 15% Off</span>
                     <span className="text-2xl font-light text-gray-800">BLUETOOTH SPEAKERS</span>
-                    <button className="bg-pink-600 py-1 px-4 text-white font-bold mt-2 cursor-pointer">Shop Now</button>
+                    <a href="/products/audio/speakers" className="bg-pink-600 py-1 px-4 text-white font-bold mt-2 cursor-pointer">Shop Now</a>
                 </div>
                 <div>
                     <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744461597/jbl_vhxyut.png" alt="" className="h-50 object-contain z-5 absolute right-0 -bottom-5 max-md:h-30 max-md:-bottom-2" loading="lazy"/>

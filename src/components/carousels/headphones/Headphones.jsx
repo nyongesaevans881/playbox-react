@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../../redux/cartSlice';
 import ProductPopup from '../../productsPopup/ProductsPopup';
-import { headphones } from '../../../constants/2-pc/headphones';
+import { audio } from '../../../constants/7-audio/audio';
 import { Heart, ScanEye, ShoppingCart, Star } from 'lucide-react';
 import './headphones.css';
 import toast from 'react-hot-toast';
@@ -34,7 +34,7 @@ const Headphones = () => {
 
     // Handle Add to Cart click
     const handleAddToCart = (id) => {
-        const product = headphones.find((p) => p.productID === id);
+        const product = audio.find((p) => p.productID === id);
 
         if (product) {
             dispatch(
@@ -74,7 +74,7 @@ const Headphones = () => {
     return (
         <section className="headphones-headphones-carousel-section relative">
             <Slider ref={arrowRef} {...settings}>
-                {headphones.map((item, index) => {
+                {audio.map((item, index) => {
                     const percentageOff = Math.round(((item.prevPrice - item.nowPrice) / item.prevPrice) * 100);
 
                     return <div className="max-w-70 max-md:max-w-full flex justify-center items-center relative" key={index}>

@@ -160,14 +160,13 @@ const Navbar = () => {
             ],
         },
         {
-            name: "Peripherals",
+            name: "Audio",
             items: [
-                { name: "Gaming Keyboards", url: "/peripherals/keyboards" },
-                { name: "Gaming Mice", url: "/peripherals/mice" },
-                { name: "Gaming Headsets", url: "/peripherals/headsets" },
-                { name: "Controllers", url: "/peripherals/controllers" },
-                { name: "Mousepads and Mats", url: "/peripherals/mousepads" },
-                { name: "Cables and Connectors", url: "/peripherals/cables" },
+                { name: "Headphones", url: "/products/audio/headphones" },
+                { name: "Earbuds", url: "/peripherals/mice" },
+                { name: "Neckbands", url: "/peripherals/headsets" },
+                { name: "Bluetooth Speakers", url: "/products/audio/speakers" },
+                { name: "Sound Bars", url: "/peripherals/mousepads" },
             ],
         },
         {

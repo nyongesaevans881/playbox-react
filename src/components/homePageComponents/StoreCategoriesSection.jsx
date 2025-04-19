@@ -42,7 +42,7 @@ export default function StoreCategoriesSection() {
       icon: <PiOfficeChair size={32} />,
       imageUrl: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744403324/chair-removebg-preview_lyu8hf.png",
       color: "#ef3563",
-      href: ""
+      href: "furniture"
     }
   ];
 
