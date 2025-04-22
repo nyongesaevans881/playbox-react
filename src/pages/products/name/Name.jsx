@@ -71,7 +71,7 @@ const Name = ({ params }) => {
           </div>
 
           <div className="product-landing-header">
-            <img src={product.detailsPoster} alt="poster" className='max-h-40 object-cover'/>
+            <img src={product.detailsPoster} alt="poster" className='max-h-40 object-cover' />
             <div className="product-info mt-4">
               <h1 className='text-2xl font-bold'>{product.Title}</h1>
               <h3 className='capitalize font-bold'>{product.SubTitle}</h3>
@@ -96,16 +96,16 @@ const Name = ({ params }) => {
               <h6 className='my-4'>
                 <span>Select Color:</span>
                 {uniqueColors.map((colorOrPlatform, index) => {
-                    return <div>
-                      <div
-                        key={index}
-                        className={`color-button cursor-pointer ${selectedColor === colorOrPlatform ? 'selected' : ''}`}
-                        onClick={() => setSelectedColor(colorOrPlatform)}
-                      >
-                        <p style={{ backgroundColor: colorOrPlatform }} className="color-circle border"></p>
-                      </div>
+                  return <div>
+                    <div
+                      key={index}
+                      className={`color-button cursor-pointer ${selectedColor === colorOrPlatform ? 'selected' : ''}`}
+                      onClick={() => setSelectedColor(colorOrPlatform)}
+                    >
+                      <p style={{ backgroundColor: colorOrPlatform }} className="color-circle border"></p>
                     </div>
-                  })}
+                  </div>
+                })}
               </h6>
 
               <div className="details-footer-display">
@@ -154,7 +154,13 @@ const Name = ({ params }) => {
           <div className="youtube-videos">
             <div className="youtube-video-single">
               <h5 className='font-bold mb-5'> <i className="fab fa-youtube"></i> Youtube Review</h5>
-              <iframe src={product.youtubeReview} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+              <iframe
+                src={product.youtubeReview}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen></iframe>
             </div>
             <div className="youtube-video-single">
               <h5 className='font-bold mb-5'> <i className="fab fa-youtube"></i> Unboxing Experience</h5>

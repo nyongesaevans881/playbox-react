@@ -404,5 +404,13 @@
   .product-details-page-head-left .mobile-responsive-name-title {
     display: none;
   }
+
+
+  .product-specs iframe {
+    width: 100%;
+    height: 280px;
+    border: 1px solid;
+  }
+  
   
 }
