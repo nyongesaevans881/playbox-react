@@ -121,9 +121,9 @@ const SubCategory = ({ params }) => {
         <section className="product-list-container-wrapper">
             <div className="product-list-container container">
                 <div className="flex justify-between mb-5 max-md:flex-col gap-6 items-center">
-                    <div className='text-gray-800 flex items-center gap-10'>
+                    <div className='text-gray-800 flex items-center gap-10 max-md:gap-2 max-md:justify-between max-md:w-[85%]'>
                         <a to="/" className="back-to-home cursor-pointer">
-                            <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> Back to Home
+                            <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> <span className='max-md:hidden'>Back to </span>Home
                         </a>
                         <h1>
                             Home /&nbsp;
@@ -139,14 +139,14 @@ const SubCategory = ({ params }) => {
                     </div>
                 </div>
                 <div className="product-list-content">
-                        <FilterSidebar
-                            products={allProducts}
-                            initialFilters={filters}
-                            onFilterChange={(newFilters) => {
-                                setFilters(newFilters);
-                            }}
-                            maxPrice={80000}
-                        />
+                    <FilterSidebar
+                        products={allProducts}
+                        initialFilters={filters}
+                        onFilterChange={(newFilters) => {
+                            setFilters(newFilters);
+                        }}
+                        maxPrice={80000}
+                    />
                     <div className="products-details-grid">
                         {currentProducts.length === 0 ? (
                             <div className='col-span-3'>
