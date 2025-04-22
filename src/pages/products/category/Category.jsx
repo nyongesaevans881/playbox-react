@@ -3,11 +3,12 @@ import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { addToCart } from '../../../redux/cartSlice';
 import ProductPopup from '../../../components/productsPopup/ProductsPopup';
-import './category.css';
 import Snackbar from '../../../components/snackHelper/Snackbar';
 import ProductsCard from '../../../components/productsCard/ProductsCard'
-import NoProducts from '../components/NoProducts'
 import toast from 'react-hot-toast';
+import NoProducts from '../zero/NoProducts';
+import FilterSidebar from '../../../components/filterSidebar/FilterSidebar';
+import { MoveLeftIcon } from 'lucide-react';
 
 const Category = ({ params }) => {
     const { category } = useParams();
@@ -97,25 +98,17 @@ const Category = ({ params }) => {
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-    if (allProducts === null) {
-        return (
-            <>
-            <h1 className='text-5xl text-black'>No prods</h1>
-            <NoProducts />
-            </>
-        )
-    }
-
-
     return (
         <section className="product-list-container-wrapper">
             <div className="product-list-container container">
                 <div className="product-list-header">
-                    <a to="/" className="back-to-home"><i className="fa fa-long-arrow-left back-to-home-icon"></i> Back to Home</a>
-                    <h1>
+                <a to="/" className="back-to-home cursor-pointer">
+                        <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> Back to Home
+                    </a>
+                    <h4 className='bg-blue-500/40 border border-blue-500 text-gray-800 px-4'>
                         Home /&nbsp;
                         {category ? (category.charAt(0).toUpperCase() + category.slice(1)) : 'All Products'}
-                    </h1>
+                    </h4>
                     <div className="sort-dropdown">
                         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
                             <option value="best-selling">Best selling</option>
@@ -125,91 +118,30 @@ const Category = ({ params }) => {
                     </div>
                 </div>
                 <div className="product-list-content">
-                    <div className="filters-sidebar">
-                        <div className="filters-header">
-
-                        </div>
-                        <h2>Filters</h2>
-                        <div className="filter-section">
-                            <h3>Price</h3>
-                            <p>You can go upto: <span>Ksh. 80,000</span></p>
-                            <div className="filter-section-input-item">
-                                <h6>Min Price:</h6>
-                                <input
-                                    type="number"
-                                    placeholder="0"
-                                    onChange={(e) => handleFilterChange('price', { ...filters.price, min: Number(e.target.value) })}
-                                />
-                            </div>
-                            <div className="filter-section-input-item">
-                                <h6>Max Price:</h6>
-                                <input
-                                    type="number"
-                                    placeholder="80,000"
-                                    onChange={(e) => handleFilterChange('price', { ...filters.price, max: Number(e.target.value) })}
-                                />
-                            </div>
-                        </div>
-                        <div className="filter-section">
-                            <h3>Storage</h3>
-                            {['500GB', '1TB', '2TB'].map(size => (
-                                <label key={size}>
-                                    <input
-                                        type="checkbox"
-                                        value={size}
-                                        onChange={(e) => {
-                                            const newStorage = e.target.checked
-                                                ? [...filters.storage, size]
-                                                : filters.storage.filter(s => s !== size);
-                                            handleFilterChange('storage', newStorage);
-                                        }}
-                                    />
-                                    {size}
-                                </label>
-                            ))}
-                        </div>
-                        <div className="filter-section">
-                            <h3>Condition</h3>
-                            {['New', 'Used', 'Ex-UK'].map(condition => (
-                                <label key={condition}>
-                                    <input
-                                        type="checkbox"
-                                        value={condition}
-                                        onChange={(e) => {
-                                            const newCondition = e.target.checked
-                                                ? [...filters.condition, condition]
-                                                : filters.condition.filter(c => c !== condition);
-                                            handleFilterChange('condition', newCondition);
-                                        }}
-                                    />
-                                    {condition}
-                                </label>
-                            ))}
-                        </div>
-
-                        <div className="filter-section">
-                            <h3>Rating</h3>
-                            <input
-                                type="range"
-                                min="0"
-                                max="5"
-                                step="0.5"
-                                value={filters.rating}
-                                onChange={(e) => handleFilterChange('rating', Number(e.target.value))}
-                            />
-                            <span>{filters.rating} stars</span>
-                        </div>
-                    </div>
+                    <FilterSidebar
+                        products={allProducts}
+                        initialFilters={filters}
+                        onFilterChange={(newFilters) => {
+                            setFilters(newFilters);
+                        }}
+                        maxPrice={80000}
+                    />
 
                     <div className="products-details-grid">
-                        {currentProducts.map((product, index) => (
-                            <ProductsCard
-                                key={index}
-                                product={product}
-                                handleAddToCart={handleAddToCart}
-                                handleProductClick={handleProductClick}
-                            />
-                        ))}
+                        {currentProducts.length === 0 ? (
+                            <div className='col-span-3'>
+                                <NoProducts />
+                            </div>
+                        ) : (
+                            currentProducts.map((product, index) => (
+                                <ProductsCard
+                                    key={index}
+                                    product={product}
+                                    handleAddToCart={handleAddToCart}
+                                    handleProductClick={handleProductClick}
+                                />
+                            ))
+                        )}
                     </div>
                 </div>
                 <div className="pagination">

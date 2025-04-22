@@ -37,7 +37,7 @@ const Navbar = () => {
         const handleScroll = () => {
             const navbar = document.getElementById('navbar');
             if (navbar) {
-                if (window.scrollY > 400) {
+                if (window.scrollY > 1500) {
                     navbar.classList.add('sticky');
                 } else {
                     navbar.classList.remove('sticky');
@@ -142,10 +142,10 @@ const Navbar = () => {
             name: "PC & Laptops",
             items: [
                 { name: "Gaming Laptops", url: "/pc/gaming-laptops" },
-                { name: "Custom Builds PCs", url: "/pc/custom-builds" },
-                { name: "Pre-Built Gaming PCs", url: "/pc/pre-built" },
-                { name: "Monitors", url: "/pc/monitors" },
-                { name: "PC Components", url: "/pc/components" },
+                { name: "Keyboards", url: "/products/pc/keyboards" },
+                { name: "Mice", url: "/products/pc/mice" },
+                { name: "Monitors", url: "/products/pc/monitors" },
+                { name: "Accessories", url: "/pc/components" },
             ],
         },
         {
@@ -163,7 +163,7 @@ const Navbar = () => {
             name: "Audio",
             items: [
                 { name: "Headphones", url: "/products/audio/headphones" },
-                { name: "Earbuds", url: "/peripherals/mice" },
+                { name: "Earbuds", url: "/products/audio/earbuds" },
                 { name: "Neckbands", url: "/peripherals/headsets" },
                 { name: "Bluetooth Speakers", url: "/products/audio/speakers" },
                 { name: "Sound Bars", url: "/peripherals/mousepads" },

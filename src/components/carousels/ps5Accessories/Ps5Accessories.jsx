@@ -2,7 +2,7 @@
 
 import React, { useRef } from 'react';
 import Slider from "react-slick";
-import { accessories } from '../../../constants/1-consoles/accessories';
+import { playstation } from '../../../constants/1-consoles/playstation';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Ps5Accessories.css";
@@ -60,8 +60,8 @@ const Ps5Accessories = ({ setproductCategory, setProductID, setShowPopup }) => {
     return (
         <div className="p-2 w-full h-full relative">
             <Slider ref={arrowRef} {...settings}>
-                {accessories
-                    .filter((component) => component.variant === "ps5")
+                {playstation
+                    .filter((component) => component.carousels.includes('ps5Accessories'))
                     .map((component, index) => {
 
                         return <div key={index} className="bg-white max-w-70 p-4 border-2 border-gray-300 max-md:max-w-full">

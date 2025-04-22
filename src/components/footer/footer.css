@@ -122,9 +122,11 @@
     .footer-center{
       margin-bottom: 4rem;
     }
+    .footer-quote h3 {
+      font-size: 25px;
+    }
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1115px) {
-
 }

@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from 'react';
 import Slider from "react-slick";
-import { accessories } from '../../../constants/1-consoles/accessories';
+import { xbox } from '../../../constants/1-consoles/xbox';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./xboxAccesories.css";
@@ -60,8 +60,8 @@ const XboxAccesories = ({ setproductCategory, setProductID, setShowPopup }) => {
     return (
         <div className="p-2 w-full h-full relative">
             <Slider ref={arrowRef} {...settings}>
-                {accessories
-                    .filter((component) => component.subCategory === "playstation")
+                {xbox
+                    .filter((component) => component.carousels.includes('xboxAccesories'))
                     .map((component, index) => {
 
                         return <div key={index} className="bg-white max-w-80 p-4 border-2 border-gray-300 max-md:max-w-full">

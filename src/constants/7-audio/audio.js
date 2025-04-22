@@ -1300,12 +1300,12 @@ export const audio = [
             "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Premium build with sculpted handle</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>BRAND</span><span>JBL</span></h6>",
-            "<h6><span>MODEL</span><span>Harman Kardon Onyx Studio 8</span></h6>",
-            "<h6><span>OUTPUT POWER</span><span>50W</span></h6>",
-            "<h6><span>MUSIC PLAYTIME</span><span>Up to 8 hours</span></h6>",
-            "<h6><span>CHARGING TIME</span><span>5 hours</span></h6>",
-            "<h6><span>CHARGING CABLE TYPE</span><span>USB-C</span></h6>"
+            "<h6><span>BRAND</span><span> -- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> -- Harman Kardon Onyx Studio 8</span></h6>",
+            "<h6><span>OUTPUT POWER</span><span> -- 50W</span></h6>",
+            "<h6><span>MUSIC PLAYTIME</span><span> -- Up to 8 hours</span></h6>",
+            "<h6><span>CHARGING TIME</span><span> -- 5 hours</span></h6>",
+            "<h6><span>CHARGING CABLE TYPE</span><span> -- USB-C</span></h6>"
         ],
         tags: [
             "onyx-studio-8",
@@ -1496,16 +1496,16 @@ export const audio = [
             "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth, dual mic/guitar inputs</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>BRAND</span><span>JBL</span></h6>",
-            "<h6><span>MODEL</span><span>PartyBox Club 320</span></h6>",
-            "<h6><span>POWER OUTPUT</span><span>240W RMS</span></h6>",
-            "<h6><span>WOOFERS</span><span>2 x 6.5\"</span></h6>",
-            "<h6><span>TWEETERS</span><span>2 x 1\"</span></h6>",
-            "<h6><span>BATTERY LIFE</span><span>Up to 18 hours</span></h6>",
-            "<h6><span>BATTERY TYPE</span><span>Replaceable</span></h6>",
-            "<h6><span>LIGHT SHOW</span><span>Multicolor LED, beat-sync</span></h6>",
-            "<h6><span>INPUTS</span><span>Dual Mic/Guitar, Bluetooth</span></h6>",
-            "<h6><span>SPECIAL FEATURES</span><span>AI Sound Boost, Water-resistant, Telescoping handle & wheels</span></h6>"
+            "<h6><span>BRAND</span><span> -- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> -- PartyBox Club 320</span></h6>",
+            "<h6><span>POWER OUTPUT</span><span> -- 240W RMS</span></h6>",
+            "<h6><span>WOOFERS</span><span> -- 2 x 6.5\"</span></h6>",
+            "<h6><span>TWEETERS</span><span> -- 2 x 1\"</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- Up to 18 hours</span></h6>",
+            "<h6><span>BATTERY TYPE</span><span> -- Replaceable</span></h6>",
+            "<h6><span>LIGHT SHOW</span><span> -- Multicolor LED, beat-sync</span></h6>",
+            "<h6><span>INPUTS</span><span> -- Dual Mic/Guitar, Bluetooth</span></h6>",
+            "<h6><span>SPECIAL FEATURES</span><span> -- AI Sound Boost, Water-resistant, Telescoping handle & wheels</span></h6>"
         ],
         tags: [
             "partybox-club-320",
@@ -1704,17 +1704,17 @@ export const audio = [
             "<h6><span>RUGGEDNESS</span><span class='detail-specs-h6'>- IP67 water & dust resistant</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>BRAND</span><span>JBL</span></h6>",
-            "<h6><span>MODEL</span><span>Wind 3</span></h6>",
-            "<h6><span>OUTPUT POWER</span><span>5W RMS</span></h6>",
-            "<h6><span>AMPLIFIER</span><span>Yes</span></h6>",
-            "<h6><span>FREQUENCY RESPONSE</span><span>110Hz – 20kHz</span></h6>",
-            "<h6><span>WATER RESISTANCE</span><span>IP67 rated</span></h6>",
-            "<h6><span>FM TUNER</span><span>Yes, built-in</span></h6>",
-            "<h6><span>BLUETOOTH VERSION</span><span>5.0</span></h6>",
-            "<h6><span>BATTERY CAPACITY</span><span>1050mAh</span></h6>",
-            "<h6><span>BATTERY LIFE</span><span>Up to 5 hours</span></h6>",
-            "<h6><span>CHARGING TIME</span><span>2.5 hours</span></h6>"
+            "<h6><span>BRAND</span><span> -- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> -- Wind 3</span></h6>",
+            "<h6><span>OUTPUT POWER</span><span> -- 5W RMS</span></h6>",
+            "<h6><span>AMPLIFIER</span><span> -- Yes</span></h6>",
+            "<h6><span>FREQUENCY RESPONSE</span><span> -- 110Hz – 20kHz</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span> -- IP67 rated</span></h6>",
+            "<h6><span>FM TUNER</span><span> -- Yes, built-in</span></h6>",
+            "<h6><span>BLUETOOTH VERSION</span><span> -- 5.0</span></h6>",
+            "<h6><span>BATTERY CAPACITY</span><span> -- 1050mAh</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- Up to 5 hours</span></h6>",
+            "<h6><span>CHARGING TIME</span><span> -- 2.5 hours</span></h6>"
         ],
         tags: [
             "jbl-wind",
@@ -1803,7 +1803,435 @@ export const audio = [
         freeShipping: true,
         condition: "New",
         rating: 4.9
-    }
+    },
             
+    
+
+    //--------------- EARBUDS
+    {
+        productID: 7201,
+        platform: "Earbuds",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745076175/earbuds_h404rz.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075686/earbuds_oxc3t9.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075881/anker-r50i-soundcore_qmixf5.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075881/anker-r50i-soundcore_qmixf5.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075881/anker-r50i-soundcore-2_pv1btr.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Anker R50i Soundcore -  with 10mm Drivers, 30H Battery & App EQ",
+        SubTitle: "Anker",
+        category: "audio",
+        subCategory: "earbuds",
+        variant: "r50i",
+        brand: "Anker",
+        name: "anker-r50i-soundcore",
+        description: "Anker Soundcore R50i delivers a rich bass experience with its 10mm drivers, customizable EQ via app, and crystal-clear AI-enhanced calls. These water-resistant earbuds offer 30 hours of playtime and a compact case with a handy lanyard.",
+        detailsDescription: "Anker R50i Soundcore true wireless earbuds feature big 10mm drivers for a punchy, bass-heavy sound and 22 preset EQs through the Soundcore app to personalize your listening. Designed with lightweight comfort, the earbuds provide 10 hours of playtime per charge and 30 hours with the case. AI-enhanced dual microphones ensure crystal-clear calls. Rated IPX5, they’re resistant to water splashes, and include convenient features like instant pairing, single earbud mode, and fast charging that gives 2 extra hours with just 10 minutes of charging.",
+        topSpecs: [
+            "<h6><span>PLAYTIME</span><span class='detail-specs-h6'>- 10H + 30H with case</span></h6>",
+            "<h6><span>DRIVERS</span><span class='detail-specs-h6'>- 10mm for Extra Bass</span></h6>",
+            "<h6><span>WATER RESISTANT</span><span class='detail-specs-h6'>- IPX5 Rated</span></h6>",
+            "<h6><span>CALL QUALITY</span><span class='detail-specs-h6'>- AI Clear Calls with 2 Mics</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> -- Anker</span></h6>",
+            "<h6><span>MODEL</span><span> -- R50i Soundcore</span></h6>",
+            "<h6><span>DRIVER SIZE</span><span> -- 10mm</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- 10H (earbuds) + 30H (with case)</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span> -- IPX5 (earbuds only)</span></h6>",
+            "<h6><span>FAST CHARGING</span><span> -- 10 min charge = 2H playback</span></h6>",
+            "<h6><span>EQ OPTIONS</span><span> -- 22 presets via app</span></h6>",
+            "<h6><span>MICROPHONES</span><span> -- 2 with AI-enhanced call clarity</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> -- Bluetooth 5.3</span></h6>",
+            "<h6><span>PAIRING</span><span> -- Instant, auto-connect to last device</span></h6>",
+            "<h6><span>MODES</span><span> -- Single earbud supported</span></h6>",
+            "<h6><span>ACCESSORY</span><span> -- Knitted lanyard included</span></h6>"
+        ],
+        tags: [
+            "anker-soundcore",
+            "r50i",
+            "true-wireless-earbuds",
+            "bass-earbuds",
+            "ai-clear-calls",
+            "waterproof-earbuds",
+            "budget-earbuds"
+        ],
+        carousels: ["budgetAudio", "trueWireless", "workoutReady"],
+        dropURL: "https://fortresselectronics.co.ke/product/anker-r50i-soundcore/",
+        youtubeReview: "https://www.youtube.com/embed/IAI_ECAuNcs?si=M04ZSaHxyA_L0LuC",
+        unboxingVideo: "https://www.youtube.com/embed/3gYilSuy1ts?si=fUhHmMFNTkDWm6Pq",
+        prevPrice: 4999,
+        nowPrice: 3499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8,
+    },
+    {
+        productID: 7202,
+        platform: "Earbuds",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745076175/earbuds_h404rz.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075686/earbuds_oxc3t9.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745077413/jbl-tune130-tws_zxj23y.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745077413/jbl-tune130-tws_zxj23y.png",
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745077413/jbl-tune130-tws-2_arytit.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745077414/jbl-tune130-tws-4_bajogn.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745077413/jbl-tune130-tws-3_eo1fsf.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "JBL Tune130 TWS - True Wireless Earbuds with ANC, Ambient Aware, and 40H Battery Life",
+        SubTitle: "JBL",
+        category: "audio",
+        subCategory: "earbuds",
+        variant: "tune130-tws",
+        brand: "JBL",
+        name: "jbl-tune130-tws",
+        description: "Experience JBL’s signature sound with the Tune130 TWS. These wireless earbuds feature powerful Pure Bass, active noise cancellation, ambient modes, and up to 40 hours of playtime—perfect for immersive music and clear calls on the go.",
+        detailsDescription: "JBL Harman Tune130 TWS earbuds are engineered for music lovers seeking both immersive sound and practical features. With 10mm drivers and JBL Pure Bass, they deliver punchy audio while supporting Active Noise Cancelling (ANC), Ambient Aware, and TalkThru modes for environmental control. Bluetooth 5.2 ensures fast pairing and low-latency streaming. Get 40 hours of playtime with the compact charging case, enjoy voice assistant integration, and handle calls with crystal clarity thanks to dual microphones. Lightweight at just 4g per bud, they also feature touch controls for seamless command over music and calls.",
+        topSpecs: [
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- 40 Hours Total</span></h6>",
+            "<h6><span>NOISE CANCELLATION</span><span class='detail-specs-h6'>- Active (ANC) + Ambient Aware</span></h6>",
+            "<h6><span>TOUCH CONTROL</span><span class='detail-specs-h6'>- Yes</span></h6>",
+            "<h6><span>VOICE ASSISTANT</span><span class='detail-specs-h6'>- Supported</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> -- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> -- Tune130 TWS</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> -- Bluetooth 5.2</span></h6>",
+            "<h6><span>DRIVERS</span><span> -- 2 × 10mm</span></h6>",
+            "<h6><span>WEIGHT</span><span> -- 4g (buds), 40.4g (with case)</span></h6>",
+            "<h6><span>NOISE CANCELLATION</span><span> -- ANC + Ambient Aware + TalkThru</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- Up to 40 hours total</span></h6>",
+            "<h6><span>CHARGING CASE</span><span> -- Included</span></h6>",
+            "<h6><span>TOUCH CONTROLS</span><span> -- Yes</span></h6>",
+            "<h6><span>MICROPHONES</span><span> -- 2</span></h6>",
+            "<h6><span>VOICE ASSISTANT</span><span> -- Compatible</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span> -- Not specified</span></h6>"
+        ],
+        tags: [
+            "jbl-tune",
+            "true-wireless",
+            "noise-cancelling-earbuds",
+            "ambient-aware",
+            "long-battery-earbuds",
+            "bluetooth-5.2",
+            "touch-controls",
+            "voice-assistant"
+        ],
+        carousels: ["noiseCancelling", "trueWireless", "jblFavorites"],
+        dropURL: "https://fortresselectronics.co.ke/product/jbl-harman-tune130-tws/",
+        youtubeReview: "https://www.youtube.com/embed/lXJsvwQ-lv8?si=5hxI_86idx29FwDW",
+        unboxingVideo: "https://www.youtube.com/embed/ol0kkY4W_dU?si=ujd-IKPbCAgux28Q",
+        prevPrice: 12500,
+        nowPrice: 8500,
+        stock:10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 7203,
+        platform: "Earbuds",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745076175/earbuds_h404rz.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075686/earbuds_oxc3t9.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079174/wave200-tws_jxe1ps.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079174/wave200-tws_jxe1ps.png", 
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079174/wave200-tws-2_l9seuk.png", 
+                color: "balck"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079174/wave200-tws-3_aipt1n.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "JBL Wave 200 TWS - True Wireless Earbuds with Deep Bass and Voice Assistant Support",
+        SubTitle: "JBL",
+        category: "audio",
+        subCategory: "earbuds",
+        variant: "wave200-tws",
+        brand: "JBL",
+        name: "jbl-wave200-tws",
+        description: "Enjoy JBL's signature deep bass with the compact and lightweight JBL Wave 200 TWS earbuds. Offering up to 20 hours of combined playtime, dual connect technology, and voice assistant support, these wireless earbuds are designed for comfort, control, and non-stop sound.",
+        detailsDescription: "The JBL Wave 200 TWS earbuds deliver immersive JBL Deep Bass Sound powered by 8mm drivers. With 5 hours of playtime in the earbuds and an additional 15 hours from the charging case, your music stays with you all day. Bluetooth 5.0 with dual connect allows you to use either bud independently. Touch controls and voice assistant support make managing calls and music effortless. Ergonomically designed for all-day comfort, the Wave 200s are lightweight and available in multiple colors.",
+        topSpecs: [
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- Up to 20 Hours</span></h6>",
+            "<h6><span>DRIVER SIZE</span><span class='detail-specs-h6'>- 8mm</span></h6>",
+            "<h6><span>VOICE ASSISTANT</span><span class='detail-specs-h6'>- Google & Alexa</span></h6>",
+            "<h6><span>TOUCH CONTROLS</span><span class='detail-specs-h6'>- Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> -- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> -- Wave 200 TWS</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> -- Bluetooth 5.0</span></h6>",
+            "<h6><span>BLUETOOTH PROFILES</span><span> -- A2DP 1.3, AVRCP 1.6, HFP 1.7</span></h6>",
+            "<h6><span>FREQUENCY RESPONSE</span><span> -- 20Hz – 20kHz</span></h6>",
+            "<h6><span>DRIVER SIZE</span><span> -- 8mm</span></h6>",
+            "<h6><span>SENSITIVITY</span><span> -- 108 dB</span></h6>",
+            "<h6><span>IMPEDANCE</span><span> -- 16Ω</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- 5 hrs (buds) + 15 hrs (case)</span></h6>",
+            "<h6><span>CHARGING CASE WEIGHT</span><span> -- 39.3g</span></h6>",
+            "<h6><span>EARBUD WEIGHT</span><span> -- 7g each</span></h6>",
+            "<h6><span>VOICE ASSISTANT</span><span> -- Supported (Google, Alexa)</span></h6>",
+            "<h6><span>MICROPHONE</span><span> -- Built-in</span></h6>"
+        ],
+        tags: [
+            "jbl-wave",
+            "budget-earbuds",
+            "true-wireless",
+            "voice-assistant",
+            "dual-connect",
+            "deep-bass",
+            "bluetooth-5"
+        ],
+        carousels: ["budgetFriendly", "trueWireless", "jblFavorites"],
+        dropURL: "https://fortresselectronics.co.ke/product/jbl-wave-200/",
+        youtubeReview: "https://www.youtube.com/embed/DSHaQ990drc?si=e3of4LWktV4YAN0g",
+        unboxingVideo: "https://www.youtube.com/embed/hxavNQaAkPc?si=qd1w0m6KUEG-_iTn",
+        prevPrice: 8000,
+        nowPrice: 6200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5,
+    },
+    {
+        productID: 7204,
+        platform: "Earbuds",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745076175/earbuds_h404rz.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075686/earbuds_oxc3t9.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079665/anker-soundcore-sport-x10-1_j82h2f.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079665/anker-soundcore-sport-x10-1_j82h2f.png",
+                color: "red"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745079666/anker-soundcore-sport-x10-2_uqqao0.png",
+                color: "red"
+            }
+        ],
+        defaultColor: "Black",
+        Title: "Anker Soundcore Sport X10 - Noise Cancelling Wireless Earbuds with Rotatable Hooks & Deep Bass",
+        SubTitle: "Waterproof",
+        category: "audio",
+        subCategory: "earbuds",
+        variant: "sport-x10",
+        brand: "Anker",
+        name: "anker-soundcore-sport-x10",
+        description: "Experience true freedom and sound performance with Anker Soundcore Sport X10 earbuds. Built for workouts, these earbuds feature IPX7 waterproofing, BassUp technology, 210° rotatable hooks, and up to 32 hours of battery life including the case. Take crystal-clear calls with 6 AI-powered microphones and enjoy a customizable experience via the Soundcore app.",
+        detailsDescription: "Anker’s Soundcore Sport X10 earbuds are engineered for active lifestyles. Designed with rotatable ear hooks for a secure and personalized fit, they’re also IPX7 waterproof with exclusive SweatGuard technology to protect against sweat damage. Powered by 10mm dynamic drivers and enhanced by BassUp tech, they deliver booming bass and crisp mids. You’ll get up to 9 hours of playtime on a single charge and a total of 32 hours with the charging case. Enjoy Active Noise Cancelling and Transparency modes, and manage everything through the Soundcore app.",
+        topSpecs: [
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- Up to 32 Hours</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span class='detail-specs-h6'>- IPX7 Waterproof</span></h6>",
+            "<h6><span>FIT</span><span class='detail-specs-h6'>- 210° Rotatable Hooks</span></h6>",
+            "<h6><span>DRIVERS</span><span class='detail-specs-h6'>- 10mm Bass-Enhanced</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> -- Anker (Soundcore)</span></h6>",
+            "<h6><span>MODEL</span><span> -- Sport X10</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> -- Bluetooth</span></h6>",
+            "<h6><span>FORM FACTOR</span><span> -- In Ear with Rotatable Ear Hooks</span></h6>",
+            "<h6><span>COLOR</span><span> -- Black</span></h6>",
+            "<h6><span>DRIVERS</span><span> -- 10mm Dynamic</span></h6>",
+            "<h6><span>NOISE CONTROL</span><span> -- Active Noise Cancelling + Transparency Mode</span></h6>",
+            "<h6><span>MICROPHONES</span><span> -- 6 Mics with AI Enhancement</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span> -- IPX7 + SweatGuard</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- 9 hrs (buds) + 23 hrs (case)</span></h6>",
+            "<h6><span>APP SUPPORT</span><span> -- Soundcore App</span></h6>",
+            "<h6><span>ITEM WEIGHT</span><span> -- 0.1 lbs (~45g)</span></h6>",
+            "<h6><span>MATERIAL</span><span> -- Plastic</span></h6>"
+        ],
+        tags: [
+            "anker",
+            "soundcore",
+            "sport-earbuds",
+            "noise-cancelling",
+            "bassup",
+            "rotatable-hooks",
+            "waterproof"
+        ],
+        carousels: ["workoutReady", "premiumAudio", "noiseCancelling"],
+        dropURL: "https://fortresselectronics.co.ke/product/anker-sport-x10-soundcore/",
+        youtubeReview: "https://www.youtube.com/embed/yEHPhIegbQ4?si=T016mjDQizqUpVYU",
+        unboxingVideo: "https://www.youtube.com/embed/fWCyXDbKVx0?si=MBuqQTLdJ_TXNBzl",
+        prevPrice: 9999,
+        nowPrice: 9500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8,
+    },
+    {
+        productID: 7205,
+        platform: "Earbuds",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745076175/earbuds_h404rz.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075686/earbuds_oxc3t9.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745081499/Wave300-6500-2-removebg-preview_pvlzcm.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745081499/Wave300-6500-2-removebg-preview_pvlzcm.png",
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745081499/Wave300-6500-removebg-preview_pvhlrv.png",
+                color: "blue"
+            }
+        ],
+        defaultColor: "blue",
+        Title: "JBL Wave 300TWS Wireless Earbuds with Pure Bass Sound & 26-Hour Battery Life",
+        SubTitle: "Pure Bass",
+        category: "audio",
+        subCategory: "earbuds",
+        variant: "wave-300tws",
+        brand: "JBL",
+        name: "jbl-wave-300tws",
+        description: "Experience immersive JBL Pure Bass sound and effortless connectivity with the JBL Wave 300TWS. Designed for everyday convenience, these earbuds offer seamless wireless streaming, up to 26 hours of playtime, and hands-free call support with a built-in mic and voice assistant access.",
+        detailsDescription: "The JBL Wave 300TWS are truly wireless earbuds that combine ergonomic design with exceptional sound performance. Enjoy deep bass and crisp audio with JBL’s signature Pure Bass sound. Stay connected throughout the day with a total of 26 hours battery life including the charging case, and take advantage of features like voice assistant integration, built-in mic for calls, quick charge capability, and Bluetooth streaming. All packed in a compact, comfort-fit design that fits snugly into your lifestyle.",
+        topSpecs: [
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- Up to 26 Hours</span></h6>",
+            "<h6><span>SOUND QUALITY</span><span class='detail-specs-h6'>- JBL Pure Bass</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wireless Bluetooth</span></h6>",
+            "<h6><span>CALL SUPPORT</span><span class='detail-specs-h6'>- Built-in Microphone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> -- JBL</span></h6>",
+            "<h6><span>MODEL</span><span> -- Wave 300TWS</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> -- Wireless Bluetooth</span></h6>",
+            "<h6><span>SOUND</span><span> -- JBL Pure Bass</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- 26 Hours (with case)</span></h6>",
+            "<h6><span>CHARGING</span><span> -- Quick Charge Supported</span></h6>",
+            "<h6><span>MICROPHONE</span><span> -- Built-in</span></h6>",
+            "<h6><span>VOICE ASSISTANT</span><span> -- Integrated</span></h6>",
+            "<h6><span>FORM FACTOR</span><span> -- In Ear</span></h6>",
+            "<h6><span>MATERIAL</span><span> -- Plastic</span></h6>",
+            "<h6><span>HANDS-FREE</span><span> -- Yes</span></h6>",
+            "<h6><span>WEIGHT</span><span> -- Lightweight</span></h6>"
+        ],
+        tags: [
+            "jbl",
+            "wave-300tws",
+            "pure-bass",
+            "wireless-earbuds",
+            "bluetooth",
+            "voice-assistant",
+            "long-battery"
+        ],
+        carousels: ["bassPerformance", "comfortDesign", "wirelessCalls"],
+        dropURL: "https://fortresselectronics.co.ke/product/jbl-wave-300tws/",
+        youtubeReview: "https://www.youtube.com/embed/lTlUdZ7HokU?si=7_oA77MQTnuT3lQd",
+        unboxingVideo: "https://www.youtube.com/embed/d9_GhHv8r2Q?si=EWIedrt9jWvZgALv",
+        prevPrice: 7999,
+        nowPrice: 7250,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    
+    
+    
+    
+    //--------- NECKBANDS
+    {
+        productID: 7301,
+        platform: "Neckbands",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745076175/earbuds_h404rz.png",
+        playboxRating: "Classic",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745075686/earbuds_oxc3t9.png",
+        mainproductImage: "", // Main image of Anker Life U2i Soundcore
+        imageColorMap: [
+            {
+                image: "", // First image
+                color: "Black"
+            },
+            {
+                image: "", // Second image
+                color: "Black"
+            }
+        ],
+        defaultColor: "Black",
+        Title: "Anker Soundcore Life U2i Neckband Earphones with 10mm Drivers, Fast USB-C Charging & IPX7 Waterproof Build",
+        SubTitle: "Neckband Pro",
+        category: "audio",
+        subCategory: "neckbands",
+        variant: "life-u2i-soundcore",
+        brand: "Anker",
+        name: "anker-life-u2i-soundcore",
+        description: "The Anker Soundcore Life U2i combines long battery life, crystal-clear calls, and a lightweight neckband design. Enjoy superior audio from 10mm graphene drivers with BassUp technology, sweat and water resistance, and fast USB-C charging for your on-the-go lifestyle.",
+        detailsDescription: "Anker Life U2i Soundcore delivers powerful bass, rich mids, and crisp treble with its 10mm graphene drivers. Built with comfort and mobility in mind, the lightweight silicone neckband with titanium steel core offers a secure fit. With IPX7 waterproof protection, up to 24 hours playtime, and fast USB-C charging, this is the ultimate audio companion for active users. Enjoy clearer calls thanks to its built-in mic and noise reduction powered by cVc 8.0 AI-enhanced voice pickup.",
+        topSpecs: [
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- 24 Hours</span></h6>",
+            "<h6><span>DRIVERS</span><span class='detail-specs-h6'>- 10mm Graphene</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span class='detail-specs-h6'>- IPX7</span></h6>",
+            "<h6><span>CHARGING PORT</span><span class='detail-specs-h6'>- USB-C</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRAND</span><span> -- Anker</span></h6>",
+            "<h6><span>MODEL</span><span> -- Life U2i Soundcore</span></h6>",
+            "<h6><span>TYPE</span><span> -- Neckband Earphones</span></h6>",
+            "<h6><span>DRIVERS</span><span> -- 10mm Graphene</span></h6>",
+            "<h6><span>CODEC</span><span> -- SBC, AAC</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span> -- 24 Hours</span></h6>",
+            "<h6><span>FAST CHARGE</span><span> -- 10 min = 3 hrs playtime</span></h6>",
+            "<h6><span>CHARGING TIME</span><span> -- 1.5 Hours</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span> -- Bluetooth 5.0</span></h6>",
+            "<h6><span>WIRELESS RANGE</span><span> -- 10 Meters</span></h6>",
+            "<h6><span>CALL SUPPORT</span><span> -- Crystal-Clear cVc 8.0</span></h6>",
+            "<h6><span>WATER RESISTANCE</span><span> -- IPX7 Waterproof</span></h6>",
+            "<h6><span>FOLDABLE</span><span> -- Yes</span></h6>",
+            "<h6><span>SWEAT PROOF</span><span> -- Yes</span></h6>"
+        ],
+        tags: [
+            "anker",
+            "soundcore",
+            "neckband",
+            "bluetooth-earphones",
+            "u2i",
+            "ipx7",
+            "usb-c",
+            "bassup"
+        ],
+        carousels: ["neckbandComfort", "bassDriven", "sweatProofBuild"],
+        dropURL: "",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 3560,
+        nowPrice: 3000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    }
     
 ]

@@ -3,9 +3,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { 
   MinusCircle, 
-  PlusCircle, 
   Star, 
-  Trash2, 
   RefreshCw,
   ChevronDown,
   ChevronUp
@@ -173,7 +171,7 @@ const FilterSidebar = ({
   };
 
   return (
-    <div className="bg-blue-300/50 p-4 max-w-xs w-full border-2 border-primary">
+    <div className="bg-blue-300/50 p-4 md:max-w-xs w-full border-2 border-primary md:block md:mx-auto">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-xl font-bold text-gray-800">Filters</h2>
         {activeFilters.length > 0 && (

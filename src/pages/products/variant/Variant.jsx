@@ -6,7 +6,6 @@ import { useSelector, useDispatch } from 'react-redux';
 import { addToCart } from '../../../redux/cartSlice';
 import ProductPopup from '../../../components/productsPopup/ProductsPopup';
 import ProductsCard from '../../../components/productsCard/ProductsCard'
-import './variant.css';
 
 const Variant = ({ params }) => {
     const { variant, category } = useParams();

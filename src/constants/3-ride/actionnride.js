@@ -1,6 +1,7 @@
 export const actionnride = [
+    //------------------- SKATEBOARDS
     {
-        productID: 1401,
+        productID: 3001,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -67,7 +68,7 @@ export const actionnride = [
         rating: 5.0
     },
     {
-        productID: 1402,
+        productID: 3002,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -134,7 +135,7 @@ export const actionnride = [
         rating: 5.0
     },
     {
-        productID: 1403,
+        productID: 3003,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -201,7 +202,7 @@ export const actionnride = [
         rating: 0
     },
     {
-        productID: 1404,
+        productID: 3004,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -273,7 +274,7 @@ export const actionnride = [
         rating: 4.3
     },
     {
-        productID: 1405,
+        productID: 3005,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -339,8 +340,14 @@ export const actionnride = [
         condition: "New",
         rating: 4.4
     },
+
+
+
+
+
+    //------------- HOVERBOARDS
     {
-        productID: 1406,
+        productID: 3101,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -405,7 +412,7 @@ export const actionnride = [
         rating: 4.6
     },    
     {
-        productID: 1407,
+        productID: 3102,
         platform: "Action & Ride",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",

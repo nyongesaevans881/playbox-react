@@ -1,4 +1,6 @@
-export const consoles = [
+export const playstation = [
+    //---------------- CONSOLES
+    //---------------- PLAYSTATION 5
     {
         productID: 1,
         platform: "PlayStation",
@@ -300,386 +302,10 @@ export const consoles = [
         condition: "New",
         rating: "everyone",
     },
-    {
-        productID: 5,
-        platform: "Xbox",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
-        playboxRating: "Lit",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238208/lit_imftjc.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241971/xbox_l2axm1.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242509/x-box-one_m7vmkr.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242509/x-box-one_m7vmkr.png",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242510/x-box-one-2_e0cqau.jpg",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242510/x-box-one-3_obeql2.png",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242511/x-box-one-4_ci0hig.png",
-                color: "black",
-            }
-        ],
-        defaultColor: "black",
-        Title: "Microsoft Xbox One Console - 500GB HDD",
-        SubTitle: "Xbox One",
-        category: "consoles",
-        subCategory: "xbox",
-        brand: "xbox-one",
-        variant: "xbox-one",
-        name: "microsoft-xbox-one-console",
-        description: "The Microsoft Xbox One delivers an amazing gaming experience with powerful hardware, an extensive game library, and seamless online connectivity. It features backward compatibility with many Xbox 360 games, enhanced multimedia functionality, and access to Xbox Live for multiplayer gaming. The console supports stunning HD visuals and offers a wide variety of entertainment options like streaming, apps, and Blu-ray playback.",
-        detailsDescription: "The Microsoft Xbox One is designed to offer the ultimate gaming experience. With a 500GB HDD, it provides ample storage for your favorite games and media. Powered by over 300,000 servers, Xbox Live ensures smooth and secure multiplayer gaming. The console features an ergonomic controller for precision gameplay and offers advanced Kinect integration for voice commands and motion control. With an ever-expanding game library and access to apps like Netflix, Spotify, and YouTube, the Xbox One is not just a gaming device but your all-in-one entertainment hub.",
-        topSpecs: [
-            "<h6><span>Processor</span><span>Custom AMD 8-core CPU</span></h6>",
-            "<h6><span>Storage</span><span>500GB HDD</span></h6>",
-            "<h6><span>Graphics</span><span>AMD Radeon GPU</span></h6>",
-            "<h6><span>Resolution</span><span>1080p Full HD</span></h6>",
-            "<h6><span>Backward Compatibility</span><span>Supports many Xbox 360 titles</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>ONLINE GAMING</span><span class='detail-specs-h6'>- Powered by 300,000 servers for maximum performance.</span></h6>",
-            "<h6><span>ENTERTAINMENT</span><span class='detail-specs-h6'>- Access to Netflix, YouTube, Spotify, and more apps.</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 500GB HDD for games and media.</span></h6>",
-            "<h6><span>CONTROLLER</span><span class='detail-specs-h6'>- Ergonomic design for precision and comfort.</span></h6>",
-            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- AMD Radeon GPU for stunning visuals.</span></h6>"
-        ],
-        tags: [
-            "xbox",
-            "xbox-one",
-            "microsoft",
-            "gaming-console",
-            "multiplayer",
-            "entertainment"
-        ],
-        carousels: [
-            "bestSellers",
-            "xbox",
-            "consoles"
-        ],
-        storage: "500GB",
-        dropURL: "https://www.digitalstore.co.ke/products/xbox-one-console",
-        youtubeReview: "https://www.youtube.com/embed/0adBlAMsFX8?si=aq8JPNMd5s0Dkykg",
-        unboxingVideo: "https://www.youtube.com/embed/JF4Ppe5cStE?si=U7bYlZA3nfuWLt3Q",
-        prevPrice: 33000,
-        nowPrice: 32500,
-        stock: 10,
-        freeDelivery: true,
-        condition: "New",
-        rating: "T (Teens)",
-    },
-    {
-        productID: 6,
-        platform: "Xbox",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
-        playboxRating: "Lit",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238208/lit_imftjc.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241971/xbox_l2axm1.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242964/x-box-one_k07qk9.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242964/x-box-one_k07qk9.png",
-                color: "white",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242854/x-box-one-2_nfwow3.png",
-                color: "white",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242854/x-box-one-s-4_otcnhx.png",
-                color: "white",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741242854/x-box-one-3_h2hous.png",
-                color: "white",
-            }
-        ],
-        defaultColor: "white",
-        Title: "Microsoft Xbox One S Console - 1TB HDD",
-        SubTitle: "Xbox One S",
-        category: "consoles",
-        subCategory: "xbox",
-        brand: "xbox-one-s",
-        variant: "xbox-one-s",
-        name: "microsoft-xbox-one-s-console",
-        description: "The Microsoft Xbox One S is a sleeker, slimmer, and more powerful gaming console. Featuring 4K Blu-Ray, HDR compatibility, and ultra HD streaming, the Xbox One S offers a cutting-edge entertainment and gaming experience. With a 1TB HDD for ample storage, a newly redesigned wireless controller, and built-in parental control capabilities, it's a perfect choice for both casual and serious gamers.",
-        detailsDescription: "The Xbox One S is designed to deliver top-notch performance and stunning visuals. It supports 4K Blu-Ray playback, HDR for vivid colors, and 4K streaming to elevate your entertainment experience. With a slim design that’s 40% smaller than the original Xbox One, the console easily fits into your space. The new Xbox wireless controller enhances precision and comfort, while integrated motion-sensing technology adds an immersive gaming dimension. Perfect for Ultra HD movie playback and high-resolution gaming, the Xbox One S is the ideal choice for trendsetters in gaming and entertainment.",
-        topSpecs: [
-            "<h6><span>Storage</span><span>1TB HDD</span></h6>",
-            "<h6><span>Resolution</span><span>4K Ultra HD with HDR</span></h6>",
-            "<h6><span>Blu-Ray</span><span>4K Blu-Ray and Streaming</span></h6>",
-            "<h6><span>Design</span><span>40% slimmer, sleek white design</span></h6>",
-            "<h6><span>Controller</span><span>New Xbox Wireless Controller</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- Maximum 2160p (4K) resolution for gaming and streaming.</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 1TB HDD for games and media.</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- HDR and Ultra HD compatible for stunning visuals.</span></h6>",
-            "<h6><span>ENTERTAINMENT</span><span class='detail-specs-h6'>- Supports 4K Blu-Ray, Ultra HD streaming, and apps like Netflix.</span></h6>",
-            "<h6><span>CONTROLLER</span><span class='detail-specs-h6'>- Redesigned wireless controller for better grip and precision.</span></h6>"
-        ],
-        tags: [
-            "xbox",
-            "xbox-one-s",
-            "microsoft",
-            "gaming-console",
-            "4k",
-            "trendsetter",
-            "entertainment"
-        ],
-        carousels: [
-            "bestSellers",
-            "xbox",
-            "4kGaming"
-        ],
-        storage: "1TB",
-        dropURL: "https://www.mascomintl.com/Xbox-One-S-1TB-Console-4K-Ultra-Blu-ray-Xbox-One-S-By-Microsoft-White-DpzZbcGBuFjclSd5?title_n=Xbox+One+S+1TB+Console+4K+Ultra+Blu-ray&price_n=30000&prod_id_n=389&prod_url_n=%2F%2Fwww.mascomintl.com%2FXbox-One-S-1TB-Console-4K-Ultra-Blu-ray-Xbox-One-S-By-Microsoft-White-DpzZbcGBuFjclSd5&qty_n=1&add-to-cart=",
-        youtubeReview: "https://www.youtube.com/embed/dwoOcZsjl6Y?si=9W27LpRJYb2oQIHL",
-        unboxingVideo: "https://www.youtube.com/embed/BP_3lqpyT8g?si=B6Mq01TPXUbm6ZTa",
-        prevPrice: 32499,
-        nowPrice: 30000,
-        stock: 15,
-        freeDelivery: true,
-        condition: "New",
-        rating: "E (Everyone)",
-    },
-    {
-        productID: 7,
-        platform: "Xbox",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
-        playboxRating: "Lit",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238208/lit_imftjc.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241971/xbox_l2axm1.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243173/xbox-one-x_v7rqyq.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243173/xbox-one-x_v7rqyq.png",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243174/xbox-one-x-3_axkugk.png",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243175/xbox-one-x-2_mheyey.jpg",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243176/xbox-one-x-4_hpfrk7.png",
-                color: "black",
-            }
-        ],
-        defaultColor: "black",
-        Title: "Microsoft Xbox One X - Native 4K Gaming",
-        SubTitle: "Xbox One X",
-        category: "consoles",
-        subCategory: "xbox",
-        brand: "xbox-one-x",
-        variant: "xbox-one-x",
-        name: "microsoft-xbox-one-x-console",
-        description: "Experience true power with the Microsoft Xbox One X, the most powerful console of its generation. Featuring 6 teraflops of GPU power, native 4K gaming, HDR10 support, and immersive Dolby Atmos audio, the Xbox One X delivers unrivaled realism in gaming. Compact yet mighty, this console is designed for enthusiasts who demand cutting-edge performance and graphics.",
-        detailsDescription: "The Xbox One X Gaming Console redefines gaming performance with native 4K resolution, HDR visuals, and a 6-teraflop GPU. Its 8-core AMD CPU delivers blazing-fast performance, while 12GB of GDDR5 RAM powers massive worlds and seamless gameplay. Enjoy smoother animations, realistic environments, and the best cooling system to keep the performance at its peak. Designed for hardcore gamers, the Xbox One X also supports 4K UHD Blu-ray playback and backward compatibility, making it an all-in-one entertainment powerhouse.",
-        topSpecs: [
-            "<h6><span>Graphics Power</span><span>6 Teraflops, 4K Native Gaming</span></h6>",
-            "<h6><span>Processor</span><span>2.3GHz Custom 8-Core AMD CPU</span></h6>",
-            "<h6><span>Memory</span><span>12GB GDDR5 VRAM</span></h6>",
-            "<h6><span>Storage</span><span>1TB HDD</span></h6>",
-            "<h6><span>Audio</span><span>Dolby Atmos, DTS:X</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>PROCESSOR</span><span class='detail-specs-h6'>- 2.3 GHz Custom 8-Core AMD CPU with enhanced AI and real-world detail.</span></h6>",
-            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- 6 Teraflops GPU for native 4K gaming at 60fps.</span></h6>",
-            "<h6><span>MEMORY</span><span class='detail-specs-h6'>- 12GB GDDR5 for faster load times and bigger gaming environments.</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 1TB HDD for storing games and media.</span></h6>",
-            "<h6><span>VISUALS</span><span class='detail-specs-h6'>- HDR10 support with lifelike colors and higher contrast.</span></h6>",
-            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Dolby Atmos and DTS:X for immersive spatial sound.</span></h6>",
-            "<h6><span>COOLING</span><span class='detail-specs-h6'>- Liquid cooling and centrifugal fan for maximum cooling and minimal noise.</span></h6>",
-            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Compact and sleek, 40% smaller than previous Xbox models.</span></h6>"
-        ],
-        tags: [
-            "xbox",
-            "xbox-one-x",
-            "microsoft",
-            "4k-gaming",
-            "lit",
-            "performance",
-            "hdr"
-        ],
-        carousels: [
-            "bestSellers",
-            "4kGaming",
-            "premiumConsoles"
-        ],
-        storage: "1TB",
-        dropURL: "https://starmac.co.ke/product/microsoft-xbox-one-x-gaming-console-price-kenya/?srsltid=AfmBOorSW8yMnpNL48j92lZAC7q9-O57irWqOgXNaigxkrkIRpu_oC0B",
-        youtubeReview: "https://www.youtube.com/embed/4AVra_cGnxI?si=TX866WhU3mj7Plis",
-        unboxingVideo: "https://www.youtube.com/embed/LNnMZJ2Ro-k?si=ZxMaK6OeR7ZamjcM",
-        prevPrice: 44000,
-        nowPrice: 44000,
-        stock: 10,
-        freeDelivery: true,
-        condition: "New",
-        rating: "T (Teen)",
-    },
-    {
-        productID: 8,
-        platform: "Xbox",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
-        playboxRating: "Lit",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238208/lit_imftjc.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241971/xbox_l2axm1.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243608/xbox-series-s-1TB_hs0usj.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243608/xbox-series-s-1TB_hs0usj.png",
-                color: "white",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243609/xbox-series-s-1TB-2_vyiamc.png",
-                color: "white",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243609/xbox-series-s-1TB-3_yldcxq.png",
-                color: "white",
-            }
-        ],
-        defaultColor: "white",
-        Title: "Xbox Series S - All-Digital Next-Gen Console",
-        SubTitle: "Xbox Series S",
-        category: "consoles",
-        subCategory: "xbox",
-        brand: "xbox-series-s",
-        variant: "xbox-series-s",
-        name: "xbox-series-s-console",
-        description: "The Xbox Series S is the ultimate next-gen console for gamers who prioritize performance and affordability. Compact and all-digital, it features 1TB SSD storage, 120 FPS gameplay, and advanced features like ray tracing and 3D Spatial Sound. Experience lightning-fast load times and access a vast library of backward-compatible games from across Xbox generations.",
-        detailsDescription: "The Xbox Series S is designed for gamers who demand speed, power, and value. Powered by Xbox Velocity Architecture, it delivers quick resume, ultra-fast load times, and seamless transitions between games. With up to 120 FPS performance, advanced ray tracing, and 3D Spatial Sound, the Series S brings games to life like never before. Perfect for gamers on a budget who want next-gen gaming in a sleek, compact package.",
-        topSpecs: [
-            "<h6><span>Performance</span><span>120 FPS Gameplay</span></h6>",
-            "<h6><span>Storage</span><span>1TB SSD</span></h6>",
-            "<h6><span>Resolution</span><span>1440p with HDR</span></h6>",
-            "<h6><span>Digital-Only</span><span>All-Digital Console</span></h6>",
-            "<h6><span>Backwards Compatibility</span><span>Supports Xbox One, Xbox 360, and Original Xbox Games</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>PROCESSOR</span><span class='detail-specs-h6'>- Custom 8-Core Zen 2 CPU with 4 TFLOPS RDNA 2 GPU for cutting-edge performance.</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 1TB SSD with Xbox Velocity Architecture for lightning-fast load times.</span></h6>",
-            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- Gaming resolution at 1440p with up to 120 FPS for smoother, competitive gameplay.</span></h6>",
-            "<h6><span>VISUALS</span><span class='detail-specs-h6'>- Hardware-accelerated ray tracing and HDR for lifelike visuals.</span></h6>",
-            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Advanced 3D Spatial Sound for an immersive audio experience.</span></h6>",
-            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Compact, all-digital design for a sleek, minimalist setup.</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- HDMI 2.1 support, USB 3.1 ports, and Wi-Fi 802.11ac.</span></h6>"
-        ],
-        tags: [
-            "xbox",
-            "xbox-series-s",
-            "next-gen",
-            "digital-only",
-            "trendsetter",
-            "budget-friendly",
-            "compact"
-        ],
-        carousels: [
-            "bestSellers",
-            "nextGenConsoles",
-            "digitalGaming"
-        ],
-        storage: "1TB SSD",
-        dropURL: "https://dealfit.tech/product/xbox-series-s-512gb-all-digital-gaming-console/?gad_source=1&gclid=CjwKCAiA-Oi7BhA1EiwA2rIu20r0xKbe0RTlOlYTtR5grKdAW-OJZ_lzttvK2P4mIOLziMhCDqUuWxoCJA4QAvD_BwE",
-        youtubeReview: "https://www.youtube.com/embed/2HnvmVtEqUg?si=qAIa4Qj6lZDbONWQ",
-        unboxingVideo: "https://www.youtube.com/embed/b-sFJs3FkWU?si=ofAINHPK6drAA83o",
-        prevPrice: 59999,
-        nowPrice: 54999,
-        stock: 15,
-        freeDelivery: true,
-        condition: "New",
-        rating: "E (Everyone)",
-    },
-    {
-        productID: 9,
-        platform: "Xbox",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
-        playboxRating: "Lit",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238208/lit_imftjc.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241971/xbox_l2axm1.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243857/xbox-series-x-1TB_yejdrw.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243857/xbox-series-x-1TB_yejdrw.png",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243857/xbox-series-x-1TB-2_d3lj9e.jpg",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243858/xbox-series-x-1TB-4_bnrdet.jpg",
-                color: "black",
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741243864/xbox-series-x-1TB-3_djkprh.png",
-                color: "black",
-            }
-        ],
-        defaultColor: "black",
-        Title: "Xbox Series X - The Most Powerful Xbox Console",
-        SubTitle: "Xbox Series X",
-        category: "consoles",
-        subCategory: "xbox",
-        brand: "xbox-series-x",
-        variant: "xbox-series-x",
-        name: "xbox-series-x-console",
-        description: "The Xbox Series X is the most powerful gaming console, designed for gamers who demand performance, speed, and immersion. With 1TB SSD storage, a 12 TFLOPS GPU, and 4K resolution at up to 120 FPS, the Series X delivers unparalleled gaming experiences. Enjoy next-gen features like ray tracing, quick resume, and 3D Spatial Sound in a sleek, premium design.",
-        detailsDescription: "The Xbox Series X redefines next-gen gaming with its custom 8-core Zen 2 CPU, 12 TFLOPS RDNA 2 GPU, and 16GB GDDR6 memory. Experience ultra-smooth gameplay with up to 120 FPS at 4K resolution. Designed for serious gamers, the Series X offers expandable storage, advanced ray tracing, and immersive audio for a truly premium experience.",
-        topSpecs: [
-            "<h6><span>Performance</span><span>120 FPS Gameplay</span></h6>",
-            "<h6><span>Storage</span><span>1TB SSD</span></h6>",
-            "<h6><span>Resolution</span><span>4K with HDR</span></h6>",
-            "<h6><span>Ray Tracing</span><span>Advanced Visuals</span></h6>",
-            "<h6><span>Backwards Compatibility</span><span>Supports Xbox One, Xbox 360, and Original Xbox Games</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>PROCESSOR</span><span class='detail-specs-h6'>- Custom 8-Core Zen 2 CPU with 12 TFLOPS RDNA 2 GPU for exceptional performance.</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 1TB Custom NVMe SSD for ultra-fast load times.</span></h6>",
-            "<h6><span>MEMORY</span><span class='detail-specs-h6'>- 16GB GDDR6 memory for seamless multitasking.</span></h6>",
-            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- True 4K resolution with up to 120 FPS for smoother gameplay.</span></h6>",
-            "<h6><span>VISUALS</span><span class='detail-specs-h6'>- Hardware-accelerated ray tracing and HDR for lifelike visuals.</span></h6>",
-            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Dolby Atmos and 3D Spatial Sound for immersive audio experiences.</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- HDMI 2.1 support, USB 3.1 ports, and Wi-Fi 802.11ac.</span></h6>",
-            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- 15.1cm x 15.1cm x 30.1cm; Weight: 9.8 lbs.</span></h6>"
-        ],
-        tags: [
-            "xbox",
-            "xbox-series-x",
-            "next-gen",
-            "elite",
-            "4k-gaming",
-            "performance",
-            "powerful"
-        ],
-        carousels: [
-            "bestSellers",
-            "nextGenConsoles",
-            "eliteGaming"
-        ],
-        storage: "1TB SSD",
-        dropURL: "https://www.iteystore.co.ke/products/xbox-series-x?variant=43280654401791&currency=KES&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gclid=CjwKCAiA-Oi7BhA1EiwA2rIu2yz8WfSvDJuH23jruC11Dg8DuzxPtfEqMx-8MMVBg66ev9fD5Q4dixoCNNYQAvD_BwE",
-        youtubeReview: "https://www.youtube.com/embed/SW7bpujoqPo?si=wP9d6epE-AiC0Hxr",
-        unboxingVideo: "https://www.youtube.com/embed/qMI8iUUsiMs?si=cD7nqOuh2mtG5zrz",
-        prevPrice: 95000,
-        nowPrice: 66999,
-        stock: 10,
-        freeDelivery: true,
-        condition: "New",
-        rating: "T (Teens)",
-    },
-    {
-        productID: 10,
+
+     //---------------- PlayStation 4
+     {
+        productID: 11,
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
@@ -750,7 +376,7 @@ export const consoles = [
         rating: 4.8
     },
     {
-        productID: 11,
+        productID: 12,
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
@@ -824,7 +450,7 @@ export const consoles = [
         rating: 4.8
     },
     {
-        productID: 12,
+        productID: 13,
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
@@ -895,150 +521,352 @@ export const consoles = [
         condition: "NEW",
         rating: 4.7
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    //---------------- CONTROLLERS
+    //-------------------PS 5
     {
-        productID: 13,
-        platform: "Nintendo",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        playboxRating: "Essential",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741721230/po1sc89sn9n21_p496th.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741720995/ntendo-switch_vr7i8e.png",
+        productID: 51,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456135/PS5-DualSense-Edge_fia9kt.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741720995/ntendo-switch_vr7i8e.png",
-                color: "blue"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456135/PS5-DualSense-Edge_fia9kt.png",
+                color: "white",
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741720994/ntendo-switch-3_b9x3ls.png",
-                color: "red"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456130/PS5-DualSense-Edge_2_ztym6b.jpg",
+                color: "white",
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741720994/ntendo-switch-1_lvfxzn.jpg",
-                color: "red"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456130/PS5-DualSense-Edge_3_nx4nfv.png",
+                color: "white",
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741720994/ntendo-switch-4_gfrr69.png",
-                color: "red"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456131/PS5-DualSense-Edge_4_lnmzuu.png",
+                color: "white",
             }
         ],
         defaultColor: "white",
-        Title: "Nintendo Switch - OLED Model",
-        SubTitle: "Nintendo Switch",
-        category: "consoles",
-        subCategory: "nintendo",
-        brand: "nintendo",
-        variant: "nintendo-switch",
-        name: "nintendo-switch-oled",
-        description: "The Nintendo Switch OLED Model features a vibrant 7-inch OLED screen, a wide adjustable stand, enhanced audio, and a dock with a wired LAN port. Enjoy a seamless handheld and docked gaming experience with improved visuals and sound.",
-        detailsDescription: "Meet the newest member of the Nintendo Switch family! The new system features a bright 7-inch OLED display for vivid colors and enhanced contrast, a sturdy adjustable stand, and 64GB of internal storage (expandable via microSD). Whether playing handheld or docked for TV gaming, the Nintendo Switch OLED Model offers an immersive experience.",
+        Title: "PS5 PlayStation DualSense Edge Wireless Controller",
+        SubTitle: "DualSense Edge",
+        category: "accessories",
+        subCategory: "playstation",
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-playstation-dualsense-edge-wireless-controller",
+        description: "The PS5 DualSense Edge Wireless Controller is an ultra-customizable gamepad designed for professional-level gaming. Featuring changeable stick caps, remappable inputs, and custom settings, this controller allows you to fine-tune sensitivity, adjust dead zones, and save multiple control profiles. The swappable back buttons provide quick access to essential controls, while adaptive triggers and haptic feedback enhance your immersive gaming experience.",
+        detailsDescription: "Take your gaming to the next level with the DualSense Edge Wireless Controller. With fully customizable inputs, adjustable trigger travel, and replaceable stick modules, this controller ensures peak performance. Enjoy immersive haptic feedback and adaptive trigger resistance, bringing your in-game actions to life. Designed for competitive gamers, the DualSense Edge provides unparalleled control and comfort with its ergonomic design and quick-swap control profiles.",
         topSpecs: [
-            "<h6><span>Display</span><span>7-inch OLED screen with vibrant colors</span></h6>",
-            "<h6><span>Storage</span><span>64GB internal (expandable via microSD)</span></h6>",
-            "<h6><span>Performance</span><span>Custom Nvidia Tegra X1 chipset</span></h6>",
-            "<h6><span>Battery Life</span><span>4.5 – 9 hours depending on usage</span></h6>",
-            "<h6><span>Connectivity</span><span>USB-C, 3.5mm audio, microSD, HDMI (docked), LAN (docked)</span></h6>",
-            "<h6><span>Max Resolution</span><span>720p (handheld), 1080p (docked)</span></h6>"
+            "<h6><span>Custom Controls</span><span>Fully remappable</span></h6>",
+            "<h6><span>Adjustable Triggers</span><span>Short & long travel settings</span></h6>",
+            "<h6><span>Stick Modules</span><span>Swappable & replaceable</span></h6>",
+            "<h6><span>Back Buttons</span><span>Mappable & interchangeable</span></h6>",
+            "<h6><span>Immersive Features</span><span>Haptic feedback & adaptive triggers</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>CHIPSET</span><span class='detail-specs-h6'>- Custom Nvidia Tegra X1</span></h6>",
-            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 7-inch OLED screen with improved contrast</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 64GB internal, expandable via microSD</span></h6>",
-            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- 4.5 to 9 hours based on game usage</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- USB-C, 3.5mm audio, microSD, HDMI (docked), LAN (docked)</span></h6>",
-            "<h6><span>SIZE</span><span class='detail-specs-h6'>- 9.5 x 4.0 x 0.6 inches, Weight: 14.9 ounces</span></h6>"
+            "<h6><span>PRECISION CONTROL</span><span class='detail-specs-h6'>- Adjustable stick sensitivity and dead zones for enhanced accuracy.</span></h6>",
+            "<h6><span>MAPPABLE BACK BUTTONS</span><span class='detail-specs-h6'>- Assign essential actions to swappable back buttons for quick access.</span></h6>",
+            "<h6><span>ADJUSTABLE TRIGGER LENGTHS</span><span class='detail-specs-h6'>- Manually customize trigger travel for different play styles.</span></h6>",
+            "<h6><span>QUICK-SWAP PROFILES</span><span class='detail-specs-h6'>- Save multiple configurations and switch between them instantly.</span></h6>",
+            "<h6><span>IMMERSIVE EXPERIENCE</span><span class='detail-specs-h6'>- Adaptive triggers and haptic feedback for realistic gaming sensations.</span></h6>"
         ],
         tags: [
-            "nintendo-switch",
-            "oled-model",
-            "gaming-console",
-            "handheld-gaming",
-            "64gb-storage",
-            "nintendo"
+            "ps5",
+            "playstation",
+            "next-gen",
+            "elite",
+            "competitive-gaming",
+            "customizable-controller"
         ],
-        carousels: ["latestArrival"],
-        storage: "64GB",
-        dropURL: "https://cellularkenya.co.ke/product/nintendo-switch-oled-model/?gad_source=1",
-        youtubeReview: "https://www.youtube.com/embed/Xqf7Hh_5R2E?si=cHd9_mHcqvYuUo_-",
-        unboxingVideo: "https://www.youtube.com/embed/J-iUQoV6d2w?si=JUKQXUq6UzrSXiyV",
-        prevPrice: 40000,
-        nowPrice: 38000,
+        carousels: [
+            "latestArrival", "ps5Accessories"
+        ],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-playstation-dualsense-edge-wireless-controller/",
+        youtubeReview: "https://www.youtube.com/embed/T-QMVczY5qI?si=05c3mgL1bAe6G8TU",
+        unboxingVideo: "https://www.youtube.com/embed/_JSqhJj7ZNk?si=8Od7qYHO6_SwzSO4",
+        prevPrice: 33000,
+        nowPrice: 29999,
+        stock: 10,
+        condition: "New",
+        rating: "4.5",
+    },
+    {
+        productID: 100,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot_m9eryv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot_m9eryv.png",
+                color: "white",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot-2_fz1a33.png",
+                color: "white",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot-3_mjgbv6.png",
+                color: "white",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot-4_nw6wjk.png",
+                color: "white",
+            }
+        ],
+        defaultColor: "white",
+        Title: "PS5 DualSense Controller - Astro Bot Limited Edition",
+        SubTitle: "Astro Bot",
+        category: "controllers",
+        subCategory: "ps-5",
+        brand: "ps-5-limited-editions",
+        name: "ps5-dualsense-controller-astro-bot-limited-edition",
+        description: "Immerse yourself in the next generation of gaming with the PS5 DualSense Wireless Controller - Astro Bot Limited Edition. Featuring cutting-edge haptic feedback and adaptive triggers, this controller delivers a truly responsive and immersive gaming experience. Built-in microphone and integrated speaker allow for seamless in-game communication, while the ergonomic design ensures comfortable gameplay for extended sessions. Whether you're exploring new worlds or competing online, the DualSense controller provides precision, comfort, and iconic PlayStation quality.",
+        detailsDescription: "The DualSense Wireless Controller brings gaming to life like never before with its unique Astro Bot Limited Edition design. Experience in-game actions and environments with haptic feedback and adaptive triggers that adjust resistance for realistic interactions. The refined ergonomic shape and enhanced sticks offer a comfortable grip and precision control. With Bluetooth connectivity, you can pair the controller with Apple devices, including iPad, iPhone, Mac, and Apple TV, for a versatile gaming experience. The built-in microphone allows real-time chat, while the classic PlayStation layout ensures familiarity for all gamers.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PS5, PC, Apple devices</span></h6>",
+            "<h6><span>Wireless Technology</span><span>Bluetooth</span></h6>",
+            "<h6><span>Haptic Feedback</span><span>Yes</span></h6>",
+            "<h6><span>Adaptive Triggers</span><span>Yes</span></h6>",
+            "<h6><span>Microphone</span><span>Built-in</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Feel realistic vibrations that respond dynamically to in-game environments.</span></h6>",
+            "<h6><span>ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Experience varying force levels that make gameplay more immersive.</span></h6>",
+            "<h6><span>BUILT-IN MICROPHONE</span><span class='detail-specs-h6'>- Communicate seamlessly with teammates without needing an external headset.</span></h6>",
+            "<h6><span>ERGONOMIC DESIGN</span><span class='detail-specs-h6'>- Comfortable grip and refined stick design for precise control.</span></h6>",
+            "<h6><span>APPLE DEVICE COMPATIBILITY</span><span class='detail-specs-h6'>- Easily pair with iPad, iPhone, Mac, and Apple TV for multi-platform gaming.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "dualsense",
+            "astro-bot",
+            "wireless-controller",
+            "haptic-feedback",
+            "adaptive-triggers",
+            "gaming-accessory"
+        ],
+        carousels: [
+            "latestArrivals", "ps5Accessories"
+        ],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-dualsense-controller-astro-bot-limited-edition/?gad_source=1&gclid=CjwKCAiA65m7BhAwEiwAAgu4JCB6Uuz5N1K56AOnWxvHcaAHAIb6_IicgxihzM6V2t0NZ2k6sc5Q-xoCCkwQAvD_BwE",
+        youtubeReview: "https://www.youtube.com/embed/H06SIw8ucGs?si=nsOoeN7BdE7Z3746",
+        unboxingVideo: "https://www.youtube.com/embed/8sJa0Q7XYEU?si=e3uocbEIUXY_kLz3",
+        prevPrice: 23000,
+        nowPrice: 17500,
+        stock: 10,
+        condition: "New",
+        rating: "4.5",
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //--------------------ACCESSORIES
+    {
+        productID: 101,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806200/portal_gyawsv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806200/portal_gyawsv.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806200/portal-2_dq49r2.png",
+                color: "white"
+            }
+        ],
+        defaultColor: "black",
+        Title: "PlayStation 5 Portal - Portable PS5 Gaming, High-Resolution Display, Low Latency",
+        SubTitle: "ps 5 Portal",
+        category: "accessories",
+        subCategory: "playstation",
+        variant: "ps5",
+        brand: "sony",
+        name: "playstation-5-portal",
+        description: "The PlayStation 5 Portal is a portable gaming accessory designed to bring the power of PS5 gaming to a handheld screen. With seamless connectivity, high-resolution visuals, and low-latency performance, it ensures a smooth gaming experience on the go.",
+        detailsDescription: "Enhance your gaming setup with the PlayStation 5 Portal, a portable screen dedicated to PS5 gaming. It allows you to take your PS5 experience anywhere without sacrificing power, performance, or visual clarity.",
+        topSpecs: [
+            "<h6><span>Portable Gaming</span><span>Handheld screen for PS5 gaming on the go</span></h6>",
+            "<h6><span>High-Resolution Display</span><span>Crystal-clear visuals for an immersive experience</span></h6>",
+            "<h6><span>Connectivity</span><span>Seamless connection with PlayStation 5</span></h6>",
+            "<h6><span>Low Latency</span><span>Smooth, responsive gameplay with minimal lag</span></h6>",
+            "<h6><span>Ergonomic Design</span><span>Comfortable grip for long gaming sessions</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SCREEN</span><span class='detail-specs-h6'>- High-resolution display for detailed visuals</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wireless connection to PS5 console</span></h6>",
+            "<h6><span>LOW LATENCY</span><span class='detail-specs-h6'>- Optimized for smooth, real-time gameplay</span></h6>",
+            "<h6><span>ERGONOMICS</span><span class='detail-specs-h6'>- Designed for comfortable handheld gaming</span></h6>",
+            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'>- Works exclusively with PlayStation 5</span></h6>"
+        ],
+        tags: [
+            "playstation-5",
+            "ps5-portal",
+            "portable-gaming",
+            "handheld-gaming",
+            "sony-playstation",
+            "gaming-accessories"
+        ],
+        carousels: ["ps5Accessories", "latestArrivals"],
+        dropURL: "https://fortresselectronics.co.ke/product/playstation-5-portal/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/hPwnRJL6SEY?si=ho-qzxI0-9V3jMAA",
+        unboxingVideo: "https://www.youtube.com/embed/VQJJRAC6KTk?si=Ev7jZMhOQAwdne4d",
+        prevPrice: 38000,
+        nowPrice: 32450,
         stock: 1,
         freeShipping: true,
         condition: "New",
         rating: 4.8
     },
     {
-        productID: 14,
-        platform: "Nintendo",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        playboxRating: "Essential",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741721230/po1sc89sn9n21_p496th.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741722771/switch-lite_vag3ux.png",
+        productID: 102,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock_d39gtx.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741722771/switch-lite_vag3ux.png",
-                color: "turquoise"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock_d39gtx.png",
+                color: "white"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741722771/switch-lite-2_qfiz8d.png",
-                color: "turquoise"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock-2_yn6ajm.png",
+                color: "white"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741722771/switch-lite-3_fm8zwr.png",
-                color: "gray"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock-3_m0dzmi.png",
+                color: "white"
             },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741722771/switch-lite-4_rbn7ox.png",
-                color: "coral"
-            }
         ],
-        defaultColor: "gray",
-        Title: "Nintendo Switch Lite Compact & Lightweight, Built-in Controllers, Handheld Play",
-        SubTitle: "Nintendo Switch Lite",
-        category: "consoles",
-        subCategory: "nintendo",
-        brand: "nintendo",
-        variant: "nintendo-switch-lite",
-        name: "nintendo-switch-lite",
-        description: "Nintendo Switch Lite is a compact, lightweight gaming console designed for handheld play. With built-in controllers and a unibody design, it offers a seamless experience for gamers who prefer gaming on the go.",
-        detailsDescription: "The Nintendo Switch Lite is a dedicated handheld gaming console with built-in controls and a compact design. It supports all Nintendo Switch games that run in Handheld mode, making it a perfect choice for gaming on the move.",
+        defaultColor: "white",
+        Title: "PS5 PowerA DualSense Charging Dock - Charge Two DualSense Controllers",
+        SubTitle: "Charging Dock",
+        category: "accessories",
+        subCategory: "playstation",
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-powera-dualsense-charging-dock",
+        description: "The PowerA DualSense Charging Dock is an officially licensed PlayStation 5 accessory designed to charge two DualSense controllers simultaneously. It features a sleek snap-down design, a durable weighted base, and includes an AC adapter. Controllers are sold separately.",
+        detailsDescription: "Effortlessly recharge your DualSense controllers with the PowerA Charging Dock. This officially licensed PS5 accessory allows you to charge two controllers at once with an easy snap-down design, eliminating the hassle of tangled cables. Built with a durable, weighted base for stability, it keeps your controllers secure and ready for your next gaming session.",
         topSpecs: [
-            "<h6><span>Display</span><span>5.5-inch LCD touchscreen</span></h6>",
-            "<h6><span>Storage</span><span>32GB internal (expandable via microSD)</span></h6>",
-            "<h6><span>Battery Life</span><span>3 – 7 hours depending on usage</span></h6>",
-            "<h6><span>Connectivity</span><span>Wi-Fi, Bluetooth 4.1, NFC</span></h6>",
-            "<h6><span>Game Compatibility</span><span>Supports all games in Handheld mode</span></h6>",
-            "<h6><span>Local & Online Multiplayer</span><span>Supports wireless and online multiplayer</span></h6>"
+            "<h6><span>Dual Charging</span><span>Charges two PS5 DualSense controllers simultaneously</span></h6>",
+            "<h6><span>Snap-Down Design</span><span>Effortless docking for a secure charge</span></h6>",
+            "<h6><span>Officially Licensed</span><span>Designed for PlayStation 5 with PowerA certification</span></h6>",
+            "<h6><span>Durable Base</span><span>Weighted base for stability and security</span></h6>",
+            "<h6><span>AC Adapter Included</span><span>Powers the charging dock with a reliable connection</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>SCREEN</span><span class='detail-specs-h6'>- 5.5-inch LCD touchscreen, 1280×720 resolution</span></h6>",
-            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 32GB internal, expandable via microSD</span></h6>",
-            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- 3 to 7 hours based on game usage</span></h6>",
-            "<h6><span>COMMUNICATION</span><span class='detail-specs-h6'>- Wireless LAN, Bluetooth 4.1, NFC</span></h6>",
-            "<h6><span>WEIGHT</span><span class='detail-specs-h6'>- Lightweight for comfortable handheld gaming</span></h6>",
-            "<h6><span>GAME COMPATIBILITY</span><span class='detail-specs-h6'>- Plays all Nintendo Switch games that support Handheld mode</span></h6>"
+            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'>- Works with PlayStation 5 DualSense controllers</span></h6>",
+            "<h6><span>CHARGING METHOD</span><span class='detail-specs-h6'>- Snap-down design for easy docking</span></h6>",
+            "<h6><span>POWER SOURCE</span><span class='detail-specs-h6'>- Includes AC adapter for direct power supply</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Compact and stylish with an official PlayStation license</span></h6>",
+            "<h6><span>STABILITY</span><span class='detail-specs-h6'>- Weighted base for secure placement</span></h6>"
         ],
         tags: [
-            "nintendo-switch",
-            "switch-lite",
-            "gaming-console",
-            "handheld-gaming",
-            "portable-console",
-            "nintendo"
+            "ps5-accessories",
+            "playstation-5",
+            "dual charging dock",
+            "powera accessories",
+            "gaming accessories",
+            "officially licensed"
         ],
-        carousels: ["latestArrival"],
-        storage: "32GB",
-        dropURL: "https://ehubtechnologies.com/product/nintendo-switch-lite/?gad_source=1&gclid=CjwKCAjwvr--BhB5EiwAd5YbXj36RDEEZHobDHWR7ZoRTAge3V-3zyntTfRsRNopUzv0XxpQuxoy1BoCjEsQAvD_BwE",
-        youtubeReview: "https://www.youtube.com/embed/DbhVTa1SY70?si=3AirWNIUxJiil-VV",
-        unboxingVideo: "https://www.youtube.com/embed/wfQ2TP8Dgx4?si=HpyhmI_gS5-7pDo7",
-        prevPrice: 33500,
-        nowPrice: 28500,
+        carousels: ["ps5Accessories"],
+        dropURL: "https://koanile.co.ke/product/ps5-powera-dualsense-charging-dock/?gad_source=1&gclid=Cj0KCQjw4cS-BhDGARIsABg4_J3tkTYCXvbZHxs5XB8hQ9dtU-JOdS9qJR-Ct-q3mvJXpLuFJVCRbMcaAi6wEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/XU1-FKlSQTw?si=pO1tBCsHEGDUK-2S",
+        unboxingVideo: "https://www.youtube.com/embed/b7PzLVg42uc?si=ztWJEs3S8SofZRLJ",
+        prevPrice: 9500,
+        nowPrice: 6250,
         stock: 1,
         freeShipping: true,
         condition: "New",
         rating: 4.7
-    }
-    
-    
+    },
+
 ]
