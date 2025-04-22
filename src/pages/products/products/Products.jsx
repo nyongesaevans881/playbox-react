@@ -100,12 +100,6 @@ const ProductListPage = () => {
         setCurrentPage(1);
     };
 
-    const handleFilterChange = (filterType, value) => {
-        setFilters((prevFilters) => ({
-            ...prevFilters,
-            [filterType]: value,
-        }));
-    };
 
     const handleProductClick = (id, productCategory) => {
         setproductCategory(productCategory)

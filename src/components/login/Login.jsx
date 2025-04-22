@@ -147,7 +147,7 @@ const Login = ({ onClose, onSignUp }) => {
             &times;
           </button>
           <div className="flex gap-8">
-            <div>
+            <div className="max-md:hidden">
               <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743936148/fc25_ytr89z.jpg" alt="" className="w-200 h-full object-cover" />
             </div>
             <div>
