@@ -62,21 +62,21 @@ const CartPage = () => {
         </div>
 
         <div className="cart-container">
-          <div className="cart-items">
-            <div className="cart-items-header">
+          <div className="cart-page-items">
+            <div className="cart-page-items-header">
               <h4>Product</h4>
               <h4>Unit Price</h4>
               <h4>Quantity</h4>
               <h4>Total Price</h4>
             </div>
 
-            <div className="cart-items-header-mobile">
+            <div className="cart-page-items-header-mobile">
               <h1>Product Details</h1>
             </div>
             {cartWithDetails.map((item, index) => (
-              <div key={index} className="cart-item py-4">
+              <div key={index} className="cart-page-item py-4">
                 <img src={item.selectedImage} alt={item.Title} className="item-image" />
-                <div className="cart-item-title">
+                <div className="cart-page-item-title">
                   <h3 className="item-title text-gray-800">{item.Title}</h3>
                   <div className="item-attributes">
                     <p>Color: <span>{item.color || item.defaultColor}</span></p>

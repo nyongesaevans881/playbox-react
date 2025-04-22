@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom';
 import React, { use, useState } from 'react';
 const favicon = '/favicon.png'
 import './name.css';
+import toast from 'react-hot-toast';
 
 const Name = ({ params }) => {
   const { name, category } = useParams();
@@ -22,13 +23,18 @@ const Name = ({ params }) => {
   };
 
   const handleAddToCart = (id) => {
+    if (!selectedColor && product.imageColorMap && product.imageColorMap.length > 0) {
+      showSnackbar('error', 'Please select a color before adding to cart.');
+      return;
+    }
+
     dispatch(
       addToCart({
         productId: id,
         color: selectedColor || product.defaultColor,
       })
     );
-    showSnackbar('success', 'Item added to cart successfully!');
+    toast.success('Item added to cart successfully!');
   };
 
   if (!product) {
@@ -88,17 +94,18 @@ const Name = ({ params }) => {
               <p>{product.description}</p>
 
               <h6 className='my-4'>
-                <span>Colors:</span>
-                {uniqueColors.map((color, index) => (
-                  <button
-                    key={index}
-                    className={`color-button ${selectedColor === color ? 'selected' : ''}`}
-                    style={{ backgroundColor: color }}
-                    onClick={() => setSelectedColor(color)}
-                  >
-                    {/* {color} */}
-                  </button>
-                ))}
+                <span>Select Color:</span>
+                {uniqueColors.map((colorOrPlatform, index) => {
+                    return <div>
+                      <div
+                        key={index}
+                        className={`color-button cursor-pointer ${selectedColor === colorOrPlatform ? 'selected' : ''}`}
+                        onClick={() => setSelectedColor(colorOrPlatform)}
+                      >
+                        <p style={{ backgroundColor: colorOrPlatform }} className="color-circle border"></p>
+                      </div>
+                    </div>
+                  })}
               </h6>
 
               <div className="details-footer-display">

@@ -8,7 +8,7 @@ import ProductPopup from '../../../components/productsPopup/ProductsPopup';
 import ProductsCard from '../../../components/productsCard/ProductsCard'
 import FilterSidebar from '../../../components/filterSidebar/FilterSidebar';
 import NoProducts from '../zero/NoProducts';
-import { MoveLeftIcon } from 'lucide-react';
+import { ChevronsLeft, ChevronsRight, MoveLeftIcon } from 'lucide-react';
 
 const SubCategory = ({ params }) => {
     const { subCategory, category } = useParams();
@@ -82,8 +82,20 @@ const SubCategory = ({ params }) => {
         setProductID(null);
     };
 
+    // Handle Add to Cart click
     const handleAddToCart = (id) => {
-        dispatch(addToCart(id));
+        const product = filteredProducts.find((p) => p.productID === id);
+        if (product) {
+            dispatch(
+                addToCart({
+                    productId: id,
+                    color: product.defaultColor || 'default',
+                })
+            );
+            toast.success('Item added to cart successfully!');
+        } else {
+            toast.error('Product not found!');
+        }
     };
 
     const indexOfLastProduct = currentPage * productsPerPage;
@@ -94,6 +106,16 @@ const SubCategory = ({ params }) => {
     );
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+
+    const goToPreviousPage = () => {
+        setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
+    };
+
+    const goToNextPage = () => {
+        setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
+    };
 
     return (
         <section className="product-list-container-wrapper">
@@ -108,7 +130,7 @@ const SubCategory = ({ params }) => {
                             {subCategory ? (subCategory.charAt(0).toUpperCase() + subCategory.slice(1)) : 'All Products'}
                         </h1>
                     </div>
-                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 px-4 max-md:w-[80%]">
+                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 px-4 max-md:w-[85%]">
                         <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='w-full'>
                             <option value="best-selling">Best selling</option>
                             <option value="price-low-high">Price: Low to High</option>
@@ -142,12 +164,24 @@ const SubCategory = ({ params }) => {
                         )}
                     </div>
                 </div>
-                <div className="pagination">
-                    {Array.from({ length: Math.ceil(filteredProducts.length / productsPerPage) }, (_, i) => (
-                        <button key={i} onClick={() => paginate(i + 1)}>
+                <div className="text-gray-500 flex gap-4 max-md:gap-1 justify-center mt-12 items-center">
+                    <button onClick={goToPreviousPage} disabled={currentPage === 1} >
+                        <ChevronsLeft className={`border-1 border-blue-500 text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white ${currentPage === 1 ? 'opacity-50 cursor-not-allowed' : ''}`} />
+                    </button>
+
+                    {Array.from({ length: totalPages }, (_, i) => (
+                        <button
+                            key={i}
+                            onClick={() => paginate(i + 1)}
+                            className={`border-1 border-blue-500 w-8 text-blue-500 font-bold cursor-pointer hover:bg-blue-500 hover:text-white ${currentPage === i + 1 ? 'bg-blue-500 text-white' : ''}`}
+                        >
                             {i + 1}
                         </button>
                     ))}
+
+                    <button onClick={goToNextPage} disabled={currentPage === totalPages}>
+                        <ChevronsRight className={`border-1 border-blue-500 text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white ${currentPage === totalPages ? 'opacity-50 cursor-not-allowed' : ''}`} />
+                    </button>
                 </div>
             </div>
             {showPopup && <ProductPopup productId={productID} productCategory={productCategory} onClose={closePopup} />}

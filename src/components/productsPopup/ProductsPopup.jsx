@@ -4,8 +4,8 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { addToCart } from '../../redux/cartSlice';
 import ProductDetailsCarousel from '../productDetailsCarousel/ProductDetailsCarousel';
-import Snackbar from '../snackHelper/Snackbar';
 import './ProductsPopup.css';
+import toast from 'react-hot-toast';
 
 const ProductPopup = ({ productId, productCategory, onClose }) => {
   console.log(`productCategory`, productCategory);
@@ -14,7 +14,6 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
 
   // Check if products is an array before calling find()
   const product = Array.isArray(products) ? products.find((p) => p.productID === productId) : null;
-  const [snackbar, setSnackbar] = useState({ visible: false, type: '', message: '' });
   const [selectedColor, setSelectedColor] = useState("");
   const dispatch = useDispatch();
 
@@ -45,22 +44,29 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
     ? Object.keys(platformIcons) // Use platforms when category is "games"
     : Array.from(new Set(product.imageColorMap.map((entry) => entry.color)));
 
-  const showSnackbar = (type, message) => {
-    setSnackbar({ visible: true, type, message });
+
+
+  // Handle Add to Cart click
+  const handleAddToCart = (id) => {
+    const product = products.find((p) => p.productID === id);
+
+    if (product) {
+      dispatch(
+        addToCart({
+          category: product.category,
+          productId: id,
+          color: selectedColor || product.defaultColor,
+        })
+      );
+      toast.success('Item added to cart successfully!');
+    } else {
+      toast.error('Product not found!');
+    }
   };
 
-  const handleAddToCart = (id) => {
-    dispatch(
-      addToCart({
-        productId: id,
-        color: selectedColor || product.defaultColor,
-      })
-    );
-    showSnackbar('success', 'Item added to cart successfully!');
-  };
 
   return (
-    <div className="popup-overlay z-99999">
+    <div className="popup-overlay z-999">
       <div className="popup-container">
         <button className="popup-close mr-4" onClick={onClose}>
           <i className="fa fa-close"></i>
@@ -121,7 +127,7 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
                 className="add-to-cart-btn"
                 onClick={(e) => {
                   e.preventDefault();
-                  handleAddToCart(product._id);
+                  handleAddToCart(product.productID);
                 }}
               >
                 Add to Cart <i className="fa fa-shopping-cart"></i>
@@ -130,15 +136,6 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
           </div>
         </div>
       </div>
-
-      {snackbar.visible && (
-        <Snackbar
-          type={snackbar.type}
-          message={snackbar.message}
-          onClose={() => setSnackbar({ visible: false, type: '', message: '' })}
-          displayTime={1000}
-        />
-      )}
     </div>
   );
 };

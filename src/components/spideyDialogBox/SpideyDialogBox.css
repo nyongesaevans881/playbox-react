@@ -7,7 +7,6 @@
     border: 1px solid #ef3563;
     width: 250px;
     height: 80px;
-    border-radius: 10px;
     animation: bounce 2s infinite;
     z-index: 99999;
     padding: .5rem;

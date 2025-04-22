@@ -118,10 +118,6 @@ const ProductListPage = () => {
         setProductID(null);
     };
 
-    //Show Snackbar
-    const showSnackbar = (type, message) => {
-        setSnackbar({ visible: true, type, message });
-    };
 
     // Handle Add to Cart click
     const handleAddToCart = (id) => {
@@ -151,19 +147,31 @@ const ProductListPage = () => {
 
     const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
+    const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
+
+    const goToPreviousPage = () => {
+        setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
+    };
+
+    const goToNextPage = () => {
+        setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
+    };
+
     return (
         <section className="product-list-container-wrapper">
             <div className="product-list-container container">
-                <div className="product-list-header">
-                    <a to="/" className="back-to-home cursor-pointer">
-                        <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> Back to Home
-                    </a>
-                    <h1 className='text-gray-600'>
-                        Home /&nbsp;
-                        {category ? (category.charAt(0).toUpperCase() + category.slice(1)) : 'All Products'}
-                    </h1>
-                    <div className="sort-dropdown">
-                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+                <div className="flex justify-between mb-5 max-md:flex-col gap-6 items-center">
+                    <div className='text-gray-800 flex items-center gap-10'>
+                        <a to="/" className="back-to-home cursor-pointer">
+                            <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> Back to Home
+                        </a>
+                        <h1>
+                            Home /&nbsp;
+                            {category ? (category.charAt(0).toUpperCase() + category.slice(1)) : 'All Products'}
+                        </h1>
+                    </div>
+                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 px-4 max-md:w-[85%]">
+                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='w-full'>
                             <option value="best-selling">Best selling</option>
                             <option value="price-low-high">Price: Low to High</option>
                             <option value="price-high-low">Price: High to Low</option>
@@ -190,14 +198,24 @@ const ProductListPage = () => {
                         ))}
                     </div>
                 </div>
-                <div className="text-gray-500 flex gap-5 justify-center mt-12">
-                    <ChevronsLeft className='border-1 border-blue-500 text-blue-500 cursor-pointer' />
-                    {Array.from({ length: Math.ceil(filteredProducts.length / productsPerPage) }, (_, i) => (
-                        <button key={i} onClick={() => paginate(i + 1)} className='border-1 border-blue-500 w-8 text-blue-500 font-bold cursor-pointer'>
+                <div className="text-gray-500 flex gap-4 max-md:gap-1 justify-center mt-12 items-center">
+                    <button onClick={goToPreviousPage} disabled={currentPage === 1} >
+                        <ChevronsLeft className={`border-1 border-blue-500 text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white ${currentPage === 1 ? 'opacity-50 cursor-not-allowed' : ''}`} />
+                    </button>
+
+                    {Array.from({ length: totalPages }, (_, i) => (
+                        <button
+                            key={i}
+                            onClick={() => paginate(i + 1)}
+                            className={`border-1 border-blue-500 w-8 text-blue-500 font-bold cursor-pointer hover:bg-blue-500 hover:text-white ${currentPage === i + 1 ? 'bg-blue-500 text-white' : ''}`}
+                        >
                             {i + 1}
                         </button>
                     ))}
-                    <ChevronsRight className='border-1 border-blue-500 text-blue-500 cursor-pointer' />
+
+                    <button onClick={goToNextPage} disabled={currentPage === totalPages}>
+                        <ChevronsRight className={`border-1 border-blue-500 text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white ${currentPage === totalPages ? 'opacity-50 cursor-not-allowed' : ''}`} />
+                    </button>
                 </div>
             </div>
             {showPopup && <ProductPopup productId={productID} productCategory={productCategory} onClose={closePopup} />}

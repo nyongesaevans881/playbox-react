@@ -8,7 +8,7 @@ const NoProducts = () => {
   return (
     <div className=''>
       <div className="relative flex justify-center">
-        <div className="absolute -translate-x-40 -translate-y-5">
+        <div className="absolute -translate-x-40 -translate-y-5 max-md:scale-70 max-md:-translate-x-25 max-md:translate-y-0">
           <SpideyDialogBox
             text='<span>404</span> No Products found in this realm. Try less filters or a valid product category.'
             imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png'
