@@ -29,7 +29,6 @@ export default function CheckoutPage() {
   const [paymentMethod, setPaymentMethod] = useState('mpesa');
   const [useDifferentBilling, setUseDifferentBilling] = useState(false);
   const [billingAddress, setBillingAddress] = useState(null);
-  const [isClient, setIsClient] = useState(false);
 
   // ✅ Get all product categories at once
   const allProducts = useSelector((state) => state.products);
@@ -51,10 +50,10 @@ export default function CheckoutPage() {
 
   const [formErrors, setFormErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const stateProducts = useSelector((state) => state.products);
 
   //------------ Load user data on mount
   useEffect(() => {
-    setIsClient(true);
     dispatch(loadUserFromStorage());
     dispatch(hydrateCartFromLocalStorage());
   }, [dispatch]);
@@ -65,10 +64,11 @@ export default function CheckoutPage() {
 
   // Get cart items with product details from global products
   const cartWithDetails = cartItems.map((cartItem) => {
-    const categoryProducts = allProducts[cartItem.category] || [];
-    const product = categoryProducts.find((p) => p.productID === cartItem.productId);
+    const allProducts = Object.values(stateProducts).flat();
 
-    if (!product) return null; // Avoid errors if product is missing
+    const product = allProducts.find((p) => p.productID === cartItem.productId);
+
+    if (!product) return null;
 
     const colorImage = product.imageColorMap.find(
       (img) => img.color === cartItem.color
@@ -613,9 +613,8 @@ export default function CheckoutPage() {
         {/* Cart Summary */}
         <div className="cart-summary">
           <p className="checkout-items-count">
-            <span> <i className="fa fa-tags"></i>{isClient ? cartLength : 0} items</span> in your bag
+            <span> <i className="fa fa-tags"></i>{cartLength} items</span> in your bag
           </p>
-          {isClient && (
             <>
               <div className="cart-items">
                 {cartWithDetails.map((item, index) => (
@@ -653,7 +652,6 @@ export default function CheckoutPage() {
                 </div>
               </div>
             </>
-          )}
 
 
         </div>
@@ -673,7 +671,7 @@ export default function CheckoutPage() {
         )}
       </div>
       {isLoginOpen && <Login onClose={handleLoginToggle} onSignUp={handleSignUpToggle} />}
-      {isSignupOpen && <Register onClose={handleSignUpToggle} onLogin={handleLoginToggle}/>}
+      {isSignupOpen && <Register onClose={handleSignUpToggle} onLogin={handleLoginToggle} />}
       {showMpesaPopup && (<MpesaPayment onClose={() => setShowMpesaPopup(false)} total={totalWithShipping} onSuccess={handleOrderSubmit} />
       )}
     </section>

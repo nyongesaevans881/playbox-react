@@ -4,34 +4,20 @@ import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, incrementQuantity, decrementQuantity, selectCartTotal, selectCartLength } from '../../redux/cartSlice';
 import './cart.css'
 import { Link } from 'react-router-dom';
-// import Link from 'next/link';
-
 
 const CartPage = () => {
   const dispatch = useDispatch();
-  const [isClient, setIsClient] = useState(false);
   const cartItems = useSelector((state) => state.cart.cart);
   const cartTotal = useSelector(selectCartTotal);
-  const cartLength = useSelector(selectCartLength);
-
-  
-    // ✅ Get all product categories at once
-    const allProducts = useSelector((state) => state.products);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return <div className="cart-page-wrapper">Loading...</div>;
-  }
+  const stateProducts = useSelector((state) => state.products);
 
   // Get cart items with product details from global products
   const cartWithDetails = cartItems.map((cartItem) => {
-    const categoryProducts = allProducts[cartItem.category] || [];
-    const product = categoryProducts.find((p) => p.productID === cartItem.productId);
+    const allProducts = Object.values(stateProducts).flat();
 
-    if (!product) return null; // Avoid errors if product is missing
+    const product = allProducts.find((p) => p.productID === cartItem.productId);
+
+    if (!product) return null;
 
     const colorImage = product.imageColorMap.find(
       (img) => img.color === cartItem.color
@@ -84,7 +70,6 @@ const CartPage = () => {
                   </div>
                 </div>
                 <div className="item-price">
-                  <p className="font-bold text-xl text-gray-700">KSh {(item.nowPrice || 0).toLocaleString()}</p>
                   <p className="unit-price-mobile">Unit Price <span> KSh {(item.nowPrice || 0).toLocaleString()}</span></p>
                 </div>
                 <div className="item-details">
