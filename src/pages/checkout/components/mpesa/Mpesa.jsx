@@ -11,10 +11,8 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
   const [error, setError] = useState("");
   const [showstksuccess, setShowStkSuccess] = useState(false);
 
-  const serverURL = process.env.NEXT_PUBLIC_SERVER_URL;
-  const socketURL = process.env.NEXT_PUBLIC_SOCKET_URL;
-
-  console.log(`serverURL`, serverURL);
+  const serverURL = import.meta.env.VITE_SERVER_URL;
+  const socketURL = import.meta.env.VITE_SOCKET_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -22,7 +20,7 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
     setError("");
 
     try {
-      const response = await fetch(`${serverURL}/mpesa/stk`, {
+      const response = await fetch(`${serverURL}/playbox_mpesa/stk`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phone, amount: total }),
@@ -95,7 +93,7 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
     setPaymentLoading(true);
 
     try {
-      const response = await fetch(`${serverURL}/mpesa/paymentStatus`, {
+      const response = await fetch(`${serverURL}/playbox_mpesa/paymentStatus`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ CheckoutRequestId: checkoutRequestId }),

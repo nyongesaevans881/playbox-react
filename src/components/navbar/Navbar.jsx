@@ -127,8 +127,8 @@ const Navbar = () => {
         {
             name: "Consoles",
             items: [
-                { name: "PlayStation 5 (Ps 5)", url: "/products/consoles/playstation/ps5" },
-                { name: "Ps 5 Accessories", url: "/products/accessories/playstation/ps5" },
+                { name: "PlayStation 5 (Ps 5)", url: "/products/playstation/ps5" },
+                { name: "Ps 5 Accessories", url: "/products/playstation/accessories/ps5" },
                 { name: "PlayStation Consoles", url: "/products/consoles/playstation" },
                 { name: "Playstation Accessories", url: "/products/accessories/playstation" },
                 { name: "Xbox Consoles", url: "/products/consoles/xbox" },

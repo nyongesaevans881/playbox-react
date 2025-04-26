@@ -52,6 +52,8 @@ export default function CheckoutPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const stateProducts = useSelector((state) => state.products);
 
+  const serverURL = import.meta.env.VITE_SERVER_URL;
+
   //------------ Load user data on mount
   useEffect(() => {
     dispatch(loadUserFromStorage());
@@ -137,7 +139,7 @@ export default function CheckoutPage() {
         total: totalWithShipping
       };
 
-      const response = await fetch('http:localhost:5173/api/orders', {
+      const response = await fetch(`${serverURL}/playbox_order`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(orderData)
@@ -303,14 +305,17 @@ export default function CheckoutPage() {
                     />
                     {formErrors.email && <p className="error-message">{formErrors.email}</p>}
                   </div>
-                  <input
-                    className={`checkout-input`}
-                    type="tel"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                    placeholder="Phone number (Recommended)"
-                    required
-                  />
+                  <div>
+                    <input
+                      className={`checkout-input ${formErrors.phone ? 'error' : ''}`}
+                      type="tel"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                      placeholder="Phone number (Recommended)"
+                      required
+                    />
+                    {formErrors.phone && <p className="error-message">{formErrors.phone}</p>}
+                  </div>
                 </div>
                 <label className="checkout-checkbox-label">
                   <input
@@ -615,43 +620,43 @@ export default function CheckoutPage() {
           <p className="checkout-items-count">
             <span> <i className="fa fa-tags"></i>{cartLength} items</span> in your bag
           </p>
-            <>
-              <div className="cart-items">
-                {cartWithDetails.map((item, index) => (
-                  <div key={index} className="cart-item">
-                    <div className="checkout-cart-image-container">
-                      <span>{item.quantity}</span>
-                      <img src={item.selectedImage} alt={item.name} />
-                    </div>
-                    <div className="item-details">
-                      <h3 className='leading-tight line-clamp-2'>{item.Title}</h3>
-                      <p className='checkout-cart-items-basic-specs'>Color: <span>{item.color || item.defaultColor}</span></p>
-                      <p className='checkout-cart-items-basic-specs'>Condition: <span>{item.condition || '42'}</span></p>
-                      <p className="price">Ksh {item.nowPrice.toLocaleString()}</p>
-                    </div>
+          <>
+            <div className="cart-items">
+              {cartWithDetails.map((item, index) => (
+                <div key={index} className="cart-item">
+                  <div className="checkout-cart-image-container">
+                    <span>{item.quantity}</span>
+                    <img src={item.selectedImage} alt={item.name} />
                   </div>
-                ))}
-              </div>
+                  <div className="item-details">
+                    <h3 className='leading-tight line-clamp-2'>{item.Title}</h3>
+                    <p className='checkout-cart-items-basic-specs'>Color: <span>{item.color || item.defaultColor}</span></p>
+                    <p className='checkout-cart-items-basic-specs'>Condition: <span>{item.condition || '42'}</span></p>
+                    <p className="price">Ksh {item.nowPrice.toLocaleString()}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
 
-              <div className="cart-totals">
-                <div className="subtotal">
-                  <span>Subtotal</span>
-                  <span>Ksh {cartTotal.toLocaleString()}</span>
-                </div>
-                <div className="shipping">
-                  <span>Shipping</span>
-                  <span>Ksh {shippingCost.toLocaleString()}</span>
-                </div>
-                <div className="shipping">
-                  <span>Taxes</span>
-                  <span>Ksh 0</span>
-                </div>
-                <div className="total">
-                  <span>Total</span>
-                  <span>Ksh {totalWithShipping.toLocaleString()}</span>
-                </div>
+            <div className="cart-totals">
+              <div className="subtotal">
+                <span>Subtotal</span>
+                <span>Ksh {cartTotal.toLocaleString()}</span>
               </div>
-            </>
+              <div className="shipping">
+                <span>Shipping</span>
+                <span>Ksh {shippingCost.toLocaleString()}</span>
+              </div>
+              <div className="shipping">
+                <span>Taxes</span>
+                <span>Ksh 0</span>
+              </div>
+              <div className="total">
+                <span>Total</span>
+                <span>Ksh {totalWithShipping.toLocaleString()}</span>
+              </div>
+            </div>
+          </>
 
 
         </div>

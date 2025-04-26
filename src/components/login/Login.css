@@ -9,7 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10000;
+  z-index: 99;
+  transition: all 0.3s ease-in-out;
 }
 
 .auth-popup {

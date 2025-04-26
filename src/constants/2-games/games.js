@@ -58,7 +58,7 @@ export const games = [
         youtubeReview: "https://www.youtube.com/embed/8oPBdQhQuNY?si=m0zyvNcohYb_iip8",
         unboxingVideo: "https://www.youtube.com/embed/vDIVhZUcNyU?si=zLxadNKkUNr-A1Kj",
         prevPrice: 9800,
-        nowPrice: 6500,
+        nowPrice: 1,
         stock: 10,
         freeShipping: true,
         condition: "New",

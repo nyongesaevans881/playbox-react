@@ -1,12 +1,10 @@
-"use client";
-
 import React, { useState } from "react";
-import "./Register.css";
 import { useDispatch, useSelector } from "react-redux";
 import { Bars } from "react-loader-spinner";
 import { saveAuthToStorage } from "../../redux/userSlice";
+import "./Register.css";
 
-const API_URL = import.meta.env.VITE_API_URL;
+const API_URL = import.meta.env.VITE_SERVER_URL;
 
 const Register = ({ onClose, onLogin }) => {
     const [formData, setFormData] = useState({
@@ -96,7 +94,7 @@ const Register = ({ onClose, onLogin }) => {
 
 
         try {
-            const response = await fetch(`${API_URL}/users/register`, {
+            const response = await fetch(`${API_URL}/playbox_user/register`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(payload),
@@ -104,20 +102,20 @@ const Register = ({ onClose, onLogin }) => {
 
             setLoading(false);
             const result = await response.json();
-
+            
             if (response.ok) {
-                // Save the token and user details to Redux state and local storage
                 dispatch(
                     saveAuthToStorage({
-                        token: result.data.token,
                         user: {
                             username: formData.username,
-                            avatar: formData.avatar,
+                            avatar: result.data.avatar,
                             email: formData.email,
                             phone: formData.phone,
                             cart: cart || [],
                             favorites: wishlist || [],
-                            verified: false, //  New users are not verified yet
+                            verified: false,
+                            token: result.data.token,
+                            expiresIn: result.data.expiresIn,
                         },
                     })
                 );
