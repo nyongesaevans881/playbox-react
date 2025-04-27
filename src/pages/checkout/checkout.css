@@ -329,7 +329,7 @@
     margin-right: .5rem;
   }
   
-  .cart-items {
+  .checkout-cart-items {
     max-height: 330px;
     overflow-y: auto;
     margin-bottom: 2rem;
@@ -338,15 +338,15 @@
     padding: 0 1rem;
   }
   
-  .cart-items::-webkit-scrollbar {
+  .checkout-cart-items::-webkit-scrollbar {
     width: 4px;
   }
   
-  .cart-items::-webkit-scrollbar-track {
+  .checkout-cart-items::-webkit-scrollbar-track {
     background: #f1f1f1;
   }
   
-  .cart-items::-webkit-scrollbar-thumb {
+  .checkout-cart-items::-webkit-scrollbar-thumb {
     background: var(--primary-color);
   }
   
@@ -525,9 +525,9 @@
       position: static;
     }
 
-    .cart-items{
+    /* .checkout-cart-items{
       display: none;
-    }
+    } */
     
     .chekout-name-group,
     .city-postal-group {
@@ -539,12 +539,13 @@
     }
 
     .place-order-btn-lg{
-      display: none;
+      /* display: none; */
+      margin: 1rem 0 2rem;
     }
 
     .place-order-btn-lg-mobile{
       display: block;
-      margin:1rem auto;
+      margin: 2rem auto 4rem;
       max-width: 90%;
     }
   }

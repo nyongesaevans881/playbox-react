@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { X, Loader } from "lucide-react";
+import toast from "react-hot-toast";
 import "./mpesa.css";
 
-export const MpesaPayment = ({ onClose, total, onSuccess }) => {
+export const MpesaPayment = ({ onClose, total, setTransactionData, setPaymentStatus, handleOrderSubmit }) => {
   const [phone, setPhone] = useState("");
-  const [checkoutRequestId, setCheckoutRequestId] = useState(""); // Store CheckoutRequestID
+  const [checkoutRequestId, setCheckoutRequestId] = useState("");
   const [loading, setLoading] = useState(false);
   const [paymentLoading, setPaymentLoading] = useState(false);
   const [status, setStatus] = useState(false);
@@ -31,7 +32,6 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
       if (response.ok) {
         setShowStkSuccess(true);
         setLoading(false);
-        setCheckoutRequestId(data.CheckoutRequestID);
         setError('Do not click resend immediately. Give it a couple of seconds');
 
         if (!data.CheckoutRequestID) {
@@ -69,9 +69,14 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
   const handleWebSocketResponse = (result) => {
     if (result.status === "success") {
       setStatus(true);
-      onSuccess(result.data);
-      setTimeout(() => onClose(), 2000);
+      setTransactionData(result.data);
+      setPaymentStatus(result.status);
+      
+      setTimeout(() => onClose(), 1000);
+      handleOrderSubmit();
+      toast.success("Payment Successful! Placing Order...");
     } else {
+      toast.error(result.message)
       setError(result.message);
     }
   };
@@ -87,7 +92,7 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
 
   const handleCheckPaymentStatus = async () => {
     if (!checkoutRequestId) {
-      setError("Missing CheckoutRequestID. Please retry.");
+      setError("Missing CheckoutRequestID. Please Initiate STK Again.");
       return;
     }
     setPaymentLoading(true);
@@ -106,6 +111,13 @@ export const MpesaPayment = ({ onClose, total, onSuccess }) => {
 
       if (response.ok) {
         if (data.ResultCode === "0") {
+          setTransactionData({
+            phone: phone,
+            amount: total,
+            transactionId: data.TransactionID,
+            CheckoutRequestID: checkoutRequestId,
+          });
+          setPaymentStatus(true);
           setStatus(true);
           onSuccess(data);
           setTimeout(() => onClose(), 2000);

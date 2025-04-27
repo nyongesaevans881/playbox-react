@@ -1,15 +1,17 @@
-import { hydrateCartFromLocalStorage, selectCartLength, selectCartTotal } from '../../redux/cartSlice';
+import { hydrateCartFromLocalStorage, selectCartLength, selectCartTotal, clearCart } from '../../redux/cartSlice';
 import { loadUserFromStorage, toggleLogin, toggleSignup } from '../../redux/userSlice';
 import { Banknote, ChevronDown, CreditCard, Phone } from 'lucide-react';
 import Register from '../../components/register/Register';
 import { MpesaPayment } from './components/mpesa/Mpesa'
 import { motion, AnimatePresence } from 'framer-motion';
 import { useDispatch, useSelector } from 'react-redux';
-import Login from '../../components/login/Login';
 import React, { useState, useEffect } from 'react';
+import Login from '../../components/login/Login';
+import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import './checkout.css';
-import { Link } from 'react-router-dom';
+import { div } from 'framer-motion/client';
 
 
 export default function CheckoutPage() {
@@ -29,9 +31,12 @@ export default function CheckoutPage() {
   const [paymentMethod, setPaymentMethod] = useState('mpesa');
   const [useDifferentBilling, setUseDifferentBilling] = useState(false);
   const [billingAddress, setBillingAddress] = useState(null);
+  const [paymentStatus, setPaymentStatus] = useState(false);
+  const [transactionData, setTransactionData] = useState(null);
 
   // ✅ Get all product categories at once
   const allProducts = useSelector((state) => state.products);
+  const navigate = useNavigate();
 
   const cartItems = useSelector((state) => state.cart.cart);
   const user = useSelector((state) => state.user.user);
@@ -115,28 +120,27 @@ export default function CheckoutPage() {
 
 
   // Add this function to handle order submission
-  const handleOrderSubmit = async (paymentData) => {
+  const handleOrderSubmit = async () => {
     try {
       setIsSubmitting(true);
 
+      console.log(showContactForm);
+
       const orderData = {
-        user: user?._id,
-        items: cartWithDetails,
+        user: user && showContactForm ? user : { email: email, phone: phone },
+        items: cartItems,
         shippingAddress: {
           ...shippingAddress,
-          email: user?.email || email,
-          phone: user?.phone || phone
+          email: (user && showContactForm) ? user.email : email,
+          phone: (user && showContactForm) ? user.phone : phone
         },
         billingAddress: useDifferentBilling ? billingAddress : shippingAddress,
         shippingMethod,
         paymentMethod,
-        paymentDetails: {
-          amount: paymentData.amount,
-          phone: paymentData.phone,
-          transactionId: paymentData.transactionId,
-          method: 'mpesa'
-        },
-        total: totalWithShipping
+        transactionData,
+        total: totalWithShipping,
+        contactEmail: (user && showContactForm) ? user.email : email,
+        contactPhone: (user && showContactForm) ? user.phone : phone,
       };
 
       const response = await fetch(`${serverURL}/playbox_order`, {
@@ -145,9 +149,14 @@ export default function CheckoutPage() {
         body: JSON.stringify(orderData)
       });
 
+      const responseData = await response.json();
+      console.log(`responseData`, responseData);
+
       if (response.ok) {
         setOrderStatus('success');
         // Clear cart and redirect to success page
+        dispatch(clearCart());
+        navigate('/checkout/success', { state: { order: responseData } });
       } else {
         const errorData = await response.json();
         setOrderStatus('failed');
@@ -176,9 +185,11 @@ export default function CheckoutPage() {
 
     if (selectedMethod === 'mpesa') {
       setShowMpesaPopup(true);
+    } else {
+      setPaymentStatus(true);
+      handleOrderSubmit();
     }
   };
-
 
   const PaymentMethods = [
     {
@@ -527,7 +538,7 @@ export default function CheckoutPage() {
                     className="billing-form grid grid-cols-2 gap-x-4 items-start max-md:flex max-md:flex-col"
                   >
                     {/* Billing address form fields - similar to shipping address fields */}
-                    <div>
+                    <div className="w-full">
                       <input
                         className={`checkout-input ${formErrors.billingFirstName ? 'error' : ''}`}
                         type="text"
@@ -538,7 +549,7 @@ export default function CheckoutPage() {
                       />
                       {formErrors.billingFirstName && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingFirstName}</p>}
                     </div>
-                    <div>
+                    <div className="w-full">
                       <input
                         className={`checkout-input ${formErrors.billingLastName ? 'error' : ''}`}
                         type="text"
@@ -566,7 +577,7 @@ export default function CheckoutPage() {
                       placeholder="Apartment, Suite, etc.(optional)"
                       required
                     />
-                    <div>
+                    <div className="w-full">
                       <input
                         className={`checkout-input ${formErrors.billingCity ? 'error' : ''}`}
                         type="text"
@@ -599,7 +610,7 @@ export default function CheckoutPage() {
               </AnimatePresence>
             </section>
 
-            <button type="submit" className="place-order-btn-lg" onClick={handleSubmit}>
+            <button type="submit" disabled={isSubmitting} className="place-order-btn-lg" onClick={handleSubmit}>
               Place Order
             </button>
 
@@ -621,7 +632,7 @@ export default function CheckoutPage() {
             <span> <i className="fa fa-tags"></i>{cartLength} items</span> in your bag
           </p>
           <>
-            <div className="cart-items">
+            <div className="checkout-cart-items">
               {cartWithDetails.map((item, index) => (
                 <div key={index} className="cart-item">
                   <div className="checkout-cart-image-container">
@@ -661,7 +672,7 @@ export default function CheckoutPage() {
 
         </div>
 
-        <button type="submit" className="place-order-btn-lg place-order-btn-lg-mobile" onClick={handleSubmit}>
+        <button type="submit" disabled={isSubmitting} className="place-order-btn-lg place-order-btn-lg-mobile" onClick={handleSubmit}>
           Place Order
         </button>
 
@@ -675,9 +686,21 @@ export default function CheckoutPage() {
           </div>
         )}
       </div>
+      {paymentStatus && isSubmitting && (
+        <div className='fixed top-0 left-0 right-0 bottom-0 bg-black/30 z-50 flex items-center justify-center'>
+          <img src="/gif/circular-loaders.gif" alt="" className='h-50 max-md:h-20' />
+        </div>
+      )}
       {isLoginOpen && <Login onClose={handleLoginToggle} onSignUp={handleSignUpToggle} />}
       {isSignupOpen && <Register onClose={handleSignUpToggle} onLogin={handleLoginToggle} />}
-      {showMpesaPopup && (<MpesaPayment onClose={() => setShowMpesaPopup(false)} total={totalWithShipping} onSuccess={handleOrderSubmit} />
+      {showMpesaPopup && (
+        <MpesaPayment
+          onClose={() => setShowMpesaPopup(false)}
+          total={totalWithShipping}
+          setTransactionData={setTransactionData}
+          setPaymentStatus={setPaymentStatus}
+          handleOrderSubmit={handleOrderSubmit}
+        />
       )}
     </section>
   );

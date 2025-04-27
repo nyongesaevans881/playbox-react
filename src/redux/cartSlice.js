@@ -96,6 +96,11 @@ const cartSlice = createSlice({
         state.wishlist = wishlist ? JSON.parse(wishlist) : [];
       }
     },
+
+    clearCart: (state) => {
+      state.cart = [];
+      localStorage.setItem("cart", JSON.stringify(state.cart));
+    },
   },
 });
 
@@ -123,6 +128,7 @@ export const {
   addToWishlist,
   removeFromWishlist,
   hydrateCartFromLocalStorage,
+  clearCart,
 } = cartSlice.actions;
 
 export default cartSlice.reducer;

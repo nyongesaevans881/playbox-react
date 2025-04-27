@@ -7,7 +7,6 @@ import PlainLayout from './PlainLayout';
 
 import Index from "./pages/index";
 import { Toaster } from 'react-hot-toast';
-import CartSidebar from './components/cartSidebar/CartSidebar';
 import CartPage from './pages/cart/cart';
 import ProductListPage from './pages/products/products/Products';
 import Category from './pages/products/category/Category';
@@ -19,16 +18,16 @@ import ScrollButtons from './components/ScrollButtons/ScrollButtons';
 import BlogDetails from './pages/blog/BlogDetails';
 import BlogDetailsV0 from './pages/blog/BlogDetailsV0';
 import ResetPasswordPage from './pages/password/Password';
+import CheckoutSuccess from './pages/checkout/components/CheckoutSuccess/CheckoutSuccess';
 
 function App() {
   return (
     <Provider store={store}>
       <Router>
         <Toaster position="top-right" />
+        <ScrollButtons />
 
         <Routes>
-
-
           <Route path='/' element={<DefaultLayout><Index /></DefaultLayout>} />
 
           <Route path='/products' element={<DefaultLayout><ProductListPage /></DefaultLayout>} />
@@ -38,11 +37,12 @@ function App() {
           <Route path='/products/:category/:subCategory/:variant/:name' element={<DefaultLayout><Name /></DefaultLayout>} />
 
           <Route path='/cart' element={<DefaultLayout><CartPage /></DefaultLayout>} />
+          <Route path='/checkout' element={<CheckoutPage />} />
+          <Route path='/checkout/success' element={<CheckoutSuccess />} />
 
           <Route path='/blog/blogdetail' element={<DefaultLayout><BlogDetails /></DefaultLayout>} />
           <Route path='/blog/blogdetailV0' element={<DefaultLayout><BlogDetailsV0 /></DefaultLayout>} />
 
-          <Route path='/checkout' element={<CheckoutPage />} />
           <Route path='/dashboard/reset-password' element={<ResetPasswordPage />} />
         </Routes>
 
