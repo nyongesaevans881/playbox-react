@@ -19,6 +19,7 @@ import BlogDetails from './pages/blog/BlogDetails';
 import BlogDetailsV0 from './pages/blog/BlogDetailsV0';
 import ResetPasswordPage from './pages/password/Password';
 import CheckoutSuccess from './pages/checkout/components/CheckoutSuccess/CheckoutSuccess';
+import Dashboard from './pages/dashboard/Dashboard';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
           <Route path='/blog/blogdetail' element={<DefaultLayout><BlogDetails /></DefaultLayout>} />
           <Route path='/blog/blogdetailV0' element={<DefaultLayout><BlogDetailsV0 /></DefaultLayout>} />
 
+          <Route path='/dashboard' element={<DefaultLayout><Dashboard /></DefaultLayout>} />
           <Route path='/dashboard/reset-password' element={<ResetPasswordPage />} />
         </Routes>
 

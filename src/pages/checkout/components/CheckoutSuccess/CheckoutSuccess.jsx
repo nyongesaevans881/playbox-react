@@ -241,7 +241,7 @@ export default function CheckoutSuccess() {
                 <motion.a
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  href={`/account/orders/${order._id}`}
+                  href={`/dashboard`}
                   className="flex-1 flex items-center justify-center py-3 px-6 bg-primary text-white font-bold hover:bg-[#0680d8] transition-colors cursor-pointer"
                 >
                   <Package className="h-5 w-5 mr-2" />

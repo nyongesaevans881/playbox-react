@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeFromCart, incrementQuantity, decrementQuantity, selectCartTotal, selectCartLength } from '../../redux/cartSlice';
+import { removeFromCart, incrementQuantity, decrementQuantity, selectCartTotal, selectCartLength } from '../../redux/cartSlice'
 import './cart.css'
 import { Link } from 'react-router-dom';
 
@@ -105,7 +105,7 @@ const CartPage = () => {
                     <i className="fa fa-trash"></i>
                   </button>
                 </div>
-              </div>
+              </div>  
             ))}
 
           </div>
