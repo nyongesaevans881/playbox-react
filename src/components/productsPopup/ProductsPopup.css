@@ -272,9 +272,9 @@ h2 {
     text-align: left;
   }
 
-  .product-details-top-specs h6 span{
+  /* .product-details-top-specs h6 span{
     text-align: right;
-  }
+  } */
 
   .quantity-selector {
     flex-direction: column;
