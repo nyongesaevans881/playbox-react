@@ -35,7 +35,7 @@ const SubCategory = ({ params }) => {
         let productsToFilter;
         if (subCategory) {
             productsToFilter = allProducts.filter(
-                (product) => product.subCategory === subCategory
+                (product) => product.subCategory.includes(subCategory)
             );
         } else {
             productsToFilter = getRandomProducts(allProducts, 50);

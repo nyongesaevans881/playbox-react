@@ -126,7 +126,7 @@
 
 .product-list-card-item {
   max-width: 300px;
-  height: auto;
+  height: max-content;
   background: linear-gradient(-45deg, rgb(6, 144, 243, .1), rgb(239, 53, 99, .1));
   border: 1px solid transparent;
   border-image: linear-gradient(var(--primary-color), var(--secondary-color));

@@ -11,7 +11,7 @@ import NoProducts from '../zero/NoProducts';
 import FilterSidebar from '../../../components/filterSidebar/FilterSidebar';
 
 const Variant = ({ params }) => {
-    const { variant, category } = useParams();
+    const { variant, category, subCategory } = useParams();
     const dispatch = useDispatch();
     const allProducts = useSelector((state) => state.products[category] || []);
 
@@ -35,7 +35,7 @@ const Variant = ({ params }) => {
         let productsToFilter;
         if (variant) {
             productsToFilter = allProducts.filter(
-                (product) => product.variant === variant
+                (product) => product.subCategory.includes(subCategory) && product.variant === variant
             );
         } else {
             productsToFilter = getRandomProducts(allProducts, 50);
