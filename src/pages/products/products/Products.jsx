@@ -31,11 +31,17 @@ const ProductListPage = () => {
     const productsPerPage = 12;
     const allProducts = Object.values(productsState).flat();
 
+    // Scroll to top on component mount
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
 
     // Separate useEffect for filtering that only runs when products/filters change
     useEffect(() => {
         if (!allProducts || allProducts.length === 0) return; // ✅ Prevent running if products aren't loaded
-    
+
         let productsToFilter;
         if (category) {
             productsToFilter = allProducts.filter(
@@ -44,10 +50,10 @@ const ProductListPage = () => {
         } else {
             productsToFilter = getRandomProducts(allProducts, 100);
         }
-    
+
         applyFilters(productsToFilter);
     }, [category, filters, sortBy]); // ✅ Ensure `allProducts` is a dependency
-    
+
 
 
     const getRandomProducts = (products, count) => {
@@ -139,15 +145,20 @@ const ProductListPage = () => {
         indexOfLastProduct
     );
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const paginate = (pageNumber) => {
+        window.scrollTo(0, 0);
+        setCurrentPage(pageNumber);
+    }
 
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
 
     const goToPreviousPage = () => {
+        window.scrollTo(0, 0);
         setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
     };
 
     const goToNextPage = () => {
+        window.scrollTo(0, 0);
         setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
     };
 
@@ -155,7 +166,7 @@ const ProductListPage = () => {
         <section className="product-list-container-wrapper">
             <div className="product-list-container container">
                 <div className="flex justify-between mb-5 max-md:flex-col gap-6 items-center">
-                    <div className='text-gray-800 flex items-center gap-10 max-md:gap-2 max-md:justify-between max-md:w-[85%]'>
+                    <div className='text-gray-800 flex items-center gap-10 max-md:gap-2 max-md:justify-between max-md:w-[100%]'>
                         <a to="/" className="back-to-home cursor-pointer">
                             <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> <span className='max-md:hidden'>Back to </span>Home
                         </a>
@@ -164,8 +175,8 @@ const ProductListPage = () => {
                             {category ? (category.charAt(0).toUpperCase() + category.slice(1)) : 'All Products'}
                         </h1>
                     </div>
-                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 px-4 max-md:w-[85%]">
-                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='w-full'>
+                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 max-md:w-[100%] h-10">
+                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='w-full bg-blue-500/50 text-gray-800 h-full products-select-input sort-dropdown'>
                             <option value="best-selling">Best selling</option>
                             <option value="price-low-high">Price: Low to High</option>
                             <option value="price-high-low">Price: High to Low</option>

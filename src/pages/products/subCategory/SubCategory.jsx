@@ -82,6 +82,12 @@ const SubCategory = ({ params }) => {
         setProductID(null);
     };
 
+    // Scroll to top on component mount
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
     // Handle Add to Cart click
     const handleAddToCart = (id) => {
         const product = filteredProducts.find((p) => p.productID === id);
@@ -105,15 +111,20 @@ const SubCategory = ({ params }) => {
         indexOfLastProduct
     );
 
-    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+    const paginate = (pageNumber) => {
+        window.scrollTo(0, 0);
+        setCurrentPage(pageNumber);
+    }
 
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
 
     const goToPreviousPage = () => {
+        window.scrollTo(0, 0);
         setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
     };
 
     const goToNextPage = () => {
+        window.scrollTo(0, 0);
         setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
     };
 

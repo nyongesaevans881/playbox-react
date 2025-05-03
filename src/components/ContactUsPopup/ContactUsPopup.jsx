@@ -54,7 +54,7 @@ const ContactUsPopup = ({ onClose }) => {
 
 
   return (
-    <div className="fixed inset-0 bg-black/50 backdrop-blur-xs z-999 flex items-center justify-center max-md:px-6">
+    <div className="fixed inset-0 bg-black/50 backdrop-blur-xs z-9999 flex items-center justify-center max-md:px-6">
       <div className="bg-white p-6 w-full max-w-md relative shadow-lg  rounded-xs">
         <button onClick={onClose} className="absolute top-6 right-6 hover:text-red-500 cursor-pointer">
           <X size={25} />

@@ -92,6 +92,14 @@ export default function CheckoutPage() {
     }
   }, [user]);
 
+  useEffect(() => {
+    if (cartItems.length === 0) {
+      toast.error("Your cart is empty. Please add items to your cart before checking out.");
+      navigate('/products');
+    }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []); // Empty dependency array so it only runs once on mount
+
   //---------- Function to fetch user addresses from server
   const fetchUserAddresses = async (email) => {
     try {
@@ -154,6 +162,7 @@ export default function CheckoutPage() {
   //---------Handle Auth Pop-ups
   const handleSignUpToggle = () => dispatch(toggleSignup());
   const handleLoginToggle = () => dispatch(toggleLogin());
+
 
   // Get cart items with product details from global products
   const cartWithDetails = cartItems.map((cartItem) => {
@@ -489,7 +498,7 @@ export default function CheckoutPage() {
               {/* Display saved shipping addresses if available */}
               {user && savedShippingAddresses.length > 0 && (
                 <div className="saved-addresses-container">
-                  <h3>Your Saved Addresses</h3>
+                  <h3>Your Saved Addresses(Please Select One)</h3>
                   <div className="saved-addresses-list">
                     {savedShippingAddresses.map((address, index) => (
                       <div
