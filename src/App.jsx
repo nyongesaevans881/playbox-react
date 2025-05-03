@@ -20,6 +20,10 @@ import BlogDetailsV0 from './pages/blog/BlogDetailsV0';
 import ResetPasswordPage from './pages/password/Password';
 import CheckoutSuccess from './pages/checkout/components/CheckoutSuccess/CheckoutSuccess';
 import Dashboard from './pages/dashboard/Dashboard';
+import PlayboxFAQ from './pages/faq/PlayboxFAQ';
+import TermsofUsePage from './pages/policies/pages/TermsofUsePage';
+import RefundPolicyPage from './pages/policies/pages/RefundPolicyPage';
+import PrivacyPolicyPage from './pages/policies/pages/PrivacyPolicyPage';
 
 function App() {
   return (
@@ -40,6 +44,11 @@ function App() {
           <Route path='/cart' element={<DefaultLayout><CartPage /></DefaultLayout>} />
           <Route path='/checkout' element={<CheckoutPage />} />
           <Route path='/checkout/success' element={<CheckoutSuccess />} />
+
+          <Route path='/faq' element={<DefaultLayout><PlayboxFAQ /></DefaultLayout>} />
+          <Route path='/terms-of-use' element={<DefaultLayout><TermsofUsePage /></DefaultLayout>} />
+          <Route path='/refund-policy' element={<DefaultLayout><RefundPolicyPage /></DefaultLayout>} />
+          <Route path='/privacy-policy' element={<DefaultLayout><PrivacyPolicyPage /></DefaultLayout>} />
 
           <Route path='/blog/blogdetail' element={<DefaultLayout><BlogDetails /></DefaultLayout>} />
           <Route path='/blog/blogdetailV0' element={<DefaultLayout><BlogDetailsV0 /></DefaultLayout>} />

@@ -133,13 +133,13 @@ const CartSidebar = () => {
           <div className="flex justify-between py-4 px-2 gap-4">
             <a
               href="/cart"
-              className="w-full text-center py-3 font-bold bg-secondary text-white"
+              className={`w-full text-center py-3 font-bold bg-secondary text-white ${cartLength === 0 ? 'opacity-50 pointer-events-none' : ''}`}
             >
               View Full Cart
             </a>
             <a
               href="/checkout"
-              className="w-full text-center py-3 font-bold border border-primary text-primary"
+              className={`w-full text-center py-3 font-bold border border-primary text-primary ${cartLength === 0 ? 'opacity-50 pointer-events-none' : ''}`}
             >
               Checkout
             </a>

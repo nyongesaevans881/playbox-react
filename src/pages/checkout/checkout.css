@@ -545,7 +545,7 @@
 
     .place-order-btn-lg-mobile{
       display: block;
-      margin: 2rem auto 4rem;
+      margin: 2rem auto 0;
       max-width: 90%;
     }
   }
@@ -658,3 +658,101 @@
   .checkout-input.error{
     border-color: red;
   }
+
+
+
+  /* Styles for saved addresses section */
+.saved-addresses-container {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f7f9fc;
+  border: 1px solid var(--primary-color);
+}
+
+.saved-addresses-container h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.saved-addresses-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.saved-address {
+  flex: 1;
+  min-width: 250px;
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.saved-address:hover {
+  border-color: #0099ff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.saved-address.selected {
+  border-color: #0099ff;
+  background-color: rgba(0, 153, 255, 0.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.saved-address p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.saved-address p strong {
+  color: #333;
+}
+
+.toggle-form-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--color-primary);
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle-form-btn:hover {
+  background-color: #0690f3;
+}
+
+/* Adjust spacing for checkout sections */
+.checkout-section {
+  margin-bottom: 2rem;
+}
+
+/* Animation classes for smooth transitions */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 300ms, transform 300ms;
+}

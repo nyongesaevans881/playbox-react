@@ -8,6 +8,12 @@ export default function CheckoutSuccess() {
   const navigate = useNavigate();
   const [countdown, setCountdown] = useState(5);
 
+
+  // Scroll to top on component mount
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Access the order data from navigation state
   const orderData = location.state?.order?.data || {};
   const { order, user, loyaltyPointsAwarded } = orderData;
@@ -156,7 +162,7 @@ export default function CheckoutSuccess() {
                     <span className="text-gray-600">Payment Method</span>
                     <span className="font-medium capitalize">
                       {order.paymentMethod === 'mpesa' ? <p className='text-green-600 font-bold'>M-Pesa</p> : order.paymentMethod}
-                      </span>
+                    </span>
                   </div>
                   <div className="flex justify-between items-center pt-1">
                     <span className="text-gray-800 font-semibold">Total</span>
@@ -165,22 +171,22 @@ export default function CheckoutSuccess() {
                 </div>
               </motion.div>
 
-              {loyaltyPointsAwarded > 0 && (
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ delay: 0.4 }}
-                  className="bg-[#ef3563]/10 p-4 mb-6 flex items-center"
-                >
-                  <Star className="h-5 w-5 text-[#ef3563] mr-3" />
-                  <div>
-                    <p className="font-medium">Loyalty Points Earned!</p>
-                    <p className="text-sm">
-                      You earned {loyaltyPointsAwarded} points from this purchase.
-                    </p>
-                  </div>
-                </motion.div>
-              )}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ delay: 0.4 }}
+                className="bg-[#ef3563]/10 p-4 mb-6 mt-5 flex items-center"
+              >
+                <div>
+                  <p className="font-medium">
+                    EXPECT <span className='font-extrabold text-secondary'>SAME DAY DELIVERY</span> FOR ORDERS AROUND NAIROBI AND IT'S OUTSKIRTS
+                  </p>
+                  <p className="text-sm">
+                    For Deliveries Outside Nairobi Expect Products in roughly 24hrs (Next Day Delivery).
+                  </p>
+                </div>
+              </motion.div>
+
 
               <motion.div
                 initial={{ opacity: 0 }}
@@ -221,37 +227,38 @@ export default function CheckoutSuccess() {
                 </div>
               </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.4 }}
-                className="bg-[#ef3563]/10 p-4 mb-6 mt-5 flex items-center"
-              >
-                <div>
-                  <p className="font-medium">
-                    EXPECT <span className='font-extrabold text-secondary'>SAME DAY DELIVERY</span> FOR ORDERS AROUND NAIROBI AND IT'S OUTSKIRTS
-                  </p>
-                  <p className="text-sm">
-                    For Deliveries Outside Nairobi Expect Products in roughly 24hrs (Next Day Delivery).
-                  </p>
-                </div>
-              </motion.div>
+              {loyaltyPointsAwarded > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ delay: 0.4 }}
+                  className="bg-[#ef3563]/10 p-4 my-6 flex items-center"
+                >
+                  <Star className="h-5 w-5 text-[#ef3563] mr-3" />
+                  <div>
+                    <p className="font-medium">Loyalty Points Earned!</p>
+                    <p className="text-sm">
+                      You earned {loyaltyPointsAwarded} points from this purchase.
+                    </p>
+                  </div>
+                </motion.div>
+              )}
 
               <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                <motion.a
+                <motion.div
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  href={`/dashboard`}
-                  className="flex-1 flex items-center justify-center py-3 px-6 bg-primary text-white font-bold hover:bg-[#0680d8] transition-colors cursor-pointer"
+                  onClick={() => navigate('/dashboard')}
+                  className="flex-1 flex items-center justify-center py-3 px-6 bg-primary text-white font-bold hover:bg-[#0680d8] transition-colors cursor-pointer active:bg-[#0670c8] touch-auto"
                 >
                   <Package className="h-5 w-5 mr-2" />
                   Dashboard
-                </motion.a>
-                <motion.a
+                </motion.div>
+                <motion.div
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.97 }}
-                  href="/"
-                  className="flex-1 flex items-center justify-center py-3 px-6 text-secondary font-bold hover:bg-[#ef3563]/20 transition-colors border-2 border-secondary cursor-pointer"
+                  onClick={() => navigate('/products')}
+                  className="flex-1 flex items-center justify-center py-3 px-6 text-secondary font-bold hover:bg-[#ef3563]/20 transition-colors border-2 border-secondary cursor-pointer active:bg-[#ef3563]/30 touch-auto"
                 >
                   <Home className="h-5 w-5 mr-2" />
                   Continue Shopping
@@ -260,7 +267,7 @@ export default function CheckoutSuccess() {
                       {countdown}
                     </span>
                   )}
-                </motion.a>
+                </motion.div>
               </div>
             </motion.div>
             <div className="mt-8 text-center text-gray-600 text-sm">
@@ -290,8 +297,8 @@ export default function CheckoutSuccess() {
                   <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745656618/playbox_ngofr5.png" alt="logo" className='h-15 rounded-full' />
                 </motion.div>
                 <div>
-                  <h1 className="text-2xl md:text-3xl font-bold text-white">Playbox Order Received!</h1>
-                  <p className="text-white">— Your Order Is Being Processed.</p>
+                  <h1 className="text-2xl md:text-3xl font-bold text-white">Playbox</h1>
+                  <p className="text-white">Gamers Republic</p>
                 </div>
               </div>
 
@@ -320,7 +327,7 @@ export default function CheckoutSuccess() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: 0.3 }}
-                  className=" bg-white/10 backdrop-blur-sm py-2 px-4 mb-6"
+                  className=" bg-white/10 backdrop-blur-sm py-2 px-10 rounded-full mb-6"
                 >
                   <div className="flex items-center space-x-3 mb-2">
                     {user.avatar && (

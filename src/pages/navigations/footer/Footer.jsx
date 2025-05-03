@@ -3,7 +3,7 @@ import './footer.css';
 
 //--- Image imports
 const footerLogo = '/primary-logo.png'
-import TestimonialFooterSlider from '../carousels/testimonialFooterSlider/TestimonialFooterSlider';
+import TestimonialFooterSlider from '../../../components/carousels/testimonialFooterSlider/TestimonialFooterSlider';
 
 const FooterComponent = () => {
   return (

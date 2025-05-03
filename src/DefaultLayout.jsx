@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/footer/Footer";
+import Navbar from './pages/navigations/navbar/Navbar';
+import Footer from './pages/navigations/footer/Footer';
 import CartSidebar from './components/cartSidebar/CartSidebar';
+import ContactSidebar from './components/contactSidebar/ContactSidebar';
 
 
 const DefaultLayout = ({ children }) => {
@@ -9,6 +10,7 @@ const DefaultLayout = ({ children }) => {
         <div>
             <Navbar />
             <CartSidebar />
+            <ContactSidebar />
             <main>
                 {children}
             </main>

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Login.css";
 import { useDispatch } from "react-redux";
 import { Bars } from "react-loader-spinner";
-import { saveAuthToStorage } from "../../redux/userSlice";
+import { saveAuthToStorage } from "../../../redux/userSlice";
 import toast from "react-hot-toast";
 
 const API_URL = import.meta.env.VITE_SERVER_URL;
@@ -93,12 +93,15 @@ const Login = ({ onClose, onSignUp }) => {
       } else {
         if (result.errors) {
           setErrors(result.errors);
+          toast.error(result.errors || "An error occurred.");
         } else {
           setErrors({ general: result.message || "An error occurred." });
+          toast.error(result.message || "An error occurred.");
         }
       }
     } catch (error) {
       setErrors({ general: "Network error. Please try again." });
+      toast.error("Network error. Please try again.");
     } finally {
       setIsLoading(false);
     }
@@ -117,8 +120,6 @@ const Login = ({ onClose, onSignUp }) => {
         body: JSON.stringify({ email: formData.email }),
       });
 
-      console.log('TRY...')
-
       const result = await response.json();
 
       if (response.ok) {
@@ -129,9 +130,11 @@ const Login = ({ onClose, onSignUp }) => {
         setErrors({
           email: result.message || "Error sending password reset email."
         });
+        toast.error(result.message || "Error sending password reset email.");
       }
     } catch (error) {
       setErrors({ general: "Network error. Please try again." });
+      toast.error("Network error. Please try again.");
     } finally {
       setIsLoading(false);
     }
@@ -154,8 +157,10 @@ const Login = ({ onClose, onSignUp }) => {
             {isEmailSent ? (
               <div className="h-full w-full lg:my-30">
                 <div className="flex flex-col items-center justify-center ">
-                  <img src="/gif/check-primary.gif" alt="Success" className="h-30"/>
+                  <img src="/gif/check-secondary.gif" alt="Success" className="h-30"/>
+                  <h2 className="text-3xl text-center text-secondary font-bold">Success!</h2>
                   <p className="text-2xl text-center">Password reset instructions have been sent to your email.</p>
+                  <p className="text-md text-center text-primary">Please check your inbox.</p>
                 </div>
               </div>
             ) : (

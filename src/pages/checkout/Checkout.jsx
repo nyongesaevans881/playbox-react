@@ -1,18 +1,19 @@
 import { hydrateCartFromLocalStorage, selectCartLength, selectCartTotal, clearCart } from '../../redux/cartSlice';
-import { loadUserFromStorage, toggleLogin, toggleSignup } from '../../redux/userSlice';
+import { loadUserFromStorage, saveAuthToStorage, toggleLogin, toggleSignup } from '../../redux/userSlice';
 import { Banknote, ChevronDown, CreditCard, Phone } from 'lucide-react';
-import Register from '../../components/register/Register';
+import ContactUsPopup from '../../components/ContactUsPopup/ContactUsPopup';
+import RefundPolicyPopup from '../policies/RefundPolicy';
+import Register from '../auth/register/Register';
 import { MpesaPayment } from './components/mpesa/Mpesa'
 import { motion, AnimatePresence } from 'framer-motion';
 import { useDispatch, useSelector } from 'react-redux';
 import React, { useState, useEffect } from 'react';
-import Login from '../../components/login/Login';
+import Login from '../auth/login/Login';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import './checkout.css';
-import { div } from 'framer-motion/client';
-
+import TermsPopup from '../policies/TermsofUse';
+import PrivacyPopup from '../policies/PrivacyPolicy';
 
 export default function CheckoutPage() {
   const [email, setEmail] = useState('');
@@ -25,14 +26,24 @@ export default function CheckoutPage() {
     address: '',
     apartment: '',
     city: '',
-    postalCode: ''
+    postalCode: '',
+    specialInstructions: '',
   });
   const [shippingMethod, setShippingMethod] = useState('within');
+  const [specialDeliveryNote, setSpecialDeliveryNote] = useState('');
   const [paymentMethod, setPaymentMethod] = useState('mpesa');
   const [useDifferentBilling, setUseDifferentBilling] = useState(false);
   const [billingAddress, setBillingAddress] = useState(null);
   const [paymentStatus, setPaymentStatus] = useState(false);
   const [transactionData, setTransactionData] = useState(null);
+
+
+  const [savedShippingAddresses, setSavedShippingAddresses] = useState([]);
+  const [savedBillingAddresses, setSavedBillingAddresses] = useState([]);
+  const [selectedShippingAddress, setSelectedShippingAddress] = useState(null);
+  const [selectedBillingAddress, setSelectedBillingAddress] = useState(null);
+  const [showShippingForm, setShowShippingForm] = useState(true);
+  const [showBillingForm, setShowBillingForm] = useState(false);
 
   // ✅ Get all product categories at once
   const allProducts = useSelector((state) => state.products);
@@ -58,12 +69,87 @@ export default function CheckoutPage() {
   const stateProducts = useSelector((state) => state.products);
 
   const serverURL = import.meta.env.VITE_SERVER_URL;
+  //------- POLICIES 
+  const [showRefundPopup, setShowRefundPopup] = useState(false);
+  const [showTerms, setShowTerms] = useState(false);
+  const [showPrivacy, setShowPrivacy] = useState(false);
+
+  const [showContactPopup, setShowContactPopup] = useState(false);
+
+  const handleOpenPopup = () => setShowContactPopup(true);
+  const handleClosePopup = () => setShowContactPopup(false);
 
   //------------ Load user data on mount
   useEffect(() => {
     dispatch(loadUserFromStorage());
     dispatch(hydrateCartFromLocalStorage());
   }, [dispatch]);
+
+  // Fetch user addresses when component mounts and user exists
+  useEffect(() => {
+    if (user && user.email) {
+      fetchUserAddresses(user.email);
+    }
+  }, [user]);
+
+  //---------- Function to fetch user addresses from server
+  const fetchUserAddresses = async (email) => {
+    try {
+      const response = await fetch(`${serverURL}/playbox_user/user`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email })
+      });
+
+      const data = await response.json();
+
+      if (data.success && data.data) {
+        // Set saved addresses
+        setSavedShippingAddresses(data.data.shippingAddresses || []);
+        setSavedBillingAddresses(data.data.billingAddresses || []);
+
+        // Set default selections if addresses exist
+        if (data.data.shippingAddresses && data.data.shippingAddresses.length > 0) {
+          // setSelectedShippingAddress(data.data.shippingAddresses[0]);
+          setShowShippingForm(false);
+        }
+
+        // Pre-fill user contact info if available
+        if (data.data.email) setEmail(data.data.email);
+        if (data.data.phoneNumber) setPhone(data.data.phoneNumber);
+      }
+    } catch (error) {
+      console.error('Error fetching user addresses:', error);
+    }
+  };
+
+  // Function to handle selecting a shipping address
+  const handleSelectShippingAddress = (address) => {
+    setSelectedShippingAddress(address);
+    setShippingAddress({
+      country: 'Kenya',
+      firstName: address.firstName,
+      lastName: address.lastName,
+      address: address.address,
+      apartment: address.apartment,
+      city: address.city,
+      postalCode: address.postalCode
+    });
+  };
+
+  // Function to handle selecting a billing address
+  const handleSelectBillingAddress = (address) => {
+    setSelectedBillingAddress(address);
+    setBillingAddress({
+      firstName: address.firstName,
+      lastName: address.lastName,
+      address: address.address,
+      apartment: address.apartment,
+      city: address.city,
+      postalCode: address.postalCode,
+      phone: address.phone || ''
+    });
+  };
 
   //---------Handle Auth Pop-ups
   const handleSignUpToggle = () => dispatch(toggleSignup());
@@ -124,25 +210,42 @@ export default function CheckoutPage() {
     try {
       setIsSubmitting(true);
 
-      console.log(showContactForm);
-
-      const orderData = {
-        user: user && showContactForm ? user : { email: email, phone: phone },
-        items: cartItems,
-        shippingAddress: {
+      // Use selected shipping address if available, otherwise use form data
+      const finalShippingAddress = selectedShippingAddress
+        ? {
+          ...selectedShippingAddress,
+          email: (user && showContactForm) ? user.email : email,
+          phone: (user && showContactForm) ? user.phone : phone
+        }
+        : {
           ...shippingAddress,
           email: (user && showContactForm) ? user.email : email,
           phone: (user && showContactForm) ? user.phone : phone
-        },
-        billingAddress: useDifferentBilling ? billingAddress : shippingAddress,
+        };
+
+      // Determine billing address based on selection
+      let finalBillingAddress = finalShippingAddress;
+
+      if (useDifferentBilling) {
+        finalBillingAddress = selectedBillingAddress || billingAddress;
+      }
+
+      const orderData = {
+        user: user && showContactForm ? user : { email: email, phone: phone },
+        items: cartWithDetails,
+        shippingAddress: finalShippingAddress,
+        billingAddress: finalBillingAddress,
+        newsUpdates,
         shippingMethod,
         paymentMethod,
+        specialDeliveryNote,
         transactionData,
         total: totalWithShipping,
         contactEmail: (user && showContactForm) ? user.email : email,
         contactPhone: (user && showContactForm) ? user.phone : phone,
       };
 
+      // Rest of the function remains the same
       const response = await fetch(`${serverURL}/playbox_order`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -153,18 +256,37 @@ export default function CheckoutPage() {
       console.log(`responseData`, responseData);
 
       if (response.ok) {
+        dispatch(
+          saveAuthToStorage({
+            user: {
+              username: responseData.data.user.username,
+              avatar: responseData.data.user.avatar,
+              email: responseData.data.user.email,
+              phone: responseData.data.user.phone,
+              cart: responseData.data.user.cart || [],
+              favorites: responseData.data.user.favorites || [],
+              verified: responseData.data.user.verified,
+              token: responseData.data.token,
+              expiresIn: responseData.data.expiresIn,
+            },
+          })
+        );
+
         setOrderStatus('success');
-        // Clear cart and redirect to success page
+        toast.success("Order placed successfully!")
         dispatch(clearCart());
         navigate('/checkout/success', { state: { order: responseData } });
       } else {
         const errorData = await response.json();
         setOrderStatus('failed');
+        toast.error(errorData.message || 'Order submission failed')
         setFormErrors([errorData.message || 'Order submission failed']);
       }
     } catch (err) {
       setOrderStatus('failed');
-      setFormErrors(['An unexpected error occurred']);
+      setFormErrors(['An unexpected error occurred. Please Check your internet or contact support.']);
+      toast.error('An unexpected error occurred.')
+      toast.error('Please Check internet or contact support')
       console.error('Order submission failed:', err);
     } finally {
       setIsSubmitting(false);
@@ -174,12 +296,18 @@ export default function CheckoutPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    if (!selectedShippingAddress && !showShippingForm) {
+      toast.error("Please select a delivery address or fill in the form.")
+      return;
+    }
+
     const isValid = validateForm();
 
     if (!isValid) {
       toast.error("Please fix errors in the form to continue")
       return;
     }
+
 
     const selectedMethod = paymentMethod || 'mpesa';
 
@@ -251,11 +379,13 @@ export default function CheckoutPage() {
     <section className="checkout-page-canvas">
       <div className="checkout-page-header">
         <div className="checkout-page-header-wrapper container">
-          <Link href='/'>
+          <a href='/'>
             <img src="/primary-logo.png" alt="" />
-          </Link>
+          </a>
           <div className="checkout-page-header-icons">
-            <a href=""><i className="fas fa-headset" title='Need to ask something?'></i></a>
+            <button onClick={handleOpenPopup}>
+              <i className="fas fa-headset" title='contact'></i>
+            </button>
             <a href="/cart"><i className="fas fa-shopping-basket" title='Check your cart'></i></a>
           </div>
         </div>
@@ -355,77 +485,113 @@ export default function CheckoutPage() {
             {/* Delivery Section */}
             <section className="checkout-section">
               <h2>Delivery Address</h2>
-              <select
-                className='checkout-input'
-                value={shippingAddress.country}
-                onChange={(e) => setShippingAddress({ ...shippingAddress, country: e.target.value })}
-              >
-                <option value="Kenya">Kenya</option>
-              </select>
 
-              <div className="chekout-name-group">
-                <div className="checkout-input-singel">
-                  <input
-                    className={`checkout-input ${formErrors.firstName ? 'error' : ''}`}
-                    type="text"
-                    value={shippingAddress.firstName}
-                    onChange={(e) => setShippingAddress({ ...shippingAddress, firstName: e.target.value })}
-                    placeholder="First Name"
-                    required
-                  />
-                  {formErrors.firstName && <p className="error-message">{formErrors.firstName}</p>}
-                </div>
-                <input
-                  className='checkout-input'
-                  type="text"
-                  value={shippingAddress.lastName}
-                  onChange={(e) => setShippingAddress({ ...shippingAddress, lastName: e.target.value })}
-                  placeholder="Last Name (optional)"
-                  required
-                />
-                <div className="checkout-input-singel">
-                  <input
-                    className={`checkout-input ${formErrors.address ? 'error' : ''}`}
-                    type="text"
-                    value={shippingAddress.address}
-                    onChange={(e) => setShippingAddress({ ...shippingAddress, address: e.target.value })}
-                    placeholder="Address"
-                    required
-                  />
-                  {formErrors.address && <p className="error-message">{formErrors.address}</p>}
-                </div>
-                <div className="checkout-input-singel">
-                  <input
-                    className={`checkout-input ${formErrors.apartment ? 'error' : ''}`}
-                    type="text"
-                    value={shippingAddress.apartment}
-                    onChange={(e) => setShippingAddress({ ...shippingAddress, apartment: e.target.value })}
-                    placeholder="Apartment, suite, house no. etc."
-                    required
-                  />
-                  {formErrors.apartment && <p className="error-message">{formErrors.apartment}</p>}
-                </div>
-                <div className="checkout-input-singel">
-                  <input
-                    className={`checkout-input ${formErrors.city ? 'error' : ''}`}
-                    type="text"
-                    value={shippingAddress.city}
-                    onChange={(e) => setShippingAddress({ ...shippingAddress, city: e.target.value })}
-                    placeholder="City"
-                    required
-                  />
-                  {formErrors.city && <p className="error-message">{formErrors.city}</p>}
-                </div>
-                <input
-                  className='checkout-input'
-                  type="text"
-                  value={shippingAddress.postalCode}
-                  onChange={(e) => setShippingAddress({ ...shippingAddress, postalCode: e.target.value })}
-                  placeholder="Postal Code"
-                  required
-                />
+              {/* Display saved shipping addresses if available */}
+              {user && savedShippingAddresses.length > 0 && (
+                <div className="saved-addresses-container">
+                  <h3>Your Saved Addresses</h3>
+                  <div className="saved-addresses-list">
+                    {savedShippingAddresses.map((address, index) => (
+                      <div
+                        key={index}
+                        className={`saved-address ${selectedShippingAddress === address ? 'selected' : ''}`}
+                        onClick={() => handleSelectShippingAddress(address)}
+                      >
+                        <p><strong>{address.firstName} {address.lastName}</strong></p>
+                        <p>{address.address}</p>
+                        <p>{address.apartment}</p>
+                        <p>{address.city}, {address.postalCode}</p>
+                        <p>{address.phone}</p>
+                      </div>
+                    ))}
+                  </div>
 
-              </div>
+                  <button
+                    type="button"
+                    className="toggle-form-btn"
+                    onClick={() => setShowShippingForm(!showShippingForm)}
+                  >
+                    {showShippingForm ? 'Hide Form' : 'Add New Address'}
+                  </button>
+                </div>
+              )}
+
+              {/* Shipping address form */}
+              {showShippingForm && (
+                <div className="shipping-form">
+                  <select
+                    className='checkout-input'
+                    value={shippingAddress.country}
+                    onChange={(e) => setShippingAddress({ ...shippingAddress, country: e.target.value })}
+                  >
+                    <option value="Kenya">Kenya</option>
+                  </select>
+
+                  <div className="chekout-name-group">
+                    <div className="checkout-input-singel">
+                      <input
+                        className={`checkout-input ${formErrors.firstName ? 'error' : ''}`}
+                        type="text"
+                        value={shippingAddress.firstName}
+                        onChange={(e) => setShippingAddress({ ...shippingAddress, firstName: e.target.value })}
+                        placeholder="First Name"
+                        required
+                      />
+                      {formErrors.firstName && <p className="error-message">{formErrors.firstName}</p>}
+                    </div>
+                    <input
+                      className='checkout-input'
+                      type="text"
+                      value={shippingAddress.lastName}
+                      onChange={(e) => setShippingAddress({ ...shippingAddress, lastName: e.target.value })}
+                      placeholder="Last Name (optional)"
+                      required
+                    />
+                    <div className="checkout-input-singel">
+                      <input
+                        className={`checkout-input ${formErrors.address ? 'error' : ''}`}
+                        type="text"
+                        value={shippingAddress.address}
+                        onChange={(e) => setShippingAddress({ ...shippingAddress, address: e.target.value })}
+                        placeholder="Address"
+                        required
+                      />
+                      {formErrors.address && <p className="error-message">{formErrors.address}</p>}
+                    </div>
+                    <div className="checkout-input-singel">
+                      <input
+                        className={`checkout-input ${formErrors.apartment ? 'error' : ''}`}
+                        type="text"
+                        value={shippingAddress.apartment}
+                        onChange={(e) => setShippingAddress({ ...shippingAddress, apartment: e.target.value })}
+                        placeholder="Apartment, suite, house no. etc."
+                        required
+                      />
+                      {formErrors.apartment && <p className="error-message">{formErrors.apartment}</p>}
+                    </div>
+                    <div className="checkout-input-singel">
+                      <input
+                        className={`checkout-input ${formErrors.city ? 'error' : ''}`}
+                        type="text"
+                        value={shippingAddress.city}
+                        onChange={(e) => setShippingAddress({ ...shippingAddress, city: e.target.value })}
+                        placeholder="City"
+                        required
+                      />
+                      {formErrors.city && <p className="error-message">{formErrors.city}</p>}
+                    </div>
+                    <input
+                      className='checkout-input'
+                      type="text"
+                      value={shippingAddress.postalCode}
+                      onChange={(e) => setShippingAddress({ ...shippingAddress, postalCode: e.target.value })}
+                      placeholder="Postal Code"
+                      required
+                    />
+
+                  </div>
+                </div>
+              )}
             </section>
 
             {/* Shipping Method */}
@@ -516,7 +682,7 @@ export default function CheckoutPage() {
             </section>
 
 
-            {/* Billing Address */}
+            {/* Billing Address Section */}
             <section className="checkout-section">
               <h2>Billing Address</h2>
               <label className="checkout-checkbox-label">
@@ -537,77 +703,123 @@ export default function CheckoutPage() {
                     exit={{ height: 0, opacity: 0 }}
                     className="billing-form grid grid-cols-2 gap-x-4 items-start max-md:flex max-md:flex-col"
                   >
-                    {/* Billing address form fields - similar to shipping address fields */}
-                    <div className="w-full">
-                      <input
-                        className={`checkout-input ${formErrors.billingFirstName ? 'error' : ''}`}
-                        type="text"
-                        value={billingAddress?.firstName || ''}
-                        onChange={(e) => setBillingAddress({ ...billingAddress, firstName: e.target.value })}
-                        placeholder="First name"
-                        required
-                      />
-                      {formErrors.billingFirstName && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingFirstName}</p>}
-                    </div>
-                    <div className="w-full">
-                      <input
-                        className={`checkout-input ${formErrors.billingLastName ? 'error' : ''}`}
-                        type="text"
-                        value={billingAddress?.lastName || ''}
-                        onChange={(e) => setBillingAddress({ ...billingAddress, lastName: e.target.value })}
-                        placeholder="Last name"
-                        required
-                      />
-                      {formErrors.billingLastName && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingLastName}</p>}
-                    </div>
-                    <input
-                      className={`checkout-input col-span-2 ${formErrors.billingLastName ? 'error' : ''}`}
-                      type="text"
-                      value={billingAddress?.address || ''}
-                      onChange={(e) => setBillingAddress({ ...billingAddress, address: e.target.value })}
-                      placeholder="Address"
-                      required
-                    />
-                    {formErrors.billingAddress && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingAddress}</p>}
-                    <input
-                      className='col-span-2'
-                      type="text"
-                      value={billingAddress?.apartment || ''}
-                      onChange={(e) => setBillingAddress({ ...billingAddress, apartment: e.target.value })}
-                      placeholder="Apartment, Suite, etc.(optional)"
-                      required
-                    />
-                    <div className="w-full">
-                      <input
-                        className={`checkout-input ${formErrors.billingCity ? 'error' : ''}`}
-                        type="text"
-                        value={billingAddress?.city || ''}
-                        onChange={(e) => setBillingAddress({ ...billingAddress, city: e.target.value })}
-                        placeholder="City/Town"
-                        required
-                      />
-                      {formErrors.billingCity && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingCity}</p>}
-                    </div>
-                    <input
-                      className='checkout-input'
-                      type="text"
-                      value={billingAddress?.postalCode || ''}
-                      onChange={(e) => setBillingAddress({ ...billingAddress, postalCode: e.target.value })}
-                      placeholder="Postal Code (Optional)"
-                      required
-                    />
-                    <input
-                      className='col-span-2'
-                      type="text"
-                      value={billingAddress?.phone || ''}
-                      onChange={(e) => setBillingAddress({ ...billingAddress, phone: e.target.value })}
-                      placeholder="Phone (optional)"
-                      required
-                    />
-                    {/* Add remaining billing address fields */}
+                    {/* Display saved billing addresses if available */}
+                    {user && savedBillingAddresses.length > 0 && (
+                      <div className="saved-addresses-container col-span-2 mb-4">
+                        <h3>Your Saved Billing Addresses</h3>
+                        <div className="saved-addresses-list">
+                          {savedBillingAddresses.map((address, index) => (
+                            <div
+                              key={index}
+                              className={`saved-address ${selectedBillingAddress === address ? 'selected' : ''}`}
+                              onClick={() => handleSelectBillingAddress(address)}
+                            >
+                              <p><strong>{address.firstName} {address.lastName}</strong></p>
+                              <p>{address.address}</p>
+                              <p>{address.apartment}</p>
+                              <p>{address.city}, {address.postalCode}</p>
+                            </div>
+                          ))}
+                        </div>
+
+                        <button
+                          type="button"
+                          className="toggle-form-btn"
+                          onClick={() => setShowBillingForm(!showBillingForm)}
+                        >
+                          {showBillingForm ? 'Hide Form' : 'Use New Billing Address'}
+                        </button>
+                      </div>
+                    )}
+
+                    {/* Show billing form if no saved address is selected or if user wants to enter a new one */}
+                    {(showBillingForm || (!user || savedBillingAddresses.length === 0)) && (
+                      <>
+                        <div className="w-full">
+                          <input
+                            className={`checkout-input ${formErrors.billingFirstName ? 'error' : ''}`}
+                            type="text"
+                            value={billingAddress?.firstName || ''}
+                            onChange={(e) => setBillingAddress({ ...billingAddress, firstName: e.target.value })}
+                            placeholder="First name"
+                            required
+                          />
+                          {formErrors.billingFirstName && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingFirstName}</p>}
+                        </div>
+                        <div className="w-full">
+                          <input
+                            className={`checkout-input ${formErrors.billingLastName ? 'error' : ''}`}
+                            type="text"
+                            value={billingAddress?.lastName || ''}
+                            onChange={(e) => setBillingAddress({ ...billingAddress, lastName: e.target.value })}
+                            placeholder="Last name"
+                            required
+                          />
+                          {formErrors.billingLastName && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingLastName}</p>}
+                        </div>
+                        <input
+                          className={`checkout-input col-span-2 ${formErrors.billingLastName ? 'error' : ''}`}
+                          type="text"
+                          value={billingAddress?.address || ''}
+                          onChange={(e) => setBillingAddress({ ...billingAddress, address: e.target.value })}
+                          placeholder="Address"
+                          required
+                        />
+                        {formErrors.billingAddress && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingAddress}</p>}
+                        <input
+                          className='col-span-2'
+                          type="text"
+                          value={billingAddress?.apartment || ''}
+                          onChange={(e) => setBillingAddress({ ...billingAddress, apartment: e.target.value })}
+                          placeholder="Apartment, Suite, etc.(optional)"
+                          required
+                        />
+                        <div className="w-full">
+                          <input
+                            className={`checkout-input ${formErrors.billingCity ? 'error' : ''}`}
+                            type="text"
+                            value={billingAddress?.city || ''}
+                            onChange={(e) => setBillingAddress({ ...billingAddress, city: e.target.value })}
+                            placeholder="City/Town"
+                            required
+                          />
+                          {formErrors.billingCity && <p className="text-red-500 bg-red-500/20 font-bold py-1 px-2">{formErrors.billingCity}</p>}
+                        </div>
+                        <input
+                          className='checkout-input'
+                          type="text"
+                          value={billingAddress?.postalCode || ''}
+                          onChange={(e) => setBillingAddress({ ...billingAddress, postalCode: e.target.value })}
+                          placeholder="Postal Code (Optional)"
+                          required
+                        />
+                        <input
+                          className='col-span-2'
+                          type="text"
+                          value={billingAddress?.phone || ''}
+                          onChange={(e) => setBillingAddress({ ...billingAddress, phone: e.target.value })}
+                          placeholder="Phone (optional)"
+                          required
+                        />
+                        {/* Add remaining billing address fields */}
+                      </>
+                    )}
                   </motion.div>
                 )}
               </AnimatePresence>
+            </section>
+
+            {/* /* Special Note/Delivery Instructions */}
+            <section className="checkout-section">
+              <h2>Special Note/Delivery Instructions</h2>
+              <textarea
+                className="border border-gray-200 outline-none p-3"
+                placeholder="Add any special instructions for delivery (optional)"
+                rows="4"
+                style={{ width: '100%', resize: 'vertical' }}
+                value={specialDeliveryNote}
+                onChange={(e) => setSpecialDeliveryNote(e.target.value)}
+              />
             </section>
 
             <button type="submit" disabled={isSubmitting} className="place-order-btn-lg" onClick={handleSubmit}>
@@ -686,12 +898,29 @@ export default function CheckoutPage() {
           </div>
         )}
       </div>
+
+      <div className='bg-black h-15 text-gray-400'>
+        <div className='container p-4 flex justify-between max-md:flex-col'>
+          <p>&copy; All right reserved. Playbox @2025</p>
+          <div className='flex gap-2 max-md:flex-wrap max-md:mt-2 max-md:pb-25'>
+            <button className='cursor-pointer' onClick={() => setShowRefundPopup(true)}>Refund Policy</button>|
+            <button className='cursor-pointer' onClick={() => setShowTerms(true)}>Terms of Service</button>|
+            <button className='cursor-pointer' onClick={() => setShowPrivacy(true)} >Privacy Policy</button>|
+            <button className='cursor-pointer' onClick={handleOpenPopup} >Contact Us</button>|
+            <a href='/faq'>FAQ</a>
+          </div>
+        </div>
+      </div>
       {paymentStatus && isSubmitting && (
         <div className='fixed top-0 left-0 right-0 bottom-0 bg-black/30 z-50 flex items-center justify-center'>
           <img src="/gif/circular-loaders.gif" alt="" className='h-50 max-md:h-20' />
         </div>
       )}
+      {showRefundPopup && <RefundPolicyPopup onClose={() => setShowRefundPopup(false)} />}
+      {showTerms && <TermsPopup onClose={() => setShowTerms(false)} />}
+      {showPrivacy && <PrivacyPopup onClose={() => setShowPrivacy(false)} />}
       {isLoginOpen && <Login onClose={handleLoginToggle} onSignUp={handleSignUpToggle} />}
+      {showContactPopup && <ContactUsPopup onClose={handleClosePopup} />}
       {isSignupOpen && <Register onClose={handleSignUpToggle} onLogin={handleLoginToggle} />}
       {showMpesaPopup && (
         <MpesaPayment

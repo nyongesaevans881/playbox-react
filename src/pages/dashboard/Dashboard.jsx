@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { User, ShoppingCart, Package, Medal, Eye, EyeOff, Mail, MapPin, CreditCard, Plus, ChevronRight, ChevronDown, ArrowUp, X, Check } from 'lucide-react';
+import { User, ShoppingCart, Package, Medal, Eye, EyeOff, Mail, MapPin, CreditCard, Plus, ChevronRight, ChevronDown, ArrowUp, X, Check, CircleCheck, RefreshCcw } from 'lucide-react';
 import { loadUserFromStorage, toggleLogin, toggleSignup } from '../../redux/userSlice';
-import { IoGameController } from "react-icons/io5";
+import AddressManagement from './components/AddressManagement';
 import { useDispatch, useSelector } from 'react-redux';
-import Login from '../../components/login/Login';
-import Register from '../../components/register/Register';
+import React, { useState, useEffect } from 'react';
+import Register from '../auth/register/Register';
+import Login from '../auth/login/Login';
 import toast from 'react-hot-toast';
+import { div } from 'framer-motion/client';
 
 export default function Dashboard() {
     const isLoginOpen = useSelector((state) => state.user.isLoginOpen);
@@ -140,26 +141,6 @@ export default function Dashboard() {
     const handleSignUpToggle = () => dispatch(toggleSignup());
     const handleLoginToggle = () => dispatch(toggleLogin());
 
-    if (loading) return (
-        <div className="flex h-screen items-center justify-center bg-gray-900">
-            <div className="text-blue-400 text-xl">Loading your dashboard...</div>
-        </div>
-    );
-
-    // if (error) return (
-    //     <div className="flex h-screen items-center justify-center bg-gray-900">
-    //         <div className="text-red-500 text-xl">Error: {error}</div>
-    //     </div>
-    // );
-
-    if (!userData) return (
-        <div>
-            {console.log(`isLoginOpen`, isLoginOpen)}
-            {isLoginOpen && <Login onClose={handleLoginToggle} onSignUp={handleSignUpToggle} />}
-            {isSignupOpen && <Register onClose={handleSignUpToggle} onLogin={handleLoginToggle} />}
-        </div>
-    );
-
     const formatDate = (dateString) => {
         const date = new Date(dateString);
         return date.toLocaleDateString('en-US', {
@@ -180,7 +161,14 @@ export default function Dashboard() {
         }
     };
 
-    return (
+
+    if (loading) return (
+        <div className='fixed top-0 left-0 right-0 bottom-0 bg-black/30 z-50 flex items-center justify-center'>
+          <img src="/gif/circular-loaders.gif" alt="" className='h-50 max-md:h-20' />
+        </div>
+    );
+
+    if (userData) return (
         <div className="min-h-screen bg-white text-white p-4 md:p-8">
             <div className=' container'>
                 {/* Header */}
@@ -197,29 +185,29 @@ export default function Dashboard() {
                         </div>
 
                         {/* Community Visibility Toggle */}
-                        <div className={`relative flex cursor-pointer items-center px-3 py-1 transition-all duration-300 ${showCommunity ? 'bg-secondary border-2 border-secondary text-white' : 'border-2 border-secondary text-dark'
+                        {/* <div className={`relative flex cursor-pointer items-center px-3 py-1 transition-all duration-300 ${showCommunity ? 'bg-secondary border-2 border-secondary text-white' : 'border-2 border-secondary text-dark'
                             }`}>
                             <button
                                 onClick={toggleCommunityVisibility}
-                                className="flex items-center gap-2 focus:outline-none"
+                                className="flex items-center gap-2 focus:outline-none text-secondary"
                             >
                                 {showCommunity ? <Eye size={20} /> : <EyeOff size={20} />}
-                                <span className="text-sm">
+                                <span className="text-dark text-sm opacity-70">
                                     {showCommunity ? 'Visible in Community' : 'Hidden in Community'}
                                 </span>
                             </button>
-                        </div>
+                        </div> */}
 
                         {/* Verification Status */}
-                        {!isVerified && (
+                        {/* {!isVerified && (
                             <button
                                 onClick={sendVerificationEmail}
-                                className="flex items-center gap-2 border-2 border-primary px-3 py-1 text-primary cursor-pointer"
+                                className="flex items-center gap-2 border-2 px-3 py-1 cursor-pointer text-secondary"
                             >
                                 <Mail size={20} />
-                                <span className="text-sm">Verify Email</span>
+                                <span className="text-dark text-sm opacity-70">Verify Email</span>
                             </button>
-                        )}
+                        )} */}
 
                         {isVerified && (
                             <div className="flex items-center gap-2 bg-gray-800 p-3 rounded-lg">
@@ -254,7 +242,7 @@ export default function Dashboard() {
                                     <img
                                         src={userData.avatar}
                                         alt="Profile"
-                                        className="w-24 h-24 rounded-lg"
+                                        className="w-24 h-24 border-2 border-gray-400/50 rounded-full"
                                     />
                                     <div>
                                         <h3 className="font-bold text-lg text-dark">{userData.username}</h3>
@@ -290,121 +278,22 @@ export default function Dashboard() {
                         </div>
 
                         {/* Shipping Addresses */}
-                        <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 mt-6">
-                            <div
-                                className="bg-[#031d5c] px-4 py-3 flex justify-between items-center cursor-pointer"
-                                onClick={() => toggleSection('shipping')}
-                            >
-                                <div className="flex items-center gap-2">
-                                    <MapPin size={20} />
-                                    <h2 className="font-bold">Shipping Addresses</h2>
-                                </div>
-                                {expandedSection === 'shipping' ?
-                                    <ChevronDown size={20} /> :
-                                    <ChevronRight size={20} />
-                                }
-                            </div>
-
-                            {expandedSection === 'shipping' && (
-                                <div className="p-4">
-                                    <div className="max-h-64 overflow-y-auto">
-                                        {userData.shippingAddresses.map((address, index) => (
-                                            <div key={address._id} className="mb-3 last:mb-0">
-                                                <div
-                                                    className="p-3 bg-gray-700 rounded-lg flex justify-between items-center cursor-pointer"
-                                                    onClick={() => toggleAddressDetails(address._id)}
-                                                >
-                                                    <div>
-                                                        <p className="font-medium">{address.firstName} {address.lastName}</p>
-                                                        <p className="text-sm text-gray-400">{address.city}</p>
-                                                    </div>
-                                                    {expandedAddressId === address._id ?
-                                                        <ChevronDown size={16} /> :
-                                                        <ChevronRight size={16} />
-                                                    }
-                                                </div>
-
-                                                {expandedAddressId === address._id && (
-                                                    <div className="p-3 bg-gray-700 bg-opacity-50 rounded-b-lg mt-px">
-                                                        <p className="text-sm">{address.address}</p>
-                                                        {address.apartment && <p className="text-sm">{address.apartment}</p>}
-                                                        <p className="text-sm">{address.city}, {address.postalCode}</p>
-                                                        <p className="text-sm">{address.phone}</p>
-                                                    </div>
-                                                )}
-                                            </div>
-                                        ))}
-                                    </div>
-                                    <button className="mt-3 flex items-center gap-2 text-[#0690f3] hover:text-blue-400 transition-colors">
-                                        <Plus size={16} />
-                                        <span className="text-sm">Add New Address</span>
-                                    </button>
-                                </div>
-                            )}
-                        </div>
-
-                        {/* Billing Addresses */}
-                        <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 mt-6">
-                            <div
-                                className="bg-[#031d5c] px-4 py-3 flex justify-between items-center cursor-pointer"
-                                onClick={() => toggleSection('billing')}
-                            >
-                                <div className="flex items-center gap-2">
-                                    <CreditCard size={20} />
-                                    <h2 className="font-bold">Billing Addresses</h2>
-                                </div>
-                                {expandedSection === 'billing' ?
-                                    <ChevronDown size={20} /> :
-                                    <ChevronRight size={20} />
-                                }
-                            </div>
-
-                            {expandedSection === 'billing' && (
-                                <div className="p-4">
-                                    <div className="max-h-64 overflow-y-auto">
-                                        {userData.billingAddresses.map((address, index) => (
-                                            <div key={address._id} className="mb-3 last:mb-0">
-                                                <div
-                                                    className="p-3 bg-gray-700 rounded-lg flex justify-between items-center cursor-pointer"
-                                                    onClick={() => toggleAddressDetails(`billing-${address._id}`)}
-                                                >
-                                                    <div>
-                                                        <p className="font-medium">{address.firstName} {address.lastName}</p>
-                                                        <p className="text-sm text-gray-400">{address.city}</p>
-                                                    </div>
-                                                    {expandedAddressId === `billing-${address._id}` ?
-                                                        <ChevronDown size={16} /> :
-                                                        <ChevronRight size={16} />
-                                                    }
-                                                </div>
-
-                                                {expandedAddressId === `billing-${address._id}` && (
-                                                    <div className="p-3 bg-gray-700 bg-opacity-50 rounded-b-lg mt-px">
-                                                        <p className="text-sm">{address.address}</p>
-                                                        {address.apartment && <p className="text-sm">{address.apartment}</p>}
-                                                        <p className="text-sm">{address.city}, {address.postalCode}</p>
-                                                    </div>
-                                                )}
-                                            </div>
-                                        ))}
-                                    </div>
-                                    <button className="mt-3 flex items-center gap-2 text-[#0690f3] hover:text-blue-400 transition-colors">
-                                        <Plus size={16} />
-                                        <span className="text-sm">Add New Address</span>
-                                    </button>
-                                </div>
-                            )}
-                        </div>
+                        <AddressManagement
+                            expandedSection={expandedSection}
+                            toggleSection={toggleSection}
+                            userData={userData}
+                            setUserData={setUserData}
+                        />
 
                         {/* Gaming Socials */}
-                        <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 mt-6">
+                        {/* <div className="bg-white overflow-hidden shadow-lg border border-secondary mt-6">
                             <div
-                                className="bg-[#031d5c] px-4 py-3 flex justify-between items-center cursor-pointer"
+                                className="bg-secondary px-4 py-3 flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleSection('socials')}
                             >
                                 <div className="flex items-center gap-2">
                                     <IoGameController size={20} />
-                                    <h2 className="font-bold">Gaming Socials</h2>
+                                    <h4 className="font-bold">Gaming Socials</h4>
                                 </div>
                                 {expandedSection === 'socials' ?
                                     <ChevronDown size={20} /> :
@@ -435,7 +324,7 @@ export default function Dashboard() {
                                     </button>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Orders and Cart Section */}
@@ -443,12 +332,12 @@ export default function Dashboard() {
                         {/* Orders */}
                         <div className="bg-white rounded-sm overflow-hidden shadow-lg border border-primary mb-6">
                             <div
-                                className="bg-[#031d5c] px-4 py-3 flex justify-between items-center cursor-pointer"
+                                className="bg-primary px-4 py-3 flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleSection('orders')}
                             >
                                 <div className="flex items-center gap-2">
                                     <Package size={20} />
-                                    <h2 className="font-bold">My Orders</h2>
+                                    <h3 className="font-bold">My Orders</h3>
                                 </div>
                                 {expandedSection === 'orders' ?
                                     <ChevronDown size={20} /> :
@@ -460,16 +349,29 @@ export default function Dashboard() {
                                 {orders.length > 0 ? (
                                     <div className="max-h-196 overflow-y-auto">
                                         {orders.map((order, index) => {
-                                            // Calculate how recent the order is (0 = newest, 1 = oldest)
-                                            const maxOrders = orders.length;
-                                            const age = index / (maxOrders > 1 ? maxOrders - 1 : 1);
-                                            // Interpolate from bright to dim
-                                            const opacity = 1 - (age * 0.5);
+                                            let opacity = 1; // Default to solid
+
+                                            if (order.orderStatus !== 'cancelled' && order.orderStatus !== 'delivered') {
+                                                opacity = 1; // Solid if not cancelled or delivered
+                                            } else {
+                                                // Calculate how recent the order is (0 = newest, 1 = oldest)
+                                                const maxOrders = orders.length;
+                                                const age = index / (maxOrders > 1 ? maxOrders - 1 : 1);
+                                                // Interpolate from bright to dim
+                                                opacity = 1 - (age * 0.5);
+                                            }
 
                                             return (
                                                 <div
                                                     key={order._id}
-                                                    className={`mb-4 last:mb-0 p-4 border-l-4 border-[#0690f3] bg-gray-700`}
+                                                    className={`mb-4 last:mb-0 p-4 border-l-4 text-black border mr-2
+                                                        ${order.orderStatus === 'completed' ? 'border-green-500' :
+                                                            order.orderStatus === 'processing' ? 'border-blue-500' :
+                                                                order.orderStatus === 'shipped' ? 'border-purple-500' :
+                                                                    order.orderStatus === 'delivered' ? 'border-green-500' :
+                                                                        order.orderStatus === 'cancelled' ? 'border-red-500' :
+                                                                            'border-yellow-500'
+                                                        }`}
                                                     style={{ opacity: opacity }}
                                                 >
                                                     <div className="flex justify-between items-start mb-3">
@@ -477,9 +379,12 @@ export default function Dashboard() {
                                                             <h3 className="font-bold">Order #{order._id.slice(-6)}</h3>
                                                             <p className="text-sm text-gray-400">{formatDate(order.createdAt)}</p>
                                                         </div>
-                                                        <div className={`px-3 py-1 rounded-full text-xs font-medium ${order.orderStatus === 'completed' ? 'bg-green-900 text-green-300' :
+                                                        <div className={`px-3 py-1 rounded-sm text-xs font-medium ${order.orderStatus === 'completed' ? 'bg-green-900 text-green-300' :
                                                             order.orderStatus === 'processing' ? 'bg-blue-900 text-blue-300' :
-                                                                'bg-yellow-900 text-yellow-300'
+                                                                order.orderStatus === 'shipped' ? 'bg-purple-900 text-purple-300' :
+                                                                    order.orderStatus === 'delivered' ? 'bg-green-900 text-white' :
+                                                                        order.orderStatus === 'cancelled' ? 'bg-red-900 text-red-300' :
+                                                                            'bg-yellow-900 text-yellow-300'
                                                             }`}>
                                                             {order.orderStatus.charAt(0).toUpperCase() + order.orderStatus.slice(1)}
                                                         </div>
@@ -488,24 +393,30 @@ export default function Dashboard() {
                                                     <div className="mb-3">
                                                         <p className="text-sm text-gray-400 mb-1">Items:</p>
                                                         {order.products.map((product, i) => (
-                                                            <div key={i} className="flex items-center gap-2 py-1">
-                                                                <div className="w-8 h-8 bg-gray-600 rounded-md flex items-center justify-center">
-                                                                    <IoGameController size={16} />
+                                                            <div key={i} className={`flex items-center gap-2 py-2 border-b my-2 px-1
+                                                                ${order.orderStatus === 'completed' ? 'border-green-400' :
+                                                                    order.orderStatus === 'processing' ? 'border-blue-400' :
+                                                                        order.orderStatus === 'shipped' ? 'border-purple-400' :
+                                                                            order.orderStatus === 'delivered' ? 'border-green-400' :
+                                                                                order.orderStatus === 'cancelled' ? 'border-red-400' :
+                                                                                    'border-yellow-400'
+                                                                }`}>
+                                                                <div className="w-15 h-15 rounded-md flex items-center justify-center">
+                                                                    <img src={product.imgUrl} alt={product.name} />
                                                                 </div>
                                                                 <div>
-                                                                    <p className="text-sm">{product.category} #{product.productId}</p>
-                                                                    <p className="text-xs text-gray-400">
-                                                                        {product.color} × {product.quantity}
-                                                                    </p>
+                                                                    <p className="text-sm">{product.name}</p>
+                                                                    <p className="text-sm">Quantity: {product.quantity}</p>
+                                                                    <p className="text-sm">Unit Price: <span className='text-secondary font-extrabold'>Ksh. {product.price.toLocaleString()}</span></p>
                                                                 </div>
                                                             </div>
                                                         ))}
                                                     </div>
 
-                                                    <div className="flex justify-between items-center border-t border-gray-600 pt-3">
+                                                    <div className="flex justify-between items-center border-t border-gray-600/20 pt-3">
                                                         <div>
                                                             <p className="text-xs text-gray-400">Payment Method:</p>
-                                                            <p className="text-sm capitalize">{order.paymentMethod}</p>
+                                                            <p className="text-sm uppercase flex items-center gap-4 my-2">{order.paymentMethod} {order.paymentMethod === "mpesa" && <span className='lowercase bg-green-500 px-2 flex items-center gap-1 rounded-sm text-white'><CircleCheck size={13} /> Completed</span>}</p>
                                                         </div>
                                                         <div>
                                                             <p className="text-xs text-gray-400">Total:</p>
@@ -525,44 +436,9 @@ export default function Dashboard() {
                             </div>
                         </div>
 
-                        {/* Cart Widget */}
-                        <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700">
-                            <div
-                                className="bg-[#031d5c] px-4 py-3 flex justify-between items-center cursor-pointer"
-                                onClick={() => toggleSection('cart')}
-                            >
-                                <div className="flex items-center gap-2">
-                                    <ShoppingCart size={20} />
-                                    <h2 className="font-bold">My Cart</h2>
-                                </div>
-                                {expandedSection === 'cart' ?
-                                    <ChevronDown size={20} /> :
-                                    <ChevronRight size={20} />
-                                }
-                            </div>
-
-                            {expandedSection === 'cart' && (
-                                <div className="p-4">
-                                    {userData.cart && userData.cart.length > 0 ? (
-                                        <div className="max-h-96 overflow-y-auto">
-                                            {/* Cart items would be mapped here */}
-                                            <p>Cart items would be displayed here...</p>
-                                        </div>
-                                    ) : (
-                                        <div className="text-center py-8 text-gray-400">
-                                            <ShoppingCart size={40} className="mx-auto mb-3 opacity-50" />
-                                            <p>Your cart is empty</p>
-                                            <button className="mt-4 px-6 py-2 bg-[#0690f3] hover:bg-blue-600 rounded-lg transition-colors">
-                                                Browse Products
-                                            </button>
-                                        </div>
-                                    )}
-                                </div>
-                            )}
-                        </div>
 
                         {/* Games Played */}
-                        <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 mt-6">
+                        {/* <div className="bg-gray-800 rounded-xl overflow-hidden shadow-lg border border-gray-700 mt-6">
                             <div
                                 className="bg-[#031d5c] px-4 py-3 flex justify-between items-center cursor-pointer"
                                 onClick={() => toggleSection('games')}
@@ -606,14 +482,24 @@ export default function Dashboard() {
                                     )}
                                 </div>
                             )}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
+            </div>
+        </div>
+    );
 
-                {/* Footer */}
-                <div className="mt-8 text-center text-gray-500 text-sm py-4">
-                    <p>© 2025 Playbox Gaming. All rights reserved.</p>
-                </div>
+    return (
+        <div className='bg-gray-100 text-white min-h-100 p-4 md:p-8 flex flex-col justify-center items-center'>
+            <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746184527/eggman_1_unbnxr.png" alt="" className='h-50' />
+            <h1 className="text-2xl font-bold mt-4 text-gray-400">Dashboard</h1>
+            <p className="text-gray-400 mt-2 flex items-center text-center justify-center max-md:flex-col">
+                Please Login/Sign Up to Access Dash!. Don't forget to refresh.
+                <RefreshCcw size={15}/>
+            </p>
+            <div className="flex gap-4 mt-4">
+                <button onClick={handleLoginToggle} className="px-8 py-2 border-2 border-secondary text-secondary font-bold cursor-pointer">Login</button>
+                <button onClick={handleSignUpToggle} className="px-8 py-2 border-2 border-primary text-primary font-bold cursor-pointer">Sign Up</button>
             </div>
         </div>
     );

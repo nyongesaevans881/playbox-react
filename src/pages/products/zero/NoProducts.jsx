@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const NoProducts = () => {
   return (
-    <div className=''>
+    <div className='py-20'>
       <div className="relative flex justify-center">
         <div className="absolute -translate-x-40 -translate-y-5 max-md:scale-70 max-md:-translate-x-25 max-md:translate-y-0">
           <SpideyDialogBox

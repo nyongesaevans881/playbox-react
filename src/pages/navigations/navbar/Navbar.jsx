@@ -2,13 +2,13 @@
 
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleCart, selectCartTotal, selectCartLength, hydrateCartFromLocalStorage, selectWishlistLength } from '../../redux/cartSlice';
-import { loadUserFromStorage, logoutUser, toggleLogin, toggleSignup } from '../../redux/userSlice'
+import { toggleCart, selectCartTotal, selectCartLength, hydrateCartFromLocalStorage, selectWishlistLength } from '../../../redux/cartSlice';
+import { loadUserFromStorage, logoutUser, toggleLogin, toggleSignup } from '../../../redux/userSlice'
 import { FaXTwitter } from "react-icons/fa6";
 import { AiOutlineFacebook } from "react-icons/ai";
 import { TiSocialInstagram } from "react-icons/ti";
-import Login from '../login/Login';
-import Register from '../register/Register';
+import Login from '../../auth/login/Login';
+import Register from '../../auth/register/Register';
 const Navlogo = "/primary-logo.png"
 import "./navbar.css";
 

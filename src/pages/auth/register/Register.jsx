@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Bars } from "react-loader-spinner";
-import { saveAuthToStorage } from "../../redux/userSlice";
+import { saveAuthToStorage } from "../../../redux/userSlice";
 import "./Register.css";
+import toast from "react-hot-toast";
+import { motion, AnimatePresence } from "framer-motion";
 
 const API_URL = import.meta.env.VITE_SERVER_URL;
 
@@ -18,7 +20,15 @@ const Register = ({ onClose, onLogin }) => {
     });
 
     const [passwordVisible, setPasswordVisible] = useState(false);
-    const [errors, setErrors] = useState([]);
+    const [fieldErrors, setFieldErrors] = useState({
+        username: "",
+        email: "",
+        phone: "",
+        password: "",
+        confirmPassword: "",
+        termsAccepted: ""
+    });
+    const [apiError, setApiError] = useState("");
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
     const [user, setUser] = useState(null);
@@ -53,30 +63,68 @@ const Register = ({ onClose, onLogin }) => {
     };
 
     const validateForm = () => {
-        const validationErrors = [];
+        const newFieldErrors = {
+            username: "",
+            email: "",
+            phone: "",
+            password: "",
+            confirmPassword: "",
+            termsAccepted: ""
+        };
+        let isValid = true;
 
-        if (!formData.username) validationErrors.push("Username is required.");
-        if (!formData.email) validationErrors.push("Email address is required.");
-        if (!formData.password) validationErrors.push("Password is required.");
-        if (!formData.confirmPassword)
-            validationErrors.push("Confirm Password is required.");
-        if (formData.password !== formData.confirmPassword)
-            validationErrors.push("Passwords do not match.");
-        if (!formData.termsAccepted)
-            validationErrors.push("You must accept the Terms & Conditions.");
+        if (!formData.username) {
+            newFieldErrors.username = "Username is required";
+            isValid = false;
+        }
 
-        return validationErrors;
+        if (!formData.phone) {
+            newFieldErrors.phone = "Phone number is required";
+            isValid = false;
+        }
+
+        if (!formData.email) {
+            newFieldErrors.email = "Email address is required";
+            isValid = false;
+        } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
+            newFieldErrors.email = "Email address is invalid";
+            isValid = false;
+        }
+
+        if (!formData.password) {
+            newFieldErrors.password = "Password is required";
+            isValid = false;
+        } else if (formData.password.length < 6) {
+            newFieldErrors.password = "Password must be at least 6 characters";
+            isValid = false;
+        }
+
+        if (!formData.confirmPassword) {
+            newFieldErrors.confirmPassword = "Confirm Password is required";
+            isValid = false;
+        } else if (formData.password !== formData.confirmPassword) {
+            newFieldErrors.confirmPassword = "Passwords do not match";
+            isValid = false;
+        }
+
+        if (!formData.termsAccepted) {
+            newFieldErrors.termsAccepted = "You must accept the Terms & Conditions";
+            isValid = false;
+        }
+
+        setFieldErrors(newFieldErrors);
+        return isValid;
     };
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        setErrors([]);
+        setApiError(""); // Clear any previous API errors
         setLoading(true);
 
-        const validationErrors = validateForm();
+        const isValid = validateForm();
 
-        if (validationErrors.length > 0) {
-            setErrors(validationErrors);
+        if (!isValid) {
+            toast.error("Please fix the errors before submitting.");
             setLoading(false);
             return;
         }
@@ -92,7 +140,6 @@ const Register = ({ onClose, onLogin }) => {
             favorites: wishlist || [],
         };
 
-
         try {
             const response = await fetch(`${API_URL}/playbox_user/register`, {
                 method: "POST",
@@ -102,7 +149,7 @@ const Register = ({ onClose, onLogin }) => {
 
             setLoading(false);
             const result = await response.json();
-            
+
             if (response.ok) {
                 dispatch(
                     saveAuthToStorage({
@@ -127,16 +174,14 @@ const Register = ({ onClose, onLogin }) => {
 
                 setSuccess(true);
             } else {
-                setErrors([result.message || "An error occurred."]);
-                if (result.error) {
-                    setErrors([result.error] || "Unknown Error Occurred");
-                }
+                setApiError(result.message || result.error || "An error occurred.");
+                toast.error(result.message || result.error || "An error occurred.");
             }
         } catch (error) {
             setLoading(false);
-            setErrors(["An error occurred. Please try again later."]);
+            setApiError("An error occurred. Please try again later.");
+            toast.error("An error occurred. Please try again later.");
         }
-
     };
 
     return (
@@ -152,31 +197,62 @@ const Register = ({ onClose, onLogin }) => {
                     </div>
                 </div>
 
-                {/* Right Section */}
+                {/* /* Right Section */}
                 {success ? (
-                    <div className={success ? "register-success-message register-scale" : "register-success-message"}>
-                        <img src="/gif/check-primary.gif" alt="Success" />
-                        <h1>Account Created Successfully!</h1>
-                        <p>Glad to have you onboard, <strong>{user?.username} </strong>!</p>
-                        {user?.avatar && (
-                            <img
-                                src={user.avatar}
-                                alt="User Avatar"
-                                className="user-avatar"
-                            />
-                        )}
-                        <button onClick={onClose}>
-                            Great
-                            <i className="fa fa-thumbs-up"></i>
-                        </button>
-                    </div>
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            initial={{ scale: 0, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1 }}
+                            exit={{ scale: 0, opacity: 0 }}
+                            transition={{ duration: 0.5 }}
+                            className="register-success-message"
+                        >
+                            <img src="/gif/check-primary.gif" alt="Success" />
+                            <h1>Account Created Successfully!</h1>
+                            <p>Glad to have you onboard, <strong>{user?.username} </strong>!</p>
+                            {user?.avatar && (
+                                <motion.img
+                                    initial={{ scale: 0 }}
+                                    animate={{ scale: 1 }}
+                                    transition={{ delay: 0.3 }}
+                                    src={user.avatar}
+                                    alt="User Avatar"
+                                    className="user-avatar"
+                                />
+                            )}
+                            <motion.button
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                onClick={onClose}
+                            >
+                                Great
+                                <i className="fa fa-thumbs-up"></i>
+                            </motion.button>
+                        </motion.div>
+                    </AnimatePresence>
+
                 ) : (
-                    <div className="register-form">
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        exit={{ opacity: 0, y: -20 }}
+                        className="register-form"
+                    >
                         <h1>
                             <span>Create</span> an Account
                         </h1>
+                        {apiError && (
+                            <motion.div
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                className="api-error-container"
+                            >
+                                <p>{apiError}</p>
+                            </motion.div>
+                        )}
                         <form onSubmit={handleSubmit}>
-                            <div className="sign-up-input-group border py-2 px-3 text-gray-700">
+                            {/* Username Field with Error Handling */}
+                            <div className={`sign-up-input-group border py-2 px-3 text-gray-700 ${fieldErrors.username ? 'has-error input-error' : ''}`}>
                                 <i className="fa fa-user"></i>
                                 <input
                                     type="text"
@@ -186,7 +262,10 @@ const Register = ({ onClose, onLogin }) => {
                                     onChange={handleInputChange}
                                 />
                             </div>
-                            <div className="sign-up-input-group border py-2 px-3 text-gray-700">
+                            {fieldErrors.username && <div className="register-error-message">{fieldErrors.username}</div>}
+
+                            {/* Email Field with Error Handling */}
+                            <div className={`sign-up-input-group border py-2 px-3 text-gray-700 ${fieldErrors.email ? 'has-error input-error' : ''}`}>
                                 <i className="fa fa-envelope"></i>
                                 <input
                                     type="email"
@@ -196,44 +275,57 @@ const Register = ({ onClose, onLogin }) => {
                                     onChange={handleInputChange}
                                 />
                             </div>
-                            <div className="sign-up-input-group border py-2 px-3 text-gray-700">
+                            {fieldErrors.email && <div className="register-error-message">{fieldErrors.email}</div>}
+
+                            {/* Phone Field with Error Handling */}
+                            <div className={`sign-up-input-group border py-2 px-3 text-gray-700 ${fieldErrors.phone ? 'has-error input-error' : ''}`}>
                                 <i className="fa fa-phone"></i>
                                 <input
-                                    type="text"
+                                    type="number"
                                     name="phone"
                                     placeholder="Phone Number (Recommended)"
                                     value={formData.phone}
                                     onChange={handleInputChange}
                                 />
                             </div>
+                            {fieldErrors.phone && <div className="register-error-message">{fieldErrors.phone}</div>}
+
+                            {/* Password Field with Error Handling */}
                             <div className="register-input-group">
-                                <div className="sign-up-input-group border py-2 px-3 text-gray-700">
-                                    <i className="fa fa-lock"></i>
-                                    <input
-                                        type={passwordVisible ? "text" : "password"}
-                                        name="password"
-                                        placeholder="Password"
-                                        value={formData.password}
-                                        onChange={handleInputChange}
-                                    />
-                                    <i
-                                        className={`fa ${passwordVisible ? "fa-eye-slash" : "fa-eye"}`}
-                                        onClick={togglePasswordVisibility}
-                                    ></i>
+                                <div className="flex flex-col">
+                                    <div className={`sign-up-input-group border py-2 px-3 text-gray-700 ${fieldErrors.password ? 'has-error input-error' : ''}`}>
+                                        <i className="fa fa-lock"></i>
+                                        <input
+                                            type={passwordVisible ? "text" : "password"}
+                                            name="password"
+                                            placeholder="Password"
+                                            value={formData.password}
+                                            onChange={handleInputChange}
+                                        />
+                                        <i
+                                            className={`fa ${passwordVisible ? "fa-eye-slash" : "fa-eye"}`}
+                                            onClick={togglePasswordVisibility}
+                                        ></i>
+                                    </div>
+                                    {fieldErrors.password && <div className="register-error-message">{fieldErrors.password}</div>}
                                 </div>
-                                <div className="sign-up-input-group border py-2 px-3 text-gray-700">
-                                    <i className="fa fa-lock"></i>
-                                    <input
-                                        type={passwordVisible ? "text" : "password"}
-                                        name="confirmPassword"
-                                        placeholder="Confirm Password"
-                                        value={formData.confirmPassword}
-                                        onChange={handleInputChange}
-                                    />
-                                    <i
-                                        className={`fa ${passwordVisible ? "fa-eye-slash" : "fa-eye"}`}
-                                        onClick={togglePasswordVisibility}
-                                    ></i>
+
+                                <div className="flex flex-col">
+                                    <div className={`sign-up-input-group border py-2 px-3 text-gray-700 ${fieldErrors.confirmPassword ? 'has-error input-error' : ''}`}>
+                                        <i className="fa fa-lock"></i>
+                                        <input
+                                            type={passwordVisible ? "text" : "password"}
+                                            name="confirmPassword"
+                                            placeholder="Confirm Password"
+                                            value={formData.confirmPassword}
+                                            onChange={handleInputChange}
+                                        />
+                                        <i
+                                            className={`fa ${passwordVisible ? "fa-eye-slash" : "fa-eye"}`}
+                                            onClick={togglePasswordVisibility}
+                                        ></i>
+                                    </div>
+                                    {fieldErrors.confirmPassword && <div className="register-error-message">{fieldErrors.confirmPassword}</div>}
                                 </div>
                             </div>
 
@@ -253,7 +345,8 @@ const Register = ({ onClose, onLogin }) => {
                                 ))}
                             </div>
 
-                            <div className="mb-3 flex items-center gap-2">
+                            {/* Terms & Conditions with Error Handling */}
+                            <div className={`mb-3 flex items-center gap-2 ${fieldErrors.termsAccepted ? 'has-error' : ''}`}>
                                 <input
                                     type="checkbox"
                                     id="terms"
@@ -265,6 +358,7 @@ const Register = ({ onClose, onLogin }) => {
                                     I agree to the <a href="#" className="text-secondary">Terms & Conditions</a>
                                 </label>
                             </div>
+                            {fieldErrors.termsAccepted && <div className="register-error-message">{fieldErrors.termsAccepted}</div>}
 
                             <button className="sign-up-submitt-button" type="submit" disabled={loading}>
                                 {loading ? (
@@ -293,7 +387,7 @@ const Register = ({ onClose, onLogin }) => {
                             </div>
 
                             {/* Error Container */}
-                            {errors.length > 0 && (
+                            {/* {errors.length > 0 && (
                                 <div className="sign-up-error-message">
                                     <p>Please fix the following errors to continue:</p>
                                     <ul>
@@ -302,7 +396,7 @@ const Register = ({ onClose, onLogin }) => {
                                         ))}
                                     </ul>
                                 </div>
-                            )}
+                            )} */}
 
                             {/* Success Pop-Up */}
                             {success && (
@@ -316,7 +410,7 @@ const Register = ({ onClose, onLogin }) => {
                             )}
 
                         </form>
-                    </div>
+                    </motion.div>
                 )}
             </div>
         </div>
