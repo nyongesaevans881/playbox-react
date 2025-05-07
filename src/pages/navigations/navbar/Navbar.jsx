@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleCart, selectCartTotal, selectCartLength, hydrateCartFromLocalStorage, selectWishlistLength } from '../../../redux/cartSlice';
@@ -129,10 +127,10 @@ const Navbar = () => {
             items: [
                 { name: "PlayStation 5 (Ps 5)", url: "/products/playstation/consoles/ps5" },
                 { name: "Ps 5 Accessories", url: "/products/playstation/accessories/ps5" },
-                { name: "PlayStation Consoles", url: "/products/consoles/playstation" },
-                { name: "Playstation Accessories", url: "/products/accessories/playstation" },
-                { name: "Xbox Consoles", url: "/products/consoles/xbox" },
-                { name: "Xbox Accessories", url: "/products/accessories/xbox" },
+                { name: "PlayStation Consoles", url: "/products/playstation/consoles" },
+                { name: "Playstation Accessories", url: "/products/playstation/accessories" },
+                { name: "Xbox Consoles", url: "/products/xbox/consoles" },
+                { name: "Xbox Accessories", url: "/products/xbox/accessories" },
                 { name: "Nintendo & Handhelds", url: "/products/consoles/nintendo" },
                 { name: "Handhelds Accessories", url: "/products/accessories/handhelds" },
                 { name: "Pre-Owned Consoles", url: "/products/consoles/playstation" },
@@ -334,7 +332,7 @@ const Navbar = () => {
                             {/* Search Dropdown */}
                             {searchQuery && isClient && (
                                 <div className="search-dropdown">
-                                    {filteredProducts.slice(0, 5).map((product, index) => (
+                                    {filteredProducts.slice(0, 25).map((product, index) => (
                                         <a href={`/products/${product.category}/${product.subCategory}/${product.variant}/${product.name}`} key={index} className="search-dropdown-item">
                                             <img src={product.mainproductImage} alt={product.Title} className="w-25 object-contain" />
                                             <div className="product-info">

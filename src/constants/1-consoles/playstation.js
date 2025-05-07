@@ -302,6 +302,75 @@ export const playstation = [
         condition: "New",
         rating: "everyone",
     },
+    {
+        productID: 5,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746643776/ps5-slim-30th-anniversary-limited-edition_zf5nwi.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746643776/ps5-slim-30th-anniversary-limited-edition_zf5nwi.png",
+                color: "30th-anniversary-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746643776/ps5-slim-30th-anniversary-limited-edition-2_tloidj.png",
+                color: "30th-anniversary-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746643777/ps5-slim-30th-anniversary-limited-edition-3_m52gjt.png",
+                color: "30th-anniversary-limited-edition"
+            },
+        ],
+        defaultColor: "30th-anniversary-limited-edition",
+        Title: "PlayStation 5 Slim – 30th Anniversary Limited Edition",
+        SubTitle: "Limited Edition",
+        category: "playstation",
+        subCategory: ["consoles"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-slim-30th-anniversary-limited-edition",
+        description: "The PS5 Slim 30th Anniversary Limited Edition combines next-gen gaming with three decades of PlayStation legacy in a sleek, ultra-slim design packed with power and collectability.",
+        detailsDescription: "Introducing the PlayStation 5 Slim 30th Anniversary Limited Edition – a tribute to three decades of gaming greatness. With a sleek, space-saving profile, 1TB SSD storage, and a commemorative design, this collector’s console offers stunning performance and visual fidelity. Paired with a special DualSense controller, it’s a celebration of PlayStation's enduring legacy and future-forward technology.",
+        topSpecs: [
+            "<h6><span>Edition</span><span>30th Anniversary Limited Edition</span></h6>",
+            "<h6><span>Storage</span><span>1TB SSD</span></h6>",
+            "<h6><span>Resolution</span><span>Up to 4K with HDR & Ray Tracing</span></h6>",
+            "<h6><span>Controller</span><span>DualSense Wireless (30th Anniversary Design)</span></h6>",
+            "<h6><span>Backward Compatibility</span><span>Supports PS4 Games</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>LIMITED EDITION DESIGN</span><span class='detail-specs-h6'>- Commemorates 30 years of PlayStation innovation with custom styling.</span></h6>",
+            "<h6><span>ULTRA-SLIM PROFILE</span><span class='detail-specs-h6'>- Modern, compact form factor that fits any setup.</span></h6>",
+            "<h6><span>1TB SSD STORAGE</span><span class='detail-specs-h6'>- Enjoy lightning-fast load times and ample game storage.</span></h6>",
+            "<h6><span>DUALSENSE CONTROLLER</span><span class='detail-specs-h6'>- Includes matching controller with adaptive triggers and haptics.</span></h6>",
+            "<h6><span>4K GAMING SUPPORT</span><span class='detail-specs-h6'>- Experience vibrant visuals with HDR and ray tracing capabilities.</span></h6>"
+        ],
+        tags: [
+            "ps5", "console", "slim", "limited-edition", "30th-anniversary", "sony", "playstation", "collectible"
+        ],
+        carousels: ["consoles", "limited edition"],
+        storage: "1TB SSD",
+        dropURL: "https://www.iteystore.co.ke/products/playstation-5-slim-30th-anniversary-limited-edition?srsltid=AfmBOoqzO7yh9RP8BbWQzjloqiOTfXxneZ7OOUR4H5rW1eRlrfYyXFgh",
+        youtubeReview: "https://www.youtube.com/embed/Q7fA12gwU_U?si=Gg_v9E3aq8oiAxo-",
+        unboxingVideo: "https://www.youtube.com/embed/PiFXmB5PWnI?si=Yd4dx7hPPtVbInXE",
+        prevPrice: 110000,
+        nowPrice: 104999,
+        stock: 5,
+        condition: "New",
+        rating: 5,
+        freeShipping: true
+    },
+    
+
+
+
+
+
+
+
 
     //---------------- PlayStation 4
     {
@@ -573,7 +642,7 @@ export const playstation = [
 
 
     //---------------- CONTROLLERS
-    //-------------------PS 5
+    //-------------------Ps 5
     {
         productID: 51,
         platform: "PlayStation",
@@ -581,10 +650,193 @@ export const playstation = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456135/PS5-DualSense-Edge_fia9kt.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746476577/ps5-dualsense-wireless-controller-black_gsqqxc.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456135/PS5-DualSense-Edge_fia9kt.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746476577/ps5-dualsense-wireless-controller-black_gsqqxc.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746476577/ps5-dualsense-wireless-controller-black-2_oidcod.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746476577/ps5-dualsense-wireless-controller-black-3_boovdk.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PS5 DualSense Wireless Controller - Black",
+        SubTitle: "Black Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-wireless-controller-black",
+        description: "The PS5 DualSense Wireless Controller in black delivers immersive haptic feedback, adaptive triggers, and an iconic ergonomic design.",
+        detailsDescription: "Experience next-generation gaming with the Sony PS5 DualSense Wireless Controller in Black. Feel your in-game actions through immersive haptic feedback and adaptive triggers that react to gameplay with varying levels of force and resistance. Its sleek, ergonomic two-tone design includes an enhanced light bar and precision sticks. With built-in Bluetooth 5.1, USB-C charging, motion sensors, and a responsive touchpad, this controller is built for performance. It also features a built-in microphone, speaker, and stereo headset jack for seamless audio interaction. Charge quickly with the click-in design of the DualSense charging station or via USB Type-C for uninterrupted play.",
+        topSpecs: [
+            "<h6><span>Haptic Feedback</span><span>Yes</span></h6>",
+            "<h6><span>Adaptive Triggers</span><span>Yes</span></h6>",
+            "<h6><span>Microphone</span><span>Built-in</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth 5.1, USB Type-C</span></h6>",
+            "<h6><span>Compatibility</span><span>PS5</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Built-in rechargeable Lithium-ion, 3.65V, 1560mAh capacity.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth 5.1, USB Type-C port, stereo headset jack, and charging terminals.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK & TRIGGER EFFECT</span><span class='detail-specs-h6'>- Dual actuators and adaptive triggers on L2/R2 enhance immersion.</span></h6>",
+            "<h6><span>AUDIO FEATURES</span><span class='detail-specs-h6'>- Built-in microphone, mono speaker, stereo jack (48kHz/16bit output).</span></h6>",
+            "<h6><span>MOTION SENSOR</span><span class='detail-specs-h6'>- Six-axis sensing with gyroscope and accelerometer for intuitive motion control.</span></h6>"
+        ],
+        tags: [
+            "ps5", "dualsense", "wireless-controller", "black", "sony", "bluetooth-5.1", "usb-c", "adaptive-triggers", "haptic-feedback", "motion-sensor", "built-in-mic", "touchpad", "ergonomic-design", "gaming-accessory", "charging-station-compatible"
+        ],
+        carousels: ["latestArrivals", "ps5Accessories"],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/sony-ps5-dualsense-wireless-controller-black/",
+        youtubeReview: "https://www.youtube.com/embed/VPP4oCsJBzA?si=RRkxWXA5CyUHmLHJ",
+        unboxingVideo: "https://www.youtube.com/embed/TRheOmP_Eb8?si=Vgo09CHIOD5Gu5Y7",
+        prevPrice: 12000,
+        nowPrice: 9100,
+        stock: 10,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 52,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746477400/ps5-dualsense-wireless-controller-camouflage-edition_yjbtbu.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746477400/ps5-dualsense-wireless-controller-camouflage-edition_yjbtbu.png",
+                color: "camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746477400/ps5-dualsense-wireless-controller-camouflage-edition-2_hwsr49.png",
+                color: "camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746477400/ps5-dualsense-wireless-controller-camouflage-edition-3_vb3blo.png",
+                color: "camouflage"
+            }
+        ],
+        defaultColor: "camouflage",
+        Title: "PS5 DualSense Wireless Controller - Camouflage Edition",
+        SubTitle: "Camouflage Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-wireless-controller-camouflage-edition",
+        description: "The PS5 DualSense Camouflage Controller combines immersive feedback with a bold, tactical design for next-level gaming.",
+        detailsDescription: "Gear up for immersive gameplay with the Sony PS5 DualSense Wireless Controller - Camouflage Edition. Engineered with haptic feedback and adaptive triggers, this controller responds dynamically to in-game environments, letting you feel every action. The built-in microphone and 3.5mm headset jack allow instant communication with teammates, while the refined ergonomic shape ensures maximum comfort. Its military-style camouflage pattern adds bold character, making it a standout in any setup. Compatible with PS5 and PC, and also supports remote play on Apple devices. USB cable not included—use the one provided with your PS5 console for charging and connectivity.",
+        topSpecs: [
+            "<h6><span>Haptic Feedback</span><span>Yes</span></h6>",
+            "<h6><span>Adaptive Triggers</span><span>Yes</span></h6>",
+            "<h6><span>Microphone</span><span>Built-in</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth, USB-C</span></h6>",
+            "<h6><span>Compatibility</span><span>PS5, PC, Remote Play on Apple devices</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Dynamic vibrations simulate a wide range of in-game environments and interactions.</span></h6>",
+            "<h6><span>ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Feel varying levels of tension and resistance in gameplay actions.</span></h6>",
+            "<h6><span>BUILT-IN MICROPHONE</span><span class='detail-specs-h6'>- Communicate easily via the built-in mic or with a headset through the 3.5mm jack.</span></h6>",
+            "<h6><span>REMOTE PLAY</span><span class='detail-specs-h6'>- Supports Remote Play via compatible Apple devices and the Remote Play App.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Unique camouflage colorway with all the power of DualSense tech inside.</span></h6>"
+        ],
+        tags: [
+            "ps5", "dualsense", "camouflage", "wireless-controller", "adaptive-triggers", "haptic-feedback", "built-in-mic", "sony", "bluetooth", "usb-c", "remote-play", "gaming-accessory", "military-style", "pc-compatible", "ps5-compatible"
+        ],
+        carousels: ["latestArrivals", "ps5Accessories"],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/sony-ps5-dualsense-wireless-controller-camouflague/",
+        youtubeReview: "https://www.youtube.com/embed/4l_m8xMS2XU?si=WVXtqkf6tvHKf-fw",
+        unboxingVideo: "https://www.youtube.com/embed/YdWVxtOqaHM?si=blBrv6R6r5xjyuGs",
+        prevPrice: 12000,
+        nowPrice: 9100,
+        stock: 10,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 53,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746533335/ps5-dualsense-controller-white_hxzone.png", // Main image of the white DualSense controller
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746533335/ps5-dualsense-controller-white_hxzone.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746533335/ps5-dualsense-controller-white-2_sg5me2.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746533336/ps5-dualsense-controller-white-3_mcuvl3.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Sony PS5 DualSense Wireless Controller [White]",
+        SubTitle: "Heighten Your Senses",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-controller-white",
+        description: "Experience deeper gaming immersion with the Sony PS5 DualSense Wireless Controller, featuring haptic feedback, adaptive triggers, a built-in microphone, and a refined two-tone design.",
+        detailsDescription: "The DualSense controller redefines the way you play. Designed with immersive haptic feedback and adaptive triggers that respond dynamically to gameplay, it brings new dimensions to the PS5 experience. The iconic button layout, responsive analog sticks, and intuitive touchpad are wrapped in a sleek, white two-tone finish. A built-in microphone and integrated speaker allow for real-time communication, while the USB Type-C port ensures fast charging. Capture your greatest moments with the Create button and enjoy long-lasting gameplay with the 1560mAh lithium-ion battery.",
+        topSpecs: [
+            "<h6><span>Color</span><span>White</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth 5.1 & USB Type-C</span></h6>",
+            "<h6><span>Haptic Feedback</span><span>Dual actuators system</span></h6>",
+            "<h6><span>Motion Sensor</span><span>3-axis gyroscope + accelerometer</span></h6>",
+            "<h6><span>Battery</span><span>1560mAh Rechargeable Li-ion</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>IMMERSIVE EXPERIENCE</span><span class='detail-specs-h6'>- Adaptive triggers and haptic feedback simulate in-game sensations for a heightened experience.</span></h6>",
+            "<h6><span>FUTURISTIC DESIGN</span><span class='detail-specs-h6'>- A sleek two-tone finish with an intuitive PlayStation button layout and updated touchpad.</span></h6>",
+            "<h6><span>BUILT-IN AUDIO FEATURES</span><span class='detail-specs-h6'>- Includes microphone, speaker, and headset jack for versatile communication.</span></h6>",
+            "<h6><span>ADVANCED MOTION SENSING</span><span class='detail-specs-h6'>- Gyroscope and accelerometer enable accurate motion control in compatible games.</span></h6>",
+            "<h6><span>RECHARGEABLE BATTERY</span><span class='detail-specs-h6'>- 1560mAh battery charges via USB-C and delivers extended play sessions.</span></h6>"
+        ],
+        tags: [
+            "dualsense", "ps5", "controller", "sony", "white-controller", "wireless", "adaptive-triggers", "haptic-feedback", "playstation5", "gaming-accessory"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/sony-ps5-dualsense-wireless-controller-white/",
+        youtubeReview: "https://www.youtube.com/embed/KAvwl27SnvA?si=SeeWXpF6Y6hKvRA3",
+        unboxingVideo: "https://www.youtube.com/embed/_OBy3lLx5s0?si=aT0STcwcftq9KyB9",
+        prevPrice: 12000,
+        nowPrice: 8500,
+        stock: 12,
+        condition: "New",
+        rating: 4.9,
+        freeShipping: true
+    },
+    {
+        productID: 54,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635900/ps5-playstation-dualsense-edge-wireless-controller_fqghox.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635900/ps5-playstation-dualsense-edge-wireless-controller_fqghox.png",
                 color: "white",
             },
             {
@@ -595,10 +847,6 @@ export const playstation = [
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456130/PS5-DualSense-Edge_3_nx4nfv.png",
                 color: "white",
             },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456131/PS5-DualSense-Edge_4_lnmzuu.png",
-                color: "white",
-            }
         ],
         defaultColor: "white",
         Title: "PS5 PlayStation DualSense Edge Wireless Controller",
@@ -639,37 +887,37 @@ export const playstation = [
         dropURL: "https://koanile.co.ke/product/ps5-playstation-dualsense-edge-wireless-controller/",
         youtubeReview: "https://www.youtube.com/embed/T-QMVczY5qI?si=05c3mgL1bAe6G8TU",
         unboxingVideo: "https://www.youtube.com/embed/_JSqhJj7ZNk?si=8Od7qYHO6_SwzSO4",
-        prevPrice: 33000,
-        nowPrice: 29999,
+        prevPrice: 30000,
+        nowPrice: 24999,
         stock: 10,
         condition: "New",
         rating: "4.5",
     },
     {
-        productID: 100,
+        productID: 55,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot_m9eryv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635142/ps5-dualsense-controller-astro-bot-limited-edition_rhitwo.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot_m9eryv.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635142/ps5-dualsense-controller-astro-bot-limited-edition_rhitwo.png",
                 color: "white",
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot-2_fz1a33.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635141/ps5-dualsense-controller-astro-bot-limited-edition-2_wdom5g.png",
+                color: "white",
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635141/ps5-dualsense-controller-astro-bot-limited-edition-3_xeccor.png",
                 color: "white",
             },
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot-3_mjgbv6.png",
                 color: "white",
             },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741445748/astro-bot-4_nw6wjk.png",
-                color: "white",
-            }
         ],
         defaultColor: "white",
         Title: "PS5 DualSense Controller - Astro Bot Limited Edition",
@@ -717,6 +965,522 @@ export const playstation = [
         condition: "New",
         rating: "4.5",
     },
+    {
+        productID: 56,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746475767/ps5-dualsense-wireless-controller-red_vjw0hv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746475767/ps5-dualsense-wireless-controller-red_vjw0hv.png",
+                color: "red"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746475768/ps5-dualsense-wireless-controller-red-2_bvbt5p.png",
+                color: "red"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746475768/ps5-dualsense-wireless-controller-red-3_efd6ml.png",
+                color: "red"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746475768/ps5-dualsense-wireless-controller-red-4_pa5px2.png",
+                color: "red"
+            },
+        ],
+        defaultColor: "red",
+        Title: "PS5 DualSense Wireless Controller - Red",
+        SubTitle: "Red Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-wireless-controller-red",
+        description: "Experience immersive gaming with the PS5 DualSense Wireless Controller, featuring haptic feedback, adaptive triggers, and a built-in mic.",
+        detailsDescription: "The Sony PS5 DualSense Wireless Controller in Red brings your games to life with immersive haptic feedback and dynamic adaptive triggers. Feel every moment with dual actuators that simulate sensations from the environment to weapon recoil. Adaptive triggers add physical tension to actions, giving a deeper connection to gameplay. Communicate with friends using the built-in mic or 3.5mm headset jack. The intuitive two-tone design includes enhanced sticks, a reimagined light bar, built-in battery, USB-C charging, motion sensor capabilities, and a dedicated create button for content sharing. It’s a complete evolution of the iconic PlayStation controller.",
+        topSpecs: [
+            "<h6><span>Haptic Feedback</span><span>Yes</span></h6>",
+            "<h6><span>Adaptive Triggers</span><span>Yes</span></h6>",
+            "<h6><span>Microphone</span><span>Built-in</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless, USB Type-C</span></h6>",
+            "<h6><span>Compatible Platforms</span><span>PS5</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Dual actuators simulate dynamic vibrations for realistic gameplay feedback.</span></h6>",
+            "<h6><span>ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Triggers adjust resistance based on in-game actions for immersive realism.</span></h6>",
+            "<h6><span>BUILT-IN MICROPHONE</span><span class='detail-specs-h6'>- Communicate with friends using the built-in mic or 3.5mm headset jack.</span></h6>",
+            "<h6><span>CREATE BUTTON</span><span class='detail-specs-h6'>- Easily capture and broadcast gameplay content with the enhanced create button.</span></h6>",
+            "<h6><span>BUILT-IN BATTERY & MOTION SENSOR</span><span class='detail-specs-h6'>- Features rechargeable battery, USB-C charging, and motion control via accelerometer and gyroscope.</span></h6>"
+        ],
+        tags: [
+            "ps5", "dualsense", "wireless-controller", "haptic-feedback", "adaptive-triggers", "red", "sony-controller", "gaming-accessory", "motion-sensor", "usb-c", "built-in-microphone", "create-button", "dual-actuators"
+        ],
+        carousels: ["latestArrivals", "ps5Accessories"],
+        dropURL: "https://fortresselectronics.co.ke/product/ps5-pad-wireless-controller-red/",
+        youtubeReview: "https://www.youtube.com/embed/VPP4oCsJBzA?si=RRkxWXA5CyUHmLHJ",
+        unboxingVideo: "https://www.youtube.com/embed/HXDA4M-QOp8?si=9iMSOTnTIrjIknJj",
+        prevPrice: 12000,
+        nowPrice: 9100,
+        stock: 10,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 57,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746636300/ps5-dualsense-the-last-of-us-limited-edition_k89gre.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746636300/ps5-dualsense-the-last-of-us-limited-edition_k89gre.png",
+                color: "last-of-us-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746636301/ps5-dualsense-the-last-of-us-limited-edition-3_fehjzl.png",
+                color: "last-of-us-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746636301/ps5-dualsense-the-last-of-us-limited-edition-2_ud9sxw.png",
+                color: "last-of-us-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746636302/ps5-dualsense-the-last-of-us-limited-edition-4_adjg0z.jpg",
+                color: "last-of-us-limited-edition"
+            },
+        ],
+        defaultColor: "last-of-us-limited-edition",
+        Title: "The Last of Us Limited Edition DualSense Controller",
+        SubTitle: "Limited Edition",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-the-last-of-us-limited-edition",
+        description: "Commemorate the iconic journey of The Last of Us franchise with this limited edition PS5 DualSense wireless controller, designed in collaboration with Naughty Dog and featuring trophy icons and artwork inspired by both Part I and Part II.",
+        detailsDescription: "The Last of Us Limited Edition DualSense Wireless Controller honors the legacy of the award-winning series with symbolic designs of the Firefly, moth, and wolf. Crafted in collaboration with Naughty Dog’s design team, the controller's body is etched with trophy icons representing iconic moments from Part I and Part II. Featuring the full functionality of the PS5 DualSense—adaptive triggers, haptic feedback, and immersive features—this collector’s piece is a must-have for fans of the franchise.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Design Theme</span><span>The Last of Us Part I & II</span></h6>",
+            "<h6><span>Limited Edition</span><span>Yes</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless via Bluetooth</span></h6>",
+            "<h6><span>Features</span><span>Adaptive Triggers, Haptic Feedback, Touchpad</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ICONIC TROPHY ICONS</span><span class='detail-specs-h6'>- Features black gloss artwork of the Firefly logo, moth, and wolf, capturing key elements from TLOU Part I & II.</span></h6>",
+            "<h6><span>NAUGHTY DOG COLLABORATION</span><span class='detail-specs-h6'>- Designed with creative input from The Last of Us game developers, making it an authentic collectible.</span></h6>",
+            "<h6><span>FULL DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Includes adaptive triggers, haptic feedback, a built-in mic, and motion sensor for immersive gameplay.</span></h6>",
+            "<h6><span>WIRELESS PLAY</span><span class='detail-specs-h6'>- Connects via Bluetooth to the PS5 for seamless gaming without cables.</span></h6>",
+            "<h6><span>LIMITED RUN AVAILABILITY</span><span class='detail-specs-h6'>- Pre-order available now at Koanile Electronics with regional launch dates starting April 10, 2025.</span></h6>"
+        ],
+        tags: [
+            "ps5", "controller", "dualsense", "the-last-of-us", "limited-edition", "naughty-dog", "sony", "collectors", "haptic-feedback", "adaptive-triggers"
+        ],
+        carousels: ["controllers", "limited edition"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-the-last-of-us-limited-edition-dualsense-controller/",
+        youtubeReview: "https://www.youtube.com/embed/neAhzVl1sWw?si=qv-QeZzzmM5fAs3i",
+        unboxingVideo: "https://www.youtube.com/embed/lh02hZRKB_8?si=rSX-CDaxcTyvEqNf",
+        prevPrice: 20000,
+        nowPrice: 18000,
+        stock: 12,
+        condition: "New",
+        rating: 4.9,
+        freeShipping: true
+    },
+    {
+        productID: 58,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746639486/ps5-dualsense-fortnite-limited-edition_u9euhn.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746639486/ps5-dualsense-fortnite-limited-edition_u9euhn.png",
+                color: "fortnite-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746639487/ps5-dualsense-fortnite-limited-edition-2_vxcb6f.png",
+                color: "fortnite-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746639487/ps5-dualsense-fortnite-limited-edition-3_oracro.png",
+                color: "fortnite-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746639499/ps5-dualsense-fortnite-limited-edition-4_xw631p.png",
+                color: "fortnite-limited-edition"
+            },
+        ],
+        defaultColor: "fortnite-limited-edition",
+        Title: "Fortnite Limited Edition DualSense Controller",
+        SubTitle: "Limited Edition",
+        category: "playstation",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-fortnite-limited-edition",
+        description: "Show off your Fortnite fandom with the vibrant and colorful Fortnite Limited Edition DualSense Wireless Controller, featuring Fishstick, Peely, and other iconic characters. Designed to deliver the ultimate PS5 gameplay experience with immersive haptics and adaptive triggers.",
+        detailsDescription: "Starring fan-favorite Fortnite characters Fishstick and Peely, the Fortnite Limited Edition DualSense controller brings the chaotic energy of the island to your fingertips. Designed for PlayStation 5, this collectible controller offers all the immersive features you expect from DualSense—haptic feedback, adaptive triggers, motion controls—wrapped in a uniquely styled shell perfect for Fortnite fans and collectors alike.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Design Theme</span><span>Fortnite Characters</span></h6>",
+            "<h6><span>Limited Edition</span><span>Yes</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless via Bluetooth</span></h6>",
+            "<h6><span>Features</span><span>Adaptive Triggers, Haptic Feedback, Built-in Mic</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FORTNITE-INSPIRED DESIGN</span><span class='detail-specs-h6'>- Colorfully vibrant illustrations of Fishstick, Peely, and more bring Fortnite flair to your setup.</span></h6>",
+            "<h6><span>IMMERSIVE PLAY</span><span class='detail-specs-h6'>- Includes adaptive triggers, haptic feedback, and motion sensor for next-gen gaming immersion.</span></h6>",
+            "<h6><span>LIMITED AVAILABILITY</span><span class='detail-specs-h6'>- Collect this exclusive controller while supplies last.</span></h6>",
+            "<h6><span>DROP-IN READY</span><span class='detail-specs-h6'>- Perfect for Fortnite fans ready to build, battle, and create on PS5.</span></h6>",
+            "<h6><span>WIRELESS CONTROL</span><span class='detail-specs-h6'>- Easily pair with your PS5 console and enjoy untethered play.</span></h6>"
+        ],
+        tags: [
+            "ps5", "controller", "dualsense", "fortnite", "limited-edition", "fishstick", "peely", "sony", "collectible", "gaming"
+        ],
+        carousels: ["controllers", "limited edition"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/dualsense-wireless-controller-fortnite-limited-edition/",
+        youtubeReview: "https://www.youtube.com/embed/wPig31L_D9Q?si=qcZ80IJfeyyidblF",
+        unboxingVideo: "https://www.youtube.com/embed/25DbqIfri1k?si=XkSjBhpxiD-SQhGE",
+        prevPrice: 18000,
+        nowPrice: 16499,
+        stock: 15,
+        condition: "New",
+        rating: 4.8,
+        freeShipping: true
+    },
+    {
+        productID: 59,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746641563/ps5-dualsense-30th-anniversary-limited-edition_sdqgwr.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746641563/ps5-dualsense-30th-anniversary-limited-edition_sdqgwr.png",
+                color: "30th-anniversary-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746641564/ps5-dualsense-30th-anniversary-limited-edition-2_qndn7h.png",
+                color: "30th-anniversary-limited-edition"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746641564/ps5-dualsense-30th-anniversary-limited-edition-3_bjlrmg.png",
+                color: "30th-anniversary-limited-edition"
+            },
+        ],
+        defaultColor: "30th-anniversary-limited-edition",
+        Title: "30th Anniversary DualSense Controller - Celebrate Three Decades of PlayStation Gaming",
+        SubTitle: "Limited Edition",
+        category: "playstation",
+        subCategory: ["controllers", "limited edition"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-30th-anniversary-limited-edition",
+        description: "Celebrate 30 years of iconic PlayStation gaming with the limited edition DualSense Wireless Controller, featuring immersive haptic feedback, adaptive triggers, and a commemorative design that honors the legacy of PlayStation.",
+        detailsDescription: "Mark PlayStation's legacy with the DualSense Wireless Controller – 30th Anniversary Limited Edition. This iconic controller combines next-gen features like haptic feedback, adaptive triggers, and motion sensing with a collectible design that honors 30 years of gaming evolution. Packed with familiar features and modern refinements, it’s the ultimate tool for celebrating and playing.",
+        topSpecs: [
+            "<h6><span>Edition</span><span>30th Anniversary Limited Edition</span></h6>",
+            "<h6><span>Compatibility</span><span>PlayStation 5, PC, Mac, Mobile</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless via Bluetooth or USB Type-C</span></h6>",
+            "<h6><span>Special Features</span><span>Haptic Feedback, Adaptive Triggers, Motion Sensor</span></h6>",
+            "<h6><span>Design</span><span>Commemorative 30th Anniversary Styling</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>IMMERSIVE HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Dual actuators simulate realistic in-game sensations.</span></h6>",
+            "<h6><span>DYNAMIC ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Feel the resistance of in-game actions like pulling a bowstring or applying brakes.</span></h6>",
+            "<h6><span>BUILT-IN MICROPHONE</span><span class='detail-specs-h6'>- Communicate with teammates or mute instantly with a dedicated button.</span></h6>",
+            "<h6><span>MULTI-DEVICE SUPPORT</span><span class='detail-specs-h6'>- Compatible with PC, Mac, Android, and iOS via Bluetooth or USB-C.</span></h6>",
+            "<h6><span>MOTION SENSOR</span><span class='detail-specs-h6'>- Integrated accelerometer and gyroscope enable intuitive motion control in supported games.</span></h6>"
+        ],
+        tags: [
+            "ps5", "controller", "dualsense", "30th-anniversary", "limited-edition", "sony", "commemorative", "playstation"
+        ],
+        carousels: ["controllers", "limited edition"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/playstation-5-dualsense-wireless-controller-30th-anniversary-limited-edition/",
+        youtubeReview: "https://www.youtube.com/embed/C64kqi1c7VI?si=hCL29lrrltQGzE59",
+        unboxingVideo: "https://www.youtube.com/embed/6OMDweGxuww?si=oAVgHObHrXm8IkPX",
+        prevPrice: 18999,
+        nowPrice: 18499,
+        stock: 10,
+        condition: "New",
+        rating: 4.9,
+        freeShipping: true
+    },
+        
+    
+   
+
+
+
+    //-------------- PS 4
+    {
+        productID: 76,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746532229/ps4-dualshock-4-controller-green-camouflage_iw1alz.png", // Main image showing the Green Camouflage PS4 controller
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746532229/ps4-dualshock-4-controller-green-camouflage_iw1alz.png",
+                color: "green camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_black_ezamyf.png", // Black variant image
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541671/PS4_DualShock_4_Wireless_Controller_blue_wdxfvs.png", // Blue variant image
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_red_ougl9v.png", // Red variant image
+                color: "red"
+            },
+        ],
+        defaultColor: "green camouflage",
+        Title: "PS4 DUALSHOCK 4 Controller - Green Camouflage [Copy Controller]",
+        SubTitle: "Copy Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps4",
+        brand: "generic",
+        name: "ps4-dualshock-4-controller-green-camouflage",
+        description: "Experience precision gameplay and intuitive control with the DUALSHOCK 4 Wireless Controller for PS4 – now in a striking Green Camouflage design.",
+        detailsDescription: "The DUALSHOCK®4 Wireless Controller delivers familiar comfort, enhanced analog sticks, and precision triggers for absolute control. The integrated light bar, touchpad, and built-in speaker offer new ways to interact with your favorite PS4™ titles. Capture and share your best gaming moments using the dedicated SHARE button, and stay connected with convenient USB charging (cable sold separately).",
+        topSpecs: [
+            "<h6><span>Connection</span><span>Wireless (Bluetooth)</span></h6>",
+            "<h6><span>Compatibility</span><span>PS4 system software v3.5 or later</span></h6>",
+            "<h6><span>Touchpad</span><span>Multi-touch, clickable</span></h6>",
+            "<h6><span>Audio</span><span>Built-in speaker, stereo headset jack</span></h6>",
+            "<h6><span>Charging</span><span>USB cable (sold separately)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PRECISION CONTROL</span><span class='detail-specs-h6'>- Refined analog sticks and trigger buttons provide precise input across your favorite titles.</span></h6>",
+            "<h6><span>SHARE BUTTON</span><span class='detail-specs-h6'>- Capture screenshots, record gameplay, and broadcast sessions with one tap.</span></h6>",
+            "<h6><span>IMMERSIVE FEATURES</span><span class='detail-specs-h6'>- Touchpad, light bar, and speaker deliver an interactive gaming experience.</span></h6>",
+            "<h6><span>WIRELESS PLAY</span><span class='detail-specs-h6'>- Bluetooth connectivity for wireless freedom during play.</span></h6>",
+            "<h6><span>USB CHARGING</span><span class='detail-specs-h6'>- Recharge easily using a USB cable (not included).</span></h6>"
+        ],
+        tags: [
+            "ps4", "dualshock-4", "wireless-controller", "green-camo", "camouflage", "gaming-pad", "bluetooth-controller", "playstation", "accessory", "ps4-controller"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/dualshock-4-wireless-controller-for-ps4-green-camouflage/?gad_source=1&gad_campaignid=22025171983&gbraid=0AAAAAqKksboyeCrZrvLZytCHL8xhPwW82&gclid=Cj0KCQjw5ubABhDIARIsAHMighZBf1-9LrfTQQI1R2GLCG5kNgGlnAzZOF2pNWLpH38yhab5VKZgXHkaAp3MEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/jrqX488MkFk?si=9pEfljbzIsykTLdn",
+        unboxingVideo: "https://www.youtube.com/embed/gKJMxZie9bM?si=FloR5FoKhapQsG38",
+        prevPrice: 3000,
+        nowPrice: 2500,
+        stock: 5,
+        condition: "New",
+        rating: 4.5,
+        freeShipping: false
+    },
+ 
+    {
+        productID: 77,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541676/PS4_DualShock_4_Wireless_Controller_white_xegg4j.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541676/PS4_DualShock_4_Wireless_Controller_white_xegg4j.png", // White variant image
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_black_ezamyf.png", // Black variant image
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541671/PS4_DualShock_4_Wireless_Controller_blue_wdxfvs.png", // Blue variant image
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_red_ougl9v.png", // Red variant image
+                color: "red"
+            },
+        ],
+        defaultColor: "white",
+        Title: "PS4 DualShock 4 Wireless Controller [White] - Original Controller",
+        SubTitle: "Original Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps4",
+        brand: "sony",
+        name: "ps4-dualshock4-wireless-controller-white",
+        description: "Experience precise control and immersive features with the PS4 DualShock 4 Wireless Controller, featuring improved analog sticks, touchpad, motion sensors, and integrated speaker.",
+        detailsDescription: "The PS4 DualShock 4 Wireless Controller offers a revolutionary design with familiar controls enhanced for precision and comfort. Featuring evolved analog sticks, highly sensitive trigger buttons, a clickable touchpad, and built-in speaker, it transforms your gameplay experience. Integrated motion sensors provide responsive motion control, while the Share button lets you capture and stream your best moments instantly. Available in a variety of stylish colors, it's the perfect connection between you and your games.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black, White, Blue, Red, Gold, Green Camouflage</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless (Bluetooth)</span></h6>",
+            "<h6><span>Touchpad</span><span>Multi-touch clickable surface</span></h6>",
+            "<h6><span>Motion Sensor</span><span>3-axis gyroscope & accelerometer</span></h6>",
+            "<h6><span>Audio</span><span>Built-in speaker & 3.5mm headset jack</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REVOLUTIONARY DESIGN</span><span class='detail-specs-h6'>- Combines iconic layout with new intuitive, responsive features to define next-gen gaming.</span></h6>",
+            "<h6><span>PRECISION CONTROLS</span><span class='detail-specs-h6'>- Enhanced analog sticks and triggers for greater feel and accuracy during gameplay.</span></h6>",
+            "<h6><span>INTERACTIVE TOUCHPAD</span><span class='detail-specs-h6'>- Multi-touch, clickable pad expands gameplay possibilities.</span></h6>",
+            "<h6><span>BUILT-IN AUDIO FEATURES</span><span class='detail-specs-h6'>- Speaker and 3.5mm jack for immersive sound and communication.</span></h6>",
+            "<h6><span>MOTION SENSING</span><span class='detail-specs-h6'>- Gyroscope and accelerometer enable motion-based gameplay experiences.</span></h6>"
+        ],
+        tags: [
+            "dualshock4", "ps4", "controller", "sony", "wireless", "motion-sensor", "touchpad", "gaming-accessory", "black-controller", "playstation4"
+        ],
+        carousels: ["controllers", "accessories"],
+        storage: "",
+        dropURL: "https://www.phoneplacekenya.com/product/dualshock-4-wireless-controller/?gad_source=1&gad_campaignid=21050901825&gbraid=0AAAAADFV82c_u-InQrleJ0McQdjRxS2mj&gclid=Cj0KCQjw5ubABhDIARIsAHMighZvFYrnYaM_mDeAzOdhZ_K3sAzlKrnw9ybJKOuBee7kRpnhOFtCo94aAuwbEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/PNrHVX7Y5qk?si=1esJ0LKXZilduB51",
+        unboxingVideo: "https://www.youtube.com/embed/gfuuzphrw7c?si=oRl84XT-uhcrr-qR",
+        prevPrice: 7500,
+        nowPrice: 5499,
+        stock: 24,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 78,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_black_ezamyf.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_black_ezamyf.png", // Black variant image
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541676/PS4_DualShock_4_Wireless_Controller_white_xegg4j.png", // White variant image
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541671/PS4_DualShock_4_Wireless_Controller_blue_wdxfvs.png", // Blue variant image
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541672/PS4_DualShock_4_Wireless_Controller_red_ougl9v.png", // Red variant image
+                color: "red"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PS4 DualShock 4 Wireless Controller [Black] - Original Controller",
+        SubTitle: "Original Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps4",
+        brand: "sony",
+        name: "ps4-dualshock4-wireless-controller-black",
+        description: "Experience precise control and immersive features with the PS4 DualShock 4 Wireless Controller, featuring improved analog sticks, touchpad, motion sensors, and integrated speaker.",
+        detailsDescription: "The PS4 DualShock 4 Wireless Controller offers a revolutionary design with familiar controls enhanced for precision and comfort. Featuring evolved analog sticks, highly sensitive trigger buttons, a clickable touchpad, and built-in speaker, it transforms your gameplay experience. Integrated motion sensors provide responsive motion control, while the Share button lets you capture and stream your best moments instantly. Available in a variety of stylish colors, it's the perfect connection between you and your games.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black, White, Blue, Red, Gold, Green Camouflage</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless (Bluetooth)</span></h6>",
+            "<h6><span>Touchpad</span><span>Multi-touch clickable surface</span></h6>",
+            "<h6><span>Motion Sensor</span><span>3-axis gyroscope & accelerometer</span></h6>",
+            "<h6><span>Audio</span><span>Built-in speaker & 3.5mm headset jack</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REVOLUTIONARY DESIGN</span><span class='detail-specs-h6'>- Combines iconic layout with new intuitive, responsive features to define next-gen gaming.</span></h6>",
+            "<h6><span>PRECISION CONTROLS</span><span class='detail-specs-h6'>- Enhanced analog sticks and triggers for greater feel and accuracy during gameplay.</span></h6>",
+            "<h6><span>INTERACTIVE TOUCHPAD</span><span class='detail-specs-h6'>- Multi-touch, clickable pad expands gameplay possibilities.</span></h6>",
+            "<h6><span>BUILT-IN AUDIO FEATURES</span><span class='detail-specs-h6'>- Speaker and 3.5mm jack for immersive sound and communication.</span></h6>",
+            "<h6><span>MOTION SENSING</span><span class='detail-specs-h6'>- Gyroscope and accelerometer enable motion-based gameplay experiences.</span></h6>"
+        ],
+        tags: [
+            "dualshock4", "ps4", "controller", "sony", "wireless", "motion-sensor", "touchpad", "gaming-accessory", "black-controller", "playstation4"
+        ],
+        carousels: ["controllers", "accessories"],
+        storage: "",
+        dropURL: "https://www.phoneplacekenya.com/product/dualshock-4-wireless-controller/?gad_source=1&gad_campaignid=21050901825&gbraid=0AAAAADFV82c_u-InQrleJ0McQdjRxS2mj&gclid=Cj0KCQjw5ubABhDIARIsAHMighZvFYrnYaM_mDeAzOdhZ_K3sAzlKrnw9ybJKOuBee7kRpnhOFtCo94aAuwbEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/PNrHVX7Y5qk?si=1esJ0LKXZilduB51",
+        unboxingVideo: "https://www.youtube.com/embed/x77X0YuSXao?si=VfEjSyzRAVITsi1T",
+        prevPrice: 7500,
+        nowPrice: 5499,
+        stock: 24,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 80,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541674/PS4_DualShock_4_Wireless_Controller_red-camoflouge_awevqo.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541674/PS4_DualShock_4_Wireless_Controller_red-camoflouge_awevqo.png", // Green Camouflage variant image
+                color: "red camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746541671/PS4_DualShock_4_Wireless_Controller_gold_mrbzol.png", // Gold variant image
+                color: "gold"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746532229/ps4-dualshock-4-controller-green-camouflage_iw1alz.png", // Green Camouflage variant image
+                color: "green camouflage"
+            },
+        ],
+        defaultColor: "red camouflage",
+        Title: "PS4 DualShock 4 Wireless Controller [Red Camouflage] - Original Controller",
+        SubTitle: "Original Controller",
+        category: "playstation",
+        subCategory: ["controllers", "accessories"],
+        variant: "ps4",
+        brand: "sony",
+        name: "ps4-dualshock4-wireless-controller-red-camouflage",
+        description: "Experience precise control and immersive features with the PS4 DualShock 4 Wireless Controller, featuring improved analog sticks, touchpad, motion sensors, and integrated speaker.",
+        detailsDescription: "The PS4 DualShock 4 Wireless Controller offers a revolutionary design with familiar controls enhanced for precision and comfort. Featuring evolved analog sticks, highly sensitive trigger buttons, a clickable touchpad, and built-in speaker, it transforms your gameplay experience. Integrated motion sensors provide responsive motion control, while the Share button lets you capture and stream your best moments instantly. Available in a variety of stylish colors, it's the perfect connection between you and your games.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black, White, Blue, Red, Gold, Green Camouflage</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless (Bluetooth)</span></h6>",
+            "<h6><span>Touchpad</span><span>Multi-touch clickable surface</span></h6>",
+            "<h6><span>Motion Sensor</span><span>3-axis gyroscope & accelerometer</span></h6>",
+            "<h6><span>Audio</span><span>Built-in speaker & 3.5mm headset jack</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REVOLUTIONARY DESIGN</span><span class='detail-specs-h6'>- Combines iconic layout with new intuitive, responsive features to define next-gen gaming.</span></h6>",
+            "<h6><span>PRECISION CONTROLS</span><span class='detail-specs-h6'>- Enhanced analog sticks and triggers for greater feel and accuracy during gameplay.</span></h6>",
+            "<h6><span>INTERACTIVE TOUCHPAD</span><span class='detail-specs-h6'>- Multi-touch, clickable pad expands gameplay possibilities.</span></h6>",
+            "<h6><span>BUILT-IN AUDIO FEATURES</span><span class='detail-specs-h6'>- Speaker and 3.5mm jack for immersive sound and communication.</span></h6>",
+            "<h6><span>MOTION SENSING</span><span class='detail-specs-h6'>- Gyroscope and accelerometer enable motion-based gameplay experiences.</span></h6>"
+        ],
+        tags: [
+            "dualshock4", "ps4", "controller", "sony", "wireless", "motion-sensor", "touchpad", "gaming-accessory", "black-controller", "playstation4"
+        ],
+        carousels: ["controllers", "accessories"],
+        storage: "",
+        dropURL: "https://www.phoneplacekenya.com/product/dualshock-4-wireless-controller/?gad_source=1&gad_campaignid=21050901825&gbraid=0AAAAADFV82c_u-InQrleJ0McQdjRxS2mj&gclid=Cj0KCQjw5ubABhDIARIsAHMighZvFYrnYaM_mDeAzOdhZ_K3sAzlKrnw9ybJKOuBee7kRpnhOFtCo94aAuwbEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/PNrHVX7Y5qk?si=1esJ0LKXZilduB51",
+        unboxingVideo: "https://www.youtube.com/embed/LAoXItbgv4k?si=pQfp-g2mFA-EyURx",
+        prevPrice: 7500,
+        nowPrice: 5499,
+        stock: 24,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
 
 
 
@@ -738,7 +1502,12 @@ export const playstation = [
 
 
 
-    //--------------------ACCESSORIES
+
+
+
+
+    //-------------------- ACCESSORIES
+    //--------------------- Ps 5
     {
         productID: 101,
         platform: "PlayStation",
@@ -753,15 +1522,11 @@ export const playstation = [
                 color: "white"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
-                color: "black"
-            },
-            {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806200/portal-2_dq49r2.png",
                 color: "white"
             }
         ],
-        defaultColor: "black",
+        defaultColor: "white",
         Title: "PlayStation 5 Portal - Portable PS5 Gaming, High-Resolution Display, Low Latency",
         SubTitle: "ps 5 Portal",
         category: "playstation",
@@ -811,12 +1576,8 @@ export const playstation = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock_d39gtx.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock-2_yn6ajm.png",
         imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock_d39gtx.png",
-                color: "white"
-            },
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock-2_yn6ajm.png",
                 color: "white"
@@ -863,11 +1624,755 @@ export const playstation = [
         youtubeReview: "https://www.youtube.com/embed/XU1-FKlSQTw?si=pO1tBCsHEGDUK-2S",
         unboxingVideo: "https://www.youtube.com/embed/b7PzLVg42uc?si=ztWJEs3S8SofZRLJ",
         prevPrice: 9500,
-        nowPrice: 6250,
+        nowPrice: 5500,
         stock: 1,
         freeShipping: true,
         condition: "New",
         rating: 4.7
     },
+    {
+        productID: 103,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Sony PlayStation 5 Media Remote",
+        SubTitle: "Multimedia Control",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-media-remote",
+        description: "Easily control your PS5 entertainment experience with the intuitive Sony PlayStation 5 Media Remote.",
+        detailsDescription: "Navigate your PlayStation 5 entertainment apps and media with ease using the Sony PS5 Media Remote. Designed to perfectly match the PS5 aesthetic, this remote offers intuitive controls for seamless streaming and media playback. With built-in play, pause, fast-forward, and reverse buttons, along with dedicated app buttons for Disney+, Netflix, Spotify, and YouTube, you can jump straight into your favorite content. Control your compatible TV’s power and volume via the built-in IR transmitter, and enjoy simplified control using Bluetooth and HDMI ARC functionality. Whether you're streaming or managing settings, the PS5 Media Remote delivers a clean, clutter-free experience.",
+        topSpecs: [
+            "<h6><span>Dedicated App Buttons</span><span>Disney+, Netflix, Spotify, YouTube</span></h6>",
+            "<h6><span>Playback Control</span><span>Play/Pause, Fast Forward, Reverse</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth, IR</span></h6>",
+            "<h6><span>TV Control</span><span>Power & Volume via IR/HDMI ARC</span></h6>",
+            "<h6><span>PS5 Compatibility</span><span>Full media interface control</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENTERTAINMENT CONTROL</span><span class='detail-specs-h6'>- Easily browse PS5 media apps using intuitive buttons for streaming and volume adjustment.</span></h6>",
+            "<h6><span>DEDICATED SHORTCUT BUTTONS</span><span class='detail-specs-h6'>- Instant access to Disney+, Netflix, Spotify, and YouTube with a single press.</span></h6>",
+            "<h6><span>CONSOLE NAVIGATION</span><span class='detail-specs-h6'>- Power on your PS5 and browse menus without a controller.</span></h6>",
+            "<h6><span>TV INTEGRATION</span><span class='detail-specs-h6'>- Adjust volume and power settings on compatible TVs using IR transmitter or HDMI ARC.</span></h6>",
+            "<h6><span>ERGONOMIC DESIGN</span><span class='detail-specs-h6'>- Simple, sleek design that matches your console’s look.</span></h6>"
+        ],
+        tags: [
+            "ps5", "media-remote", "playstation-accessory", "tv-control", "disney+", "netflix", "spotify", "youtube", "hdmi-arc", "ir", "bluetooth", "sony", "ps5-entertainment", "ps5-navigation", "remote"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/sony-playstation-5-media-remote/",
+        youtubeReview: "https://www.youtube.com/embed/Q8RgH903-7Q?si=g7YW1qmC4hQREAW_",
+        unboxingVideo: "https://www.youtube.com/embed/0vo0iEmThCQ?si=S6-tprJbt7zHCK6N",
+        prevPrice: 7000,
+        nowPrice: 5500,
+        stock: 10,
+        condition: "New",
+        rating: 4.6,
+        freeShipping: true
+    },
+    {
+        productID: 104,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741506507/Screenshot_2025-03-09_104432_kmmtrs.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741508135/PS5-Pulse-3D-Wireless-Headset_mwuoku.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741508135/PS5-Pulse-3D-Wireless-Headset_mwuoku.png",
+                color: "white",
+                productID: "67cd4f4cd2a3cbb6bca2270a"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741508134/PS5-Pulse-3D-Wireless-Headset-2_a4dwmq.png",
+                color: "black",
+                productID: "67cd4f4cd2a3cbb6bca2270b"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741508135/PS5-Pulse-3D-Wireless-Headset-3_fue8t2.png",
+                color: "gray",
+                productID: "67cd4f4cd2a3cbb6bca2270c"
+            }
+        ],
+        defaultColor: "white",
+        Title: "PlayStation 5 (Ps 5) Pulse 3D Wireless Headset",
+        SubTitle: "Headphones",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "Sony",
+        name: "PS5-Pulse-3D-Wireless-Headset",
+        description: "The PULSE 3D wireless headset is tuned for the PlayStation 5, delivering immersive 3D Audio with Tempest 3D AudioTech and up to 12 hours of wireless play.",
+        detailsDescription: "Experience gaming like never before with the PULSE 3D wireless headset, designed for PS5. With Tempest 3D AudioTech, crystal-clear voice capture, and a comfortable, stylish design, this headset is perfect for immersive soundscapes and seamless communication. It’s compatible with PS5, PS4, and other devices via the included wireless adapter or 3.5mm jack.",
+        topSpecs: [
+            "<h6><span>Form Factor</span><span> --- On-Ear</span></h6>",
+            "<h6><span>Battery Life</span><span> --- Up to 12 hours</span></h6>",
+            "<h6><span>Connectivity</span><span> --- Wireless</span></h6>",
+            "<h6><span>Compatible Products</span><span> --- PS5, PS4, Windows, macOS</span></h6>",
+            "<h6><span>Color</span><span> --- Midnight Black</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>3D Audio</span><span class='detail-specs-h6'>- Powered by Tempest 3D AudioTech for immersive soundscapes.</span></h6>",
+            "<h6><span>Dual Hidden Microphones</span><span class='detail-specs-h6'>- Optimally positioned for crystal-clear voice capture with noise-canceling technology.</span></h6>",
+            "<h6><span>Wireless Connectivity</span><span class='detail-specs-h6'>- Connect seamlessly to PS5, PS4, and compatible computers with the included adapter.</span></h6>",
+            "<h6><span>Rechargeable Battery</span><span class='detail-specs-h6'>- Up to 12 hours of play on a single charge.</span></h6>",
+            "<h6><span>3.5mm Jack</span><span class='detail-specs-h6'>- Compatible with PlayStationVR and mobile devices.</span></h6>"
+        ],
+        tags: [
+            "wireless",
+            "bluetooth",
+            "headphones"
+        ],
+        carousels: [
+            "headphones", "latestArrivals"
+        ],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps5-pulse-3d-wireless-headset/",
+        youtubeReview: "https://www.youtube.com/embed/JvX5C82BCus?si=o8NZgjvip8EFMsuW",
+        unboxingVideo: "https://www.youtube.com/embed/Dm5GPctmEcU?si=V5-o6n2DcctICDma",
+        prevPrice: 15000,
+        nowPrice: 12500,
+        stock: 15,
+        condition: "New",
+        rating: "4.5",
+    },
+    {
+        productID: 105,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PlayStation 5 Portal - Midnight Black, High-Resolution Display, Low Latency",
+        SubTitle: "ps 5 Portal",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "playstation-5-portal-midnight-black",
+        description: "The PlayStation 5 Portal is a portable gaming accessory designed to bring the power of PS5 gaming to a handheld screen. With seamless connectivity, high-resolution visuals, and low-latency performance, it ensures a smooth gaming experience on the go.",
+        detailsDescription: "Enhance your gaming setup with the PlayStation 5 Portal, a portable screen dedicated to PS5 gaming. It allows you to take your PS5 experience anywhere without sacrificing power, performance, or visual clarity.",
+        topSpecs: [
+            "<h6><span>Portable Gaming</span><span>Handheld screen for PS5 gaming on the go</span></h6>",
+            "<h6><span>High-Resolution Display</span><span>Crystal-clear visuals for an immersive experience</span></h6>",
+            "<h6><span>Connectivity</span><span>Seamless connection with PlayStation 5</span></h6>",
+            "<h6><span>Low Latency</span><span>Smooth, responsive gameplay with minimal lag</span></h6>",
+            "<h6><span>Ergonomic Design</span><span>Comfortable grip for long gaming sessions</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SCREEN</span><span class='detail-specs-h6'>- High-resolution display for detailed visuals</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wireless connection to PS5 console</span></h6>",
+            "<h6><span>LOW LATENCY</span><span class='detail-specs-h6'>- Optimized for smooth, real-time gameplay</span></h6>",
+            "<h6><span>ERGONOMICS</span><span class='detail-specs-h6'>- Designed for comfortable handheld gaming</span></h6>",
+            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'>- Works exclusively with PlayStation 5</span></h6>"
+        ],
+        tags: [
+            "playstation-5",
+            "ps5-portal",
+            "portable-gaming",
+            "handheld-gaming",
+            "sony-playstation",
+            "gaming-accessories"
+        ],
+        carousels: ["ps5Accessories", "latestArrivals"],
+        dropURL: "https://fortresselectronics.co.ke/product/playstation-5-portal/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/eTjDKxw07NI?si=ubgHepzTUSOuTsBn",
+        unboxingVideo: "https://www.youtube.com/embed/xJnoFAr7QKI?si=WibXos9ZmXBCLFYs",
+        prevPrice: 38000,
+        nowPrice: 39999,
+        stock: 1,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 106,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746551594/ps5-dobe-dual-charging-dock_tauojz.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746551594/ps5-dobe-dual-charging-dock_tauojz.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746551598/ps5-dobe-dual-charging-dock-2_b5zqm7.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746551604/ps5-dobe-dual-charging-dock-3_mucjqd.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746551612/ps5-dobe-dual-charging-dock-4_lujr5w.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "PS5 Dual Charging Dock – Dobe - Charge Two DualSense Controllers Simultaneously",
+        SubTitle: "Dobe",
+        category: "playstation",
+        subCategory: ["charging", "accessories"],
+        variant: "ps5",
+        brand: "dobe",
+        name: "ps5-dobe-dual-charging-dock",
+        description: "The Dobe PS5 Dual Charging Dock allows you to charge two DualSense controllers simultaneously, freeing up USB ports and keeping your gaming area neat and powered.",
+        detailsDescription: "With the Dobe Dual Charging Dock for PS5, you can dock and charge up to two DualSense wireless controllers quickly and easily. The click-in design ensures effortless connection, and your controllers will charge just as fast as when directly connected to the console. Perfect for keeping your controllers ready while reducing clutter and freeing up PS5 USB ports.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black</span></h6>",
+            "<h6><span>Controller Capacity</span><span>2 DualSense controllers</span></h6>",
+            "<h6><span>Charging Method</span><span>Click-in Dock</span></h6>",
+            "<h6><span>USB Port Usage</span><span>Frees up PS5 USB ports</span></h6>",
+            "<h6><span>Compatibility</span><span>PS5 DualSense</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DUAL CHARGING SUPPORT</span><span class='detail-specs-h6'>- Charge up to two DualSense controllers simultaneously without using your PS5's USB ports.</span></h6>",
+            "<h6><span>CLICK-IN DESIGN</span><span class='detail-specs-h6'>- Easily dock controllers into place with the user-friendly click-in connection system.</span></h6>",
+            "<h6><span>FAST CHARGING</span><span class='detail-specs-h6'>- Charges controllers as quickly as the direct PS5 USB connection.</span></h6>",
+            "<h6><span>SPACE SAVING</span><span class='detail-specs-h6'>- Keeps controllers organized and your gaming setup tidy.</span></h6>",
+            "<h6><span>DESIGNED FOR PS5</span><span class='detail-specs-h6'>- A sleek black dock made to perfectly complement your PlayStation 5 system.</span></h6>"
+        ],
+        tags: [
+            "dobe", "ps5", "dual-charging", "controller-dock", "dualsense", "charging-station", "accessory", "click-in-design", "fast-charge"
+        ],
+        carousels: ["accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-dual-charging-dock/?gad_source=1&gad_campaignid=22025171983&gbraid=0AAAAAqKksboyeCrZrvLZytCHL8xhPwW82&gclid=Cj0KCQjw5ubABhDIARIsAHMighYc78c2-3WmFHiWfb6nMxcK2QryourQlUPZddvyMWPYi-eB6K717Q0aAh1QEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/O1A4bSR9hCc?si=Un8wppAVTDiyr7Yu",
+        unboxingVideo: "https://www.youtube.com/embed/O1A4bSR9hCc?si=Un8wppAVTDiyr7Yu",
+        prevPrice: 6500,
+        nowPrice: 3500,
+        stock: 18,
+        condition: "New",
+        rating: 4.6,
+        freeShipping: true
+    },
+    {
+        productID: 107,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746552963/ps5-dualsense-charging-station-official_vpztew.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746552963/ps5-dualsense-charging-station-official_vpztew.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746552964/ps5-dualsense-charging-station-official-2_xajid4.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746552964/ps5-dualsense-charging-station-official-3_jgpywp.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "PS5 Dock DualSense Charging Station (Official)",
+        SubTitle: "Official DualSense",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-charging-station-official",
+        description: "Charge two DualSense wireless controllers simultaneously with the official PS5 charging station, designed to match your console and deliver optimal charging without using USB ports.",
+        detailsDescription: "The official PS5 DualSense Charging Station makes charging your controllers effortless. Simply dock up to two DualSense controllers using the intuitive click-in design. Enjoy fast charging equal to that of direct console connection while freeing up your PS5 USB ports for other peripherals. The minimalist white design fits seamlessly into your PlayStation setup.",
+        topSpecs: [
+            "<h6><span>Color</span><span>White</span></h6>",
+            "<h6><span>Controller Capacity</span><span>2 DualSense controllers</span></h6>",
+            "<h6><span>Charging Method</span><span>Click-in Dock</span></h6>",
+            "<h6><span>USB Port Usage</span><span>Frees up PS5 USB ports</span></h6>",
+            "<h6><span>Compatibility</span><span>PS5 DualSense</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OFFICIAL DESIGN</span><span class='detail-specs-h6'>- Manufactured by Sony to perfectly match and support the PS5 DualSense controllers.</span></h6>",
+            "<h6><span>DUAL CONTROLLER SUPPORT</span><span class='detail-specs-h6'>- Charge two controllers simultaneously without sacrificing console USB ports.</span></h6>",
+            "<h6><span>CLICK-IN CHARGING</span><span class='detail-specs-h6'>- Simple click-in docking ensures easy, secure connection every time.</span></h6>",
+            "<h6><span>FAST CHARGING</span><span class='detail-specs-h6'>- Provides equivalent charging speed to direct PS5 console connection.</span></h6>",
+            "<h6><span>NEAT SETUP</span><span class='detail-specs-h6'>- Streamlined design helps maintain a tidy and organized gaming space.</span></h6>"
+        ],
+        tags: [
+            "sony", "ps5", "charging-station", "dualsense", "official", "white", "click-in", "fast-charging", "usb-free", "accessory"
+        ],
+        carousels: ["accessories"],
+        storage: "",
+        dropURL: "https://cellularkenya.co.ke/product/ps5-dualsense-charging-station/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/YfbrzsK7Vto?si=pKA_C85TKV78uZQ4",
+        unboxingVideo: "https://www.youtube.com/embed/PWo4l_HUZ7g?si=7ibl6wFrHYs5E_g_",
+        prevPrice: 7500,
+        nowPrice: 5499,
+        stock: 20,
+        condition: "New",
+        rating: 4.8,
+        freeShipping: true
+    },    
+    {
+        productID: 108,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746556546/ps5-vertical-stand_wck2lx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746556546/ps5-vertical-stand_wck2lx.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746556547/ps5-vertical-stand-2_wb6gev.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PS5 Vertical Stand - Stabilize and Showcase Your PS5",
+        SubTitle: "Stand",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-vertical-stand",
+        description: "Secure your PS5 console in an upright position with the PS5 Vertical Stand, compatible with PS5 Slim Disk/Digital and PS5 Pro models.",
+        detailsDescription: "The PS5 Vertical Stand is designed to provide a sturdy and stylish support for your PlayStation 5 console when positioned vertically. Whether you're using a Slim, Digital, or Pro version, this stand ensures stability and helps maintain airflow. With a sleek form that complements the console’s design, this accessory is a must-have for vertical setups.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black</span></h6>",
+            "<h6><span>Compatibility</span><span>PS5 Slim, PS5 Digital, PS5 Pro</span></h6>",
+            "<h6><span>Mounting Type</span><span>Vertical Stand</span></h6>",
+            "<h6><span>Stability</span><span>Secures console in upright position</span></h6>",
+            "<h6><span>Design</span><span>Minimalist and functional</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>UNIVERSAL FIT</span><span class='detail-specs-h6'>- Compatible with PS5 Slim, Digital, and Pro versions.</span></h6>",
+            "<h6><span>SPACE SAVER</span><span class='detail-specs-h6'>- Keeps your console vertically aligned and stable to save shelf space.</span></h6>",
+            "<h6><span>ENHANCED AIRFLOW</span><span class='detail-specs-h6'>- Vertical orientation helps with heat dissipation for better performance.</span></h6>",
+            "<h6><span>STYLISH LOOK</span><span class='detail-specs-h6'>- Designed to complement the PS5 aesthetic.</span></h6>",
+            "<h6><span>OFFICIAL BUILD QUALITY</span><span class='detail-specs-h6'>- Reliable support designed for long-term use.</span></h6>"
+        ],
+        tags: [
+            "ps5", "stand", "vertical-stand", "ps5-slim", "ps5-pro", "sony", "accessory", "black", "space-saving", "upright"
+        ],
+        carousels: ["stands", "accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-vertical-stand-price-in-kenya/",
+        youtubeReview: "https://www.youtube.com/embed/X3QeI2X6FVI?si=-GWQgbs-0p4XGBAm",
+        unboxingVideo: "https://www.youtube.com/embed/5RoEt7RAkXY?si=_7-Ln8KxKv4ygJXh",
+        prevPrice: 5000,
+        nowPrice: 4499,
+        stock: 15,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 109,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746558457/ps5-usb-c-charging-cable_drkxx5.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746558457/ps5-usb-c-charging-cable_drkxx5.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746558449/ps5-usb-c-charging-cable-3_cycedf.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746558448/ps5-usb-c-charging-cable-2_hdt4dd.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PS5 Controller USB C Charging Cable",
+        SubTitle: "Fast, Safe & Versatile Charging",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "third-party",
+        name: "ps5-usb-c-charging-cable",
+        description: "Charge your PS5 DualSense controller or other Type-C compatible devices with this fast-charging USB C cable featuring durable build quality and data transfer support.",
+        detailsDescription: "This PS5 Controller USB C Charging Cable is compatible with PlayStation 5, Xbox Series X/S, Switch Pro controllers, and more. Engineered for durability and speed, it includes built-in short-circuit and overload protection. With support for data transfer and robust construction tested for 10,000+ bends, it ensures both performance and longevity. The extended length provides comfort and freedom whether gaming on the couch or bed.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black</span></h6>",
+            "<h6><span>Compatibility</span><span>PS5, Xbox Series X/S, Switch</span></h6>",
+            "<h6><span>Connector Type</span><span>USB Type-C</span></h6>",
+            "<h6><span>Function</span><span>Charging & Data Transfer</span></h6>",
+            "<h6><span>Length</span><span>Extended for Convenience</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>UNIVERSAL COMPATIBILITY</span><span class='detail-specs-h6'>- Compatible with PS5, Xbox Series X/S, Switch Pro controller, and more.</span></h6>",
+            "<h6><span>FAST CHARGING</span><span class='detail-specs-h6'>- Supports rapid charging with built-in PTC for power protection and stability.</span></h6>",
+            "<h6><span>DURABLE BUILD</span><span class='detail-specs-h6'>- Survives over 10,000 bend cycles with reinforced connector design.</span></h6>",
+            "<h6><span>FLEXIBLE LENGTH</span><span class='detail-specs-h6'>- Extended cable provides flexibility for comfortable gameplay while charging.</span></h6>",
+            "<h6><span>MULTI-DEVICE SUPPORT</span><span class='detail-specs-h6'>- One cable to charge multiple controller types, saving cost and space.</span></h6>"
+        ],
+        tags: [
+            "ps5", "charging-cable", "usb-c", "controller-cable", "data-transfer", "gaming-accessory", "fast-charging", "black", "third-party", "type-c-cable"
+        ],
+        carousels: ["cables", "accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-controller-usb-c-charging-cable/",
+        youtubeReview: "https://www.youtube.com/embed/_gjcm2YMkCQ?si=KM1_deD1_3OIBoPh",
+        unboxingVideo: "https://www.youtube.com/embed/_gjcm2YMkCQ?si=KM1_deD1_3OIBoPh",
+        prevPrice: 1000,
+        nowPrice: 500,
+        stock: 30,
+        condition: "New",
+        rating: 4.6,
+        freeShipping: true
+    },
+    {
+        productID: 110,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746559708/ps5-hd-camera_muahe1.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746559708/ps5-hd-camera_muahe1.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746559286/Sony-PS5-HD-Camera3-removebg-preview_agr08u.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "black",
+        Title: "Sony HD Camera for PlayStation 5 - Broadcast in Full HD",
+        SubTitle: "PS 5 Camera",
+        category: "playstation",
+        subCategory: ["cameras", "accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-hd-camera",
+        description: "Stream and record your gameplay in sharp 1080p with the Sony HD Camera for PlayStation 5, featuring dual wide-angle lenses, background removal support, and an adjustable stand.",
+        detailsDescription: "Designed exclusively for the PS5, the Sony HD Camera lets you easily livestream and record gameplay with crystal-clear 1080p resolution thanks to its dual wide-angle lenses. Whether streaming your gaming sessions or creating content, the built-in stand provides flexible placement, while the PlayStation 5’s background removal tool lets you seamlessly integrate yourself into picture-in-picture broadcasts. Simply press the Create button on your DualSense controller to capture the action with ease.",
+        topSpecs: [
+            "<h6><span>Resolution</span><span>1080p Full HD</span></h6>",
+            "<h6><span>Lenses</span><span>Dual wide-angle</span></h6>",
+            "<h6><span>Mount</span><span>Adjustable stand</span></h6>",
+            "<h6><span>Connectivity</span><span>USB Type-A</span></h6>",
+            "<h6><span>Compatibility</span><span>PlayStation 5</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FULL HD CAPTURE</span><span class='detail-specs-h6'>- Record or stream gameplay in clear 1080p resolution with dual wide-angle lenses.</span></h6>",
+            "<h6><span>INSTANT STREAMING</span><span class='detail-specs-h6'>- Activate via the Create button on the DualSense controller to go live or record instantly.</span></h6>",
+            "<h6><span>PICTURE-IN-PICTURE MODE</span><span class='detail-specs-h6'>- Use the background removal tool to customize your stream's appearance.</span></h6>",
+            "<h6><span>FLEXIBLE PLACEMENT</span><span class='detail-specs-h6'>- Built-in adjustable stand lets you mount above or below your TV with ease.</span></h6>",
+            "<h6><span>USB CONNECTIVITY</span><span class='detail-specs-h6'>- Connects to the PS5 via rear USB Type-A port for hassle-free setup.</span></h6>"
+        ],
+        tags: [
+            "ps5", "hd-camera", "sony", "streaming", "livestream", "dual-lens", "1080p", "accessory", "broadcast", "playstation-camera"
+        ],
+        carousels: ["cameras", "accessories"],
+        storage: "",
+        dropURL: "https://cellularkenya.co.ke/product/sony-hd-camera-for-playstation-5-2/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/sdaqIWy-qBY?si=Imo5_nu-G9t76JEv",
+        unboxingVideo: "https://www.youtube.com/embed/fkOumnc3kus?si=U5jfhRA4nnt4za7T",
+        prevPrice: 0,
+        nowPrice: 5499,
+        stock: 18,
+        condition: "New",
+        rating: 4.8,
+        freeShipping: true
+    },
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //----Ps 4
+    {
+        productID: 151,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746531160/logitech-g29-racing-wheel_ywysvt.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746531160/logitech-g29-racing-wheel_ywysvt.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746531161/logitech-g29-racing-wheel-2_sb6ion.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746531160/logitech-g29-racing-wheel-3_hyzfi1.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "Logitech G29 Racing Wheel + Pedals",
+        SubTitle: "Driving Force Simulation",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps4",
+        brand: "logitech",
+        name: "logitech-g29-racing-wheel",
+        description: "Logitech G29 Racing Wheel delivers a true-to-life racing experience with dual-motor force feedback, 900° steering, and responsive pedals for PS4, PS3, and PC.",
+        detailsDescription: "Get behind the wheel with the Logitech G29 Driving Force Racing Wheel – built for realistic performance and immersive gameplay. Featuring dual-motor force feedback, the G29 recreates road feel, tire traction, and terrain with stunning precision. Its hand-stitched leather wheel and stainless-steel paddle shifters offer premium durability and comfort, while the floor pedal unit with gas, brake, and clutch provides complete control. With a 900-degree steering range and compatibility across PS4, PS3, and PC, this is the ultimate setup for serious sim racers.",
+        topSpecs: [
+            "<h6><span>Force Feedback</span><span>Dual-motor with helical gearing</span></h6>",
+            "<h6><span>Steering Rotation</span><span>900° lock-to-lock</span></h6>",
+            "<h6><span>Pedal Set</span><span>Gas, Brake (non-linear), Clutch</span></h6>",
+            "<h6><span>Material</span><span>Leather wheel, Steel pedals & shifters</span></h6>",
+            "<h6><span>Compatibility</span><span>PS4, PS3, PC</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC FORCE FEEDBACK</span><span class='detail-specs-h6'>- Dual-motor feedback simulates traction loss, weight shift, and terrain for immersive racing.</span></h6>",
+            "<h6><span>PREMIUM CONSTRUCTION</span><span class='detail-specs-h6'>- Hand-stitched leather wheel and stainless-steel components deliver durability and realism.</span></h6>",
+            "<h6><span>RESPONSIVE PEDALS</span><span class='detail-specs-h6'>- Non-linear brake pedal with gas and clutch offers full-range racing control.</span></h6>",
+            "<h6><span>STABLE MOUNTING</span><span class='detail-specs-h6'>- Integrated clamps and bolt points keep the wheel secure on tables or racing rigs.</span></h6>",
+            "<h6><span>INTEGRATED CONTROLS</span><span class='detail-specs-h6'>- On-wheel D-Pad, PlayStation buttons, paddle shifters, and RPM indicator LEDs for quick access.</span></h6>",
+            "<h6><span>OPTIONAL SHIFTER SUPPORT</span><span class='detail-specs-h6'>- Compatible with Logitech Driving Force Shifter (sold separately).</span></h6>"
+        ],
+        tags: [
+            "logitech", "g29", "racing", "steering-wheel", "sim-racing", "racing-wheel", "ps4", "ps3", "pc", "logitech-g29", "racing-pedals", "force-feedback", "paddle-shifters", "clutch", "brake", "accessory", "driving-sim"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://josatronic.com/product/logitech-g29-driving-force-racing-wheel-ps4ps3pc-941-000112/?gad_source=1&gad_campaignid=22386312166&gbraid=0AAAAApdY0jWWH6KRpG4UgjOQcCX6z7hp5&gclid=Cj0KCQjw5ubABhDIARIsAHMighZ2mVnsS8Rqd0MwtCnexufOnOk0DmF3yCr2XJiNg4WhbeGE_yaE3fIaAonoEALw_wcB#",
+        youtubeReview: "https://www.youtube.com/embed/QzSYaJkVevA?si=XsPfn7PyjeG2iQTl",
+        unboxingVideo: "https://www.youtube.com/embed/xoXRR6j_12E?si=Rssgv8VIqqTmTRvN",
+        prevPrice: 45000,
+        nowPrice: 34999,
+        stock: 5,
+        condition: "New",
+        rating: 4.8,
+        freeShipping: true
+    },
+    {
+        productID: 152,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746546019/ps4-dualshock4-charging-station_gn0nae.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746546019/ps4-dualshock4-charging-station_gn0nae.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746546020/ps4-dualshock4-charging-station-2_fkzvwx.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746546024/ps4-dualshock4-charging-station-3_iqmqly.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746546026/ps4-dualshock4-charging-station-4_go6wai.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PS4 DualShock 4 Charging Station - Charge Two Controllers Simultaneously",
+        SubTitle: "Charging Station",
+        category: "playstation",
+        subCategory: ["chargers", "accessories"],
+        variant: "ps4",
+        brand: "sony",
+        name: "ps4-dualshock4-charging-station",
+        description: "Charge up to two DualShock 4 Wireless Controllers simultaneously without needing to connect them to your PS4 console using the compact and efficient Sony DualShock 4 Charging Station.",
+        detailsDescription: "The Sony PlayStation DualShock 4 Charging Station CUH-ZDC1 lets you power up two controllers quickly and easily. Simply insert the controllers into the docking slots and connect the charger to a standard wall outlet—no need to plug into your PS4. With an official Sony build, this compact station offers reliable charging, freeing up USB ports and keeping your setup organized. Designed for performance and convenience, it’s the perfect accessory for serious PS4 gamers.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black</span></h6>",
+            "<h6><span>Compatibility</span><span>DualShock 4 Wireless Controllers</span></h6>",
+            "<h6><span>Charging Capacity</span><span>2 Controllers Simultaneously</span></h6>",
+            "<h6><span>Power Input</span><span>AC 100–240V, 0.3A, 50/60Hz</span></h6>",
+            "<h6><span>Power Output</span><span>DC 5V, 2A</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SIMULTANEOUS CHARGING</span><span class='detail-specs-h6'>- Charge two DualShock 4 controllers at the same time without connecting to the PS4 system.</span></h6>",
+            "<h6><span>COMPACT DESIGN</span><span class='detail-specs-h6'>- Sleek and space-saving for efficient organization in your gaming setup.</span></h6>",
+            "<h6><span>OFFICIAL SONY ACCESSORY</span><span class='detail-specs-h6'>- Built by Sony for maximum reliability and compatibility with your PS4 system.</span></h6>",
+            "<h6><span>DIRECT WALL POWER</span><span class='detail-specs-h6'>- Plugs into a wall outlet via the included AC adapter, freeing up USB ports.</span></h6>",
+            "<h6><span>PRECISE FIT</span><span class='detail-specs-h6'>- Controllers slot securely into charging pins for consistent charging every time.</span></h6>"
+        ],
+        tags: [
+            "dualshock4", "ps4", "charging-station", "controller-accessory", "sony", "charging-dock", "gaming-accessory", "black"
+        ],
+        carousels: ["chargers", "accessories"],
+        storage: "",
+        dropURL: "https://www.digitalstore.co.ke/products/sony-playstation-dual-shock-4-charging-station-cuh-zdc1",
+        youtubeReview: "https://www.youtube.com/embed/8X9PZxfH_Rs?si=cyjL7Xka3NwEdM1z",
+        unboxingVideo: "https://www.youtube.com/embed/SD2zrQ4NO20?si=hVWB-DPC5lSHVAJM",
+        prevPrice: 8500,
+        nowPrice: 5999,
+        stock: 15,
+        condition: "New",
+        rating: 4.6,
+        freeShipping: true
+    },
+    {
+        productID: 153,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746547674/ps4-playstation-camera_vi1aub.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746547674/ps4-playstation-camera_vi1aub.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746547677/ps4-playstation-camera-2_k8j5jq.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746547677/ps4-playstation-camera-3_lvucat.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PlayStation 4 Camera - incredible PS VR experiences",
+        SubTitle: "PlayStation Camera",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps4",
+        brand: "sony",
+        name: "ps4-playstation-camera",
+        description: "Unlock incredible PS VR experiences and enhance your PlayStation 4 gameplay with the PlayStation Camera, enabling facial recognition, voice commands, live broadcasting, and accurate motion tracking.",
+        detailsDescription: "The PlayStation Camera brings your gaming to life with immersive features designed for PlayStation 4 and PlayStation VR. Use facial recognition for instant, hands-free login, give voice commands to navigate your console, and track your movements for a more interactive experience. The camera’s built-in mic and adaptable stand make streaming seamless and setup easy, while precise tracking ensures smooth integration with VR titles and supported games. It’s the essential companion for sharing your gameplay and stepping into new gaming worlds.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black</span></h6>",
+            "<h6><span>Compatibility</span><span>PS4, PlayStation VR</span></h6>",
+            "<h6><span>Features</span><span>Facial Recognition, Voice Commands</span></h6>",
+            "<h6><span>Streaming</span><span>Live Broadcast Support</span></h6>",
+            "<h6><span>Tracking</span><span>Accurate Head and Gesture Tracking</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FACIAL RECOGNITION</span><span class='detail-specs-h6'>- Instantly log in hands-free using face detection on your PS4 system.</span></h6>",
+            "<h6><span>VOICE COMMANDS</span><span class='detail-specs-h6'>- Control your PS4, launch games, and more with simple voice input.</span></h6>",
+            "<h6><span>LIVE STREAMING</span><span class='detail-specs-h6'>- Broadcast yourself and your gameplay with the camera's built-in microphone and dual lenses.</span></h6>",
+            "<h6><span>PLAYSTATION VR SUPPORT</span><span class='detail-specs-h6'>- Essential for tracking motion and enhancing immersion in PS VR games.</span></h6>",
+            "<h6><span>ADJUSTABLE STAND</span><span class='detail-specs-h6'>- Includes a flexible stand for easy setup and optimized camera angle placement.</span></h6>"
+        ],
+        tags: [
+            "playstation-camera", "ps4", "vr", "streaming", "sony", "facial-recognition", "voice-command", "black", "gaming-accessory"
+        ],
+        carousels: ["accessories"],
+        storage: "",
+        dropURL: "https://grandhub.co.ke/product/sony-playstation-4-camera/",
+        youtubeReview: "https://www.youtube.com/embed/Shto2o7PFd4?si=oNcffxN6W0IFUdN_",
+        unboxingVideo: "https://www.youtube.com/embed/WXzjy1dWXEE?si=5zcVke659-RxNEYH",
+        prevPrice: 7500,
+        nowPrice: 6700,
+        stock: 10,
+        condition: "New",
+        rating: 4.5,
+        freeShipping: true
+    },
+    {
+        productID: 154,
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741713917/ps4_xsmhzv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746549596/ps4-dobe-charging-dock_gd3yyi.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746549596/ps4-dobe-charging-dock_gd3yyi.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746549722/ps4-dobe-charging-dock-2_balsgm.png",
+                color: "black"
+            }
+        ],
+        defaultColor: "black",
+        Title: "Dobe Dual Charging Dock for PS4 Controllers",
+        SubTitle: "Dobe Dual Charging",
+        category: "playstation",
+        subCategory: ["charging", "accessories"],
+        variant: "ps4",
+        brand: "dobe",
+        name: "ps4-dobe-charging-dock",
+        description: "The Dobe Dual Charging Dock charges two PS4 controllers simultaneously in just 2 hours, with built-in safety features and LED indicators that show charging status in real time.",
+        detailsDescription: "Compatible with PS4, PS4 Slim, and PS4 Pro controllers, the Dobe Dual Charging Dock is a compact and reliable station that charges two controllers in just 2 hours. The intelligent protection chip prevents overcharging, overheating, and short-circuiting, while LED indicators let you know charging status at a glance. It doubles as a stand to safely store your controllers when not in use, and powers via USB from a console, PC, or wall adapter. It also includes 4 anti-slip mats for added stability and convenience.",
+        topSpecs: [
+            "<h6><span>Color</span><span>Black</span></h6>",
+            "<h6><span>Charging Time</span><span>2 Hours</span></h6>",
+            "<h6><span>Compatibility</span><span>PS4 / Slim / Pro</span></h6>",
+            "<h6><span>LED Indicators</span><span>Red (Charging), Green (Full)</span></h6>",
+            "<h6><span>Power Input</span><span>USB (5V)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FAST DUAL CHARGING</span><span class='detail-specs-h6'>- Charge two PS4 controllers fully within 2 hours to keep the game going.</span></h6>",
+            "<h6><span>LED INDICATOR LIGHTS</span><span class='detail-specs-h6'>- Shows red while charging and green when fully charged, keeping you informed in real time.</span></h6>",
+            "<h6><span>INTELLIGENT PROTECTION</span><span class='detail-specs-h6'>- Built-in chip protects from overcharge, overheat, and short circuit, even during overnight charging.</span></h6>",
+            "<h6><span>UNIVERSAL USB POWER</span><span class='detail-specs-h6'>- Can be powered from PS4 console, PC USB, or wall adapter (not included).</span></h6>",
+            "<h6><span>SAFE STORAGE STAND</span><span class='detail-specs-h6'>- Functions as a secure resting place for controllers with non-slip mats at the base.</span></h6>"
+        ],
+        tags: [
+            "dobe", "charging-dock", "ps4", "controller-accessory", "dual-charging", "fast-charge", "black", "led-indicator", "gaming-stand"
+        ],
+        carousels: ["charging", "accessories"],
+        storage: "",
+        dropURL: "https://mtunda.com/products/dobe-dual-charging-dock-for-ps4-wireless-controller?variant=44888410358058&country=KE&currency=KES&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=21760311026&gbraid=0AAAAA91au_ICFtifuaIKg5DBvKd7ZkPlQ&gclid=Cj0KCQjw5ubABhDIARIsAHMighb5T52hEBeCHxlFjbqARvz7HJdxU5izkSFJTvQbZWIQ6O6Yv_nKJKQaAn78EALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/CErE8FnEvJc?si=oHPI6XjM-8UgEPGd",
+        unboxingVideo: "https://www.youtube.com/embed/xlz4jmnUB2c?si=qZj84ibjUVFrvrER",
+        prevPrice: 3500,
+        nowPrice: 1999,
+        stock: 15,
+        condition: "New",
+        rating: 4.4,
+        freeShipping: true
+    },        
+    
 
 ]

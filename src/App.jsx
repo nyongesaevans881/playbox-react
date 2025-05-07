@@ -29,7 +29,7 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <Toaster position="top-right" />
+        <Toaster position="top-right" containerClassName='z-99999999'/>
         <ScrollButtons />
 
         <Routes>

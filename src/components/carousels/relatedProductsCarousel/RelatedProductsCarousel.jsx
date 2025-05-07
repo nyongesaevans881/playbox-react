@@ -11,7 +11,7 @@ import ProductPopup from '../../productsPopup/ProductsPopup';
 import toast from 'react-hot-toast';
 
 
-const RelatedProductsCarousel = ({ category, subCategory }) => {
+const RelatedProductsCarousel = ({ category, subCategory, variant }) => {
     const arrowRef = useRef(null);
     const dispatch = useDispatch();
     const [showPopup, setShowPopup] = useState(false);
@@ -36,29 +36,51 @@ const RelatedProductsCarousel = ({ category, subCategory }) => {
     };
 
 
-    // 1. Start with subCategory matches
-    let relatedProducts = allProducts.filter(product => product.subCategory === subCategory).sort(() => 0.5 - Math.random());
+    // 1. Start with variant matches
+    let relatedProducts = allProducts.filter(
+        product => product.variant === variant && product.subCategory?.includes(subCategory) && product.category === category
+    ).sort(() => 0.5 - Math.random());
 
-    // 2. If less than 5, supplement with category matches
+    console.log('variant', variant);
+    console.log('relatedProducts', relatedProducts);
+
+    // 2. If fewer than 5, add subCategory matches (excluding already included)
     if (relatedProducts.length < MIN_SUBCATEGORY_MATCHES) {
-        const alreadyIncludedIds = new Set(relatedProducts.map(p => p.productID));
+        const includedIDs = new Set(relatedProducts.map(p => p.productID));
+        const subCategoryMatches = allProducts.filter(
+            product =>
+                product.subCategory?.includes(subCategory) && product.category === category &&
+                !includedIDs.has(product.productID)
+        ).sort(() => 0.5 - Math.random());
+
+        relatedProducts = [...relatedProducts, ...subCategoryMatches];
+    }
+
+    // 3. If still not enough, add category matches (excluding already included)
+    if (relatedProducts.length < MIN_SUBCATEGORY_MATCHES) {
+        const includedIDs = new Set(relatedProducts.map(p => p.productID));
         const categoryMatches = allProducts.filter(
-            product => product.category === category && !alreadyIncludedIds.has(product.productID)
-        );
+            product =>
+                product.category === category &&
+                !includedIDs.has(product.productID)
+        ).sort(() => 0.5 - Math.random());
 
         relatedProducts = [...relatedProducts, ...categoryMatches];
     }
 
-    // 3. If still not enough, fill with random products
+    // 4. If still not enough, fill with random products (excluding already included)
     if (relatedProducts.length < MIN_SUBCATEGORY_MATCHES) {
-        const alreadyIncludedIds = new Set(relatedProducts.map(p => p.productID));
-        const remaining = allProducts.filter(p => !alreadyIncludedIds.has(p.productID));
+        const includedIDs = new Set(relatedProducts.map(p => p.productID));
+        const remaining = allProducts.filter(
+            product => !includedIDs.has(product.productID)
+        ).sort(() => 0.5 - Math.random());
 
-        const shuffled = remaining.sort(() => 0.5 - Math.random());
-        relatedProducts = [...relatedProducts, ...shuffled].slice(0, MAX_PRODUCTS);
-    } else {
-        relatedProducts = relatedProducts.slice(0, MAX_PRODUCTS);
+        relatedProducts = [...relatedProducts, ...remaining];
     }
+
+    // 5. Finally, trim to MAX_PRODUCTS
+    relatedProducts = relatedProducts.slice(0, MAX_PRODUCTS);
+
 
     // Handle Add to Cart click
     const handleAddToCart = (id) => {
@@ -155,7 +177,7 @@ const RelatedProductsCarousel = ({ category, subCategory }) => {
                                             <i className="fa fa-eye"></i>
                                         </button>
                                         <a
-                                            href={`/products/${product.category}/${product.subCategory}/${product.variant}/${product.name}`}
+                                            href={`/products/${product.category}/${product.subCategory[0]}/${product.variant}/${product.name}`}
                                             className="outlined-seller-card-button font-bold text-xl cursor-pointer text-gray-600"
                                         >
                                             <i className="fa fa-external-link"></i> Specs

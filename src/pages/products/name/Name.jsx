@@ -172,7 +172,7 @@ const Name = ({ params }) => {
       </div>
       <section className="product-details-related-products-carousel">
         <div className="product-details-related-products-carousel-wrapper container">
-          <RelatedProductsCarousel category={product.category} subCategory={product.subCategory} />
+          <RelatedProductsCarousel category={product.category} subCategory={product.subCategory[0]} variant={product.variant} />
         </div>
       </section>
     </>

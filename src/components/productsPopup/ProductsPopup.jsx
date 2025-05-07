@@ -66,7 +66,7 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
 
 
   return (
-    <div className="popup-overlay z-99999">
+    <div className="popup-overlay z-999">
       <div className="popup-container">
         <button className="popup-close mr-4" onClick={onClose}>
           <i className="fa fa-close"></i>
@@ -114,7 +114,7 @@ const ProductPopup = ({ productId, productCategory, onClose }) => {
 
 
             <div className="product-popup-action-buttons">
-              <a href={`/products/${product.category}/${product.subCategory}/${product.variant}/${product.name}`}>
+              <a href={`/products/${product.category}/${product.subCategory[0]}/${product.variant}/${product.name}`}>
                 <button className="moreInfo">
                   More Info <i className="fa fa-external-link"></i>
                 </button>
