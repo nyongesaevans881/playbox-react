@@ -7,7 +7,7 @@ import { furniture } from "../constants/6-furniture/furniture.js";
 import { audio } from "../constants/7-audio/audio.js";
 import { xbox } from "../constants/1-consoles/xbox.js";
 import { playstation } from "../constants/1-consoles/playstation.js";
-import { handheld } from "../constants/1-consoles/handheld.js";
+import { handhelds } from "../constants/1-consoles/handhelds.js"
 import { pc } from "../constants/8-pc/pc.js";
 
 
@@ -20,7 +20,7 @@ const initialState = {
   audio,
   xbox,
   playstation,
-  handheld,
+  handhelds,
   pc
 };
 

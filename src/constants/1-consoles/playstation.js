@@ -833,14 +833,14 @@ export const playstation = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635900/ps5-playstation-dualsense-edge-wireless-controller_fqghox.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746708100/ps5-playstation-dualsense-edge-wireless-controller_lmsrix.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746635900/ps5-playstation-dualsense-edge-wireless-controller_fqghox.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746708100/ps5-playstation-dualsense-edge-wireless-controller_lmsrix.png",
                 color: "white",
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741456130/PS5-DualSense-Edge_2_ztym6b.jpg",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746708099/ps5-playstation-dualsense-edge-wireless-controller-2_cpfnwc.png",
                 color: "white",
             },
             {
@@ -1077,7 +1077,6 @@ export const playstation = [
             "<h6><span>NAUGHTY DOG COLLABORATION</span><span class='detail-specs-h6'>- Designed with creative input from The Last of Us game developers, making it an authentic collectible.</span></h6>",
             "<h6><span>FULL DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Includes adaptive triggers, haptic feedback, a built-in mic, and motion sensor for immersive gameplay.</span></h6>",
             "<h6><span>WIRELESS PLAY</span><span class='detail-specs-h6'>- Connects via Bluetooth to the PS5 for seamless gaming without cables.</span></h6>",
-            "<h6><span>LIMITED RUN AVAILABILITY</span><span class='detail-specs-h6'>- Pre-order available now at Koanile Electronics with regional launch dates starting April 10, 2025.</span></h6>"
         ],
         tags: [
             "ps5", "controller", "dualsense", "the-last-of-us", "limited-edition", "naughty-dog", "sony", "collectors", "haptic-feedback", "adaptive-triggers"
@@ -1290,7 +1289,7 @@ export const playstation = [
         stock: 5,
         condition: "New",
         rating: 4.5,
-        freeShipping: false
+        freeShipping: true
     },
  
     {
@@ -1576,6 +1575,63 @@ export const playstation = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PlayStation 5 Portal - Midnight Black, High-Resolution Display, Low Latency",
+        SubTitle: "ps 5 Portal",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "playstation-5-portal-midnight-black",
+        description: "The PlayStation 5 Portal is a portable gaming accessory designed to bring the power of PS5 gaming to a handheld screen. With seamless connectivity, high-resolution visuals, and low-latency performance, it ensures a smooth gaming experience on the go.",
+        detailsDescription: "Enhance your gaming setup with the PlayStation 5 Portal, a portable screen dedicated to PS5 gaming. It allows you to take your PS5 experience anywhere without sacrificing power, performance, or visual clarity.",
+        topSpecs: [
+            "<h6><span>Portable Gaming</span><span>Handheld screen for PS5 gaming on the go</span></h6>",
+            "<h6><span>High-Resolution Display</span><span>Crystal-clear visuals for an immersive experience</span></h6>",
+            "<h6><span>Connectivity</span><span>Seamless connection with PlayStation 5</span></h6>",
+            "<h6><span>Low Latency</span><span>Smooth, responsive gameplay with minimal lag</span></h6>",
+            "<h6><span>Ergonomic Design</span><span>Comfortable grip for long gaming sessions</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SCREEN</span><span class='detail-specs-h6'>- High-resolution display for detailed visuals</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wireless connection to PS5 console</span></h6>",
+            "<h6><span>LOW LATENCY</span><span class='detail-specs-h6'>- Optimized for smooth, real-time gameplay</span></h6>",
+            "<h6><span>ERGONOMICS</span><span class='detail-specs-h6'>- Designed for comfortable handheld gaming</span></h6>",
+            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'>- Works exclusively with PlayStation 5</span></h6>"
+        ],
+        tags: [
+            "playstation-5",
+            "ps5-portal",
+            "portable-gaming",
+            "handheld-gaming",
+            "sony-playstation",
+            "gaming-accessories"
+        ],
+        carousels: ["ps5Accessories", "latestArrivals"],
+        dropURL: "https://fortresselectronics.co.ke/product/playstation-5-portal/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/eTjDKxw07NI?si=ubgHepzTUSOuTsBn",
+        unboxingVideo: "https://www.youtube.com/embed/xJnoFAr7QKI?si=WibXos9ZmXBCLFYs",
+        prevPrice: 38000,
+        nowPrice: 39999,
+        stock: 1,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 103,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741807616/charging-dock-2_yn6ajm.png",
         imageColorMap: [
             {
@@ -1629,63 +1685,6 @@ export const playstation = [
         freeShipping: true,
         condition: "New",
         rating: 4.7
-    },
-    {
-        productID: 103,
-        platform: "PlayStation",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
-                color: "white"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
-                color: "white"
-            },
-        ],
-        defaultColor: "white",
-        Title: "Sony PlayStation 5 Media Remote",
-        SubTitle: "Multimedia Control",
-        category: "playstation",
-        subCategory: ["accessories"],
-        variant: "ps5",
-        brand: "sony",
-        name: "ps5-media-remote",
-        description: "Easily control your PS5 entertainment experience with the intuitive Sony PlayStation 5 Media Remote.",
-        detailsDescription: "Navigate your PlayStation 5 entertainment apps and media with ease using the Sony PS5 Media Remote. Designed to perfectly match the PS5 aesthetic, this remote offers intuitive controls for seamless streaming and media playback. With built-in play, pause, fast-forward, and reverse buttons, along with dedicated app buttons for Disney+, Netflix, Spotify, and YouTube, you can jump straight into your favorite content. Control your compatible TV’s power and volume via the built-in IR transmitter, and enjoy simplified control using Bluetooth and HDMI ARC functionality. Whether you're streaming or managing settings, the PS5 Media Remote delivers a clean, clutter-free experience.",
-        topSpecs: [
-            "<h6><span>Dedicated App Buttons</span><span>Disney+, Netflix, Spotify, YouTube</span></h6>",
-            "<h6><span>Playback Control</span><span>Play/Pause, Fast Forward, Reverse</span></h6>",
-            "<h6><span>Connectivity</span><span>Bluetooth, IR</span></h6>",
-            "<h6><span>TV Control</span><span>Power & Volume via IR/HDMI ARC</span></h6>",
-            "<h6><span>PS5 Compatibility</span><span>Full media interface control</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>ENTERTAINMENT CONTROL</span><span class='detail-specs-h6'>- Easily browse PS5 media apps using intuitive buttons for streaming and volume adjustment.</span></h6>",
-            "<h6><span>DEDICATED SHORTCUT BUTTONS</span><span class='detail-specs-h6'>- Instant access to Disney+, Netflix, Spotify, and YouTube with a single press.</span></h6>",
-            "<h6><span>CONSOLE NAVIGATION</span><span class='detail-specs-h6'>- Power on your PS5 and browse menus without a controller.</span></h6>",
-            "<h6><span>TV INTEGRATION</span><span class='detail-specs-h6'>- Adjust volume and power settings on compatible TVs using IR transmitter or HDMI ARC.</span></h6>",
-            "<h6><span>ERGONOMIC DESIGN</span><span class='detail-specs-h6'>- Simple, sleek design that matches your console’s look.</span></h6>"
-        ],
-        tags: [
-            "ps5", "media-remote", "playstation-accessory", "tv-control", "disney+", "netflix", "spotify", "youtube", "hdmi-arc", "ir", "bluetooth", "sony", "ps5-entertainment", "ps5-navigation", "remote"
-        ],
-        carousels: ["ps5Accessories"],
-        storage: "",
-        dropURL: "https://fortresselectronics.co.ke/product/sony-playstation-5-media-remote/",
-        youtubeReview: "https://www.youtube.com/embed/Q8RgH903-7Q?si=g7YW1qmC4hQREAW_",
-        unboxingVideo: "https://www.youtube.com/embed/0vo0iEmThCQ?si=S6-tprJbt7zHCK6N",
-        prevPrice: 7000,
-        nowPrice: 5500,
-        stock: 10,
-        condition: "New",
-        rating: 4.6,
-        freeShipping: true
     },
     {
         productID: 104,
@@ -1742,7 +1741,7 @@ export const playstation = [
             "headphones"
         ],
         carousels: [
-            "headphones", "latestArrivals"
+            "headphones", "latestArrivals", "ps5Accessories"
         ],
         storage: "",
         dropURL: "https://fortresselectronics.co.ke/product/ps5-pulse-3d-wireless-headset/",
@@ -1756,63 +1755,6 @@ export const playstation = [
     },
     {
         productID: 105,
-        platform: "PlayStation",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741806446/portal-3_eprs2n.png",
-                color: "black"
-            },
-        ],
-        defaultColor: "black",
-        Title: "PlayStation 5 Portal - Midnight Black, High-Resolution Display, Low Latency",
-        SubTitle: "ps 5 Portal",
-        category: "playstation",
-        subCategory: ["accessories"],
-        variant: "ps5",
-        brand: "sony",
-        name: "playstation-5-portal-midnight-black",
-        description: "The PlayStation 5 Portal is a portable gaming accessory designed to bring the power of PS5 gaming to a handheld screen. With seamless connectivity, high-resolution visuals, and low-latency performance, it ensures a smooth gaming experience on the go.",
-        detailsDescription: "Enhance your gaming setup with the PlayStation 5 Portal, a portable screen dedicated to PS5 gaming. It allows you to take your PS5 experience anywhere without sacrificing power, performance, or visual clarity.",
-        topSpecs: [
-            "<h6><span>Portable Gaming</span><span>Handheld screen for PS5 gaming on the go</span></h6>",
-            "<h6><span>High-Resolution Display</span><span>Crystal-clear visuals for an immersive experience</span></h6>",
-            "<h6><span>Connectivity</span><span>Seamless connection with PlayStation 5</span></h6>",
-            "<h6><span>Low Latency</span><span>Smooth, responsive gameplay with minimal lag</span></h6>",
-            "<h6><span>Ergonomic Design</span><span>Comfortable grip for long gaming sessions</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>SCREEN</span><span class='detail-specs-h6'>- High-resolution display for detailed visuals</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wireless connection to PS5 console</span></h6>",
-            "<h6><span>LOW LATENCY</span><span class='detail-specs-h6'>- Optimized for smooth, real-time gameplay</span></h6>",
-            "<h6><span>ERGONOMICS</span><span class='detail-specs-h6'>- Designed for comfortable handheld gaming</span></h6>",
-            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'>- Works exclusively with PlayStation 5</span></h6>"
-        ],
-        tags: [
-            "playstation-5",
-            "ps5-portal",
-            "portable-gaming",
-            "handheld-gaming",
-            "sony-playstation",
-            "gaming-accessories"
-        ],
-        carousels: ["ps5Accessories", "latestArrivals"],
-        dropURL: "https://fortresselectronics.co.ke/product/playstation-5-portal/?gad_source=1",
-        youtubeReview: "https://www.youtube.com/embed/eTjDKxw07NI?si=ubgHepzTUSOuTsBn",
-        unboxingVideo: "https://www.youtube.com/embed/xJnoFAr7QKI?si=WibXos9ZmXBCLFYs",
-        prevPrice: 38000,
-        nowPrice: 39999,
-        stock: 1,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.8
-    },
-    {
-        productID: 106,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
@@ -1864,7 +1806,7 @@ export const playstation = [
         tags: [
             "dobe", "ps5", "dual-charging", "controller-dock", "dualsense", "charging-station", "accessory", "click-in-design", "fast-charge"
         ],
-        carousels: ["accessories"],
+        carousels: ["ps5Accessories"],
         storage: "",
         dropURL: "https://koanile.co.ke/product/ps5-dual-charging-dock/?gad_source=1&gad_campaignid=22025171983&gbraid=0AAAAAqKksboyeCrZrvLZytCHL8xhPwW82&gclid=Cj0KCQjw5ubABhDIARIsAHMighYc78c2-3WmFHiWfb6nMxcK2QryourQlUPZddvyMWPYi-eB6K717Q0aAh1QEALw_wcB",
         youtubeReview: "https://www.youtube.com/embed/O1A4bSR9hCc?si=Un8wppAVTDiyr7Yu",
@@ -1877,7 +1819,7 @@ export const playstation = [
         freeShipping: true
     },
     {
-        productID: 107,
+        productID: 106,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
@@ -1925,7 +1867,7 @@ export const playstation = [
         tags: [
             "sony", "ps5", "charging-station", "dualsense", "official", "white", "click-in", "fast-charging", "usb-free", "accessory"
         ],
-        carousels: ["accessories"],
+        carousels: ["ps5Accessories"],
         storage: "",
         dropURL: "https://cellularkenya.co.ke/product/ps5-dualsense-charging-station/?gad_source=1",
         youtubeReview: "https://www.youtube.com/embed/YfbrzsK7Vto?si=pKA_C85TKV78uZQ4",
@@ -1938,7 +1880,7 @@ export const playstation = [
         freeShipping: true
     },    
     {
-        productID: 108,
+        productID: 107,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
@@ -1982,7 +1924,7 @@ export const playstation = [
         tags: [
             "ps5", "stand", "vertical-stand", "ps5-slim", "ps5-pro", "sony", "accessory", "black", "space-saving", "upright"
         ],
-        carousels: ["stands", "accessories"],
+        carousels: ["ps5Accessories"],
         storage: "",
         dropURL: "https://koanile.co.ke/product/ps5-vertical-stand-price-in-kenya/",
         youtubeReview: "https://www.youtube.com/embed/X3QeI2X6FVI?si=-GWQgbs-0p4XGBAm",
@@ -1995,7 +1937,7 @@ export const playstation = [
         freeShipping: true
     },
     {
-        productID: 109,
+        productID: 108,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
@@ -2043,7 +1985,7 @@ export const playstation = [
         tags: [
             "ps5", "charging-cable", "usb-c", "controller-cable", "data-transfer", "gaming-accessory", "fast-charging", "black", "third-party", "type-c-cable"
         ],
-        carousels: ["cables", "accessories"],
+        carousels: ["ps5Accessories"],
         storage: "",
         dropURL: "https://koanile.co.ke/product/ps5-controller-usb-c-charging-cable/",
         youtubeReview: "https://www.youtube.com/embed/_gjcm2YMkCQ?si=KM1_deD1_3OIBoPh",
@@ -2056,7 +1998,7 @@ export const playstation = [
         freeShipping: true
     },
     {
-        productID: 110,
+        productID: 109,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
@@ -2100,7 +2042,7 @@ export const playstation = [
         tags: [
             "ps5", "hd-camera", "sony", "streaming", "livestream", "dual-lens", "1080p", "accessory", "broadcast", "playstation-camera"
         ],
-        carousels: ["cameras", "accessories"],
+        carousels: ["ps5Accessories"],
         storage: "",
         dropURL: "https://cellularkenya.co.ke/product/sony-hd-camera-for-playstation-5-2/?gad_source=1",
         youtubeReview: "https://www.youtube.com/embed/sdaqIWy-qBY?si=Imo5_nu-G9t76JEv",
@@ -2112,6 +2054,607 @@ export const playstation = [
         rating: 4.8,
         freeShipping: true
     },
+    {
+        productID: 110,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746478953/ps5-media-remote_jwr15g.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Sony PlayStation 5 Media Remote",
+        SubTitle: "Multimedia Control",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-media-remote",
+        description: "Easily control your PS5 entertainment experience with the intuitive Sony PlayStation 5 Media Remote.",
+        detailsDescription: "Navigate your PlayStation 5 entertainment apps and media with ease using the Sony PS5 Media Remote. Designed to perfectly match the PS5 aesthetic, this remote offers intuitive controls for seamless streaming and media playback. With built-in play, pause, fast-forward, and reverse buttons, along with dedicated app buttons for Disney+, Netflix, Spotify, and YouTube, you can jump straight into your favorite content. Control your compatible TV’s power and volume via the built-in IR transmitter, and enjoy simplified control using Bluetooth and HDMI ARC functionality. Whether you're streaming or managing settings, the PS5 Media Remote delivers a clean, clutter-free experience.",
+        topSpecs: [
+            "<h6><span>Dedicated App Buttons</span><span>Disney+, Netflix, Spotify, YouTube</span></h6>",
+            "<h6><span>Playback Control</span><span>Play/Pause, Fast Forward, Reverse</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth, IR</span></h6>",
+            "<h6><span>TV Control</span><span>Power & Volume via IR/HDMI ARC</span></h6>",
+            "<h6><span>PS5 Compatibility</span><span>Full media interface control</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENTERTAINMENT CONTROL</span><span class='detail-specs-h6'>- Easily browse PS5 media apps using intuitive buttons for streaming and volume adjustment.</span></h6>",
+            "<h6><span>DEDICATED SHORTCUT BUTTONS</span><span class='detail-specs-h6'>- Instant access to Disney+, Netflix, Spotify, and YouTube with a single press.</span></h6>",
+            "<h6><span>CONSOLE NAVIGATION</span><span class='detail-specs-h6'>- Power on your PS5 and browse menus without a controller.</span></h6>",
+            "<h6><span>TV INTEGRATION</span><span class='detail-specs-h6'>- Adjust volume and power settings on compatible TVs using IR transmitter or HDMI ARC.</span></h6>",
+            "<h6><span>ERGONOMIC DESIGN</span><span class='detail-specs-h6'>- Simple, sleek design that matches your console’s look.</span></h6>"
+        ],
+        tags: [
+            "ps5", "media-remote", "playstation-accessory", "tv-control", "disney+", "netflix", "spotify", "youtube", "hdmi-arc", "ir", "bluetooth", "sony", "ps5-entertainment", "ps5-navigation", "remote"
+        ],
+        carousels: [""],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/sony-playstation-5-media-remote/",
+        youtubeReview: "https://www.youtube.com/embed/Q8RgH903-7Q?si=g7YW1qmC4hQREAW_",
+        unboxingVideo: "https://www.youtube.com/embed/0vo0iEmThCQ?si=S6-tprJbt7zHCK6N",
+        prevPrice: 7000,
+        nowPrice: 5500,
+        stock: 10,
+        condition: "New",
+        rating: 4.6,
+        freeShipping: true
+    },
+    {
+        productID: 111,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647488/ps5-wd-black-1tb-sn850p-nvme-m2-ssd_v8goxx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647488/ps5-wd-black-1tb-sn850p-nvme-m2-ssd_v8goxx.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647489/ps5-wd-black-1tb-sn850p-nvme-m2-ssd-2_zra0sz.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647490/ps5-wd-black-1tb-sn850p-nvme-m2-ssd-3_sotlrf.jpg",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "WD_BLACK 1TB SN850P NVMe M.2 SSD for PS5 – With Heatsink",
+        SubTitle: "1TB SSD",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "wd_black",
+        name: "ps5-wd-black-1tb-sn850p-nvme-m2-ssd",
+        description: "Upgrade your PS5 storage with the WD_BLACK 1TB SN850P NVMe M.2 SSD, officially licensed and optimized for performance with a built-in heatsink for cool, uninterrupted gaming.",
+        detailsDescription: "The WD_BLACK 1TB SN850P NVMe M.2 SSD with Heatsink is officially licensed for PlayStation 5, offering seamless compatibility, lightning-fast speeds of up to 7,300 MB/s, and reliable thermal control with an integrated heatsink. Perfect for gamers seeking to expand their storage without sacrificing performance, this SSD allows you to install, launch, and play games directly—just like with the console’s internal drive.",
+        topSpecs: [
+            "<h6><span>Capacity</span><span>1TB NVMe M.2</span></h6>",
+            "<h6><span>Speed</span><span>Up to 7,300 MB/s</span></h6>",
+            "<h6><span>Compatibility</span><span>Officially Licensed for PS5</span></h6>",
+            "<h6><span>Cooling</span><span>Integrated Heatsink</span></h6>",
+            "<h6><span>Installation</span><span>Easy Install in M.2 Slot</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OFFICIALLY LICENSED</span><span class='detail-specs-h6'>- Built to meet PlayStation 5’s performance and compatibility requirements.</span></h6>",
+            "<h6><span>HIGH-SPEED PERFORMANCE</span><span class='detail-specs-h6'>- Read speeds up to 7,300 MB/s for fast game loads and transfers.</span></h6>",
+            "<h6><span>INTEGRATED HEATSINK</span><span class='detail-specs-h6'>- Keeps your SSD cool during intense and extended gaming sessions.</span></h6>",
+            "<h6><span>EXPANDED STORAGE</span><span class='detail-specs-h6'>- Store and launch PS5 games directly from the SSD.</span></h6>",
+            "<h6><span>EASY INSTALLATION</span><span class='detail-specs-h6'>- Quick setup in your PS5’s M.2 expansion bay.</span></h6>"
+        ],
+        tags: [
+            "ps5", "ssd", "nvme", "m2", "heatsink", "storage", "wd_black", "official", "expansion", "kenya"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "1TB",
+        dropURL: "https://koanile.co.ke/product/ps5-1tb-ssd-with-heatsink-wd_black-1tb-sn850p-nvme-m-2-officially-licensed/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 24000,
+        nowPrice: 21499,
+        stock: 5,
+        condition: "New",
+        rating: 5,
+        freeShipping: true
+    },
+    {
+        productID: 112,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746648175/ps5-wd-black-2tb-sn850p-nvme-m2-ssd_np6zdu.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746648175/ps5-wd-black-2tb-sn850p-nvme-m2-ssd_np6zdu.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647489/ps5-wd-black-1tb-sn850p-nvme-m2-ssd-2_zra0sz.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647490/ps5-wd-black-1tb-sn850p-nvme-m2-ssd-3_sotlrf.jpg",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "WD_BLACK 2TB SN850P NVMe M.2 SSD for PS5 – With Heatsink",
+        SubTitle: "2TB SSD",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "wd_black",
+        name: "ps5-wd-black-2tb-sn850p-nvme-m2-ssd",
+        description: "Double your PS5 storage with the officially licensed WD_BLACK 2TB SN850P NVMe M.2 SSD, built for performance with a custom heatsink and up to 7,300MB/s read speeds.",
+        detailsDescription: "The WD_BLACK 2TB SN850P NVMe SSD with Heatsink is officially licensed for PlayStation 5 and delivers next-gen speeds with Gen4 PCIe performance. With up to 7,300 MB/s read and 6,600 MB/s write speeds, a specially designed heatsink for thermal control, and seamless integration with the PS5 M.2 expansion slot, this drive ensures smooth, uninterrupted gameplay with massive space for dozens of titles.",
+        topSpecs: [
+            "<h6><span>Capacity</span><span>2TB NVMe M.2</span></h6>",
+            "<h6><span>Speed</span><span>Up to 7,300 MB/s read, 6,600 MB/s write</span></h6>",
+            "<h6><span>Compatibility</span><span>Officially Licensed for PS5</span></h6>",
+            "<h6><span>Cooling</span><span>Optimized Heatsink with PlayStation Logo</span></h6>",
+            "<h6><span>Form Factor</span><span>M.2 2280 PCIe Gen4</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STORAGE EXPANSION</span><span class='detail-specs-h6'>- Store and play more titles with up to 2TB of space.</span></h6>",
+            "<h6><span>FAST PERFORMANCE</span><span class='detail-specs-h6'>- PCIe Gen4 NVMe speeds of up to 7,300MB/s read and 6,600MB/s write.</span></h6>",
+            "<h6><span>PS5 OPTIMIZED DESIGN</span><span class='detail-specs-h6'>- Custom heatsink for the PS5’s M.2 bay with PlayStation branding.</span></h6>",
+            "<h6><span>RELIABILITY</span><span class='detail-specs-h6'>- 5-Year Limited Warranty with 1200 TBW endurance.</span></h6>",
+            "<h6><span>GAMING READY</span><span class='detail-specs-h6'>- Play directly from the SSD, no need to transfer games.</span></h6>"
+        ],
+        tags: [
+            "ps5", "ssd", "2tb", "nvme", "m2", "heatsink", "wd_black", "storage", "expansion", "gaming"
+        ],
+       carousels: ["ps5Accessories"],
+        storage: "2TB",
+        dropURL: "https://koanile.co.ke/product/ps5-wd_black-sn850p-nvme-ssd-for-ps5-consoles-2-tb/",
+        youtubeReview: "https://www.youtube.com/embed/3EdKNRkfi-I?si=1TKXuODVSxdBoozh",
+        unboxingVideo: "https://www.youtube.com/embed/lrQ2MvykrRo?si=SPIsQedWfxdkjbEo",
+        prevPrice: 40000,
+        nowPrice: 31000,
+        stock: 5,
+        condition: "New",
+        rating: 5,
+        freeShipping: true
+    },
+    {
+        productID: 112,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746649941/ps5-wd-black-4tb-sn850p-nvme-m2-ssd_zpodjh.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746649941/ps5-wd-black-4tb-sn850p-nvme-m2-ssd_zpodjh.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647489/ps5-wd-black-1tb-sn850p-nvme-m2-ssd-2_zra0sz.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746647490/ps5-wd-black-1tb-sn850p-nvme-m2-ssd-3_sotlrf.jpg",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "WD_BLACK 4TB SN850P NVMe M.2 SSD for PS5 – With Heatsink",
+        SubTitle: "4TB SSD",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "wd_black",
+        name: "ps5-wd-black-4tb-sn850p-nvme-m2-ssd",
+        description: "Upgrade your PS5 storage with the officially licensed WD_BLACK 4TB SN850P NVMe SSD, delivering blazing-fast speeds up to 7,300MB/s and a custom heatsink for maximum performance.",
+        detailsDescription: "The WD_BLACK 4TB SN850P NVMe SSD is Sony-licensed for the PS5 and includes a specialized heatsink that fits the console's M.2 slot perfectly. With a massive 4TB capacity and Gen4 PCIe performance up to 7,300MB/s, this SSD offers seamless storage expansion and allows you to play directly from the drive without transferring games. It’s ideal for avid gamers looking to store over 100 titles and experience ultra-fast loading times.",
+        topSpecs: [
+            "<h6><span>Capacity</span><span>4TB NVMe M.2</span></h6>",
+            "<h6><span>Speed</span><span>Up to 7,300 MB/s read</span></h6>",
+            "<h6><span>Compatibility</span><span>Officially Licensed for PS5</span></h6>",
+            "<h6><span>Cooling</span><span>Optimized Heatsink for PS5 M.2 Slot</span></h6>",
+            "<h6><span>Installation</span><span>Play Directly from Drive, No Transfers Needed</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STORAGE EXPANSION</span><span class='detail-specs-h6'>- Store up to 100 games with massive 4TB capacity (based on average 36GB per title).</span></h6>",
+            "<h6><span>HIGH SPEED</span><span class='detail-specs-h6'>- Up to 7,300MB/s read speed using PCIe Gen4 NVMe technology.</span></h6>",
+            "<h6><span>LICENSED FOR PS5</span><span class='detail-specs-h6'>- Official PlayStation licensing ensures seamless integration and compatibility.</span></h6>",
+            "<h6><span>HEATSINK OPTIMIZED</span><span class='detail-specs-h6'>- Built-in PlayStation-branded heatsink prevents thermal throttling during long sessions.</span></h6>",
+            "<h6><span>READY TO PLAY</span><span class='detail-specs-h6'>- No need to transfer games — play directly from the drive with full speed performance.</span></h6>"
+        ],
+        tags: [
+            "ps5", "ssd", "4tb", "nvme", "m2", "heatsink", "wd_black", "storage", "expansion", "official", "gaming"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "4TB",
+        dropURL: "https://koanile.co.ke/product/ps5-4tb-ssd-with-heatsink-wd_black-4tb-sn850p-nvme-m-2-officially-licensed/",
+        youtubeReview: "https://www.youtube.com/embed/3EdKNRkfi-I?si=1TKXuODVSxdBoozh",
+        unboxingVideo: "https://www.youtube.com/embed/lrQ2MvykrRo?si=SPIsQedWfxdkjbEo",
+        prevPrice: 65000,
+        nowPrice: 55000,
+        stock: 4,
+        condition: "New",
+        rating: 5,
+        freeShipping: true
+    },
+    {
+        productID: 113,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746651435/ps5-slim-faceplate-covers-replacement-shell_kwckys.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746651435/ps5-slim-faceplate-covers-replacement-shell_kwckys.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746651435/ps5-slim-faceplate-covers-replacement-shell-2_qgipr1.png",
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746651435/ps5-slim-faceplate-covers-replacement-shell-3_ofpus9.png",
+                color: "red"
+            },
+        ],
+        defaultColor: "black",
+        Title: "PS5 Slim Faceplate Covers - With Cooling Fan - Plain Color",
+        SubTitle: "Plain Colors",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-slim-faceplate-covers-replacement-shell",
+        description: "Enhance and protect your PS5 Slim with these stylish replacement faceplate covers featuring a built-in cooling fan and anti-scratch design.",
+        detailsDescription: "The PS5 Slim Faceplate Covers are designed to protect your console while enhancing its performance and aesthetics. With anti-scratch materials and an integrated cooling fan, these covers help maintain optimal console temperatures during long play sessions. Perfect for gamers who want both style and durability, this replacement shell is a must-have for every PS5 Slim setup.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PS5 Slim Console</span></h6>",
+            "<h6><span>Protection</span><span>Anti-Scratch Durable Plastic</span></h6>",
+            "<h6><span>Cooling</span><span>Built-in Fan for Heat Dissipation</span></h6>",
+            "<h6><span>Design</span><span>Stylish & Functional Shell Case</span></h6>",
+            "<h6><span>Installation</span><span>Easy Clip-On Mounting</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ANTI-SCRATCH BUILD</span><span class='detail-specs-h6'>- Keeps your PS5 Slim protected from daily wear and tear.</span></h6>",
+            "<h6><span>COOLING FAN</span><span class='detail-specs-h6'>- Integrated fan helps maintain low operating temperatures for extended gaming sessions.</span></h6>",
+            "<h6><span>SEAMLESS FIT</span><span class='detail-specs-h6'>- Designed specifically for the PS5 Slim model.</span></h6>",
+            "<h6><span>STYLISH DESIGN</span><span class='detail-specs-h6'>- Elevate your setup with sleek and modern aesthetics.</span></h6>",
+            "<h6><span>EASY INSTALLATION</span><span class='detail-specs-h6'>- Snap-on installation requires no tools or technical skill.</span></h6>"
+        ],
+        tags: [
+            "ps5", "slim", "faceplate", "cover", "replacement", "shell", "accessory", "cooling", "console skin"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-slim-faceplate-covers/",
+        youtubeReview: "https://www.youtube.com/embed/ZlkxqJQsPNQ?si=m8h0MRWc5ok1RtIT",
+        unboxingVideo: "https://www.youtube.com/embed/ovgRjNJucmA?si=jQ3nzAj4eatp_xcy",
+        prevPrice: 6000,
+        nowPrice: 5499,
+        stock: 5,
+        condition: "New",
+        rating: 4.5,
+        freeShipping: true
+    },
+    {
+        productID: 114,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746652273/ps5-slim-faceplate-covers-replacement-shell-custom-spiderman_1_d4bfti.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746652273/ps5-slim-faceplate-covers-replacement-shell-custom-spiderman_1_d4bfti.png",
+                color: "custom"
+            },
+        ],
+        defaultColor: "custom",
+        Title: "PS5 Slim Faceplate Covers - With Cooling Fan - Custom",
+        SubTitle: "Custom",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-slim-faceplate-covers-replacement-shell-custom",
+        description: "Enhance and protect your PS5 Slim with these stylish replacement faceplate covers featuring a built-in cooling fan and anti-scratch design.",
+        detailsDescription: "The PS5 Slim Faceplate Covers are designed to protect your console while enhancing its performance and aesthetics. With anti-scratch materials and an integrated cooling fan, these covers help maintain optimal console temperatures during long play sessions. Perfect for gamers who want both style and durability, this replacement shell is a must-have for every PS5 Slim setup.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PS5 Slim Console</span></h6>",
+            "<h6><span>Protection</span><span>Anti-Scratch Durable Plastic</span></h6>",
+            "<h6><span>Cooling</span><span>Built-in Fan for Heat Dissipation</span></h6>",
+            "<h6><span>Design</span><span>Stylish & Functional Shell Case</span></h6>",
+            "<h6><span>Installation</span><span>Easy Clip-On Mounting</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ANTI-SCRATCH BUILD</span><span class='detail-specs-h6'>- Keeps your PS5 Slim protected from daily wear and tear.</span></h6>",
+            "<h6><span>COOLING FAN</span><span class='detail-specs-h6'>- Integrated fan helps maintain low operating temperatures for extended gaming sessions.</span></h6>",
+            "<h6><span>SEAMLESS FIT</span><span class='detail-specs-h6'>- Designed specifically for the PS5 Slim model.</span></h6>",
+            "<h6><span>STYLISH DESIGN</span><span class='detail-specs-h6'>- Elevate your setup with sleek and modern aesthetics.</span></h6>",
+            "<h6><span>EASY INSTALLATION</span><span class='detail-specs-h6'>- Snap-on installation requires no tools or technical skill.</span></h6>"
+        ],
+        tags: [
+            "ps5", "slim", "faceplate", "cover", "replacement", "shell", "accessory", "cooling", "console skin"
+        ],
+       carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-slim-faceplate-covers/",
+        youtubeReview: "https://www.youtube.com/embed/lM9ICVdZLuQ?si=I7VdOjTiY6lHsoPE",
+        unboxingVideo: "https://www.youtube.com/embed/ovgRjNJucmA?si=jQ3nzAj4eatp_xcy",
+        prevPrice: 6000,
+        nowPrice: 5499,
+        stock: 5,
+        condition: "New",
+        rating: 4.5,
+        freeShipping: true
+    },
+    {
+        productID: 115,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746652766/ps5-slim-faceplate-covers-replacement-shell-custom_hpzpzx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746652766/ps5-slim-faceplate-covers-replacement-shell-custom_hpzpzx.png",
+                color: "camouflage"
+            },
+        ],
+        defaultColor: "camouflage",
+        Title: "PS5 Slim Faceplate Covers - With Cooling Fan - camouflage",
+        SubTitle: "Camouflage",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-slim-faceplate-covers-replacement-shell-camouflage",
+        description: "Enhance and protect your PS5 Slim with these stylish replacement faceplate covers featuring a built-in cooling fan and anti-scratch design.",
+        detailsDescription: "The PS5 Slim Faceplate Covers are designed to protect your console while enhancing its performance and aesthetics. With anti-scratch materials and an integrated cooling fan, these covers help maintain optimal console temperatures during long play sessions. Perfect for gamers who want both style and durability, this replacement shell is a must-have for every PS5 Slim setup.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PS5 Slim Console</span></h6>",
+            "<h6><span>Protection</span><span>Anti-Scratch Durable Plastic</span></h6>",
+            "<h6><span>Cooling</span><span>Built-in Fan for Heat Dissipation</span></h6>",
+            "<h6><span>Design</span><span>Stylish & Functional Shell Case</span></h6>",
+            "<h6><span>Installation</span><span>Easy Clip-On Mounting</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ANTI-SCRATCH BUILD</span><span class='detail-specs-h6'>- Keeps your PS5 Slim protected from daily wear and tear.</span></h6>",
+            "<h6><span>COOLING FAN</span><span class='detail-specs-h6'>- Integrated fan helps maintain low operating temperatures for extended gaming sessions.</span></h6>",
+            "<h6><span>SEAMLESS FIT</span><span class='detail-specs-h6'>- Designed specifically for the PS5 Slim model.</span></h6>",
+            "<h6><span>STYLISH DESIGN</span><span class='detail-specs-h6'>- Elevate your setup with sleek and modern aesthetics.</span></h6>",
+            "<h6><span>EASY INSTALLATION</span><span class='detail-specs-h6'>- Snap-on installation requires no tools or technical skill.</span></h6>"
+        ],
+        tags: [
+            "ps5", "slim", "faceplate", "cover", "replacement", "shell", "accessory", "cooling", "console skin"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-slim-faceplate-covers/",
+        youtubeReview: "https://www.youtube.com/embed/NeBKatqokhg?si=lIGuJ2Jb7tXhYu5s",
+        unboxingVideo: "https://www.youtube.com/embed/uB3T8LqG0Kg?si=GhR8NU38DoQAlgzG",
+        prevPrice: 6000,
+        nowPrice: 5499,
+        stock: 5,
+        condition: "New",
+        rating: 4.5,
+        freeShipping: true
+    },
+    {
+        productID: 116,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746694072/ps5-wall-mount-kit-rgb-charging-multifunctional-stand_nsvmcv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746694072/ps5-wall-mount-kit-rgb-charging-multifunctional-stand_nsvmcv.png",
+                color: "black-white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746694072/ps5-wall-mount-kit-rgb-charging-multifunctional-stand-2_atghie.png",
+                color: "black-white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746694074/ps5-wall-mount-kit-rgb-charging-multifunctional-stand-3_bvaxvp.jpg",
+                color: "black-white"
+            },
+        ],
+        defaultColor: "black-white",
+        Title: "iPega PS5 Wall Mount Kit – RGB Charging & Accessory Hub",
+        SubTitle: "Wall Mount",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "ipega",
+        name: "ps5-wall-mount-kit-rgb-charging-multifunctional-stand",
+        description: "Elevate your gaming setup with the iPega PS5 Wall Mount Kit — a multifunctional wall stand featuring RGB lighting, dual controller charging, USB ports, and headset storage. Compatible with all PS5 models.",
+        detailsDescription: "The iPega PS5 Wall Mount Kit is a premium space-saving solution built to organize and enhance your gaming environment. Designed for PS5, PS5 Slim, and PS5 Pro, it combines wall mounting, dual controller charging, RGB lighting, USB expansion, and headset storage into a sleek vertical station. With easy installation and dynamic lighting effects, this multifunctional bracket helps you reduce clutter while boosting your room’s aesthetics.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>PS5 / PS5 Slim / PS5 Pro (Disc & Digital)</span></h6>",
+            "<h6><span>Charging</span><span>Dual Controller Charging (2.5hrs full charge)</span></h6>",
+            "<h6><span>RGB Modes</span><span>14+ Lighting Effects w/ Sound Sync</span></h6>",
+            "<h6><span>USB Ports</span><span>3 × USB 2.0 Ports</span></h6>",
+            "<h6><span>Design</span><span>Wall-Mount, Space-Saving, ABS Build</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>VERSATILE MOUNTING</span><span class='detail-specs-h6'>- Compatible with all PS5 models: Disc, Digital, Slim & Pro.</span></h6>",
+            "<h6><span>RGB LIGHTING</span><span class='detail-specs-h6'>- Includes over 14 lighting effects with sound-reactive modes for immersive ambiance.</span></h6>",
+            "<h6><span>DUAL CHARGING STATION</span><span class='detail-specs-h6'>- Charges two PS5 controllers or Edge controllers simultaneously in 2.5 hours.</span></h6>",
+            "<h6><span>USB EXPANSION</span><span class='detail-specs-h6'>- Comes with 3 USB 2.0 ports for additional device connectivity.</span></h6>",
+            "<h6><span>ALL-IN-ONE ORGANIZER</span><span class='detail-specs-h6'>- Integrated holders for controllers, headset, and console in a single setup.</span></h6>",
+            "<h6><span>EASY INSTALLATION</span><span class='detail-specs-h6'>- Includes mounting hardware and instructions for fast setup.</span></h6>"
+        ],
+        tags: [
+            "ps5", "wall mount", "charging station", "rgb", "controller stand", "ipega", "gaming setup", "accessory"
+        ],
+       carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-wall-mount/",
+        youtubeReview: "https://www.youtube.com/embed/Nq12NNr5y2k?si=DQHP4_pLKlVgkbbN",
+        unboxingVideo: "https://www.youtube.com/embed/Nq12NNr5y2k?si=DQHP4_pLKlVgkbbN",
+        prevPrice: 5999,
+        nowPrice: 5500,
+        stock: 5,
+        condition: "New",
+        rating: 4.7,
+        freeShipping: true
+    },
+    {
+        productID: 117,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746695328/ps5-pulse-explore-wireless-earbuds_w4noxa.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746695328/ps5-pulse-explore-wireless-earbuds_w4noxa.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746695329/ps5-pulse-explore-wireless-earbuds-2_ywplik.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746695329/ps5-pulse-explore-wireless-earbuds-3_oooqki.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746695329/ps5-pulse-explore-wireless-earbuds-4_p3e54w.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "PS5 Pulse Explore Wireless Earbuds with Planar Magnetic Drivers & 3D Audio",
+        SubTitle: "Earbuds",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-pulse-explore-wireless-earbuds",
+        description: "Experience lifelike sound with the PS5 Pulse Explore Wireless Earbuds, designed with planar magnetic drivers, PlayStation Link™ connectivity, and immersive 3D Audio support for PS5®.",
+        detailsDescription: "Discover a new era of PlayStation audio with the Pulse Explore™ wireless earbuds. Built for gamers, these feature state-of-the-art planar magnetic drivers for ultra-clear sound with deep bass and precision. Connect seamlessly to PS5® and mobile devices with PlayStation Link™ and Bluetooth®. With AI-powered hidden mics, dual-device connectivity, and a total 15 hours of battery life, these earbuds are perfect for immersive gaming at home or on the go.",
+        topSpecs: [
+            "<h6><span>Drivers</span><span>Planar Magnetic Drivers</span></h6>",
+            "<h6><span>Connectivity</span><span>PlayStation Link™ + Bluetooth®</span></h6>",
+            "<h6><span>3D Audio Support</span><span>Yes (PS5®)</span></h6>",
+            "<h6><span>Battery Life</span><span>Up to 5hrs + 10hrs (Charging Case)</span></h6>",
+            "<h6><span>Microphones</span><span>Dual Hidden AI-Enhanced Mics</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ULTRA-CLEAR AUDIO</span><span class='detail-specs-h6'>- Studio-inspired planar magnetic drivers reduce distortion for precise, lifelike audio.</span></h6>",
+            "<h6><span>IMMERSIVE 3D SOUND</span><span class='detail-specs-h6'>- Enjoy pinpoint audio positioning in supported PS5® games with 3D Audio.</span></h6>",
+            "<h6><span>DUAL CONNECTIVITY</span><span class='detail-specs-h6'>- Seamlessly switch between PS5 and mobile via PlayStation Link™ & Bluetooth®.</span></h6>",
+            "<h6><span>AI-POWERED MICS</span><span class='detail-specs-h6'>- Dual hidden microphones with AI noise rejection for crystal-clear voice capture.</span></h6>",
+            "<h6><span>PORTABLE COMFORT</span><span class='detail-specs-h6'>- Lightweight build, multiple ear tips, and a sleek charging case for on-the-go gaming.</span></h6>",
+            "<h6><span>LONG BATTERY LIFE</span><span class='detail-specs-h6'>- Up to 5 hours of use, plus 10 extra hours via included charging case.</span></h6>"
+        ],
+        tags: [
+            "ps5", "earbuds", "wireless", "pulse explore", "3d audio", "gaming audio", "sony", "accessory"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-pulse-explore-earbuds/",
+        youtubeReview: "https://www.youtube.com/embed/uNdDYfc3rdA?si=ctwyRAROLjEjQ9ay",
+        unboxingVideo: "https://www.youtube.com/embed/O2BjT1dRelA?si=HcWvUmMGjwvTP3cQ",
+        prevPrice: 30000,
+        nowPrice: 24499,
+        stock: 7,
+        condition: "New",
+        rating: 4.9,
+        freeShipping: true
+    },
+    {
+        productID: 118,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741241970/ps_ziylld.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746696216/ps5-dualsense-edge-stick-module_gyt76r.png", 
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746696216/ps5-dualsense-edge-stick-module_gyt76r.png",
+                color: "black-white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746696217/ps5-dualsense-edge-stick-module-2_b3ow8v.png",
+                color: "black-white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746696217/ps5-dualsense-edge-stick-module-3_h4mirs.jpg",
+                color: "black-white"
+            },
+        ],
+        defaultColor: "black-white",
+        Title: "PS5 DualSense Edge Stick Module - for DualSense Edge™ Controller",
+        SubTitle: "Replacement Module",
+        category: "playstation",
+        subCategory: ["accessories"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-dualsense-edge-stick-module",
+        description: "Maintain top-tier performance for your DualSense Edge™ controller with this official replacement stick module designed for accuracy and smooth gameplay.",
+        detailsDescription: "Keep your DualSense Edge™ wireless controller performing like new with this official stick module replacement. Designed for precision aiming and responsive movement, this module allows you to refresh your controller for peak performance whenever needed. Ideal for competitive gamers who demand consistency.",
+        topSpecs: [
+            "<h6><span>Compatibility</span><span>DualSense Edge™ Wireless Controller</span></h6>",
+            "<h6><span>Type</span><span>Replacement Stick Module</span></h6>",
+            "<h6><span>Installation</span><span>User-replaceable</span></h6>",
+            "<h6><span>Performance</span><span>Factory Calibrated</span></h6>",
+            "<h6><span>Official Accessory</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PRECISION CONTROL</span><span class='detail-specs-h6'>- Restore precise input response and smooth gameplay with this original module.</span></h6>",
+            "<h6><span>USER FRIENDLY</span><span class='detail-specs-h6'>- Easily swap out old or worn modules without tools or technical skills.</span></h6>",
+            "<h6><span>COMPETITIVE READY</span><span class='detail-specs-h6'>- Stay sharp in high-stakes matches by keeping your controller in optimal condition.</span></h6>",
+            "<h6><span>OFFICIAL COMPONENT</span><span class='detail-specs-h6'>- Manufactured by Sony specifically for the DualSense Edge™ controller.</span></h6>"
+        ],
+        tags: [
+            "dualsense edge", "stick module", "ps5 accessory", "replacement", "controller part", "sony", "precision"
+        ],
+        carousels: ["ps5Accessories"],
+        storage: "",
+        dropURL: "https://koanile.co.ke/product/ps5-dualsense-edge-stick-module/",
+        youtubeReview: "https://www.youtube.com/embed/VRkIMintunc?si=o2Cz_rf4ZvRFCq4J",
+        unboxingVideo: "https://www.youtube.com/embed/mylVNhUqGTM?si=7S74ufckuBFbagAi",
+        prevPrice: 8000,
+        nowPrice: 6999,
+        stock: 10,
+        condition: "New",
+        rating: 4.8,
+        freeShipping: true
+    },
+    
+    
+    
+        
+    
+    
     
     
     
@@ -2222,7 +2765,7 @@ export const playstation = [
         Title: "PS4 DualShock 4 Charging Station - Charge Two Controllers Simultaneously",
         SubTitle: "Charging Station",
         category: "playstation",
-        subCategory: ["chargers", "accessories"],
+        subCategory: ["accessories"],
         variant: "ps4",
         brand: "sony",
         name: "ps4-dualshock4-charging-station",
@@ -2245,7 +2788,7 @@ export const playstation = [
         tags: [
             "dualshock4", "ps4", "charging-station", "controller-accessory", "sony", "charging-dock", "gaming-accessory", "black"
         ],
-        carousels: ["chargers", "accessories"],
+        carousels: ["accessories"],
         storage: "",
         dropURL: "https://www.digitalstore.co.ke/products/sony-playstation-dual-shock-4-charging-station-cuh-zdc1",
         youtubeReview: "https://www.youtube.com/embed/8X9PZxfH_Rs?si=cyjL7Xka3NwEdM1z",
@@ -2338,7 +2881,7 @@ export const playstation = [
         Title: "Dobe Dual Charging Dock for PS4 Controllers",
         SubTitle: "Dobe Dual Charging",
         category: "playstation",
-        subCategory: ["charging", "accessories"],
+        subCategory: ["accessories"],
         variant: "ps4",
         brand: "dobe",
         name: "ps4-dobe-charging-dock",
