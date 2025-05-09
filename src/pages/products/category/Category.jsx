@@ -123,7 +123,7 @@ const Category = ({ params }) => {
         <section className="product-list-container-wrapper">
             <div className="product-list-container container">
                 <div className="flex justify-between mb-5 max-md:flex-col gap-6 items-center">
-                    <div className='text-gray-800 flex items-center gap-10 max-md:gap-2 max-md:justify-between max-md:w-[85%]'>
+                    <div className='text-gray-800 flex items-center gap-10 max-md:gap-2 max-md:justify-between max-md:w-[100%]'>
                         <a to="/" className="back-to-home cursor-pointer">
                             <MoveLeftIcon className='border-1 h-10 w-15 p-2 rounded-full' /> <span className='max-md:hidden'>Back to </span>Home
                         </a>
@@ -132,8 +132,8 @@ const Category = ({ params }) => {
                             {category ? (category.charAt(0).toUpperCase() + category.slice(1)) : 'All Products'}
                         </h1>
                     </div>
-                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 px-4 max-md:w-[85%]">
-                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='w-full'>
+                    <div className="bg-blue-500/50 text-gray-800 border border-blue-500 max-md:w-[100%] h-10">
+                        <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className='w-full bg-blue-500/50 text-gray-800 h-full products-select-input sort-dropdown'>
                             <option value="best-selling">Best selling</option>
                             <option value="price-low-high">Price: Low to High</option>
                             <option value="price-high-low">Price: High to Low</option>

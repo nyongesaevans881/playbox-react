@@ -131,9 +131,9 @@ const Navbar = () => {
                 { name: "Ps 4 Accessories", url: "/products/playstation/accessories/ps4" },
                 { name: "Xbox Consoles", url: "/products/xbox/consoles" },
                 { name: "Xbox Accessories", url: "/products/xbox/accessories" },
-                { name: "Nintendo & Handhelds", url: "/products/handhelds" },
-                { name: "Handhelds Accessories", url: "/products/accessories/handhelds" },
-                { name: "Pre-Owned Consoles", url: "/products/consoles/playstation" },
+                { name: "Nintendo & Handhelds", url: "/products/handhelds/consoles" },
+                { name: "Handhelds Accessories", url: "/products/handhelds/accessories" },
+                { name: "Pre-Owned Consoles", url: "#" },
             ],
         },
         {
@@ -168,6 +168,16 @@ const Navbar = () => {
             ],
         },
         {
+            name: "Tech Hub",
+            items: [
+                { name: "Local Delivery Services", url: "/shipping/local-delivery" },
+                { name: "Shipping From USA to Kenya", url: "/shipping/usa-to-kenya" },
+                { name: "Shipping From UK to Kenya", url: "/shipping/uk-to-kenya" },
+                { name: "Order Tracking", url: "/shipping/order-tracking" },
+                { name: "FAQs on Shipping", url: "/shipping/faqs" },
+            ],
+        },
+        {
             name: "Furniture",
             items: [
                 { name: "Ergonomic Chairs", url: "/furniture/chairs" },
@@ -176,16 +186,6 @@ const Navbar = () => {
                 { name: "Adjustable Desks", url: "/furniture/adjustable-desks" },
                 { name: "Cable Management Systems", url: "/furniture/cable-management" },
                 { name: "Display Shelves", url: "/furniture/display-shelves" },
-            ],
-        },
-        {
-            name: "Ship With Us",
-            items: [
-                { name: "Local Delivery Services", url: "/shipping/local-delivery" },
-                { name: "Shipping From USA to Kenya", url: "/shipping/usa-to-kenya" },
-                { name: "Shipping From UK to Kenya", url: "/shipping/uk-to-kenya" },
-                { name: "Order Tracking", url: "/shipping/order-tracking" },
-                { name: "FAQs on Shipping", url: "/shipping/faqs" },
             ],
         },
         {
@@ -199,7 +199,7 @@ const Navbar = () => {
             ],
         },
         {
-            name: "Market",
+            name: "Action & Ride",
             items: [
                 { name: "Exchange Games", url: "/market/exchange-games" },
                 { name: "Refurbished Products", url: "/market/refurbished-products" },
@@ -211,11 +211,11 @@ const Navbar = () => {
         {
             name: "Community",
             items: [
-                { name: "Gaming Forums", url: "/community/forums" },
-                { name: "Local Tournaments", url: "/community/tournaments" },
-                { name: "Tech Discussions", url: "/community/tech-discussions" },
-                { name: "Kenyan Esports Teams", url: "/community/esports-teams" },
-                { name: "Marketplace for Gamers", url: "/community/marketplace" },
+                { name: "Discord", url: "/community/forums" },
+                { name: "Instagram", url: "/community/tournaments" },
+                { name: "X (Twitter)", url: "/community/esports-teams" },
+                { name: "", url: "/community/marketplace" },
+                { name: "Whatsapp", url: "/community/tech-discussions" },
                 { name: "Meetups and Events", url: "/community/meetups-events" },
             ],
         },
