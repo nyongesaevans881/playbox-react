@@ -163,7 +163,7 @@ const Name = ({ params }) => {
                 allowFullScreen></iframe>
             </div>
             <div className="youtube-video-single">
-              <h5 className='font-bold mb-5'> <i className="fab fa-youtube"></i> Unboxing Experience</h5>
+              <h5 className='font-bold mb-5'> <i className="fab fa-youtube"></i> {product.category === "games" ? "Gameplay" : "Unboxing Experience"}</h5>
               <iframe src={product.unboxingVideo} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
           </div>

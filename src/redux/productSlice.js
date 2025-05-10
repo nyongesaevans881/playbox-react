@@ -9,6 +9,7 @@ import { xbox } from "../constants/1-consoles/xbox.js";
 import { playstation } from "../constants/1-consoles/playstation.js";
 import { handhelds } from "../constants/1-consoles/handhelds.js"
 import { pc } from "../constants/8-pc/pc.js";
+import { laptops } from "../constants/9-laptops/laptops.js";
 
 
 const initialState = {
@@ -21,7 +22,8 @@ const initialState = {
   xbox,
   playstation,
   handhelds,
-  pc
+  pc,
+  laptops,
 };
 
 const productSlice = createSlice({

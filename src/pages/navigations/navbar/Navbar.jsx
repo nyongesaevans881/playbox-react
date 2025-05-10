@@ -139,7 +139,7 @@ const Navbar = () => {
         {
             name: "PC & Laptops",
             items: [
-                { name: "Gaming Laptops", url: "/pc/gaming-laptops" },
+                { name: "Gaming Laptops", url: "/products/laptops" },
                 { name: "Keyboards", url: "/products/pc/keyboards" },
                 { name: "Mice", url: "/products/pc/mice" },
                 { name: "Monitors", url: "/products/pc/monitors" },
@@ -149,11 +149,11 @@ const Navbar = () => {
         {
             name: "Games",
             items: [
-                { name: "PlayStation Games", url: "/games/playstation" },
-                { name: "Xbox Games", url: "/games/xbox" },
-                { name: "Nintendo Switch Games", url: "/games/nintendo-switch" },
-                { name: "PC Games", url: "/games/pc" },
-                { name: "Popular Titles", url: "/games/popular" },
+                { name: "PlayStation 5 Games", url: "/products/games/playstation/ps5" },
+                { name: "PlayStation 4 Games", url: "/products/games/playstation/ps4" },
+                { name: "Xbox Games", url: "/products/games/xbox" },
+                { name: "Nintendo Switch Games", url: "/products/games/nintendo" },
+                { name: "Popular Titles", url: "/products/games" },
                 { name: "Under Ksh 2,500", url: "/games/under-2500" },
             ],
         },
@@ -189,7 +189,7 @@ const Navbar = () => {
             ],
         },
         {
-            name: "Toys",
+            name: "Toys & Games",
             items: [
                 { name: "Action Figures", url: "/toys/action-figures" },
                 { name: "LEGO Sets", url: "/toys/lego-sets" },
@@ -199,7 +199,7 @@ const Navbar = () => {
             ],
         },
         {
-            name: "Action & Ride",
+            name: "Rides",
             items: [
                 { name: "Exchange Games", url: "/market/exchange-games" },
                 { name: "Refurbished Products", url: "/market/refurbished-products" },
