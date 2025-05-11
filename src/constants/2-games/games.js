@@ -384,7 +384,7 @@ export const games = [
         category: "games",
         subCategory: ["playstation", "racing"],
         variant: "ps5",
-        brand: "",
+        brand: "sony",
         name: "ps5-need-for-speed-unbound",
         description: "Race your way to the top in PS5 Need for Speed Unbound — a visually striking street racer packed with style, speed, and heart-pounding action.",
         detailsDescription: "In PS5 Need for Speed Unbound, experience next-gen street racing at its boldest. Set in the graffiti-inspired streets of Lakeshore, this edition offers intense single-player and multiplayer campaigns. Outsmart the cops, dominate weekly qualifiers, and rise through the underground racing scene to claim victory in The Grand. Customize your garage with precision-tuned rides and express your style through outfits and car flair. With a thumping global soundtrack, escape mechanics, and post-launch updates, every race becomes a statement.",
@@ -456,7 +456,7 @@ export const games = [
         category: "games",
         subCategory: ["playstation", "action"],
         variant: "ps5",
-        brand: "",
+        brand: "sony",
         name: "ps5-mortal-kombat-1",
         description: "Step into a reimagined universe with PS5 Mortal Kombat 1, where the iconic fighters return in a brutal new timeline forged by Fire God Liu Kang.",
         detailsDescription: "Mortal Kombat 1 on PS5 marks a bold reimagining of the legendary franchise. In this new era, forged by the Fire God Liu Kang, beloved warriors like Scorpion, Sub-Zero, and Raiden return with redefined origins and story arcs. Dive into the most cinematic story mode yet and experience an immersive combat system featuring bone-breaking Fatal Blows, tactical Breakers, and devastating Fatalities. The all-new Kameo Fighter system lets classic allies aid you mid-battle, while both local and online multiplayer modes provide competitive thrills. Embrace the chaos in a revitalized MK Universe, where every punch tells a story.",
@@ -505,7 +505,6 @@ export const games = [
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746903996/ps5-mortal-kombat-1-3_yffx66.jpg",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746905826/ps5-riders-republic-2_od7hdr.jpg",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746905825/ps5-riders-republic_sipt0k.png",
         imageColorMap: [
@@ -528,7 +527,7 @@ export const games = [
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
-        brand: "",
+        brand: "sony",
         name: "ps5-riders-republic",
         description: "Dive into a wild open-world playground in Riders Republic for PS5—bike, ski, snowboard, or wingsuit through breathtaking national parks in high-speed multiplayer mayhem.",
         detailsDescription: "Riders Republic on PS5 offers an electrifying, massive multiplayer experience where outdoor sports meet unbridled freedom. Compete with over 20 players in real-time as you race, trick, and crash your way to glory using bikes, snowboards, skis, and wingsuits. Explore iconic US national parks like Yosemite and Bryce Canyon in a vibrant open-world setting. Whether you're joining mass start races, impressing sponsors with stunts, or customizing your gear and style, this is your extreme sports fantasy realized. With cross-generation support and dynamic visuals, Riders Republic is the ultimate adrenaline-fueled social playground.",
@@ -572,6 +571,1149 @@ export const games = [
         condition: "New",
         rating: 4.5
     },
+    {
+        productID: 2009,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746978041/ps5-ratchet-and-clank-rift-apart-2_ktnjlx.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746978031/ps5-ratchet-and-clank-rift-apart_jommb0.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746978031/ps5-ratchet-and-clank-rift-apart_jommb0.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746978041/ps5-ratchet-and-clank-rift-apart-2_ktnjlx.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746978054/ps5-ratchet-and-clank-rift-apart-3_lxnomh.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Ratchet & Clank: Rift Apart – Interdimensional Adventure in Stunning 4K",
+        SubTitle: "adventure",
+        category: "games",
+        subCategory: ["playstation", "adventure"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-ratchet-and-clank-rift-apart",
+        description: "Ratchet & Clank: Rift Apart on PS5 delivers a fast-paced, interdimensional adventure with dazzling visuals, explosive weaponry, and seamless transitions between wildly varied worlds.",
+        detailsDescription: "Blast your way through a visually spectacular and dimension-hopping adventure in Ratchet & Clank: Rift Apart on PS5. As evil threatens to conquer the multiverse, join Ratchet, Clank, and newcomer Rivet to save reality. Equipped with an outrageous arsenal and aided by the PS5’s lightning-fast SSD, you'll tear through diverse planets, wielding powerful weapons and encountering both classic and new characters. Take full advantage of DualSense’s haptic feedback and adaptive triggers, and capture stunning moments in photo mode. Whether you're chasing 4K visuals or fluid 60 FPS action, Rift Apart is a technical and narrative showcase exclusive to the PlayStation 5.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Resolution</span><span>4K with HDR</span></h6>",
+            "<h6><span>Performance Modes</span><span>4K Quality / 60 FPS Performance</span></h6>",
+            "<h6><span>Loading Speed</span><span>Ultra-fast with PS5 SSD</span></h6>",
+            "<h6><span>Photo Mode</span><span>Capture Favorite In-Game Moments</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>INTERDIMENSIONAL ADVENTURE</span><span class='detail-specs-h6'>- Join Ratchet and Clank as they take on an evil emperor from another reality, racing through fractured dimensions.</span></h6>",
+            "<h6><span>VISUAL SPLENDOR</span><span class='detail-specs-h6'>- Experience stunning visuals with ray tracing, 4K resolution, HDR, and cinematic-quality graphics.</span></h6>",
+            "<h6><span>NEW PLAYABLE CHARACTERS</span><span class='detail-specs-h6'>- Play as both Ratchet and Rivet, a mysterious new female Lombax with a crucial role in saving the universe.</span></h6>",
+            "<h6><span>ARSENAL OF DESTRUCTION</span><span class='detail-specs-h6'>- Wield outrageous new weapons like the Burst Pistol, Topiary Sprinkler, and Shatterbomb for maximum impact.</span></h6>",
+            "<h6><span>PS5 ENHANCEMENTS</span><span class='detail-specs-h6'>- Feel every blast and dimensional rift with DualSense haptics and adaptive triggers for next-gen immersion.</span></h6>",
+            "<h6><span>FAST LOADING</span><span class='detail-specs-h6'>- Near-instant load times make dimension-hopping seamless thanks to the PS5’s SSD.</span></h6>",
+            "<h6><span>CELEBRATING 20 YEARS</span><span class='detail-specs-h6'>- Includes exclusive armor sets inspired by previous games in the franchise.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "ratchet-clank",
+            "rift-apart",
+            "adventure",
+            "platformer",
+            "insomniac-games",
+            "exclusive",
+            "4k",
+            "dualsense",
+            "riveting-story"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps-5-ratchet-and-clank-pTnoBCMSHHNKchlS4PlxIdOf.html?page=1&pos=35&cur_pos=35&ads_per_page=50&ads_count=50&lid=o3mTCx-nrFvu2ZEs&indexPosition=34",
+        youtubeReview: "https://www.youtube.com/embed/IJNapbBHoFY?si=wfB0GVjyry8eC683",
+        unboxingVideo: "https://www.youtube.com/embed/beaH_CCw-vA?si=ec69hlVjBm8NknXI",
+        prevPrice: 4500,
+        nowPrice: 3499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2010,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746979550/ps5-star-wars-jedi-fallen-order-2_iwmzjo.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746979539/ps5-star-wars-jedi-fallen-order_mzgx9a.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746979539/ps5-star-wars-jedi-fallen-order_mzgx9a.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746979550/ps5-star-wars-jedi-fallen-order-2_iwmzjo.png", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746979545/ps5-star-wars-jedi-fallen-order-3_rtztpn.png", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Star Wars Jedi: Fallen Order – Become the Galaxy’s Last Hope",
+        SubTitle: "action-adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-star-wars-jedi-fallen-order",
+        description: "Star Wars Jedi: Fallen Order on PS5 offers an epic single-player adventure across the Star Wars galaxy. Train to become a Jedi, unlock new Force abilities, and battle to survive the Empire's deadly pursuit.",
+        detailsDescription: "Set after the deadly purge of Order 66, Star Wars Jedi: Fallen Order follows Cal Kestis, a young Jedi Padawan, as he embarks on a perilous journey to restore the Jedi Order. With dynamic lightsaber combat, Force powers, and an expansive galaxy to explore, players must outwit Inquisitors, solve ancient puzzles, and rebuild what was lost. This PS5 version delivers enhanced graphics, faster load times, and deeper immersion in the Star Wars universe. Experience a deeply engaging story filled with rich characters, mysterious tombs, and breathtaking worlds that feel alive and dangerous at every turn.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action-Adventure</span></h6>",
+            "<h6><span>Visuals</span><span>4K Graphics with Enhanced PS5 Performance</span></h6>",
+            "<h6><span>Gameplay Mode</span><span>Single Player Story-Driven</span></h6>",
+            "<h6><span>Combat</span><span>Lightsaber & Force Powers with Upgrade Paths</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STORY-DRIVEN ADVENTURE</span><span class='detail-specs-h6'>- Follow Cal Kestis, a young Jedi Padawan on the run, as he struggles to survive and restore the Jedi Order.</span></h6>",
+            "<h6><span>DYNAMIC LIGHTSABER COMBAT</span><span class='detail-specs-h6'>- Master timing-based combat using your lightsaber and powerful Force abilities to defeat enemies and overcome obstacles.</span></h6>",
+            "<h6><span>EXPLORE THE GALAXY</span><span class='detail-specs-h6'>- Visit unique planets filled with hidden paths, environmental puzzles, and galactic lore.</span></h6>",
+            "<h6><span>IMMERSIVE CHARACTERS</span><span class='detail-specs-h6'>- Encounter allies like BD-1 and Cere, and battle iconic foes such as Inquisitors and Purge Troopers.</span></h6>",
+            "<h6><span>UPGRADABLE SKILLS</span><span class='detail-specs-h6'>- Develop new Force powers and combat techniques as you progress through your journey.</span></h6>",
+            "<h6><span>ENHANCED FOR PS5</span><span class='detail-specs-h6'>- Enjoy improved visuals, reduced load times, and DualSense controller support for immersive gameplay.</span></h6>",
+            "<h6><span>PUZZLE EXPLORATION</span><span class='detail-specs-h6'>- Solve ancient puzzles in long-lost tombs and temples that test your logic and Jedi abilities.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "star-wars",
+            "jedi",
+            "fallen-order",
+            "cal-kestis",
+            "single-player",
+            "force-powers",
+            "action-adventure",
+            "respawn",
+            "story-driven"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/jedi-fallen-order-3JRo7JbbQvXJ4Q6R7wyG8QeG.html?page=1&pos=7&cur_pos=7&ads_per_page=50&ads_count=50&lid=dl_KifuVsiDBFUw-&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/4M6ZBk53LMU?si=XQQKOe6Dpdc4Xh7i",
+        unboxingVideo: "https://www.youtube.com/embed/C-tIJPaFF1I?si=uxo-8L5jT-2mgQ7i",
+        prevPrice: 4900,
+        nowPrice: 3499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2011,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-2_qljqvv.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982547/ps5-god-of-war-ragnarok_wdiivn.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982547/ps5-god-of-war-ragnarok_wdiivn.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-2_qljqvv.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-3_quwfq7.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 God of War Ragnarök - The Battle to End All Realms Begins",
+        SubTitle: "action-adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-god-of-war-ragnarok",
+        description: "God of War Ragnarök on PS5 continues the legendary saga of Kratos and Atreus as they fight to prevent the end of the Nine Realms. With breathtaking visuals, enhanced combat, and a moving story, this title redefines mythological adventure.",
+        detailsDescription: "Kratos and Atreus return in God of War Ragnarök, the powerful sequel to the 2018 hit. As Fimbulwinter descends, the duo must journey through all Nine Realms in search of answers and allies before Ragnarök brings devastation. Along the way, they’ll face Norse gods, mythical creatures, and personal trials that test the strength of their bond. Featuring improved visuals, dynamic combat with new abilities and weapons, and full DualSense support, this PS5-exclusive delivers a visceral, cinematic experience worthy of the gods.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action-Adventure</span></h6>",
+            "<h6><span>Visuals</span><span>Stunning 4K with Ray Tracing</span></h6>",
+            "<h6><span>Combat</span><span>Leviathan Axe, Blades of Chaos, and Atreus’ bow</span></h6>",
+            "<h6><span>Gameplay Mode</span><span>Single Player Campaign</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>EPIC NARRATIVE</span><span class='detail-specs-h6'>- Follow Kratos and Atreus on a mythic journey to stop the foretold destruction of the realms.</span></h6>",
+            "<h6><span>STUNNING WORLDS</span><span class='detail-specs-h6'>- Explore the Nine Realms, from snowy Midgard to volcanic Muspelheim, with breathtaking PS5 visuals.</span></h6>",
+            "<h6><span>ENHANCED COMBAT</span><span class='detail-specs-h6'>- Master new combat techniques and unleash the full power of the Leviathan Axe and Blades of Chaos.</span></h6>",
+            "<h6><span>DUALSENSE SUPPORT</span><span class='detail-specs-h6'>- Experience every hit, clash, and roar with haptic feedback and adaptive triggers.</span></h6>",
+            "<h6><span>3D AUDIO</span><span class='detail-specs-h6'>- Hear the world come alive with multidirectional 3D spatial audio.</span></h6>",
+            "<h6><span>CHARACTER GROWTH</span><span class='detail-specs-h6'>- Witness the evolving relationship of father and son and uncover their destinies.</span></h6>",
+            "<h6><span>ACCESSIBILITY & HELP</span><span class='detail-specs-h6'>- Benefit from built-in game help and a wide range of accessibility options for all players.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "god-of-war",
+            "ragnarok",
+            "kratos",
+            "atreus",
+            "santa-monica",
+            "single-player",
+            "norse-mythology",
+            "action-adventure"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://www.phoneplacekenya.com/product/ps5-ps5-god-of-war-ragnarok/?gad_source=1&gad_campaignid=21050901825&gbraid=0AAAAADFV82cbja-Uup1kTH367j0aypcYe&gclid=Cj0KCQjwlYHBBhD9ARIsALRu09qSfMjN8ZThTiGi1Jl90t3zUFKQhMLbjW4ycLgAKEGIwNui17dJGdkaAt2WEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/wi63uvjs6Uc?si=DAS48O7g-nm2tvr9",
+        unboxingVideo: "https://www.youtube.com/embed/0xy4NNqX_ZU?si=J0ezCon1yZO9Kwbp",
+        prevPrice: 7000,
+        nowPrice: 6000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2012,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746986603/ps5-sonic-frontiers-2_dofxtx.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746986604/ps5-sonic-frontiers_of1leo.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746986604/ps5-sonic-frontiers_of1leo.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746986603/ps5-sonic-frontiers-2_dofxtx.png", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746986606/ps5-sonic-frontiers-3_cdpc1b.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Sonic Frontiers – Speed Meets Open-Zone Freedom",
+        SubTitle: "adventure",
+        category: "games",
+        subCategory: ["playstation", "adventure"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-sonic-frontiers",
+        description: "Race across five massive Starfall Islands in Sonic Frontiers, the blue blur’s boldest and fastest adventure yet. With high-speed open-zone exploration, thrilling combat, and a mysterious ancient world to uncover, Sonic is back like never before.",
+        detailsDescription: "Sonic Frontiers on PS5 catapults the iconic speedster into a new dimension of open-zone exploration. Stranded on a mysterious island in search of the Chaos Emeralds, Sonic must race through dynamic environments, battle robotic foes, and uncover the secrets of a lost civilization. With a brand-new combat system, fast-paced platforming, and vast open worlds, this is Sonic’s most ambitious journey yet. Experience 3D Cyber Space stages, unlock powerful skills, solve ancient puzzles, and explore the Starfall Islands at breakneck speed with the immersive power of the PS5.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Open-Zone Platformer</span></h6>",
+            "<h6><span>Exploration</span><span>Five expansive Starfall Islands</span></h6>",
+            "<h6><span>Combat System</span><span>Combos, Cyloop, dodges, counters, and upgrades</span></h6>",
+            "<h6><span>Performance</span><span>Optimized for faster loading and responsive gameplay</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OPEN WORLD FREEDOM</span><span class='detail-specs-h6'>- Explore five unique islands filled with platforming challenges, puzzles, and hidden secrets.</span></h6>",
+            "<h6><span>CYBER SPACE LEVELS</span><span class='detail-specs-h6'>- Access 3D speed-run stages that test your reflexes and reward precision gameplay.</span></h6>",
+            "<h6><span>EVOLVED COMBAT</span><span class='detail-specs-h6'>- Master the Cyloop and unlock a skill tree filled with powerful techniques to defeat robotic hordes.</span></h6>",
+            "<h6><span>MYSTERY & LORE</span><span class='detail-specs-h6'>- Unravel the secrets of a forgotten civilization and Sonic’s new enemies.</span></h6>",
+            "<h6><span>STUNNING ENVIRONMENTS</span><span class='detail-specs-h6'>- Dash through vibrant biomes including deserts, forests, and waterfalls with next-gen visuals.</span></h6>",
+            "<h6><span>ACTIVITIES & QUESTS</span><span class='detail-specs-h6'>- Take on side quests, scale massive towers, go fishing, and more.</span></h6>",
+            "<h6><span>PS5 ENHANCEMENTS</span><span class='detail-specs-h6'>- Benefit from faster load times and a smoother experience thanks to PS5's performance boosts.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "sonic-frontiers",
+            "platformer",
+            "sega",
+            "open-zone",
+            "adventure",
+            "chaos-emeralds",
+            "starfall-islands",
+            "cyloop"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps-5-sonic-frontiers-1mNBVfW3ZkPjtv8FWINkxPbE.html?page=1&pos=8&cur_pos=8&ads_per_page=12&ads_count=12&lid=NQiCa_LZiMXq7524&indexPosition=7",
+        youtubeReview: "https://www.youtube.com/embed/jkUgN0pItoU?si=wPnyc6xFqkKgOnax",
+        unboxingVideo: "https://www.youtube.com/embed/jEaUCQ9ayfk?si=1BiGmqR64nnY4Jnl",
+        prevPrice: 7500,
+        nowPrice: 5499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2013,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746987798/ps5-watch-dogs-legion-3_sqk1va.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746987794/ps5-watch-dogs-legion_nfjrr7.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746987794/ps5-watch-dogs-legion_nfjrr7.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746987795/ps5-watch-dogs-legion-2_lsw8lg.png", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746987798/ps5-watch-dogs-legion-3_sqk1va.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Watch Dogs Legion – Hack the System, Reclaim the City",
+        SubTitle: "action adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-watch-dogs-legion",
+        description: "Take back London in Watch Dogs Legion, where every person in the city can be part of your resistance. Hack, infiltrate, and rise against tyranny in this ambitious open-world adventure built for next-gen performance.",
+        detailsDescription: "Watch Dogs Legion on PS5 offers a dynamic vision of near-future London, where you’re not just one hero—you’re anyone. Recruit characters from the entire population, each with a unique background, skills, and personality. Use tech like drones, spider-bots, and AR cloaks to infiltrate and hack your way through a dystopian surveillance state. With seamless online co-op, stunning visuals, and DualSense support, Watch Dogs Legion delivers a truly next-gen resistance experience. Fight back solo or bring friends into the fray as you liberate a city on the brink.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Open-World Action-Adventure</span></h6>",
+            "<h6><span>Playable Characters</span><span>Virtually anyone in London</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online Co-op and Resistance Mode</span></h6>",
+            "<h6><span>Performance</span><span>PS5-enhanced visuals and faster load times</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>RECRUIT ANYONE</span><span class='detail-specs-h6'>- Build a team from any citizen in London, each with unique abilities and backstories.</span></h6>",
+            "<h6><span>HIGH-TECH TACTICS</span><span class='detail-specs-h6'>- Hack security systems, deploy spider-bots, and use AR cloaking to outsmart enemies.</span></h6>",
+            "<h6><span>OPEN WORLD LONDON</span><span class='detail-specs-h6'>- Explore a sprawling near-future London filled with iconic landmarks and dynamic side missions.</span></h6>",
+            "<h6><span>CO-OP GAMEPLAY</span><span class='detail-specs-h6'>- Team up online to complete story missions and post-launch content with friends.</span></h6>",
+            "<h6><span>PS5 UPGRADES</span><span class='detail-specs-h6'>- Experience faster load times, smoother gameplay, and stunning next-gen visuals.</span></h6>",
+            "<h6><span>DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Feel the intensity of hacking and combat with adaptive triggers and haptic feedback.</span></h6>",
+            "<h6><span>LIVE UPDATES</span><span class='detail-specs-h6'>- Enjoy regular post-launch updates including new missions, characters, and more.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "watch-dogs-legion",
+            "ubisoft",
+            "open-world",
+            "hacking",
+            "london",
+            "resistance",
+            "stealth",
+            "action-adventure"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-watch-dogs-legion-cF1ZPzxIJ7VJGhnTLCRLVY4K.html?page=1&pos=5&cur_pos=5&ads_per_page=8&ads_count=8&lid=WwRSX3Dllv5qac_k&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/vRw5QqiBQVg?si=ntFabXjHbjS1C-4G",
+        unboxingVideo: "https://www.youtube.com/embed/_wygSbRknZA?si=fMowhaYv5bVt4ZIS",
+        prevPrice: 5500,
+        nowPrice: 4499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2014,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746988746/ps5-assassins-creed-valhalla-3_pz5fq4.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746988738/ps5-assassins-creed-valhalla_q1qz7g.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746988738/ps5-assassins-creed-valhalla_q1qz7g.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746988746/ps5-assassins-creed-valhalla-3_pz5fq4.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746988749/ps5-assassins-creed-valhalla-2_lnkyek.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Assassin’s Creed Valhalla – Become a Legendary Viking",
+        SubTitle: "action rpg",
+        category: "games",
+        subCategory: ["playstation", "action", "rpg"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-assassins-creed-valhalla",
+        description: "Step into the boots of Eivor, a legendary Viking raider, and lead your clan from icy Norway to the lush kingdoms of England. In Assassin’s Creed Valhalla, you’ll build settlements, forge alliances, and earn your place in Valhalla through brutal combat and cunning diplomacy.",
+        detailsDescription: "Assassin’s Creed Valhalla for PS5 offers an immersive Viking experience with deep RPG mechanics and an expansive open world. Explore dark-age England as you raid, conquer, and build your settlement. With the power of the PS5, the game runs smoothly at 60 FPS with enhanced 4K visuals, faster loading times, and full DualSense support. Customize your journey, from your weapons and gear to your clan and alliances. Whether you charge into battle or scheme your way to victory, your path to glory is entirely your own.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action RPG</span></h6>",
+            "<h6><span>Resolution</span><span>Up to 4K UHD</span></h6>",
+            "<h6><span>Framerate</span><span>60 FPS</span></h6>",
+            "<h6><span>DualSense Support</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>VIKING ADVENTURE</span><span class='detail-specs-h6'>- Become Eivor, a fierce Viking warrior, and lead raids across England.</span></h6>",
+            "<h6><span>EXPANSIVE RPG SYSTEM</span><span class='detail-specs-h6'>- Shape your journey through choices, alliances, and combat style.</span></h6>",
+            "<h6><span>BUILD YOUR SETTLEMENT</span><span class='detail-specs-h6'>- Construct and upgrade buildings like blacksmiths and tattoo parlors in your growing village.</span></h6>",
+            "<h6><span>PS5 ENHANCEMENTS</span><span class='detail-specs-h6'>- Enjoy 4K resolution, 60 FPS performance, and ultra-fast loading on the PS5.</span></h6>",
+            "<h6><span>DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Enhanced haptic feedback and adaptive triggers for immersive combat and exploration.</span></h6>",
+            "<h6><span>ACTIVITY CARDS</span><span class='detail-specs-h6'>- Jump directly into quests and events using PS5’s Activity Cards feature.</span></h6>",
+            "<h6><span>BUG FIXES & POLISH</span><span class='detail-specs-h6'>- Enjoy a smoother and more stable experience than on previous-gen versions.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "assassins-creed",
+            "valhalla",
+            "ubisoft",
+            "viking",
+            "action-rpg",
+            "open-world",
+            "england",
+            "raids"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-assassins-creed-valhalla-moi2doagvmnsMJErJgBZ3UGI.html?page=1&pos=1&cur_pos=1&ads_per_page=23&ads_count=23&lid=CgjKvINdceQ-enZi&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/vlk1z44sF18?si=IchSS-Tfa2IVIa8_",
+        unboxingVideo: "https://www.youtube.com/embed/RMU0BtBr0bM?si=qTVw1Bry1CSSkEjR",
+        prevPrice: 5000,
+        nowPrice: 3500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2015,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989226/ps5-assassins-creed-valhalla-2_kwebub.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989226/ps5-assassins-creed-valhalla_bvgwoh.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989226/ps5-assassins-creed-valhalla_bvgwoh.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989226/ps5-assassins-creed-valhalla-2_kwebub.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989227/ps5-assassins-creed-valhalla-3_iayco6.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 The Crew Motorfest – Race in a Hawaiian Paradise",
+        SubTitle: "racing",
+        category: "games",
+        subCategory: ["playstation", "racing"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-the-crew-motorfest",
+        description: "Hit the gas in The Crew Motorfest, an open-world racing game that turns Hawaii's O’ahu island into the ultimate car culture celebration. Race through city streets, jungle tracks, volcano slopes, and scenic mountain roads using hundreds of legendary vehicles in a festival of speed and style.",
+        detailsDescription: "The Crew Motorfest delivers an unmatched open-world racing experience on PS5, set on the stunning Hawaiian island of O’ahu. Take control of over 700 legendary vehicles—cars, bikes, boats, and planes—and explore vibrant cityscapes, rainforests, beaches, and volcanic slopes. With over 20 themed campaigns, regular seasonal updates, and immersive DualSense support, this dynamic and ever-evolving racing game lets you experience car culture in all its forms. Race solo or compete with up to 32 players online, customize your rides, and explore a living, breathing racing festival that never ends.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Open World</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online (up to 32 players)</span></h6>",
+            "<h6><span>Vehicles</span><span>700+ licensed vehicles</span></h6>",
+            "<h6><span>DualSense Support</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OPEN WORLD RACING</span><span class='detail-specs-h6'>- Explore the island of O’ahu, from city streets to volcanic slopes and tropical rainforests.</span></h6>",
+            "<h6><span>LARGE VEHICLE SELECTION</span><span class='detail-specs-h6'>- Choose from over 700 cars, bikes, boats, and planes for an authentic racing experience.</span></h6>",
+            "<h6><span>THEMATIC CAMPAIGNS</span><span class='detail-specs-h6'>- Participate in 20+ themed campaigns highlighting different styles of car culture, from JDM to stunts.</span></h6>",
+            "<h6><span>MULTIPLAYER FUN</span><span class='detail-specs-h6'>- Join up to 32 players online with PS Plus and compete in races and events together.</span></h6>",
+            "<h6><span>CUSTOMIZATION</span><span class='detail-specs-h6'>- Upgrade and personalize your vehicles with deep customization options.</span></h6>",
+            "<h6><span>DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Enhanced haptics and adaptive triggers for responsive racing feel on PS5.</span></h6>",
+            "<h6><span>REMOTE PLAY SUPPORT</span><span class='detail-specs-h6'>- Play your game remotely on supported devices with Remote Play functionality.</span></h6>",
+            "<h6><span>SEASONAL UPDATES</span><span class='detail-specs-h6'>- Enjoy fresh playlists and content added regularly to keep gameplay exciting.</span></h6>",
+            "<h6><span>IN-GAME PURCHASES</span><span class='detail-specs-h6'>- Supports optional virtual currency and content purchases.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "the-crew",
+            "motorfest",
+            "ubisoft",
+            "racing",
+            "open-world",
+            "hawaii",
+            "multiplayer",
+            "vehicles"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-the-crew-motorfest-dpmGn2DumYqkCdB7pjuaIyQm.html?page=1&pos=7&cur_pos=7&ads_per_page=16&ads_count=16&lid=66-Z4UpC2J3DDe1w&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/9y4aXBYy2s8?si=T68kSM5pOq564Opl",
+        unboxingVideo: "https://www.youtube.com/embed/rncZ2SBqYzc?si=pHLyM9Mh6U78Pc4e",
+        prevPrice: 6500,
+        nowPrice: 4499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2016,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989866/ps5-wwe-2k23-2_dct6ag.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989864/ps5-wwe-2k23_uecmjo.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989864/ps5-wwe-2k23_uecmjo.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989866/ps5-wwe-2k23-2_dct6ag.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746989864/ps5-wwe-2k23-3_d2u1sd.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 WWE 2K23 – Wrestle With Legends",
+        SubTitle: "sports",
+        category: "games",
+        subCategory: ["playstation", "sports"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-wwe-2k23",
+        description: "Enter the ring in WWE 2K23, featuring expanded features, stunning visuals, and the ultimate WWE experience. Wrestle as iconic superstars and legends, relive John Cena’s greatest rivalries, and dominate with fan-favorite WarGames matches and dynamic game modes.",
+        detailsDescription: "WWE 2K23 for PS5 delivers a packed wrestling experience with an expanded roster, enhanced gameplay mechanics, and the franchise-first 2K Showcase mode featuring John Cena’s 20-year career from the perspective of his rivals. Enjoy fan-favorite WarGames 3v3 and 4v4 matches in double-steel cage setups, take charge as a general manager in MyGM, build your dream team in MyFACTION with online play, and create your own WWE legend in MyRISE. From detailed visuals to deep storytelling and gameplay variety, WWE 2K23 offers the most immersive WWE game to date.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Wrestling / Sports</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online and Local</span></h6>",
+            "<h6><span>Main Mode</span><span>2K Showcase: John Cena</span></h6>",
+            "<h6><span>DualSense Support</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DEEP ROSTER</span><span class='detail-specs-h6'>- Features WWE Superstars and Legends including Roman Reigns, Cody Rhodes, Ronda Rousey, Brock Lesnar, and more.</span></h6>",
+            "<h6><span>2K SHOWCASE</span><span class='detail-specs-h6'>- Relive key moments from John Cena’s career, playing as his greatest opponents in an interactive sports documentary format.</span></h6>",
+            "<h6><span>WARGAMES MODE</span><span class='detail-specs-h6'>- Battle it out in 3v3 or 4v4 matches in a massive double-ring, double-steel cage setup.</span></h6>",
+            "<h6><span>MYGM MODE</span><span class='detail-specs-h6'>- Run your own WWE brand, compete for ratings, and manage match cards with expanded features and up to 4-player support.</span></h6>",
+            "<h6><span>MYFACTION</span><span class='detail-specs-h6'>- Collect, upgrade, and compete online with cards of WWE Superstars and Legends.</span></h6>",
+            "<h6><span>MYRISE MODE</span><span class='detail-specs-h6'>- Shape your WWE journey with two distinct storylines: The Lock and The Legacy.</span></h6>",
+            "<h6><span>UNIVERSE MODE</span><span class='detail-specs-h6'>- Total creative control over WWE shows, rivalries, championships, and more in the ultimate sandbox experience.</span></h6>",
+            "<h6><span>GRAPHICS & PERFORMANCE</span><span class='detail-specs-h6'>- Gorgeous next-gen visuals and smoother gameplay on PS5.</span></h6>",
+            "<h6><span>DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Immersive haptics and adaptive triggers add realism to every punch, slam, and finisher.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "wwe",
+            "2k23",
+            "wrestling",
+            "sports",
+            "john cena",
+            "legends",
+            "mygm",
+            "myfaction",
+            "war games"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-wwe-2k23-sport-game-8dXm7Tbxpm6thCL3n2dLQ89v.html?page=1&pos=6&cur_pos=6&ads_per_page=9&ads_count=9&lid=vDy97L2zGAA1eHfI&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/-jjh0l3kHjc?si=40Llc5tMQ9Bo07B8",
+        unboxingVideo: "https://www.youtube.com/embed/vCTsgXzWW-E?si=wYsH59UnlpW3Dgvv",
+        prevPrice: 6500,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2017,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746991462/ps5-ea-sports-wrc-2_h999py.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746991461/ps5-ea-sports-wrc_oj02cn.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746991461/ps5-ea-sports-wrc_oj02cn.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746991462/ps5-ea-sports-wrc-2_h999py.png", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746991462/ps5-ea-sports-wrc-3_tqic3h.png", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 EA Sports WRC – Rally Like a Champion",
+        SubTitle: "racing",
+        category: "games",
+        subCategory: ["playstation", "racing", "sports"],
+        variant: "ps5",
+        brand: "sony",
+        name: "ps5-ea-sports-wrc",
+        description: "Get behind the wheel of the most authentic rally racing experience in EA Sports WRC. Developed by the team behind Dirt Rally and officially licensed by the FIA, this game features cars and drivers from the 2023 WRC season, advanced driving physics, multiple modes, and in-depth customization options.",
+        detailsDescription: "EA Sports WRC on PS5 is the official game of the FIA World Rally Championship, built by the makers of the Dirt Rally series. Featuring the latest WRC, WRC2, and Junior WRC cars with official drivers and liveries from the 2023 season, this rally sim offers realism and immersion. Experience the all-new Builder Mode to design and race your custom rally car, and relive historic moments in rally racing history in Moments Mode. Whether it’s Career, Time Trial, Regularity Rally, or online Cross-Platform Multiplayer, WRC offers detailed physics, dynamic weather, surface degradation, and a multi-surface handling model to deliver the ultimate rally experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Rally</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online and Local</span></h6>",
+            "<h6><span>Game Modes</span><span>Career, Builder, Championship, Time Trial</span></h6>",
+            "<h6><span>DualSense Support</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OFFICIAL LICENSE</span><span class='detail-specs-h6'>- Features WRC, WRC2, and Junior WRC cars from the 2023 season with accurate teams, drivers, and liveries.</span></h6>",
+            "<h6><span>BUILDER MODE</span><span class='detail-specs-h6'>- Create your dream rally car and race it in the WRC circuit.</span></h6>",
+            "<h6><span>MULTIPLE MODES</span><span class='detail-specs-h6'>- Includes Career, Championship, Time Trial, Moments, and Regularity Rally modes for varied gameplay.</span></h6>",
+            "<h6><span>LIVERY EDITOR</span><span class='detail-specs-h6'>- Customize your vehicles with detailed liveries.</span></h6>",
+            "<h6><span>CROSS-PLATFORM MULTIPLAYER</span><span class='detail-specs-h6'>- Race online with up to 32 players across different platforms.</span></h6>",
+            "<h6><span>DYNAMIC PHYSICS</span><span class='detail-specs-h6'>- Advanced handling engine simulates real rally driving across dirt, snow, and asphalt.</span></h6>",
+            "<h6><span>AUTHENTIC STAGES</span><span class='detail-specs-h6'>- Accurately recreated rally stages from around the world with surface degradation and changing weather.</span></h6>",
+            "<h6><span>ACCESSIBILITY OPTIONS</span><span class='detail-specs-h6'>- Difficulty and assist settings cater to both newcomers and veterans.</span></h6>",
+            "<h6><span>IMMERSIVE DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Haptic feedback and adaptive triggers bring the rally experience to life on PS5.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "rally",
+            "wrc",
+            "racing",
+            "ea sports",
+            "builder mode",
+            "cross-platform",
+            "career mode"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ea-sports-wrc-2023-ps5-video-game-new-1ih4ruStf6F3hNOC47RihwTT.html?page=1&pos=1&cur_pos=1&ads_per_page=9&ads_count=9&lid=ERRldrudAcA2QBpQ&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/DPE-iTKft8E?si=WAPfLrIgsY-7Vkj7",
+        unboxingVideo: "https://www.youtube.com/embed/XDJIunGF4lQ?si=tJrrbA16dZEc5umT",
+        prevPrice: 7500,
+        nowPrice: 5500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2018,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992017/ps5-wwe-2k24-2_kdhhe2.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992015/ps5-wwe-2k24_uifq0o.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992015/ps5-wwe-2k24_uifq0o.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992017/ps5-wwe-2k24-2_kdhhe2.png", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992015/ps5-wwe-2k24-3_t5idro.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 WWE 2K24 – WrestleMania 40th Anniversary",
+        SubTitle: "sports",
+        category: "games",
+        subCategory: ["playstation", "sports"],
+        variant: "ps5",
+        brand: "",
+        name: "ps5-wwe-2k24",
+        description: "Celebrate 40 years of WrestleMania in WWE 2K24 for PS5. Step into the ring with legendary WWE icons and today’s superstars in one of the most content-rich wrestling games ever. Experience unforgettable moments across a variety of thrilling match types and game modes.",
+        detailsDescription: "WWE 2K24 on PS5 is a tribute to four decades of WrestleMania, featuring the most iconic WWE Legends and current Superstars. Relive John Cena’s career highlights in the Showcase of the Immortals, dominate in chaotic WarGames matches, or build your dream roster in MyFACTION. The game offers fan-favorite modes like MyGM and MyRISE with expanded content and new story arcs. Dive into new match types like Casket and Guest Referee matches, or oversee it all in WWE Universe Mode. With ultra-realistic graphics and fluid gameplay, WWE 2K24 offers the ultimate wrestling experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Wrestling</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online and Local</span></h6>",
+            "<h6><span>Main Modes</span><span>Showcase, MyGM, MyFACTION, MyRISE, Universe</span></h6>",
+            "<h6><span>Graphics</span><span>Ultra-realistic visuals</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SHOWCASE MODE</span><span class='detail-specs-h6'>- Relive 40 years of WrestleMania history and John Cena’s career in an interactive sports documentary format.</span></h6>",
+            "<h6><span>WARGAMES MATCHES</span><span class='detail-specs-h6'>- Experience chaotic 3v3 and 4v4 matches in a double-steel cage setting.</span></h6>",
+            "<h6><span>MyGM MODE</span><span class='detail-specs-h6'>- Compete as a General Manager, now with more match types, show options, and seasons.</span></h6>",
+            "<h6><span>MyFACTION</span><span class='detail-specs-h6'>- Collect and upgrade Superstars and Legends, compete in online multiplayer, and climb seasonal leaderboards.</span></h6>",
+            "<h6><span>MyRISE</span><span class='detail-specs-h6'>- Play through two distinct storylines for men’s and women’s divisions to rise through the WWE ranks.</span></h6>",
+            "<h6><span>WWE UNIVERSE MODE</span><span class='detail-specs-h6'>- Take full control of WWE, customizing rosters, rivalries, and weekly shows with expanded cutscenes.</span></h6>",
+            "<h6><span>NEW MATCH TYPES</span><span class='detail-specs-h6'>- Includes Guest Referee, Casket, Gauntlet, Ambulance matches, and expanded Backstage Brawls.</span></h6>",
+            "<h6><span>ICONIC ROSTER</span><span class='detail-specs-h6'>- Features WWE Legends like Stone Cold, Undertaker, Andre the Giant, and current stars like Cody Rhodes, Rhea Ripley, and Roman Reigns.</span></h6>",
+            "<h6><span>ENHANCED GRAPHICS</span><span class='detail-specs-h6'>- Realistic visuals bring entrances and signature moves to life like never before.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "wwe",
+            "wrestling",
+            "sports",
+            "wwe 2k24",
+            "myrise",
+            "mygm",
+            "showcase mode"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/wwe-2k24-ps5-game-w2k24-bqA8oI5ZqybvVguv8op6PS5.html?page=1&pos=1&cur_pos=1&ads_per_page=9&ads_count=9&lid=y1PPe18cAlhFtBpk&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/b7e-V-tY-zc?si=nNF0EW6JtJ2mT2yL",
+        unboxingVideo: "https://www.youtube.com/embed/V7QEmNfLZDw?si=DNmkQ4g9G2gkc8KC",
+        prevPrice: 5500,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2019,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992839/ps5-uncharted-legacy-of-thieves-2_kwotzp.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992838/ps5-uncharted-legacy-of-thieves_vzvhnl.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992838/ps5-uncharted-legacy-of-thieves_vzvhnl.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992839/ps5-uncharted-legacy-of-thieves-2_kwotzp.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992837/ps5-uncharted-legacy-of-thieves-3_jn8iso.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 UNCHARTED: Legacy of Thieves Collection – Remastered Adventure",
+        SubTitle: "action adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps5",
+        brand: "",
+        name: "ps5-uncharted-legacy-of-thieves",
+        description: "Join Nathan Drake and Chloe Frazer in the epic remastered adventure of UNCHARTED: Legacy of Thieves Collection for PS5. Featuring UNCHARTED 4: A Thief’s End and UNCHARTED: The Lost Legacy, this collection delivers cinematic storytelling, iconic action, and breathtaking visuals.",
+        detailsDescription: "UNCHARTED: Legacy of Thieves Collection brings together two critically acclaimed single-player adventures—UNCHARTED 4: A Thief’s End and UNCHARTED: The Lost Legacy—remastered for PS5. Explore exotic locations, solve ancient mysteries, and engage in thrilling combat with Naughty Dog’s signature storytelling. Enjoy upgraded graphics, faster loading, and DualSense controller features. With multiple performance modes, immersive 3D audio, and breathtaking action set pieces, this is the definitive way to experience UNCHARTED on next-gen hardware.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action-Adventure</span></h6>",
+            "<h6><span>Resolution</span><span>4K, 60fps, up to 120fps</span></h6>",
+            "<h6><span>Included Titles</span><span>UNCHARTED 4 & The Lost Legacy</span></h6>",
+            "<h6><span>Audio</span><span>3D Audio Support</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REMEMBERED CLASSICS</span><span class='detail-specs-h6'>- Includes remastered versions of UNCHARTED 4: A Thief’s End and UNCHARTED: The Lost Legacy.</span></h6>",
+            "<h6><span>CINEMATIC STORYTELLING</span><span class='detail-specs-h6'>- Experience gripping narratives with iconic set pieces and immersive environments.</span></h6>",
+            "<h6><span>EXPANDED STORYLINES</span><span class='detail-specs-h6'>- Follow the individual journeys of Nathan Drake and Chloe Frazer across the globe.</span></h6>",
+            "<h6><span>ENHANCED PERFORMANCE</span><span class='detail-specs-h6'>- Choose from Fidelity mode (4K at 30fps), Performance mode (60fps), or Performance+ (120fps at 1080p).</span></h6>",
+            "<h6><span>3D AUDIO & DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Feel the action with haptic feedback and adaptive triggers, and hear the world around you in immersive 3D audio.</span></h6>",
+            "<h6><span>FAST LOADING</span><span class='detail-specs-h6'>- Enjoy near-instant loading thanks to the PS5’s ultra-high-speed SSD.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "uncharted",
+            "action",
+            "adventure",
+            "nathan drake",
+            "remastered",
+            "legacy of thieves"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/uncharted-legacy-of-thieves-collection-ps5-game-new-gd5D0qfSycu7fZTNBShtzIZ9.html?page=1&pos=1&cur_pos=1&ads_per_page=14&ads_count=14&lid=WuxgVMcZohzN1eNQ&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/y9wRaZCo_1I?si=8eJSmGSIbzMzqjmE",
+        unboxingVideo: "https://www.youtube.com/embed/gYFXv9CzGMw?si=5okNdmadFmQMv2Sm",
+        prevPrice: 5500,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2020,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746993384/ps5-call-of-duty-black-ops-6-2_kbc7zd.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746993383/ps5-call-of-duty-black-ops-6_id7rsn.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746993383/ps5-call-of-duty-black-ops-6_id7rsn.png", // Image 1 of COD BO6 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746993384/ps5-call-of-duty-black-ops-6-2_kbc7zd.jpg", // Image 2 of COD BO6 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746993387/ps5-call-of-duty-black-ops-6-3_d737ro.png", // Image 3 of COD BO6 PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Call of Duty: Black Ops 6 – Spy Thriller Shooter",
+        SubTitle: "Call of Duty Black Ops 6",
+        category: "games",
+        subCategory: ["playstation", "first-person shooter"],
+        variant: "ps5",
+        brand: "Activision",
+        name: "ps5-call-of-duty-black-ops-6",
+        description: "PS5 Call of Duty: Black Ops 6 plunges you into a high-stakes spy action thriller set during the chaotic early 90s. Developed by Treyarch and Raven, this cinematic installment delivers an intense campaign, elite multiplayer modes, and the return of iconic Round-Based Zombies.",
+        detailsDescription: "Experience a bold narrative driven by espionage and betrayal in PS5 Call of Duty: Black Ops 6. Set in the turbulent post-Cold War era, players join Frank Woods and a rogue team in a thrilling fight against a corrupted CIA. Featuring next-gen visuals, unshackled combat movement, and immersive DualSense controller feedback, this game redefines tactical shooter gameplay. Engage in adrenaline-pumping multiplayer action and fan-favorite Round-Based Zombies, all updated seasonally with fresh content, maps, and challenges. Black Ops 6 is the ultimate combat experience for thrill-seekers and COD fans alike.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>First-Person Shooter</span></h6>",
+            "<h6><span>Campaign</span><span>Early 90s Spy Thriller</span></h6>",
+            "<h6><span>Zombies Mode</span><span>Round-Based, New Maps</span></h6>",
+            "<h6><span>Multiplayer</span><span>Classic Modes & Seasonal Updates</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>3D AUDIO</span><span class='detail-specs-h6'>- Experience immersive audio with Tempest 3D AudioTech, capturing every footstep and gunfire.</span></h6>",
+            "<h6><span>STUNNING VISUALS</span><span class='detail-specs-h6'>- Enjoy lifelike graphics with ray-traced lighting and high-resolution textures.</span></h6>",
+            "<h6><span>OMNI-MOVEMENT</span><span class='detail-specs-h6'>- Fluid and unrestricted movement lets you outmaneuver enemies from any direction.</span></h6>",
+            "<h6><span>DUALSENSE ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Feel unique weapon recoil and firing patterns through adaptive trigger functionality.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Experience each reload, impact, and explosion with immersive haptic feedback.</span></h6>",
+            "<h6><span>ROUND-BASED ZOMBIES</span><span class='detail-specs-h6'>- Fight the undead in the beloved Round-Based Zombies mode with brand-new maps.</span></h6>",
+            "<h6><span>MULTIPLAYER MODES</span><span class='detail-specs-h6'>- Play fan favorites like Deathmatch, Domination, and Search and Destroy.</span></h6>",
+            "<h6><span>SEASONAL CONTENT</span><span class='detail-specs-h6'>- Stay engaged with regular seasonal updates, maps, and events.</span></h6>"
+        ],
+        tags: [
+            "ps5",
+            "call of duty",
+            "black ops 6",
+            "first person shooter",
+            "multiplayer",
+            "zombies",
+            "campaign",
+            "action"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/black-ops-6-call-of-duty-ps5-pDgWwXf3mce5lrtiX3QRgXXI.html?page=1&pos=11&cur_pos=11&ads_per_page=21&ads_count=21&lid=AR8o7u88usHCnp6R&indexPosition=10",
+        youtubeReview: "https://www.youtube.com/embed/yOLsKHJSXyQ?si=2lRkJoS3yOZUMnW6",
+        unboxingVideo: "https://www.youtube.com/embed/iu_5r3UnJ-4?si=wTcokCYMS5HJSiyM",
+        prevPrice: 9800,
+        nowPrice: 7500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2021,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994046/ps5-f1-2023-3_u4ln3m.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994046/ps5-f1-2023_l4z8kf.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994046/ps5-f1-2023_l4z8kf.png", // Image 1 of F1 2023 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994045/ps5-f1-2023-2_i7quz7.jpg", // Image 2 of F1 2023 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994046/ps5-f1-2023-3_u4ln3m.jpg", // Image 3 of F1 2023 PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 F1 2023 – Official Formula One Racing Game",
+        SubTitle: "F1 2023",
+        category: "games",
+        subCategory: ["playstation", "racing"],
+        variant: "ps5",
+        brand: "EA Sports",
+        name: "ps5-f1-2023",
+        description: "PS5 F1 2023 is the official video game of the 2023 FIA Formula One World Championship. Experience wheel-to-wheel racing on new circuits like Las Vegas and Qatar, and relive the thrill of Braking Point 2 with updated cars, drivers, and game modes.",
+        detailsDescription: "Be the last to brake in PS5 F1 2023, the ultimate Formula One experience from EA Sports. Race with the official 2023 lineup of 20 drivers and 10 teams on iconic tracks including the new Las Vegas and Qatar Grand Prix circuits. Enjoy Braking Point 2, a dramatic single-player story filled with rivalries and drama. The new F1 World hub offers daily and seasonal challenges, while Red Flags and 35% Race Distance bring a fresh layer of strategy. Create your own dream team in My Team mode, race split-screen or online via cross-platform multiplayer, and rise up in Racenet Leagues with friends.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Simulation</span></h6>",
+            "<h6><span>Story Mode</span><span>Braking Point 2</span></h6>",
+            "<h6><span>New Circuits</span><span>Las Vegas, Qatar</span></h6>",
+            "<h6><span>Teams/Drivers</span><span>2023 Official Lineup</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>F1 WORLD</span><span class='detail-specs-h6'>- Tackle daily, weekly, and seasonal challenges with rewards and progression in the all-new F1 World hub.</span></h6>",
+            "<h6><span>NEW CIRCUITS</span><span class='detail-specs-h6'>- Race on exciting new tracks including the Las Vegas and Qatar Grand Prix circuits.</span></h6>",
+            "<h6><span>BRAKING POINT 2</span><span class='detail-specs-h6'>- Continue the dramatic F1 narrative in a new single-player story filled with tension and career choices.</span></h6>",
+            "<h6><span>RED FLAGS & 35% RACE DISTANCE</span><span class='detail-specs-h6'>- Introduces more realism and strategy to the race weekend experience.</span></h6>",
+            "<h6><span>RACENET LEAGUES</span><span class='detail-specs-h6'>- Engage with the F1 community through structured online leagues.</span></h6>",
+            "<h6><span>MULTIPLAYER</span><span class='detail-specs-h6'>- Enjoy competitive cross-platform multiplayer and couch co-op split-screen mode.</span></h6>",
+            "<h6><span>TECH LEVEL SYSTEM</span><span class='detail-specs-h6'>- Upgrade your F1 World car with performance boosts and unlockables.</span></h6>",
+            "<h6><span>LICENSE SYSTEM</span><span class='detail-specs-h6'>- Encourages clean racing by rewarding respectful driving behavior.</span></h6>"
+        ],
+        tags: [
+            "f1",
+            "ps5",
+            "formula 1",
+            "racing",
+            "braking point",
+            "cross-platform",
+            "las vegas grand prix",
+            "ea sports",
+            "f1 world"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://www.phoneplacekenya.com/product/ps5-f1-2023/",
+        youtubeReview: "https://www.youtube.com/embed/ZWDDZ6OVdIo?si=43Ad3iaz4m2qWyfo",
+        unboxingVideo: "https://www.youtube.com/embed/W0xj9pRVIls?si=cQ7__Ks3YQSUqUu7",
+        prevPrice: 8500,
+        nowPrice: 6999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2022,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995034/ps5-far-cry-6-2_tybyr7.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995032/ps5-far-cry-6_skms6t.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995032/ps5-far-cry-6_skms6t.png", // Image 1 of Far Cry 6 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995033/ps5-far-cry-6-2_bjp5pd.jpg", // Image 2 of Far Cry 6 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995034/ps5-far-cry-6-2_tybyr7.png", // Image 3 of Far Cry 6 PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Far Cry 6 – Guerrilla Revolution in a Tropical Paradise",
+        SubTitle: "Action Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps5",
+        brand: "Ubisoft",
+        name: "ps5-far-cry-6",
+        description: "Far Cry 6 on PS5 immerses you in the explosive world of Yara, a tropical island under siege. Step into the shoes of guerrilla fighter Dani Rojas as you challenge the oppressive regime of Antón Castillo in a fight for freedom, armed with wild weapons and loyal animal companions.",
+        detailsDescription: "Welcome to Yara, a stunning yet brutal island nation ruled by dictator Antón Castillo, portrayed by Giancarlo Esposito. In PS5 Far Cry 6, become Dani Rojas—a local fighter who joins the revolution to liberate their homeland. With breathtaking open-world exploration, an arsenal of resolver-style weapons, and loyal companions like Chorizo the dog, the revolution is in your hands. Utilize PS5 features like haptic feedback, adaptive triggers, and lightning-fast loading to make your resistance feel more real than ever.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action / Adventure</span></h6>",
+            "<h6><span>Setting</span><span>Yara (fictional island)</span></h6>",
+            "<h6><span>Main Character</span><span>Dani Rojas</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online Co-op (2 players)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENGAGING STORYLINE</span><span class='detail-specs-h6'>- Experience a compelling narrative featuring Hollywood actors Giancarlo Esposito and Anthony Gonzalez.</span></h6>",
+            "<h6><span>EXPANSIVE OPEN WORLD</span><span class='detail-specs-h6'>- Explore beaches, jungles, and the capital city, Esperanza.</span></h6>",
+            "<h6><span>RESOLVER WEAPONS</span><span class='detail-specs-h6'>- Craft and wield unique DIY weapons and backpacks for explosive guerrilla combat.</span></h6>",
+            "<h6><span>GUERRILLA COMPANIONS</span><span class='detail-specs-h6'>- Fight alongside animal allies like Chorizo the dog and Guapo the crocodile.</span></h6>",
+            "<h6><span>PS5 FEATURES</span><span class='detail-specs-h6'>- Enjoy haptic feedback, adaptive triggers, and faster load times.</span></h6>",
+            "<h6><span>FREE UPGRADE</span><span class='detail-specs-h6'>- Includes a free PS4 to PS5 version upgrade.</span></h6>",
+            "<h6><span>GAME HELP</span><span class='detail-specs-h6'>- Use PS5’s integrated Game Help for guided tips and progress support.</span></h6>"
+        ],
+        tags: [
+            "far cry",
+            "ps5",
+            "ubisoft",
+            "first-person shooter",
+            "open world",
+            "guerrilla warfare",
+            "antón castillo",
+            "yara",
+            "resolver weapons"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps-5-farcry-6-ipH7R6FESQrpHemocTMqUxWN.html?page=1&pos=14&cur_pos=14&ads_per_page=14&ads_count=14&lid=nygPl6UpXwG3fS4q&indexPosition=13",
+        youtubeReview: "https://www.youtube.com/embed/eCH32PWpc1w?si=UBf4aNTdNEad2Y7H",
+        unboxingVideo: "https://www.youtube.com/embed/lq6zc4Z60P0?si=PhiW_6h33ZzYCIZa",
+        prevPrice: 6800,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2023,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995888/ps5-fortnite-transformers-pack-2_fuyvq7.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995888/ps5-fortnite-transformers-pack_xviweg.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995888/ps5-fortnite-transformers-pack_xviweg.png", // Image 1 of Fortnite Transformers Pack
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995888/ps5-fortnite-transformers-pack-2_fuyvq7.jpg", // Image 2 of Fortnite Transformers Pack
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995891/ps5-fortnite-transformers-pack-3_pcgvoz.jpg", // Image 3 of Fortnite Transformers Pack
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Fortnite Transformers Pack – Roll Out with Bumblebee, Megatron & BattleBus",
+        SubTitle: "battle royale",
+        category: "games",
+        subCategory: ["playstation", "battle-royale"],
+        variant: "ps5",
+        brand: "Epic Games",
+        name: "ps5-fortnite-transformers-pack",
+        description: "The PS5 Fortnite Transformers Pack unleashes three legendary Transformers—Bumblebee, Megatron, and BattleBus—into the Fortnite universe. With themed outfits, back blings, pickaxes, emotes, and 1,000 V-Bucks, this action-packed bundle is the ultimate crossover experience.",
+        detailsDescription: "Join the action in Fortnite with the PS5 Transformers Pack, featuring iconic Transformers characters like Megatron, Bumblebee, and BattleBus in a Fortnite-exclusive bundle. This pack includes 3 detailed outfits, 3 themed back blings, 3 unique pickaxes, 2 emotes, and 1,000 V-Bucks to customize your gameplay. Battle your way through zero build or classic modes and explore the vast Fortnite universe with this epic Transformers expansion.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Battle Royale / Action</span></h6>",
+            "<h6><span>V-Bucks Included</span><span>1,000</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online Multiplayer</span></h6>",
+            "<h6><span>Outfits</span><span>Megatron, Bumblebee, BattleBus</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>TRANSFORMERS-THEMED OUTFITS</span><span class='detail-specs-h6'>- Includes Megatron, Bumblebee, and BattleBus outfits.</span></h6>",
+            "<h6><span>BACK BLINGS & PICKAXES</span><span class='detail-specs-h6'>- Each character includes a themed back bling and pickaxe.</span></h6>",
+            "<h6><span>EXCLUSIVE EMOTES</span><span class='detail-specs-h6'>- Fusion Cannon and Battle Ready emotes included.</span></h6>",
+            "<h6><span>1,000 V-BUCKS</span><span class='detail-specs-h6'>- Use for additional in-game cosmetic purchases.</span></h6>",
+            "<h6><span>ENHANCED GRAPHICS</span><span class='detail-specs-h6'>- Optimized visuals and character designs for the PS5.</span></h6>",
+            "<h6><span>FREE-TO-PLAY BASE GAME</span><span class='detail-specs-h6'>- Base Fortnite game is free to download and play with this pack expanding your experience.</span></h6>"
+        ],
+        tags: [
+            "fortnite",
+            "transformers",
+            "ps5",
+            "epic games",
+            "bumblebee",
+            "megatron",
+            "battlebus",
+            "v-bucks",
+            "cosmetic pack"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/fortnite-transformers-pack-ps5-zrZnrFxncbWdYhnnNPJlwQY0.html?page=1&pos=1&cur_pos=1&ads_per_page=1&ads_count=1&lid=MvAAjykXzWS77IcO&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/wbfPvrikuSE?si=JgzfPM6awa9ZcmlS",
+        unboxingVideo: "https://www.youtube.com/embed/sNK-24ilwvk?si=tLfkUvSxPdleDmKl",
+        prevPrice: 5500,
+        nowPrice: 4000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2024,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "",
+        mainproductImage: "",
+        imageColorMap: [
+            {
+                image: "", // Image 1 of Elden Ring
+                color: "ps5"
+            },
+            {
+                image: "", // Image 2 of Elden Ring
+                color: "ps5"
+            },
+            {
+                image: "", // Image 3 of Elden Ring
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Elden Ring – Rise, Tarnished, and Become the Elden Lord",
+        SubTitle: "Elden Ring",
+        category: "games",
+        subCategory: ["playstation", "action RPG"],
+        variant: "ps5",
+        brand: "Bandai Namco",
+        name: "ps5-elden-ring",
+        description: "Venture into the shattered Lands Between in PS5 Elden Ring, a grand fantasy action-RPG from the minds of George R.R. Martin and Hidetaka Miyazaki. Build your character, wield mighty weapons, summon allies, and battle grotesque foes in a world abandoned by grace and ruled by chaos.",
+        detailsDescription: "PS5 Elden Ring plunges players into the vast and mysterious Lands Between, where the Elden Ring lies shattered and power has fractured across warring demigods. As the Tarnished, journey through haunting landscapes and forgotten ruins to reclaim lost grace and become the Elden Lord. Experience horseback combat on your steed Torrent, dynamic weather, a deeply customizable character system, and immersive DualSense features like adaptive triggers and haptic feedback. A new fantasy epic awaits.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action RPG / Open World</span></h6>",
+            "<h6><span>Developer</span><span>FromSoftware</span></h6>",
+            "<h6><span>Multiplayer</span><span>Up to 6 players online</span></h6>",
+            "<h6><span>Graphics</span><span>Stunning next-gen visuals</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>EXPANSIVE OPEN WORLD</span><span class='detail-specs-h6'>- Explore the massive Lands Between with diverse biomes and hidden secrets.</span></h6>",
+            "<h6><span>HORSEBACK COMBAT</span><span class='detail-specs-h6'>- Engage in fast-paced mounted battles and traverse terrain on your horse Torrent.</span></h6>",
+            "<h6><span>ADAPTIVE TRIGGERS & HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Experience realistic combat with PS5 DualSense enhancements.</span></h6>",
+            "<h6><span>CHARACTER CUSTOMIZATION</span><span class='detail-specs-h6'>- Create a unique character with customizable stats, gear, magic, and abilities.</span></h6>",
+            "<h6><span>ENGAGING COMBAT SYSTEM</span><span class='detail-specs-h6'>- Choose from swords, spells, bows, and more in deep strategic combat.</span></h6>",
+            "<h6><span>SUMMONABLE ALLIES</span><span class='detail-specs-h6'>- Summon NPCs or players to assist in tough battles or PvP.</span></h6>",
+            "<h6><span>RICH LORE</span><span class='detail-specs-h6'>- Dive into a mythos crafted by George R.R. Martin and Hidetaka Miyazaki.</span></h6>"
+        ],
+        tags: [
+            "elden ring",
+            "ps5",
+            "bandai namco",
+            "fromsoftware",
+            "open world",
+            "george r.r. martin",
+            "soulslike",
+            "dark fantasy"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 6500,
+        nowPrice: 6000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+
+
 
 
 
