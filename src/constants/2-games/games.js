@@ -1382,9 +1382,9 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 Call of Duty: Black Ops 6 – Spy Thriller Shooter",
-        SubTitle: "Call of Duty Black Ops 6",
+        SubTitle: "First Person Shooter",
         category: "games",
-        subCategory: ["playstation", "first-person shooter"],
+        subCategory: ["playstation", "action", "shooter",],
         variant: "ps5",
         brand: "Activision",
         name: "ps5-call-of-duty-black-ops-6",
@@ -1453,7 +1453,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 F1 2023 – Official Formula One Racing Game",
-        SubTitle: "F1 2023",
+        SubTitle: "racing",
         category: "games",
         subCategory: ["playstation", "racing"],
         variant: "ps5",
@@ -1648,27 +1648,27 @@ export const games = [
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "",
-        mainproductImage: "",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036447/ps5-elden-ring-3_zxkvrj.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036447/ps5-elden-ring_oa2e8x.png",
         imageColorMap: [
             {
-                image: "", // Image 1 of Elden Ring
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036447/ps5-elden-ring_oa2e8x.png", // Image 1 of Elden Ring
                 color: "ps5"
             },
             {
-                image: "", // Image 2 of Elden Ring
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036447/ps5-elden-ring-3_zxkvrj.jpg", // Image 2 of Elden Ring
                 color: "ps5"
             },
             {
-                image: "", // Image 3 of Elden Ring
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036450/ps5-elden-ring-2_k1kqgl.jpg", // Image 3 of Elden Ring
                 color: "ps5"
             }
         ],
         defaultColor: "ps5",
         Title: "PS5 Elden Ring – Rise, Tarnished, and Become the Elden Lord",
-        SubTitle: "Elden Ring",
+        SubTitle: "Action - RPG",
         category: "games",
-        subCategory: ["playstation", "action RPG"],
+        subCategory: ["playstation", "action", "rpg"],
         variant: "ps5",
         brand: "Bandai Namco",
         name: "ps5-elden-ring",
@@ -1702,15 +1702,527 @@ export const games = [
         ],
         carousels: [],
         storage: "",
-        dropURL: "",
-        youtubeReview: "",
-        unboxingVideo: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps5-elden-ring/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/0uav6zQKiMQ?si=01oQaP47nIikJDkK",
+        unboxingVideo: "https://www.youtube.com/embed/K-T-kPvlZt0?si=wqcgMrcGulxu5XnQ",
         prevPrice: 6500,
-        nowPrice: 6000,
+        nowPrice: 5300,
         stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.8
+    },
+    {
+        productID: 2025,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747037407/ps5-godfall-2_rybfle.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747037401/ps5-godfall_iot6pk.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747037401/ps5-godfall_iot6pk.png", // Image 1 of Godfall
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747037407/ps5-godfall-2_rybfle.png", // Image 2 of Godfall
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747037402/ps5-godfall-3_tga2kb.jpg", // Image 3 of Godfall
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Godfall – Looter-Slasher Combat in a Bright Fantasy Realm",
+        SubTitle: "action - rpg",
+        category: "games",
+        subCategory: ["playstation", "action", "rpg"],
+        variant: "ps5",
+        brand: "Gearbox Publishing",
+        name: "ps5-godfall",
+        description: "Unleash your inner warrior in PS5 Godfall, a visually stunning next-gen looter-slasher set in the vibrant world of Aperion. Battle your way through elemental realms using powerful Valorplates, customizable armor sets that grant divine strength, as you fight to prevent the apocalypse.",
+        detailsDescription: "Godfall on PS5 immerses players in a high-fantasy universe where knights wield arcane power and the stakes are apocalyptic. Take on the role of Orin, the last of the Valorian knights, and rise through the elemental realms to stop a catastrophic event. Featuring high-impact third-person melee combat, deep loot systems, and online co-op for up to three players, Godfall offers a unique blend of RPG and hack-and-slash gameplay. Enjoy full HDR support, adaptive triggers, and haptic feedback for an immersive experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action RPG / Looter-Slasher</span></h6>",
+            "<h6><span>Developer</span><span>Counterplay Games</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online Co-op (1–3 players)</span></h6>",
+            "<h6><span>Graphics</span><span>Full HDR with next-gen visuals</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BRIGHT FANTASY UNIVERSE</span><span class='detail-specs-h6'>- Explore Aperion, a lush, elemental realm filled with heroic knights and arcane magic.</span></h6>",
+            "<h6><span>HIGH-IMPACT COMBAT</span><span class='detail-specs-h6'>- Master intense third-person melee combat with multiple weapon classes.</span></h6>",
+            "<h6><span>VALORPLATES</span><span class='detail-specs-h6'>- Don legendary armor sets that transform your playstyle and abilities.</span></h6>",
+            "<h6><span>ENDGAME MODES</span><span class='detail-specs-h6'>- Tackle high-level content like Dreamstones, Lightbringer, and Tower of Trials.</span></h6>",
+            "<h6><span>CO-OP MULTIPLAYER</span><span class='detail-specs-h6'>- Team up with up to 2 other players for challenging co-op gameplay.</span></h6>",
+            "<h6><span>CUSTOMIZATION</span><span class='detail-specs-h6'>- Unlock and equip 123 unique Valorplate skins for personalization.</span></h6>",
+            "<h6><span>ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Feel each strike with next-gen controller feedback.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Experience dynamic combat sensations with the DualSense controller.</span></h6>"
+        ],
+        tags: [
+            "godfall",
+            "ps5",
+            "gearbox",
+            "looter-slasher",
+            "action rpg",
+            "valorplates",
+            "co-op game",
+            "fantasy combat"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps5-godfall/",
+        youtubeReview: "https://www.youtube.com/embed/K_khz6jSjSc?si=f9VcijpnRWMGxrpS",
+        unboxingVideo: "https://www.youtube.com/embed/IzKOQ0enWfY?si=deAm545fVdff8yP_",
+        prevPrice: 5500,
+        nowPrice: 3999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.3
+    },
+    {
+        productID: 2026,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747038869/ps5-wrc-generations-2_lo8v6q.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747038862/ps5-wrc-generations_mcz5o9.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747038862/ps5-wrc-generations_mcz5o9.png", // Image 1 of WRC Generations
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747038869/ps5-wrc-generations-2_lo8v6q.jpg", // Image 2 of WRC Generations
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747038869/ps5-wrc-generations-3_uackus.jpg", // Image 3 of WRC Generations
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 WRC Generations – The FIA WRC Official Game",
+        SubTitle: "racing",
+        category: "games",
+        subCategory: ["playstation", "racing"],
+        variant: "ps5",
+        brand: "Nacon",
+        name: "ps5-wrc-generations",
+        description: "Race through the most realistic and comprehensive rally simulation ever with PS5 WRC Generations. Experience the new hybrid era of rally cars, compete online in the all-new Leagues mode, and customize your liveries for the ultimate rallying adventure.",
+        detailsDescription: "PS5 WRC Generations brings the full experience of the 2022 FIA World Rally Championship to your console. Drive the latest hybrid Rally1 cars with gameplay mechanics that simulate energy management and engine mapping. Featuring over 750 km of special stages across 22 countries, 49 official teams, and 37 legendary vehicles, WRC Generations delivers unmatched content and realism. Create custom liveries and share them with the community, explore the redesigned Rally Sweden with six new stages, and rise through the ranks in competitive Leagues mode. It's the most expansive and authentic rally simulation yet.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Rally Simulation</span></h6>",
+            "<h6><span>Developer</span><span>Kylotonn</span></h6>",
+            "<h6><span>Online Multiplayer</span><span>Yes (Leagues mode)</span></h6>",
+            "<h6><span>Car Models</span><span>2022 Rally1 Hybrid Cars + 37 Legendary Models</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>NEW HYBRID ERA</span><span class='detail-specs-h6'>- Experience the power and strategy of hybrid Rally1 cars from the 2022 season.</span></h6>",
+            "<h6><span>LEAGUES MODE</span><span class='detail-specs-h6'>- Compete online against similarly ranked players and rise through divisions.</span></h6>",
+            "<h6><span>LIVERY SHARING</span><span class='detail-specs-h6'>- Share your custom liveries and stickers with the community for recognition.</span></h6>",
+            "<h6><span>MASSIVE CONTENT</span><span class='detail-specs-h6'>- 750km of roads, 165 timed stages, 22 countries, and 49 official teams.</span></h6>",
+            "<h6><span>REDESIGNED RALLY SWEDEN</span><span class='detail-specs-h6'>- Includes 6 new special stages in Umeå for a realistic winter rally experience.</span></h6>",
+            "<h6><span>REALISTIC PHYSICS</span><span class='detail-specs-h6'>- Improved handling and terrain response for deeper immersion.</span></h6>",
+            "<h6><span>TEAM MANAGEMENT</span><span class='detail-specs-h6'>- Create and manage your own in-game rally team.</span></h6>",
+            "<h6><span>PS5 FEATURES</span><span class='detail-specs-h6'>- Fast load times, adaptive triggers, and haptic feedback for a true rally feel.</span></h6>"
+        ],
+        tags: [
+            "wrc generations",
+            "ps5 racing",
+            "fia wrc",
+            "rally sim",
+            "hybrid rally",
+            "nacon",
+            "kylotonn",
+            "off-road",
+            "rally cars",
+            "competitive racing"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/wrc-generations-ps5-vWhIoI9VlDyvLnWpTV5ukK2d.html?page=1&pos=1&cur_pos=1&ads_per_page=10&ads_count=10&lid=8ulpXxKcR5UbN4MT&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/B9GPFXkrd8M?si=ZYxnWAyAs0-nIRbr",
+        unboxingVideo: "https://www.youtube.com/embed/U2iYUS7lR0Y?si=s5--grliHLnePVJl",
+        prevPrice: 5000,
+        nowPrice: 4300,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.1
+    },
+    {
+        productID: 2027,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039617/ps5-call-of-duty-vanguard-2_qx20ij.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039618/ps5-call-of-duty-vanguard_l7o5hv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039618/ps5-call-of-duty-vanguard_l7o5hv.png", // Image 1 of COD Vanguard PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039617/ps5-call-of-duty-vanguard-2_qx20ij.jpg", // Image 2 of COD Vanguard PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039617/ps5-call-of-duty-vanguard-3_rfgsq2.png", // Image 3 of COD Vanguard PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Call of Duty: Vanguard",
+        SubTitle: "action shooter",
+        category: "games",
+        subCategory: ["playstation", "action", "shooter"],
+        variant: "ps5",
+        brand: "Activision",
+        name: "ps5-call-of-duty-vanguard",
+        description: "Experience World War II like never before with PS5 Call of Duty: Vanguard. Join a global cast of heroes as you fight across the Eastern and Western Fronts, North Africa, and the Pacific in this cinematic, high-octane shooter from Sledgehammer Games.",
+        detailsDescription: "Call of Duty: Vanguard places players at the center of World War II’s most pivotal battles through the eyes of international soldiers who shaped the war’s outcome. With a gripping campaign, expansive multiplayer options, and a chilling Zombies experience by Treyarch, Vanguard offers intense gameplay across diverse theaters of war. Featuring cross-platform play, seasonal events, Warzone integration, and deep customization, this title pushes the boundaries of next-gen combat. Step into the fight and become the vanguard of victory.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>First-Person Shooter</span></h6>",
+            "<h6><span>Developer</span><span>Sledgehammer Games</span></h6>",
+            "<h6><span>Multiplayer</span><span>Yes (Online + Zombies)</span></h6>",
+            "<h6><span>Warzone Integration</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>IMMERSIVE CAMPAIGN</span><span class='detail-specs-h6'>- Fight through pivotal battles of WWII across four major fronts in a cinematic single-player experience.</span></h6>",
+            "<h6><span>MULTIPLAYER ACTION</span><span class='detail-specs-h6'>- 20 multiplayer maps at launch, including 16 core maps with multiple new game modes and seasonal events.</span></h6>",
+            "<h6><span>ZOMBIES EXPERIENCE</span><span class='detail-specs-h6'>- Face off against the undead in a new narrative-driven Zombies mode from Treyarch.</span></h6>",
+            "<h6><span>CROSS-PLATFORM PLAY</span><span class='detail-specs-h6'>- Supports cross-progression and cross-generation play between PS4 and PS5.</span></h6>",
+            "<h6><span>WARZONE INTEGRATION</span><span class='detail-specs-h6'>- Seamless content integration with Call of Duty: Warzone post-launch.</span></h6>",
+            "<h6><span>CUSTOMIZATION</span><span class='detail-specs-h6'>- Deep weapon and operator customization options for unique loadouts.</span></h6>",
+            "<h6><span>PS5 ENHANCEMENTS</span><span class='detail-specs-h6'>- Adaptive triggers and haptic feedback deliver next-gen realism in every firefight.</span></h6>",
+            "<h6><span>VIBRANT VISUALS & SOUND</span><span class='detail-specs-h6'>- Incredible visual fidelity and immersive audio for a cinematic gameplay experience.</span></h6>"
+        ],
+        tags: [
+            "call of duty",
+            "cod vanguard",
+            "ps5 shooter",
+            "world war 2",
+            "zombies mode",
+            "activision",
+            "multiplayer fps",
+            "warzone",
+            "crossplay",
+            "sledgehammer"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-call-of-duty-vanguard-zSBIC9CrPpCoQ6KOj9B4Lzbd.html?page=1&pos=18&cur_pos=18&ads_per_page=21&ads_count=21&lid=uqRyoWSFLypKex6x&indexPosition=17",
+        youtubeReview: "https://www.youtube.com/embed/hDMXN82aQnY?si=hjFBfKDnZsrL2OCY",
+        unboxingVideo: "https://www.youtube.com/embed/sAz5OWaW8aU?si=ZqTuk5GFnshpHibP",
+        prevPrice: 6000,
+        nowPrice: 4300,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.2
+    },
+    {
+        productID: 2028,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040505/ps5-nba-2k24-2_i8ozcm.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040506/ps5-nba-2k24_phebyg.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040506/ps5-nba-2k24_phebyg.png", // NBA 2K24 PS5 image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040505/ps5-nba-2k24-2_i8ozcm.png", // NBA 2K24 PS5 image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040512/ps5-nba-2k24-3_yklmgy.png", // NBA 2K24 PS5 image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 NBA 2K24 - A realistic and immersive hoops experience",
+        SubTitle: "sports",
+        category: "games",
+        subCategory: ["playstation", "sports"],
+        variant: "ps5",
+        brand: "2K Sports",
+        name: "ps5-nba-2k24",
+        description: "Step into the world of basketball greatness with PS5 NBA 2K24. Featuring up-to-date NBA and WNBA rosters, revamped gameplay mechanics, and the ability to relive Kobe Bryant’s iconic MAMBA MOMENTS, NBA 2K24 delivers a realistic and immersive hoops experience like never before.",
+        detailsDescription: "NBA 2K24 on PlayStation 5 brings the excitement and drama of basketball to your fingertips. Play as current superstars or all-time legends, and dominate in dynamic modes like MyCAREER, MyTEAM, and MyNBA. Utilize new ProPLAY technology for hyper-realistic gameplay and enhanced player movement. Compete in The City with friends, recreate Kobe Bryant’s most memorable performances, and showcase your skills in a refined and responsive basketball simulation. With rich customization, immersive visuals, and crossplay support, NBA 2K24 is the definitive basketball experience on next-gen.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Basketball</span></h6>",
+            "<h6><span>Developer</span><span>Visual Concepts</span></h6>",
+            "<h6><span>Crossplay</span><span>Yes</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online & Offline</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC ROSTERS</span><span class='detail-specs-h6'>- Features updated NBA and WNBA teams, including legendary historic rosters.</span></h6>",
+            "<h6><span>REVAMPED GAMEPLAY</span><span class='detail-specs-h6'>- Improved interior defense and dribble controls make gameplay more skill-based and rewarding.</span></h6>",
+            "<h6><span>MyCAREER MODE</span><span class='detail-specs-h6'>- Build your MyPLAYER, rise through the ranks, and dominate the league in a new cityscape.</span></h6>",
+            "<h6><span>MyTEAM MODE</span><span class='detail-specs-h6'>- Collect legends and all-stars to form your dream team with new salary cap mechanics.</span></h6>",
+            "<h6><span>MAMBA MOMENTS</span><span class='detail-specs-h6'>- Relive Kobe Bryant’s legendary moments and climb to greatness.</span></h6>",
+            "<h6><span>ProPLAY TECHNOLOGY</span><span class='detail-specs-h6'>- Translates real NBA footage into gameplay for unparalleled realism.</span></h6>",
+            "<h6><span>THE CITY & NEIGHBORHOOD</span><span class='detail-specs-h6'>- Explore and compete in an all-new environment with quests and streetball vibes.</span></h6>",
+            "<h6><span>MyNBA MODE</span><span class='detail-specs-h6'>- Manage your team through eras, make executive decisions, and shape the league.</span></h6>",
+            "<h6><span>VISUALS & SOUND</span><span class='detail-specs-h6'>- Lifelike animations and a dynamic soundtrack for maximum immersion.</span></h6>",
+            "<h6><span>CROSSPLAY</span><span class='detail-specs-h6'>- Compete with friends across platforms in supported modes.</span></h6>"
+        ],
+        tags: [
+            "nba 2k24",
+            "basketball game",
+            "kobe bryant",
+            "ps5 sports",
+            "mycareer mode",
+            "mamba moments",
+            "myteam",
+            "proplay",
+            "crossplay",
+            "visual concepts"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nba-2k24-ps5-nba-2k24-ps5-2zZnAeUkqzWZK3NTMulZcJi6.html?page=1&pos=1&cur_pos=1&ads_per_page=19&ads_count=19&lid=vGK1Si7xeU9I-v9W&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/BD8rZIAxU7w?si=xmW65z-lCNM88l_P",
+        unboxingVideo: "https://www.youtube.com/embed/bVVhFyXYI94?si=YNmKf7pv10IOwEXo",
+        prevPrice: 6000,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2029,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747041601/ps5-nba-2k23-2_a2ti8i.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747041600/ps5-nba-2k23_xi1ttb.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747041600/ps5-nba-2k23_xi1ttb.png", // NBA 2K23 PS5 image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747041601/ps5-nba-2k23-2_a2ti8i.jpg", // NBA 2K23 PS5 image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747041601/ps5-nba-2k23-3_voeqmf.jpg", // NBA 2K23 PS5 image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 NBA 2K23 — the most complete basketball experience to date",
+        SubTitle: "sports",
+        category: "games",
+        subCategory: ["playstation", "sports"],
+        variant: "ps5",
+        brand: "2K Sports",
+        name: "ps5-nba-2k23",
+        description: "Step into the court with NBA 2K23 for PS5 — the most complete basketball experience to date. Compete with real NBA and WNBA teams, test your skills in MyCAREER, build your fantasy team in MyTEAM, or take control in management modes like MyGM and MyLEAGUE.",
+        detailsDescription: "NBA 2K23 brings next-level basketball simulation to the PlayStation 5. With new tactical offense mechanics, overhauled defense systems, and the best-in-class visual presentation, the game delivers realism like never before. Enjoy iconic moments in NBA and WNBA history, play as legends, and shape your career or manage teams in deep and rewarding modes. Featuring MyCAREER, MyTEAM, MyGM, MyLEAGUE, and a vibrant open-world City experience, NBA 2K23 is the ultimate hoops playground.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Basketball</span></h6>",
+            "<h6><span>Developer</span><span>Visual Concepts</span></h6>",
+            "<h6><span>Crossplay</span><span>No</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online & Offline</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC GAMEPLAY</span><span class='detail-specs-h6'>- True-to-life basketball simulation with best-in-class visuals and authentic team rosters.</span></h6>",
+            "<h6><span>MyTEAM MODE</span><span class='detail-specs-h6'>- Assemble your dream roster with current stars and NBA legends.</span></h6>",
+            "<h6><span>MyCAREER MODE</span><span class='detail-specs-h6'>- Rise from a rookie to a pro in your personalized NBA journey.</span></h6>",
+            "<h6><span>MyGM / MyLEAGUE MODES</span><span class='detail-specs-h6'>- Take on the role of GM or Commissioner and lead a franchise to glory.</span></h6>",
+            "<h6><span>TACTICAL GAMEPLAY</span><span class='detail-specs-h6'>- Redesigned offense and defense systems for deeper strategy and control.</span></h6>",
+            "<h6><span>THE CITY</span><span class='detail-specs-h6'>- Explore an all-new version of the City on PS5, with quests and competitive streetball.</span></h6>",
+            "<h6><span>SEASONS & REWARDS</span><span class='detail-specs-h6'>- Complete challenges and earn exclusive rewards including Season 9 headliner Joel Embiid.</span></h6>",
+            "<h6><span>2K BEATS</span><span class='detail-specs-h6'>- Genre-defying soundtrack featuring rising music talent.</span></h6>",
+            "<h6><span>CUSTOMIZATION</span><span class='detail-specs-h6'>- Design sneakers, uniforms, and branding for your squad.</span></h6>"
+        ],
+        tags: [
+            "nba 2k23",
+            "basketball",
+            "sports",
+            "mycareer",
+            "myteam",
+            "joel embiid",
+            "2k23 city",
+            "visual concepts",
+            "basketball simulation"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nba2k23-ps5-new-sK6ZOBZRPA84nZMY8zVOrqsb.html?page=1&pos=14&cur_pos=14&ads_per_page=15&ads_count=15&lid=vCTdLPJJAj3ete2x&indexPosition=13",
+        youtubeReview: "https://www.youtube.com/embed/857jkVK3tkM?si=JPuz1i1GQwIbNJ4_",
+        unboxingVideo: "https://www.youtube.com/embed/2Iblunr7RT8?si=h9Wday7g-tY5TpDF",
+        prevPrice: 5000,
+        nowPrice: 4200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.3
+    },
+    {
+        productID: 2030,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747042508/ps5-the-last-of-us-part-ii-remastered-2_wqapz5.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747042508/ps5-the-last-of-us-part-ii-remastered_mdo7ps.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747042508/ps5-the-last-of-us-part-ii-remastered_mdo7ps.png", // Image of The Last of Us Part II Remastered - PS5 (1)
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747042508/ps5-the-last-of-us-part-ii-remastered-2_wqapz5.jpg", // Image (2)
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747042508/ps5-the-last-of-us-part-ii-remastered-3_qbnvxm.jpg", // Image (3)
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 The Last of Us Part II Remastered",
+        SubTitle: "adventure",
+        category: "games",
+        subCategory: ["playstation", "adventure"],
+        variant: "ps5",
+        brand: "Naughty Dog",
+        name: "ps5-the-last-of-us-part-ii-remastered",
+        description: "Experience Ellie and Abby’s emotionally charged journey in The Last of Us Part II Remastered on PS5. This definitive edition includes enhanced visuals, new gameplay modes like No Return and Lost Levels, native 4K fidelity, and full DualSense integration.",
+        detailsDescription: "Winner of over 300 Game of the Year awards, The Last of Us Part II Remastered brings the critically acclaimed adventure to the PlayStation 5 with stunning next-gen enhancements. Dive deeper into the story of Ellie and Abby with graphical upgrades, faster load times, haptic feedback, and immersive adaptive triggers. New gameplay additions include the roguelike No Return mode, the never-before-seen Lost Levels, and developer commentary for a behind-the-scenes look. Whether you're revisiting or playing for the first time, this is the ultimate way to experience one of gaming's most powerful narratives.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action / Adventure</span></h6>",
+            "<h6><span>Developer</span><span>Naughty Dog</span></h6>",
+            "<h6><span>Resolution</span><span>Native 4K (Fidelity), 1440p Upscaled (Performance)</span></h6>",
+            "<h6><span>DualSense Features</span><span>Haptic Feedback & Adaptive Triggers</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENHANCED VISUALS</span><span class='detail-specs-h6'>- Improved textures, shadows, and animation sampling for lifelike realism.</span></h6>",
+            "<h6><span>PERFORMANCE OPTIONS</span><span class='detail-specs-h6'>- Play at native 4K in Fidelity Mode or 1440p upscaled in Performance Mode with VRR support.</span></h6>",
+            "<h6><span>NO RETURN MODE</span><span class='detail-specs-h6'>- A new roguelike survival mode with playable characters like Dina, Tommy, and more.</span></h6>",
+            "<h6><span>LOST LEVELS</span><span class='detail-specs-h6'>- Explore early development versions of three cut levels for behind-the-scenes insights.</span></h6>",
+            "<h6><span>DUALSENSE INTEGRATION</span><span class='detail-specs-h6'>- Feel every impact with haptics and adaptive trigger support.</span></h6>",
+            "<h6><span>FASTER LOAD TIMES</span><span class='detail-specs-h6'>- Seamless scene transitions powered by PS5’s SSD.</span></h6>",
+            "<h6><span>ACCESSIBILITY FEATURES</span><span class='detail-specs-h6'>- Includes descriptive audio and speech-to-vibration support.</span></h6>",
+            "<h6><span>DEVELOPER COMMENTARY</span><span class='detail-specs-h6'>- Learn from the creators with hours of included commentary.</span></h6>",
+            "<h6><span>EXTRA CONTENT</span><span class='detail-specs-h6'>- Unlock character skins, new weapons, and more in Guitar Free Play.</span></h6>"
+        ],
+        tags: [
+            "the last of us",
+            "tlou2",
+            "ellie",
+            "abby",
+            "ps5 remaster",
+            "no return mode",
+            "naughty dog",
+            "survival",
+            "roguelike",
+            "lost levels"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/the-last-of-us-part-2-remastered-ps5-playstation-5-disc-aKBo3prIP2MzI5v26LTJ73MY.html?page=1&pos=1&cur_pos=1&ads_per_page=8&ads_count=8&lid=ZS41A_Zwygbp4rYx&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/VmB1qz5lxiM?si=WyFvIgQhCG4c9pak",
+        unboxingVideo: "https://www.youtube.com/embed/xORfAF937_0?si=k37ooB3RsRgciuil",
+        prevPrice: 7800,
+        nowPrice: 6999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2031,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747043204/ps5-assassins-creed-mirage-2_wejm5c.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747043205/ps5-assassins-creed-mirage_e5ufqd.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747043205/ps5-assassins-creed-mirage_e5ufqd.png", // Assassin's Creed Mirage PS5 image (1)
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747043204/ps5-assassins-creed-mirage-2_wejm5c.jpg", // Image (2)
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747043205/ps5-assassins-creed-mirage-3_q0cfhw.jpg", // Image (3)
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "PS5 Assassin’s Creed Mirage - Uncover the secrets of the past in Assassin’s Creed Mirage",
+        SubTitle: "adventure",
+        category: "games",
+        subCategory: ["playstation", "adventure"],
+        variant: "ps5",
+        brand: "Ubisoft",
+        name: "ps5-assassins-creed-mirage",
+        description: "Step into 9th-century Baghdad and uncover the secrets of the past in Assassin’s Creed Mirage on PS5. Join Basim, a street thief turned master assassin, in a thrilling return to the franchise’s roots with refined stealth, parkour, and a rich narrative-driven experience.",
+        detailsDescription: "Assassin’s Creed Mirage returns to the roots of the iconic franchise with a compact, story-driven adventure that centers around Basim, a cunning young street thief in search of truth and justice. Roam through the bustling and reactive city of 9th-century Baghdad, where stealth and parkour reign supreme. With enhanced graphics, improved shadow and texture resolution, and 4K 60 FPS gameplay on PS5 Pro, Mirage brings a stunning visual and immersive experience. Choose from multiple editions and dive into an old-school assassin experience with modern polish.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action / Adventure</span></h6>",
+            "<h6><span>Developer</span><span>Ubisoft</span></h6>",
+            "<h6><span>Resolution</span><span>4K at 60 FPS on PS5 Pro</span></h6>",
+            "<h6><span>Language Support</span><span>English, Arabic, French, Spanish, Portuguese</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STORYLINE</span><span class='detail-specs-h6'>- Follow Basim's transformation from a street thief to a master assassin.</span></h6>",
+            "<h6><span>STEALTH & PARKOUR</span><span class='detail-specs-h6'>- Classic mechanics return with refined movement and stealth-based gameplay.</span></h6>",
+            "<h6><span>OPEN-WORLD BAGHDAD</span><span class='detail-specs-h6'>- Explore a richly detailed 9th-century Baghdad with a reactive population and dynamic events.</span></h6>",
+            "<h6><span>GRAPHICS ENHANCEMENTS</span><span class='detail-specs-h6'>- Features improved shadows, textures, and reflections powered by PSSR.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Runs at up to 4K 60 FPS on PS5 Pro with fast load times and vivid environments.</span></h6>",
+            "<h6><span>EDITIONS AVAILABLE</span><span class='detail-specs-h6'>- Standard, Deluxe (includes vintage horror filter & more), Master, and Assassin’s Creed Bundle.</span></h6>",
+            "<h6><span>MULTILINGUAL SUPPORT</span><span class='detail-specs-h6'>- Available in multiple spoken and screen languages.</span></h6>",
+            "<h6><span>PUBLISHER</span><span class='detail-specs-h6'>- Ubisoft Entertainment</span></h6>",
+            "<h6><span>RELEASE DATE</span><span class='detail-specs-h6'>- October 5, 2023</span></h6>"
+        ],
+        tags: [
+            "assassins creed",
+            "mirage",
+            "basim",
+            "ubisoft",
+            "stealth",
+            "parkour",
+            "baghdad",
+            "ps5 adventure",
+            "action rpg"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-assassins-creed-mirage-9YmMiLgqObPHDekCY6kLKw1v.html?page=1&pos=5&cur_pos=5&ads_per_page=24&ads_count=32&lid=7tyTp_xM1sO-7tgI&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/0xM3ZjgiX10?si=rzzQ_KH8cnC-dF6R",
+        unboxingVideo: "https://www.youtube.com/embed/TSueKwFhHU4?si=pwq441OOdkHmkbHZ",
+        prevPrice: 6900,
+        nowPrice: 5000,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
     },
 
 
