@@ -21,7 +21,7 @@ const ProductsCard = ({ product, handleAddToCart, handleProductClick }) => {  //
             </div>
             <div className="product-list-card-title" onClick={() => handleProductClick(product.productID, product.category)}>
                 <h1 className='line-clamp-2 text-md text-gray-700 font-extrabold uppercase'>{product.Title}</h1>
-                <h3>{product.SubTitle}</h3>
+                <h3 className="capitalize">{product.SubTitle}</h3>
             </div>
             <div className="product-list-price" onClick={() => handleProductClick(product.productID, product.category)}>
                 <div className="product-list-discount-price">Ksh. {product.prevPrice.toLocaleString()}</div>

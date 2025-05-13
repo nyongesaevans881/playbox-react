@@ -48,7 +48,7 @@ const ProductListPage = () => {
                 (product) => product.category === category
             );
         } else {
-            productsToFilter = getRandomProducts(allProducts, 100);
+            productsToFilter = getRandomProducts(allProducts, 120);
         }
 
         applyFilters(productsToFilter);
