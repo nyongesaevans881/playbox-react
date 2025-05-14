@@ -170,10 +170,11 @@ const Navbar = () => {
         {
             name: "Tech Hub",
             items: [
+                { name: "HD Tvs", url: "/shipping/local-delivery" },
+                { name: "Internet Access", url: "/shipping/order-tracking" },
                 { name: "Gaming Phones", url: "/shipping/local-delivery" },
                 { name: "Smart Watches", url: "/shipping/usa-to-kenya" },
                 { name: "Cameras", url: "/shipping/uk-to-kenya" },
-                { name: "Internet", url: "/shipping/order-tracking" },
             ],
         },
         {
