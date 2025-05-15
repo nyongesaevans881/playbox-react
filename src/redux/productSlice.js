@@ -10,6 +10,7 @@ import { playstation } from "../constants/1-consoles/playstation.js";
 import { handhelds } from "../constants/1-consoles/handhelds.js"
 import { pc } from "../constants/8-pc/pc.js";
 import { laptops } from "../constants/9-laptops/laptops.js";
+import { boardgames } from "../constants/10-boardgames/boardgames.js";
 
 
 const initialState = {
@@ -24,6 +25,7 @@ const initialState = {
   handhelds,
   pc,
   laptops,
+boardgames,
 };
 
 const productSlice = createSlice({
