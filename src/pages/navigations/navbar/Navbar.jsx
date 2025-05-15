@@ -190,8 +190,9 @@ const Navbar = () => {
         {
             name: "Toys & Games",
             items: [
-                { name: "Board Games", url: "/products/boardgames" },
-                { name: "Action Figures", url: "/toys/action-figures" },
+                { name: "Popular Games", url: "/products/toys" },
+                { name: "Board Games", url: "/products/toys/boardgames" },
+                { name: "Game Tables", url: "/products/toys/gametables" },
                 { name: "LEGO Sets", url: "/toys/lego-sets" },
                 { name: "RC Cars", url: "/toys/rc-cars-drones" },
                 { name: "Collectibles", url: "/toys/collectibles" },
