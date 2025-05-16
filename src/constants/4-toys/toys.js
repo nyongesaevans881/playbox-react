@@ -1085,6 +1085,416 @@ export const toys = [
         condition: "New",
         rating: 4.6
     },
+    {
+        productID: 4063,
+        platform: "Boardgames",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747401220/jenga-wooden-block-game-54pcs-large-banner_w0flfa.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747401388/jenga-wooden-block-game-54pcs-large_znka79.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747401388/jenga-wooden-block-game-54pcs-large_znka79.png",
+                color: "wood"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747401388/jenga-wooden-block-game-54pcs-large-2_kyutjs.png",
+                color: "wood"
+            },
+        ],
+        defaultColor: "wood",
+        Title: "Jenga Wooden Block Game – Balance, Stack, and Don’t Let It Fall!",
+        SubTitle: "Board Game",
+        category: "toys",
+        subCategory: ["boardgames", "stacking", "familygames"],
+        variant: "jenga",
+        brand: "Jumia Bundles",
+        name: "jenga-wooden-block-game-54pcs-large",
+        description: "Jenga is the classic wooden block game where players take turns pulling blocks from a tower and stacking them higher—without letting it topple!",
+        detailsDescription: "The Jenga Wooden Block Game from Jumia Bundles is a thrilling game of skill, balance, and strategy. With 54 precision-cut hardwood blocks, players must carefully remove and stack pieces without causing the tower to fall. Suitable for all ages and any number of players, Jenga brings suspense and laughter to every round. It’s perfect for parties, game nights, and family gatherings, offering endless replay value and interactive fun. Easy to learn, hard to master—Jenga never gets old!",
+        topSpecs: [
+            "<h6><span>Game Type</span><span>Stacking Block Game</span></h6>",
+            "<h6><span>Players</span><span>1 or more</span></h6>",
+            "<h6><span>Included</span><span>54 Wooden Blocks</span></h6>",
+            "<h6><span>Material</span><span>Hardwood</span></h6>",
+            "<h6><span>Size</span><span>Large</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CLASSIC GAMEPLAY</span><span class='detail-specs-h6'>- Stack blocks into a tower and remove them without letting it fall.</span></h6>",
+            "<h6><span>FUN FOR ALL AGES</span><span class='detail-specs-h6'>- Easy rules make it suitable for kids and adults alike.</span></h6>",
+            "<h6><span>GROUP OR SOLO</span><span class='detail-specs-h6'>- Play it alone or with friends and family.</span></h6>",
+            "<h6><span>DURABLE BUILD</span><span class='detail-specs-h6'>- Made from genuine hardwood for long-lasting play.</span></h6>",
+            "<h6><span>PORTABLE FUN</span><span class='detail-specs-h6'>- Easy to store and take on the go.</span></h6>"
+        ],
+        tags: [
+            "jenga",
+            "wooden-block-game",
+            "stacking-game",
+            "party-game",
+            "family-game",
+            "jumia-bundles",
+            "board-game",
+            "gravity-game",
+            "classic-game",
+            "54-pieces"
+        ],
+        carousels: [
+            "boardGames", "topDeals"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/books-and-games/jenga-blocks-wooden-tower-blocks-oQctVlV9W0mDIoojj7dB71MM.html?page=1&pos=6&cur_pos=6&ads_per_page=50&ads_count=50&lid=tITPnrVQ48nN40Ep&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/p-kVvFSVJ7M?si=3sV7kgMZU7qB_mCz",
+        unboxingVideo: "https://www.youtube.com/embed/HqVI1YX0wcQ?si=jyaYe_ZKH4xqla78",
+        prevPrice: 1450,
+        nowPrice: 1200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 4064,
+        platform: "Boardgames",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747403403/poker-club-plastic-playing-cards-2pack-1-banner_hn9o70.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747403212/poker-club-plastic-playing-cards-2pack_avg19i.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747403212/poker-club-plastic-playing-cards-2pack_avg19i.png",
+                color: "Poker"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747403211/poker-club-plastic-playing-cards-2pack-2_ac5pay.png",
+                color: "Poker"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747403211/poker-club-plastic-playing-cards-2pack-1_fqyzgr.png",
+                color: "Poker"
+            },
+        ],
+        defaultColor: "Poker",
+        Title: "Poker Club Plastic Playing Cards – 2 Pack, Sleek & Durable!",
+        SubTitle: "Card Game",
+        category: "toys",
+        subCategory: ["boardgames", "cardgames", "poker"],
+        variant: "2-pack-plastic-cards",
+        brand: "Poker Club",
+        name: "poker-club-plastic-playing-cards-2pack",
+        description: "Elevate game night with this premium 2-pack of waterproof, bend-resistant Poker Club Plastic Playing Cards!",
+        detailsDescription: "The Poker Club Plastic Playing Cards – 2 Pack offers a premium card-playing experience for enthusiasts and casual players alike. Made from durable plastic, these cards are waterproof, bend-resistant, and designed to maintain quality over countless games. Whether it's poker night, blackjack, or bridge, the sleek finish allows smooth shuffling and professional-level gameplay. This set is ideal for home game nights, casinos, or travel. With enhanced durability and an elegant look, they're a perfect gift or upgrade for any card lover.",
+        topSpecs: [
+            "<h6><span>Card Type</span><span>Plastic Playing Cards</span></h6>",
+            "<h6><span>Pack</span><span>2 Decks</span></h6>",
+            "<h6><span>Durability</span><span>Waterproof, Bend-Resistant</span></h6>",
+            "<h6><span>Design</span><span>Sleek & Flexible</span></h6>",
+            "<h6><span>Use</span><span>Game Nights, Poker, Blackjack</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PREMIUM QUALITY</span><span class='detail-specs-h6'>- Made from long-lasting, waterproof plastic.</span></h6>",
+            "<h6><span>SHUFFLE WITH EASE</span><span class='detail-specs-h6'>- Smooth surface and flexible build for pro-level dealing.</span></h6>",
+            "<h6><span>RETAINS SHAPE</span><span class='detail-specs-h6'>- Cards don’t bend, crease, or fade over time.</span></h6>",
+            "<h6><span>IDEAL FOR MULTIPLE GAMES</span><span class='detail-specs-h6'>- Perfect for Poker, Texas Hold’em, Blackjack, Bridge, and more.</span></h6>",
+            "<h6><span>PORTABLE & STYLISH</span><span class='detail-specs-h6'>- Great for travel, parties, and tournaments.</span></h6>"
+        ],
+        tags: [
+            "poker-cards",
+            "plastic-playing-cards",
+            "card-games",
+            "blackjack",
+            "bridge",
+            "game-night",
+            "travel-cards",
+            "waterproof-cards",
+            "premium-cards",
+            "poker-club"
+        ],
+        carousels: [
+            "boardGames", "partyEssentials"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/books-and-games/plastic-poker-cards-poker-cards-poker-cards-rXmXXNPtjqpZgw20mcyHhPx0.html?page=1&pos=6&cur_pos=6&ads_per_page=50&ads_count=50&lid=OCk2oIApLenfwJzZ&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/ohUqGniSW0M?si=-0w7Xkz2s0yTlG7r",
+        unboxingVideo: "https://www.youtube.com/embed/oLSMasFvzxE?si=AQx4og_wHggL6Dch",
+        prevPrice: 610,
+        nowPrice: 450,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4065,
+        platform: "Boardgames",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405238/ludo-magnetic-travel-board-game-banner_gasduu.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405283/ludo-magnetic-travel-board-game_tuom5i.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405283/ludo-magnetic-travel-board-game_tuom5i.png",
+                color: "Ludo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405282/ludo-magnetic-travel-board-game-2_rdxrda.png",
+                color: "Ludo"
+            },
+        ],
+        defaultColor: "Ludo",
+        Title: "Ludo Magnetic Travel Board Game (Large), Classic Portable Fun!",
+        SubTitle: "Board Game",
+        category: "toys",
+        subCategory: ["boardgames", "travelgames"],
+        variant: "ludo",
+        brand: "Generic",
+        name: "ludo-magnetic-travel-board-game-large",
+        description: "Enjoy classic Ludo anytime with this magnetic, foldable, travel-friendly board game for the whole family.",
+        detailsDescription: "The Ludo Magnetic Travel Board Game (Large Size) is the perfect companion for family fun at home or on the go. With a folding magnetic board, it ensures stable gameplay even during travel. Compact yet large enough for four players, this timeless game enhances strategy and decision-making. Ideal for kids and adults alike, it’s portable, durable, and incredibly fun to play. Whether you're at home, on vacation, or just killing time, Ludo remains a favorite for quick laughs and clever moves.",
+        topSpecs: [
+            "<h6><span>Board Type</span><span>Folding Magnetic</span></h6>",
+            "<h6><span>Size</span><span>Large</span></h6>",
+            "<h6><span>Number of Players</span><span>Up to 4</span></h6>",
+            "<h6><span>Portable</span><span>Yes, Travel-Friendly</span></h6>",
+            "<h6><span>Recommended Age</span><span>6+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MAGNETIC BOARD</span><span class='detail-specs-h6'>- Keeps pieces in place for smooth gameplay even during travel.</span></h6>",
+            "<h6><span>PORTABLE DESIGN</span><span class='detail-specs-h6'>- Foldable and compact for on-the-go fun.</span></h6>",
+            "<h6><span>CLASSIC LUDO</span><span class='detail-specs-h6'>- A traditional game that never goes out of style.</span></h6>",
+            "<h6><span>SUITABLE FOR ALL AGES</span><span class='detail-specs-h6'>- Great for kids, teens, and adults alike.</span></h6>",
+            "<h6><span>STIMULATES STRATEGY</span><span class='detail-specs-h6'>- Encourages planning, counting, and decision-making.</span></h6>"
+        ],
+        tags: [
+            "ludo",
+            "board-games",
+            "travel-games",
+            "magnetic-board",
+            "family-fun",
+            "strategy-game",
+            "kids-games",
+            "portable-games"
+        ],
+        carousels: [
+            "boardGames", "travelEssentials", "familyFun"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/books-and-games/large-size-ludo-game-d3Ha43fM7zdbGs3OxSV5kPdv.html?page=2&pos=9&cur_pos=9&ads_per_page=50&ads_count=50&lid=n76dTjMlkv4Hzo4j&indexPosition=58",
+        youtubeReview: "https://www.youtube.com/embed/IHkRjn8XVtw?si=WsJIeWA7wH5uorvg",
+        unboxingVideo: "https://www.youtube.com/embed/mhqI0cVmqNo?si=ZwrkYeJV1L8rsf3d",
+        prevPrice: 2250,
+        nowPrice: 1500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 4066,
+        platform: "Boardgames",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405238/ludo-magnetic-travel-board-game-banner_gasduu.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405282/ludo-magnetic-travel-board-game-2_rdxrda.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405282/ludo-magnetic-travel-board-game-2_rdxrda.png",
+                color: "Ludo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747405283/ludo-magnetic-travel-board-game_tuom5i.png",
+                color: "Ludo"
+            },
+        ],
+        defaultColor: "Ludo",
+        Title: "Ludo Magnetic Travel Board Game (Small), Classic Portable Fun!",
+        SubTitle: "Board Game",
+        category: "toys",
+        subCategory: ["boardgames", "travelgames"],
+        variant: "ludo",
+        brand: "Generic",
+        name: "ludo-magnetic-travel-board-game-small",
+        description: "Enjoy classic Ludo anytime with this magnetic, foldable, travel-friendly board game for the whole family.",
+        detailsDescription: "The Ludo Magnetic Travel Board Game (Small Size) is the perfect companion for family fun at home or on the go. With a folding magnetic board, it ensures stable gameplay even during travel. Compact yet large enough for four players, this timeless game enhances strategy and decision-making. Ideal for kids and adults alike, it’s portable, durable, and incredibly fun to play. Whether you're at home, on vacation, or just killing time, Ludo remains a favorite for quick laughs and clever moves.",
+        topSpecs: [
+            "<h6><span>Board Type</span><span>Folding Magnetic</span></h6>",
+            "<h6><span>Size</span><span>Small</span></h6>",
+            "<h6><span>Number of Players</span><span>Up to 4</span></h6>",
+            "<h6><span>Portable</span><span>Yes, Travel-Friendly</span></h6>",
+            "<h6><span>Recommended Age</span><span>6+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MAGNETIC BOARD</span><span class='detail-specs-h6'>- Keeps pieces in place for smooth gameplay even during travel.</span></h6>",
+            "<h6><span>PORTABLE DESIGN</span><span class='detail-specs-h6'>- Foldable and compact for on-the-go fun.</span></h6>",
+            "<h6><span>CLASSIC LUDO</span><span class='detail-specs-h6'>- A traditional game that never goes out of style.</span></h6>",
+            "<h6><span>SUITABLE FOR ALL AGES</span><span class='detail-specs-h6'>- Great for kids, teens, and adults alike.</span></h6>",
+            "<h6><span>STIMULATES STRATEGY</span><span class='detail-specs-h6'>- Encourages planning, counting, and decision-making.</span></h6>"
+        ],
+        tags: [
+            "ludo",
+            "board-games",
+            "travel-games",
+            "magnetic-board",
+            "family-fun",
+            "strategy-game",
+            "kids-games",
+            "portable-games"
+        ],
+        carousels: [
+            "boardGames", "travelEssentials", "familyFun"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/books-and-games/ludo-game-small-at-699-8QiBGX4Fm3Ej6Y6Ew4MJKJQg.html?page=1&pos=13&cur_pos=13&ads_per_page=50&ads_count=50&lid=obUmyJDF0Ig_xWQo&indexPosition=12",
+        youtubeReview: "https://www.youtube.com/embed/IHkRjn8XVtw?si=WsJIeWA7wH5uorvg",
+        unboxingVideo: "https://www.youtube.com/embed/mhqI0cVmqNo?si=ZwrkYeJV1L8rsf3d",
+        prevPrice: 2250,
+        nowPrice: 1000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 4066,
+        platform: "Boardgames",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747406995/monopoly-board-game-banner_nfl06i.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747406952/monopoly-board-game_q163a6.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747406952/monopoly-board-game_q163a6.png",
+                color: "monopoly"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747406952/monopoly-board-game-2_tfo8dy.png",
+                color: "monopoly"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747406951/monopoly-board-game-3_brxtfm.png",
+                color: "monopoly"
+            },
+        ],
+        defaultColor: "monopoly",
+        Title: "Monopoly Board Game, Trade & Triumph in Classic Style!",
+        SubTitle: "Board Game",
+        category: "toys",
+        subCategory: ["boardgames", "familygames"],
+        variant: "monopoly",
+        brand: "Generic",
+        name: "monopoly-board-game",
+        description: "Monopoly is the classic game of strategy, luck, and financial domination for families and friends.",
+        detailsDescription: "Step into the world of property trading and big business with Monopoly – the timeless board game where fortunes are made and lost! Travel the board, buy properties, develop your empire with houses and hotels, and collect rent from your rivals. Use your wits to make savvy trades, avoid jail, and steer clear of bankruptcy. With Chance and Community Chest cards shaking things up, every game is different. Suitable for 2-8 players, Monopoly is perfect for game nights, family bonding, and testing your negotiation skills. Only one can rise to the top – will it be you?",
+        topSpecs: [
+            "<h6><span>Game Type</span><span>Classic Property Trading</span></h6>",
+            "<h6><span>Number of Players</span><span>2–8</span></h6>",
+            "<h6><span>Recommended Age</span><span>8 and above</span></h6>",
+            "<h6><span>Gameplay Duration</span><span>60–180 minutes</span></h6>",
+            "<h6><span>Includes</span><span>Board, Tokens, Cards, Money, Houses, Hotels</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>TRADE TO WIN</span><span class='detail-specs-h6'>- Make deals and manage money to build your empire.</span></h6>",
+            "<h6><span>STRATEGIC FUN</span><span class='detail-specs-h6'>- Invest in houses and hotels, outmaneuver your rivals.</span></h6>",
+            "<h6><span>FAMILY FAVORITE</span><span class='detail-specs-h6'>- Ideal for players of all ages looking for competitive fun.</span></h6>",
+            "<h6><span>LUCK & TACTICS</span><span class='detail-specs-h6'>- Chance, strategy, and risk-taking meet in one game.</span></h6>",
+            "<h6><span>REPLAYABLE</span><span class='detail-specs-h6'>- Endless combinations and deal-making opportunities.</span></h6>"
+        ],
+        tags: [
+            "monopoly",
+            "board-games",
+            "family-games",
+            "property-trading",
+            "strategy-games",
+            "multiplayer",
+            "classic-games"
+        ],
+        carousels: [
+            "boardGames", "familyFun", "strategyZone"
+        ],
+        storage: "",
+        dropURL: "https://www.youtube.com/embed/2nd73lyvq4w?si=Z2ySdQBAqO6eQOTO",
+        youtubeReview: "https://www.youtube.com/embed/AuWvMgYv03g?si=oXQTKI5c7fGQlnnp",
+        unboxingVideo: "https://www.youtube.com/embed/2nd73lyvq4w?si=fdIAiWfOwNyljVRm",
+        prevPrice: 2500,
+        nowPrice: 2100,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 4067,
+        platform: "Boardgames",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747409334/snakes-ladders-magnetic-board-game-3_naxrf9.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747409333/snakes-ladders-magnetic-board-game_v3q3pk.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747409333/snakes-ladders-magnetic-board-game_v3q3pk.png",
+                color: "snakes-n-ladders"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747409334/snakes-ladders-magnetic-board-game-3_naxrf9.jpg",
+                color: "snakes-n-ladders"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747409333/snakes-ladders-magnetic-board-game-2_lusk1k.png",
+                color: "snakes-n-ladders"
+            },
+        ],
+        defaultColor: "snakes-n-ladders",
+        Title: "Snakes & Ladders Magnetic Folding Family Board Game – A Classic Reinvented!",
+        SubTitle: "Board Game",
+        category: "toys",
+        subCategory: ["boardgames", "familygames"],
+        variant: "snakesandladders",
+        brand: "Generic",
+        name: "snakes-ladders-magnetic-board-game",
+        description: "A vibrant and portable twist on the beloved Snakes & Ladders, perfect for family fun at home or on the go.",
+        detailsDescription: "Bring the timeless joy of Snakes & Ladders to your family game nights with this Magnetic Folding edition. Featuring a sturdy, compact foldable board and magnetic game pieces that stay securely in place, this version is perfect for both indoor fun and travel. Designed with bright visuals and built from durable materials, it encourages counting skills, turn-taking, and strategic thinking in a fun and engaging way. Whether you're teaching the next generation or reliving childhood memories, this family-friendly board game promises hours of laughter and learning.",
+        topSpecs: [
+            "<h6><span>Game Type</span><span>Classic Family Board Game</span></h6>",
+            "<h6><span>Number of Players</span><span>2–4</span></h6>",
+            "<h6><span>Recommended Age</span><span>8 and above</span></h6>",
+            "<h6><span>Board Type</span><span>Magnetic Folding</span></h6>",
+            "<h6><span>Material</span><span>Resin, Plastic</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PORTABLE DESIGN</span><span class='detail-specs-h6'>- Folding board for compact storage and travel convenience.</span></h6>",
+            "<h6><span>MAGNETIC PIECES</span><span class='detail-specs-h6'>- Keep pieces in place during play, perfect for younger players.</span></h6>",
+            "<h6><span>COLORFUL & DURABLE</span><span class='detail-specs-h6'>- Vibrant design and tough build for long-lasting fun.</span></h6>",
+            "<h6><span>EDUCATIONAL FUN</span><span class='detail-specs-h6'>- Enhances counting, strategy, and turn-taking skills.</span></h6>",
+            "<h6><span>PERFECT GIFT</span><span class='detail-specs-h6'>- Ideal for birthdays, holidays, and family bonding.</span></h6>"
+        ],
+        tags: [
+            "snakes-and-ladders",
+            "magnetic-board-game",
+            "family-games",
+            "portable-games",
+            "educational-toys",
+            "travel-games"
+        ],
+        carousels: [
+            "boardGames", "familyFun", "travelEssentials"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/books-and-games/snake-and-ladder-family-games-8qvaSxWcbVEJ91fEEs6shDsx.html?page=1&pos=8&cur_pos=8&ads_per_page=24&ads_count=145&lid=HrKGo40ztBDO9Hzp&indexPosition=7",
+        youtubeReview: "https://www.youtube.com/embed/a-kTZF2EEKc?si=CA7fU90YGGxIB0Dq",
+        unboxingVideo: "https://www.youtube.com/embed/m8TkRneRJ64?si=aFDVpANyVsygQwTr",
+        prevPrice: 1890,
+        nowPrice: 1200,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+
 
 
 
