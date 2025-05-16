@@ -201,10 +201,10 @@ const Navbar = () => {
         {
             name: "Rides",
             items: [
-                { name: "Skateboards", url: "/market/exchange-games" },
-                { name: "Bikes", url: "/market/refurbished-products" },
-                { name: "Hover Boards", url: "/market/merchandise" },
-                { name: "Drones", url: "/market/pre-owned-games" },
+                { name: "Skateboards", url: "/products/actionnride/skating/skateboards" },
+                { name: "Hover Boards", url: "/products/actionnride/skating/hoverboards" },
+                { name: "Mountain Bikes", url: "/products/actionnride/bikes" },
+                { name: "Drones", url: "/products/actionnride/drones" },
             ],
         },
         {
