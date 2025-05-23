@@ -140,10 +140,12 @@ const Navbar = () => {
             name: "PC & Laptops",
             items: [
                 { name: "Gaming Laptops", url: "/products/laptops" },
-                { name: "Keyboards", url: "/products/pc/keyboards" },
-                { name: "Mice", url: "/products/pc/mice" },
-                { name: "Monitors", url: "/products/pc/monitors" },
-                { name: "Accessories", url: "/pc/components" },
+                { name: "PC Cases", url: "/products/pc/cases" },
+                { name: "Gaming Keyboards", url: "/products/pc/keyboards" },
+                { name: "Gaming Mice", url: "/products/pc/mice" },
+                { name: "Gaming Monitors", url: "/products/pc/monitors" },
+                // { name: "PC Components", url: "/products/pc/components" },
+                // { name: "Accessories", url: "/products/pc/accessories" },
             ],
         },
         {

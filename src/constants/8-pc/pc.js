@@ -353,12 +353,260 @@ export const pc = [
         condition: "New",
         rating: 4.8
     },
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     //------------ KEYBOARDS
     {
         productID: 8101,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748015376/vgn-s99-wireless-mechanical_wqvxsw.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748015376/vgn-s99-wireless-mechanical_wqvxsw.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748015376/vgn-s99-wireless-mechanical-2_aukvua.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748015376/vgn-s99-wireless-mechanical-3_vudfa9.png",
+                color: "Green"
+            },
+        ],
+        defaultColor: "Green",
+        Title: "VGN S99 Wireless Mechanical Keyboard - High-Precision 99-Key Build",
+        SubTitle: "Mechanical Wireless Keyboard",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wireless",
+        brand: "VGN",
+        name: "vgn-s99-wireless-mechanical-keyboard-glazing-green",
+        description: "A feature-rich 98% mechanical keyboard with low-latency wireless performance and a comfortable, sound-dampened typing experience.",
+        detailsDescription: "The VGN S99 is a premium 98% layout wireless mechanical keyboard designed for performance enthusiasts and professionals alike. With a 99-key arrangement, it boasts a single-key slotted PCB, ensuring enhanced flexibility and responsiveness with every keystroke. The keyboard features a four-layer sound-absorbing structure for quiet operation, hot-swappable sockets for switch customization, and a 1000Hz polling rate for ultra-fast response times. Whether for gaming or productivity, the VGN S99 offers a high-quality, low-latency experience wrapped in a visually striking Glazing Green design.",
+        topSpecs: [
+            "<h6><span>Layout</span><span>98% (99-Key) with Number Pad</span></h6>",
+            "<h6><span>Connectivity</span><span>Wireless with 1000Hz Polling Rate</span></h6>",
+            "<h6><span>PCB</span><span>Single-Key Slotted, Hot-Swappable</span></h6>",
+            "<h6><span>Switches</span><span>Custom Mechanical (Hot-Swappable)</span></h6>",
+            "<h6><span>Sound Dampening</span><span>4-Layer Sound-Absorbing Structure</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ULTRA-RESPONSIVE</span><span class='detail-specs-h6'>- 1000Hz polling rate ensures low latency, ideal for gaming.</span></h6>",
+            "<h6><span>COMFORTABLE TYPING</span><span class='detail-specs-h6'>- Flexible PCB enhances key feel and reduces fatigue.</span></h6>",
+            "<h6><span>CUSTOMIZABLE</span><span class='detail-specs-h6'>- Hot-swappable sockets support a wide range of mechanical switches.</span></h6>",
+            "<h6><span>QUIET OPERATION</span><span class='detail-specs-h6'>- Multi-layer sound dampening keeps your workspace silent.</span></h6>",
+            "<h6><span>PREMIUM DESIGN</span><span class='detail-specs-h6'>- Eye-catching Glazing Green finish with durable build.</span></h6>"
+        ],
+        tags: [
+            "vgn-s99",
+            "wireless-mechanical-keyboard",
+            "glazing-green-keyboard",
+            "98-percent-keyboard",
+            "hot-swappable-keyboard",
+            "low-latency-keyboard",
+            "gaming-keyboard",
+            "premium-keyboard",
+            "mechanical-gaming-keyboard"
+        ],
+        carousels: [
+            "keyboards", "mechanicalKeyboards", "premiumAccessories"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/vgn-s99-wireless-mechanical-keyboard-glazing-green-pvyDeGn8gGnsRTpS4PkVNLP5.html?page=1&pos=9&cur_pos=9&ads_per_page=50&ads_count=50&lid=e6SxXQz4GQggYuGD&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/FEUOZdyad6A?si=G-ec8wav60WmY8vW",
+        unboxingVideo: "https://www.youtube.com/embed/PgND8IMl1qk?si=lIkrI3Z3MwrIxrgS",
+        prevPrice: 13560,
+        nowPrice: 12000,
+        stock: 6,
+        freeShipping: true,
+        condition: "New",
+        rating: 0
+    },
+    {
+        productID: 8102,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748018843/keychron-q3-max-wireless_vekyg6.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748018843/keychron-q3-max-wireless_vekyg6.png",
+                color: "Aluminium Gray"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748017227/keychron-q3-max-wireless-3_ww1tvc.webp",
+                color: "Aluminium Gray"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748017227/keychron-q3-max-wireless-2_kwlvhq.webp",
+                color: "Aluminium Gray"
+            },
+        ],
+        defaultColor: "Aluminium Gray",
+        Title: "Keychron Q3 Max Wireless Mechanical Keyboard – Premium TKL Workhorse",
+        SubTitle: "Wireless Mechanical Keyboard",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wireless",
+        brand: "Keychron",
+        name: "keychron-q3-max-wireless-mechanical-keyboard",
+        description: "A refined TKL mechanical keyboard with double-gasket design, VIA/QMK support, and advanced connectivity for pros and enthusiasts.",
+        detailsDescription: "The Keychron Q3 Max is an 80% Tenkeyless wireless mechanical keyboard designed for ultimate versatility and typing performance. Featuring QMK/VIA support, dual wireless options (2.4GHz & Bluetooth), and hot-swappable PCB, it's the go-to keyboard for both Mac and Windows users. Its CNC-machined aluminum body, enhanced acoustic foams, and customizable knob offer a premium experience. The 1000Hz polling rate ensures ultra-low latency, perfect for gaming and high-speed typing tasks. Complete with double-shot PBT keycaps, the Q3 Max elevates any workspace.",
+        topSpecs: [
+            "<h6><span>Layout</span><span>80% TKL (Tenkeyless)</span></h6>",
+            "<h6><span>Connectivity</span><span>2.4GHz, Bluetooth 5.1, USB Type-C</span></h6>",
+            "<h6><span>Polling Rate</span><span>1000Hz (2.4G/Wired), 90Hz (Bluetooth)</span></h6>",
+            "<h6><span>Body</span><span>6063 CNC Aluminium</span></h6>",
+            "<h6><span>Keycaps</span><span>Double-Shot PBT, KSA or OSA Options</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PROGRAMMABLE</span><span class='detail-specs-h6'>- Fully customizable with QMK/VIA software including rotary knob macros.</span></h6>",
+            "<h6><span>DUAL WIRELESS</span><span class='detail-specs-h6'>- Seamless switching between 2.4GHz, Bluetooth, and USB-C wired.</span></h6>",
+            "<h6><span>GASKET MOUNT DESIGN</span><span class='detail-specs-h6'>- Double gasket structure for softer keystrokes and reduced metallic ping.</span></h6>",
+            "<h6><span>UNIVERSAL COMPATIBILITY</span><span class='detail-specs-h6'>- Switch layouts for macOS and Windows with dedicated keycap sets.</span></h6>",
+            "<h6><span>ENHANCED SOUND PROFILE</span><span class='detail-specs-h6'>- Multi-layer IXPE, PET, and Latex acoustic foams for quieter operation.</span></h6>"
+        ],
+        tags: [
+            "keychron-q3-max",
+            "wireless-mechanical-keyboard",
+            "tkl-keyboard",
+            "qmk-via-keyboard",
+            "hot-swappable-keyboard",
+            "premium-keyboard",
+            "mac-compatible-keyboard",
+            "windows-compatible-keyboard",
+            "double-shot-pbt",
+            "custom-keyboard"
+        ],
+        carousels: [
+            "keyboards", "mechanicalKeyboards", "premiumAccessories"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/keychron-q3-max-wireless-mechanical-keyboard-zo81F7mXoBIGTEr0fwBQZKL9.html?page=1&pos=14&cur_pos=14&ads_per_page=50&ads_count=50&lid=yPrBrll5Uggbwta_&indexPosition=13",
+        youtubeReview: "https://www.youtube.com/embed/WZH2jXznY4U?si=MD-_bFDTIWhzlXTG",
+        unboxingVideo: "https://www.youtube.com/embed/xSkJO8Pmd50?si=5UTqptvZwJdaoQ2L",
+        prevPrice: 26500,
+        nowPrice: 26500,
+        stock: 6,
+        freeShipping: true,
+        condition: "New",
+        rating: 0
+    },
+    {
+        productID: 8103,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748018488/logitech-pop-keys-daydream-mint_yw6ptt.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748018488/logitech-pop-keys-daydream-mint_yw6ptt.png",
+                color: "Daydream Mint"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748018488/logitech-pop-keys-daydream-mint-2_hlgyoe.png",
+                color: "Daydream Mint"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748018490/logitech-pop-keys-daydream-mint-3_uzk8um.png",
+                color: "Daydream Mint"
+            },
+        ],
+        defaultColor: "Daydream Mint",
+        Title: "Logitech POP Keys Mechanical Keyboard – Emoji-Ready Retro Vibes",
+        SubTitle: "Wireless Mechanical Keyboard",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wireless",
+        brand: "Logitech",
+        name: "logitech-pop-keys-daydream-mint",
+        description: "Charming retro-style mechanical keyboard with customizable emoji keys and multi-device wireless pairing.",
+        detailsDescription: "The Logitech POP Keys Daydream Mint combines a playful retro aesthetic with modern functionality. Featuring tactile brown switches, customizable emoji keys, and dual wireless modes (Bluetooth & Logi Bolt), this compact keyboard lets you express your personality across multiple devices. Its scooped mechanical keys deliver a fun, bouncy typing experience, while the swappable emoji keys bring your digital emotions to life. Built for portability and comfort, it supports Windows, macOS, iOS, Android, and Chrome OS. Plus, its sustainable design includes post-consumer recycled materials.",
+        topSpecs: [
+            "<h6><span>Switch Type</span><span>Brown (Tactile) Mechanical Switches</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth 5.1 & Logi Bolt USB</span></h6>",
+            "<h6><span>Battery Life</span><span>36 Months (2 x AAA)</span></h6>",
+            "<h6><span>Emoji Keys</span><span>8 swappable + 1 menu key</span></h6>",
+            "<h6><span>Compatibility</span><span>Windows, macOS, iOS, Android, ChromeOS</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MULTI-DEVICE</span><span class='detail-specs-h6'>- Pair with and switch between 3 devices seamlessly using Easy-Switch keys.</span></h6>",
+            "<h6><span>RETRO CHIC</span><span class='detail-specs-h6'>- Typewriter-style keys in a refreshing pastel Daydream Mint colorway.</span></h6>",
+            "<h6><span>CUSTOMIZABLE EMOJI</span><span class='detail-specs-h6'>- 8 emoji keys + 1 menu key configurable via Logi Options+ app.</span></h6>",
+            "<h6><span>LONG-LASTING</span><span class='detail-specs-h6'>- Up to 50 million keystroke lifespan with 3-year battery runtime.</span></h6>",
+            "<h6><span>SUSTAINABLE DESIGN</span><span class='detail-specs-h6'>- 20% recycled plastics and certified carbon neutral packaging.</span></h6>"
+        ],
+        tags: [
+            "logitech-pop-keys",
+            "daydream-mint-keyboard",
+            "emoji-keyboard",
+            "mechanical-keyboard",
+            "retro-keyboard",
+            "wireless-keyboard",
+            "multi-device-keyboard",
+            "customizable-keys",
+            "pastel-keyboard"
+        ],
+        carousels: [
+            "keyboards", "mechanicalKeyboards", "emojiKeyboards", "colorfulTech"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/logitech-pop-keys-wireless-mechanical-emoji-keyboard-3aMt2X9xCTVAD3Y1w0BK65vh.html?page=1&pos=37&cur_pos=37&ads_per_page=50&ads_count=50&lid=h3ZmTaHJBCCIkbW-&indexPosition=36",
+        youtubeReview: "https://www.youtube.com/embed/VCB_0XCim8w?si=dysamzzr_DB5D8uv",
+        unboxingVideo: "https://www.youtube.com/embed/xwJFEU6MNw4?si=A7hncH7mq8HvTYhC",
+        prevPrice: 15890,
+        nowPrice: 14550,
+        stock: 6,
+        freeShipping: true,
+        condition: "New",
+        rating: 0
+    },
+    {
+        productID: 8104,
         platform: "Keyboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
         playboxRating: "Essential",
@@ -391,8 +639,8 @@ export const pc = [
         Title: "Royal Kludge RK M75 - 75% Wireless/Wired Mechanical RGB Gaming Keyboard",
         SubTitle: "Mechanical Keyboard",
         category: "pc",
-        subCategory: "keyboards",
-        variant: "royal-kludge",
+        subCategory: ["keyboards",],
+        variant: "wired",
         brand: "royal-kludge",
         name: "royal-kludge-rk-m75-mechanical-keyboard",
         description: "The Royal Kludge RK M75 is a 75% layout gasket-mount mechanical gaming keyboard with triple-mode connectivity, offering USB-C wired, Bluetooth 5.1, and 2.4G wireless support. It features an OLED smart display, hot-swappable silver switches, and customizable RGB lighting, making it a versatile choice for gamers and professionals alike.",
@@ -432,81 +680,88 @@ export const pc = [
         rating: "4.7",
     },
     {
-        productID: 8102,
+        productID: 8105,
         platform: "Keyboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
-        playboxRating: "Essential",
+        playboxRating: "Essentials",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463027/keyboard_hdvagw.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747731144/lemokey-p1-pro_ebzvgk.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463027/keyboard_hdvagw.png",
-                color: "black",
-                productID: "67cca116d2a3cbb6bca21ea8"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747731144/lemokey-p1-pro_ebzvgk.png",
+                color: "Blue"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463031/keyboard2_vczwhq.png",
-                color: "black",
-                productID: "67cca116d2a3cbb6bca21ea9"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747731144/lemokey-p1-pro-2_ahkcdm.png",
+                color: "Black"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463032/keyboard3_ct1cnq.png",
-                color: "white",
-                productID: "67cca116d2a3cbb6bca21eaa"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747731144/lemokey-p1-pro-3_tcfbxw.jpg",
+                color: "Black"
             },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463031/keyboard4_zipjdd.png",
-                color: "black",
-                productID: "67cca116d2a3cbb6bca21eab"
-            }
         ],
-        defaultColor: "black",
-        Title: "Royal Kludge RK R87 - TKL Wired Mechanical RGB Gaming Keyboard",
-        SubTitle: "Tenkeyless Keyboard",
+        defaultColor: "Blue",
+        Title: "Lemokey P1 Pro Wireless Mechanical Keyboard ",
+        SubTitle: "P1 Pro",
         category: "pc",
-        subCategory: "keyboards",
-        variant: "royal-kludge",
-        brand: "royal-kludge",
-        name: "royal-kludge-rk-r87-mechanical-keyboard",
-        description: "The Royal Kludge RK R87 is a tenkeyless (TKL) mechanical keyboard featuring a compact 87-key layout, wired USB-C connectivity, and customizable RGB lighting. With hot-swappable switches and an ergonomic design, it's an excellent choice for both gaming and professional use.",
-        detailsDescription: "Experience smooth and precise key response with the Royal Kludge RK R87, a TKL mechanical keyboard designed for gaming and productivity. Featuring hot-swappable switches, a detachable USB-C cable, and customizable RGB lighting, this keyboard ensures high performance with a minimalistic design. The built-in double-layer sound-absorbing foam provides a premium typing experience.",
-        detailSpecs : [
-            "<h6><span>Tenkeyless Layout</span><span> — Compact 87-key design for more desk space</span></h6>",
-            "<h6><span>Hot-swappable Switches</span><span> — Supports 3-pin and 5-pin switches</span></h6>",
-            "<h6><span>Wired USB-C Connection</span><span> — Reliable and stable performance</span></h6>",
-            "<h6><span>RGB Backlighting</span><span> — 18 RGB and 8 monochrome lighting modes</span></h6>",
-            "<h6><span>Ergonomic Design</span><span> — Adjustable feet and built-in sound-absorbing foam</span></h6>"
-        ],
+        subCategory: ["keyboards",],
+        variant: "wireless",
+        brand: "keychron",
+        name: "lemokey-p1-pro-wireless-mechanical-keyboard",
+        description: "A premium wireless mechanical keyboard with full aluminum body, QMK support, and ultra-low latency connectivity.",
+        detailsDescription: "The Lemokey P1 Pro Wireless Mechanical Keyboard is engineered for enthusiasts and professionals seeking peak performance. It features a 75% layout with 82 keys and QMK/VIA compatibility for full remapping and macro customization. Built with a 6063 aluminum body and double-shot Cherry PBT keycaps, it delivers a satisfying 'thocky' sound and solid typing feel, enhanced by multiple layers of acoustic foam. With support for Bluetooth, wired, and ultra-fast 2.4 GHz wireless connectivity (1000 Hz polling rate), it ensures seamless multitasking across up to three devices. Hot-swappable sockets allow easy switch customization, including support for Cherry, Gateron, Kailh, and more. Perfect for both gaming and productivity, the Lemokey P1 Pro redefines wireless mechanical keyboard standards.",
         topSpecs: [
-            "<h6><span>LAYOUT</span><span class='detail-specs-h6'> 87-key Tenkeyless layout.</span></h6>",
-            "<h6><span>CONNECTION</span><span class='detail-specs-h6'> Wired USB-C detachable cable.</span></h6>",
-            "<h6><span>SWITCH TYPE</span><span class='detail-specs-h6'> Hot-swappable Red, Blue, or Brown mechanical switches.</span></h6>",
-            "<h6><span>BACKLIGHT</span><span class='detail-specs-h6'> RGB with 18 modes and custom settings.</span></h6>",
-            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'> Windows, macOS, Linux, Android, iOS.</span></h6>"
+            "<h6><span>Layout</span><span>75% (82 Keys)</span></h6>",
+            "<h6><span>Connectivity</span><span>2.4 GHz Wireless, Bluetooth, USB-C Wired</span></h6>",
+            "<h6><span>Polling Rate</span><span>1000 Hz</span></h6>",
+            "<h6><span>Key Switches</span><span>Hot-swappable KEYCHRON Super Brown</span></h6>",
+            "<h6><span>Body Material</span><span>Full Aluminum (6063)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>QMK/VIA COMPATIBILITY</span><span class='detail-specs-h6'>- Customize every key and macro with Lemokey's intuitive web app interface.</span></h6>",
+            "<h6><span>ULTRA-LOW LATENCY</span><span class='detail-specs-h6'>- Pro-grade 2.4 GHz wireless with 1000 Hz polling rate for lightning-fast responsiveness.</span></h6>",
+            "<h6><span>HOT-SWAPPABLE SWITCHES</span><span class='detail-specs-h6'>- Supports 3-pin or 5-pin MX-style switches without soldering.</span></h6>",
+            "<h6><span>PREMIUM ACOUSTICS</span><span class='detail-specs-h6'>- Layers of IXPE, PET, and absorbing foam enhance sound and comfort.</span></h6>",
+            "<h6><span>MULTI-DEVICE CONNECTIVITY</span><span class='detail-specs-h6'>- Seamlessly switch between three paired devices using Bluetooth.</span></h6>"
         ],
         tags: [
-            "gaming-keyboard",
+            "lemokey",
+            "p1-pro",
             "mechanical-keyboard",
-            "royal-kludge",
-            "tenkeyless",
-            "rgb-keyboard",
-            "hot-swappable"
+            "wireless-keyboard",
+            "keychron",
+            "hot-swappable",
+            "qmk",
+            "via",
+            "bluetooth",
+            "2.4ghz",
+            "aluminum-keyboard",
+            "gaming-keyboard",
+            "mac-compatible",
+            "windows-compatible",
+            "linux-compatible",
+            "rgb-backlit",
+            "super-brown-switches",
+            "custom-keyboard"
         ],
         carousels: [
-            "pcPeripherals"
+            "latestArrivals", "keyboards"
         ],
-        dropURL: "https://store.shufflepcs.co.ke/products/royal-kludge-rk-r87-80-wired-mechanical-rgb-gaming-keyboard",
-        youtubeReview: "https://www.youtube.com/embed/TCx5YiMk4b8?si=cTYk3mvTXDEbVoa4",
-        unboxingVideo: "https://www.youtube.com/embed/WWxd1WmShvM?si=4374DNXDtGq362C6",
-        prevPrice: 7500,
-        nowPrice: 7500,
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/lemokey-p1pro-keyboard-keychron-lemokey-p1pro-keyboard-rKiKmgUU2PWy3MPAlfW4zvZA.html?page=1&pos=16&cur_pos=16&ads_per_page=23&ads_count=24194&lid=7qxNfdDQ1dhS2wB5&indexPosition=15",
+        youtubeReview: "https://www.youtube.com/embed/e_MA3qzYPgk?si=CKysXhBsz0O6BuDY",
+        unboxingVideo: "https://www.youtube.com/embed/ZUXpYZdovL4?si=UrunxbaITmL6Gb9H",
+        prevPrice: 21800,
+        nowPrice: 18500,
         stock: 10,
+        freeShipping: true,
         condition: "New",
-        rating: "4.5",
+        rating: 4.7
     },
+
     {
-        productID: 8103,
+        productID: 8106,
         platform: "Keyboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
         playboxRating: "Essentials",
@@ -539,8 +794,8 @@ export const pc = [
         Title: "Royal Kludge S98 - 98% Wireless/Wired Mechanical RGB Gaming Keyboard",
         SubTitle: "96-Key Mechanical",
         category: "pc",
-        subCategory: "keyboards",
-        variant: "royal-kludge",
+        subCategory: ["keyboards",],
+        variant: "wireless",
         brand: "royal-kludge",
         name: "royal-kludge-s98-mechanical-keyboard",
         description: "The Royal Kludge S98 is a 98% full-size mechanical keyboard featuring triple-mode connectivity (USB-C, 2.4G wireless, and Bluetooth), hot-swappable switches, a built-in smart display, and customizable RGB lighting. With a compact 96-key layout, it balances functionality and space-saving design for both gamers and professionals.",
@@ -583,7 +838,7 @@ export const pc = [
         rating: "4.7",
     },
     {
-        productID: 8104,
+        productID: 8107,
         platform: "Keyboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
         playboxRating: "Essentials",
@@ -616,8 +871,8 @@ export const pc = [
         Title: "Royal Kludge RK61 Plus - 60% Wireless/Wired Mechanical RGB Gaming Keyboard",
         SubTitle: "Mechanical Keyboard",
         category: "pc",
-        subCategory: "keyboards",
-        variant: "royal-kludge",
+        subCategory: ["keyboards",],
+        variant: "wireless",
         brand: "royal-kludge",
         name: "royal-kludge-rk61-plus-mechanical-keyboard",
         description: "The Royal Kludge RK61 Plus is a 60% mechanical keyboard featuring triple-mode connectivity (USB-C, 2.4G wireless, and Bluetooth 5.0), hot-swappable Sky Cyan switches, and an ultra-compact design. With a built-in USB hub, customizable macros, and RGB lighting, this keyboard is perfect for gamers and professionals who need a high-performance, space-saving solution.",
@@ -660,7 +915,7 @@ export const pc = [
         rating: "4.6",
     },
     {
-        productID: 8106,
+        productID: 8108,
         platform: "Keyboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
         playboxRating: "Essentials",
@@ -692,9 +947,9 @@ export const pc = [
         defaultColor: "black",
         Title: "Logitech K380S Wireless Keyboard",
         SubTitle: "Bluetooth Keyboard",
-        category: "keyboards",
-        subCategory: "wireless-keyboard",
-        variant: "logitech",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wireless",
         brand: "logitech",
         name: "logitech-k380s-wireless-keyboard",
         description: "The Logitech K380S Wireless Keyboard is a compact, stylish, and multi-device keyboard designed for smooth typing. With Bluetooth connectivity, it pairs with up to three devices and offers easy switching between them. The slim, lightweight design makes it ideal for travel, while shortcut keys allow for a customized workflow. It features quiet typing and long battery life of up to 36 months using two AAA batteries.",
@@ -734,6 +989,331 @@ export const pc = [
         condition: "New",
         rating: "4.7",
     },
+    {
+        productID: 8109,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essential",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463027/keyboard_hdvagw.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463027/keyboard_hdvagw.png",
+                color: "black",
+                productID: "67cca116d2a3cbb6bca21ea8"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463031/keyboard2_vczwhq.png",
+                color: "black",
+                productID: "67cca116d2a3cbb6bca21ea9"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463032/keyboard3_ct1cnq.png",
+                color: "white",
+                productID: "67cca116d2a3cbb6bca21eaa"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741463031/keyboard4_zipjdd.png",
+                color: "black",
+                productID: "67cca116d2a3cbb6bca21eab"
+            }
+        ],
+        defaultColor: "black",
+        Title: "Royal Kludge RK R87 - TKL Wired Mechanical RGB Gaming Keyboard",
+        SubTitle: "Tenkeyless Keyboard",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wired",
+        brand: "royal-kludge",
+        name: "royal-kludge-rk-r87-mechanical-keyboard",
+        description: "The Royal Kludge RK R87 is a tenkeyless (TKL) mechanical keyboard featuring a compact 87-key layout, wired USB-C connectivity, and customizable RGB lighting. With hot-swappable switches and an ergonomic design, it's an excellent choice for both gaming and professional use.",
+        detailsDescription: "Experience smooth and precise key response with the Royal Kludge RK R87, a TKL mechanical keyboard designed for gaming and productivity. Featuring hot-swappable switches, a detachable USB-C cable, and customizable RGB lighting, this keyboard ensures high performance with a minimalistic design. The built-in double-layer sound-absorbing foam provides a premium typing experience.",
+        detailSpecs: [
+            "<h6><span>Tenkeyless Layout</span><span> — Compact 87-key design for more desk space</span></h6>",
+            "<h6><span>Hot-swappable Switches</span><span> — Supports 3-pin and 5-pin switches</span></h6>",
+            "<h6><span>Wired USB-C Connection</span><span> — Reliable and stable performance</span></h6>",
+            "<h6><span>RGB Backlighting</span><span> — 18 RGB and 8 monochrome lighting modes</span></h6>",
+            "<h6><span>Ergonomic Design</span><span> — Adjustable feet and built-in sound-absorbing foam</span></h6>"
+        ],
+        topSpecs: [
+            "<h6><span>LAYOUT</span><span class='detail-specs-h6'> 87-key Tenkeyless layout.</span></h6>",
+            "<h6><span>CONNECTION</span><span class='detail-specs-h6'> Wired USB-C detachable cable.</span></h6>",
+            "<h6><span>SWITCH TYPE</span><span class='detail-specs-h6'> Hot-swappable Red, Blue, or Brown mechanical switches.</span></h6>",
+            "<h6><span>BACKLIGHT</span><span class='detail-specs-h6'> RGB with 18 modes and custom settings.</span></h6>",
+            "<h6><span>COMPATIBILITY</span><span class='detail-specs-h6'> Windows, macOS, Linux, Android, iOS.</span></h6>"
+        ],
+        tags: [
+            "gaming-keyboard",
+            "mechanical-keyboard",
+            "royal-kludge",
+            "tenkeyless",
+            "rgb-keyboard",
+            "hot-swappable"
+        ],
+        carousels: [
+            "pcPeripherals"
+        ],
+        dropURL: "https://store.shufflepcs.co.ke/products/royal-kludge-rk-r87-80-wired-mechanical-rgb-gaming-keyboard",
+        youtubeReview: "https://www.youtube.com/embed/TCx5YiMk4b8?si=cTYk3mvTXDEbVoa4",
+        unboxingVideo: "https://www.youtube.com/embed/WWxd1WmShvM?si=4374DNXDtGq362C6",
+        prevPrice: 7500,
+        nowPrice: 7500,
+        stock: 10,
+        condition: "New",
+        rating: "4.5",
+    },
+    {
+        productID: 8110,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747732565/wireless-mini-keyboard_jkny84.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747732565/wireless-mini-keyboard_jkny84.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747732565/wireless-mini-keyboard-2_amzmxd.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747732565/wireless-mini-keyboard-3_kaav0q.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Wireless Mini QWERTY Keyboard with Backlight - 3-in-1 Combo for Smart Devices",
+        SubTitle: "Mini Keyboard",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wireless",
+        brand: "Mini Keyboard",
+        name: "wireless-mini-keyboard-with-backlight",
+        description: "Portable wireless mini keyboard with touchpad and LED backlight for Android TV, PCs, and more.",
+        detailsDescription: "This 2.4 GHz Wireless Mini Keyboard offers a compact and versatile 3-in-1 solution, combining a 92-key QWERTY keyboard, high-sensitivity touchpad, and LED backlighting. Ideal for Android TV boxes, PCs, smart TVs, and gaming consoles like PS3 and Xbox 360, it supports multi-finger gestures for intuitive control: single tap for left-click, two-finger tap for right-click, and two-finger scroll for vertical movement. Designed for portability and convenience, it includes a built-in USB dongle and automatic sleep/wake features to preserve battery life. Its 360° flip touchpad and backlit design make it a perfect companion for both daytime use and late-night sessions.",
+        topSpecs: [
+            "<h6><span>Connection</span><span>2.4 GHz Wireless (3 m range)</span></h6>",
+            "<h6><span>Keyboard Type</span><span>Mini QWERTY (92 Keys)</span></h6>",
+            "<h6><span>Touchpad</span><span>High sensitivity, multi-touch support</span></h6>",
+            "<h6><span>Backlight</span><span>LED-lit for night use</span></h6>",
+            "<h6><span>Compatibility</span><span>Android TV, PC, PS3, Xbox 360, HTPC</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>3-IN-1 DESIGN</span><span class='detail-specs-h6'>- Combines wireless keyboard, touchpad, and backlight for all-in-one control.</span></h6>",
+            "<h6><span>MULTI-FINGER GESTURES</span><span class='detail-specs-h6'>- Left-click, right-click, and scroll supported via smart touch gestures.</span></h6>",
+            "<h6><span>BACKLIT KEYS</span><span class='detail-specs-h6'>- LED illumination lets you work or play in the dark.</span></h6>",
+            "<h6><span>BUILT-IN USB DONGLE</span><span class='detail-specs-h6'>- Housed inside the unit for easy transport and quick setup.</span></h6>",
+            "<h6><span>AUTOMATIC SLEEP MODE</span><span class='detail-specs-h6'>- Power-saving function prolongs battery life.</span></h6>"
+        ],
+        tags: [
+            "wireless-keyboard",
+            "mini-keyboard",
+            "qwerty-keyboard",
+            "touchpad",
+            "smart-tv-accessory",
+            "android-tv",
+            "htpc",
+            "backlit-keyboard",
+            "portable-keyboard",
+            "ps3",
+            "xbox-360",
+            "usb-dongle"
+        ],
+        carousels: [
+            "keyboards", "budgetAccessories"
+        ],
+        storage: "",
+        dropURL: "",
+        youtubeReview: "https://www.youtube.com/embed/Lq2efgTp2fg?si=igWFkrzPrh1o0aSQ",
+        unboxingVideo: "https://www.youtube.com/embed/wip34gmSCTQ?si=lkmgT_2OM8_NytW3",
+        prevPrice: 1890,
+        nowPrice: 1450,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 8111,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748013160/marvo-k201-gaming-keyboard_otixwk.png", // Image of the MARVO K201 gaming keyboard
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748013160/marvo-k201-gaming-keyboard_otixwk.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748013162/marvo-k201-gaming-keyboard-2_f8hat0.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748013160/marvo-k201-gaming-keyboard-3_l2aowp.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "MARVO K201 Gaming Keyboard - Precision Backlit Membrane Build",
+        SubTitle: "Gaming Keyboard",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wired",
+        brand: "Marvo",
+        name: "marvo-k201-gaming-keyboard",
+        description: "Backlit membrane gaming keyboard built for precision, comfort, and durability during intense gameplay.",
+        detailsDescription: "The MARVO K201 Gaming Keyboard combines responsive membrane switches with dynamic LED backlighting, making it a powerful tool for gamers who demand reliable performance. Featuring full key rollover and anti-ghosting for precision input during fast-paced gaming, this keyboard is built to endure long sessions thanks to its rugged, spill-resistant design. Its ergonomic layout ensures comfort even during extended use, while customizable lighting adds a stylish edge to your setup. Whether you're grinding through missions or competing in online battles, the MARVO K201 has your back.",
+        topSpecs: [
+            "<h6><span>Keyboard Type</span><span>Membrane Gaming Keyboard</span></h6>",
+            "<h6><span>Backlight</span><span>LED Backlit, Multi-color Options</span></h6>",
+            "<h6><span>Key Features</span><span>Anti-Ghosting, Full Key Rollover</span></h6>",
+            "<h6><span>Build</span><span>Ergonomic & Spill-Resistant</span></h6>",
+            "<h6><span>Durability</span><span>High-Performance Build for Intense Use</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>RESPONSIVE TYPING</span><span class='detail-specs-h6'>- Accurate, fast membrane switches ensure each keystroke registers instantly.</span></h6>",
+            "<h6><span>BACKLIT VISUALS</span><span class='detail-specs-h6'>- Multi-color LED lighting enhances gaming aesthetics and low-light usability.</span></h6>",
+            "<h6><span>ANTI-GHOSTING</span><span class='detail-specs-h6'>- Full key rollover ensures all key inputs are accurately registered during gameplay.</span></h6>",
+            "<h6><span>SPILL-RESISTANT DESIGN</span><span class='detail-specs-h6'>- Protects internal components from accidental liquid spills.</span></h6>",
+            "<h6><span>ERGONOMIC COMFORT</span><span class='detail-specs-h6'>- Reduces hand fatigue during long gaming sessions with thoughtful layout.</span></h6>"
+        ],
+        tags: [
+            "gaming-keyboard",
+            "marvo-k201-gaming-keyboard",
+            "backlit-gaming-keyboard",
+            "membrane-gaming-keyboard",
+            "anti-ghosting-gaming-keyboard",
+            "led-backlit-keyboard",
+            "ergonomic-gaming-keyboard",
+            "durable-gaming-keyboard",
+            "spill-resistant-keyboard",
+            "full-key-rollover-keyboard"
+        ],
+        carousels: [
+            "keyboards", "budgetAccessories", "gamingGear"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/marvo-keyboard-gaming-keyboard-wired-gaming-keyboard-fpR69KC3twf1WDlUbAgX3UL8.html?page=1&pos=1&cur_pos=1&ads_per_page=23&ads_count=25128&lid=PXhFMEF3B42tj2nb&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/BAI98VPSZBc?si=eYf_GFgkFLqb8emr",
+        unboxingVideo: "https://www.youtube.com/embed/BAI98VPSZBc?si=eYf_GFgkFLqb8emr",
+        prevPrice: 1950,
+        nowPrice: 1400,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 8112,
+        platform: "Keyboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745160784/pc_iglax8.png",
+        playboxRating: "Essentials",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748014702/logitech-mk470-slim_ywbxko.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748014702/logitech-mk470-slim_ywbxko.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748014701/logitech-mk470-slim-2_fxeyvh.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748014703/logitech-mk470-slim-3_i7iwrm.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748014702/logitech-mk470-slim-4_dmkx1d.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "Logitech MK470 Slim Wireless Combo - Minimalist Productivity Duo",
+        SubTitle: "Wireless Keyboard & Mouse",
+        category: "pc",
+        subCategory: ["keyboards",],
+        variant: "wireless",
+        brand: "Logitech",
+        name: "logitech-mk470-slim-wireless-keyboard-mouse-combo",
+        description: "Minimalist and ultra-quiet wireless keyboard and mouse combo designed for sleek productivity and space-saving efficiency.",
+        detailsDescription: "The Logitech MK470 Slim Wireless Combo is the perfect solution for professionals and students seeking a compact, stylish, and silent keyboard and mouse set. Designed for modern spaces, this combo features low-profile scissor keys for fluid typing and a whisper-quiet mouse that operates with 90% less click noise. The ambidextrous mouse and slim keyboard fit comfortably into any workspace, even the tightest ones. With a reliable 2.4 GHz wireless connection, long-lasting battery life (18 months for the mouse, 36 months for the keyboard), and plug-and-play setup, it’s a dependable, elegant addition to any workflow.",
+        topSpecs: [
+            "<h6><span>Connectivity</span><span>2.4 GHz Wireless with USB Receiver</span></h6>",
+            "<h6><span>Keyboard Type</span><span>Low-Profile Scissor Keys with Full Number Pad</span></h6>",
+            "<h6><span>Mouse Design</span><span>Ambidextrous, Slim Pebble Shape</span></h6>",
+            "<h6><span>Battery Life</span><span>36 Months (Keyboard), 18 Months (Mouse)</span></h6>",
+            "<h6><span>Noise Level</span><span>Whisper-Quiet Typing & Clicking</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SPACE-SAVING DESIGN</span><span class='detail-specs-h6'>- Compact keyboard with full functionality fits tight workspaces.</span></h6>",
+            "<h6><span>MODERN MINIMALISM</span><span class='detail-specs-h6'>- Stylish and slim for a clean desk aesthetic.</span></h6>",
+            "<h6><span>QUIET PERFORMANCE</span><span class='detail-specs-h6'>- Keyboard and mouse operate nearly silently, ideal for shared spaces.</span></h6>",
+            "<h6><span>PLUG-AND-PLAY</span><span class='detail-specs-h6'>- Easy setup with reliable USB receiver connection.</span></h6>",
+            "<h6><span>EXTENDED BATTERY</span><span class='detail-specs-h6'>- Long battery life ensures minimal interruptions.</span></h6>"
+        ],
+        tags: [
+            "logitech-mk470",
+            "wireless-keyboard-mouse-combo",
+            "silent-keyboard",
+            "minimalist-keyboard",
+            "portable-wireless-keyboard",
+            "low-profile-scissor-keys",
+            "quiet-mouse",
+            "logitech-wireless-accessories",
+            "compact-keyboard-combo",
+            "graphite-keyboard-mouse"
+        ],
+        carousels: [
+            "keyboards", "wirelessCombos", "budgetAccessories"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/logitech-mk470-wireless-slim-keyboard-logitech-mk470-ahIqtiXeNDsgUveo4xKq6ZIL.html?page=1&pos=3&cur_pos=3&ads_per_page=50&ads_count=50&lid=dbdjqUH0dKtzoaii&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/kdZcId8XVTA?si=kwZA8txtY8pv2pGP",
+        unboxingVideo: "https://www.youtube.com/embed/7pyXiNIBc3w?si=5YFa1hddkIJ0g1-r",
+        prevPrice: 7500,
+        nowPrice: 7200,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -768,8 +1348,8 @@ export const pc = [
         Title: "Logitech MX Master 3S Wireless Mouse",
         SubTitle: "Logitech",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-mx-master-3s",
+        subCategory: ["mice"],
+        variant: "wireless",
         brand: "logitech",
         name: "logitech-mx-master-3s-wireless-mouse",
         description: "The Logitech MX Master 3S wireless mouse redefines productivity, offering unparalleled precision, comfort, and customization for the modern professional. Designed for creators and power users, it seamlessly integrates with multiple devices and operating systems, boosting your efficiency and elevating your workflow.",
@@ -809,50 +1389,70 @@ export const pc = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163003/gaming-mice_uxz915.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162647/Logitech-ERGO-M575-Mouse_j2lsae.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748023632/aula-sc550-wireless-gaming-mouse-3_1_uzank3.png",
         imageColorMap: [
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162647/Logitech-ERGO-M575-Mouse_j2lsae.png", color: "black" },
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162648/Logitech-ERGO-M575-Mouse-3_am0mw0.png", color: "black" },
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162646/Logitech-ERGO-M575-Mouse-2_eqjd6o.png", color: "black" },
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162647/Logitech-ERGO-M575-Mouse-4_ckdmsh.jpg", color: "black" },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748023632/aula-sc550-wireless-gaming-mouse-3_1_uzank3.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748023091/aula-sc550-wireless-gaming-mouse-2_gjcb4w.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748023089/aula-sc550-wireless-gaming-mouse_jncmzx.png",
+                color: "blue"
+            },
         ],
-        defaultColor: "black",
-        Title: "Logitech ERGO M575 Trackball Mouse",
-        SubTitle: "ERGO M575",
+        defaultColor: "Black",
+        Title: "Aula SC550 Wireless Gaming Mouse – Dual Mode Precision",
+        SubTitle: "Wireless Gaming Mouse",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-ergo-m575",
-        brand: "logitech",
-        name: "logitech-ergo-m575-mouse",
-        description: "The Logitech ERGO M575 Wireless Trackball Mouse offers ergonomic comfort and precise tracking for enhanced productivity. Its sculpted design ensures relaxed hand positioning, while the responsive thumb control eliminates excessive hand movement. Perfect for tight workspaces, this wireless trackball is compatible with Windows, macOS, and iPadOS, and features Bluetooth and USB connectivity.",
-        detailsDescription: "Designed for those who value precision and comfort, the Logitech ERGO M575 delivers smooth thumb control and superior cursor tracking on any surface. The ergonomic shape supports relaxed hand positioning, making it ideal for long work sessions. With up to 24 months of battery life, multi-OS compatibility, and eco-friendly materials, it's the perfect accessory for any workspace.",
+        subCategory: ["mice"],
+        variant: "wireless",
+        brand: "Aula",
+        name: "aula-sc550-wireless-gaming-mouse",
+        description: "Lightweight wireless gaming mouse with up to 4800 DPI, RGB lighting, and dual connectivity modes.",
+        detailsDescription: "The Aula SC550 delivers a seamless gaming experience in a lightweight 92g form. With both wireless (2.4GHz) and wired options, gamers get flexibility and performance. Its adjustable DPI up to 4800 ensures precision, while the 1000Hz polling rate delivers ultra-responsive tracking. A colorful backlight brings immersive aesthetics, and the 600mAh battery supports up to 70 hours of continuous gameplay on a single charge.",
         topSpecs: [
-            "<h6><span>Connectivity</span><span>2.4 GHz & Bluetooth</span></h6>",
-            "<h6><span>Range</span><span>Up to 33 Feet</span></h6>",
-            "<h6><span>Battery Life</span><span>Up to 24 Months</span></h6>",
-            "<h6><span>DPI Settings</span><span>Up to 2000 dpi</span></h6>",
-            "<h6><span>Compatibility</span><span>Windows, macOS & iPadOS</span></h6>"
+            "<h6><span>DPI</span><span>Adjustable up to 4800</span></h6>",
+            "<h6><span>Polling Rate</span><span>1000Hz</span></h6>",
+            "<h6><span>Connectivity</span><span>2.4GHz Wireless & Wired</span></h6>",
+            "<h6><span>Battery Life</span><span>Up to 70 hours per charge</span></h6>",
+            "<h6><span>Weight</span><span>92g</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>COMFORT</span><span class='detail-specs-h6'>- Ergonomic design with relaxed hand and arm support.</span></h6>",
-            "<h6><span>PRECISION</span><span class='detail-specs-h6'>- Smooth thumb control and adjustable cursor tracking for precision on any surface.</span></h6>",
-            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth and USB receiver with a 33-foot range.</span></h6>",
-            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Lasts up to 24 months on a single AA battery.</span></h6>",
-            "<h6><span>BUILD</span><span class='detail-specs-h6'>- Includes post-consumer recycled plastic (Graphite: 50%, Off-White: 21%).</span></h6>",
-            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- USB Receiver: Height 0.74 in, Width 0.57 in, Depth 0.24 in.</span></h6>"
+            "<h6><span>DUAL MODE</span><span class='detail-specs-h6'>- Easily switch between wireless and wired for uninterrupted gameplay.</span></h6>",
+            "<h6><span>COLORFUL BACKLIGHT</span><span class='detail-specs-h6'>- RGB light effects for a dynamic gaming atmosphere.</span></h6>",
+            "<h6><span>LIGHTWEIGHT DESIGN</span><span class='detail-specs-h6'>- Weighs only 92g for smooth gliding and less fatigue.</span></h6>",
+            "<h6><span>HIGH CAPACITY BATTERY</span><span class='detail-specs-h6'>- 600mAh rechargeable battery offers long-lasting performance.</span></h6>",
+            "<h6><span>COMPACT BUILD</span><span class='detail-specs-h6'>- Ergonomic 117 x 76.7 x 39mm size fits comfortably in hand.</span></h6>"
         ],
-        tags: ["pc", "mouse", "trackball", "ergonomic", "logitech", "precision"],
-        carousels: ["pcAccessories", "pcPeripherals", "accessories"],
-        dropURL: "https://fortresselectronics.co.ke/product/logitech-ergo-m575-mouse/",
-        youtubeReview: "https://www.youtube.com/embed/csorvXO4Zak?si=kRnA3jLmG9BR-G-h",
-        unboxingVideo: "https://www.youtube.com/embed/KJIRaTpgedc?si=Txpl6J78oHnfneIA",
-        prevPrice: 8000,
-        nowPrice: 7800,
-        stock: 15,
-        freeDelivery: true,
+        tags: [
+            "aula-sc550",
+            "wireless-gaming-mouse",
+            "gaming-mouse",
+            "rgb-mouse",
+            "lightweight-mouse",
+            "dual-mode-mouse",
+            "fps-mouse",
+            "pc-mouse"
+        ],
+        carousels: [
+            "mice", "wirelessMice", "gamingAccessories", "rgbGear"
+        ],
+        storage: "",
+        dropURL: "https://esgaming.co.ke/shop/aula-sc550-wireless-gaming-mouse/",
+        youtubeReview: "https://www.youtube.com/embed/QVtg65HV0_U?si=AYq9UQVyBFrvZgCt",
+        unboxingVideo: "https://www.youtube.com/embed/1PtCRPwugZA?si=aDya7avtrv6jCnmJ",
+        prevPrice: 2500,
+        nowPrice: 3500,
+        stock: 10,
+        freeShipping: true,
         condition: "New",
-        rating: 4.8,
+        rating: 0
     },
+
     {
         productID: 8203,
         platform: "Mouse",
@@ -860,9 +1460,9 @@ export const pc = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163003/gaming-mice_uxz915.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163444/Logitech-G305_muqrqn.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748020606/logitech-g305-gaming-mouse_vmf95m.webp",
         imageColorMap: [
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163444/Logitech-G305_muqrqn.png", color: "black" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748020606/logitech-g305-gaming-mouse_vmf95m.webp", color: "black" },
             { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163443/Logitech-G305-2_spvwo3.png", color: "black" },
             { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163445/Logitech-G305-3_d6jw9q.png", color: "black" },
         ],
@@ -870,8 +1470,8 @@ export const pc = [
         Title: "Logitech G305 Gaming Mouse - Battery Life Up to 250 Hours",
         SubTitle: "Logitech G305",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-g305",
+        subCategory: ["mice"],
+        variant: "wireless",
         brand: "logitech",
         name: "logitech-g305-gaming-mouse",
         description: "The Logitech G305 Gaming Mouse combines ultra-fast LIGHTSPEED wireless technology with the revolutionary HERO sensor for unmatched precision and battery efficiency. Designed for gamers, it features a lightweight build, 6 programmable buttons, and up to 250 hours of battery life on a single AA battery.",
@@ -909,51 +1509,65 @@ export const pc = [
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745161017/mouse_f0fkck.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163853/Logitech-Lift-Vertical-Mouse_cr1ooa.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163003/gaming-mice_uxz915.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748024879/razer-deathadder-essential_ilikk9.webp", 
         imageColorMap: [
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163853/Logitech-Lift-Vertical-Mouse_cr1ooa.png", color: "pink" },
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163854/Logitech-Lift-Vertical-Mouse-2_eg2s9u.png", color: "black" },
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163854/Logitech-Lift-Vertical-Mouse-3_mwcvnu.png", color: "white" },
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163854/Logitech-Lift-Vertical-Mouse-4_uoy0ip.jpg", color: "black" },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748024879/razer-deathadder-essential_ilikk9.webp",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748024880/razer-deathadder-essential-2_bgb3hx.png",
+                color: "Black"
+            },
         ],
-        defaultColor: "pink",
-        Title: "Logitech Lift Vertical Mouse - Ergonomic Design",
-        SubTitle: "Logitech Lift",
+        defaultColor: "Black",
+        Title: "Razer DeathAdder Essential Wired Mouse – Iconic Comfort and Precision",
+        SubTitle: "Wired Gaming Mouse",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-lift-vertical-mouse",
-        brand: "logitech",
-        name: "logitech-lift-vertical-mouse",
-        description: "The Logitech Lift Vertical Mouse is a revolutionary ergonomic device designed to reduce wrist strain and improve posture during extended computer use. Ideal for small to medium hands, it features a unique 57° vertical angle for a natural handshake position.",
-        detailsDescription: "Say goodbye to wrist pain with the Logitech Lift Vertical Mouse. Engineered for ergonomic efficiency, it offers quiet clicks, a smooth scroll wheel, and a soft textured grip. Perfect for both office and home setups, it provides up to 24 months of productivity on a single AA battery.",
+        subCategory: ["mice"],
+        variant: "wired",
+        brand: "Razer",
+        name: "razer-deathadder-essential-wired-gaming-mouse",
+        description: "Ergonomic wired gaming mouse with 6400 DPI optical sensor and classic Razer comfort design.",
+        detailsDescription: "The Razer DeathAdder Essential carries the legacy of the award-winning DeathAdder series, offering the same beloved ergonomic form. Designed for right-handed gamers, it’s equipped with a 6400 DPI optical sensor, five programmable buttons, and durable mechanical switches rated for 10 million clicks. Its single-color green backlight and sleek black profile deliver a minimal yet striking gaming aesthetic.",
         topSpecs: [
-            "<h6><span>Ergonomic Design</span><span>57° Vertical Angle</span></h6>",
-            "<h6><span>Connectivity</span><span>Bluetooth & Logi Bolt USB</span></h6>",
-            "<h6><span>Buttons</span><span>6 Programmable</span></h6>",
-            "<h6><span>Battery Life</span><span>Up to 24 Months</span></h6>",
-            "<h6><span>DPI Range</span><span>400 – 4000 DPI</span></h6>"
+            "<h6><span>DPI</span><span>Up to 6400</span></h6>",
+            "<h6><span>Lighting</span><span>Green single-color backlight</span></h6>",
+            "<h6><span>Buttons</span><span>5 programmable mechanical</span></h6>",
+            "<h6><span>Form Factor</span><span>Ergonomic Right-Handed</span></h6>",
+            "<h6><span>Weight</span><span>96g</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- H: 71mm | W: 70mm | D: 108mm</span></h6>",
-            "<h6><span>WEIGHT</span><span class='detail-specs-h6'>- 125g</span></h6>",
-            "<h6><span>CONNECTION</span><span class='detail-specs-h6'>- Bluetooth Low Energy & Logi Bolt USB receiver.</span></h6>",
-            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Powered by a single AA battery with up to 24 months of usage.</span></h6>",
-            "<h6><span>ANGLE</span><span class='detail-specs-h6'>- 57° vertical angle for a natural handshake position.</span></h6>",
-            "<h6><span>NOISELESS</span><span class='detail-specs-h6'>- Whisper-quiet clicks and smooth scroll wheel for distraction-free work.</span></h6>"
+            "<h6><span>OPTICAL SENSOR</span><span class='detail-specs-h6'>- High precision with 6400 DPI and 220 IPS speed tracking.</span></h6>",
+            "<h6><span>MECHANICAL SWITCHES</span><span class='detail-specs-h6'>- Durable switches rated for up to 10 million clicks.</span></h6>",
+            "<h6><span>ERGONOMIC DESIGN</span><span class='detail-specs-h6'>- Comfort-focused shape ideal for long gaming sessions.</span></h6>",
+            "<h6><span>WIDE COMPATIBILITY</span><span class='detail-specs-h6'>- USB-wired connectivity ensures compatibility with all modern PCs.</span></h6>",
+            "<h6><span>RGB BACKLIGHT</span><span class='detail-specs-h6'>- Subtle green LED lighting enhances visual appeal.</span></h6>"
         ],
-        tags: ["pc", "mouse", "ergonomic", "vertical", "Logitech", "Bluetooth"],
-        carousels: ["pcAccessories", "mouse", "accessories"],
-        dropURL: "https://dealfit.tech/product/logitech-lift-vertical-ergonomic-mouse-wireless-bluetooth-or-logi-bolt-usb-receiver/?gad_source=1&gclid=CjwKCAiAm-67BhBlEiwAEVftNkAXx6AJkjUDFhlJMMTAOszyXOpaqaBrrRT1ORj3VAwafj9HlxIWzhoCmREQAvD_BwE",
-        youtubeReview: "https://www.youtube.com/embed/hdi9w8HfINs?si=3M9-79PYtpNMULkn",
-        unboxingVideo: "https://www.youtube.com/embed/hgWVF4goidQ?si=4axtL0Ax1FZNA7oJ",
-        prevPrice: 13500,
-        nowPrice: 9650,
-        stock: 15,
-        freeDelivery: true,
+        tags: [
+            "razer-deathadder",
+            "razer-mouse",
+            "wired-gaming-mouse",
+            "ergonomic-mouse",
+            "fps-mouse",
+            "black-mouse"
+        ],
+        carousels: [
+            "mice", "wiredMice", "gamingAccessories", "fpsGear"
+        ],
+        storage: "",
+        dropURL: "https://esgaming.co.ke/product-category/gaming-gears/mouse/",
+        youtubeReview: "https://www.youtube.com/embed/CFrOuimqOQI?si=OxhzHW2eE8kzjX2d",
+        unboxingVideo: "https://www.youtube.com/embed/soQySWJl5UY?si=bA6S-0Xc7xvmjrS7",
+        prevPrice: 4300,
+        nowPrice: 3950,
+        stock: 10,
+        freeShipping: true,
         condition: "New",
-        rating: 4.7,
+        rating: 0
     },
+
     {
         productID: 8205,
         platform: "Mouse",
@@ -972,8 +1586,8 @@ export const pc = [
         Title: "Logitech M171 Wireless Mouse - Battery Life Up to 12 months",
         SubTitle: "Logitech M171",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-m171",
+        subCategory: ["mice"],
+        variant: "wireless",
         brand: "logitech",
         name: "logitech-m171-wireless-mouse",
         description: "The Logitech M171 Wireless Mouse offers simplicity, reliability, and freedom. With a compact, ambidextrous design and a strong wireless connection, this mouse is perfect for work or travel.",
@@ -1024,8 +1638,8 @@ export const pc = [
         Title: "Logitech M185 Compact Wireless Mouse",
         SubTitle: "Logitech M185",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-m185",
+        subCategory: ["mice"],
+        variant: "wireless",
         brand: "logitech",
         name: "logitech-m185-wireless-mouse",
         description: "The Logitech M185 Compact Wireless Mouse offers reliable performance, ergonomic design, and portability. Ideal for tight workspaces and users on the go, it combines simplicity and precision for effortless navigation.",
@@ -1065,9 +1679,9 @@ export const pc = [
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163003/gaming-mice_uxz915.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745164506/Logitech-M190_x0k2sy.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748025803/logitech-m190-wireless-mouse_hk6lvn.webp",
         imageColorMap: [
-            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745164506/Logitech-M190_x0k2sy.png", color: "red" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748025803/logitech-m190-wireless-mouse_hk6lvn.webp", color: "red" },
             { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745164507/Logitech-M190-2_fofa1m.png", color: "red" },
             { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745164507/Logitech-M190-3_u0m2qy.png", color: "blue" },
             { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745164507/Logitech-M190-4_h6vcqj.png", color: "gray" },
@@ -1076,8 +1690,8 @@ export const pc = [
         Title: "Logitech M190 Wireless Mouse - Battery Life Up to 18 months",
         SubTitle: "Logitech M190",
         category: "pc",
-        subCategory: "mice",
-        variant: "logitech-m190",
+        subCategory: ["mice"],
+        variant: "wireless",
         brand: "logitech",
         name: "logitech-m190-wireless-mouse",
         description: "The Logitech M190 Wireless Mouse is a full-size device designed for optimal comfort and reliability. It offers smooth tracking, line-by-line scrolling, and a long battery life for everyday use.",
@@ -1128,8 +1742,8 @@ export const pc = [
         Title: "Logitech M350 Pebble Wireless Mouse",
         SubTitle: "Pebble M350",
         category: "pc",
-        subCategory: "mice",
-        brand: "logitech",
+        subCategory: ["mice"],
+        variant: "wireless",
         name: "logitech-m350-mouse",
         description: "The Logitech M350 Pebble Mouse is a sleek, modern, and portable mouse with silent clicking and scrolling. Its slim design, high-precision optical tracking, and 18-month battery life make it perfect for on-the-go productivity and quiet work environments.",
         detailsDescription: "Logitech M350 Pebble Mouse is your ideal companion for minimalist and efficient computing. Featuring silent clicks, a compact form, and advanced Bluetooth or USB connectivity, this mouse fits naturally in your hand and enhances your workflow without disturbing those around you. Perfect for use in any environment, the Pebble M350 ensures a seamless and stylish experience.",
@@ -1160,6 +1774,143 @@ export const pc = [
         rating: "E(Everyone)",
         dimensions: "59 mm x 26.5 mm x 107 mm",
     },
+    {
+        productID: 8209,
+        platform: "Mouse",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745161017/mouse_f0fkck.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163003/gaming-mice_uxz915.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162647/Logitech-ERGO-M575-Mouse_j2lsae.png",
+        imageColorMap: [
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162647/Logitech-ERGO-M575-Mouse_j2lsae.png", color: "black" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162648/Logitech-ERGO-M575-Mouse-3_am0mw0.png", color: "black" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162646/Logitech-ERGO-M575-Mouse-2_eqjd6o.png", color: "black" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745162647/Logitech-ERGO-M575-Mouse-4_ckdmsh.jpg", color: "black" },
+        ],
+        defaultColor: "black",
+        Title: "Logitech ERGO M575 Trackball Mouse",
+        SubTitle: "ERGO M575",
+        category: "pc",
+        subCategory: ["mice"],
+        variant: "wireless",
+        brand: "logitech",
+        name: "logitech-ergo-m575-mouse",
+        description: "The Logitech ERGO M575 Wireless Trackball Mouse offers ergonomic comfort and precise tracking for enhanced productivity. Its sculpted design ensures relaxed hand positioning, while the responsive thumb control eliminates excessive hand movement. Perfect for tight workspaces, this wireless trackball is compatible with Windows, macOS, and iPadOS, and features Bluetooth and USB connectivity.",
+        detailsDescription: "Designed for those who value precision and comfort, the Logitech ERGO M575 delivers smooth thumb control and superior cursor tracking on any surface. The ergonomic shape supports relaxed hand positioning, making it ideal for long work sessions. With up to 24 months of battery life, multi-OS compatibility, and eco-friendly materials, it's the perfect accessory for any workspace.",
+        topSpecs: [
+            "<h6><span>Connectivity</span><span>2.4 GHz & Bluetooth</span></h6>",
+            "<h6><span>Range</span><span>Up to 33 Feet</span></h6>",
+            "<h6><span>Battery Life</span><span>Up to 24 Months</span></h6>",
+            "<h6><span>DPI Settings</span><span>Up to 2000 dpi</span></h6>",
+            "<h6><span>Compatibility</span><span>Windows, macOS & iPadOS</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>COMFORT</span><span class='detail-specs-h6'>- Ergonomic design with relaxed hand and arm support.</span></h6>",
+            "<h6><span>PRECISION</span><span class='detail-specs-h6'>- Smooth thumb control and adjustable cursor tracking for precision on any surface.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Bluetooth and USB receiver with a 33-foot range.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Lasts up to 24 months on a single AA battery.</span></h6>",
+            "<h6><span>BUILD</span><span class='detail-specs-h6'>- Includes post-consumer recycled plastic (Graphite: 50%, Off-White: 21%).</span></h6>",
+            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- USB Receiver: Height 0.74 in, Width 0.57 in, Depth 0.24 in.</span></h6>"
+        ],
+        tags: ["pc", "mouse", "trackball", "ergonomic", "logitech", "precision"],
+        carousels: ["pcAccessories", "pcPeripherals", "accessories"],
+        dropURL: "https://fortresselectronics.co.ke/product/logitech-ergo-m575-mouse/",
+        youtubeReview: "https://www.youtube.com/embed/csorvXO4Zak?si=kRnA3jLmG9BR-G-h",
+        unboxingVideo: "https://www.youtube.com/embed/KJIRaTpgedc?si=Txpl6J78oHnfneIA",
+        prevPrice: 8000,
+        nowPrice: 7800,
+        stock: 15,
+        freeDelivery: true,
+        condition: "New",
+        rating: 4.8,
+    },
+    {
+        productID: 8210,
+        platform: "Mouse",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745161017/mouse_f0fkck.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460780/keyboardposter_yzbeej.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163853/Logitech-Lift-Vertical-Mouse_cr1ooa.png",
+        imageColorMap: [
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163853/Logitech-Lift-Vertical-Mouse_cr1ooa.png", color: "pink" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163854/Logitech-Lift-Vertical-Mouse-2_eg2s9u.png", color: "black" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163854/Logitech-Lift-Vertical-Mouse-3_mwcvnu.png", color: "white" },
+            { image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745163854/Logitech-Lift-Vertical-Mouse-4_uoy0ip.jpg", color: "black" },
+        ],
+        defaultColor: "pink",
+        Title: "Logitech Lift Vertical Mouse - Ergonomic Design",
+        SubTitle: "Logitech Lift",
+        category: "pc",
+        subCategory: ["mice"],
+        variant: "wireless",
+        brand: "logitech",
+        name: "logitech-lift-vertical-mouse",
+        description: "The Logitech Lift Vertical Mouse is a revolutionary ergonomic device designed to reduce wrist strain and improve posture during extended computer use. Ideal for small to medium hands, it features a unique 57° vertical angle for a natural handshake position.",
+        detailsDescription: "Say goodbye to wrist pain with the Logitech Lift Vertical Mouse. Engineered for ergonomic efficiency, it offers quiet clicks, a smooth scroll wheel, and a soft textured grip. Perfect for both office and home setups, it provides up to 24 months of productivity on a single AA battery.",
+        topSpecs: [
+            "<h6><span>Ergonomic Design</span><span>57° Vertical Angle</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth & Logi Bolt USB</span></h6>",
+            "<h6><span>Buttons</span><span>6 Programmable</span></h6>",
+            "<h6><span>Battery Life</span><span>Up to 24 Months</span></h6>",
+            "<h6><span>DPI Range</span><span>400 – 4000 DPI</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- H: 71mm | W: 70mm | D: 108mm</span></h6>",
+            "<h6><span>WEIGHT</span><span class='detail-specs-h6'>- 125g</span></h6>",
+            "<h6><span>CONNECTION</span><span class='detail-specs-h6'>- Bluetooth Low Energy & Logi Bolt USB receiver.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Powered by a single AA battery with up to 24 months of usage.</span></h6>",
+            "<h6><span>ANGLE</span><span class='detail-specs-h6'>- 57° vertical angle for a natural handshake position.</span></h6>",
+            "<h6><span>NOISELESS</span><span class='detail-specs-h6'>- Whisper-quiet clicks and smooth scroll wheel for distraction-free work.</span></h6>"
+        ],
+        tags: ["pc", "mouse", "ergonomic", "vertical", "Logitech", "Bluetooth"],
+        carousels: ["pcAccessories", "mouse", "accessories"],
+        dropURL: "https://dealfit.tech/product/logitech-lift-vertical-ergonomic-mouse-wireless-bluetooth-or-logi-bolt-usb-receiver/?gad_source=1&gclid=CjwKCAiAm-67BhBlEiwAEVftNkAXx6AJkjUDFhlJMMTAOszyXOpaqaBrrRT1ORj3VAwafj9HlxIWzhoCmREQAvD_BwE",
+        youtubeReview: "https://www.youtube.com/embed/hdi9w8HfINs?si=3M9-79PYtpNMULkn",
+        unboxingVideo: "https://www.youtube.com/embed/hgWVF4goidQ?si=4axtL0Ax1FZNA7oJ",
+        prevPrice: 13500,
+        nowPrice: 9650,
+        stock: 15,
+        freeDelivery: true,
+        condition: "New",
+        rating: 4.7,
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1186,22 +1937,22 @@ export const pc = [
         playboxRating: "Essential",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745168498/gaming_monitors_yeh1v9.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4_sqvpsn.png", 
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4_sqvpsn.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4_sqvpsn.png", 
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4_sqvpsn.png",
                 color: "Black"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4-2_xor6pi.png", 
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4-2_xor6pi.png",
                 color: "Black"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4-3_hnzhdx.png", 
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169201/hp-elitedisplay-e24-g4-3_hnzhdx.png",
                 color: "Black"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169202/hp-elitedisplay-e24-g4-4_a6ukch.png", 
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745169202/hp-elitedisplay-e24-g4-4_a6ukch.png",
                 color: "Black"
             },
         ],
@@ -1700,7 +2451,7 @@ export const pc = [
         freeShipping: true,
         condition: "New",
         rating: 4.6
-    },    
+    },
     {
         productID: 8308,
         platform: "Monitors",
@@ -1776,6 +2527,26 @@ export const pc = [
         condition: "New",
         rating: 4.7
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
-    
+
 ]
