@@ -182,11 +182,11 @@ const Navbar = () => {
         {
             name: "Furniture",
             items: [
-                { name: "Gaming Chairs", url: "/furniture/chairs" },
-                { name: "Gaming Tables", url: "/furniture/budget-chairs" },
+                { name: "Gaming Chairs", url: "/products/furniture/chairs" },
+                { name: "Gaming Tables", url: "/products/furniture/tables" },
                 { name: "Decor", url: "/furniture/rgb-desks" },
-                { name: "Cable Management Systems", url: "/furniture/cable-management" },
-                { name: "Display Shelves", url: "/furniture/display-shelves" },
+                // { name: "Cable Management Systems", url: "/furniture/cable-management" },
+                // { name: "Display Shelves", url: "/furniture/display-shelves" },
             ],
         },
         {
