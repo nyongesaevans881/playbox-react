@@ -279,7 +279,7 @@ export const toys = [
 
     //------------BASKETBALLS
     {
-        productID: 4021,
+        productID: 4101,
         platform: "Toys",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
         playboxRating: "Classic",
@@ -346,7 +346,7 @@ export const toys = [
         rating: 4.8
     },
     {
-        productID: 4022,
+        productID: 4102,
         platform: "Toys",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
         playboxRating: "Classic",
@@ -413,7 +413,7 @@ export const toys = [
         rating: 4.7
     },
     {
-        productID: 4023,
+        productID: 4103,
         platform: "Toys",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
         playboxRating: "Classic",
@@ -478,7 +478,7 @@ export const toys = [
     },
 
     {
-        productID: 4024,
+        productID: 4104,
         platform: "Toys",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
         playboxRating: "Classic",
@@ -571,7 +571,7 @@ export const toys = [
 
     //---------------- BOARDGAMES
     {
-        productID: 4041,
+        productID: 4201,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -638,7 +638,7 @@ export const toys = [
         rating: 4.7
     },
     {
-        productID: 4042,
+        productID: 4202,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -705,7 +705,7 @@ export const toys = [
         rating: 4.7
     },
     {
-        productID: 4043,
+        productID: 4203,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -781,7 +781,7 @@ export const toys = [
         rating: 4.7
     },
     {
-        productID: 4044,
+        productID: 4204,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -853,7 +853,7 @@ export const toys = [
         rating: 4.6
     },
     {
-        productID: 4045,
+        productID: 4205,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -954,7 +954,7 @@ export const toys = [
 
     //------------ General Family Boardgames
     {
-        productID: 4061,
+        productID: 4301,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1022,7 +1022,7 @@ export const toys = [
         rating: 4.3
     },
     {
-        productID: 4062,
+        productID: 4302,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1086,7 +1086,7 @@ export const toys = [
         rating: 4.6
     },
     {
-        productID: 4063,
+        productID: 4303,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1154,7 +1154,7 @@ export const toys = [
         rating: 4.5
     },
     {
-        productID: 4064,
+        productID: 4304,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1226,7 +1226,7 @@ export const toys = [
         rating: 4.7
     },
     {
-        productID: 4065,
+        productID: 4305,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1292,7 +1292,7 @@ export const toys = [
         rating: 4.5
     },
     {
-        productID: 4066,
+        productID: 4306,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1358,7 +1358,7 @@ export const toys = [
         rating: 4.5
     },
     {
-        productID: 4066,
+        productID: 4307,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1427,7 +1427,7 @@ export const toys = [
         rating: 4.6
     },
     {
-        productID: 4067,
+        productID: 4308,
         platform: "Boardgames",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747256361/boardgames_wcqchw.png",
         playboxRating: "Classic",
@@ -1494,6 +1494,623 @@ export const toys = [
         condition: "New",
         rating: 4.5
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //----------------------- LEGO
+    {
+        productID: 4401,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614630/f1-rastar-red-bull-building-blocks-model-car_qteosj.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614630/f1-rastar-red-bull-building-blocks-model-car_qteosj.png",
+                color: "Red Bull"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614632/f1-rastar-red-bull-building-blocks-model-car-3_tanr9a.png",
+                color: "Red Bull"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614627/f1-rastar-red-bull-building-blocks-model-car-4_gb7hce.png",
+                color: "Red Bull"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614626/f1-rastar-red-bull-building-blocks-model-car-2_xjb0zx.png",
+                color: "Red Bull"
+            },
+        ],
+        defaultColor: "Red Bull",
+        Title: "F1 Rastar Red Bull Building Blocks Model Car - 1:8 Scale Collectible Set",
+        SubTitle: "Red Bull",
+        category: "toys",
+        subCategory: ["lego", "collectibles"],
+        variant: "f1-lego-style",
+        brand: "rastar",
+        name: "f1-rastar-red-bull-building-blocks-model-car",
+        description: "Detailed 1:8 scale Red Bull F1 car replica building set with aerodynamic elements, suspension, and cockpit design.",
+        detailsDescription: "Celebrate the engineering excellence of Formula 1 with this Rastar Red Bull F1 Building Blocks Model. Designed at 1:8 scale, it captures the essence of the real RB-series F1 car, including precise aerodynamic features like a sculpted front wing, side pods, and a functional-looking diffuser. The push-rod suspension, Pirelli-style slick tires with printed logos, and detailed wheel rims add to its realism. Inside the cockpit, a mini-figure scale seat, steering wheel, and Halo system complete the experience. Perfect for builders aged 14+, this collectible makes a great display piece for F1 fans.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:8</span></h6>",
+            "<h6><span>Model Dimensions</span><span>68cm x 20cm x 14cm</span></h6>",
+            "<h6><span>Age Recommendation</span><span>14+</span></h6>",
+            "<h6><span>Build Type</span><span>Manual Assembly</span></h6>",
+            "<h6><span>Theme</span><span>Formula 1 Red Bull Racing</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC AERODYNAMICS</span><span class='detail-specs-h6'>- Detailed wings, sculpted side pods, and diffuser replicate F1 design.</span></h6>",
+            "<h6><span>SUSPENSION & WHEELS</span><span class='detail-specs-h6'>- Includes push-rod suspension and Pirelli-style slick tires with logos.</span></h6>",
+            "<h6><span>COCKPIT DETAILING</span><span class='detail-specs-h6'>- Features driver seat, steering wheel, and Halo safety structure.</span></h6>",
+            "<h6><span>COLLECTIBLE DISPLAY</span><span class='detail-specs-h6'>- A perfect model for display and tribute to Red Bull Racing.</span></h6>",
+            "<h6><span>BUILD EXPERIENCE</span><span class='detail-specs-h6'>- Complex and engaging assembly process for enthusiasts.</span></h6>"
+        ],
+        tags: [
+            "f1",
+            "rastar",
+            "red-bull",
+            "building-blocks",
+            "model-car",
+            "collectible",
+            "lego-style",
+            "formula-1",
+            "racing-car",
+            "pirelli",
+            "halo",
+            "push-rod-suspension"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/f1-rastar-lego-red-bull-building-blocks-in-kenya-XfmDspMarHPsp4S3NWUpmdu.html?page=1&pos=13&cur_pos=13&ads_per_page=23&ads_count=39&lid=7FVW53Eywvjii-Yn&indexPosition=12",
+        youtubeReview: "https://www.youtube.com/embed/9C6XVNl8ShY?si=jIYL992I4LyHQunv",
+        unboxingVideo: "https://www.youtube.com/embed/byPraVkXqE8?si=qh-LWv2Ltxz",
+        prevPrice: 23900,
+        nowPrice: 21499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4402,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748618568/lego-technic-dump-truck-42147-building-set_w748i7_zki5tg.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748618568/lego-technic-dump-truck-42147-building-set_w748i7_zki5tg.png",
+                color: "Yellow"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748617090/lego-technic-dump-truck-42147-building-set-2_cqdbkt.png",
+                color: "Yellow"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748617090/lego-technic-dump-truck-42147-building-set-3_krxse7.jpg",
+                color: "Yellow"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748617088/lego-technic-dump-truck-42147-building-set-4_twwr4e.png",
+                color: "Yellow"
+            },
+        ],
+        defaultColor: "Yellow",
+        Title: "LEGO Technic Dump Truck 42147 Building Set - Rebuilds into Excavator",
+        SubTitle: "Dump Truck",
+        category: "toys",
+        subCategory: ["lego", "construction"],
+        variant: "technic",
+        brand: "lego",
+        name: "lego-technic-dump-truck-42147-building-set",
+        description: "LEGO Technic Dump Truck set with working steering and tipping bed, designed for kids aged 7 and up.",
+        detailsDescription: "The LEGO Technic Dump Truck (42147) is a fantastic starter set for young builders aged 7 and up. Featuring working steering and a functional tipping bed, it encourages interactive play and mechanical exploration. Once assembled, kids can rebuild the model into an Excavator for double the building fun. The compact design measures over 8 cm high, 15 cm long, and 5 cm wide—ideal for small hands and big imaginations. With support from the LEGO Builder app, children can enhance their skills while experiencing the creativity of LEGO Technic engineering.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>7+</span></h6>",
+            "<h6><span>Model Type</span><span>2-in-1 Dump Truck / Excavator</span></h6>",
+            "<h6><span>Dimensions</span><span>8 cm x 15 cm x 5 cm</span></h6>",
+            "<h6><span>Interactive Features</span><span>Working steering and tipping bed</span></h6>",
+            "<h6><span>App Compatibility</span><span>LEGO Builder App</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STEERING MECHANISM</span><span class='detail-specs-h6'>- Kids can control the direction with a working steering function.</span></h6>",
+            "<h6><span>TIPPER BED</span><span class='detail-specs-h6'>- Tilt the truck bed to simulate real construction site activity.</span></h6>",
+            "<h6><span>REBUILD OPTION</span><span class='detail-specs-h6'>- Set can be rebuilt into a compact Excavator model.</span></h6>",
+            "<h6><span>APP SUPPORT</span><span class='detail-specs-h6'>- Use the LEGO Builder app for interactive building instructions.</span></h6>",
+            "<h6><span>COMPACT SIZE</span><span class='detail-specs-h6'>- Portable and perfect for small hands and creative play anywhere.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "technic",
+            "dump-truck",
+            "excavator",
+            "construction-toy",
+            "building-set",
+            "kids-toy",
+            "2-in-1",
+            "interactive-play",
+            "steering",
+            "tipping-bed"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/ongata-rongai/toys/lego-dump-truck-CbHmaCGyK5Cj26gMkyXnIqhw.html?page=1&pos=18&cur_pos=18&ads_per_page=23&ads_count=39&lid=7FVW53Eywvjii-Yn&indexPosition=17",
+        youtubeReview: "https://www.youtube.com/embed/8M0dc6-utaA?si=5yJxzfM03pEcdPDq",
+        unboxingVideo: "https://www.youtube.com/embed/svClHDSxPm0?si=Bb2_M2PpRCTElC-M",
+        prevPrice: 4350,
+        nowPrice: 4000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4403,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748618350/lego-technic-chevrolet-corvette_racwyb.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748618350/lego-technic-chevrolet-corvette_racwyb.png",
+                color: "Orange"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748618350/lego-technic-chevrolet-corvette-2_xpgdeb.png",
+                color: "Orange"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748618350/lego-technic-chevrolet-corvette-3_qsqeqa.png",
+                color: "Orange"
+            },
+        ],
+        defaultColor: "Orange",
+        Title: "LEGO Technic Chevrolet Corvette ZR1 42093 - Supercar Building Kit",
+        SubTitle: "Corvette ZR1",
+        category: "toys",
+        subCategory: ["lego", "construction"],
+        variant: "technic",
+        brand: "lego",
+        name: "lego-technic-chevrolet-corvette-zr1-42093-building-kit",
+        description: "A 2-in-1 LEGO Technic set recreating the iconic Corvette ZR1 with realistic design features and working mechanics.",
+        detailsDescription: "Experience the engineering excellence of the Chevrolet Corvette ZR1 with this immersive LEGO Technic 42093 building set. Designed for fans aged 9 and above, this 579-piece model features authentic details like a large rear wing, visible moving V8 pistons, working steering, and black spoked rims with low-profile tires. Once built, the model can be reassembled into a Hot Rod replica, extending the play and display possibilities. Measuring over 29 cm long, this compact supercar model brings real-world mechanics into the hands of young builders and car enthusiasts alike.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>9+</span></h6>",
+            "<h6><span>Model Type</span><span>2-in-1 Corvette ZR1 / Hot Rod</span></h6>",
+            "<h6><span>Dimensions</span><span>29 cm x 12 cm x 8 cm</span></h6>",
+            "<h6><span>Piece Count</span><span>579</span></h6>",
+            "<h6><span>Mechanical Features</span><span>V8 pistons, steering, rear wing</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>V8 ENGINE</span><span class='detail-specs-h6'>- Features moving pistons to simulate real engine dynamics.</span></h6>",
+            "<h6><span>STEERING FUNCTION</span><span class='detail-specs-h6'>- Allows control of front wheels for realistic movement.</span></h6>",
+            "<h6><span>2-IN-1 MODEL</span><span class='detail-specs-h6'>- Rebuilds into a stylish Hot Rod replica.</span></h6>",
+            "<h6><span>LOW-PROFILE TIRES</span><span class='detail-specs-h6'>- Includes black spoked rims for a sporty finish.</span></h6>",
+            "<h6><span>DISPLAY READY</span><span class='detail-specs-h6'>- Perfect for showcasing or interactive play.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "technic",
+            "corvette",
+            "chevrolet",
+            "supercar",
+            "building-kit",
+            "zr1",
+            "hot-rod",
+            "v8-engine",
+            "low-profile-tires",
+            "construction-toy"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/kitengela/toys/lego-chevrolet-corvette-zr1-41cfUU5I8aW78BX3rAVybFz5.html?page=1&pos=8&cur_pos=8&ads_per_page=15&ads_count=15&lid=V7t8kkmahF2FWwJ7&indexPosition=7",
+        youtubeReview: "https://www.youtube.com/embed/vhtpqtF5uDA?si=la0ty5HqohiPK2pW",
+        unboxingVideo: "https://www.youtube.com/embed/drOyhehtTDs?si=ihu34xugsjLJA90y",
+        prevPrice: 8200,
+        nowPrice: 6850,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4404,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748619421/lego-technic-nascar-chevrolet-camaro_loaqfc.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748619421/lego-technic-nascar-chevrolet-camaro_loaqfc.png",
+                color: "White"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748619421/lego-technic-nascar-chevrolet-camaro-2_fbwgvn.png",
+                color: "White"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748619422/lego-technic-nascar-chevrolet-camaro-3_reecv3.png",
+                color: "Blue/Black/Yellow"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748619422/lego-technic-nascar-chevrolet-camaro-4_nvwzgo.png",
+                color: "White"
+            },
+        ],
+        defaultColor: "White",
+        Title: "LEGO Technic NASCAR Chevrolet Camaro ZL1 42153 - Engineering in Motion",
+        SubTitle: "NASCAR Camaro ZL1",
+        category: "toys",
+        subCategory: ["lego", "construction"],
+        variant: "technic",
+        brand: "lego",
+        name: "lego-technic-nascar-chevrolet-camaro-zl1-42153",
+        description: "Build and explore the NASCAR Next Gen Chevrolet Camaro ZL1 with this detailed LEGO Technic engineering model for kids and collectors.",
+        detailsDescription: "Fuel your NASCAR passion with the LEGO Technic NASCAR Next Gen Chevrolet Camaro ZL1 (42153) building set. Designed for builders aged 9+, this feature-rich model includes steering, an opening hood, and a V8 engine with moving pistons. Measuring 28 cm long, it offers an exciting and educational building experience that brings engineering principles to life. Whether you're a young fan or an adult collector, this Camaro ZL1 captures the spirit of stock car racing in brick form. Use the LEGO Builder app to enhance your build with 3D tools and progress tracking.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>9+</span></h6>",
+            "<h6><span>Model Type</span><span>NASCAR Next Gen Camaro ZL1</span></h6>",
+            "<h6><span>Dimensions</span><span>28 cm x 13 cm x 7 cm</span></h6>",
+            "<h6><span>Piece Count</span><span>–</span></h6>",
+            "<h6><span>Mechanical Features</span><span>Steering, V8 pistons, opening hood</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC ENGINE</span><span class='detail-specs-h6'>- V8 engine with moving pistons mimics real-world mechanics.</span></h6>",
+            "<h6><span>FUNCTIONAL STEERING</span><span class='detail-specs-h6'>- Drive and turn the car using functional steering elements.</span></h6>",
+            "<h6><span>HOOD OPENS</span><span class='detail-specs-h6'>- Access internal features by lifting the front hood.</span></h6>",
+            "<h6><span>3D BUILDING SUPPORT</span><span class='detail-specs-h6'>- Use the LEGO Builder app to zoom, rotate, and track progress.</span></h6>",
+            "<h6><span>DISPLAY-READY</span><span class='detail-specs-h6'>- Perfect for showcasing alongside other Technic race cars.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "technic",
+            "nascar",
+            "camaro",
+            "chevrolet",
+            "building-kit",
+            "race-car",
+            "v8-engine",
+            "engineering-toy",
+            "camaro-zl1"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://brickbybrick-kenya.com/products/technic-nascar%C2%AE-next-gen-chevrolet-camaro-zl1-42153?variant=43245026017449",
+        youtubeReview: "https://www.youtube.com/embed/lFiHZdvpjvo?si=1IbD7wUemRJAC-7g",
+        unboxingVideo: "https://www.youtube.com/embed/1ygO6n1OQM8?si=4cKzTQ1JHCB9zE52",
+        prevPrice: 18500,
+        nowPrice: 15730,
+        stock: 0,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 4405,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748620743/lego-ucs-millennium-falcon_fnoen4.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748620743/lego-ucs-millennium-falcon_fnoen4.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748620743/lego-ucs-millennium-falcon-2_en9xe7.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748620744/lego-ucs-millennium-falcon-4_jjvtiz.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748620744/lego-ucs-millennium-falcon-3_gmzmzc.png",
+                color: "Grey"
+            },
+        ],
+        defaultColor: "Grey",
+        Title: "LEGO UCS Millennium Falcon 75192 - The Ultimate Star Wars Build",
+        SubTitle: "Star Wars Millennium Falcon",
+        category: "toys",
+        subCategory: ["lego", "starwars"],
+        variant: "starwars",
+        brand: "lego",
+        name: "lego-ucs-millennium-falcon-75192",
+        description: "Build Han Solo's legendary freighter in stunning scale and detail with the LEGO UCS Millennium Falcon – a true collector's masterpiece.",
+        detailsDescription: "Experience the most iconic ship in the Star Wars galaxy with the LEGO Ultimate Collector's Series Millennium Falcon (75192). This massive model features 7,541 pieces and advanced Technic frameworks, forming a rigid structure for movie-accurate detailing and scale. At over 84 cm long, the Falcon includes modular sub-assemblies such as the cockpit, mandibles, and engine bay. Its internal Technic beams, cross-bracing, and axle-pin frameworks prevent sagging while showcasing elite LEGO engineering. Ideal for serious collectors and advanced builders, this model offers a rewarding and unforgettable build journey.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>16+</span></h6>",
+            "<h6><span>Model Type</span><span>Ultimate Collector's Series Millennium Falcon</span></h6>",
+            "<h6><span>Dimensions</span><span>84 cm x 56 cm x 21 cm</span></h6>",
+            "<h6><span>Piece Count</span><span>7,541</span></h6>",
+            "<h6><span>Internal Structure</span><span>Technic beam framework</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENGINEERING CORE</span><span class='detail-specs-h6'>- Uses Technic beams and connectors for anti-sag structural integrity.</span></h6>",
+            "<h6><span>MODULAR BUILD</span><span class='detail-specs-h6'>- Built in sub-sections: mandibles, cockpit, hull, and engine bay.</span></h6>",
+            "<h6><span>SCREEN ACCURACY</span><span class='detail-specs-h6'>- Meticulously shaped with greebling and detailed panels.</span></h6>",
+            "<h6><span>DISPLAY MASTERPIECE</span><span class='detail-specs-h6'>- Measures over 33\" long and ideal for showcasing Star Wars fandom.</span></h6>",
+            "<h6><span>COLLECTOR STATUS</span><span class='detail-specs-h6'>- Part of the prestigious LEGO Ultimate Collector Series.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "ucs",
+            "star-wars",
+            "millennium-falcon",
+            "technic",
+            "spacecraft",
+            "ultimate-collector",
+            "75192",
+            "advanced-build",
+            "display-model"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/lego-technic-millenium-falcon-in-kenya-riAZRz9OsmzIjVYcXDKd7Oe1.html?page=1&pos=15&cur_pos=15&ads_per_page=23&ads_count=39&lid=TxDTTuUln8Ts05RC&indexPosition=14",
+        youtubeReview: "https://www.youtube.com/embed/TK3otJdPVS8?si=pnuWZ2jaJm77kX6f",
+        unboxingVideo: "https://www.youtube.com/embed/HB67ceGhPLA?si=xx1fnRhyKnFpQiuf",
+        prevPrice: 39499,
+        nowPrice: 36850,
+        stock: 3,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 4406,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748621794/lego-technic-bugatti-chiron_njls6d.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748621794/lego-technic-bugatti-chiron_njls6d.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748621792/lego-technic-bugatti-chiron-2_cdwjhw.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748621793/lego-technic-bugatti-chiron-3_piqgre.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748621792/lego-technic-bugatti-chiron-4_x74ave.png",
+                color: "Blue"
+            },
+        ],
+        defaultColor: "Blue",
+        Title: "LEGO Technic Bugatti Chiron - Precision Engineering in Brick Form",
+        SubTitle: "Supercar Model Kit",
+        category: "toys",
+        subCategory: ["lego", "construction"],
+        variant: "technic",
+        brand: "lego",
+        name: "lego-technic-bugatti-chiron",
+        description: "Master the art of performance with the LEGO Technic Bugatti Chiron – a highly detailed supercar replica made for collectors and gearheads.",
+        detailsDescription: "Experience the ultimate supercar build with the LEGO Technic Bugatti Chiron. With over 3,599 pieces, this model replicates Bugatti’s craftsmanship through authentic features like a detailed W16 engine with moving pistons, a fully functional 8-speed gearbox with paddle shifters, and an adjustable rear wing. The cockpit boasts premium details including the Bugatti logo, accurate seating, and a speed key. Its iconic two-tone blue finish and luxury packaging make it a collector’s dream. A true celebration of automotive engineering in LEGO form.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>16+</span></h6>",
+            "<h6><span>Model Type</span><span>LEGO Technic Bugatti Chiron</span></h6>",
+            "<h6><span>Dimensions</span><span>56 cm x 25 cm x 14 cm</span></h6>",
+            "<h6><span>Piece Count</span><span>3,599+</span></h6>",
+            "<h6><span>Color Scheme</span><span>Two-tone Blue</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ICONIC DETAILS</span><span class='detail-specs-h6'>- Includes horseshoe grille, W16 engine, and aerodynamic rear wing.</span></h6>",
+            "<h6><span>WORKING GEARBOX</span><span class='detail-specs-h6'>- Functional 8-speed transmission with paddle shifters.</span></h6>",
+            "<h6><span>INTERIOR DESIGN</span><span class='detail-specs-h6'>- Accurate cockpit with steering wheel logo, speed key, and more.</span></h6>",
+            "<h6><span>COLLECTIBLE EDITION</span><span class='detail-specs-h6'>- Comes with premium packaging and an exclusive collector's booklet.</span></h6>",
+            "<h6><span>ENGINEERING SHOWPIECE</span><span class='detail-specs-h6'>- Combines aesthetics with Technic engineering challenges.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "technic",
+            "bugatti",
+            "chiron",
+            "supercar",
+            "luxury-car",
+            "collectible",
+            "gearbox",
+            "engineering",
+            "technic-series"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/lego-technic-bugatti-chiron-in-kenya-xvR1CRCcFdbQOP7wxlK7WtZc.html?page=1&pos=10&cur_pos=10&ads_per_page=14&ads_count=11&lid=IV8keGPPgzVa33I-&indexPosition=9",
+        youtubeReview: "https://www.youtube.com/embed/Zeg9Wqe3Q6g?si=M8vqjwr9zq8QIxog",
+        unboxingVideo: "https://www.youtube.com/embed/-19bwUeUB7g?si=w_jlAvZat1_z_Xgy",
+        prevPrice: 29840,
+        nowPrice: 26499,
+        stock: 5,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 4407,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748623297/lego-marvel-hulkbuster_p1i2jm.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748623297/lego-marvel-hulkbuster_p1i2jm.png",
+                color: "Red"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748623298/lego-marvel-hulkbuster-2_wfvyir.png",
+                color: "Red"
+            },
+        ],
+        defaultColor: "Red",
+        Title: "LEGO Marvel Hulkbuster 76210 - Colossal Tribute to Age of Ultron",
+        SubTitle: "Avengers Display Model",
+        category: "toys",
+        subCategory: ["lego", "marvel"],
+        variant: "marvel",
+        brand: "lego",
+        name: "lego-marvel-hulkbuster-76210",
+        description: "Build the power of the Hulkbuster MK44 with this massive 4,049-piece LEGO Marvel display model designed for collectors and fans.",
+        detailsDescription: "Immerse yourself in a true collector’s build with the LEGO Marvel Hulkbuster 76210 set. Inspired by Marvel Studios' *Avengers: Age of Ultron*, this colossal model features authentic details like 3 light-up arc reactors (chest and hands), a jointed upper body, and an opening cockpit compatible with the LEGO Iron Man figure (sold separately). With 4,049 pieces, this is a challenging and satisfying build for Marvel fans, complete with a Tony Stark minifigure and an info plate. A commanding display centerpiece that celebrates the engineering and legacy of the iconic Hulkbuster armor.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>18+</span></h6>",
+            "<h6><span>Piece Count</span><span>4,049</span></h6>",
+            "<h6><span>Set Number</span><span>76210</span></h6>",
+            "<h6><span>Theme</span><span>Marvel Avengers</span></h6>",
+            "<h6><span>Display Features</span><span>Light-up arc reactors, Tony Stark minifig, cockpit</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HULKBUSTER ARMOR</span><span class='detail-specs-h6'>- Massive MK44 model with highly detailed articulation and cockpit.</span></h6>",
+            "<h6><span>LIGHT-UP ARC REACTORS</span><span class='detail-specs-h6'>- Three arc reactors glow for display brilliance (chest + hands).</span></h6>",
+            "<h6><span>COMPATIBLE COCKPIT</span><span class='detail-specs-h6'>- Fits LEGO Marvel Iron Man Figure 76206 (sold separately).</span></h6>",
+            "<h6><span>DISPLAY PLATE INCLUDED</span><span class='detail-specs-h6'>- Information plate with Tony Stark minifigure and tools.</span></h6>",
+            "<h6><span>COLLECTOR’S CENTERPIECE</span><span class='detail-specs-h6'>- Ideal for Marvel fans and adult LEGO builders.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "marvel",
+            "hulkbuster",
+            "iron-man",
+            "avengers",
+            "age-of-ultron",
+            "display-model",
+            "collector",
+            "adult-lego",
+            "superhero"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/hulk-buster-lego-technic-in-kenya-lkEyufxCanta0PO9sWRK7wk2.html?page=1&pos=6&cur_pos=6&ads_per_page=14&ads_count=11&lid=IV8keGPPgzVa33I-&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/brtJpCkzULA?si=tEawRQiVxQJVRG5u",
+        unboxingVideo: "https://www.youtube.com/embed/Hzfi0HcACd0?si=r3_nJ_xkyX-THlzu",
+        prevPrice: 25000,
+        nowPrice: 24850,
+        stock: 3,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 4408,
+        platform: "Lego",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748613721/lego-icon_fsa3jx.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748624182/lego-technic-lamborghini-sian_ekezj9.png", // Main image of the Lamborghini Sián set
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748624182/lego-technic-lamborghini-sian_ekezj9.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748624184/lego-technic-lamborghini-sian-3_ramabf.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748624182/lego-technic-lamborghini-sian-2_hwlmmg.png",
+                color: "Green"
+            }
+        ],
+        defaultColor: "Green",
+        Title: "LEGO Technic Lamborghini Sián FKP 37 – Futuristic Power, Brick by Brick",
+        SubTitle: "Supercar Engineering Set",
+        category: "toys",
+        subCategory: ["lego", "technic"],
+        variant: "technic",
+        brand: "lego",
+        name: "lego-technic-lamborghini-sian-fkp37",
+        description: "A breathtaking replica of Lamborghini’s hybrid hypercar featuring an iconic lime green finish, advanced gear mechanisms, and signature details.",
+        detailsDescription: "Experience the pinnacle of LEGO Technic engineering with the Lamborghini Sián FKP 37. Finished in the carmaker's iconic lime-green color with golden rims, this 1:8 scale masterpiece includes a V12 engine with moving pistons, a working 8-speed gearbox controlled via paddle shifters, and realistic suspension. The scissor doors open to reveal a detailed cockpit, and the rear spoiler elevates to enhance realism. Packaged in a premium box, this set includes a collector’s booklet with exclusive Lamborghini content and is a perfect tribute to innovation, performance, and design.",
+        topSpecs: [
+            "<h6><span>Recommended Age</span><span>18+</span></h6>",
+            "<h6><span>Piece Count</span><span>3,696</span></h6>",
+            "<h6><span>Set Number</span><span>42115</span></h6>",
+            "<h6><span>Theme</span><span>LEGO Technic</span></h6>",
+            "<h6><span>Dimensions</span><span>60cm x 25cm x 13cm</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>LIME GREEN BODY</span><span class='detail-specs-h6'>- Iconic colorway with golden rims for striking visual appeal.</span></h6>",
+            "<h6><span>WORKING GEARBOX</span><span class='detail-specs-h6'>- Fully functional 8-speed sequential gearbox with paddle shifter.</span></h6>",
+            "<h6><span>SCISSOR DOORS</span><span class='detail-specs-h6'>- Signature Lamborghini-style opening doors add realism.</span></h6>",
+            "<h6><span>V12 ENGINE</span><span class='detail-specs-h6'>- Includes moving pistons for an authentic supercar touch.</span></h6>",
+            "<h6><span>COLLECTOR’S BOOKLET</span><span class='detail-specs-h6'>- Features Lamborghini history and exclusive building insights.</span></h6>"
+        ],
+        tags: [
+            "lego",
+            "technic",
+            "lamborghini",
+            "sian",
+            "supercar",
+            "gearbox",
+            "luxury",
+            "collector",
+            "v12",
+            "paddle-shifter"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/lego-technic-lamborghini-sian-fkp-37-in-kenya-dL1rfzdS9H3R2oOlHh2bqH2Z.html?page=1&pos=17&cur_pos=17&ads_per_page=50&ads_count=50&lid=qLPJGp-QX97b8wf7&indexPosition=16",
+        youtubeReview: "https://www.youtube.com/embed/-UM4NDWskGo?si=U1ZtuAymGEOHyuEr",
+        unboxingVideo: "https://www.youtube.com/embed/0WHVSb9RyBM?si=bHzal3ASCU7ohCBv",
+        prevPrice: 28900,
+        nowPrice: 26499,
+        stock: 4,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

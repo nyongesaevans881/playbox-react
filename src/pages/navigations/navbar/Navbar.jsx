@@ -195,7 +195,7 @@ const Navbar = () => {
                 { name: "Popular Titles", url: "/products/toys" },
                 { name: "Board Games", url: "/products/toys/boardgames" },
                 { name: "Game Tables", url: "/products/toys/gametables" },
-                { name: "LEGO Sets", url: "/toys/lego-sets" },
+                { name: "LEGO Sets", url: "/products/toys/lego" },
                 { name: "RC Cars", url: "/toys/rc-cars-drones" },
                 { name: "Collectibles", url: "/toys/collectibles" },
             ],
