@@ -192,12 +192,12 @@ const Navbar = () => {
         {
             name: "Toys & Games",
             items: [
-                { name: "Popular Titles", url: "/products/toys" },
                 { name: "Board Games", url: "/products/toys/boardgames" },
                 { name: "Game Tables", url: "/products/toys/gametables" },
                 { name: "LEGO Sets", url: "/products/toys/lego" },
-                { name: "RC Cars", url: "/products/toys/rc-cars-drones" },
-                { name: "DieCast Models", url: "/products/toys/diecast" },
+                { name: "RC Cars", url: "/products/toys/rc" },
+                { name: "Diecast Models", url: "/products/toys/diecast" },
+                { name: "Popular Titles", url: "/products/toys" },
             ],
         },
         {
@@ -206,17 +206,13 @@ const Navbar = () => {
                 { name: "Skateboards", url: "/products/actionnride/skating/skateboards" },
                 { name: "Hover Boards", url: "/products/actionnride/skating/hoverboards" },
                 { name: "Mountain Bikes", url: "/products/actionnride/bikes" },
-                { name: "Drones", url: "/products/actionnride/drones" },
             ],
         },
         {
-            name: "Market",
+            name: "Sports",
             items: [
-                { name: "Merchadise", url: "/community/forums" },
-                { name: "Instagram", url: "/community/tournaments" },
-                { name: "X (Twitter)", url: "/community/esports-teams" },
-                { name: "Whatsapp", url: "/community/tech-discussions" },
-                { name: "Meetups and Events", url: "/community/meetups-events" },
+                { name: "Basketball", url: "/community/forums" },
+                { name: "Darts", url: "/community/tournaments" },
             ],
         },
     ];

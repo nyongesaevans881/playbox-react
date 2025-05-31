@@ -531,601 +531,474 @@ export const actionnride = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //----------------------- Bikes
     {
         productID: 3201,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
         playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera_dzz0ur.png",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748720549/caraiman-mountain-bike-26_yb185d.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera_dzz0ur.png",
-                color: "silver"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera-2_pt9cuc.png",
-                color: "silver"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera-3_b9zex0.png",
-                color: "silver"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera-4_jiny4l.png",
-                color: "silver"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748720549/caraiman-mountain-bike-26_yb185d.png",
+                color: "Blue"
             },
         ],
-        defaultColor: "silver",
-        Title: "E88 Drone 4K HD Dual Camera with FPV and Gesture Control - Foldable",
-        SubTitle: "E88 Drone",
+        defaultColor: "Blue",
+        Title: "CARAIMAN Mountain Bike 26” – Chrome Alloy Frame with 21-Speed Gears",
+        SubTitle: "Mountain Bike",
         category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "fpv-wifi",
-        brand: "mocvoo",
-        name: "e88-drone-4k-hd-dual-camera-with-fpv-and-gesture-control",
-        description: "Experience real-time FPV with a foldable drone featuring 4K HD dual cameras and gesture control.",
-        detailsDescription: "Capture stunning aerial footage with the E88 Drone's 1080P and 4K dual cameras, offering real-time image transmission via WiFi FPV. With a 120° adjustable wide-angle lens and gesture controls, it’s easier than ever to take professional-style shots. Enjoy 26 minutes of flight with two rechargeable 1800mAh batteries. Features like headless mode, altitude hold, 360° flips, and trajectory flight mode make it beginner-friendly and exciting for experts. Comes in a foldable design with a carry case for ultimate portability.",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "caraiman",
+        name: "caraiman-mountain-bike-26-kenya",
+        description: "Ride tough terrains with the CARAIMAN 26” mountain bike, featuring 21-speed shifting, disc brakes, and double wall chrome wheels.",
+        detailsDescription: "Engineered for both urban commuting and adventurous trails, the CARAIMAN Mountain Bike offers a fusion of strength and precision. The 26-inch alloy frame paired with a triple chainwheel system delivers 21-speed performance for tackling steep inclines and high-speed stretches alike. Mechanical disc brakes ensure confident stopping in all conditions, while the durable chrome double-wall rims provide both stability and flair. Recommended for riders between 5’2″ and 5’8″, the CARAIMAN is built for those who demand control, durability, and performance on every ride.",
         topSpecs: [
-            "<h6><span>Camera</span><span>1080P & 4K Dual HD</span></h6>",
-            "<h6><span>Flight Time</span><span>Up to 26 minutes</span></h6>",
-            "<h6><span>Battery</span><span>3.7V 1800mAh (x2)</span></h6>",
-            "<h6><span>Control</span><span>App, Gesture, and Remote</span></h6>",
-            "<h6><span>Foldable Design</span><span>Yes, with carrying case</span></h6>"
+            "<h6><span>Frame</span><span>26 x 16-inch Alloy</span></h6>",
+            "<h6><span>Gears</span><span>21-Speed (7×3)</span></h6>",
+            "<h6><span>Brakes</span><span>Mechanical Disc</span></h6>",
+            "<h6><span>Wheels</span><span>Chrome Alloy Double Wall</span></h6>",
+            "<h6><span>Tires</span><span>26 x 2.125 All-Terrain</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>WI-FI FPV TRANSMISSION</span><span class='detail-specs-h6'>- Stream live footage directly to your smartphone for immersive viewing.</span></h6>",
-            "<h6><span>GESTURE CONTROL</span><span class='detail-specs-h6'>- Take photos or videos with simple hand gestures.</span></h6>",
-            "<h6><span>HEADLESS MODE & ALTITUDE HOLD</span><span class='detail-specs-h6'>- Fly with ease and maintain stable height during flight.</span></h6>",
-            "<h6><span>DUAL CAMERA SETUP</span><span class='detail-specs-h6'>- Switch between 1080P and 4K views for dynamic shooting angles.</span></h6>",
-            "<h6><span>PORTABLE DESIGN</span><span class='detail-specs-h6'>- Foldable body and included case for easy travel and storage.</span></h6>"
+            "<h6><span>ALLOY FRAME CONSTRUCTION</span><span class='detail-specs-h6'>- Lightweight 26 x 16” build with enhanced durability for everyday and rugged use.</span></h6>",
+            "<h6><span>21-SPEED GEARING</span><span class='detail-specs-h6'>- Triple steel chainwheel and Rapid Fire system for precise speed control across terrains.</span></h6>",
+            "<h6><span>MECHANICAL DISC BRAKES</span><span class='detail-specs-h6'>- Ensures powerful and responsive braking for added safety.</span></h6>",
+            "<h6><span>CHROME WHEELS & DOUBLE WALL RIMS</span><span class='detail-specs-h6'>- Alloy rims with chrome detailing offer strength and a premium look.</span></h6>",
+            "<h6><span>ERGONOMIC BUILD</span><span class='detail-specs-h6'>- Comfortable grips, padded MTB saddle with reflector, and sturdy rubber tires.</span></h6>"
         ],
         tags: [
-            "e88",
-            "drone",
-            "fpv",
-            "foldable",
-            "4k-camera",
-            "gesture-control",
-            "wifi-fpv",
-            "rc-quadcopter",
-            "1080p",
-            "dual-camera",
-            "mocvoo",
-            "altitude-hold",
-            "headless-mode",
-            "mini-drone",
-            "carrying-case",
-            "tech-gadget",
-            "real-time-transmission"
+            "caraiman-bike",
+            "mountain-bike-kenya",
+            "21-speed-bike",
+            "chrome-rim-bike",
+            "disc-brake-bike",
+            "mtb-nairobi",
+            "outdoor-cycling",
+            "gear-bike"
         ],
         carousels: [
-            "latestArrivals", "techGadgets"
+            "outdoorGear", "bikeZone"
         ],
         storage: "",
-        dropURL: "https://homeluxkenya.com/products/rotation-foldable-aerial-camera-rc-drone-gift-1?variant=50380612403476&country=KE&currency=KES&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=21129652006&gbraid=0AAAAA9cNKEGeYSst37FtdaCpsebtm2RIO&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfhPuFWBjgUf4u8N96_AiKrOhqsjXjdGw3teHqSOE0g-gLSRACdamAUaAlHoEALw_wcB",
-        youtubeReview: "https://www.youtube.com/embed/IlN2tiD3YLE?si=cY3NROTfNVbNuTpv",
-        unboxingVideo: "https://www.youtube.com/embed/R2bEKf8Q1Lo?si=ijdNuRqIAfVGXFhj",
-        prevPrice: 7700,
-        nowPrice: 5900,
+        dropURL: "https://glolinkbicycles.co.ke/product/caraiman-mountain-bike-size-26-73-gears-chrome-wheels-bicycle-blue/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 35000,
+        nowPrice: 29500,
         stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.7
-    },
-    {
-        productID: 3202,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425670/syma-x5uw-drone_lg3ndo.png", // Image of the SYMA X5UW Drone in Black
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425670/syma-x5uw-drone_lg3ndo.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425670/syma-x5uw-drone-2_d26qml.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425671/syma-x5uw-drone-3_xrhvrm.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425672/syma-x5uw-drone-4_luyezo.png",
-                color: "Black"
-            },
-        ],
-        defaultColor: "Black",
-        Title: "SYMA X5UW Drone with WiFi FPV and 720p HD Camera",
-        SubTitle: "SYMA X5UW",
-        category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "fpv-wifi",
-        brand: "syma",
-        name: "syma-x5uw-drone-with-wifi-fpv-and-720p-hd-camera",
-        description: "Take full control with the SYMA X5UW Drone, featuring FPV, HD camera, and smartphone integration.",
-        detailsDescription: "The SYMA X5UW Drone elevates your flying experience with 720p HD video streaming via WiFi FPV. This quadcopter supports complete smartphone-based control through its dedicated app, unlocking features like one-click take-off and landing, motor activation, and real-time image transmission. The drone offers a stable and responsive flight experience using a 2.4GHz transmitter with a range of up to 70 meters. Its barometer-based altitude hold function and light frame make it ideal for beginners and drone enthusiasts alike.",
-        topSpecs: [
-            "<h6><span>Camera</span><span>720p HD</span></h6>",
-            "<h6><span>Transmission</span><span>WiFi FPV to smartphone</span></h6>",
-            "<h6><span>Range</span><span>Up to 70 meters</span></h6>",
-            "<h6><span>Control</span><span>Smartphone + Transmitter</span></h6>",
-            "<h6><span>Battery</span><span>LiPo Rechargeable</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>SMARTPHONE CONTROL</span><span class='detail-specs-h6'>- Operate the drone fully from your phone with app-exclusive features.</span></h6>",
-            "<h6><span>AUTOMATIC TAKE-OFF/LANDING</span><span class='detail-specs-h6'>- One-touch control makes flying simple and accessible.</span></h6>",
-            "<h6><span>BAROMETER ALTITUDE HOLD</span><span class='detail-specs-h6'>- Maintain stable height with automatic barometer assistance.</span></h6>",
-            "<h6><span>720P HD CAMERA</span><span class='detail-specs-h6'>- Capture clear images and video during flight in real-time.</span></h6>",
-            "<h6><span>LIGHTWEIGHT DESIGN</span><span class='detail-specs-h6'>- Weighs just 127g for smooth control and safe usage.</span></h6>"
-        ],
-        tags: [
-            "syma",
-            "x5uw",
-            "drone",
-            "fpv",
-            "wifi-camera",
-            "720p",
-            "barometer",
-            "altitude-hold",
-            "smartphone-control",
-            "transmitter",
-            "lightweight",
-            "auto-takeoff",
-            "tech-gadget",
-            "rc-quadcopter"
-        ],
-        carousels: [
-            "latestArrivals", "techGadgets"
-        ],
-        storage: "",
-        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/syma-x5uw-drone-wifi-fpv-720p-hd-camera-qb0OieqrofxFLKA0yYFX7KAl.html?page=1&pos=7&cur_pos=7&ads_per_page=50&ads_count=50&lid=Azw0537u_Og61Peq&indexPosition=6",
-        youtubeReview: "https://www.youtube.com/embed/r2qGiNBMHYc?si=QMcrbKMbV5aIEbk_",
-        unboxingVideo: "https://www.youtube.com/embed/JXeTzTHxuBg?si=QGbyEoKShBEvfP1b",
-        prevPrice: 42000,
-        nowPrice: 38000,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.7
-    },
-    {
-        productID: 3203,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone_vnogg3.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone_vnogg3.png", // Display image showing the black drone
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone-2_kxqwtx.png", // Display image showing the black drone
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone-3_j5oh7a.jpg", // Display image showing the black drone
-                color: "Black"
-            },
-        ],
-        defaultColor: "Black",
-        Title: "JY03 GPS Drone with 4K HD Camera and 36 Min Flight Time - Aerial Mastery for All",
-        SubTitle: "JY03-GPS",
-        category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "fpv-gps",
-        brand: "jy03",
-        name: "jy03-gps-drone-4k-hd-camera-36min-flight-black",
-        description: "Capture stunning aerial shots and enjoy 36 minutes of flight with the JY03 GPS Drone’s 4K camera and dual batteries.",
-        detailsDescription: "The JY03-GPS Drone redefines aerial photography and flight control. Featuring a 4K HD camera with 90° adjustability and GPS-powered precision, this quadcopter provides stable navigation and crisp real-time footage to your phone. Dual modular batteries give you up to 36 minutes of flight time. With features like One-Key Takeoff/Landing, Headless Mode, 3-speed settings, gesture-controlled photography, facial recognition tracking, 360° flips, and LED lighting, it's the perfect choice for both beginners and experienced drone pilots. Built-in optical flow sensor ensures improved stability for indoor and low-altitude flights.",
-        topSpecs: [
-            "<h6><span>Camera</span><span>4K HD with 90° adjust</span></h6>",
-            "<h6><span>Flight Time</span><span>36 minutes (2 batteries)</span></h6>",
-            "<h6><span>Navigation</span><span>GPS + Optical Flow</span></h6>",
-            "<h6><span>Control</span><span>Mobile App + RC</span></h6>",
-            "<h6><span>Modes</span><span>Gesture, Headless, 360° Flip</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>4K HD CAMERA</span><span class='detail-specs-h6'>- Shoot crisp aerial photos and videos with 90° tilt adjustment.</span></h6>",
-            "<h6><span>GPS SMART FLIGHT</span><span class='detail-specs-h6'>- Accurate positioning and return-to-home for safe navigation.</span></h6>",
-            "<h6><span>DUAL BATTERIES</span><span class='detail-specs-h6'>- Enjoy up to 36 minutes of total flight time.</span></h6>",
-            "<h6><span>GESTURE & FACE TRACKING</span><span class='detail-specs-h6'>- Take photos or follow you with hand gestures or facial recognition.</span></h6>",
-            "<h6><span>OPTICAL FLOW SENSOR</span><span class='detail-specs-h6'>- Enhanced stability for indoor and low-altitude flying.</span></h6>"
-        ],
-        tags: [
-            "jy03",
-            "gps-drone",
-            "4k-camera",
-            "fpv",
-            "dual-battery",
-            "gesture-control",
-            "face-tracking",
-            "360-flip",
-            "headless-mode",
-            "optical-flow",
-            "led-lights",
-            "drone-for-kids",
-            "drone-for-adults"
-        ],
-        carousels: [
-            "latestArrivals", "techGadgets"
-        ],
-        storage: "",
-        dropURL: "https://jiji.co.ke/lavington/cameras-video-cameras-and-accessories/jy03-1080p-hd-camera-drone-in-kenya-wXgcpqBXtEOSVtkdQ4TwIWFx.html?page=1&pos=10&cur_pos=10&ads_per_page=50&ads_count=50&lid=39rhWY1I6yiO4bnb&indexPosition=9",
-        youtubeReview: "https://www.youtube.com/embed/PhtqXyVYbTQ?si=eHEWvQNfv7NqRBTd",
-        unboxingVideo: "https://www.youtube.com/embed/PhtqXyVYbTQ?si=eHEWvQNfv7NqRBTd",
-        prevPrice: 19500,
-        nowPrice: 17000,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.8
-    },
-    {
-        productID: 3204,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747429930/drone-squad-banshee_bow0ub.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747429930/drone-squad-banshee_bow0ub.png",
-                color: "white"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747429930/drone-squad-banshee-2_eplb3h.png",
-                color: "white"
-            },
-        ],
-        defaultColor: "white",
-        Title: "Drone Squad Banshee RC Stunt Quadcopter with SD Video",
-        SubTitle: "ASAB Squad Banshee",
-        category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "rc-stunt",
-        brand: "asab",
-        name: "drone-squad-banshee-rc-stunt-quadcopter-camera-sdcard",
-        description: "Agile and beginner-friendly, the Squad Banshee offers 360° flips, precise hovering, and video recording with built-in SD support.",
-        detailsDescription: "The ASAB Drone Squad Banshee is the ultimate beginner-friendly quadcopter for rapid aerial stunts and reliable flying. It features a 6-axis gyro system and collision protectors for smooth, safe performance. Easily perform 360° rolls and enjoy stable hovering thanks to built-in flight stabilization. It includes a 4GB SD card and onboard camera for direct video recording, and comes fully assembled with a Skycontroller, USB adaptor, and remote. Ideal for entry-level drone enthusiasts and stunt flyers.",
-        topSpecs: [
-            "<h6><span>Flight System</span><span>6-Axis Gyro with Collision Protection</span></h6>",
-            "<h6><span>Stunt Mode</span><span>360° Roll-Over & 3D Flight</span></h6>",
-            "<h6><span>Camera</span><span>Video recording to SD card</span></h6>",
-            "<h6><span>Control</span><span>Remote Control (Included)</span></h6>",
-            "<h6><span>Range</span><span>Up to 120 meters</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>6-AXIS GYRO SYSTEM</span><span class='detail-specs-h6'>- Delivers superior flight stability for stunts and hovering.</span></h6>",
-            "<h6><span>COLLISION PROTECTORS</span><span class='detail-specs-h6'>- Guard the drone from crashes and prolong durability.</span></h6>",
-            "<h6><span>STUNT READY</span><span class='detail-specs-h6'>- Perform 360° flips and agile rolls effortlessly.</span></h6>",
-            "<h6><span>CAMERA WITH SD RECORDING</span><span class='detail-specs-h6'>- Capture footage directly to the included 4GB SD card.</span></h6>",
-            "<h6><span>READY TO FLY</span><span class='detail-specs-h6'>- Fully assembled with controller, SD card, and USB adapter.</span></h6>"
-        ],
-        tags: [
-            "asab",
-            "squad-banshee",
-            "stunt-drone",
-            "rc-quadcopter",
-            "6-axis-gyro",
-            "drone-for-beginners",
-            "sd-recording",
-            "collision-protection",
-            "usb-charging",
-            "aerial-stunts"
-        ],
-        carousels: [
-            "latestArrivals", "techGadgets"
-        ],
-        storage: "",
-        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/banshee-drone-squad-rc-stunt-quadcopter-with-video-camera-6-ifX3U6L0LmKvYs40YKIiLEKs.html?page=2&pos=17&cur_pos=17&ads_per_page=24&ads_count=126&lid=Fwlad6lbGmXHxcnN&indexPosition=46",
-        youtubeReview: "https://www.youtube.com/embed/CHGk9QGfZrU?si=bK-RDv9YHZZbStnt",
-        unboxingVideo: "https://www.youtube.com/embed/xiSRPxyiDGM?si=CdHAce7DhY1XFvUD",
-        prevPrice: 25500,
-        nowPrice: 19500,
-        stock: 12,
         freeShipping: true,
         condition: "New",
         rating: 4.5
     },
     {
-        productID: 3205,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        productID: 3202,
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
         playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone_knttkr.png",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748721190/crossroad-mtb-bike-size-24_gne9mt.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone_knttkr.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone-2_iyo6ux.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone-3_vdoyjn.png",
-                color: "Black"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748721190/crossroad-mtb-bike-size-24_gne9mt.png",
+                color: "Blue"
             },
         ],
-        defaultColor: "Black",
-        Title: "G2 Mini Drone with Dual 1080p HD Cameras – Compact, Foldable & Feature-Packed",
-        SubTitle: "G2 Mini Drone",
+        defaultColor: "Blue",
+        Title: "Crossroad MTB Bike Size 24 – Dual Suspension & 21-Speed Ride",
+        SubTitle: "Mountain Bike",
         category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "g2-mini",
-        brand: "dealbora",
-        name: "g2-mini-drone-1080p-dual-camera-foldable",
-        description: "A foldable dual-camera drone offering 1080p visuals, headless mode, one-click takeoff, and real-time video transmission.",
-        detailsDescription: "The G2 Mini Drone brings portability and power together in a compact UAV. With a folding body, front and bottom 1080p HD cameras, and real-time FPV transmission, it delivers dynamic aerial footage. Features include gesture control for photos and video, one-click takeoff and landing, speed adjustment, headless mode, height hold, and 3D trick rolls. Lightweight yet capable, the G2 is ideal for beginner to intermediate flyers looking for advanced functionality in a travel-ready design.",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "crossroad",
+        name: "crossroad-mtb-bike-size-24-kenya",
+        description: "Adventure-ready MTB with dual suspension, disc brakes, and 21-speed drivetrain – ideal for kids 10+ and young riders.",
+        detailsDescription: "The Crossroad MTB Size 24 bike combines comfort, safety, and performance for young riders aged 10 and above. Its dual suspension system cushions bumps and dips on uneven terrain, while mechanical disc brakes provide dependable stopping power. Equipped with a Sunrun 21-speed drivetrain and ergonomic shifters, this bike is perfect for both learning and exploring. The 24×2.35 wide tires offer stability and grip, and front and rear fenders protect against dirt and splashes. Whether used for school commutes or weekend adventures, this is the bike that grows with your young rider.",
         topSpecs: [
-            "<h6><span>Camera</span><span>Dual 1080p HD (Front & Bottom)</span></h6>",
-            "<h6><span>Design</span><span>Foldable & Compact</span></h6>",
-            "<h6><span>Flight Features</span><span>One-click takeoff/landing, 3D rolls</span></h6>",
-            "<h6><span>Control</span><span>Gesture Photo/Video, Headless Mode</span></h6>",
-            "<h6><span>Transmission</span><span>Real-Time via WiFi</span></h6>"
+            "<h6><span>Frame</span><span>Size 24 Sturdy Frame</span></h6>",
+            "<h6><span>Gears</span><span>21-Speed Sunrun DR5</span></h6>",
+            "<h6><span>Brakes</span><span>Mechanical Disc Brakes</span></h6>",
+            "<h6><span>Suspension</span><span>Dual Suspension</span></h6>",
+            "<h6><span>Tires</span><span>24 x 2.35 All-Terrain</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>DUAL CAMERA SYSTEM</span><span class='detail-specs-h6'>- Capture video from both front and bottom for diverse perspectives.</span></h6>",
-            "<h6><span>FOLDABLE BUILD</span><span class='detail-specs-h6'>- Lightweight and collapsible design makes it easy to carry and store.</span></h6>",
-            "<h6><span>SMART GESTURE CONTROL</span><span class='detail-specs-h6'>- Use hand gestures to take photos and videos with ease.</span></h6>",
-            "<h6><span>3D FLIGHT MANEUVERS</span><span class='detail-specs-h6'>- Perform aerial flips and rolls for an exciting flying experience.</span></h6>",
-            "<h6><span>FPV LIVE STREAM</span><span class='detail-specs-h6'>- Stream video directly to your phone via WiFi connectivity.</span></h6>"
+            "<h6><span>CHILD & TEEN-FRIENDLY BUILD</span><span class='detail-specs-h6'>- Designed for ages 10+ with size 24 wheels and rugged build for durability.</span></h6>",
+            "<h6><span>21-SPEED PERFORMANCE</span><span class='detail-specs-h6'>- Equipped with Sunrun 7×3 gearing and trigger shifters for smooth transitions.</span></h6>",
+            "<h6><span>DUAL SUSPENSION SYSTEM</span><span class='detail-specs-h6'>- Front and rear shock absorption ensures a comfortable and controlled ride.</span></h6>",
+            "<h6><span>MECHANICAL DISC BRAKES</span><span class='detail-specs-h6'>- Responsive braking system for safety on any surface.</span></h6>",
+            "<h6><span>STYLE & FUNCTION</span><span class='detail-specs-h6'>- Sporty color options with ergonomic grips and fenders for added protection.</span></h6>"
         ],
         tags: [
-            "g2-mini-drone",
-            "foldable-drone",
-            "dual-camera-drone",
-            "fpv",
-            "headless-mode",
-            "gesture-control",
-            "1080p-hd",
-            "dealbora",
-            "wifi-drone",
-            "real-time-transmission"
+            "crossroad-bike",
+            "mtb-kids-bike",
+            "bicycle-size-24",
+            "kids-gear-bike",
+            "dual-suspension-bike",
+            "sunrun-derailleur",
+            "disc-brake-bike",
+            "bike-for-10-year-olds"
         ],
         carousels: [
-            "latestArrivals", "techGadgets"
+            "bikeZone", "kidsOutdoor"
         ],
         storage: "",
-        dropURL: "https://jiji.co.ke/nairobi-central/store-equipments/mini-drone-phip-g2-720p-hd-black-42cw2d2QvRNzgE6LZoRmYrxG.html?page=1&pos=9&cur_pos=9&ads_per_page=50&ads_count=50&lid=8JVLCnXgX0JXeBeQ&indexPosition=8",
-        youtubeReview: "https://www.youtube.com/embed/rXD5TVPXqeo?si=-vl43AVESfVJcGsP",
-        unboxingVideo: "https://www.youtube.com/embed/RoQY6_zBg9o?si=ie0737KZovx9WWo9",
-        prevPrice: 12000,
-        nowPrice: 9499,
-        stock: 10,
+        dropURL: "https://glolinkbicycles.co.ke/product/crossroad-mtb-bicycle-size-24-for-children-10-years-dual-suspension-tire-262-35-bluegreen/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 25000,
+        nowPrice: 22500,
+        stock: 12,
         freeShipping: true,
         condition: "New",
-        rating: 4.4
+        rating: 4.6
     },
     {
-        productID: 3206,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        productID: 3203,
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
         playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433171/g4-drone_rugdue.png",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748721779/crossroad-mtb-bike-size-26_thtyku.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433171/g4-drone_rugdue.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433172/g4-drone-2_pkkefb.png",
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433172/g4-drone-3_rdx9hz.png",
-                color: "Black"
-            },
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748721779/crossroad-mtb-bike-size-26_thtyku.png",
+                color: "Blue"
+            }
         ],
-        defaultColor: "Black",
-        Title: "G4 Drone with 4K Dual Cameras – Obstacle Avoidance & Gesture Control Powerhouse",
-        SubTitle: "G4 Drone",
+        defaultColor: "Blue",
+        Title: "Crossroad MTB Bike Size 26 – Dual Suspension & 21-Speed Power",
+        SubTitle: "Mountain Bike",
         category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "g4",
-        brand: "pihot",
-        name: "g4-drone-4k-dual-camera-obstacle-avoidance",
-        description: "4K dual-camera drone with gesture control, obstacle avoidance, and advanced aerial stability features.",
-        detailsDescription: "The PIHOT G4 Drone delivers immersive aerial photography with a 4K resolution front camera and a secondary bottom view for diverse angles. Featuring automatic obstacle avoidance, gesture-based photo capture, visual positioning, and 3D stunt rollover, this drone is designed for beginners through to advanced pilots. With its compact yet capable build, it's ideal for both indoor and outdoor flying. It includes everything you need right out of the box, including dual cameras, remote control, batteries, USB charger, and instructions.",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "crossroad",
+        name: "crossroad-mtb-bike-size-26",
+        description: "Durable and responsive 26-inch mountain bike with disc brakes, dual suspension, and 21-speed gearing – built for daily adventure.",
+        detailsDescription: "The Crossroad MTB Size 26 is a versatile mountain bike designed for both teens and adults. Its 26×2.35 tires provide excellent traction on urban roads and rugged trails, while dual suspension ensures a smooth and controlled ride. Mechanical disc brakes offer reliable stopping power, and the 21-speed Sunrun drivetrain allows you to tackle hills with ease. Ergonomic grips, a comfortable saddle, and front and rear fenders make it a practical and stylish option for commuting, weekend riding, or fitness cycling.",
         topSpecs: [
-            "<h6><span>Camera</span><span>4K Dual (Front & Bottom)</span></h6>",
-            "<h6><span>Obstacle Avoidance</span><span>Automatic Multi-Directional Sensors</span></h6>",
-            "<h6><span>Control Features</span><span>Gesture Shooting, 3D Rollover</span></h6>",
-            "<h6><span>Positioning</span><span>Visual Positioning + Stabilization</span></h6>",
-            "<h6><span>Use</span><span>Indoor & Outdoor</span></h6>"
+            "<h6><span>Frame</span><span>Size 26 Durable Frame</span></h6>",
+            "<h6><span>Gears</span><span>21-Speed Sunrun DR5</span></h6>",
+            "<h6><span>Brakes</span><span>Mechanical Disc Brakes</span></h6>",
+            "<h6><span>Suspension</span><span>Dual Suspension</span></h6>",
+            "<h6><span>Tires</span><span>26 x 2.35 All-Terrain</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>AUTOMATIC OBSTACLE AVOIDANCE</span><span class='detail-specs-h6'>- Prevents collisions with forward-facing sensors for safe flying.</span></h6>",
-            "<h6><span>4K ULTRA HD CAMERA</span><span class='detail-specs-h6'>- Capture crisp, high-resolution video and images from the air.</span></h6>",
-            "<h6><span>VISUAL POSITIONING</span><span class='detail-specs-h6'>- Ensures stable hovering and accurate landings.</span></h6>",
-            "<h6><span>3D STUNT ROLLOVER</span><span class='detail-specs-h6'>- Flip and roll in mid-air with dynamic maneuverability.</span></h6>",
-            "<h6><span>READY TO FLY</span><span class='detail-specs-h6'>- Includes batteries, controller, charger, and user guide in the original box.</span></h6>"
+            "<h6><span>BUILT FOR DAILY RIDING</span><span class='detail-specs-h6'>- Perfect for adult riders with a sturdy frame and responsive ride feel.</span></h6>",
+            "<h6><span>DUAL SUSPENSION COMFORT</span><span class='detail-specs-h6'>- Absorbs shocks and improves control over bumps and uneven terrain.</span></h6>",
+            "<h6><span>DISC BRAKING SYSTEM</span><span class='detail-specs-h6'>- Mechanical disc brakes provide dependable stopping power in all weather.</span></h6>",
+            "<h6><span>EFFORTLESS GEAR SHIFTS</span><span class='detail-specs-h6'>- Trigger shifters and a 7×3 drivetrain combo for smooth gear changes.</span></h6>",
+            "<h6><span>STYLISH + FUNCTIONAL DESIGN</span><span class='detail-specs-h6'>- Comes with fenders, ergonomic grips, and a comfy saddle for long rides.</span></h6>"
         ],
         tags: [
-            "g4-drone",
-            "pihot-drone",
-            "4k-drone",
-            "gesture-control",
-            "obstacle-avoidance",
-            "dual-camera",
-            "stunt-drone",
-            "visual-positioning",
-            "fpv",
-            "intermediate-drone"
+            "crossroad-bike",
+            "mtb-adult-bike",
+            "bicycle-size-26",
+            "dual-suspension-bike",
+            "disc-brake-bike",
+            "21-speed-bike",
+            "sunrun-gears",
+            "mountain-bike-kenya"
         ],
         carousels: [
-            "techGadgets", "latestArrivals"
+            "bikeZone", "commuterGear"
         ],
         storage: "",
-        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/g4-drone-with-dual-hd-cameras-2KC38uDkuNTujvkOiDIO7m2c.html?page=2&pos=20&cur_pos=20&ads_per_page=24&ads_count=127&lid=mMbdogQ24y6SCLEw&indexPosition=49",
-        youtubeReview: "https://www.youtube.com/embed/cGen-sz4SHQ?si=VaaPb0y5is-z1BFd",
-        unboxingVideo: "https://www.youtube.com/embed/cGen-sz4SHQ?si=VaaPb0y5is-z1BFd",
-        prevPrice: 25660,
-        nowPrice: 19500,
+        dropURL: "https://glolinkbicycles.co.ke/product/crossroad-mtb-bicycle-size-26-for-adults-dual-suspension-tire-262-35-blue/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 30000,
+        nowPrice: 24500,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 3204,
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748723024/dinos-foldable-mtb-bike-size-26-yellow_ixik7q.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748723024/dinos-foldable-mtb-bike-size-26-yellow_ixik7q.png",
+                color: "Yellow"
+            }
+        ],
+        defaultColor: "Yellow",
+        Title: "Dinos Foldable MTB Size 26 – Compact Power with 21-Speed Gears",
+        SubTitle: "Mountain Bike",
+        category: "actionnride",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "dinos",
+        name: "dinos-foldable-mtb-bike-size-26-yellow",
+        description: "A sturdy foldable mountain bike with disc brakes, alloy frame, and 21-speed gearing—ideal for urban rides and off-road adventures.",
+        detailsDescription: "The Dinos Foldable Mountain Bike Size 26 blends utility and performance with its durable alloy frame, foldable design, and chrome wheels. Featuring 21-speed gearing (7×3) and mechanical disc brakes, this bike ensures precise control and power on any terrain. The double-wall alloy rims and 26 x 2.125 tires provide smooth rolling, while the foldable frame allows for easy storage and transport. Whether you're commuting or exploring trails, the Dinos MTB offers both versatility and style in a bold yellow finish.",
+        topSpecs: [
+            "<h6><span>Frame</span><span>Foldable Alloy 26”</span></h6>",
+            "<h6><span>Gears</span><span>21-Speed Steel Rapid Fire</span></h6>",
+            "<h6><span>Brakes</span><span>Mechanical Disc Brakes</span></h6>",
+            "<h6><span>Wheels</span><span>Double Wall Chrome Rims</span></h6>",
+            "<h6><span>Tires</span><span>26 x 2.125 All-Terrain</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FOLDABLE DESIGN</span><span class='detail-specs-h6'>- Saves space and makes it easy to carry or store.</span></h6>",
+            "<h6><span>BUILT FOR ADVENTURE</span><span class='detail-specs-h6'>- Sturdy alloy frame with a reliable drivetrain for off-road and urban terrain.</span></h6>",
+            "<h6><span>CONTROLLED BRAKING</span><span class='detail-specs-h6'>- Mechanical disc brakes provide superior stopping power in wet or dry conditions.</span></h6>",
+            "<h6><span>CRISP GEAR SHIFTS</span><span class='detail-specs-h6'>- 21-speed (7×3) rapid fire system for smooth transitions and uphill ease.</span></h6>",
+            "<h6><span>COMFORTABLE RIDE</span><span class='detail-specs-h6'>- Rubber grips, reflector saddle, and ergonomic handlebar for long rides.</span></h6>"
+        ],
+        tags: [
+            "foldable-bike",
+            "dinos-bike-kenya",
+            "chrome-wheel-bike",
+            "yellow-mtb",
+            "mountain-bike-26",
+            "disc-brake-bike",
+            "alloy-frame-bike",
+            "urban-trail-bike"
+        ],
+        carousels: [
+            "bikeZone", "foldables"
+        ],
+        storage: "",
+        dropURL: "https://glolinkbicycles.co.ke/product/dinos-foldable-mountain-bike-size-26-73-gears-bicycle-yellow/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 32500,
+        nowPrice: 25500,
         stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.6
     },
     {
-        productID: 3207,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        productID: 3205,
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
         playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434147/pihot-p30-pro_xy3dph.png", // Main image of the P30 Pro drone
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748723852/dook-fatbike-mtb-size-26-4-0-8sp-dual-suspension_sfldlw.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434147/pihot-p30-pro_xy3dph.png", // Image URL for black variant
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748723852/dook-fatbike-mtb-size-26-4-0-8sp-dual-suspension_sfldlw.png",
                 color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434146/pihot-p30-pro-2_eldxls.png", // Image URL for black variant
-                color: "Black"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434147/pihot-p30-pro-3_jmyizs.png", // Image URL for black variant
-                color: "Black"
-            },
+            }
         ],
         defaultColor: "Black",
-        Title: "PIHOT P30 Pro Drone - 4K GPS Camera & Smart Tracking with Long-Range",
-        SubTitle: "P30 Pro 4K Drone",
+        Title: "Dook Fatbike Size 26 – Rugged Cruiser with 4” Tires for Any Terrain",
+        SubTitle: "Mountain Bike",
         category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "p30-pro",
-        brand: "pihot",
-        name: "pihot-p30-pro-4k-drone-black",
-        description: "High-performance 4K drone with GPS, smart gesture tracking, and a 1000m flight range.",
-        detailsDescription: "The PIHOT P30 Pro Drone redefines high-end consumer aerial tech with a 4K camera adjustable by 90°, GPS-assisted navigation, and intelligent image tracking. With advanced gesture recognition and flight path planning, it offers immersive control. Enjoy up to 25 minutes of flight with a powerful 7.4V 2000mAh battery and 1000-meter control range. Compact when folded and ready for portability, this drone includes features like automatic takeoff/landing, orbit mode, and recovery location mapping. Designed for serious hobbyists and drone explorers.",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "dook",
+        name: "dook-fatbike-mtb-size-26-4-0-8sp-dual-suspension",
+        description: "Conquer trails, sand, or snow with the Dook Fatbike 26” – built for adventure with massive 4.0-inch tires, dual suspension, and alloy wheels.",
+        detailsDescription: "The Dook Fatbike Size 26 is a robust, trail-ready mountain cruiser with serious attitude. It sports ultra-wide 4.0-inch fat tires for unbeatable traction across sand, snow, mud, or rocky terrain. With a durable steel frame, alloy wheelset, 8-speed drivetrain, and dual suspension, this bike handles rugged environments with confidence. Mechanical disc brakes on both wheels offer powerful, reliable stopping power. Whether you're tackling backcountry paths or urban trails, the Dook Fatbike delivers comfort and control in one bold package.",
         topSpecs: [
-            "<h6><span>Camera</span><span>4K Adjustable 90°</span></h6>",
-            "<h6><span>Flight Time</span><span>Up to 25 Minutes</span></h6>",
-            "<h6><span>Range</span><span>1000 Meters</span></h6>",
-            "<h6><span>Gesture Tracking</span><span>Photo & Video Capture</span></h6>",
-            "<h6><span>Positioning</span><span>GPS + Visual Positioning 2.0</span></h6>"
+            "<h6><span>Frame</span><span>Heavy-Duty Steel MTB Frame</span></h6>",
+            "<h6><span>Suspension</span><span>Front & Rear Dual Suspension</span></h6>",
+            "<h6><span>Wheels</span><span>26” Alloy 4” Fat Wheels</span></h6>",
+            "<h6><span>Brakes</span><span>Mechanical Disc Brakes</span></h6>",
+            "<h6><span>Drivetrain</span><span>8-Speed Gearing</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>4K ADJUSTABLE CAMERA</span><span class='detail-specs-h6'>- Tilt via remote control for dynamic aerial visuals at 25fps.</span></h6>",
-            "<h6><span>GESTURE CONTROL</span><span class='detail-specs-h6'>- Take photos or videos with simple hand gestures at 1-5m range.</span></h6>",
-            "<h6><span>GPS SMART TRACKING</span><span class='detail-specs-h6'>- Image tracking, orbit flight, and one-touch return assist in precision piloting.</span></h6>",
-            "<h6><span>RECOVERY FUNCTION</span><span class='detail-specs-h6'>- Find lost drones using last GPS map position with triple GPS icon tap.</span></h6>",
-            "<h6><span>FOLDABLE DESIGN</span><span class='detail-specs-h6'>- 29x29x6cm unfolded, easily compacted to 18x14x6cm for portability.</span></h6>"
+            "<h6><span>ALL-TERRAIN DOMINANCE</span><span class='detail-specs-h6'>- 4-inch fat tires provide ultimate grip on sand, snow, or gravel.</span></h6>",
+            "<h6><span>CRUISER STYLE FRAME</span><span class='detail-specs-h6'>- Sleek and aggressive geometry for confident trail riding or leisure cruises.</span></h6>",
+            "<h6><span>DUAL SUSPENSION</span><span class='detail-specs-h6'>- Front and rear shocks for smooth handling on bumpy paths.</span></h6>",
+            "<h6><span>ALLOY RIM SET</span><span class='detail-specs-h6'>- Lightweight yet durable for all-weather rides and harsh terrain.</span></h6>",
+            "<h6><span>DISC BRAKES</span><span class='detail-specs-h6'>- Reliable stopping power for downhill, wet, or fast-paced riding.</span></h6>"
         ],
         tags: [
-            "p30-pro",
-            "pihot-drone",
-            "4k-drone",
-            "gps-drone",
-            "gesture-drone",
-            "foldable-drone",
-            "long-range-drone",
-            "smart-tracking",
-            "aerial-photography"
+            "fatbike-kenya",
+            "dook-fatbike",
+            "mtb-fatbike",
+            "4-inch-tires",
+            "disc-brake-fatbike",
+            "dual-suspension-bike",
+            "steel-frame-bike",
+            "trail-bike-kenya"
         ],
         carousels: [
-            "techGadgets", "internationalShipping"
+            "bikeZone", "fatbikes"
         ],
         storage: "",
-        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/p30-drone-with-dual-hd-cameras-xgBl8IaDU75YKWFgrkntu3eI.html?page=1&pos=6&cur_pos=6&ads_per_page=50&ads_count=50&lid=F71DYB1wDC06VMZD&indexPosition=5",
-        youtubeReview: "https://www.youtube.com/embed/jl_jU2Bm-C4?si=eBtlSiOSCpV1Aasc",
-        unboxingVideo: "https://www.youtube.com/embed/jl_jU2Bm-C4?si=eBtlSiOSCpV1Aasc",
-        prevPrice: 26800,
-        nowPrice: 19500,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.7
-    },
-    {
-        productID: 3208,
-        platform: "Drones",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435420/neo-fly-more_czstll.png", // Main image for DJI Neo Fly More
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435420/neo-fly-more_czstll.png", // Image URL for default black/grey color
-                color: "Grey"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435421/neo-fly-more-2_oxhvoi.png", // Image URL for default black/grey color
-                color: "Grey"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435421/neo-fly-more-3_uprush.png", // Image URL for default black/grey color
-                color: "Grey"
-            },
-        ],
-        defaultColor: "Grey",
-        Title: "DJI Neo Fly More – 4K Compact Drone with Intelligent Tracking & Palm Control",
-        SubTitle: "Neo Fly More 4K Drone",
-        category: "actionnride",
-        subCategory: ["drones", "gadgets"],
-        variant: "neo-fly-more",
-        brand: "dji",
-        name: "dji-neo-fly-more-drone-kenya",
-        description: "Ultra-compact 4K drone with palm control, AI tracking, and QuickShots modes for creative aerial video.",
-        detailsDescription: "The DJI Neo Fly More is DJI's lightest and most compact drone at just 135g, engineered for effortless travel and spontaneous creativity. Launch it straight from your palm—no controller required—and film cinematic 4K video using intelligent RockSteady and Horizon Balancing stabilization. Neo features AI-powered tracking, QuickShots for creative angles, and multiple control options, including voice and app-based joysticks. Whether you're hiking, cycling, or shooting indoors, Neo delivers stabilized, dynamic content with ease and safety thanks to its full propeller guards.",
-        topSpecs: [
-            "<h6><span>Camera</span><span>4K Ultra-Stabilized</span></h6>",
-            "<h6><span>Weight</span><span>135g</span></h6>",
-            "<h6><span>Palm Takeoff</span><span>Yes</span></h6>",
-            "<h6><span>Tracking</span><span>AI Subject Tracking</span></h6>",
-            "<h6><span>Stabilization</span><span>RockSteady + Horizon Balancing</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>PALM-SIZED DESIGN</span><span class='detail-specs-h6'>- Weighs just 135g, perfect for portability and quick flights.</span></h6>",
-            "<h6><span>PALM TAKEOFF & LANDING</span><span class='detail-specs-h6'>- Launch and land without a controller—great for on-the-go shooting.</span></h6>",
-            "<h6><span>4K CINEMATIC FOOTAGE</span><span class='detail-specs-h6'>- Captures smooth, stabilized video with RockSteady and Horizon Balancing.</span></h6>",
-            "<h6><span>AI TRACKING</span><span class='detail-specs-h6'>- Keeps the subject in frame during dynamic activities like cycling or skateboarding.</span></h6>",
-            "<h6><span>QUICKSHOTS MODES</span><span class='detail-specs-h6'>- Includes Follow, Circle, and Expanse for creative perspectives.</span></h6>",
-            "<h6><span>SAFE INDOOR FLIGHT</span><span class='detail-specs-h6'>- Full-coverage propeller guards ensure safe flying indoors or in tight spaces.</span></h6>"
-        ],
-        tags: [
-            "dji-neo",
-            "neo-fly-more",
-            "dji-drone",
-            "compact-drone",
-            "palm-controlled-drone",
-            "intelligent-tracking",
-            "4k-drone",
-            "quickshots",
-            "portable-camera-drone"
-        ],
-        carousels: [
-            "techGadgets", "cinematicDrones"
-        ],
-        storage: "",
-        dropURL: "https://gadgetsleo.com/product/dji-neo-fly-more-drone/?gad_source=1&gad_campaignid=22506027758&gbraid=0AAAAADo0yamCfMtXMESPC1JbqO7ayp2WO&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfj15Uh-4zl5d8UqQKVxkm-oxts1CMYJumWdqnNZ2vM-gwM_yaigXBAaAsX4EALw_wcB",
-        youtubeReview: "https://www.youtube.com/embed/_3SRHxiY4RQ?si=TV-2y_gIubN03g2r",
-        unboxingVideo: "https://www.youtube.com/embed/rPC65Xq0j6A?si=GrjxZCMtDv3TcXaZ",
-        prevPrice: 60000,
-        nowPrice: 58500,
+        dropURL: "https://glolinkbicycles.co.ke/product/dook-fatbike-size-26-mountain-bike-size-264-0-fat-tire-8spdisc-brake-dual-suspension/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 65000,
+        nowPrice: 59000,
         stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.8
     },
-
-
-
-
+    {
+        productID: 3206,
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748724995/tanda-fatbike-mtb-size-26-4-0-8sp_rd2s5p.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748724995/tanda-fatbike-mtb-size-26-4-0-8sp_rd2s5p.png",
+                color: "Black"
+            }
+        ],
+        defaultColor: "Black",
+        Title: "TANDA Fatbike Size 26 – Rugged Mountain Bike with Oversized 4.0” Tires",
+        SubTitle: "Mountain Bike",
+        category: "actionnride",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "tanda",
+        name: "tanda-fatbike-mtb-size-26-4-0-8sp",
+        description: "Built for endurance and stability, the TANDA Fatbike 26” dominates any terrain with its 4.0” fat tires and reliable 8-speed drivetrain.",
+        detailsDescription: "The TANDA Fatbike 26” is an all-terrain powerhouse featuring massive 4.0-inch tires designed to grip sand, snow, mud, or gravel with ease. Its durable steel frame offers strength and comfort, while front suspension ensures smooth handling on bumpy trails. With an 8-speed drivetrain and responsive disc brakes, it’s ideal for adventurous riders who want maximum control and style. The ergonomic saddle and flat handlebars enhance comfort for long rides, making this fatbike perfect for off-road and urban escapades alike.",
+        topSpecs: [
+            "<h6><span>Frame</span><span>Reinforced Steel Mountain Frame</span></h6>",
+            "<h6><span>Tires</span><span>26 x 4.0” Fat Tires</span></h6>",
+            "<h6><span>Suspension</span><span>Front Fork Suspension</span></h6>",
+            "<h6><span>Gearing</span><span>8-Speed Transmission</span></h6>",
+            "<h6><span>Brakes</span><span>Mechanical Disc Brakes (Front & Rear)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ULTRA-WIDE TIRES</span><span class='detail-specs-h6'>- Massive 4.0” tires provide enhanced grip on rugged trails, beaches, and snow paths.</span></h6>",
+            "<h6><span>RUGGED DESIGN</span><span class='detail-specs-h6'>- Built for heavy-duty riding with a solid steel frame and aggressive stance.</span></h6>",
+            "<h6><span>8-SPEED GEAR SYSTEM</span><span class='detail-specs-h6'>- Efficient shifting ensures smooth rides across various inclines and surfaces.</span></h6>",
+            "<h6><span>FRONT SUSPENSION</span><span class='detail-specs-h6'>- Absorbs shocks and bumps, providing enhanced control and comfort.</span></h6>",
+            "<h6><span>DUAL DISC BRAKES</span><span class='detail-specs-h6'>- Confident braking in all weather and terrain conditions.</span></h6>"
+        ],
+        tags: [
+            "tanda-fatbike",
+            "fatbike-kenya",
+            "mtb-bike-26inch",
+            "4-inch-fatbike",
+            "disc-brake-bike",
+            "offroad-fatbike",
+            "all-terrain-fatbike"
+        ],
+        carousels: [
+            "bikeZone", "fatbikes"
+        ],
+        storage: "",
+        dropURL: "https://glolinkbicycles.co.ke/product/tanda-fatbike-size-26-mountain-bike-size-264-0-fat-tire-8spdisc-brake/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 51650,
+        nowPrice: 48500,
+        stock: 8,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 3207,
+        platform: "Bikes",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716626/bikes-banner_r59z7v.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748725589/luta-mountain-bike-26_uvafoe.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748716632/luta-mountain-bike-26-2_mu6hhf.jpg",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748725589/luta-mountain-bike-26_uvafoe.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Luta Mountain Bike 26” – Rugged Steel Frame with Coaster Brakes",
+        SubTitle: "Mountain Bike",
+        category: "actionnride",
+        subCategory: ["bikes", "outdoors"],
+        variant: "mountain",
+        brand: "luta",
+        name: "luta-mountain-bike-26",
+        description: "Tackle any trail with the Luta 26” Mountain Bike featuring a sturdy steel frame, durable tires, and smooth coaster brakes.",
+        detailsDescription: "The Luta 26-inch Mountain Bike is built for adventure and everyday commuting. Crafted with a lightweight yet tough steel frame, this bike combines resilience with comfort. It’s designed to take on uneven terrain with ease thanks to its all-terrain tires and ergonomic saddle. Coaster brakes ensure safe and intuitive stopping, making it ideal for riders of all levels. Whether you're navigating city roads or rugged trails, the Luta bike delivers control and confidence on every ride.",
+        topSpecs: [
+            "<h6><span>Frame</span><span>Lightweight Steel</span></h6>",
+            "<h6><span>Wheel Size</span><span>26 Inches</span></h6>",
+            "<h6><span>Brake</span><span>Rear Coaster Brake</span></h6>",
+            "<h6><span>Saddle</span><span>Ergonomic Comfort</span></h6>",
+            "<h6><span>Weight</span><span>12.5kg</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>LIGHTWEIGHT STEEL FRAME</span><span class='detail-specs-h6'>- Engineered for stability and agility on diverse terrain.</span></h6>",
+            "<h6><span>26-INCH DURABLE TIRES</span><span class='detail-specs-h6'>- Built to withstand rugged surfaces and ensure long-term performance.</span></h6>",
+            "<h6><span>COMFORTABLE SADDLE</span><span class='detail-specs-h6'>- Padded and contoured for reduced fatigue on long rides.</span></h6>",
+            "<h6><span>COASTER BRAKE SYSTEM</span><span class='detail-specs-h6'>- Offers smooth, responsive braking without cables or levers.</span></h6>",
+            "<h6><span>URBAN & OFF-ROAD READY</span><span class='detail-specs-h6'>- Ideal for daily commutes, weekend adventures, or off-road trails.</span></h6>"
+        ],
+        tags: [
+            "luta-bike",
+            "mountain-bike-kenya",
+            "steel-frame-bike",
+            "bikes-nairobi",
+            "outdoor-cycling",
+            "coaster-brake-bike",
+            "all-terrain-bike",
+            "entry-level-bike"
+        ],
+        carousels: [
+            "outdoorGear", "bikeZone"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/toys/classic-bike-size-20-with-gear-85P2f2iWRJ4Md3rGy81mgbnZ.html?page=1&pos=27&cur_pos=27&ads_per_page=50&ads_count=50&lid=hZNWD_hj1POYhnqj&indexPosition=26",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 26000,
+        nowPrice: 18900,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.3
+    },
 ]

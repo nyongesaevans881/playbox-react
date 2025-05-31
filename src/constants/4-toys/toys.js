@@ -1,547 +1,605 @@
 export const toys = [
-    //------------- DARTS
+  //-------------------- DRONES
     {
-        productID: 4001,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
+        productID: 3201,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655996/Screenshot_2025-04-14_213710_1_fkp5ob.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744658114/dart_mjmmen.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera_dzz0ur.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744658114/dart_mjmmen.png",
-                color: "Classic"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera_dzz0ur.png",
+                color: "silver"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744658115/dart-2_l5lf42.png",
-                color: "Classic"
-            }
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera-2_pt9cuc.png",
+                color: "silver"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera-3_b9zex0.png",
+                color: "silver"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423520/e88-drone-4k-hd-dual-camera-4_jiny4l.png",
+                color: "silver"
+            },
         ],
-        defaultColor: "Classic",
-        Title: "Quality Dart Board! Comes with 6 balanced darts",
-        SubTitle: "Darts",
+        defaultColor: "silver",
+        Title: "E88 Drone 4K HD Dual Camera with FPV and Gesture Control - Foldable",
+        SubTitle: "E88 Drone",
         category: "toys",
-        subCategory: ["sports",],
-        variant: "darts",
-        brand: "Darts",
-        name: "quality-dart-board",
-        description: "Bring home the thrill of precision and fun with this high-quality dart board set. Available in 12\", 15\", and 17\" sizes, this set comes with 6 balanced darts. Perfect for indoor recreation, game nights, or practicing your aim.",
-        detailsDescription: "Crafted for both casual players and budding pros, this double-sided dart board offers a standard target game on one side and an alternate style on the other. Built from durable materials with a high-quality finish, it's easy to mount and great for family fun, office breaks, or competitive gatherings. The included darts are designed for accuracy and grip. Whether you're hosting a party or honing your aim, this is the perfect addition to your game room.",
+        subCategory: ["drones", "gadgets"],
+        variant: "fpv-wifi",
+        brand: "mocvoo",
+        name: "e88-drone-4k-hd-dual-camera-with-fpv-and-gesture-control",
+        description: "Experience real-time FPV with a foldable drone featuring 4K HD dual cameras and gesture control.",
+        detailsDescription: "Capture stunning aerial footage with the E88 Drone's 1080P and 4K dual cameras, offering real-time image transmission via WiFi FPV. With a 120° adjustable wide-angle lens and gesture controls, it’s easier than ever to take professional-style shots. Enjoy 26 minutes of flight with two rechargeable 1800mAh batteries. Features like headless mode, altitude hold, 360° flips, and trajectory flight mode make it beginner-friendly and exciting for experts. Comes in a foldable design with a carry case for ultimate portability.",
         topSpecs: [
-            "<h6><span>BOARD SIZE</span><span class='detail-specs-h6'>- 12\", 15\", or 17\" Diameter</span></h6>",
-            "<h6><span>DARTS INCLUDED</span><span class='detail-specs-h6'>- 6 Steel-Tip or Magnetic Darts</span></h6>",
-            "<h6><span>AGE GROUP</span><span class='detail-specs-h6'>- Teens & Adults</span></h6>",
-            "<h6><span>MOUNTING</span><span class='detail-specs-h6'>- Wall-Mount Hook Included</span></h6>"
+            "<h6><span>Camera</span><span>1080P & 4K Dual HD</span></h6>",
+            "<h6><span>Flight Time</span><span>Up to 26 minutes</span></h6>",
+            "<h6><span>Battery</span><span>3.7V 1800mAh (x2)</span></h6>",
+            "<h6><span>Control</span><span>App, Gesture, and Remote</span></h6>",
+            "<h6><span>Foldable Design</span><span>Yes, with carrying case</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>INCLUDED</span><span> — 6 Balanced Darts</span></h6>",
-            "<h6><span>BOARD MATERIAL</span><span> — High-Quality Bristle / Compressed Paper</span></h6>",
-            "<h6><span>DIAMETER OPTIONS</span><span> — 12 Inches / 15 Inches / 17 Inches</span></h6>",
-            "<h6><span>STYLE</span><span> — Classic Target & Alternate Game on Back</span></h6>",
-            "<h6><span>SUITABLE FOR</span><span> — Indoor, Game Rooms, Offices, Recreation</span></h6>",
-            "<h6><span>BRAND</span><span> — Imported (High Quality)</span></h6>",
-            "<h6><span>RECOMMENDED FOR</span><span> — Beginners, Teens, Adults, Game Enthusiasts</span></h6>",
-            "<h6><span>SAFETY</span><span> — Steel or Magnetic Darts (Depending on Model)</span></h6>",
+            "<h6><span>WI-FI FPV TRANSMISSION</span><span class='detail-specs-h6'>- Stream live footage directly to your smartphone for immersive viewing.</span></h6>",
+            "<h6><span>GESTURE CONTROL</span><span class='detail-specs-h6'>- Take photos or videos with simple hand gestures.</span></h6>",
+            "<h6><span>HEADLESS MODE & ALTITUDE HOLD</span><span class='detail-specs-h6'>- Fly with ease and maintain stable height during flight.</span></h6>",
+            "<h6><span>DUAL CAMERA SETUP</span><span class='detail-specs-h6'>- Switch between 1080P and 4K views for dynamic shooting angles.</span></h6>",
+            "<h6><span>PORTABLE DESIGN</span><span class='detail-specs-h6'>- Foldable body and included case for easy travel and storage.</span></h6>"
         ],
         tags: [
-            "dart-board-kenya",
-            "12inch-dartboard",
-            "15inch-dartboard",
-            "17inch-dartboard",
-            "dart-set",
-            "family-game",
-            "indoor-game"
+            "e88",
+            "drone",
+            "fpv",
+            "foldable",
+            "4k-camera",
+            "gesture-control",
+            "wifi-fpv",
+            "rc-quadcopter",
+            "1080p",
+            "dual-camera",
+            "mocvoo",
+            "altitude-hold",
+            "headless-mode",
+            "mini-drone",
+            "carrying-case",
+            "tech-gadget",
+            "real-time-transmission"
         ],
-        carousels: ["gameZone", "indoorFun"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/quality-dart-board-dart-board-quality-dart-board-dart-board-k9Dd1Nzp2HBJpfINRlZLxlmr.html?page=1&pos=6&cur_pos=6&ads_per_page=50&ads_count=50&lid=IspaAX0ui6nq9FeY&indexPosition=5",
-        contact: "+254705690330 and +254768933911",
-        youtubeReview: "https://www.youtube.com/embed/PENN2ng4vag?si=CN7Z1XgcMyvQ0Hbm",
-        unboxingVideo: "https://www.youtube.com/embed/Hag2-lSoHDs?si=CocAv4r6qqRXczIE",
-        prevPrice: 2500,
-        nowPrice: 1499,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.5
-    },
-    {
-        productID: 4002,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655996/Screenshot_2025-04-14_213710_1_fkp5ob.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744661946/artwork-removebg-preview_vtu1di.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744661946/artwork-removebg-preview_vtu1di.png",
-                color: "Classic"
-            },
+        carousels: [
+            "latestArrivals", "techGadgets"
         ],
-        defaultColor: "Classic",
-        Title: "Professional Dart Board with 6 balanced darts",
-        SubTitle: "Pro Darts",
-        category: "toys",
-        subCategory: ["sports",],
-        variant: "darts",
-        brand: "Darts",
-        name: "professional-dart-board-with-6-balanced-darts",
-        description: "Bring home the thrill of precision and fun with this high-quality dart board set. Available in 12\", 15\", and 17\" sizes, this set comes with 6 balanced darts. Perfect for indoor recreation, game nights, or practicing your aim.",
-        detailsDescription: "Crafted for both casual players and budding pros, this double-sided dart board offers a standard target game on one side and an alternate style on the other. Built from durable materials with a high-quality finish, it's easy to mount and great for family fun, office breaks, or competitive gatherings. The included darts are designed for accuracy and grip. Whether you're hosting a party or honing your aim, this is the perfect addition to your game room.",
-        topSpecs: [
-            "<h6><span>BOARD SIZE</span><span class='detail-specs-h6'>- 12\", 15\", or 17\" Diameter</span></h6>",
-            "<h6><span>DARTS INCLUDED</span><span class='detail-specs-h6'>- 6 Steel-Tip or Magnetic Darts</span></h6>",
-            "<h6><span>AGE GROUP</span><span class='detail-specs-h6'>- Teens & Adults</span></h6>",
-            "<h6><span>MOUNTING</span><span class='detail-specs-h6'>- Wall-Mount Hook Included</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>INCLUDED</span><span> — 6 Balanced Darts</span></h6>",
-            "<h6><span>BOARD MATERIAL</span><span> — High-Quality Bristle / Compressed Paper</span></h6>",
-            "<h6><span>DIAMETER OPTIONS</span><span> — 12 Inches / 15 Inches / 17 Inches</span></h6>",
-            "<h6><span>STYLE</span><span> — Classic Target & Alternate Game on Back</span></h6>",
-            "<h6><span>SUITABLE FOR</span><span> — Indoor, Game Rooms, Offices, Recreation</span></h6>",
-            "<h6><span>BRAND</span><span> — Imported (High Quality)</span></h6>",
-            "<h6><span>RECOMMENDED FOR</span><span> — Beginners, Teens, Adults, Game Enthusiasts</span></h6>",
-            "<h6><span>SAFETY</span><span> — Steel or Magnetic Darts (Depending on Model)</span></h6>",
-        ],
-        tags: [
-            "dart-board-kenya",
-            "12inch-dartboard",
-            "15inch-dartboard",
-            "17inch-dartboard",
-            "dart-set",
-            "family-game",
-            "indoor-game"
-        ],
-        carousels: ["gameZone", "indoorFun"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/dartboard-professional-dart-board-pMSsQXrsheoSfxiX35uxHHdf.html?page=1&pos=5&cur_pos=5&ads_per_page=50&ads_count=50&lid=bQ1mJq7d8H3HXb2-&indexPosition=4",
-        contact: "+254719514836",
-        youtubeReview: "https://www.youtube.com/embed/PENN2ng4vag?si=CN7Z1XgcMyvQ0Hbm",
-        unboxingVideo: "https://www.youtube.com/embed/Hag2-lSoHDs?si=CocAv4r6qqRXczIE",
-        prevPrice: 2500,
-        nowPrice: 7599,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.5
-    },
-    {
-        productID: 4003,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655996/Screenshot_2025-04-14_213710_1_fkp5ob.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744663680/2-removebg-preview_xaldab.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744663680/2-removebg-preview_xaldab.png",
-                color: "Classic"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744663680/s-l1200-removebg-preview_d5iraq.png",
-                color: "Classic"
-            },
-        ],
-        defaultColor: "Classic",
-        Title: "18 Inch Dart Board Professional Dart Board",
-        SubTitle: "Darts",
-        category: "toys",
-        subCategory: ["sports",],
-        variant: "darts",
-        brand: "Darts",
-        name: "18-inch-dart-board-professional-dart-board",
-        description: "Bring home the thrill of precision and fun with this high-quality dart board set. Available in 12\", 15\", and 17\" sizes, this set comes with 6 balanced darts. Perfect for indoor recreation, game nights, or practicing your aim.",
-        detailsDescription: "Crafted for both casual players and budding pros, this double-sided dart board offers a standard target game on one side and an alternate style on the other. Built from durable materials with a high-quality finish, it's easy to mount and great for family fun, office breaks, or competitive gatherings. The included darts are designed for accuracy and grip. Whether you're hosting a party or honing your aim, this is the perfect addition to your game room.",
-        topSpecs: [
-            "<h6><span>BOARD SIZE</span><span class='detail-specs-h6'>- 12\", 15\", or 17\" Diameter</span></h6>",
-            "<h6><span>DARTS INCLUDED</span><span class='detail-specs-h6'>- 6 Steel-Tip or Magnetic Darts</span></h6>",
-            "<h6><span>AGE GROUP</span><span class='detail-specs-h6'>- Teens & Adults</span></h6>",
-            "<h6><span>MOUNTING</span><span class='detail-specs-h6'>- Wall-Mount Hook Included</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>INCLUDED</span><span> — 6 Balanced Darts</span></h6>",
-            "<h6><span>BOARD MATERIAL</span><span> — High-Quality Bristle / Compressed Paper</span></h6>",
-            "<h6><span>DIAMETER OPTIONS</span><span> — 12 Inches / 15 Inches / 17 Inches</span></h6>",
-            "<h6><span>STYLE</span><span> — Classic Target & Alternate Game on Back</span></h6>",
-            "<h6><span>SUITABLE FOR</span><span> — Indoor, Game Rooms, Offices, Recreation</span></h6>",
-            "<h6><span>BRAND</span><span> — Imported (High Quality)</span></h6>",
-            "<h6><span>RECOMMENDED FOR</span><span> — Beginners, Teens, Adults, Game Enthusiasts</span></h6>",
-            "<h6><span>SAFETY</span><span> — Steel or Magnetic Darts (Depending on Model)</span></h6>",
-        ],
-        tags: [
-            "dart-board-kenya",
-            "12inch-dartboard",
-            "15inch-dartboard",
-            "17inch-dartboard",
-            "dart-set",
-            "family-game",
-            "indoor-game"
-        ],
-        carousels: ["gameZone", "indoorFun"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/18-inch-dart-board-professional-dart-board-J8zvnsQIZQLcUTZoqWjESNZ.html?page=1&pos=1&cur_pos=1&ads_per_page=50&ads_count=50&lid=bQ1mJq7d8H3HXb2-&indexPosition=0",
-        contact: "0111868823",
-        youtubeReview: "https://www.youtube.com/embed/PENN2ng4vag?si=CN7Z1XgcMyvQ0Hbm",
-        unboxingVideo: "https://www.youtube.com/embed/Hag2-lSoHDs?si=CocAv4r6qqRXczIE",
-        prevPrice: 4500,
-        nowPrice: 3200,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.5
-    },
-    {
-        productID: 4004,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
-        playboxRating: "Classic",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655996/Screenshot_2025-04-14_213710_1_fkp5ob.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744665868/kid-dart_igvk44.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744665868/kid-dart_igvk44.png",
-                color: "Classic"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744665868/kid-dart-2_fejhyd.png",
-                color: "Classic"
-            },
-        ],
-        defaultColor: "Classic",
-        Title: "Magnetic Dart Board. Comes with 6 Magnetic darts",
-        SubTitle: "Magnetic Darts",
-        category: "toys",
-        subCategory: ["sports",],
-        variant: "darts",
-        brand: "Darts",
-        name: "magnetic-dart-board",
-        description: "Bring home the thrill of precision and fun with this high-quality magnetic dart board set. Available in 12\", 15\", and 17\" sizes, this set comes with 6 magnetic darts. Perfect for indoor recreation, game nights, or practicing your aim.",
-        detailsDescription: "Crafted for both casual players and budding pros, this double-sided dart board offers a standard target game on one side and an alternate style on the other. Built from durable materials with a high-quality finish, it's easy to mount and great for family fun, office breaks, or competitive gatherings. The included darts are designed for accuracy and grip. Whether you're hosting a party or honing your aim, this is the perfect addition to your game room.",
-        topSpecs: [
-            "<h6><span>BOARD SIZE</span><span class='detail-specs-h6'>- 12\", 15\", or 17\" Diameter</span></h6>",
-            "<h6><span>DARTS INCLUDED</span><span class='detail-specs-h6'>- 6 Magnetic Darts</span></h6>",
-            "<h6><span>AGE GROUP</span><span class='detail-specs-h6'>- Kids, Teens & Adults</span></h6>",
-            "<h6><span>MOUNTING</span><span class='detail-specs-h6'>- Wall-Mount Hook Included</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>INCLUDED</span><span> — 6 Balanced Darts</span></h6>",
-            "<h6><span>BOARD MATERIAL</span><span> — High-Quality Bristle / Compressed Paper</span></h6>",
-            "<h6><span>DIAMETER OPTIONS</span><span> — 12 Inches / 15 Inches / 17 Inches</span></h6>",
-            "<h6><span>STYLE</span><span> — Classic Target & Alternate Game on Back</span></h6>",
-            "<h6><span>SUITABLE FOR</span><span> — Indoor, Game Rooms, Offices, Recreation</span></h6>",
-            "<h6><span>BRAND</span><span> — Imported (High Quality)</span></h6>",
-            "<h6><span>RECOMMENDED FOR</span><span> — Beginners, Teens, Adults, Game Enthusiasts</span></h6>",
-            "<h6><span>SAFETY</span><span> — Steel or Magnetic Darts (Depending on Model)</span></h6>",
-        ],
-        tags: [
-            "dart-board-kenya",
-            "12inch-dartboard",
-            "15inch-dartboard",
-            "17inch-dartboard",
-            "dart-set",
-            "family-game",
-            "indoor-game"
-        ],
-        carousels: ["gameZone", "indoorFun"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/18-inch-dart-board-professional-dart-board-J8zvnsQIZQLcUTZoqWjESNZ.html?page=1&pos=1&cur_pos=1&ads_per_page=50&ads_count=50&lid=bQ1mJq7d8H3HXb2-&indexPosition=0",
-        contact: "0765794601",
-        youtubeReview: "https://www.youtube.com/embed/PENN2ng4vag?si=CN7Z1XgcMyvQ0Hbm",
-        unboxingVideo: "https://www.youtube.com/embed/Hag2-lSoHDs?si=CocAv4r6qqRXczIE",
-        prevPrice: 4500,
-        nowPrice: 2499,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.5
-    },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    //------------BASKETBALLS
-    {
-        productID: 4101,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
-        playboxRating: "Classic",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743770/basket-ball_ltd0dp.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743942/91ACSSfJxSL._AC_SL1500_-removebg-preview_dx6pme.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743942/91ACSSfJxSL._AC_SL1500_-removebg-preview_dx6pme.png",
-                color: "red"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743943/molten_basketball__mix_model__1583974962_f2e5909c_progressive_vl927b.jpg",
-                color: "red"
-            }
-        ],
-        defaultColor: "red",
-        Title: "Molten GG7X FIBA Size 7 Basketball – Official Game Ball",
-        SubTitle: "FIBA Approved",
-        category: "toys",
-        subCategory: ["sports",],
-        variant: "basketball",
-        brand: "Molten",
-        name: "molten-gg7x-fiba-s7-basketball-kenya",
-        description: "The Molten GG7X FIBA Size 7 Basketball is the ultimate ball for professional-level gameplay. FIBA-approved and built to exacting standards, it delivers unmatched grip, bounce consistency, and durability. Ideal for indoor and outdoor use, this basketball is trusted by international athletes and used in top-tier tournaments worldwide.",
-        detailsDescription: "Designed for serious players, the Molten GG7X FIBA basketball offers top performance with a premium composite leather cover, 12-panel construction, and butyl bladder for long-lasting air retention. Enhanced grip and visibility make it a favorite in both training and competitive play. Whether you're shooting indoors or outdoors, experience the confidence of a game-ready ball every time.",
-        topSpecs: [
-            "<h6><span>SIZE</span><span class='detail-specs-h6'>- 7 (Official)</span></h6>",
-            "<h6><span>APPROVAL</span><span class='detail-specs-h6'>- FIBA Certified</span></h6>",
-            "<h6><span>MATERIAL</span><span class='detail-specs-h6'>- Composite Leather Cover</span></h6>",
-            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- 12-Panel Construction</span></h6>",
-            "<h6><span>USAGE</span><span class='detail-specs-h6'>- Indoor / Outdoor</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>MODEL</span><span> — Molten GG7X</span></h6>",
-            "<h6><span>SIZE</span><span> — 7 - Official FIBA Standard</span></h6>",
-            "<h6><span>COVER MATERIAL</span><span> — Premium Composite Leather</span></h6>",
-            "<h6><span>DESIGN</span><span> — 12-Panel with Enhanced Grip</span></h6>",
-            "<h6><span>BLADDER</span><span> — High-Quality Butyl for Air Retention</span></h6>",
-            "<h6><span>COLOR</span><span> — Orange with Cream Accents (FIBA Pattern)</span></h6>",
-            "<h6><span>FIBA CERTIFICATION</span><span> — Yes – Suitable for Tournaments</span></h6>",
-            "<h6><span>INTENDED USE</span><span> — Professional Matches, Training, Schools</span></h6>",
-            "<h6><span>INCLUDED</span><span> — 1x Molten GG7X Basketball</span></h6>",
-            "<h6><span>DELIVERY</span><span> — Nationwide Shipping Available</span></h6>"
-        ],
-        tags: [
-            "molten-gg7x",
-            "fiba-basketball",
-            "basketball-kenya",
-            "molten-size7",
-            "professional-basketball",
-            "training-ball",
-            "official-game-ball"
-        ],
-        carousels: ["sportsZone", "schoolSupplies"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/molten-basketball-ball-size-7-gg7x-oHqHRZVPeRlXQdiuVemQqzx0.html?page=1&pos=5&cur_pos=5&ads_per_page=23&ads_count=171&lid=E0q09bEZifNRe3o1&indexPosition=4",
-        contact: '0741128364',
-        youtubeReview: "https://www.youtube.com/embed/Uty7M5LLffk?si=SV8NSz5q3dp2X08l",
-        unboxingVideo: "https://www.youtube.com/embed/0bdYja01YBI?si=tg89sriCz7pLFzlg",
-        prevPrice: 4500,
-        nowPrice: 2499,
-        stock: 10,
-        freeShipping: true,
-        condition: "New",
-        rating: 4.8
-    },
-    {
-        productID: 4102,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
-        playboxRating: "Classic",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743770/basket-ball_ltd0dp.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744746108/81zXs-P-lGS._AC_SL1500_-removebg-preview_ko3j9a.png",
-        imageColorMap: [
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744746108/81zXs-P-lGS._AC_SL1500_-removebg-preview_ko3j9a.png",
-                color: "Orange"
-            },
-            {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744746108/Screenshot_2025-04-15_223703_w2p4sh.png",
-                color: "Orange"
-            }
-        ],
-        defaultColor: "Orange",
-        Title: "Spalding NBA Grip Control Basketball – Indoor & Outdoor Champion’s Choice",
-        SubTitle: "NBA Official Feel",
-        category: "toys",
-        subCategory: ["sports",],
-        variant: "basketball",
-        brand: "Spalding",
-        name: "spalding-nba-grip-control-basketball-kenya",
-        description: "Dominate any court with the Spalding NBA Grip Control Basketball. Crafted for players who want the feel of a pro ball with unmatched grip and control, this size 7 ball features durable composite leather and deep channeling. Whether you're shooting indoors or powering through street games, it’s your perfect hooping companion.",
-        detailsDescription: "The Spalding NBA Grip Control Basketball delivers an authentic NBA experience with its official size and weight. Built for both indoor hardwood and outdoor pavement, it features full-ball pebbling and deep channel construction for elite ball handling. Made with eco-friendly, high-performance composite leather, this ball offers supreme durability, responsiveness, and style. Ships inflated, so you're game-ready right out of the box!",
-        topSpecs: [
-            "<h6><span>SIZE</span><span class='detail-specs-h6'>- 7 (Official NBA Size)</span></h6>",
-            "<h6><span>GRIP</span><span class='detail-specs-h6'>- Deep Channels, Full Pebbling</span></h6>",
-            "<h6><span>MATERIAL</span><span class='detail-specs-h6'>- Durable Composite Leather</span></h6>",
-            "<h6><span>USE</span><span class='detail-specs-h6'>- Indoor & Outdoor</span></h6>",
-            "<h6><span>BRAND</span><span class='detail-specs-h6'>- Spalding NBA</span></h6>"
-        ],
-        detailSpecs: [
-            "<h6><span>MODEL</span><span> — NBA Grip Control</span></h6>",
-            "<h6><span>SIZE</span><span> — 7 - Official NBA Standard</span></h6>",
-            "<h6><span>MATERIAL</span><span> — Eco-Friendly Composite Leather</span></h6>",
-            "<h6><span>TEXTURE</span><span> — Full-Ball Pebbling, Deep Channels</span></h6>",
-            "<h6><span>WEIGHT</span><span> — 0.99 kg</span></h6>",
-            "<h6><span>USAGE</span><span> — Indoor & Outdoor Play</span></h6>",
-            "<h6><span>DELIVERY</span><span> — Nationwide Shipping Available</span></h6>",
-            "<h6><span>INCLUDED</span><span> — 1 x Spalding NBA Grip Control Ball (Inflated)</span></h6>",
-            "<h6><span>CERTIFICATION</span><span> — Eco Friendly</span></h6>",
-            "<h6><span>FEEL</span><span> — Game-Ready Right Out of the Box</span></h6>"
-        ],
-        tags: [
-            "spalding",
-            "grip-control",
-            "nba-basketball",
-            "composite-leather",
-            "size7-ball",
-            "indoor-outdoor-hoop",
-            "kenya-basketball"
-        ],
-        carousels: ["sportsZone", "schoolSupplies"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/durable-spalding-nba-basketball-balls-good-quality-hsiYXn00XPI5ScPgLwOrx9Ok.html?page=1&pos=4&cur_pos=4&ads_per_page=50&ads_count=50&lid=4tPCNfGfHwohbZ4q&indexPosition=3",
-        contact: '+254705629135',
-        youtubeReview: "https://www.youtube.com/embed/YqJBaVhb8I8?si=-pN8Pp1O5bI51r7i",
-        unboxingVideo: "https://www.youtube.com/embed/iNavO9o1HJY?si=9O_UCDazATGlKKOE",
-        prevPrice: 3900,
-        nowPrice: 2499,
+        storage: "",
+        dropURL: "https://homeluxkenya.com/products/rotation-foldable-aerial-camera-rc-drone-gift-1?variant=50380612403476&country=KE&currency=KES&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=21129652006&gbraid=0AAAAA9cNKEGeYSst37FtdaCpsebtm2RIO&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfhPuFWBjgUf4u8N96_AiKrOhqsjXjdGw3teHqSOE0g-gLSRACdamAUaAlHoEALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/IlN2tiD3YLE?si=cY3NROTfNVbNuTpv",
+        unboxingVideo: "https://www.youtube.com/embed/R2bEKf8Q1Lo?si=ijdNuRqIAfVGXFhj",
+        prevPrice: 7700,
+        nowPrice: 5900,
         stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.7
     },
     {
-        productID: 4103,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
+        productID: 3202,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743770/basket-ball_ltd0dp.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744747878/istockphoto-1636022764-612x612-removebg-preview_c7tfsj.png",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425670/syma-x5uw-drone_lg3ndo.png", // Image of the SYMA X5UW Drone in Black
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744747878/istockphoto-1636022764-612x612-removebg-preview_c7tfsj.png",
-                color: "Orange"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425670/syma-x5uw-drone_lg3ndo.png",
+                color: "Black"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744747879/Screenshot_2025-04-15_230616_pro8au.png",
-                color: "Orange"
-            }
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425670/syma-x5uw-drone-2_d26qml.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425671/syma-x5uw-drone-3_xrhvrm.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747425672/syma-x5uw-drone-4_luyezo.png",
+                color: "Black"
+            },
         ],
-        defaultColor: "Orange",
-        Title: "Generic Size 7 Outdoor Basketball – Affordable & Durable Rubber",
-        SubTitle: "Butyl Bladder",
+        defaultColor: "Black",
+        Title: "SYMA X5UW Drone with WiFi FPV and 720p HD Camera",
+        SubTitle: "SYMA X5UW",
         category: "toys",
-        subCategory: ["sports",],
-        variant: "basketball",
-        brand: "Generic",
-        name: "generic-rubber-outdoor-basketball-kenya",
-        description: "This Generic Size 7 Basketball is perfect for recreational and training use. With its durable rubber cover, wide channels for easy handling, and strong butyl bladder for excellent air retention, it's an ideal pick for family games, school sports, or casual hooping sessions outdoors. Great value and long-lasting performance, even on rough surfaces.",
-        detailsDescription: "Made with a tough, high-quality rubber cover and nylon-wound construction, this basketball offers exceptional durability for outdoor use. The butyl bladder ensures long-lasting air retention, while the wide channel design makes it easy to grip, dribble, and shoot. Fully embossed and weather-resistant, it's ready for all your streetball and casual games.",
+        subCategory: ["drones", "gadgets"],
+        variant: "fpv-wifi",
+        brand: "syma",
+        name: "syma-x5uw-drone-with-wifi-fpv-and-720p-hd-camera",
+        description: "Take full control with the SYMA X5UW Drone, featuring FPV, HD camera, and smartphone integration.",
+        detailsDescription: "The SYMA X5UW Drone elevates your flying experience with 720p HD video streaming via WiFi FPV. This quadcopter supports complete smartphone-based control through its dedicated app, unlocking features like one-click take-off and landing, motor activation, and real-time image transmission. The drone offers a stable and responsive flight experience using a 2.4GHz transmitter with a range of up to 70 meters. Its barometer-based altitude hold function and light frame make it ideal for beginners and drone enthusiasts alike.",
         topSpecs: [
-            "<h6><span>SIZE</span><span class='detail-specs-h6'>- 7 (Standard)</span></h6>",
-            "<h6><span>MATERIAL</span><span class='detail-specs-h6'>- Durable Rubber Cover</span></h6>",
-            "<h6><span>BLADDER</span><span class='detail-specs-h6'>- Butyl for Air Retention</span></h6>",
-            "<h6><span>USE</span><span class='detail-specs-h6'>- Best for Outdoor Courts</span></h6>",
-            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Wide Channels, Embossed Texture</span></h6>"
+            "<h6><span>Camera</span><span>720p HD</span></h6>",
+            "<h6><span>Transmission</span><span>WiFi FPV to smartphone</span></h6>",
+            "<h6><span>Range</span><span>Up to 70 meters</span></h6>",
+            "<h6><span>Control</span><span>Smartphone + Transmitter</span></h6>",
+            "<h6><span>Battery</span><span>LiPo Rechargeable</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>MODEL</span><span> — N/A (Generic)</span></h6>",
-            "<h6><span>SIZE</span><span> — Size 7 - Official Standard</span></h6>",
-            "<h6><span>MATERIAL</span><span> — Rubber Cover, Nylon Winding</span></h6>",
-            "<h6><span>WEIGHT</span><span> — Approx. 0.8 kg</span></h6>",
-            "<h6><span>INCLUDED</span><span> — 1 x Basketball Ball</span></h6>",
-            "<h6><span>FEATURES</span><span> — Non-toxic, No odor, Embossed Logos</span></h6>",
-            "<h6><span>BLADDER</span><span> — Butyl – Retains Air Well</span></h6>",
-            "<h6><span>APPLICATION</span><span> — Training, Recreation, School Sports</span></h6>"
+            "<h6><span>SMARTPHONE CONTROL</span><span class='detail-specs-h6'>- Operate the drone fully from your phone with app-exclusive features.</span></h6>",
+            "<h6><span>AUTOMATIC TAKE-OFF/LANDING</span><span class='detail-specs-h6'>- One-touch control makes flying simple and accessible.</span></h6>",
+            "<h6><span>BAROMETER ALTITUDE HOLD</span><span class='detail-specs-h6'>- Maintain stable height with automatic barometer assistance.</span></h6>",
+            "<h6><span>720P HD CAMERA</span><span class='detail-specs-h6'>- Capture clear images and video during flight in real-time.</span></h6>",
+            "<h6><span>LIGHTWEIGHT DESIGN</span><span class='detail-specs-h6'>- Weighs just 127g for smooth control and safe usage.</span></h6>"
         ],
         tags: [
-            "generic",
-            "rubber-basketball",
-            "size7-basketball",
-            "outdoor-basketball",
-            "affordable-ball",
-            "kenya-basketball"
+            "syma",
+            "x5uw",
+            "drone",
+            "fpv",
+            "wifi-camera",
+            "720p",
+            "barometer",
+            "altitude-hold",
+            "smartphone-control",
+            "transmitter",
+            "lightweight",
+            "auto-takeoff",
+            "tech-gadget",
+            "rc-quadcopter"
         ],
-        carousels: ["sportsZone", "budgetSports"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/basketball-balls-size-7-kttVqrhLlHcAaAzIwaBzxVuZ.html?page=1&pos=17&cur_pos=17&ads_per_page=23&ads_count=171&lid=E0q09bEZifNRe3o1&indexPosition=16",
-        contact: "+254797566377 || +254105466719",
-        youtubeReview: "https://www.youtube.com/embed/oFz7Dnj0nqc?si=Crr1Np-xcUF01oXx",
-        unboxingVideo: "https://www.youtube.com/embed/XVDDLT-l_U8?si=N5s_XwUuu8S4h-Ba",
-        prevPrice: 2500,
-        nowPrice: 1499,
+        carousels: [
+            "latestArrivals", "techGadgets"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/syma-x5uw-drone-wifi-fpv-720p-hd-camera-qb0OieqrofxFLKA0yYFX7KAl.html?page=1&pos=7&cur_pos=7&ads_per_page=50&ads_count=50&lid=Azw0537u_Og61Peq&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/r2qGiNBMHYc?si=QMcrbKMbV5aIEbk_",
+        unboxingVideo: "https://www.youtube.com/embed/JXeTzTHxuBg?si=QGbyEoKShBEvfP1b",
+        prevPrice: 42000,
+        nowPrice: 38000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 3203,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone_vnogg3.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone_vnogg3.png", // Display image showing the black drone
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone-2_kxqwtx.png", // Display image showing the black drone
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747428369/jy03-gps-drone-3_j5oh7a.jpg", // Display image showing the black drone
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "JY03 GPS Drone with 4K HD Camera and 36 Min Flight Time - Aerial Mastery for All",
+        SubTitle: "JY03-GPS",
+        category: "toys",
+        subCategory: ["drones", "gadgets"],
+        variant: "fpv-gps",
+        brand: "jy03",
+        name: "jy03-gps-drone-4k-hd-camera-36min-flight-black",
+        description: "Capture stunning aerial shots and enjoy 36 minutes of flight with the JY03 GPS Drone’s 4K camera and dual batteries.",
+        detailsDescription: "The JY03-GPS Drone redefines aerial photography and flight control. Featuring a 4K HD camera with 90° adjustability and GPS-powered precision, this quadcopter provides stable navigation and crisp real-time footage to your phone. Dual modular batteries give you up to 36 minutes of flight time. With features like One-Key Takeoff/Landing, Headless Mode, 3-speed settings, gesture-controlled photography, facial recognition tracking, 360° flips, and LED lighting, it's the perfect choice for both beginners and experienced drone pilots. Built-in optical flow sensor ensures improved stability for indoor and low-altitude flights.",
+        topSpecs: [
+            "<h6><span>Camera</span><span>4K HD with 90° adjust</span></h6>",
+            "<h6><span>Flight Time</span><span>36 minutes (2 batteries)</span></h6>",
+            "<h6><span>Navigation</span><span>GPS + Optical Flow</span></h6>",
+            "<h6><span>Control</span><span>Mobile App + RC</span></h6>",
+            "<h6><span>Modes</span><span>Gesture, Headless, 360° Flip</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>4K HD CAMERA</span><span class='detail-specs-h6'>- Shoot crisp aerial photos and videos with 90° tilt adjustment.</span></h6>",
+            "<h6><span>GPS SMART FLIGHT</span><span class='detail-specs-h6'>- Accurate positioning and return-to-home for safe navigation.</span></h6>",
+            "<h6><span>DUAL BATTERIES</span><span class='detail-specs-h6'>- Enjoy up to 36 minutes of total flight time.</span></h6>",
+            "<h6><span>GESTURE & FACE TRACKING</span><span class='detail-specs-h6'>- Take photos or follow you with hand gestures or facial recognition.</span></h6>",
+            "<h6><span>OPTICAL FLOW SENSOR</span><span class='detail-specs-h6'>- Enhanced stability for indoor and low-altitude flying.</span></h6>"
+        ],
+        tags: [
+            "jy03",
+            "gps-drone",
+            "4k-camera",
+            "fpv",
+            "dual-battery",
+            "gesture-control",
+            "face-tracking",
+            "360-flip",
+            "headless-mode",
+            "optical-flow",
+            "led-lights",
+            "drone-for-kids",
+            "drone-for-adults"
+        ],
+        carousels: [
+            "latestArrivals", "techGadgets"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/cameras-video-cameras-and-accessories/jy03-1080p-hd-camera-drone-in-kenya-wXgcpqBXtEOSVtkdQ4TwIWFx.html?page=1&pos=10&cur_pos=10&ads_per_page=50&ads_count=50&lid=39rhWY1I6yiO4bnb&indexPosition=9",
+        youtubeReview: "https://www.youtube.com/embed/PhtqXyVYbTQ?si=eHEWvQNfv7NqRBTd",
+        unboxingVideo: "https://www.youtube.com/embed/PhtqXyVYbTQ?si=eHEWvQNfv7NqRBTd",
+        prevPrice: 19500,
+        nowPrice: 17000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 3204,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747429930/drone-squad-banshee_bow0ub.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747429930/drone-squad-banshee_bow0ub.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747429930/drone-squad-banshee-2_eplb3h.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Drone Squad Banshee RC Stunt Quadcopter with SD Video",
+        SubTitle: "ASAB Squad Banshee",
+        category: "toys",
+        subCategory: ["drones", "gadgets"],
+        variant: "rc-stunt",
+        brand: "asab",
+        name: "drone-squad-banshee-rc-stunt-quadcopter-camera-sdcard",
+        description: "Agile and beginner-friendly, the Squad Banshee offers 360° flips, precise hovering, and video recording with built-in SD support.",
+        detailsDescription: "The ASAB Drone Squad Banshee is the ultimate beginner-friendly quadcopter for rapid aerial stunts and reliable flying. It features a 6-axis gyro system and collision protectors for smooth, safe performance. Easily perform 360° rolls and enjoy stable hovering thanks to built-in flight stabilization. It includes a 4GB SD card and onboard camera for direct video recording, and comes fully assembled with a Skycontroller, USB adaptor, and remote. Ideal for entry-level drone enthusiasts and stunt flyers.",
+        topSpecs: [
+            "<h6><span>Flight System</span><span>6-Axis Gyro with Collision Protection</span></h6>",
+            "<h6><span>Stunt Mode</span><span>360° Roll-Over & 3D Flight</span></h6>",
+            "<h6><span>Camera</span><span>Video recording to SD card</span></h6>",
+            "<h6><span>Control</span><span>Remote Control (Included)</span></h6>",
+            "<h6><span>Range</span><span>Up to 120 meters</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>6-AXIS GYRO SYSTEM</span><span class='detail-specs-h6'>- Delivers superior flight stability for stunts and hovering.</span></h6>",
+            "<h6><span>COLLISION PROTECTORS</span><span class='detail-specs-h6'>- Guard the drone from crashes and prolong durability.</span></h6>",
+            "<h6><span>STUNT READY</span><span class='detail-specs-h6'>- Perform 360° flips and agile rolls effortlessly.</span></h6>",
+            "<h6><span>CAMERA WITH SD RECORDING</span><span class='detail-specs-h6'>- Capture footage directly to the included 4GB SD card.</span></h6>",
+            "<h6><span>READY TO FLY</span><span class='detail-specs-h6'>- Fully assembled with controller, SD card, and USB adapter.</span></h6>"
+        ],
+        tags: [
+            "asab",
+            "squad-banshee",
+            "stunt-drone",
+            "rc-quadcopter",
+            "6-axis-gyro",
+            "drone-for-beginners",
+            "sd-recording",
+            "collision-protection",
+            "usb-charging",
+            "aerial-stunts"
+        ],
+        carousels: [
+            "latestArrivals", "techGadgets"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/banshee-drone-squad-rc-stunt-quadcopter-with-video-camera-6-ifX3U6L0LmKvYs40YKIiLEKs.html?page=2&pos=17&cur_pos=17&ads_per_page=24&ads_count=126&lid=Fwlad6lbGmXHxcnN&indexPosition=46",
+        youtubeReview: "https://www.youtube.com/embed/CHGk9QGfZrU?si=bK-RDv9YHZZbStnt",
+        unboxingVideo: "https://www.youtube.com/embed/xiSRPxyiDGM?si=CdHAce7DhY1XFvUD",
+        prevPrice: 25500,
+        nowPrice: 19500,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 3205,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone_knttkr.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone_knttkr.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone-2_iyo6ux.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747431221/g2-mini-drone-3_vdoyjn.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "G2 Mini Drone with Dual 1080p HD Cameras – Compact, Foldable & Feature-Packed",
+        SubTitle: "G2 Mini Drone",
+        category: "toys",
+        subCategory: ["drones", "gadgets"],
+        variant: "g2-mini",
+        brand: "dealbora",
+        name: "g2-mini-drone-1080p-dual-camera-foldable",
+        description: "A foldable dual-camera drone offering 1080p visuals, headless mode, one-click takeoff, and real-time video transmission.",
+        detailsDescription: "The G2 Mini Drone brings portability and power together in a compact UAV. With a folding body, front and bottom 1080p HD cameras, and real-time FPV transmission, it delivers dynamic aerial footage. Features include gesture control for photos and video, one-click takeoff and landing, speed adjustment, headless mode, height hold, and 3D trick rolls. Lightweight yet capable, the G2 is ideal for beginner to intermediate flyers looking for advanced functionality in a travel-ready design.",
+        topSpecs: [
+            "<h6><span>Camera</span><span>Dual 1080p HD (Front & Bottom)</span></h6>",
+            "<h6><span>Design</span><span>Foldable & Compact</span></h6>",
+            "<h6><span>Flight Features</span><span>One-click takeoff/landing, 3D rolls</span></h6>",
+            "<h6><span>Control</span><span>Gesture Photo/Video, Headless Mode</span></h6>",
+            "<h6><span>Transmission</span><span>Real-Time via WiFi</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DUAL CAMERA SYSTEM</span><span class='detail-specs-h6'>- Capture video from both front and bottom for diverse perspectives.</span></h6>",
+            "<h6><span>FOLDABLE BUILD</span><span class='detail-specs-h6'>- Lightweight and collapsible design makes it easy to carry and store.</span></h6>",
+            "<h6><span>SMART GESTURE CONTROL</span><span class='detail-specs-h6'>- Use hand gestures to take photos and videos with ease.</span></h6>",
+            "<h6><span>3D FLIGHT MANEUVERS</span><span class='detail-specs-h6'>- Perform aerial flips and rolls for an exciting flying experience.</span></h6>",
+            "<h6><span>FPV LIVE STREAM</span><span class='detail-specs-h6'>- Stream video directly to your phone via WiFi connectivity.</span></h6>"
+        ],
+        tags: [
+            "g2-mini-drone",
+            "foldable-drone",
+            "dual-camera-drone",
+            "fpv",
+            "headless-mode",
+            "gesture-control",
+            "1080p-hd",
+            "dealbora",
+            "wifi-drone",
+            "real-time-transmission"
+        ],
+        carousels: [
+            "latestArrivals", "techGadgets"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/store-equipments/mini-drone-phip-g2-720p-hd-black-42cw2d2QvRNzgE6LZoRmYrxG.html?page=1&pos=9&cur_pos=9&ads_per_page=50&ads_count=50&lid=8JVLCnXgX0JXeBeQ&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/rXD5TVPXqeo?si=-vl43AVESfVJcGsP",
+        unboxingVideo: "https://www.youtube.com/embed/RoQY6_zBg9o?si=ie0737KZovx9WWo9",
+        prevPrice: 12000,
+        nowPrice: 9499,
         stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.4
     },
-
     {
-        productID: 4104,
-        platform: "Toys",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744655112/fidget_r57zbb.png",
+        productID: 3206,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744743770/basket-ball_ltd0dp.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744749387/mikasa_zmqfca.png",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433171/g4-drone_rugdue.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744749387/mikasa_zmqfca.png",
-                color: "Orange"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433171/g4-drone_rugdue.png",
+                color: "Black"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744749389/mikasa-2_quovwo.png",
-                color: "Orange"
-            }
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433172/g4-drone-2_pkkefb.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747433172/g4-drone-3_rdx9hz.png",
+                color: "Black"
+            },
         ],
-        defaultColor: "Orange",
-        Title: "Mikasa No. 1110 Basketball – Made in Japan (Size 7)",
-        SubTitle: "Durable Grip",
+        defaultColor: "Black",
+        Title: "G4 Drone with 4K Dual Cameras – Obstacle Avoidance & Gesture Control Powerhouse",
+        SubTitle: "G4 Drone",
         category: "toys",
-        subCategory: ["sports",],
-        variant: "basketball",
-        brand: "Mikasa",
-        name: "mikasa-no1110-basketball-size7-japan",
-        description: "The Mikasa No. 1110 basketball is crafted in Japan to offer exceptional durability and precision on the court. Featuring a pebbled surface for grip, it provides great control and shooting accuracy. With official size and weight, it's ideal for training and competition alike.",
-        detailsDescription: "Constructed with a high-quality rubber cover and advanced Japanese craftsmanship, the Mikasa No. 1110 ensures superior grip and responsiveness. The internal bladder maintains shape and consistent air pressure, while the textured surface allows for confident handling and dribbling. Trusted in global sports circles, this ball is great for school games, local leagues, and practice sessions.",
+        subCategory: ["drones", "gadgets"],
+        variant: "g4",
+        brand: "pihot",
+        name: "g4-drone-4k-dual-camera-obstacle-avoidance",
+        description: "4K dual-camera drone with gesture control, obstacle avoidance, and advanced aerial stability features.",
+        detailsDescription: "The PIHOT G4 Drone delivers immersive aerial photography with a 4K resolution front camera and a secondary bottom view for diverse angles. Featuring automatic obstacle avoidance, gesture-based photo capture, visual positioning, and 3D stunt rollover, this drone is designed for beginners through to advanced pilots. With its compact yet capable build, it's ideal for both indoor and outdoor flying. It includes everything you need right out of the box, including dual cameras, remote control, batteries, USB charger, and instructions.",
         topSpecs: [
-            "<h6><span>SIZE</span><span class='detail-specs-h6'>- 7 (75–77 cm)</span></h6>",
-            "<h6><span>WEIGHT</span><span class='detail-specs-h6'>- 580–620g</span></h6>",
-            "<h6><span>MATERIAL</span><span class='detail-specs-h6'>- High-Quality Rubber Cover</span></h6>",
-            "<h6><span>ORIGIN</span><span class='detail-specs-h6'>- Made in Japan</span></h6>",
-            "<h6><span>USE</span><span class='detail-specs-h6'>- Competitive & Training Play</span></h6>"
+            "<h6><span>Camera</span><span>4K Dual (Front & Bottom)</span></h6>",
+            "<h6><span>Obstacle Avoidance</span><span>Automatic Multi-Directional Sensors</span></h6>",
+            "<h6><span>Control Features</span><span>Gesture Shooting, 3D Rollover</span></h6>",
+            "<h6><span>Positioning</span><span>Visual Positioning + Stabilization</span></h6>",
+            "<h6><span>Use</span><span>Indoor & Outdoor</span></h6>"
         ],
         detailSpecs: [
-            "<h6><span>MODEL</span><span> — Mikasa No. 1110</span></h6>",
-            "<h6><span>SIZE</span><span> — 7 – Men's Standard</span></h6>",
-            "<h6><span>DIMENSIONS</span><span> — 75.0–77.0 cm circumference</span></h6>",
-            "<h6><span>WEIGHT</span><span> — 580–620 g</span></h6>",
-            "<h6><span>MATERIAL</span><span> — Quality Rubber Cover</span></h6>",
-            "<h6><span>BLADDER</span><span> — Reinforced bladder for air pressure retention</span></h6>",
-            "<h6><span>DESIGN</span><span> — Pebbled texture for better grip and control</span></h6>",
-            "<h6><span>COUNTRY</span><span> — Japan</span></h6>",
-            "<h6><span>APPLICATION</span><span> — School games, training, friendly matches</span></h6>"
+            "<h6><span>AUTOMATIC OBSTACLE AVOIDANCE</span><span class='detail-specs-h6'>- Prevents collisions with forward-facing sensors for safe flying.</span></h6>",
+            "<h6><span>4K ULTRA HD CAMERA</span><span class='detail-specs-h6'>- Capture crisp, high-resolution video and images from the air.</span></h6>",
+            "<h6><span>VISUAL POSITIONING</span><span class='detail-specs-h6'>- Ensures stable hovering and accurate landings.</span></h6>",
+            "<h6><span>3D STUNT ROLLOVER</span><span class='detail-specs-h6'>- Flip and roll in mid-air with dynamic maneuverability.</span></h6>",
+            "<h6><span>READY TO FLY</span><span class='detail-specs-h6'>- Includes batteries, controller, charger, and user guide in the original box.</span></h6>"
         ],
         tags: [
-            "mikasa",
-            "japan-basketball",
-            "rubber-basketball",
-            "size7-basketball",
-            "training-ball",
-            "official-size"
+            "g4-drone",
+            "pihot-drone",
+            "4k-drone",
+            "gesture-control",
+            "obstacle-avoidance",
+            "dual-camera",
+            "stunt-drone",
+            "visual-positioning",
+            "fpv",
+            "intermediate-drone"
         ],
-        carousels: ["sportsZone", "proGear"],
-        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/mikasa-basket-ball-basketball-lgTanPQmaK9JEjAqN3EjEExX.html?page=2&pos=10&cur_pos=10&ads_per_page=20&ads_count=171&lid=E0q09bEZifNRe3o1&indexPosition=32",
-        contact: '+254706030912 || +254739030912',
-        youtubeReview: "https://www.youtube.com/embed/oFz7Dnj0nqc?si=Crr1Np-xcUF01oXx",
-        unboxingVideo: "https://www.youtube.com/embed/XVDDLT-l_U8?si=N5s_XwUuu8S4h-Ba",
-        prevPrice: 5600,
-        nowPrice: 4500,
+        carousels: [
+            "techGadgets", "latestArrivals"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/g4-drone-with-dual-hd-cameras-2KC38uDkuNTujvkOiDIO7m2c.html?page=2&pos=20&cur_pos=20&ads_per_page=24&ads_count=127&lid=mMbdogQ24y6SCLEw&indexPosition=49",
+        youtubeReview: "https://www.youtube.com/embed/cGen-sz4SHQ?si=VaaPb0y5is-z1BFd",
+        unboxingVideo: "https://www.youtube.com/embed/cGen-sz4SHQ?si=VaaPb0y5is-z1BFd",
+        prevPrice: 25660,
+        nowPrice: 19500,
         stock: 10,
         freeShipping: true,
         condition: "New",
-        rating: 4.5
+        rating: 4.6
     },
+    {
+        productID: 3207,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434147/pihot-p30-pro_xy3dph.png", // Main image of the P30 Pro drone
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434147/pihot-p30-pro_xy3dph.png", // Image URL for black variant
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434146/pihot-p30-pro-2_eldxls.png", // Image URL for black variant
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747434147/pihot-p30-pro-3_jmyizs.png", // Image URL for black variant
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "PIHOT P30 Pro Drone - 4K GPS Camera & Smart Tracking with Long-Range",
+        SubTitle: "P30 Pro 4K Drone",
+        category: "toys",
+        subCategory: ["drones", "gadgets"],
+        variant: "p30-pro",
+        brand: "pihot",
+        name: "pihot-p30-pro-4k-drone-black",
+        description: "High-performance 4K drone with GPS, smart gesture tracking, and a 1000m flight range.",
+        detailsDescription: "The PIHOT P30 Pro Drone redefines high-end consumer aerial tech with a 4K camera adjustable by 90°, GPS-assisted navigation, and intelligent image tracking. With advanced gesture recognition and flight path planning, it offers immersive control. Enjoy up to 25 minutes of flight with a powerful 7.4V 2000mAh battery and 1000-meter control range. Compact when folded and ready for portability, this drone includes features like automatic takeoff/landing, orbit mode, and recovery location mapping. Designed for serious hobbyists and drone explorers.",
+        topSpecs: [
+            "<h6><span>Camera</span><span>4K Adjustable 90°</span></h6>",
+            "<h6><span>Flight Time</span><span>Up to 25 Minutes</span></h6>",
+            "<h6><span>Range</span><span>1000 Meters</span></h6>",
+            "<h6><span>Gesture Tracking</span><span>Photo & Video Capture</span></h6>",
+            "<h6><span>Positioning</span><span>GPS + Visual Positioning 2.0</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>4K ADJUSTABLE CAMERA</span><span class='detail-specs-h6'>- Tilt via remote control for dynamic aerial visuals at 25fps.</span></h6>",
+            "<h6><span>GESTURE CONTROL</span><span class='detail-specs-h6'>- Take photos or videos with simple hand gestures at 1-5m range.</span></h6>",
+            "<h6><span>GPS SMART TRACKING</span><span class='detail-specs-h6'>- Image tracking, orbit flight, and one-touch return assist in precision piloting.</span></h6>",
+            "<h6><span>RECOVERY FUNCTION</span><span class='detail-specs-h6'>- Find lost drones using last GPS map position with triple GPS icon tap.</span></h6>",
+            "<h6><span>FOLDABLE DESIGN</span><span class='detail-specs-h6'>- 29x29x6cm unfolded, easily compacted to 18x14x6cm for portability.</span></h6>"
+        ],
+        tags: [
+            "p30-pro",
+            "pihot-drone",
+            "4k-drone",
+            "gps-drone",
+            "gesture-drone",
+            "foldable-drone",
+            "long-range-drone",
+            "smart-tracking",
+            "aerial-photography"
+        ],
+        carousels: [
+            "techGadgets", "internationalShipping"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/p30-drone-with-dual-hd-cameras-xgBl8IaDU75YKWFgrkntu3eI.html?page=1&pos=6&cur_pos=6&ads_per_page=50&ads_count=50&lid=F71DYB1wDC06VMZD&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/jl_jU2Bm-C4?si=eBtlSiOSCpV1Aasc",
+        unboxingVideo: "https://www.youtube.com/embed/jl_jU2Bm-C4?si=eBtlSiOSCpV1Aasc",
+        prevPrice: 26800,
+        nowPrice: 19500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 3208,
+        platform: "Drones",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747423448/e88-drone-4k-hd-dual-camera-banner_jm9wzi.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435420/neo-fly-more_czstll.png", // Main image for DJI Neo Fly More
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435420/neo-fly-more_czstll.png", // Image URL for default black/grey color
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435421/neo-fly-more-2_oxhvoi.png", // Image URL for default black/grey color
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747435421/neo-fly-more-3_uprush.png", // Image URL for default black/grey color
+                color: "Grey"
+            },
+        ],
+        defaultColor: "Grey",
+        Title: "DJI Neo Fly More – 4K Compact Drone with Intelligent Tracking & Palm Control",
+        SubTitle: "Neo Fly More 4K Drone",
+        category: "toys",
+        subCategory: ["drones", "gadgets"],
+        variant: "neo-fly-more",
+        brand: "dji",
+        name: "dji-neo-fly-more-drone-kenya",
+        description: "Ultra-compact 4K drone with palm control, AI tracking, and QuickShots modes for creative aerial video.",
+        detailsDescription: "The DJI Neo Fly More is DJI's lightest and most compact drone at just 135g, engineered for effortless travel and spontaneous creativity. Launch it straight from your palm—no controller required—and film cinematic 4K video using intelligent RockSteady and Horizon Balancing stabilization. Neo features AI-powered tracking, QuickShots for creative angles, and multiple control options, including voice and app-based joysticks. Whether you're hiking, cycling, or shooting indoors, Neo delivers stabilized, dynamic content with ease and safety thanks to its full propeller guards.",
+        topSpecs: [
+            "<h6><span>Camera</span><span>4K Ultra-Stabilized</span></h6>",
+            "<h6><span>Weight</span><span>135g</span></h6>",
+            "<h6><span>Palm Takeoff</span><span>Yes</span></h6>",
+            "<h6><span>Tracking</span><span>AI Subject Tracking</span></h6>",
+            "<h6><span>Stabilization</span><span>RockSteady + Horizon Balancing</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PALM-SIZED DESIGN</span><span class='detail-specs-h6'>- Weighs just 135g, perfect for portability and quick flights.</span></h6>",
+            "<h6><span>PALM TAKEOFF & LANDING</span><span class='detail-specs-h6'>- Launch and land without a controller—great for on-the-go shooting.</span></h6>",
+            "<h6><span>4K CINEMATIC FOOTAGE</span><span class='detail-specs-h6'>- Captures smooth, stabilized video with RockSteady and Horizon Balancing.</span></h6>",
+            "<h6><span>AI TRACKING</span><span class='detail-specs-h6'>- Keeps the subject in frame during dynamic activities like cycling or skateboarding.</span></h6>",
+            "<h6><span>QUICKSHOTS MODES</span><span class='detail-specs-h6'>- Includes Follow, Circle, and Expanse for creative perspectives.</span></h6>",
+            "<h6><span>SAFE INDOOR FLIGHT</span><span class='detail-specs-h6'>- Full-coverage propeller guards ensure safe flying indoors or in tight spaces.</span></h6>"
+        ],
+        tags: [
+            "dji-neo",
+            "neo-fly-more",
+            "dji-drone",
+            "compact-drone",
+            "palm-controlled-drone",
+            "intelligent-tracking",
+            "4k-drone",
+            "quickshots",
+            "portable-camera-drone"
+        ],
+        carousels: [
+            "techGadgets", "cinematicDrones"
+        ],
+        storage: "",
+        dropURL: "https://gadgetsleo.com/product/dji-neo-fly-more-drone/?gad_source=1&gad_campaignid=22506027758&gbraid=0AAAAADo0yamCfMtXMESPC1JbqO7ayp2WO&gclid=Cj0KCQjwxJvBBhDuARIsAGUgNfj15Uh-4zl5d8UqQKVxkm-oxts1CMYJumWdqnNZ2vM-gwM_yaigXBAaAsX4EALw_wcB",
+        youtubeReview: "https://www.youtube.com/embed/_3SRHxiY4RQ?si=TV-2y_gIubN03g2r",
+        unboxingVideo: "https://www.youtube.com/embed/rPC65Xq0j6A?si=GrjxZCMtDv3TcXaZ",
+        prevPrice: 60000,
+        nowPrice: 58500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+
+
+
+
+
+
+
 
 
 
@@ -2209,13 +2267,82 @@ export const toys = [
         prevPrice: 8260,
         nowPrice: 7000,
         stock: 12,
-        freeShipping: false,
+        freeShipping: true,
         condition: "New",
         rating: 4.8
     },
-    
     {
         productID: 4502,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748694810/subaru-wrx-sti-s207-diecast_fksj2e.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748694810/subaru-wrx-sti-s207-diecast_fksj2e.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748694809/subaru-wrx-sti-s207-diecast-3_dxgqfh.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748694809/subaru-wrx-sti-s207-diecast-2_jlagoh.png",
+                color: "Blue"
+            },
+        ],
+        defaultColor: "Blue",
+        Title: "2016 Subaru WRX STI S207 Die-Cast – 1:32 Scale Car Model with Opening Doors",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "unbranded",
+        name: "subaru-wrx-sti-s207-diecast",
+        description: "1:32 scale die-cast 2016 Subaru WRX STI S207 model featuring opening doors, hood, trunk, and working lights.",
+        detailsDescription: "This 1:32 scale die-cast replica of the 2016 Subaru WRX STI S207 is the ultimate racing sports toy for enthusiasts of all ages. Featuring a detailed interior and exterior, this model includes four openable doors, an opening hood and trunk, turnable front wheels, and a suspension system. Made primarily from zinc alloy with plastic parts and rubber tires, it's perfect as a collectible or as a realistic toy for children ages 3 to 12. A great gift for any WRX fan.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:32</span></h6>",
+            "<h6><span>Material</span><span>Zinc alloy metal, plastic, rubber tires</span></h6>",
+            "<h6><span>Functions</span><span>Opening doors, hood & trunk, lights, suspension, steering wheels</span></h6>",
+            "<h6><span>Size</span><span>14.5 x 6.5 x 5.0 cm</span></h6>",
+            "<h6><span>Recommended Age</span><span>3–12 years</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FULLY DETAILED</span><span class='detail-specs-h6'>- Intricately modeled interior and exterior for realism.</span></h6>",
+            "<h6><span>FUNCTIONAL FEATURES</span><span class='detail-specs-h6'>- Includes light-up function and suspension system.</span></h6>",
+            "<h6><span>NO PULLBACK</span><span class='detail-specs-h6'>- Focused on display and realism, no pullback motor.</span></h6>",
+            "<h6><span>GIFT READY</span><span class='detail-specs-h6'>- Great for kids, car lovers, and WRX owners as a gift.</span></h6>"
+        ],
+        tags: [
+            "wrx",
+            "subaru",
+            "sti",
+            "s207",
+            "diecast",
+            "toy car",
+            "1:32 scale",
+            "collectible",
+            "blue car",
+            "sports model"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://diecastkenya.com/product/subaru-impreza-sti/",
+        youtubeReview: "https://www.youtube.com/embed/mbSnWcDoMjg?si=sMBbf-P_m-mr9nMA",
+        unboxingVideo: "https://www.youtube.com/embed/9hxDTsXArkI?si=Rt-IO18rLjibHfa9",
+        prevPrice: 4450,
+        nowPrice: 4000,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+
+    {
+        productID: 4503,
         platform: "Die Cast",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
         playboxRating: "Classic",
@@ -2278,12 +2405,14 @@ export const toys = [
         prevPrice: 4876,
         nowPrice: 3500,
         stock: 12,
-        freeShipping: false,
+        freeShipping: true,
         condition: "New",
         rating: 4.7
     },
+
+
     {
-        productID: 4503,
+        productID: 4504,
         platform: "Die Cast",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
         playboxRating: "Classic",
@@ -2351,13 +2480,81 @@ export const toys = [
         prevPrice: 8260,
         nowPrice: 7000,
         stock: 14,
-        freeShipping: false,
+        freeShipping: true,
         condition: "New",
         rating: 4.7
     },
-
     {
-        productID: 4504,
+        productID: 4505,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748697458/toyota-celica-gts-diecast_gklfka.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748697458/toyota-celica-gts-diecast_gklfka.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748697461/toyota-celica-gts-diecast-3_sqrfhj.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748697457/toyota-celica-gts-diecast-2_cue72k.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Toyota Celica GT-S Die-Cast – 1:24 Scale Classic Model for Collectors",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "Toyota",
+        name: "toyota-celica-gts-diecast",
+        description: "Official 1:24 scale Toyota Celica GT-S die-cast replica model with authentic details and licensed design.",
+        detailsDescription: "This 1:24 scale die-cast model of the Toyota Celica GT-S is a collectible licensed by Toyota, presented in its original box. Featuring precise exterior and interior detailing, it's made from a durable blend of metal and plastic. Perfect for enthusiasts and collectors alike, this item offers an accurate miniature of the classic Celica GT-S. Whether used for display or as a thoughtful gift, this model captures the spirit of a beloved Japanese sports car icon.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:24</span></h6>",
+            "<h6><span>Material</span><span>Metal body, plastic components</span></h6>",
+            "<h6><span>Licensed Product</span><span>Official Toyota model</span></h6>",
+            "<h6><span>Dimensions</span><span>18 cm (L) x 7.5 cm (W)</span></h6>",
+            "<h6><span>Packaging</span><span>Original box included</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>COLLECTOR’S ITEM</span><span class='detail-specs-h6'>- Perfect for car enthusiasts and collectors of Japanese classics.</span></h6>",
+            "<h6><span>AUTHENTIC DESIGN</span><span class='detail-specs-h6'>- Faithful 1:24 scale replica with official Toyota licensing.</span></h6>",
+            "<h6><span>PREMIUM MATERIALS</span><span class='detail-specs-h6'>- Crafted from die-cast metal and detailed plastic.</span></h6>",
+            "<h6><span>GIFT READY</span><span class='detail-specs-h6'>- Comes boxed for easy gifting or secure storage.</span></h6>"
+        ],
+        tags: [
+            "celica",
+            "toyota",
+            "gt-s",
+            "jdm",
+            "diecast",
+            "1:24 scale",
+            "model car",
+            "collector's item",
+            "classic car",
+            "gift idea"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://diecastkenya.com/product/2000-toyota-celica-gts/",
+        youtubeReview: "",
+        unboxingVideo: "https://www.youtube.com/embed/NURcYj8nFus?si=EHHRf3PQuYJ2iEJR",
+        prevPrice: 5250,
+        nowPrice: 4500,
+        stock: 0,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 4506,
         platform: "Die Cast",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
         playboxRating: "Classic",
@@ -2421,13 +2618,83 @@ export const toys = [
         prevPrice: 8260,
         nowPrice: 7000,
         stock: 10,
-        freeShipping: false,
+        freeShipping: true,
         condition: "New",
         rating: 4.6
     },
+    {
+        productID: 4507,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748698192/porsche-911-turbo-1978-diecast_assso5.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748698192/porsche-911-turbo-1978-diecast_assso5.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748698191/porsche-911-turbo-1978-diecast-3_iwohyb.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748698192/porsche-911-turbo-1978-diecast-2_fchj5b.png",
+                color: "Green"
+            },
+        ],
+        defaultColor: "Green",
+        Title: "Porsche 911 Turbo 1978 Die-Cast – Classic Pull-Back Car in 1:36 Scale",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "Porsche",
+        name: "porsche-911-turbo-1978-diecast",
+        description: "1:36 scale die-cast Porsche 911 Turbo 1978 model with pull-back action and opening doors, perfect for children and collectors.",
+        detailsDescription: "This 1:36 scale Porsche 911 Turbo 1978 die-cast toy car offers a detailed representation of a classic sports icon. Constructed from a zinc alloy with plastic detailing and rubber tires, it features a sturdy build, realistic interior and exterior finishes, and functional doors. The built-in pull-back motor allows kids to enjoy interactive play, while collectors can admire its compact, display-ready design. Packaged attractively in English, this car makes a standout gift for children or any Porsche enthusiast.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:36</span></h6>",
+            "<h6><span>Material</span><span>Zinc alloy, plastic, rubber tires</span></h6>",
+            "<h6><span>Functions</span><span>Pull-back motor, opening doors</span></h6>",
+            "<h6><span>Packaging</span><span>English display box</span></h6>",
+            "<h6><span>Recommended Age</span><span>3+ years</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CLASSIC COLLECTIBLE</span><span class='detail-specs-h6'>- Modeled after the iconic 1978 Porsche 911 Turbo with elegant styling.</span></h6>",
+            "<h6><span>INTERACTIVE PLAY</span><span class='detail-specs-h6'>- Pull-back feature and functional doors make it fun and hands-on.</span></h6>",
+            "<h6><span>EDUCATIONAL VALUE</span><span class='detail-specs-h6'>- Helps build hand-eye coordination and automotive knowledge in children.</span></h6>",
+            "<h6><span>PREMIUM MATERIALS</span><span class='detail-specs-h6'>- Built with zinc alloy and detailed finish for lasting quality.</span></h6>",
+            "<h6><span>GIFT READY</span><span class='detail-specs-h6'>- Ideal gift for birthdays, holidays, or collectors of vintage models.</span></h6>"
+        ],
+        tags: [
+            "porsche",
+            "911 turbo",
+            "classic car",
+            "1978",
+            "diecast",
+            "pullback",
+            "1:36 scale",
+            "collectible",
+            "gift for kids",
+            "toy car"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://diecastkenya.com/product/1978-porsche-turbo/",
+        youtubeReview: "https://www.youtube.com/embed/HreU5iB4GnU?si=trTK_VCAhKAoivtT",
+        unboxingVideo: "https://www.youtube.com/embed/tsLGoGAmZjo?si=6SUORJvizFTr2Ige",
+        prevPrice: 3200,
+        nowPrice: 2499,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
 
     {
-        productID: 4505,
+        productID: 4510,
         platform: "Die Cast",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
         playboxRating: "Classic",
@@ -2489,7 +2756,7 @@ export const toys = [
         prevPrice: 4350,
         nowPrice: 3500,
         stock: 15,
-        freeShipping: false,
+        freeShipping: true,
         condition: "New",
         rating: 4.5
     },
@@ -2504,6 +2771,425 @@ export const toys = [
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //----------------------- RC Toys
+    {
+        productID: 4601,
+        platform: "RC",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748699724/rc_z6rawr.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748700568/ferrari-drift-rc-car-green_xpw0k6.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748700568/ferrari-drift-rc-car-green_xpw0k6.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748700568/ferrari-drift-rc-car-green-2_nfecsz.png",
+                color: "Green"
+            },
+        ],
+        defaultColor: "Green",
+        Title: "Ferrari Drift RC 1:10 - 70KM/h 4WD High-Speed Racing Truck",
+        SubTitle: "Remote Control",
+        category: "toys",
+        subCategory: ["rc"],
+        variant: "cars",
+        brand: "Zhengzilu",
+        name: "ferrari-drift-rc-car-green",
+        description: "1:10 scale Ferrari Drift RC car with 4WD, 70KM/h top speed, full suspension, and extended dual battery power for high-performance racing.",
+        detailsDescription: "Experience next-level RC racing with the Ferrari Drift RC – a 1:10 scale high-speed truck designed for adrenaline-filled performance. Reaching up to 70 KM/h, this RC car features 4-wheel drive with metal oil-filled shock absorbers and an independent suspension system for superior handling on all terrains. Its reinforced PVC shell enhances durability, while the 2.4GHz controller offers up to 100 meters of responsive range without interference. Includes two rechargeable batteries for up to 35 minutes of drive time, and protection features like waterproofing and thermal shutdown make it a reliable choice for all ages.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:10</span></h6>",
+            "<h6><span>Top Speed</span><span>70 KM/h</span></h6>",
+            "<h6><span>Drive Type</span><span>4WD with full metal shock suspension</span></h6>",
+            "<h6><span>Control System</span><span>2.4GHz with 100m range</span></h6>",
+            "<h6><span>Battery Life</span><span>25–35 minutes (dual batteries)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HIGH-PERFORMANCE MOTOR</span><span class='detail-specs-h6'>- Achieves speeds of up to 70 KM/h for elite RC racing thrills.</span></h6>",
+            "<h6><span>DURABLE BUILD</span><span class='detail-specs-h6'>- Reinforced PVC shell and metal shock absorbers enhance crash resistance.</span></h6>",
+            "<h6><span>WORRY-FREE PLAY</span><span class='detail-specs-h6'>- Waterproof, thermal-protected, and equipped with low-voltage detection.</span></h6>",
+            "<h6><span>INTERFERENCE-FREE CONTROL</span><span class='detail-specs-h6'>- 2.4GHz transmitter allows long-range, lag-free operation alongside other racers.</span></h6>",
+            "<h6><span>READY FOR ANY TERRAIN</span><span class='detail-specs-h6'>- Independent suspension system handles crashes and off-road racing with ease.</span></h6>"
+        ],
+        tags: [
+            "rc car",
+            "ferrari drift",
+            "high-speed rc",
+            "1:10 scale",
+            "4wd",
+            "metal suspension",
+            "kids toy",
+            "collectible",
+            "remote control",
+            "green"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/ferrari-drift-rc-in-kenya-4ZjB46dW1GUe4d5orOR3lKIv.html?page=1&pos=29&cur_pos=29&ads_per_page=50&ads_count=50&lid=YetE_l08TU3Vb22n&indexPosition=28",
+        youtubeReview: "https://www.youtube.com/embed/uI2XhnR6mzk?si=yLBVOFBql_WDOAq0",
+        unboxingVideo: "https://www.youtube.com/embed/t1IeSbid-L0?si=AvYodktmjQKoPtme",
+        prevPrice: 14100,
+        nowPrice: 12850,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4602,
+        platform: "RC",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748699724/rc_z6rawr.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748701930/drift-rc-racing-car-4wd_gbvydr.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748701930/drift-rc-racing-car-4wd_gbvydr.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748701930/drift-rc-racing-car-4wd-2_pwrtae.jpg",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Drift RC Sport Racing Car – 1:10 4WD High-Speed Monster",
+        SubTitle: "Remote Control",
+        category: "toys",
+        subCategory: ["rc"],
+        variant: "cars",
+        brand: "Remote Control",
+        name: "drift-rc-racing-car-4wd",
+        description: "High-performance 1:10 scale RC drift car with 70KM/h top speed, 4WD power, dual batteries, and all-terrain capability.",
+        detailsDescription: "Built for speed and durability, this Drift RC Sport Racing Car features a powerful motor that hits speeds up to 70 KM/h, supported by a 4WD drivetrain and independent suspension with metal oil-filled shocks. Its realistic 1:10 scale design, high-toughness PVC shell, and reinforced frame make it a rugged performer. The 2.4GHz control system provides lag-free control up to 100 meters, while the dual rechargeable batteries extend runtime to 40–50 minutes. A perfect gift for kids and adults who love RC thrill and drift racing.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:10</span></h6>",
+            "<h6><span>Top Speed</span><span>70 KM/h</span></h6>",
+            "<h6><span>Drive</span><span>4WD with all-terrain tires</span></h6>",
+            "<h6><span>Battery</span><span>2x Rechargeable, 40–50min runtime</span></h6>",
+            "<h6><span>Range</span><span>Up to 100m with 2.4GHz control</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC DESIGN</span><span class='detail-specs-h6'>- 1:10 scale build with reinforced body and aerodynamic profile.</span></h6>",
+            "<h6><span>HIGH-SPEED MOTOR</span><span class='detail-specs-h6'>- Achieves speeds up to 70 KM/h with smooth acceleration.</span></h6>",
+            "<h6><span>4WD & SUSPENSION</span><span class='detail-specs-h6'>- Independent suspension with metal oil-filled shocks for impact absorption.</span></h6>",
+            "<h6><span>EXTENDED DRIVE TIME</span><span class='detail-specs-h6'>- Dual batteries provide up to 50 minutes of high-intensity racing.</span></h6>",
+            "<h6><span>ANTI-INTERFERENCE CONTROL</span><span class='detail-specs-h6'>- 2.4GHz remote with 100m range and no signal conflicts for multiplayer fun.</span></h6>"
+        ],
+        tags: [
+            "rc car",
+            "drift car",
+            "high-speed rc",
+            "4wd",
+            "metal suspension",
+            "1:10 scale",
+            "toy vehicle",
+            "dual battery",
+            "racing car",
+            "remote control"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/bmw-m3-drift-rc-in-kenya-jHsytlMOIFTlM4uN53l3Z8tL.html?page=1&pos=13&cur_pos=13&ads_per_page=50&ads_count=50&lid=hAQHNNlILbDz9zbf&indexPosition=12",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 14100,
+        nowPrice: 12850,
+        stock: 10,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 4603,
+        platform: "RC",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748699724/rc_z6rawr.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748704011/zyamalox-monster-truck-4wd_bs0a2a.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748704011/zyamalox-monster-truck-4wd_bs0a2a.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748704012/zyamalox-monster-truck-4wd-2_mtynb0.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748704012/zyamalox-monster-truck-4wd-3_xok8rn.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Zyamalox RC Dirt Drift Monster Truck – 1:16 8-Wheel Off-Road Beast",
+        SubTitle: "Remote Control",
+        category: "toys",
+        subCategory: ["rc"],
+        variant: "cars",
+        brand: "Zyamalox",
+        name: "zyamalox-monster-truck-4wd",
+        description: "High-durability 1:16 scale RC monster truck with 8 wheels, shockproof bumpers, and powerful 4WD control for off-road action.",
+        detailsDescription: "The Zyamalox RC Dirt Drift Monster Truck delivers incredible all-terrain performance with its 8-wheel drive and rugged shockproof build. Designed for both kids and adults, it features durable plastic alloy construction, anti-collision bumpers, and pneumatic rubber tires for strong grip across any surface. Its 2.4GHz gun-shaped remote ensures smooth and precise control, while the included rechargeable 3.7V battery provides 20–30 minutes of non-stop action. Whether rock climbing or drifting, this truck is built for fearless fun.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:16</span></h6>",
+            "<h6><span>Drive</span><span>8-Wheel 4WD</span></h6>",
+            "<h6><span>Battery</span><span>3.7V Rechargeable, 20–30min runtime</span></h6>",
+            "<h6><span>Control</span><span>2.4GHz Wireless Remote</span></h6>",
+            "<h6><span>Age</span><span>4+ (Kids & Adults)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>RUGGED DESIGN</span><span class='detail-specs-h6'>- Crafted from durable plastic alloy with a protective structure for off-road dominance.</span></h6>",
+            "<h6><span>8-WHEEL DRIVE</span><span class='detail-specs-h6'>- Enhanced lateral agility and traction with dynamic front and rear wheel coordination.</span></h6>",
+            "<h6><span>ANTI-COLLISION BUMPERS</span><span class='detail-specs-h6'>- Front and rear guards enhance safety on rocky and unpredictable terrain.</span></h6>",
+            "<h6><span>SHOCK ABSORPTION</span><span class='detail-specs-h6'>- Rubber tires and strong shock resistance allow for rugged terrain handling.</span></h6>",
+            "<h6><span>INCLUDED PACKAGE</span><span class='detail-specs-h6'>- RC Truck, Gun-Shaped Remote, Rechargeable Battery, Charging Cable, Screwdriver.</span></h6>"
+        ],
+        tags: [
+            "rc monster truck",
+            "8-wheel rc",
+            "drift car",
+            "shock absorber",
+            "off-road toy",
+            "remote control",
+            "kids gift",
+            "zyamalox rc",
+            "rock crawler",
+            "4wd truck"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/4x4-rc-off-road-rock-crawler-in-kenya-zIhE54CzWY8xZQhcu3uf6cU8.html?page=1&pos=5&cur_pos=5&ads_per_page=50&ads_count=50&lid=2p6wafv6eqk39vG_&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/syI736IOUgw?si=YrrSQyJRrlryco4v",
+        unboxingVideo: "https://www.youtube.com/embed/syI736IOUgw?si=YrrSQyJRrlryco4v",
+        prevPrice: 7500,
+        nowPrice: 6200,
+        stock: 10,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4603,
+        platform: "RC",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748699724/rc_z6rawr.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748706330/ketsicart-stunt-car_fdldwj.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748706330/ketsicart-stunt-car_fdldwj.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748706330/ketsicart-stunt-car-2_bdgshh.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Ketsicart® RC Stunt Drift Car – 360° Rotating Outdoor Speed Beast",
+        SubTitle: "Remote Control",
+        category: "toys",
+        subCategory: ["rc"],
+        variant: "cars",
+        brand: "Ketsicart",
+        name: "ketsicart-stunt-car",
+        description: "High-speed RC stunt car with 360° spins, USB charging, and transverse drift tires for extreme outdoor fun.",
+        detailsDescription: "The Ketsicart® RC Stunt Drift Car delivers thrilling 360° rotation, sideway drifting, and high-speed action for kids aged 6 and up. Built from eco-friendly, durable materials, this remote control car features transverse tires for incredible stunts and flexible maneuvering. Powered by a rechargeable battery with USB charging support, it provides up to 30 minutes of uninterrupted outdoor entertainment—no external charger required.",
+        topSpecs: [
+            "<h6><span>Rotation</span><span>360° Spin</span></h6>",
+            "<h6><span>Charging</span><span>USB Rechargeable</span></h6>",
+            "<h6><span>Run Time</span><span>Up to 30 Minutes</span></h6>",
+            "<h6><span>Control</span><span>2.4GHz Remote</span></h6>",
+            "<h6><span>Age</span><span>6+ (Kids)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STUNT ACTION</span><span class='detail-specs-h6'>- Perform high-speed 360° spins and sideway drifts with transverse tire design.</span></h6>",
+            "<h6><span>USB CHARGING</span><span class='detail-specs-h6'>- Charge the car directly via USB—no need to remove the battery or purchase a separate charger.</span></h6>",
+            "<h6><span>TOUGH BUILD</span><span class='detail-specs-h6'>- Constructed from durable and eco-friendly materials to withstand crashes and stunts.</span></h6>",
+            "<h6><span>EASY TO CONTROL</span><span class='detail-specs-h6'>- 2.4GHz remote ensures smooth and interference-free operation over wide distances.</span></h6>",
+            "<h6><span>PACKAGE</span><span class='detail-specs-h6'>- Includes 1 RC stunt car with built-in battery and USB charging cable.</span></h6>"
+        ],
+        tags: [
+            "rc stunt car",
+            "360 spin car",
+            "drift rc",
+            "usb charging rc",
+            "rc toys for kids",
+            "ketsicart",
+            "side drift car",
+            "remote control toy",
+            "outdoor toy",
+            "2.4ghz rc"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/toys/high-speed-stunt-drift-car-remote-controlled-rc-car-7WhODGdn3yYuFRzD5SUn7nBL.html?page=1&pos=16&cur_pos=16&ads_per_page=50&ads_count=50&lid=aGng4hyFs1lc4gqH&indexPosition=15",
+        youtubeReview: "https://www.youtube.com/embed/9XNPlXc9ZGY?si=8BIBUbIdKY2QXHgo",
+        unboxingVideo: "https://www.youtube.com/embed/9XNPlXc9ZGY?si=8BIBUbIdKY2QXHgo",
+        prevPrice: 43000,
+        nowPrice: 3499,
+        stock: 10,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 4604,
+        platform: "RC",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748699724/rc_z6rawr.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748707323/panmall-stunt-car_kojlyv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748707323/panmall-stunt-car_kojlyv.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748707323/panmall-stunt-car-2_tose4u.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748707324/panmall-stunt-car-3_guwl1m.jpg",
+                color: "Blue"
+            },
+        ],
+        defaultColor: "Blue",
+        Title: "Panmall RC Gesture-Controlled Stunt Car – 360° Flips, Lights & Music",
+        SubTitle: "Remote Control",
+        category: "toys",
+        subCategory: ["rc"],
+        variant: "cars",
+        brand: "Panmall",
+        name: "panmall-stunt-car",
+        description: "High-tech RC stunt car with gesture control, music, lights, and thrilling 360° flips for endless off-road excitement.",
+        detailsDescription: "The Panmall RC Stunt Car redefines interactive play with its dual-mode control—standard 2.4GHz remote and futuristic gesture sensing. Designed for kids who crave action, it flips, spins, and races across any terrain. Enhanced with music and light effects, this USB-rechargeable car performs gravity-defying stunts and delivers pure joy at birthdays, holidays, or everyday fun. Its robust 1:16 scale and double-sided build ensure maximum entertainment and durability.",
+        topSpecs: [
+            "<h6><span>Control</span><span>Gesture + Remote</span></h6>",
+            "<h6><span>Stunts</span><span>360° Flips & Spins</span></h6>",
+            "<h6><span>Scale</span><span>1:16</span></h6>",
+            "<h6><span>Effects</span><span>Light & Music</span></h6>",
+            "<h6><span>Charging</span><span>USB Rechargeable</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DUAL CONTROL</span><span class='detail-specs-h6'>- Use traditional remote or hand gestures for immersive driving control.</span></h6>",
+            "<h6><span>ULTIMATE STUNTS</span><span class='detail-specs-h6'>- Double-sided driving, 360° spins, and tumbling tricks for action-packed fun.</span></h6>",
+            "<h6><span>ENGAGING DESIGN</span><span class='detail-specs-h6'>- Music and LED lights keep the experience exciting for both kids and spectators.</span></h6>",
+            "<h6><span>DURABLE BUILD</span><span class='detail-specs-h6'>- Built to handle flips and rough play with a rugged off-road frame.</span></h6>",
+            "<h6><span>PERFECT GIFT</span><span class='detail-specs-h6'>- Ideal for birthdays, holidays, and back-to-school surprises for kids aged 6+.</span></h6>"
+        ],
+        tags: [
+            "gesture rc car",
+            "panmall rc stunt",
+            "double sided rc",
+            "usb rc toy",
+            "light and music rc",
+            "360 flip car",
+            "rc gifts for kids",
+            "orbi style car",
+            "2.4ghz gesture",
+            "kids rc toys"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/toys/rc-stunt-car-gesture-sensing-rotating-drift-twist-toy-cars-upJHjjkhTA58zGxv83N8mRFX.html?page=1&pos=7&cur_pos=7&ads_per_page=50&ads_count=50&lid=a3PhcTqyaSSUazj6&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/q9s3FbMnbiU?si=y6y0gCVvPlG2UYwh",
+        unboxingVideo: "https://www.youtube.com/embed/bGB-MgBjyDE?si=--dYVRpaD78eMxM7",
+        prevPrice: 5450,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4605,
+        platform: "RC",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748699724/rc_z6rawr.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748708610/red-rc-monster-truck_ta4tj0.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748708610/red-rc-monster-truck_ta4tj0.png",
+                color: "Red"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748708612/red-rc-monster-truck-2_fk9chv.png",
+                color: "Red"
+            },
+        ],
+        defaultColor: "Red",
+        Title: "Red RC Monster Truck 1:14 – Rugged 20km/h Off-Road Performance",
+        SubTitle: "Remote Control",
+        category: "toys",
+        subCategory: ["rc"],
+        variant: "cars",
+        brand: "Generic",
+        name: "red-rc-monster-truck",
+        description: "High-speed 1:14 RC off-road truck with metal body, dual batteries, and powerful 2.4GHz control for rugged play.",
+        detailsDescription: "Conquer any terrain with this 1:14 scale Red RC Monster Truck, designed for enthusiasts and kids alike. Equipped with a durable metal body, oversized knobby tires, and a high-torque motor capable of reaching speeds up to 20km/h, it’s built for adventure. The 2.4GHz ergonomic remote ensures responsive, interference-free control. Two rechargeable batteries deliver up to 60 minutes of combined playtime, while its off-road suspension absorbs impact with ease. Perfect for beginners and hobbyists who love action and durability.",
+        topSpecs: [
+            "<h6><span>Speed</span><span>20 km/h</span></h6>",
+            "<h6><span>Control</span><span>2.4GHz Remote</span></h6>",
+            "<h6><span>Battery</span><span>2x Rechargeable Packs</span></h6>",
+            "<h6><span>Build</span><span>Metal Shell</span></h6>",
+            "<h6><span>Scale</span><span>1:14</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>AGGRESSIVE OFF-ROAD DESIGN</span><span class='detail-specs-h6'>- Large knobby tires and reinforced suspension for tough terrain performance.</span></h6>",
+            "<h6><span>HIGH TORQUE MOTOR</span><span class='detail-specs-h6'>- Achieve up to 20km/h for thrilling high-speed off-road runs.</span></h6>",
+            "<h6><span>DURABLE METAL BODY</span><span class='detail-specs-h6'>- Crash-resistant frame ensures long-lasting use on all surfaces.</span></h6>",
+            "<h6><span>RESPONSIVE REMOTE</span><span class='detail-specs-h6'>- 2.4GHz system with sleep mode for battery saving after inactivity.</span></h6>",
+            "<h6><span>DUAL BATTERY PACK</span><span class='detail-specs-h6'>- Two rechargeable packs give up to 60 minutes of uninterrupted playtime.</span></h6>"
+        ],
+        tags: [
+            "red rc truck",
+            "monster rc crawler",
+            "metal shell rc",
+            "1:14 scale rc",
+            "off-road remote car",
+            "high speed rc",
+            "kids rc truck",
+            "dual battery rc",
+            "rc car for beginners",
+            "rugged rc toy"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/toys/4-wheel-off-road-rc-stunt-car-uUPYJSRmoCCsfGktSYOWLLBG.html?page=1&pos=15&cur_pos=15&ads_per_page=50&ads_count=50&lid=a3PhcTqyaSSUazj6&indexPosition=14",
+        youtubeReview: "https://www.youtube.com/embed/j5CSmeYrXN0?si=jAQxkuU_Mky_bRMz",
+        unboxingVideo: "https://www.youtube.com/embed/y4cegeDOYr4?si=SjarpTsSsp2_OC9q",
+        prevPrice: 5200,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.6
+    },
 
 
 

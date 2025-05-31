@@ -50,13 +50,14 @@ const FilterSidebar = ({
     return Array.from(conditions).sort();
   }, [products]);
 
-  const availableBrands = useMemo(() => {
-    const brands = new Set();
-    products?.forEach(product => {
-      if (product.brand) brands.add(product.brand);
-    });
-    return Array.from(brands).sort();
-  }, [products]);
+const availableBrands = useMemo(() => {
+  const brands = new Set();
+  products?.forEach(product => {
+    if (product.brand) brands.add(product.brand);
+  });
+  return Array.from(brands).sort().slice(0, 15);
+}, [products]);
+
 
   // Update parent component with filter changes
   useEffect(() => {
