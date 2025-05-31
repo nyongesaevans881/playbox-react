@@ -2139,6 +2139,397 @@ export const toys = [
 
 
 
+
+    {
+        productID: 4501,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631943/bmw-m3-e30-diecast-floral_pkmpev.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631943/bmw-m3-e30-diecast-floral_pkmpev.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631942/bmw-m3-e30-diecast-floral-2_nbhzim.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631944/bmw-m3-e30-diecast-floral-3_kybu0z.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631947/bmw-m3-e30-diecast-floral-4_ejj039.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "BMW M3 Sport Die-Cast Car – Floral Livery, Racing Legacy Preserved",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "bmw",
+        name: "bmw-m3-e30-diecast-floral",
+        description: "A 1:24 scale die-cast replica of the 1988 BMW M3 E30, styled in iconic floral racing livery with detailed interior and authentic decals.",
+        detailsDescription: "Celebrate the golden age of touring car racing with this die-cast model of the 1988 BMW M3 E30 in its iconic floral livery. Crafted at 1:24 scale, this collector's replica features precision racing decals, intricate wheel designs, and a fully detailed cockpit. The bold wrap and signature boxy frame make this a centerpiece for any BMW or motorsport collection. Built with premium die-cast metal and plastic, it's ideal for display or serious collectors looking to own a slice of motorsport history.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:24</span></h6>",
+            "<h6><span>Material</span><span>Die-cast metal & plastic</span></h6>",
+            "<h6><span>Vehicle</span><span>BMW M3 E30 (1988)</span></h6>",
+            "<h6><span>Color</span><span>Floral Livery</span></h6>",
+            "<h6><span>Recommended Age</span><span>14+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>AUTHENTIC DESIGN</span><span class='detail-specs-h6'>- Captures the aggressive touring car silhouette and iconic bodywork.</span></h6>",
+            "<h6><span>FLORAL LIVERY</span><span class='detail-specs-h6'>- Bright, nostalgic wrap with detailed sponsor decals and M-Power logos.</span></h6>",
+            "<h6><span>DETAILED INTERIOR</span><span class='detail-specs-h6'>- Includes a fully modeled dashboard, racing seat, and steering column.</span></h6>",
+            "<h6><span>DISPLAY-READY</span><span class='detail-specs-h6'>- Perfect for collectors and fans of classic touring cars.</span></h6>"
+        ],
+        tags: [
+            "bmw",
+            "m3",
+            "e30",
+            "diecast",
+            "touring",
+            "motorsport",
+            "collector",
+            "racing",
+            "floral-livery",
+            "1:24"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/bmw-m3-sport-die-cast-car-in-kenya-69oEouOeL9dafcssHzPFxnRr.html?page=1&pos=2&cur_pos=2&ads_per_page=50&ads_count=50&lid=qLPJGp-QX97b8wf7&indexPosition=1",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 8260,
+        nowPrice: 7000,
+        stock: 12,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.8
+    },
+    
+    {
+        productID: 4502,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748678163/dodge-challenger-hellcat-diecast_dbp7g2.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748678163/dodge-challenger-hellcat-diecast_dbp7g2.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748678163/dodge-challenger-hellcat-diecast-2_l1omg7.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748678164/dodge-challenger-hellcat-diecast-3_yiqnld.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Dodge Challenger Hellcat Die-Cast – Pull-Back Muscle Car with Sound & Light",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "xmd",
+        name: "dodge-challenger-hellcat-diecast",
+        description: "1:32 scale Dodge Challenger Hellcat die-cast toy car with pull-back action, lights, and sound effects.",
+        detailsDescription: "Experience the thrill of American muscle with this 1:32 scale Dodge Challenger Hellcat die-cast model. This highly detailed replica includes sound and light effects triggered by touch and features a pull-back motor for dynamic play. Made of premium metal and plastic parts, this model is ideal for collectors and kids aged 14+. Comes in a bold black finish and is CE certified for safety.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:32</span></h6>",
+            "<h6><span>Material</span><span>Die-cast metal, plastic, rubber</span></h6>",
+            "<h6><span>Sound & Light</span><span>Yes, triggered by motion or touch</span></h6>",
+            "<h6><span>Pull-Back Function</span><span>Yes, with 10m+ forward motion</span></h6>",
+            "<h6><span>Recommended Age</span><span>14+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ICONIC DESIGN</span><span class='detail-specs-h6'>- Detailed replica of the Dodge Challenger Hellcat with muscle car styling.</span></h6>",
+            "<h6><span>SOUND & LIGHT EFFECTS</span><span class='detail-specs-h6'>- Engaging features that mimic real car sounds and lighting.</span></h6>",
+            "<h6><span>PULL-BACK ACTION</span><span class='detail-specs-h6'>- Pull and release to watch it race forward with power.</span></h6>",
+            "<h6><span>DISPLAY OR PLAY</span><span class='detail-specs-h6'>- Great for collectors or teens looking for exciting car toys.</span></h6>"
+        ],
+        tags: [
+            "hellcat",
+            "dodge",
+            "challenger",
+            "diecast",
+            "muscle car",
+            "toy car",
+            "pullback",
+            "1:32 scale",
+            "sound and light"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://diecastkenya.com/product/dodge-challenger-srt/",
+        youtubeReview: "https://www.youtube.com/embed/c9fpsPkyEb4?si=w01evgq6Gq2-w_k1",
+        unboxingVideo: "https://www.youtube.com/embed/5ZUy1Cmv9y8?si=gkEot6U2KeTI24HZ",
+        prevPrice: 4876,
+        nowPrice: 3500,
+        stock: 12,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 4503,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748633401/nissan-gt-r-diecast_sd5lmi.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748633401/nissan-gt-r-diecast_sd5lmi.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748633404/nissan-gt-r-diecast-3_vwvjmv.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748633406/nissan-gt-r-diecast-5_l3zpez.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748633402/nissan-gt-r-diecast-4_ejg3fa.png",
+                color: "Grey"
+            },
+        ],
+        defaultColor: "Grey",
+        Title: "Nissan GT-R Die-Cast Car – Pull-Back Motion & Light-Up Engine Thrill",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "nissan",
+        name: "nissan-gt-r-diecast",
+        description: "A highly detailed 1:24 die-cast replica of the Nissan GT-R featuring light-up engine sounds, opening panels, and pull-back drive action.",
+        detailsDescription: "This 1:24 scale Nissan GT-R die-cast car model is built from zinc alloy with precision detailing throughout. It features opening doors, hood, and trunk for added realism. Press the front wheels to activate the roaring engine sound and headlight illumination. Thanks to its pull-back motor, the car zooms forward with force, making it a fun yet detailed display piece. Ideal for kids and collectors alike, the fine paintwork and realistic weight give it a premium feel.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:24</span></h6>",
+            "<h6><span>Material</span><span>Zinc alloy, plastic, rubber</span></h6>",
+            "<h6><span>Function</span><span>Lights, sound, pull-back motion</span></h6>",
+            "<h6><span>Openable Parts</span><span>Doors, hood, trunk</span></h6>",
+            "<h6><span>Recommended Age</span><span>6+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PULL-BACK ACTION</span><span class='detail-specs-h6'>- Pull and release to zoom forward up to 10 meters.</span></h6>",
+            "<h6><span>LIGHTS & SOUND</span><span class='detail-specs-h6'>- Front wheel press triggers engine sound and working headlights.</span></h6>",
+            "<h6><span>REALISTIC DETAILING</span><span class='detail-specs-h6'>- Features detailed engine bay, interior, and GT-R exterior body lines.</span></h6>",
+            "<h6><span>HEAVYWEIGHT FEEL</span><span class='detail-specs-h6'>- Die-cast construction adds a premium touch and durability.</span></h6>"
+        ],
+        tags: [
+            "nissan",
+            "gt-r",
+            "diecast",
+            "pull-back",
+            "kids",
+            "collectible",
+            "car model",
+            "interactive",
+            "lights",
+            "sound"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/nissan-gt-r-die-cast-car-in-kenya-2BGc8N3OteAQ2zMDtuqBbeh1.html?page=1&pos=4&cur_pos=4&ads_per_page=50&ads_count=50&lid=c9BiAf1eArYkM4IH&indexPosition=3",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 8260,
+        nowPrice: 7000,
+        stock: 14,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.7
+    },
+
+    {
+        productID: 4504,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748634929/porsche-911-gt3-rsr-diecast_bp0ljf.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748634929/porsche-911-gt3-rsr-diecast_bp0ljf.png",
+                color: "Racing White"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748634930/porsche-911-gt3-rsr-diecast-2_syckr5.png",
+                color: "Racing White"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748634931/porsche-911-gt3-rsr-diecast-3_l94w3r.png",
+                color: "Racing White"
+            },
+        ],
+        defaultColor: "Racing White",
+        Title: "Porsche 911 GT3 RSR Die-Cast Car – Light, Sound & Pull-Back Racer",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "porsche",
+        name: "porsche-911-gt3-rsr-diecast",
+        description: "Detailed 1:24 scale Porsche 911 GT3 RSR die-cast model with pull-back drive, sound and light effects, and realistic steering.",
+        detailsDescription: "Experience the thrill of track performance with this 1:24 scale die-cast Porsche 911 GT3 RSR. This model features a pull-back drive, functional doors and hood, and realistic interior with a working steering wheel that turns the front wheels. Press the front wheels or open a door to trigger immersive engine sounds and working lights. The track-style rear wing, analog chassis, and front steering suspension replicate race car authenticity, making it ideal for collectors or kids seeking interactive fun.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:24</span></h6>",
+            "<h6><span>Material</span><span>Zinc alloy, plastic, rubber</span></h6>",
+            "<h6><span>Function</span><span>Lights, sound, pull-back, steering</span></h6>",
+            "<h6><span>Openable Parts</span><span>Doors, hood, rear trunk</span></h6>",
+            "<h6><span>Recommended Age</span><span>6+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>IMMERSIVE EFFECTS</span><span class='detail-specs-h6'>- Sound and light trigger when doors open or front wheels are pressed.</span></h6>",
+            "<h6><span>REALISTIC STEERING</span><span class='detail-specs-h6'>- Working steering wheel connected to front wheels for authentic motion.</span></h6>",
+            "<h6><span>TRACK-READY LOOK</span><span class='detail-specs-h6'>- Large rear wing and analog chassis simulate GT racing style.</span></h6>",
+            "<h6><span>PULL-BACK MOTION</span><span class='detail-specs-h6'>- Pull and release to activate spring-powered forward motion.</span></h6>"
+        ],
+        tags: [
+            "porsche",
+            "gt3",
+            "rsr",
+            "diecast",
+            "pull-back",
+            "lights",
+            "sound",
+            "collectible",
+            "car model",
+            "steering"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/lavington/toys/porsche-911-gt3-rsr-die-cast-car-in-kenya-rMJRyWjue3DUOgp4Q0HayTG.html?page=1&pos=19&cur_pos=19&ads_per_page=50&ads_count=50&lid=2_6n4rDPBukl8LtP&indexPosition=18",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 8260,
+        nowPrice: 7000,
+        stock: 10,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.6
+    },
+
+    {
+        productID: 4505,
+        platform: "Die Cast",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748631590/bitmap_a5jor3.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748614471/toys-banner_qatra0.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748638383/mercedes-gwagon-metallic-diecast_bzuif4.png", // Main image of the Mercedes G-Wagon model
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748638383/mercedes-gwagon-metallic-diecast_bzuif4.png", // Image of black variant
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748638383/mercedes-gwagon-metallic-diecast-2_hxfgcb.png", // Image of pink variant
+                color: "Pink"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748638385/mercedes-gwagon-metallic-diecast-3_sdoxxg.png", // Image of white variant
+                color: "White"
+            }
+        ],
+        defaultColor: "Black",
+        Title: "Die Cast Metallic Mercedes G-Wagon – Luxury Model with Openable Doors",
+        SubTitle: "Die Cast Model",
+        category: "toys",
+        subCategory: ["diecast"],
+        variant: "cars",
+        brand: "mercedes",
+        name: "mercedes-gwagon-metallic-diecast",
+        description: "1:24 scale Mercedes G-Wagon die-cast car in black, pink, or white with metallic finish and openable doors and hood.",
+        detailsDescription: "This die-cast Mercedes G-Wagon model captures the luxury SUV's iconic design in 1:24 scale. Made with a durable zinc alloy body, rubber tires, and realistic detailing, it features opening front doors and bonnet for interactive play or decorative display. Available in black, pink, or white metallic finishes, this collectible is perfect for car enthusiasts and kids alike.",
+        topSpecs: [
+            "<h6><span>Scale</span><span>1:24</span></h6>",
+            "<h6><span>Material</span><span>Die-cast metal, plastic, rubber</span></h6>",
+            "<h6><span>Openable Features</span><span>Front doors and bonnet</span></h6>",
+            "<h6><span>Color Options</span><span>Black, Pink, White</span></h6>",
+            "<h6><span>Recommended Age</span><span>6+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC DESIGN</span><span class='detail-specs-h6'>- Authentic exterior and interior inspired by the real G-Wagon.</span></h6>",
+            "<h6><span>OPENABLE PARTS</span><span class='detail-specs-h6'>- Front doors and bonnet open for detailed exploration.</span></h6>",
+            "<h6><span>COLLECTIBLE BUILD</span><span class='detail-specs-h6'>- Heavy, durable feel ideal for display or collection.</span></h6>",
+            "<h6><span>CHILD-FRIENDLY</span><span class='detail-specs-h6'>- Smooth edges and vibrant colors, perfect for gifting.</span></h6>"
+        ],
+        tags: [
+            "mercedes",
+            "gwagon",
+            "diecast",
+            "metallic",
+            "luxury car",
+            "collectible",
+            "toy suv",
+            "display model"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/toys/die-cast-metallic-mercedes-gwagon-toy-car-7wkFKgiUGk2KNzabdj5UHsQs.html?page=1&pos=27&cur_pos=27&ads_per_page=50&ads_count=50&lid=OJQOI1scXLtAiUhJ&indexPosition=26",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 4350,
+        nowPrice: 3500,
+        stock: 15,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.5
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     //------------ GAME TABLES
     {
         productID: 4101,
