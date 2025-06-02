@@ -172,7 +172,7 @@ const Navbar = () => {
         {
             name: "Tech Hub",
             items: [
-                { name: "Gaming Phones", url: "/shipping/local-delivery" },
+                { name: "Tablets", url: "/products/techhub/tablets" },
                 { name: "Smart Watches", url: "/products/techhub/smartwatch" },
                 { name: "Pro Cameras", url: "/shipping/order-tracking" },
                 { name: "Powerbanks", url: "/shipping/order-tracking" },
@@ -206,6 +206,7 @@ const Navbar = () => {
                 { name: "Skateboards", url: "/products/actionnride/skating/skateboards" },
                 { name: "Hover Boards", url: "/products/actionnride/skating/hoverboards" },
                 { name: "Mountain Bikes", url: "/products/actionnride/bikes" },
+                { name: "Gear", url: "/products/actionnride/gear" },
             ],
         },
         {

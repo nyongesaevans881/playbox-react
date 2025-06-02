@@ -449,7 +449,7 @@ export const techhub = [
         defaultColor: "Midnight Black",
         Title: "Redmi Watch 5 Active - 2\" LCD, 18-Day Battery, 140+ Modes",
         SubTitle: "Watch 5 Active",
-        category: "accessories",
+        category: "techhub",
         subCategory: ["smartwatch", "wearables"],
         variant: "smartwatch",
         brand: "redmi",
@@ -494,5 +494,593 @@ export const techhub = [
         condition: "New",
         rating: 4.6
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        productID: 10101,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748891255/telzeal-p101-tablet_beej3v.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748891255/telzeal-p101-tablet_beej3v.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748884856/telzeal-p101-tablet-3_ddgvnw.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748884857/telzeal-p101-tablet-2_pkvzgm.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Telzeal P101 Tablet – 10.1\" Display, 12GB RAM, 8000mAh",
+        SubTitle: "Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android"],
+        variant: "telzeal",
+        brand: "telzeal",
+        name: "telzeal-p101-tablet",
+        description: "The Telzeal P101 Tablet combines a large display with powerful performance and long battery life for daily productivity.",
+        detailsDescription: "The Telzeal P101 Tablet delivers immersive visuals on a 10.1-inch IPS LCD, powered by a massive 12GB RAM and 512GB storage combo for all your multitasking needs. The 13MP rear and 5MP front cameras support clear photography and video calls, while the 8000mAh battery keeps you going longer. Running Android 13 and supporting dual SIM cards, it’s the perfect companion for work, study, or entertainment on the go.",
+        topSpecs: [
+            "<h6><span>Display</span><span>10.1-inch IPS LCD</span></h6>",
+            "<h6><span>RAM & Storage</span><span>12GB + 512GB</span></h6>",
+            "<h6><span>Battery</span><span>8000mAh</span></h6>",
+            "<h6><span>Camera</span><span>13MP Rear + 5MP Front</span></h6>",
+            "<h6><span>OS</span><span>Android 13</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- 12GB RAM with 512GB internal storage for seamless multitasking and storage-heavy apps.</span></h6>",
+            "<h6><span>IMMERSIVE DISPLAY</span><span class='detail-specs-h6'>- 10.1-inch IPS LCD with 1280×800 resolution delivers clear visuals for movies and browsing.</span></h6>",
+            "<h6><span>BATTERY LIFE</span><span class='detail-specs-h6'>- 8000mAh battery ensures long hours of use on a single charge.</span></h6>",
+            "<h6><span>DUAL CAMERAS</span><span class='detail-specs-h6'>- 13MP main camera and 5MP selfie lens provide decent photo and video performance.</span></h6>",
+            "<h6><span>ANDROID 13</span><span class='detail-specs-h6'>- Access the latest apps and features with up-to-date software support.</span></h6>",
+            "<h6><span>DUAL SIM</span><span class='detail-specs-h6'>- Dual SIM functionality for versatile connectivity options.</span></h6>"
+        ],
+        tags: [
+            "telzeal",
+            "tablet",
+            "p101",
+            "10-inch-tablet",
+            "android-13",
+            "12gb-ram",
+            "long-battery"
+        ],
+        carousels: [
+            "budgetTablets", "schoolWorkDevices"
+        ],
+        storage: "512GB",
+        dropURL: "https://jiji.co.ke/nairobi-central/tablets/new-tablet-512-gb-gray-BvYJrSAwJwMfgeK7pnIDgHYZ.html?page=1&pos=1&cur_pos=1&ads_per_page=1&ads_count=1&lid=EDmn6kyc176Ls2-J&indexPosition=0",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 9500,
+        nowPrice: 9500,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 10102,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748891253/modio-m92-5g-tablet_hoiw5l.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748891253/modio-m92-5g-tablet_hoiw5l.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748888812/modio-m92-5g-tablet-2_uoajrm.png",
+                color: "white"
+            },
+        ],
+        defaultColor: "white",
+        Title: "Modio M92 5G Tablet – 11\" Display, 16GB RAM, 1TB Storage",
+        SubTitle: "Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android"],
+        variant: "modio",
+        brand: "modio",
+        name: "modio-m92-5g-tablet",
+        description: "Experience ultra-speed and massive storage with the Modio M92 5G Tablet – the ultimate Android companion.",
+        detailsDescription: "The Modio M92 5G Tablet features an expansive 11-inch IPS display and is powered by Android 13 with an efficient Octa-Core 1.6GHz processor. Boasting a generous 16GB RAM and 1TB storage, it’s perfect for multitasking, media, and productivity. Capture clear visuals with its 13MP rear and 8MP front cameras. With 5G support, WiFi, and Bluetooth connectivity, you're always connected. Plus, the massive 10000mAh battery supports long-lasting use. Comes with free accessories like a flip case, keyboard, mouse, stylus pen, and OTG cable.",
+        topSpecs: [
+            "<h6><span>Display</span><span>11-inch IPS LCD</span></h6>",
+            "<h6><span>RAM & Storage</span><span>16GB + 1TB</span></h6>",
+            "<h6><span>Battery</span><span>10000mAh</span></h6>",
+            "<h6><span>Camera</span><span>13MP Rear + 8MP Front</span></h6>",
+            "<h6><span>Connectivity</span><span>5G, WiFi, Bluetooth</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BIG DISPLAY</span><span class='detail-specs-h6'>- 11-inch IPS screen with 1280×800 resolution for immersive viewing.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Octa-Core 1.6GHz processor with Android 13 for smooth operation.</span></h6>",
+            "<h6><span>MASSIVE MEMORY</span><span class='detail-specs-h6'>- Equipped with 16GB RAM and 1TB internal storage for heavy usage.</span></h6>",
+            "<h6><span>CAMERA</span><span class='detail-specs-h6'>- 13MP back and 8MP front cameras for clear photos and video calls.</span></h6>",
+            "<h6><span>BATTERY POWER</span><span class='detail-specs-h6'>- 10000mAh battery ensures extended use without frequent charging.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- 5G, dual SIM support, Bluetooth, and WiFi keep you online anywhere.</span></h6>",
+            "<h6><span>ACCESSORIES</span><span class='detail-specs-h6'>- Includes free flip case, wireless keyboard, mouse, stylus pen, and OTG cable.</span></h6>"
+        ],
+        tags: [
+            "modio",
+            "m92",
+            "5g-tablet",
+            "android-tablet",
+            "16gb-ram",
+            "1tb-storage",
+            "11-inch-tablet"
+        ],
+        carousels: [
+            "budgetTablets", "schoolWorkDevices", "bundleOffers"
+        ],
+        storage: "1TB",
+        dropURL: "https://jiji.co.ke/nairobi-central/cell-phones-tablets-accessories/modio-m92-tablet-11-16gb-ram-1tb-rom-android-44BGBbgsa7frUalhRh5gBN81.html?page=1&pos=6&cur_pos=6&ads_per_page=9&ads_count=5&lid=dztjP_py_eXr12cY&indexPosition=9",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 13000,
+        nowPrice: 11500,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 10103,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748892848/modio-m129-5g-tablet_cr9g04.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748892848/modio-m129-5g-tablet_cr9g04.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748892848/modio-m129-5g-tablet-2_xi54b0.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Modio M129 5G Tablet – 10.1\" Display, 8GB RAM, 512GB Storage",
+        SubTitle: "Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android"],
+        variant: "modio",
+        brand: "modio",
+        name: "modio-m129-5g-tablet",
+        description: "Reliable performance and kid-friendly features in the Modio M129 5G – a budget tablet that does more.",
+        detailsDescription: "The Modio M129 5G Tablet is built for versatility and kid-safe usage, featuring a 10.1-inch IPS display and Android 13 customized for children. With 8GB RAM and 512GB internal storage (expandable via microSD), it handles multitasking and storage with ease. The Octa-Core MTK6592 processor powers smooth performance, while the 8000mAh battery supports all-day use. Its 13MP rear and 5MP front cameras are ideal for media capture and video calls. With 5G LTE, dual SIM support, WiFi, and Bluetooth, it offers reliable connectivity. Comes bundled with a wireless keyboard, mouse, and touch pen for added value.",
+        topSpecs: [
+            "<h6><span>Display</span><span>10.1-inch IPS LCD</span></h6>",
+            "<h6><span>RAM & Storage</span><span>8GB + 512GB</span></h6>",
+            "<h6><span>Battery</span><span>8000mAh</span></h6>",
+            "<h6><span>Camera</span><span>13MP Rear + 5MP Front</span></h6>",
+            "<h6><span>Connectivity</span><span>5G, WiFi, Dual SIM</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 10.1-inch IPS LCD with vibrant colors, perfect for media and games.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Octa-Core MTK6592 CPU and Android 13 customized for kids.</span></h6>",
+            "<h6><span>MEMORY</span><span class='detail-specs-h6'>- 8GB RAM, 512GB internal storage, expandable via microSD.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 13MP main and 5MP front cameras for photos and video chats.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- 5G, WiFi, Bluetooth, GPS, USB-C, dual SIM, and 3.5mm audio jack.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 8000mAh battery for extended use throughout the day.</span></h6>",
+            "<h6><span>ACCESSORIES</span><span class='detail-specs-h6'>- Includes keyboard, mouse, and stylus pen for productivity and creativity.</span></h6>"
+        ],
+        tags: [
+            "modio",
+            "m129",
+            "tablet",
+            "kids-tablet",
+            "5g-android-tablet",
+            "10-inch-tablet",
+            "512gb-storage"
+        ],
+        carousels: [
+            "budgetTablets", "familyTech", "schoolWorkDevices"
+        ],
+        storage: "512GB",
+        dropURL: "https://www.phoneplacekenya.com/product/modio-m129-5g-tablet/",
+        youtubeReview: "https://www.youtube.com/embed/Epb9V2PtVk0?si=_36CL-bglBYWbSzT",
+        unboxingVideo: "https://www.youtube.com/embed/3mkbC2iNHr0?si=-IDlPo7JSggT9-Bi",
+        prevPrice: 12900,
+        nowPrice: 10499,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.3
+    },
+    {
+        productID: 10104,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748893936/lenovo-tab-m11_hma59p.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748893936/lenovo-tab-m11_hma59p.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748893934/lenovo-tab-m11-2_oxtbv2.png",
+                color: "Grey"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748893937/lenovo-tab-m11-3_ln2jve.png",
+                color: "Grey"
+            },
+        ],
+        defaultColor: "Grey",
+        Title: "Lenovo Tab M11 – 11\" 2K Display, Dolby Atmos, Stylus Support",
+        SubTitle: "Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "lenovo"],
+        variant: "lenovo",
+        brand: "lenovo",
+        name: "lenovo-tab-m11",
+        description: "Sleek, powerful, and stylus-ready – the Lenovo Tab M11 is built for media, creativity, and productivity.",
+        detailsDescription: "The Lenovo Tab M11 redefines the budget tablet experience with a stunning 11-inch 2K IPS LCD display running at 90Hz, offering smooth visuals for entertainment and productivity. Powered by the MediaTek Helio G88 chipset and Android 13, it handles everyday tasks and light gaming efficiently. With 4GB RAM and 128GB internal storage (expandable via microSD), it delivers reliable performance and flexibility. Capture crisp photos with the 13MP rear and 8MP front cameras. Dual SIM support, 7040mAh battery with 15W fast charging, quad Dolby Atmos speakers, stylus compatibility, and a premium aluminum build make this tablet a top choice for users who want power and style.",
+        topSpecs: [
+            "<h6><span>Display</span><span>11-inch 2K IPS LCD, 90Hz</span></h6>",
+            "<h6><span>RAM & Storage</span><span>4GB + 128GB</span></h6>",
+            "<h6><span>Battery</span><span>7040mAh, 15W Fast Charging</span></h6>",
+            "<h6><span>Camera</span><span>13MP Rear + 8MP Front</span></h6>",
+            "<h6><span>Audio</span><span>Quad Speakers, Dolby Atmos</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 11-inch IPS LCD, 1200x1920 resolution with 90Hz refresh rate for smoother scrolling and vibrant visuals.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Premium aluminum body available in Luna Grey and Seafoam Green.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Powered by MediaTek Helio G88 chipset and Android 13 for responsive multitasking and daily use.</span></h6>",
+            "<h6><span>MEMORY</span><span class='detail-specs-h6'>- 4GB RAM with 128GB internal storage, expandable via microSD.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 13MP main camera and 8MP front camera ideal for video calls and media capture.</span></h6>",
+            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Quad speakers with Dolby Atmos for immersive sound quality.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- 4G LTE, WiFi, Bluetooth 5.1, GPS, USB-C, dual SIM, and 3.5mm headphone jack.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 7040mAh battery supporting 15W fast charging, delivers up to 2 days of typical use.</span></h6>",
+            "<h6><span>EXTRAS</span><span class='detail-specs-h6'>- Stylus support, Smart keyboard case, and software updates until 2028.</span></h6>"
+        ],
+        tags: [
+            "lenovo",
+            "m11",
+            "android-tablet",
+            "stylus-support",
+            "dolby-atmos",
+            "tablet-11-inch"
+        ],
+        carousels: [
+            "premiumTablets", "studyWork", "entertainmentGear"
+        ],
+        storage: "128GB",
+        dropURL: "https://jiji.co.ke/nairobi-central/tablets/new-lenovo-tab-m11-128-gb-black-fiXbwwyelDgvObPV5fKUmW4K.html?page=1&pos=7&cur_pos=7&ads_per_page=23&ads_count=98&lid=XdzNNpQXmmmPPb9R&indexPosition=13",
+        youtubeReview: "https://www.youtube.com/embed/_wUlJ9RMlqU?si=6g3vc2iUEDMvHVtO",
+        unboxingVideo: "https://www.youtube.com/embed/Hbr8oljmBkQ?si=YSGOp8BjmV9QIXhi",
+        prevPrice: 32000,
+        nowPrice: 29499,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 10105,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748894918/modio-m40-5g_whxukz.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748894918/modio-m40-5g_whxukz.png",
+                color: "Teal"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748894919/modio-m40-5g-2_f2z6za.png",
+                color: "Teal"
+            },
+        ],
+        defaultColor: "Teal",
+        Title: "Modio M40 5G – 10.1\" Display, 8GB RAM, Slim Design",
+        SubTitle: "Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "modio"],
+        variant: "modio",
+        brand: "modio",
+        name: "modio-m40-5g",
+        description: "A slim, fast, and vibrant 10.1-inch tablet designed for everyday productivity and entertainment.",
+        detailsDescription: "The Modio M40 5G is a sleek and ergonomic Android 12 tablet featuring a vibrant 10.1-inch HD In-Cell display and powerful internal specs. Backed by an MTK6765 Octa-Core processor, 8GB RAM, and 512GB internal storage (expandable), this tablet delivers excellent multitasking and storage capacity. It supports fast 5G connectivity, Wi-Fi, Bluetooth, and dual SIM functionality. The 8000mAh battery ensures long-lasting use while its lightweight body makes it highly portable. Equipped with a 13MP rear and 5MP front camera, the M40 is perfect for video calls, media, and browsing. It comes bundled with essential accessories, including a charger and screen protector.",
+        topSpecs: [
+            "<h6><span>Display</span><span>10.1-inch IPS HD, 1280 x 800</span></h6>",
+            "<h6><span>RAM & Storage</span><span>8GB + 512GB</span></h6>",
+            "<h6><span>Battery</span><span>8000mAh</span></h6>",
+            "<h6><span>Camera</span><span>13MP Rear + 5MP Front</span></h6>",
+            "<h6><span>Network</span><span>5G + Dual SIM</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 10.1-inch In-Cell IPS LCD, 1280 x 800 resolution for sharp and immersive visuals.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Slim, lightweight body weighing 500g with ergonomic handling.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- MTK6765 Octa-Core processor up to 2.0GHz, paired with 8GB RAM for fluid multitasking.</span></h6>",
+            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 512GB internal storage, expandable via microSD for additional space.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 13MP main rear camera and 5MP front camera ideal for photos and video conferencing.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- 5G, Wi-Fi, Bluetooth, and dual SIM for seamless online access and communication.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Large 8000mAh battery offering extended use, rechargeable via micro-USB cable.</span></h6>",
+            "<h6><span>SOFTWARE</span><span class='detail-specs-h6'>- Android 12 OS with access to modern apps and features.</span></h6>",
+            "<h6><span>INCLUDED ACCESSORIES</span><span class='detail-specs-h6'>- Includes charger, USB cable, screen protector, warranty card, and user manual.</span></h6>"
+        ],
+        tags: [
+            "modio",
+            "m40",
+            "android-tablet",
+            "10-inch",
+            "5g-tablet",
+            "budget-tablet"
+        ],
+        carousels: [
+            "premiumTablets", "studyWork", "entertainmentGear"
+        ],
+        storage: "512GB",
+        dropURL: "https://www.phoneplacekenya.com/product/modio-m40-5g-copy/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 14900,
+        nowPrice: 13500,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 10106,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748896077/modio-m127-5g_mn5gbi.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748896077/modio-m127-5g_mn5gbi.png",
+                color: "Pink"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748896077/modio-m127-5g-2_fpizrw.png",
+                color: "Pink"
+            },
+        ],
+        defaultColor: "Gold",
+        Title: "Modio M127 5G – 8\" Display, 8GB RAM, Compact & Fast",
+        SubTitle: "Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "modio"],
+        variant: "modio",
+        brand: "modio",
+        name: "modio-m127-5g",
+        description: "A compact 8-inch Android tablet designed for mobile use, multitasking, and entertainment.",
+        detailsDescription: "The Modio M127 5G is a lightweight and portable Android 12 tablet featuring an 8-inch HD display that’s ideal for media and everyday use. It’s equipped with 8GB RAM and 256GB internal storage, expandable via microSD, and powered by a capable processor for daily productivity. The device supports GSM SIM cards, Wi-Fi, Bluetooth, and 5G for fast connectivity. The 13MP rear and 8MP front cameras make it suitable for video calls and casual photography. A 4,000mAh battery provides adequate runtime for on-the-go usage. Included accessories: charger, USB cable, screen protector, and user manual.",
+        topSpecs: [
+            "<h6><span>Display</span><span>8-inch HD</span></h6>",
+            "<h6><span>RAM & Storage</span><span>8GB + 256GB</span></h6>",
+            "<h6><span>Battery</span><span>4000mAh</span></h6>",
+            "<h6><span>Camera</span><span>13MP Rear + 8MP Front</span></h6>",
+            "<h6><span>Network</span><span>5G + Dual SIM</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 8-inch HD display with sharp clarity for compact entertainment and work needs.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Lightweight and slim build, comfortable to carry and use with one hand.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Efficient processing power with 8GB RAM for seamless multitasking and basic productivity.</span></h6>",
+            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 256GB internal storage, expandable for apps, media, and files.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 13MP rear camera and 8MP front camera perfect for video calls and snapshots.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Supports 5G, Wi-Fi, Bluetooth, and GSM dual SIM for flexible connections.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 4000mAh battery provides moderate power for day-long use, rechargeable via micro-USB.</span></h6>",
+            "<h6><span>SOFTWARE</span><span class='detail-specs-h6'>- Runs on Android 12 OS with access to Play Store apps and services.</span></h6>",
+            "<h6><span>INCLUDED ACCESSORIES</span><span class='detail-specs-h6'>- Includes charger, USB cable, screen protector, warranty card, and user manual.</span></h6>"
+        ],
+        tags: [
+            "modio",
+            "m127",
+            "android-tablet",
+            "compact-tablet",
+            "5g-tablet",
+            "8-inch"
+        ],
+        carousels: [
+            "budgetFriendly", "studyWork", "kidsAndTeens"
+        ],
+        storage: "256GB",
+        dropURL: "https://spare.co.ke/product/modio-m127-tablet-8-inch-screen/?srsltid=AfmBOoqnaivZX8yPMf-6ig88k9mMGn5obYQeorjotKpFKvpnBSpJry2n",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 10200,
+        nowPrice: 9500,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 10107,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-3_j82a2r.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-3_j82a2r.png",
+                color: "Green"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7_qafxfm.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-2_mcw0ru.png",
+                color: "Gray"
+            }
+        ],
+        defaultColor: "Aurora Green",
+        Title: "Redmi Pad SE 8.7 - 64GB ROM, 4GB RAM, Crisp & Compact",
+        SubTitle: "64/4GB Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "redmi"],
+        variant: "redmi",
+        brand: "redmi",
+        name: "redmi-pad-se-8-7-64gb",
+        description: "A reliable compact tablet with HyperOS, perfect for browsing, streaming, and everyday tasks.",
+        detailsDescription: "The Redmi Pad SE 8.7 (64GB/4GB) offers a vivid 8.7-inch IPS display with a 90Hz refresh rate and up to 600 nits brightness. Powered by a MediaTek Helio G85 processor, this tablet runs Android 14 with HyperOS and includes 64GB storage and 4GB RAM for solid performance on daily tasks. It has an 8MP rear camera, 5MP front camera, and stereo speakers with Dolby Atmos for immersive entertainment. Connectivity includes 4G LTE, Wi-Fi, Bluetooth 5.3, FM radio, and a 3.5mm headphone jack. The 6,650mAh battery supports 18W wired fast charging, delivering up to 22 hours of video playback.",
+        topSpecs: [
+            "<h6><span>Display</span><span>8.7-inch LCD, 90Hz</span></h6>",
+            "<h6><span>RAM & Storage</span><span>4GB + 64GB</span></h6>",
+            "<h6><span>Battery</span><span>6650mAh</span></h6>",
+            "<h6><span>Camera</span><span>8MP Rear + 5MP Front</span></h6>",
+            "<h6><span>Network</span><span>4G + Wi-Fi</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 8.7-inch IPS LCD with 800 x 1340 resolution, 90Hz refresh rate, and 600 nits brightness for clear outdoor visibility.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Sleek and lightweight body with an aluminum build, weighing 370–375g and IP53 splash resistance.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- MediaTek Helio G85 chipset with 4GB RAM ensures reliable performance for everyday use.</span></h6>",
+            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 64GB internal storage, expandable up to 2TB via microSD card.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 8MP rear and 5MP front cameras ideal for video calling and snapshots.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Includes 4G, dual-band Wi-Fi, Bluetooth 5.3, FM radio, and a 3.5mm audio jack.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 6,650mAh battery with 18W wired fast charging; up to 22.1 hours of video playback.</span></h6>",
+            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Dual stereo speakers with Dolby Atmos for an immersive media experience.</span></h6>",
+            "<h6><span>SOFTWARE</span><span class='detail-specs-h6'>- Runs Android 14 with Xiaomi’s HyperOS skin for smooth, updated functionality.</span></h6>"
+        ],
+        tags: [
+            "redmi",
+            "tablet",
+            "android14",
+            "hyperos",
+            "compact-tablet",
+            "90hz"
+        ],
+        carousels: [
+            "studyWork", "mediaPlay", "lightweightPortables"
+        ],
+        storage: "64GB",
+        dropURL: "https://jiji.co.ke/nairobi-central/tablets/new-xiaomi-redmi-pad-se-8-7-64-gb-red-zjbvuP0C9WqVbZDgxeXkVN0v.html?page=1&pos=1&cur_pos=1&ads_per_page=2&ads_count=2&lid=6eX-PXEQfWVZuv_0&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/ESoNEuwmo-8?si=q6fpBnSOzwm8Fels",
+        unboxingVideo: "https://www.youtube.com/embed/Hv2GWNpOlpk?si=T-UXkKk7Yfd15NL9",
+        prevPrice: 15800,
+        nowPrice: 14500,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 10108,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-2_mcw0ru.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-2_mcw0ru.png",
+                color: "Gray"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7_qafxfm.png",
+                color: "Blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-3_j82a2r.png",
+                color: "Green"
+            },
+        ],
+        defaultColor: "Sky Blue",
+        Title: "Redmi Pad SE 8.7 – 128GB ROM, 4GB RAM, Sleek & Capable",
+        SubTitle: "128/4GB Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "redmi"],
+        variant: "redmi",
+        brand: "redmi",
+        name: "redmi-pad-se-8-7-128gb",
+        description: "A feature-rich Android tablet with large storage, high refresh display, and great battery life.",
+        detailsDescription: "The Redmi Pad SE 8.7 (128GB/4GB) delivers strong performance and immersive media in a portable form. The 8.7-inch IPS LCD boasts a 90Hz refresh rate and 600 nits peak brightness. Internally, it's powered by a MediaTek Helio G85 processor and ships with 4GB RAM and 128GB ROM, expandable up to 2TB. It supports 4G LTE, Wi-Fi, Bluetooth 5.3, FM radio, and has dual stereo speakers with Dolby Atmos for an immersive experience. The 6,650mAh battery enables extended viewing, with 18W fast charging via USB-C. It runs Android 14 with Xiaomi’s HyperOS, bringing a clean, optimized UI.",
+        topSpecs: [
+            "<h6><span>Display</span><span>8.7-inch LCD, 90Hz</span></h6>",
+            "<h6><span>RAM & Storage</span><span>4GB + 128GB</span></h6>",
+            "<h6><span>Battery</span><span>6650mAh</span></h6>",
+            "<h6><span>Camera</span><span>8MP Rear + 5MP Front</span></h6>",
+            "<h6><span>Network</span><span>4G + Wi-Fi</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 8.7-inch IPS LCD, 90Hz refresh rate, 600 nits outdoor brightness, 800 x 1340 resolution.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Compact and ergonomic design, IP53 splash-resistant with Gorilla Glass protection.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- MediaTek Helio G85 chip and 4GB RAM for responsive performance in apps and multitasking.</span></h6>",
+            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 128GB internal storage, expandable up to 2TB via microSD card.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 8MP rear camera and 5MP front-facing camera ideal for calls and light photography.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Includes 4G LTE, Wi-Fi, Bluetooth 5.3, FM Radio, and 3.5mm audio jack.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 6,650mAh battery with 18W wired fast charging; excellent battery longevity.</span></h6>",
+            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Dolby Atmos-powered stereo speakers deliver immersive sound for media.</span></h6>",
+            "<h6><span>SOFTWARE</span><span class='detail-specs-h6'>- Android 14 with HyperOS brings optimized and up-to-date Android experience.</span></h6>"
+        ],
+        tags: [
+            "redmi",
+            "android-tablet",
+            "90hz-tablet",
+            "media-tablet",
+            "128gb-storage",
+            "hyperos"
+        ],
+        carousels: [
+            "studyWork", "mediaPlay", "techDeals"
+        ],
+        storage: "128GB",
+        dropURL: "https://www.phoneplacekenya.com/product/redmi-pad-se-8-7/",
+        youtubeReview: "https://www.youtube.com/embed/ESoNEuwmo-8?si=q6fpBnSOzwm8Fels",
+        unboxingVideo: "https://www.youtube.com/embed/Hv2GWNpOlpk?si=T-UXkKk7Yfd15NL9",
+        prevPrice: 18800,
+        nowPrice: 17950,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    }
+
+
+
 
 ]

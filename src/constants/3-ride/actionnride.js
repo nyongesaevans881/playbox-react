@@ -375,8 +375,484 @@ export const actionnride = [
 
 
     //------------- HOVERBOARDS
+
     {
         productID: 3101,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748855311/hoverboard-6-5-led-bluetooth_yc7vw0.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748855311/hoverboard-6-5-led-bluetooth_yc7vw0.png",
+                color: "White"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748855311/hoverboard-6-5-led-bluetooth-2_xhzx1c.png",
+                color: "White"
+            },
+        ],
+        defaultColor: "White",
+        Title: "6.5'' Hoverboard with LED Lights & Bluetooth – Compact & Stylish Ride",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "generic",
+        name: "hoverboard-6-5-led-bluetooth",
+        description: "Compact and powerful 6.5'' hoverboard with self-balancing tech, Bluetooth speakers, and stylish LED lights for smooth cruising.",
+        detailsDescription: "This 6.5-inch Self-Balancing Hoverboard is an ideal choice for casual riders and beginners. Powered by twin 350W electric motors, it delivers a total of 700W for speeds up to 15 km/h. It features a Samsung lithium-ion battery with a range of up to 15 km per charge, depending on rider weight and terrain. The advanced self-balancing system ensures intuitive control through body movements, and the integrated Bluetooth speaker and LED lights add a modern flair. Ideal for commuting, leisure, or gifting.",
+        topSpecs: [
+            "<h6><span>Motors</span><span>Dual 350W Motors (700W Total)</span></h6>",
+            "<h6><span>Speed</span><span>Up to 15 km/h</span></h6>",
+            "<h6><span>Range</span><span>Up to 15 km</span></h6>",
+            "<h6><span>Wheels</span><span>6.5'' Rubber Tires</span></h6>",
+            "<h6><span>Battery</span><span>Samsung Lithium-Ion</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SELF-BALANCING</span><span class='detail-specs-h6'>- Built-in balance system activates on startup for easier learning and control.</span></h6>",
+            "<h6><span>BLUETOOTH SPEAKER</span><span class='detail-specs-h6'>- Connects to mobile devices to stream music wirelessly while riding.</span></h6>",
+            "<h6><span>LED LIGHTS</span><span class='detail-specs-h6'>- Stylish and functional lights for night visibility and appeal.</span></h6>",
+            "<h6><span>CONTROL SYSTEM</span><span class='detail-specs-h6'>- Smart motherboard handles all sensor and balance functions seamlessly.</span></h6>",
+            "<h6><span>COMPACT BUILD</span><span class='detail-specs-h6'>- Lightweight and portable with 6.5'' wheels ideal for smooth urban terrain.</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "self-balancing-scooter",
+            "hoverboard-kenya",
+            "hoverboard-6.5-inch",
+            "smart-mobility",
+            "hoverboard-with-bluetooth",
+            "led-hoverboard"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://gametronixx.co.ke/shop/hoverboards/hoverboard-self-balancing-scooter-with-led-light-bluetooth/",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 29850,
+        nowPrice: 26999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 3102,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748856833/hoverboard-6-5-black-bluetooth-led-remote_vvgwen.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748856833/hoverboard-6-5-black-bluetooth-led-remote_vvgwen.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748856835/hoverboard-6-5-black-bluetooth-led-remote-2_ozjqve.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "6.5'' Hoverboard with Bluetooth, LED & Remote – Smooth & Smart Ride",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "generic",
+        name: "hoverboard-6-5-black-bluetooth-led-remote",
+        description: "Smart 6.5'' hoverboard with dual 250W motors, Bluetooth speaker, LED display, and remote control for a safe and stylish ride.",
+        detailsDescription: "This 6.5-inch hoverboard offers smooth and reliable self-balancing performance with dual 250W motors (total 500W), making it ideal for riders of all ages. Equipped with a Bluetooth speaker, LED display, and remote control, it combines entertainment with functionality. It supports a maximum load of 100 kg and reaches speeds of up to 10 km/h. The 100–240V charging voltage ensures versatile compatibility, and the compact form factor makes it easy to carry and store.",
+        topSpecs: [
+            "<h6><span>Motors</span><span>Dual 250W Motors (500W Total)</span></h6>",
+            "<h6><span>Speed</span><span>Up to 10 km/h</span></h6>",
+            "<h6><span>Max Load</span><span>100 kg</span></h6>",
+            "<h6><span>Wheels</span><span>6.5'' Rubber Tires</span></h6>",
+            "<h6><span>Weight</span><span>10 kg</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CHARGING</span><span class='detail-specs-h6'>- Input voltage range: 100–240V / 50–60Hz.</span></h6>",
+            "<h6><span>BLUETOOTH & SPEAKER</span><span class='detail-specs-h6'>- Integrated Bluetooth speaker for wireless music playback.</span></h6>",
+            "<h6><span>LED DISPLAY & LIGHTING</span><span class='detail-specs-h6'>- Stylish LED visuals for night rides and cool aesthetics.</span></h6>",
+            "<h6><span>REMOTE CONTROL</span><span class='detail-specs-h6'>- Remote included for quick power management and control.</span></h6>",
+            "<h6><span>LOAD CAPACITY</span><span class='detail-specs-h6'>- Supports riders from 10 kg to 100 kg comfortably.</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "self-balancing-scooter",
+            "hoverboard-bluetooth",
+            "hoverboard-with-remote",
+            "led-hoverboard",
+            "hoverboard-kenya",
+            "compact-hoverboard"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/100-240v-50-60hz-black-brand-new-hoverboard-7opek4Psvq2tmYjPRyoAnMTh.html?page=1&pos=25&cur_pos=25&ads_per_page=50&ads_count=50&lid=i80tQmsBGqN4Ijxr&indexPosition=24",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 25000,
+        nowPrice: 24500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 3103,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748858313/hoverboard-8-5-black-350w_upobrj.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748858313/hoverboard-8-5-black-350w_upobrj.png",
+                color: "camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748858314/hoverboard-8-5-black-350w-2_is7ikm.png",
+                color: "camouflage"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748858314/hoverboard-8-5-black-350w-3_jlqm8l.png",
+                color: "camouflage"
+            },
+        ],
+        defaultColor: "camouflage",
+        Title: "8.5'' Hoverboard with Dual 350W Motors – Rugged Power, Smooth Ride",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "generic",
+        name: "hoverboard-8-5-black-350w",
+        description: "Powerful 8.5'' hoverboard with dual 350W motors, high load capacity, and UL-certified charger. Perfect for rugged terrain and urban cruising.",
+        detailsDescription: "Built for riders who crave more torque and stability, this 8.5-inch hoverboard features dual 350W motors delivering a combined 700W of power. With a max speed of 12 km/h and a load capacity of up to 120 kg, it handles both adults and teens with ease. The 36V 4AH battery charges in just 2–3 hours via a UL-certified 42V 1.5A charger, providing reliable power for extended use. Weighing 12.5 kg, it's sturdy yet portable.",
+        topSpecs: [
+            "<h6><span>Motors</span><span>Dual 350W Motors (700W Total)</span></h6>",
+            "<h6><span>Speed</span><span>Up to 12 km/h</span></h6>",
+            "<h6><span>Max Load</span><span>120 kg</span></h6>",
+            "<h6><span>Wheels</span><span>8.5'' All-Terrain Tires</span></h6>",
+            "<h6><span>Weight</span><span>12.5 kg</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CHARGER</span><span class='detail-specs-h6'>- UL Certified 42V 1.5A Fast Charger</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 36V 4AH lithium battery; charges in 2–3 hours</span></h6>",
+            "<h6><span>LOAD CAPACITY</span><span class='detail-specs-h6'>- Supports riders between 10–120 kg</span></h6>",
+            "<h6><span>WHEEL SIZE</span><span class='detail-specs-h6'>- 8.5-inch rugged tires for versatile terrain use</span></h6>",
+            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- Standard hoverboard form (650mm length approx)</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "hoverboard-8-5-inch",
+            "dual-motor-hoverboard",
+            "offroad-hoverboard",
+            "high-load-hoverboard",
+            "hoverboard-kenya"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748858314/hoverboard-8-5-black-350w-3_jlqm8l.png",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 40000,
+        nowPrice: 36500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 3104,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748860389/weebot-classic-black-hoverboard_vc14jd.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748860389/weebot-classic-black-hoverboard_vc14jd.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748860389/weebot-classic-black-hoverboard-2_se52bu.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748860389/weebot-classic-black-hoverboard-3_rogocy.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Weebot Classic 6.5'' Hoverboard – Iconic Design, Smooth City Rides",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "Weebot",
+        name: "weebot-classic-black-hoverboard",
+        description: "The Weebot Classic Black Hoverboard delivers effortless urban cruising with 700W dual motors, a smart Samsung battery, and smooth 6.5-inch wheels.",
+        detailsDescription: "The Classic Black Hoverboard by Weebot is a modern icon of personal mobility. With two 350W motors offering a combined 700W of power, this 6.5-inch smart hoverboard reaches speeds of up to 15 km/h. It’s equipped with a high-performance Samsung Li-Ion 36V 4.4Ah smart battery, providing a range of up to 20 km on a single charge. Featuring intuitive controls and 360° maneuverability, it’s built to handle urban gliding with ease. Comes complete with a canvas carrying bag for convenient transport.",
+        topSpecs: [
+            "<h6><span>Motors</span><span>Dual 350W Motors (700W Total)</span></h6>",
+            "<h6><span>Speed</span><span>Up to 15 km/h</span></h6>",
+            "<h6><span>Range</span><span>Up to 20 km</span></h6>",
+            "<h6><span>Wheels</span><span>6.5'' Smooth Glide Tires</span></h6>",
+            "<h6><span>Battery</span><span>Samsung 36V 4.4Ah Li-Ion</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CHARGER</span><span class='detail-specs-h6'>- CE Certified Fast Charger Included</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Smart Samsung Li-Ion 36V 4.4Ah battery</span></h6>",
+            "<h6><span>RANGE</span><span class='detail-specs-h6'>- Up to 20 km per full charge</span></h6>",
+            "<h6><span>TOP SPEED</span><span class='detail-specs-h6'>- 15 km/h on flat surfaces</span></h6>",
+            "<h6><span>INCLUDED</span><span class='detail-specs-h6'>- Canvas carrying bag for portability</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "weebot-hoverboard",
+            "6-5-inch-hoverboard",
+            "black-hoverboard",
+            "urban-hoverboard",
+            "hoverboard-kenya"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/brand-new-remote-controlled-hoverboard-aiuXGgeehP7uPP2mZwSHo0Fc.html?page=1&pos=49&cur_pos=49&ads_per_page=50&ads_count=50&lid=i80tQmsBGqN4Ijxr&indexPosition=48",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 25800,
+        nowPrice: 24500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 3105,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748875229/magma-all-terrain-hoverboard-black_mdmj7u.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748875229/magma-all-terrain-hoverboard-black_mdmj7u.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748875239/magma-all-terrain-hoverboard-black-2_qngisk.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748875251/magma-all-terrain-hoverboard-black-3_n9jee9.png",
+                color: "Black"
+            },
+            {
+                image: "",
+                color: "Blackhttps://res.cloudinary.com/dnrlt7lhe/image/upload/v1748875264/magma-all-terrain-hoverboard-black-4_r6cbhh.png"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "Magma All-Terrain Hoverboard – Rugged Freedom, Stylish Edge",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "Magma",
+        name: "magma-all-terrain-hoverboard-black",
+        description: "The Magma All-Terrain Hoverboard blends rugged performance with modern design, featuring a 400W dual motor and 6.5'' LED-lit deck.",
+        detailsDescription: "Built for riders aged 12 and up, the Magma All-Terrain Hoverboard features 6.5-inch all-terrain tires, a 400W dual hub motor, and a stylish LED-lit deck and wheels. With a max speed of 10 mph and a range of 8 miles, it’s perfect for casual cruising or light urban adventure. Its water-resistant frame supports up to 200 lbs and handles inclines up to 15°. The 36V 2.0Ah lithium-ion battery charges in up to 5 hours for consistent rides throughout your day.",
+        topSpecs: [
+            "<h6><span>Motor</span><span>Dual 400W Hub Motors</span></h6>",
+            "<h6><span>Speed</span><span>Up to 10 mph</span></h6>",
+            "<h6><span>Range</span><span>Up to 8 miles</span></h6>",
+            "<h6><span>Tires</span><span>6.5'' All-Terrain Tires</span></h6>",
+            "<h6><span>Lights</span><span>LED Deck & Wheel Lighting</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 36V 2.0Ah Lithium-Ion</span></h6>",
+            "<h6><span>CHARGING TIME</span><span class='detail-specs-h6'>- Up to 5 hours</span></h6>",
+            "<h6><span>WEIGHT LIMIT</span><span class='detail-specs-h6'>- 200 lbs (90.7 kg)</span></h6>",
+            "<h6><span>PRODUCT WEIGHT</span><span class='detail-specs-h6'>- 16 lbs (7.3 kg)</span></h6>",
+            "<h6><span>WATER RESISTANT</span><span class='detail-specs-h6'>- Yes</span></h6>",
+            "<h6><span>DIMENSIONS</span><span class='detail-specs-h6'>- 23.5” x 7.3” x 7”</span></h6>",
+            "<h6><span>CLIMBING ANGLE</span><span class='detail-specs-h6'>- Up to 15°</span></h6>",
+            "<h6><span>BLUETOOTH</span><span class='detail-specs-h6'>- No</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "all-terrain-hoverboard",
+            "magma-hoverboard",
+            "black-hoverboard",
+            "6-5-inch-hoverboard",
+            "ride-on-accessory"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/new-kids-adults-electric-hoverboard-iGPus7XGu3A9vb9ZfHXDXfPW.html?page=1&pos=50&cur_pos=50&ads_per_page=50&ads_count=50&lid=i80tQmsBGqN4Ijxr&indexPosition=49",
+        youtubeReview: "https://www.youtube.com/embed/_qaixxDISj4?si=wAB4M3Gc3uEquY8Z",
+        unboxingVideo: "https://www.youtube.com/embed/z8J5_Ylt56o?si=1-pKZh0bYoOKdpmH",
+        prevPrice: 32500,
+        nowPrice: 27500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 3106,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748857343/hoverboard-8-5-bluetooth-led-certified_mmsldo.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748857343/hoverboard-8-5-bluetooth-led-certified_mmsldo.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748853197/hoverboard-8-5-bluetooth-led-2_ixkxpt.png",
+                color: "Black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748853197/hoverboard-8-5-bluetooth-led-3_k71tbb.png",
+                color: "Black"
+            },
+        ],
+        defaultColor: "Black",
+        Title: "8.5'' Hoverboard with Bluetooth Speaker – UL2272 Certified Ride-on",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "city-cruiser",
+        name: "hoverboard-8-5-bluetooth-led-certified",
+        description: "Smart, safe, and stylish—this UL2272 Certified hoverboard offers Bluetooth sound, LED lights, and rugged tires for smooth rides.",
+        detailsDescription: "The 8.5-inch Self-Balancing Hoverboard from City Cruiser is built for both fun and safety. Certified under UL2272 standards, this hoverboard ensures reliable electrical and charging performance. Equipped with dual 400W motors, it can reach up to 9.6 km/h and offers over 1 hour of continuous use. Solid 8.5” rubber tires provide traction and shock absorption across dirt, grass, and sand, while built-in Bluetooth speakers and LED headlights enhance the experience. Ideal for both kids and adults, it supports riders up to 264 lbs and is the perfect gift for any occasion.",
+        topSpecs: [
+            "<h6><span>Motors</span><span>Dual 400W Electric Motors</span></h6>",
+            "<h6><span>Tires</span><span>8.5” All-Terrain Solid Rubber Tires</span></h6>",
+            "<h6><span>Speed</span><span>Up to 9.6 km/h</span></h6>",
+            "<h6><span>Certification</span><span>UL2272 Safety Certified</span></h6>",
+            "<h6><span>Extras</span><span>Bluetooth Speaker & LED Lights</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SMART BALANCING</span><span class='detail-specs-h6'>- Built-in self-balancing system makes it easy for beginners and advanced riders alike.</span></h6>",
+            "<h6><span>UL2272 CERTIFIED</span><span class='detail-specs-h6'>- Meets the highest safety standards for charging and electrical components.</span></h6>",
+            "<h6><span>DUAL MOTORS</span><span class='detail-specs-h6'>- Two 400W motors provide quick acceleration and strong performance.</span></h6>",
+            "<h6><span>RUGGED TIRES</span><span class='detail-specs-h6'>- 8.5'' tires with anti-slip tread are built for tough surfaces like dirt, sand, and grass.</span></h6>",
+            "<h6><span>ENTERTAINMENT READY</span><span class='detail-specs-h6'>- Bluetooth speakers connect easily to your device while LED lights ensure night-time safety.</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "self-balancing-scooter",
+            "hoverboard-kenya",
+            "hoverboard-with-bluetooth",
+            "city-cruiser-hoverboard",
+            "smart-mobility",
+            "hoverboard-ul2272"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/hoverboard-off-road-adults-hKYNwXsPh6pUBsycSIgGFmlq.html?page=1&pos=4&cur_pos=4&ads_per_page=24&ads_count=1217&lid=PiE7KsWWJgWk0Z5x&indexPosition=3",
+        youtubeReview: "https://www.youtube.com/embed/5fdy_LSGSiQ?si=Y8vZYM7salnXdev5",
+        unboxingVideo: "https://www.youtube.com/embed/vkDhqk9iKT4?si=nDgs9sOul3cjPftO",
+        prevPrice: 45500,
+        nowPrice: 42500,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 3107,
+        platform: "Hoverboards",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748876690/tots-smart-electric-hoverboard-multicolor_m447e1.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748876690/tots-smart-electric-hoverboard-multicolor_m447e1.png",
+                color: "graffiti"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748876690/tots-smart-electric-hoverboard-multicolor-2_da8srh.jpg",
+                color: "graffiti"
+            },
+        ],
+        defaultColor: "graffiti",
+        Title: "Tots Smart Electric Hoverboard – Ride Smarter, Glide Safer",
+        SubTitle: "Hoverboards",
+        category: "actionnride",
+        subCategory: ["skating"],
+        variant: "hoverboards",
+        brand: "Tots",
+        name: "tots-smart-electric-hoverboard-multicolor",
+        description: "The Tots Smart Hoverboard offers a seamless self-balancing experience with 10'' wheels, dual 400W motors, and intelligent safety features.",
+        detailsDescription: "Glide through your surroundings with the Tots Smart Electric Balance Hoverboard, featuring a powerful 400W dual motor setup (200W x 2), 10-inch wheels, and intuitive controls. The built-in inertia dynamic stabilization system ensures safety across different riding modes from beginner to expert. With a top speed of 7 mph and a 4-mile range, this hoverboard handles 15° inclines with ease. LED side lights enhance visibility, while the system alerts riders of unsafe conditions. Step on and let the smart sensors balance you for a fun, stable ride. Helmet and pads recommended (sold separately).",
+        topSpecs: [
+            "<h6><span>Motor</span><span>Dual 200W (Total 400W)</span></h6>",
+            "<h6><span>Wheels</span><span>10'' Rubber Tires</span></h6>",
+            "<h6><span>Speed</span><span>Up to 7 mph</span></h6>",
+            "<h6><span>Range</span><span>Up to 4 miles</span></h6>",
+            "<h6><span>Rider Modes</span><span>Beginner to Expert</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>INCLINE CAPACITY</span><span class='detail-specs-h6'>- Up to 15°</span></h6>",
+            "<h6><span>SELF-BALANCING</span><span class='detail-specs-h6'>- Hover-1 gyroscopes and stabilization system</span></h6>",
+            "<h6><span>LED LIGHTING</span><span class='detail-specs-h6'>- Side visibility lights</span></h6>",
+            "<h6><span>ALERT SYSTEM</span><span class='detail-specs-h6'>- Speed/surface safety alerts</span></h6>",
+            "<h6><span>RECOMMENDED SAFETY GEAR</span><span class='detail-specs-h6'>- Helmet, knee & elbow pads (sold separately)</span></h6>",
+            "<h6><span>RIDER LEVEL</span><span class='detail-specs-h6'>- Beginner to Expert</span></h6>"
+        ],
+        tags: [
+            "hoverboard",
+            "self-balancing-scooter",
+            "tots-hoverboard",
+            "10-inch-hoverboard",
+            "smart-hoverboard",
+            "ride-on-accessory"
+        ],
+        carousels: [
+            "hoverboards", "mobility"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/10-inch-hoverboard-ozZObqCjkPvj2so6A1mPZ3OQ.html?page=1&pos=12&cur_pos=12&ads_per_page=50&ads_count=50&lid=47isV3ZYw_Ton4AM&indexPosition=11",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 0,
+        nowPrice: 35999,
+        stock: 8,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 3108,
         platform: "Hoverboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
@@ -395,9 +871,9 @@ export const actionnride = [
         ],
         defaultColor: "Black",
         Title: "All-Terrain Electric Hoverboard with Handle – SUV Off-Road Smart Self-Balancing",
-        SubTitle: "With Bluetooth Speaker",
+        SubTitle: "Hoverboards",
         category: "actionnride",
-        subCategory: "skating",
+        subCategory: ["skating"],
         variant: "hoverboards",
         brand: "Self-Balancing",
         name: "all-terrain-hoverboard-handle-kenya",
@@ -441,28 +917,28 @@ export const actionnride = [
         rating: 4.6
     },
     {
-        productID: 3102,
+        productID: 3109,
         platform: "Hoverboards",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744476476/icon_dginbp.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741460443/gaming-icons-set-vector-game-videogames-console-gaming-gamers-flat-icons-_-Shop-2_-_Copy-removebg-preview_cr02xo.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744489439/hoverboard_ievcb5.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744490789/hover-two-1_wchjmd.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744490790/hover-two-2_fye5hl.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744490789/hover-two-1_wchjmd.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744490790/hover-two-2_fye5hl.png",
                 color: "yellow"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744490790/hover-two-2_fye5hl.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744490789/hover-two-1_wchjmd.png",
                 color: "yellow"
             },
         ],
         defaultColor: "yellow",
         Title: "G-F1 All-Terrain Yellow Hoverboard with Handle – Smart Off-Road SUV Style",
-        SubTitle: "With Bluetooth Speaker",
+        SubTitle: "Hoverboards",
         category: "actionnride",
-        subCategory: "skating",
+        subCategory: ["skating"],
         variant: "hoverboards",
         brand: "Self-Balancing",
         name: "g-f1-yellow-hoverboard-kenya",
@@ -506,7 +982,6 @@ export const actionnride = [
         condition: "New",
         rating: 4.7
     },
-
 
 
 
@@ -994,11 +1469,312 @@ export const actionnride = [
         dropURL: "https://jiji.co.ke/nairobi-central/toys/classic-bike-size-20-with-gear-85P2f2iWRJ4Md3rGy81mgbnZ.html?page=1&pos=27&cur_pos=27&ads_per_page=50&ads_count=50&lid=hZNWD_hj1POYhnqj&indexPosition=26",
         youtubeReview: "",
         unboxingVideo: "",
-        prevPrice: 26000,
-        nowPrice: 18900,
+        prevPrice: 19000,
+        nowPrice: 17500,
         stock: 15,
         freeShipping: true,
         condition: "New",
         rating: 4.3
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //---------------------- ACCESSORIES
+    {
+        productID: 3301,
+        platform: "Gear",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878346/homenity-cycling-mask-goggles-black-banner_jk0llu.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878337/homenity-cycling-mask-goggles-black_ei0n0n.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878337/homenity-cycling-mask-goggles-black_ei0n0n.png",
+                color: "Orange"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878338/homenity-cycling-mask-goggles-black-2_f563qt.png",
+                color: "Orange"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878338/homenity-cycling-mask-goggles-black-3_wjvibe.png",
+                color: "Orange"
+            },
+        ],
+        defaultColor: "Orange",
+        Title: "HOMENITY® Cycling Goggles with Mask – Ride Safer, See Clearer",
+        SubTitle: "Cycling Mask",
+        category: "actionnride",
+        subCategory: ["gear", "protection"],
+        variant: "cycling-mask",
+        brand: "HOMENITY",
+        name: "homenity-cycling-mask-goggles-black",
+        description: "Stay protected from dust, wind, and debris with HOMENITY's multifunctional cycling goggles and detachable mask combo.",
+        detailsDescription: "The HOMENITY® Cycling Motorbike Dirt Racing Goggles with Detachable Mask are designed to offer both protection and comfort for outdoor enthusiasts. Crafted from durable acrylic with an adjustable strap, this black face goggle mask is windproof, anti-fog, and anti-dust. Perfect for biking, motorcycling, skiing, or skating, it features a detachable mouth filter and ventilation holes for a clear, unobstructed view. The interior is lined with absorbent sponge and soft fleece for maximum face comfort, while the detachable design adds flexibility for use across different activities.",
+        topSpecs: [
+            "<h6><span>Material</span><span>Acrylic</span></h6>",
+            "<h6><span>Mask Type</span><span>Detachable Face Shield</span></h6>",
+            "<h6><span>Protection</span><span>Windproof / Anti-Dust / Anti-Fog</span></h6>",
+            "<h6><span>Comfort</span><span>Soft fleece and sponge padding</span></h6>",
+            "<h6><span>Usage</span><span>Motorcycling, Cycling, Skating</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CLOSURE</span><span class='detail-specs-h6'>- Adjustable Strap</span></h6>",
+            "<h6><span>COLOR</span><span class='detail-specs-h6'>- Black</span></h6>",
+            "<h6><span>BRAND</span><span class='detail-specs-h6'>- HOMENITY®</span></h6>",
+            "<h6><span>MULTIFUNCTIONAL</span><span class='detail-specs-h6'>- Goggle + Mouth Filter Combo</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Detachable Mask with Air Vents</span></h6>",
+            "<h6><span>USE CASES</span><span class='detail-specs-h6'>- Cycling, Dirt Racing, Skiing, Skating</span></h6>"
+        ],
+        tags: [
+            "cycling mask",
+            "goggles",
+            "motorbike gear",
+            "homenity",
+            "protective eyewear",
+            "detachable mask",
+            "windproof goggles"
+        ],
+        carousels: ["cycling", "protective-gear"],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/face-blinkers-off-road-motorcycle-goggles-outdoor-riding-wDHDfHXQzfgZuRi6KarmjlWg.html?page=1&pos=3&cur_pos=3&ads_per_page=50&ads_count=50&lid=kwsXhnfaC8wxnuBH&indexPosition=2",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 2200,
+        nowPrice: 1999,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 3302,
+        platform: "Gear",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878346/homenity-cycling-mask-goggles-black-banner_jk0llu.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748879274/homenity-cycling-mask-goggles-blue_gztnky.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748879274/homenity-cycling-mask-goggles-blue_gztnky.png",
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748879273/homenity-cycling-mask-goggles-blue-2_p6ewtv.png",
+                color: "blue"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748879274/homenity-cycling-mask-goggles-blue-3_cawfu7.png",
+                color: "blue"
+            },
+        ],
+        defaultColor: "blue",
+        Title: "HOMENITY® Cycling Goggles with Mask – Ride Safer, See Clearer",
+        SubTitle: "Cycling Mask",
+        category: "actionnride",
+        subCategory: ["gear", "protection"],
+        variant: "cycling-mask",
+        brand: "HOMENITY",
+        name: "homenity-cycling-mask-goggles-blue",
+        description: "Stay protected from dust, wind, and debris with HOMENITY's multifunctional cycling goggles and detachable mask combo.",
+        detailsDescription: "The HOMENITY® Cycling Motorbike Dirt Racing Goggles with Detachable Mask are designed to offer both protection and comfort for outdoor enthusiasts. Crafted from durable acrylic with an adjustable strap, this black face goggle mask is windproof, anti-fog, and anti-dust. Perfect for biking, motorcycling, skiing, or skating, it features a detachable mouth filter and ventilation holes for a clear, unobstructed view. The interior is lined with absorbent sponge and soft fleece for maximum face comfort, while the detachable design adds flexibility for use across different activities.",
+        topSpecs: [
+            "<h6><span>Material</span><span>Acrylic</span></h6>",
+            "<h6><span>Mask Type</span><span>Detachable Face Shield</span></h6>",
+            "<h6><span>Protection</span><span>Windproof / Anti-Dust / Anti-Fog</span></h6>",
+            "<h6><span>Comfort</span><span>Soft fleece and sponge padding</span></h6>",
+            "<h6><span>Usage</span><span>Motorcycling, Cycling, Skating</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CLOSURE</span><span class='detail-specs-h6'>- Adjustable Strap</span></h6>",
+            "<h6><span>COLOR</span><span class='detail-specs-h6'>- Black</span></h6>",
+            "<h6><span>BRAND</span><span class='detail-specs-h6'>- HOMENITY®</span></h6>",
+            "<h6><span>MULTIFUNCTIONAL</span><span class='detail-specs-h6'>- Goggle + Mouth Filter Combo</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Detachable Mask with Air Vents</span></h6>",
+            "<h6><span>USE CASES</span><span class='detail-specs-h6'>- Cycling, Dirt Racing, Skiing, Skating</span></h6>"
+        ],
+        tags: [
+            "cycling mask",
+            "goggles",
+            "motorbike gear",
+            "homenity",
+            "protective eyewear",
+            "detachable mask",
+            "windproof goggles"
+        ],
+        carousels: ["cycling", "protective-gear"],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/face-blinkers-off-road-motorcycle-goggles-outdoor-riding-wDHDfHXQzfgZuRi6KarmjlWg.html?page=1&pos=3&cur_pos=3&ads_per_page=50&ads_count=50&lid=kwsXhnfaC8wxnuBH&indexPosition=2",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 2200,
+        nowPrice: 1999,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 3303,
+        platform: "Gear",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878346/homenity-cycling-mask-goggles-black-banner_jk0llu.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748880312/homenity-cycling-mask-goggles-american_smmjz6.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748880312/homenity-cycling-mask-goggles-american_smmjz6.png",
+                color: "american"
+            },
+        ],
+        defaultColor: "american",
+        Title: "HOMENITY® Cycling Goggles with Mask – Ride Safer, See Clearer",
+        SubTitle: "Cycling Mask",
+        category: "actionnride",
+        subCategory: ["gear", "protection"],
+        variant: "cycling-mask",
+        brand: "HOMENITY",
+        name: "homenity-cycling-mask-goggles-american",
+        description: "Stay protected from dust, wind, and debris with HOMENITY's multifunctional cycling goggles and detachable mask combo.",
+        detailsDescription: "The HOMENITY® Cycling Motorbike Dirt Racing Goggles with Detachable Mask are designed to offer both protection and comfort for outdoor enthusiasts. Crafted from durable acrylic with an adjustable strap, this black face goggle mask is windproof, anti-fog, and anti-dust. Perfect for biking, motorcycling, skiing, or skating, it features a detachable mouth filter and ventilation holes for a clear, unobstructed view. The interior is lined with absorbent sponge and soft fleece for maximum face comfort, while the detachable design adds flexibility for use across different activities.",
+        topSpecs: [
+            "<h6><span>Material</span><span>Acrylic</span></h6>",
+            "<h6><span>Mask Type</span><span>Detachable Face Shield</span></h6>",
+            "<h6><span>Protection</span><span>Windproof / Anti-Dust / Anti-Fog</span></h6>",
+            "<h6><span>Comfort</span><span>Soft fleece and sponge padding</span></h6>",
+            "<h6><span>Usage</span><span>Motorcycling, Cycling, Skating</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CLOSURE</span><span class='detail-specs-h6'>- Adjustable Strap</span></h6>",
+            "<h6><span>COLOR</span><span class='detail-specs-h6'>- Black</span></h6>",
+            "<h6><span>BRAND</span><span class='detail-specs-h6'>- HOMENITY®</span></h6>",
+            "<h6><span>MULTIFUNCTIONAL</span><span class='detail-specs-h6'>- Goggle + Mouth Filter Combo</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Detachable Mask with Air Vents</span></h6>",
+            "<h6><span>USE CASES</span><span class='detail-specs-h6'>- Cycling, Dirt Racing, Skiing, Skating</span></h6>"
+        ],
+        tags: [
+            "cycling mask",
+            "goggles",
+            "motorbike gear",
+            "homenity",
+            "protective eyewear",
+            "detachable mask",
+            "windproof goggles"
+        ],
+        carousels: ["cycling", "protective-gear"],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/face-blinkers-off-road-motorcycle-goggles-outdoor-riding-wDHDfHXQzfgZuRi6KarmjlWg.html?page=1&pos=3&cur_pos=3&ads_per_page=50&ads_count=50&lid=kwsXhnfaC8wxnuBH&indexPosition=2",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 2200,
+        nowPrice: 1999,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 3304,
+        platform: "Gear",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748715968/bike-icon_lfn4sh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748878346/homenity-cycling-mask-goggles-black-banner_jk0llu.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748880951/homenity-cycling-mask-goggles-ocean-blue_noyhxa.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748880951/homenity-cycling-mask-goggles-ocean-blue_noyhxa.png",
+                color: "Ocean Blue"
+            },
+        ],
+        defaultColor: "Ocean Blue",
+        Title: "HOMENITY® Cycling Goggles with Mask – Ride Safer, See Clearer",
+        SubTitle: "Cycling Mask",
+        category: "actionnride",
+        subCategory: ["gear", "protection"],
+        variant: "cycling-mask",
+        brand: "HOMENITY",
+        name: "homenity-cycling-mask-goggles-ocean-blue",
+        description: "Stay protected from dust, wind, and debris with HOMENITY's multifunctional cycling goggles and detachable mask combo.",
+        detailsDescription: "The HOMENITY® Cycling Motorbike Dirt Racing Goggles with Detachable Mask are designed to offer both protection and comfort for outdoor enthusiasts. Crafted from durable acrylic with an adjustable strap, this black face goggle mask is windproof, anti-fog, and anti-dust. Perfect for biking, motorcycling, skiing, or skating, it features a detachable mouth filter and ventilation holes for a clear, unobstructed view. The interior is lined with absorbent sponge and soft fleece for maximum face comfort, while the detachable design adds flexibility for use across different activities.",
+        topSpecs: [
+            "<h6><span>Material</span><span>Acrylic</span></h6>",
+            "<h6><span>Mask Type</span><span>Detachable Face Shield</span></h6>",
+            "<h6><span>Protection</span><span>Windproof / Anti-Dust / Anti-Fog</span></h6>",
+            "<h6><span>Comfort</span><span>Soft fleece and sponge padding</span></h6>",
+            "<h6><span>Usage</span><span>Motorcycling, Cycling, Skating</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CLOSURE</span><span class='detail-specs-h6'>- Adjustable Strap</span></h6>",
+            "<h6><span>COLOR</span><span class='detail-specs-h6'>- Black</span></h6>",
+            "<h6><span>BRAND</span><span class='detail-specs-h6'>- HOMENITY®</span></h6>",
+            "<h6><span>MULTIFUNCTIONAL</span><span class='detail-specs-h6'>- Goggle + Mouth Filter Combo</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Detachable Mask with Air Vents</span></h6>",
+            "<h6><span>USE CASES</span><span class='detail-specs-h6'>- Cycling, Dirt Racing, Skiing, Skating</span></h6>"
+        ],
+        tags: [
+            "cycling mask",
+            "goggles",
+            "motorbike gear",
+            "homenity",
+            "protective eyewear",
+            "detachable mask",
+            "windproof goggles"
+        ],
+        carousels: ["cycling", "protective-gear"],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/sports-bicycles-and-fitness/face-blinkers-off-road-motorcycle-goggles-outdoor-riding-wDHDfHXQzfgZuRi6KarmjlWg.html?page=1&pos=3&cur_pos=3&ads_per_page=50&ads_count=50&lid=kwsXhnfaC8wxnuBH&indexPosition=2",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 2200,
+        nowPrice: 1999,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+
 ]
