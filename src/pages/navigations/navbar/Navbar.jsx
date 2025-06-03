@@ -144,8 +144,6 @@ const Navbar = () => {
                 { name: "Gaming Keyboards", url: "/products/pc/keyboards" },
                 { name: "Gaming Mice", url: "/products/pc/mice" },
                 { name: "Gaming Monitors", url: "/products/pc/monitors" },
-                // { name: "PC Components", url: "/products/pc/components" },
-                // { name: "Accessories", url: "/products/pc/accessories" },
             ],
         },
         {
@@ -166,7 +164,6 @@ const Navbar = () => {
                 { name: "Earbuds", url: "/products/audio/earbuds" },
                 { name: "Neckbands", url: "/peripherals/headsets" },
                 { name: "Bluetooth Speakers", url: "/products/audio/speakers" },
-                { name: "Sound Bars", url: "/peripherals/mousepads" },
             ],
         },
         {
@@ -174,9 +171,7 @@ const Navbar = () => {
             items: [
                 { name: "Tablets", url: "/products/techhub/tablets" },
                 { name: "Smart Watches", url: "/products/techhub/smartwatch" },
-                { name: "Pro Cameras", url: "/shipping/order-tracking" },
-                { name: "Powerbanks", url: "/shipping/order-tracking" },
-                { name: "HD Tvs", url: "/shipping/local-delivery" },
+                { name: "Pro Cameras", url: "/products/techhub/cameras" },
             ],
         },
         {
@@ -185,8 +180,6 @@ const Navbar = () => {
                 { name: "Gaming Chairs", url: "/products/furniture/chairs" },
                 { name: "Gaming Tables", url: "/products/furniture/tables" },
                 { name: "Decor", url: "/furniture/rgb-desks" },
-                // { name: "Cable Management Systems", url: "/furniture/cable-management" },
-                // { name: "Display Shelves", url: "/furniture/display-shelves" },
             ],
         },
         {

@@ -946,18 +946,18 @@ export const techhub = [
         imageColorMap: [
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-3_j82a2r.png",
-                color: "Green"
+                color: "lightgreen"
             },
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7_qafxfm.png",
-                color: "Blue"
+                color: "skyblue"
             },
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-2_mcw0ru.png",
-                color: "Gray"
+                color: "silver"
             }
         ],
-        defaultColor: "Aurora Green",
+        defaultColor: "lightgreen",
         Title: "Redmi Pad SE 8.7 - 64GB ROM, 4GB RAM, Crisp & Compact",
         SubTitle: "64/4GB Tablet",
         category: "techhub",
@@ -1018,18 +1018,18 @@ export const techhub = [
         imageColorMap: [
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-2_mcw0ru.png",
-                color: "Gray"
+                color: "silver"
             },
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7_qafxfm.png",
-                color: "Blue"
+                color: "skyblue"
             },
             {
                 image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748897324/redmi-pad-se-8-7-3_j82a2r.png",
-                color: "Green"
+                color: "lightgreen"
             },
         ],
-        defaultColor: "Sky Blue",
+        defaultColor: "silver",
         Title: "Redmi Pad SE 8.7 – 128GB ROM, 4GB RAM, Sleek & Capable",
         SubTitle: "128/4GB Tablet",
         category: "techhub",
@@ -1078,9 +1078,751 @@ export const techhub = [
         freeShipping: true,
         condition: "New",
         rating: 4.6
-    }
+    },
+    {
+        productID: 10109,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb-3_racknw.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb-3_racknw.png",
+                color: "mediumorchid"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb_tvpdkv.png",
+                color: "silver"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb-2_fuv7qu.png",
+                color: "lightgreen"
+            }
+        ],
+        defaultColor: "mediumorchid",
+        Title: "Redmi Pad SE – 128GB ROM, 4GB RAM, Sharp & Sturdy",
+        SubTitle: "128/4GB Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "redmi"],
+        variant: "redmi",
+        brand: "redmi",
+        name: "redmi-pad-se-128gb",
+        description: "A value-packed tablet with great visuals, reliable performance, and long-lasting battery life.",
+        detailsDescription: "The Redmi Pad SE (128GB/4GB) is a sleek and reliable Android tablet with a robust 11-inch FHD+ IPS LCD and 90Hz refresh rate. Built from durable metal and protected by Corning Gorilla Glass 3, it handles everyday use with ease. Powered by the Snapdragon 680 chipset and 4GB RAM, it's great for browsing, streaming, and light productivity. With Dolby Atmos quad speakers and 8000mAh battery, it delivers immersive media and extended usage. The MIUI Pad 14 OS based on Android 13 ensures a smooth, user-friendly experience.",
+        topSpecs: [
+            "<h6><span>Display</span><span>11-inch FHD+ LCD, 90Hz</span></h6>",
+            "<h6><span>RAM & Storage</span><span>4GB + 128GB</span></h6>",
+            "<h6><span>Battery</span><span>8000mAh</span></h6>",
+            "<h6><span>Camera</span><span>8MP Rear + 5MP Front</span></h6>",
+            "<h6><span>Audio</span><span>Quad Speakers + Dolby Atmos</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 11-inch FHD+ IPS LCD, 90Hz refresh rate, 1200 x 1920 resolution.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Sleek metal body, Gorilla Glass 3 protection, available in three elegant colors.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Qualcomm Snapdragon 680 (6nm) with 4GB RAM for smooth daily performance.</span></h6>",
+            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 128GB internal, expandable up to 1TB via microSD.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 8MP rear camera and 5MP front camera for casual photography and video calls.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wi-Fi only, Bluetooth, USB-C port for charging/data.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- 8000mAh battery supports over 12 hours of video playback.</span></h6>",
+            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Quad stereo speakers with Dolby Atmos for rich media experience.</span></h6>",
+            "<h6><span>SOFTWARE</span><span class='detail-specs-h6'>- Runs MIUI Pad 14 based on Android 13 for a clean, feature-rich interface.</span></h6>"
+        ],
+        tags: [
+            "redmi",
+            "android-tablet",
+            "90hz-tablet",
+            "media-tablet",
+            "128gb-storage",
+            "miui-pad-14"
+        ],
+        carousels: [
+            "studyWork", "mediaPlay", "techDeals"
+        ],
+        storage: "128GB",
+        dropURL: "https://jiji.co.ke/nairobi-central/tablets/new-xiaomi-redmi-pad-se-11-0-128-gb-3pyOXWijPLJx0zD1kstgVCyB.html?page=1&pos=5&cur_pos=5&ads_per_page=23&ads_count=47&lid=dXqkP0KlH7HoQ6MK&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/D0fm5lRis4o?si=q7PKZrUS6FNYm39o",
+        unboxingVideo: "https://www.youtube.com/embed/a3RASNM4MAs?si=7snayaoIK0EnIQS4",
+        prevPrice: 21870,
+        nowPrice: 19500,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 10110,
+        platform: "Tablets",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747507096/tech_j8iywy.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748886925/tablet-banner_lbv0f8.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb-2_fuv7qu.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb-2_fuv7qu.png",
+                color: "mediumorchid"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb_tvpdkv.png",
+                color: "silver"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748968201/redmi-pad-se-128gb-2_fuv7qu.png",
+                color: "lightgreen"
+            }
+        ],
+        defaultColor: "mediumorchid",
+        Title: "Redmi Pad SE – 256GB ROM, 8GB RAM, Pro-Level Productivity",
+        SubTitle: "256/8BG Tablet",
+        category: "techhub",
+        subCategory: ["tablets", "android", "redmi"],
+        variant: "redmi",
+        brand: "redmi",
+        name: "redmi-pad-se-256gb",
+        description: "A powerful Android tablet with massive storage, smooth visuals, and immersive sound.",
+        detailsDescription: "The Redmi Pad SE (256GB/8GB) packs serious power for media, work, and gaming. The 11-inch 90Hz IPS LCD delivers vibrant and fluid visuals. Inside, the Snapdragon 680 processor and 8GB RAM handle multitasking effortlessly. It features quad Dolby Atmos speakers, a metal body with Gorilla Glass 3, and MIUI Pad 14 on Android 13. The generous 256GB storage is expandable, and the 8000mAh battery ensures extended productivity and entertainment on the go. Ideal for power users who need more space and performance.",
+        topSpecs: [
+            "<h6><span>Display</span><span>11-inch FHD+ LCD, 90Hz</span></h6>",
+            "<h6><span>RAM & Storage</span><span>8GB + 256GB</span></h6>",
+            "<h6><span>Battery</span><span>8000mAh</span></h6>",
+            "<h6><span>Camera</span><span>8MP Rear + 5MP Front</span></h6>",
+            "<h6><span>Audio</span><span>Quad Speakers + Dolby Atmos</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>DISPLAY</span><span class='detail-specs-h6'>- 11-inch FHD+ IPS LCD, 90Hz refresh rate, 1200 x 1920 resolution.</span></h6>",
+            "<h6><span>DESIGN</span><span class='detail-specs-h6'>- Premium metal chassis, Gorilla Glass 3, and available in sleek colors.</span></h6>",
+            "<h6><span>PERFORMANCE</span><span class='detail-specs-h6'>- Qualcomm Snapdragon 680 (6nm) with 8GB RAM ensures smooth multitasking and speed.</span></h6>",
+            "<h6><span>STORAGE</span><span class='detail-specs-h6'>- 256GB built-in, with support for microSD cards up to 1TB.</span></h6>",
+            "<h6><span>CAMERAS</span><span class='detail-specs-h6'>- 8MP back and 5MP front cameras for video calls and casual photography.</span></h6>",
+            "<h6><span>CONNECTIVITY</span><span class='detail-specs-h6'>- Wi-Fi only model, Bluetooth, USB-C, and solid wireless performance.</span></h6>",
+            "<h6><span>BATTERY</span><span class='detail-specs-h6'>- Massive 8000mAh battery for extended productivity or playtime.</span></h6>",
+            "<h6><span>AUDIO</span><span class='detail-specs-h6'>- Quad Dolby Atmos stereo speakers for an immersive sound experience.</span></h6>",
+            "<h6><span>SOFTWARE</span><span class='detail-specs-h6'>- MIUI Pad 14 on Android 13 offers smooth and optimized UI experience.</span></h6>"
+        ],
+        tags: [
+            "redmi",
+            "android-tablet",
+            "256gb-storage",
+            "8gb-ram",
+            "media-tablet",
+            "miui-pad-14"
+        ],
+        carousels: [
+            "studyWork", "mediaPlay", "techDeals"
+        ],
+        storage: "128GB",
+        dropURL: "https://jiji.co.ke/nairobi-central/tablets/new-xiaomi-redmi-pad-se-8-7-256-gb-black-fU4HstEy5ChfkRtTTvwzHe3K.html?page=1&pos=11&cur_pos=11&ads_per_page=23&ads_count=47&lid=dXqkP0KlH7HoQ6MK&indexPosition=10",
+        youtubeReview: "https://www.youtube.com/embed/D0fm5lRis4o?si=q7PKZrUS6FNYm39o",
+        unboxingVideo: "https://www.youtube.com/embed/a3RASNM4MAs?si=7snayaoIK0EnIQS4",
+        prevPrice: 25000,
+        nowPrice: 22499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //--------------------------- PRO CAMERAS
+    {
+        productID: 10201,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970625/GoPro-Hero10-Black-Action-Camera-a-600x600-removebg-preview_ftwpdv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970625/GoPro-Hero10-Black-Action-Camera-a-600x600-removebg-preview_ftwpdv.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970625/Gopro-hero-10-2-removebg-preview_dgwg4e.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970626/GoPro-Hero10-Black-Action-Camera-b-removebg-preview_gq4ye3.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970626/gopro-hero-10-gadgets-nerd03-03-2024-1709466954-removebg-preview_tjmhkq.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970626/Gopro-hero-10-removebg-preview_uiqwtp.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "GoPro HERO10 Black Action Camera - Performance Upgraded",
+        SubTitle: "GoPro HERO 10",
+        category: "techhub",
+        subCategory: ["cameras", "action-cams"],
+        variant: "gopro",
+        brand: "gopro",
+        name: "gopro-hero10-black-action-camera",
+        description: "The GoPro HERO10 Black delivers exceptional 5.3K60 video, 23MP photos, and industry-leading stabilization in a compact rugged design.",
+        detailsDescription: "The GoPro HERO10 Black builds on its legendary lineage with a powerful GP2 chip for blazing-fast performance, higher frame rates, and incredibly responsive touch controls. Capture every moment in stunning 5.3K60 or ultra-slow motion at 2.7K240, and shoot vivid 23MP photos. Its front-facing screen is perfect for vlogging, while HyperSmooth 4.0 delivers silky-smooth footage, even in intense action scenes. Waterproof up to 33 feet without a case, it’s perfect for adventure seekers. Enjoy live streaming in 1080p, auto uploads to the cloud, and time-lapse modes including night-lapse. The HERO10’s rugged build, flip-out mount, and improved low-light performance make it the most versatile GoPro yet.",
+        topSpecs: [
+            "<h6><span>Camera Resolution</span><span>23MP</span></h6>",
+            "<h6><span>Video Recording</span><span>5.3K60 / 4K120 / 2.7K240</span></h6>",
+            "<h6><span>Stabilization</span><span>HyperSmooth 4.0</span></h6>",
+            "<h6><span>Display</span><span>Front Display & Rear Touchscreen</span></h6>",
+            "<h6><span>Waterproof</span><span>Up to 33 ft (10m) without housing</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>GP2 CHIP</span><span class='detail-specs-h6'>- Boosts performance and doubles the frame rate for smoother footage and snappier controls.</span></h6>",
+            "<h6><span>HIGH RESOLUTION VIDEO</span><span class='detail-specs-h6'>- Capture ultra-clear video in 5.3K at 60fps, 4K at 120fps, or slow motion in 2.7K at 240fps.</span></h6>",
+            "<h6><span>HYPERSMOOTH 4.0</span><span class='detail-specs-h6'>- Advanced stabilization for gimbal-like smoothness in the roughest conditions.</span></h6>",
+            "<h6><span>FRONT & REAR DISPLAYS</span><span class='detail-specs-h6'>- Frame yourself with the front display or control settings with the responsive rear touchscreen.</span></h6>",
+            "<h6><span>LIVE STREAMING & CLOUD BACKUP</span><span class='detail-specs-h6'>- Stream in 1080p or auto-upload content directly to the cloud with a GoPro subscription.</span></h6>"
+        ],
+        tags: [
+            "gopro",
+            "hero10",
+            "action-camera",
+            "5.3k-video",
+            "23mp",
+            "hypersmooth",
+            "waterproof-camera",
+            "vlogging-camera",
+            "live-streaming",
+            "slow-motion",
+            "adventure-cam",
+            "gp2-chip",
+            "front-screen",
+            "touchscreen",
+            "time-lapse"
+        ],
+        carousels: [
+            "latestArrivals", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/go-pro-hero-10/",
+        youtubeReview: "https://www.youtube.com/embed/U79xNlX8Qow?si=20sbJUnCSxlnoYxN",
+        unboxingVideo: "https://www.youtube.com/embed/Lv53SPsRkfw?si=NIjYTQx4MbJbRcLe",
+        prevPrice: 35000,
+        nowPrice: 33500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 10202,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748972730/gopro-hero11-black-action-camera_cjrmua.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748972730/gopro-hero11-black-action-camera_cjrmua.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748972731/gopro-hero11-black-action-camera-4_ldfkpr.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748972730/gopro-hero11-black-action-camera-2_fwe1zs.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748972731/gopro-hero11-black-action-camera-3_gkp1bl.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "GoPro HERO11 Black Action Camera - New Sensor, Smoother Shots",
+        SubTitle: "GoPro HERO 11",
+        category: "techhub",
+        subCategory: ["cameras", "action-cams"],
+        variant: "gopro",
+        brand: "gopro",
+        name: "gopro-hero11-black-action-camera",
+        description: "The GoPro HERO11 Black delivers sharper 5.3K video, 27MP photos, and breakthrough stabilization with HyperSmooth 5.0 for ultra-smooth content creation.",
+        detailsDescription: "Elevate your content with the GoPro HERO11 Black, equipped with a powerful 27MP sensor and HyperSmooth 5.0 stabilization for stunningly smooth footage. Shoot immersive video at up to 5.3K60 or dramatic slow motion at 2.7K240. Its new 8:7 aspect ratio sensor captures more of the scene, perfect for vertical or widescreen edits. Both front and rear LCDs offer intuitive control and easy framing. With 33' waterproofing, dual-band connectivity, and 1720mAh battery power, the HERO11 is ideal for creators and adventurers alike. Whether vlogging, mountain biking, or streaming, this camera adapts to your boldest moments.",
+        topSpecs: [
+            "<h6><span>Camera Resolution</span><span>27MP</span></h6>",
+            "<h6><span>Video Recording</span><span>5.3K60 / 2.7K240</span></h6>",
+            "<h6><span>Stabilization</span><span>HyperSmooth 5.0</span></h6>",
+            "<h6><span>Display</span><span>Front & Rear LCD</span></h6>",
+            "<h6><span>Waterproof</span><span>Up to 33 ft (10m) without housing</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>27MP SENSOR</span><span class='detail-specs-h6'>- Capture ultra-clear stills and cinematic footage with higher detail and dynamic range.</span></h6>",
+            "<h6><span>5.3K VIDEO</span><span class='detail-specs-h6'>- Record in ultra-high resolution up to 5.3K at 60fps and slow motion up to 8x.</span></h6>",
+            "<h6><span>HYPERSMOOTH 5.0</span><span class='detail-specs-h6'>- Award-winning stabilization with horizon lock keeps your footage fluid and stable.</span></h6>",
+            "<h6><span>8:7 SENSOR RATIO</span><span class='detail-specs-h6'>- Shoot more vertically or crop freely for multiple platforms using the full height of the sensor.</span></h6>",
+            "<h6><span>WIRELESS CONNECTIVITY</span><span class='detail-specs-h6'>- Easily transfer, stream, or update via built-in Wi-Fi and Bluetooth.</span></h6>"
+        ],
+        tags: [
+            "gopro",
+            "hero11",
+            "action-camera",
+            "5.3k-video",
+            "27mp",
+            "hypersmooth",
+            "horizon-lock",
+            "vlogging-camera",
+            "live-streaming",
+            "slow-motion",
+            "action-cam",
+            "waterproof-camera",
+            "front-lcd",
+            "rear-touchscreen",
+            "8x-slomo",
+            "creator-tools"
+        ],
+        carousels: [
+            "latestArrivals", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/cameras-video-cameras-and-accessories/gopro-hero11-black-with-16gb-micro-sd-card-aDri8TYcLXAfEdZ4LF8IoLhX.html?page=1&pos=4&cur_pos=4&ads_per_page=23&ads_count=87&lid=PgJeDwR588IYuUQs&indexPosition=3",
+        youtubeReview: "https://www.youtube.com/embed/CxS3J9EEbnw?si=X8NohoEMQ4sLyh_8",
+        unboxingVideo: "https://www.youtube.com/embed/NGWb_P2JZ4E?si=WtFKJwIv3pvizR9z",
+        prevPrice: 34000,
+        nowPrice: 34000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 10203,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748973705/gopro-hero12-black-action-camera_b7fuxy.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748973705/gopro-hero12-black-action-camera_b7fuxy.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748973705/gopro-hero12-black-action-camera-2_fk1fzs.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748973706/gopro-hero12-black-action-camera-3_ipaamn.png",
+                color: "black"
+            },
+
+        ],
+        defaultColor: "black",
+        Title: "GoPro HERO12 Black Action Camera - HDR Video, Max FOV Upgrade",
+        SubTitle: "GoPro HERO 12",
+        category: "techhub",
+        subCategory: ["cameras", "action-cams"],
+        variant: "gopro",
+        brand: "gopro",
+        name: "gopro-hero12-black-action-camera",
+        description: "The GoPro HERO12 Black delivers HDR 5.3K/4K video, HyperSmooth 6.0 stabilization, and an ultra-wide 177° FOV—engineered for pro creators and thrill-seekers alike.",
+        detailsDescription: "Push the limits with the GoPro HERO12 Black—the most powerful Hero yet. Record ultra-detailed HDR video in 5.3K and 4K, with next-gen HyperSmooth 6.0 stabilization for ultimate clarity and control. Enjoy a stunning 177° field-of-view using the Max Lens Mod 2.0 (sold separately), and get 2x longer runtime thanks to a revamped power system. Stay in the action with waterproof durability up to 33 ft and Enduro battery performance in extreme conditions. HERO12 also supports Bluetooth audio for remote voice commands and AirPods mic input, while Pro features like timecode sync and advanced color tuning make it a top-tier creative tool.",
+        topSpecs: [
+            "<h6><span>HDR Video</span><span>5.3K / 4K</span></h6>",
+            "<h6><span>Stabilization</span><span>HyperSmooth 6.0</span></h6>",
+            "<h6><span>Field of View</span><span>177° (with Max Lens Mod 2.0)</span></h6>",
+            "<h6><span>Audio</span><span>Bluetooth & USB-C Mic Support</span></h6>",
+            "<h6><span>Battery</span><span>1720mAh Enduro Rechargeable</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HDR 5.3K/4K VIDEO</span><span class='detail-specs-h6'>- Capture cinematic-quality footage with high dynamic range and clarity even in tricky lighting.</span></h6>",
+            "<h6><span>HYPERSMOOTH 6.0</span><span class='detail-specs-h6'>- Next-gen stabilization ensures ultra-smooth, shake-free video with horizon lock support.</span></h6>",
+            "<h6><span>MAX FOV</span><span class='detail-specs-h6'>- Use Max Lens Mod 2.0 for an expansive 177° field-of-view at 4K60 resolution.</span></h6>",
+            "<h6><span>BLUETOOTH AUDIO</span><span class='detail-specs-h6'>- Record with AirPods or other wireless mics, plus give voice commands remotely.</span></h6>",
+            "<h6><span>ENDURO BATTERY</span><span class='detail-specs-h6'>- Enhanced power management for longer shooting sessions and better heat control.</span></h6>"
+        ],
+        tags: [
+            "gopro",
+            "hero12",
+            "action-camera",
+            "hdr-video",
+            "hypersmooth-6",
+            "max-lens",
+            "bluetooth-audio",
+            "airpods-compatible",
+            "live-streaming",
+            "pro-camera",
+            "adventure-cam",
+            "waterproof-camera",
+            "4k-hdr",
+            "timecode-sync"
+        ],
+        carousels: [
+            "latestArrivals", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/gopro-hero-12/",
+        youtubeReview: "https://www.youtube.com/embed/UZ5G0tVwBkI?si=jIWQsIMqu0GpNd7u",
+        unboxingVideo: "https://www.youtube.com/embed/nZljAfW8V0o?si=RULYn-ylbzWJU3qb",
+        prevPrice: 37500,
+        nowPrice: 36000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 10204,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748975232/gopro-hero13-black-action-camera_nazpla.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748975232/gopro-hero13-black-action-camera_nazpla.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748975231/gopro-hero13-black-action-camera-2_u4jknm.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748975232/gopro-hero13-black-action-camera-3_sekthl.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "GoPro HERO13 Black Action Camera - HB Lens Mod Support, Enduro Battery Boost",
+        SubTitle: "GoPro HERO 13",
+        category: "techhub",
+        subCategory: ["cameras", "action-cams"],
+        variant: "gopro",
+        brand: "gopro",
+        name: "gopro-hero13-black-action-camera",
+        description: "The GoPro HERO13 Black captures stunning 5.3K60 HDR video and 27MP photos with HyperSmooth 6.0, HB-series lens mod support, and a 1900mAh Enduro battery.",
+        detailsDescription: "The GoPro HERO13 Black continues the legacy of best-in-class action capture with support for 5.3K60, 4K120, and 2.7K240 video and 27MP RAW stills. It features dual LCD screens, an upgraded 1900mAh Enduro battery for longer runtime and better cold-weather performance, and a new modular mounting ecosystem. Compatible with HB-series lens mods, the HERO13 gives creators flexibility in field-of-view and optical enhancements. HyperSmooth 6.0 with AutoBoost delivers gimbal-like stabilization, and Bluetooth audio enables remote mic input and voice control. This rugged, waterproof camera is built for every adventure.",
+        topSpecs: [
+            "<h6><span>Video</span><span>5.3K60 / 4K120 / 2.7K240</span></h6>",
+            "<h6><span>Stabilization</span><span>HyperSmooth 6.0 w/ AutoBoost</span></h6>",
+            "<h6><span>Battery</span><span>1900mAh Enduro</span></h6>",
+            "<h6><span>Mod Support</span><span>HB-Series Lens Mods</span></h6>",
+            "<h6><span>Connectivity</span><span>Bluetooth Audio + Voice Control</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>5.3K/4K/2.7K VIDEO</span><span class='detail-specs-h6'>- Record high-resolution, ultra-smooth footage up to 240fps for epic slow-motion playback.</span></h6>",
+            "<h6><span>HYPERSMOOTH 6.0</span><span class='detail-specs-h6'>- Intelligent stabilization with AutoBoost keeps your footage ultra-smooth with minimal cropping.</span></h6>",
+            "<h6><span>HB-SERIES MOD COMPATIBLE</span><span class='detail-specs-h6'>- Expand your creative control with HB lens mods for optical enhancements and wider FOVs.</span></h6>",
+            "<h6><span>BLUETOOTH AUDIO + CONTROL</span><span class='detail-specs-h6'>- Connect AirPods or other wireless audio devices for recording and voice commands on the go.</span></h6>",
+            "<h6><span>1900MAH ENDURO BATTERY</span><span class='detail-specs-h6'>- Optimized for performance in cold or demanding conditions with longer recording time.</span></h6>"
+        ],
+        tags: [
+            "gopro",
+            "hero13",
+            "action-camera",
+            "enduro-battery",
+            "hb-series-mod",
+            "hypersmooth-6",
+            "bluetooth-audio",
+            "airpods-compatible",
+            "4k120",
+            "slow-motion",
+            "rugged-cam",
+            "adventure-camera"
+        ],
+        carousels: [
+            "latestArrivals", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/gopro-hero-13-black/",
+        youtubeReview: "https://www.youtube.com/embed/63ZxNf_1jPs?si=gNgk_PDV0EEc8H34",
+        unboxingVideo: "https://www.youtube.com/embed/CjKBw9nfltE?si=T8P8sf8xhvwkRdLs",
+        prevPrice: 44000,
+        nowPrice: 42000,
+        stock: 7,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 10205,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748976046/insta360-x4-8k-action-camera_uvrad0.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748976046/insta360-x4-8k-action-camera_uvrad0.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748976040/insta360-x4-8k-action-camera-4_b26irp.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748976039/insta360-x4-8k-action-camera-2_xbeeg8.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748976039/insta360-x4-8k-action-camera-5_uoaeuc.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748976042/insta360-x4-8k-action-camera-3_edrfr3.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "Insta360 X4 8K 360° Action Camera - Next-Gen Immersive Video in Your Pocket",
+        SubTitle: "X4 8K 360°",
+        category: "techhub",
+        subCategory: ["cameras", "action-cams"],
+        variant: "Insta360",
+        brand: "insta360",
+        name: "insta360-x4-8k-action-camera",
+        description: "Capture cinematic 360° 8K video with the compact and powerful Insta360 X4 featuring advanced stabilization and long battery life.",
+        detailsDescription: "The Insta360 X4 8K Action Camera lets creators step into the next level of immersive content. It records 8K/30fps 360° video and high-resolution 72MP photos in a lightweight, action-ready design. AI-powered features and software simplify editing and enhance footage quality. The X4 supports 'Bullet Time' recording at up to 5K120, a 2290mAh battery for extended sessions, and removable lens guards for protection. With a fast charging time of 60 minutes and superior video transfer speeds up to 200Mbps, it's ideal for both pros and adventurers seeking high fidelity capture and smooth creative workflows.",
+        topSpecs: [
+            "<h6><span>Video</span><span>8K/30fps | 5.7K/60fps | 4K/100fps</span></h6>",
+            "<h6><span>Photos</span><span>72MP (11904×5952)</span></h6>",
+            "<h6><span>Battery</span><span>2290mAh, up to 100 min</span></h6>",
+            "<h6><span>Weight</span><span>203g</span></h6>",
+            "<h6><span>Charging Time</span><span>60 min (80% in 36 min)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>8K 360° VIDEO</span><span class='detail-specs-h6'>- Shoot immersive 8K/30fps videos with incredible detail using dual-lens capture.</span></h6>",
+            "<h6><span>HIGH-RES PHOTOS</span><span class='detail-specs-h6'>- Snap ultra-clear 72MP stills or fast-action 18MP images at 5888×2944.</span></h6>",
+            "<h6><span>LONG BATTERY LIFE</span><span class='detail-specs-h6'>- 2290mAh battery provides up to 100 minutes at 5.7K and 70 minutes at 8K.</span></h6>",
+            "<h6><span>HIGH TRANSFER RATE</span><span class='detail-specs-h6'>- Supports video transfer rates up to 200Mbps for faster workflows.</span></h6>",
+            "<h6><span>COMPACT & LIGHTWEIGHT</span><span class='detail-specs-h6'>- Weighs only 203g and measures 123.6×46×26.3mm for easy portability.</span></h6>"
+        ],
+        tags: [
+            "insta360",
+            "x4",
+            "action-camera",
+            "8k-360",
+            "72mp-photos",
+            "2290mah",
+            "bullet-time",
+            "ai-video",
+            "slow-motion",
+            "stabilization",
+            "vlogging-cam"
+        ],
+        carousels: [
+            "latestArrivals", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/insta360-x4-8k-action-camera/",
+        youtubeReview: "https://www.youtube.com/embed/RRibM1yBZK4?si=PleYQkupZtQWCtiL",
+        unboxingVideo: "https://www.youtube.com/embed/WltvlFRVQ6Q?si=rnuepNRy_9zrRnBi",
+        prevPrice: 62000,
+        nowPrice: 58000,
+        stock: 6,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 10206,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748977049/logitech-brio-100-full-hd-1080p-webcam_rjsw4k.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748977049/logitech-brio-100-full-hd-1080p-webcam_rjsw4k.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748977050/logitech-brio-100-full-hd-1080p-webcam-2_wxzjzc.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748977050/logitech-brio-100-full-hd-1080p-webcam-3_zzbons.png",
+                color: "white"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748977050/logitech-brio-100-full-hd-1080p-webcam-3_zzbons.png",
+                color: "pink"
+            },
+        ],
+        defaultColor: "black",
+        Title: "Logitech Brio 100 Full HD 1080p Webcam – Look Sharp, Sound Clear",
+        SubTitle: "Full HD 1080p Webcam",
+        category: "techhub",
+        subCategory: ["cameras", "webcams"],
+        variant: "logitech",
+        brand: "logitech",
+        name: "logitech-brio-100-full-hd-1080p-webcam",
+        description: "Stay clear and professional in meetings and streams with Logitech Brio 100’s 1080p resolution, built-in mic, and privacy shutter.",
+        detailsDescription: "The Logitech Brio 100 is a compact and affordable Full HD webcam that delivers crystal-clear 1080p video at 30fps. It features a 2MP sensor with fixed focus, RightLight technology for automatic brightness balancing, and an omnidirectional mic that picks up clear audio up to 3 feet away. Designed for seamless compatibility with Zoom, Teams, and Google Meet, it also includes an integrated privacy shutter and a simple USB-A connection, making it ideal for working from home or on the go.",
+        topSpecs: [
+            "<h6><span>Video Resolution</span><span>Full HD 1080p @ 30fps</span></h6>",
+            "<h6><span>Field of View</span><span>58° diagonal</span></h6>",
+            "<h6><span>Mic</span><span>Omnidirectional, built-in</span></h6>",
+            "<h6><span>Privacy</span><span>Integrated privacy shutter</span></h6>",
+            "<h6><span>Connection</span><span>USB-A</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FULL HD VIDEO</span><span class='detail-specs-h6'>- Capture sharp 1080p video at 30fps for professional-quality calls and recordings.</span></h6>",
+            "<h6><span>RIGHTLIGHT BALANCE</span><span class='detail-specs-h6'>- Automatically adjusts brightness to enhance image in dim lighting.</span></h6>",
+            "<h6><span>PRIVACY PROTECTION</span><span class='detail-specs-h6'>- Slide the built-in shutter to block the lens when not in use.</span></h6>",
+            "<h6><span>MICROPHONE CLARITY</span><span class='detail-specs-h6'>- Omnidirectional mic picks up voices clearly up to 3 feet away.</span></h6>",
+            "<h6><span>UNIVERSAL COMPATIBILITY</span><span class='detail-specs-h6'>- Works with Zoom, Microsoft Teams, Google Meet, and more.</span></h6>"
+        ],
+        tags: [
+            "logitech",
+            "brio100",
+            "webcam",
+            "fullhd",
+            "1080p",
+            "remote-work",
+            "video-calls",
+            "privacy-shutter",
+            "plug-and-play"
+        ],
+        carousels: [
+            "workFromHome", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/logitech-brio-100-full-hd-webcam-e0yqs52KXtDKEy7bHRVNDUGk.html?page=1&pos=16&cur_pos=16&ads_per_page=23&ads_count=44&lid=5ksk1QPWJwhss3IN&indexPosition=15",
+        youtubeReview: "https://www.youtube.com/embed/sxTTcwzBZ4k?si=wriYEQbngUF4dFH3",
+        unboxingVideo: "https://www.youtube.com/embed/D0bSjNgA4NI?si=W1SLn_G8YjKPrPHS",
+        prevPrice: 6000,
+        nowPrice: 4400,
+        stock: 8,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 10207,
+        platform: "Camera",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970138/camera_u7acdg.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748970633/gopro-hero10-black-action-camera-banner_e02ani.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748978086/logitech-brio-105-full-hd-webcam_mhrva8.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748978086/logitech-brio-105-full-hd-webcam_mhrva8.png",
+                color: "black"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1748978087/logitech-brio-105-full-hd-webcam-2_qrdupo.png",
+                color: "black"
+            },
+        ],
+        defaultColor: "black",
+        Title: "Logitech Brio 105 Full HD Webcam – Clear, Professional Video Anytime",
+        SubTitle: "Full HD 1080p Webcam",
+        category: "techhub",
+        subCategory: ["cameras", "webcams"],
+        variant: "logitech",
+        brand: "logitech",
+        name: "logitech-brio-105-full-hd-webcam",
+        description: "Deliver sharp, clear 1080p video with Logitech Brio 105 featuring HDR, RightLight 3, and dual microphones for premium calls.",
+        detailsDescription: "The Logitech Brio 105 is a powerful yet affordable webcam designed to elevate your video presence. With 4K Ultra HD resolution, HDR support, RightLight 3 for low-light environments, and dual omnidirectional mics, it ensures exceptional video and audio quality. Built-in autofocus and 5x digital zoom provide flexibility, while versatile mounting and a privacy shutter deliver user-friendly convenience and security. Plug into any USB-A port and enjoy seamless compatibility with all major video platforms.",
+        topSpecs: [
+            "<h6><span>Video Resolution</span><span>Up to 4K UHD @ 30fps</span></h6>",
+            "<h6><span>Low Light Tech</span><span>RightLight 3 + HDR</span></h6>",
+            "<h6><span>Microphones</span><span>Dual omnidirectional</span></h6>",
+            "<h6><span>Zoom & Focus</span><span>Autofocus + 5x digital zoom</span></h6>",
+            "<h6><span>Connectivity</span><span>USB-A</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ULTRA HD 4K VIDEO</span><span class='detail-specs-h6'>- Capture incredibly detailed visuals at 30fps with 4K resolution.</span></h6>",
+            "<h6><span>HDR TECHNOLOGY</span><span class='detail-specs-h6'>- Balanced lighting for true-to-life color and brightness in any setting.</span></h6>",
+            "<h6><span>RIGHTLIGHT 3</span><span class='detail-specs-h6'>- Auto light adjustment for great video quality in dim environments.</span></h6>",
+            "<h6><span>DUAL MICROPHONES</span><span class='detail-specs-h6'>- Clear stereo audio pickup from multiple directions.</span></h6>",
+            "<h6><span>FLEXIBLE MOUNTING</span><span class='detail-specs-h6'>- Clip or tripod mount options for perfect positioning.</span></h6>",
+            "<h6><span>PRIVACY SHUTTER</span><span class='detail-specs-h6'>- Slide cover protects your lens and peace of mind.</span></h6>"
+        ],
+        tags: [
+            "logitech",
+            "brio105",
+            "webcam",
+            "4k",
+            "fullhd",
+            "hdr",
+            "video-calls",
+            "usb",
+            "privacy"
+        ],
+        carousels: [
+            "workFromHome", "techEssentials"
+        ],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/computer-accessories/logitech-brio-105-full-hd-1080p-business-webcam-a72i5lvptuMAnC7dxvHgnNmb.html?page=1&pos=3&cur_pos=3&ads_per_page=24&ads_count=24&lid=oDSY_jBvKY_33LpO&indexPosition=2",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 5000,
+        nowPrice: 4300,
+        stock: 11,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
 
 ]
