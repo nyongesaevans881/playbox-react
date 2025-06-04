@@ -1,7 +1,7 @@
 /*===============ANIMATED HERO SECTION FORMATTING ==============*/
 .hero-section {
     height: 600px;
-    background: url('https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931427/banner-alt-2_lywuw7.jpg');
+    background: url('../../../public/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

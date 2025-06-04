@@ -25,7 +25,7 @@ export const games = [
         ],
         defaultColor: "standard",
         Title: "EA Sports FC25 PlayStation 5 - Football Gaming",
-        SubTitle: "sports",
+        SubTitle: "Sports/Football",
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
@@ -523,9 +523,9 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 Riders Republic – Massive Multiplayer Outdoor Sports Playground",
-        SubTitle: "sports",
+        SubTitle: "Sports/Racing",
         category: "games",
-        subCategory: ["playstation", "sports"],
+        subCategory: ["playstation", "sports", "racing"],
         variant: "ps5",
         brand: "sony",
         name: "ps5-riders-republic",
@@ -1096,7 +1096,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 WWE 2K23 – Wrestle With Legends",
-        SubTitle: "sports",
+        SubTitle: "Sports/Wrestling",
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
@@ -1170,7 +1170,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 EA Sports WRC – Rally Like a Champion",
-        SubTitle: "racing",
+        SubTitle: "Sports/Racing",
         category: "games",
         subCategory: ["playstation", "racing", "sports"],
         variant: "ps5",
@@ -1242,11 +1242,11 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 WWE 2K24 – WrestleMania 40th Anniversary",
-        SubTitle: "sports",
+        SubTitle: "Sports/Wrestling",
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
-        brand: "",
+        brand: "Ps 5",
         name: "ps5-wwe-2k24",
         description: "Celebrate 40 years of WrestleMania in WWE 2K24 for PS5. Step into the ring with legendary WWE icons and today’s superstars in one of the most content-rich wrestling games ever. Experience unforgettable moments across a variety of thrilling match types and game modes.",
         detailsDescription: "WWE 2K24 on PS5 is a tribute to four decades of WrestleMania, featuring the most iconic WWE Legends and current Superstars. Relive John Cena’s career highlights in the Showcase of the Immortals, dominate in chaotic WarGames matches, or build your dream roster in MyFACTION. The game offers fan-favorite modes like MyGM and MyRISE with expanded content and new story arcs. Dive into new match types like Casket and Guest Referee matches, or oversee it all in WWE Universe Mode. With ultra-realistic graphics and fluid gameplay, WWE 2K24 offers the ultimate wrestling experience.",
@@ -1953,7 +1953,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 NBA 2K24 - A realistic and immersive hoops experience",
-        SubTitle: "sports",
+        SubTitle: "Sports/Basketball",
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
@@ -2028,7 +2028,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "PS5 NBA 2K23 — the most complete basketball experience to date",
-        SubTitle: "sports",
+        SubTitle: "Sports/Basketball",
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
@@ -2322,7 +2322,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "EA Sports FC 24 PlayStation 5 - Football Game",
-        SubTitle: "Sports",
+        SubTitle: "Sports/Football",
         category: "games",
         subCategory: ["playstation", "sports"],
         variant: "ps5",
@@ -2348,6 +2348,7 @@ export const games = [
             "<h6><span>DEVELOPER</span><span class='detail-specs-h6'>- EA Sports</span></h6>"
         ],
         tags: [
+            "fc24",
             "ea sports",
             "fc 24",
             "football simulation",
@@ -2591,8 +2592,8 @@ export const games = [
         productID: 2037,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-        playboxRating: "Premium",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164080/premium_o4frng.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747150604/ps5-ea-sports-ufc-5-2_ycr1ol.jpg",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747150602/ps5-ea-sports-ufc-5_wr8mdr.png",
         imageColorMap: [
@@ -2663,8 +2664,8 @@ export const games = [
         productID: 2038,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-        playboxRating: "Popular",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/popular_mzmxqh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747154677/ps5-cricket-22-2_ecolna.png",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747154674/ps5-cricket-22_rior80.png",
         imageColorMap: [
@@ -2683,7 +2684,7 @@ export const games = [
         ],
         defaultColor: "ps5",
         Title: "Cricket 22 PS5 – The Ultimate Next-Gen Cricket Experience",
-        SubTitle: "Sports / Simulation",
+        SubTitle: "Sports / Cricket",
         category: "games",
         subCategory: ["playstation", "sports", "simulation"],
         variant: "ps5",
@@ -2735,8 +2736,8 @@ export const games = [
         productID: 2039,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-        playboxRating: "Popular",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/popular_mzmxqh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747156250/ps5-horizon-forbidden-west-2_sndypu.jpg",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747156247/ps5-horizon-forbidden-west_vs5m5e.png",
         imageColorMap: [
@@ -2807,8 +2808,8 @@ export const games = [
         productID: 2040,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-        playboxRating: "Popular",
-        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/popular_mzmxqh.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747158215/ps5-ghost-of-tsushima-directors-cut-2_j1rj8c.jpg",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747158214/ps5-ghost-of-tsushima-directors-cut_gk4ssh.png",
         imageColorMap: [
@@ -2877,221 +2878,796 @@ export const games = [
         rating: 4.8
     },
     {
-  productID: 2041,
-  platform: "PlayStation",
-  platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-  playboxRating: "Popular",
-  playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/popular_mzmxqh.png",
-  detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159617/ps5-grand-theft-auto-v2_x4qx9z.png",
-  mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159616/ps5-grand-theft-auto-v_xo9kue.png",
-  imageColorMap: [
-    {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159616/ps5-grand-theft-auto-v_xo9kue.png",
-      color: "ps5"
+        productID: 2041,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159617/ps5-grand-theft-auto-v2_x4qx9z.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159616/ps5-grand-theft-auto-v_xo9kue.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159616/ps5-grand-theft-auto-v_xo9kue.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159617/ps5-grand-theft-auto-v2_x4qx9z.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159618/ps5-grand-theft-auto-v-3_vzcgxh.png",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "GTA 5 – Experience Los Santos Like Never Before",
+        SubTitle: "Action / Open World",
+        category: "games",
+        subCategory: ["playstation", "action", "open-world", "crime", "multiplayer"],
+        variant: "ps5",
+        brand: "Rockstar Games",
+        name: "ps5-grand-theft-auto-v",
+        description: "Step into the world of Los Santos in GTA 5 for PS5, featuring enhanced visuals, expanded content, and immersive haptic feedback for a definitive crime saga experience.",
+        detailsDescription: "Grand Theft Auto V on PS5 takes full advantage of next-gen capabilities with faster loading speeds, 4K resolution at 60fps, and a city teeming with detail. Feel every explosion and engine rumble through DualSense adaptive triggers and haptic feedback. Enjoy exclusive GTA Online content like new vehicles, missions, and expansion packs including Los Santos Drug Wars, The Chop Shop, and more. With improved texture quality, ray tracing, and 3D spatial audio, every car chase and shootout feels more real than ever. Whether you’re diving into the campaign or building your criminal empire online with up to 30 players, GTA V delivers a rich, evolving sandbox like no other.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action / Open World / Crime</span></h6>",
+            "<h6><span>Resolution</span><span>4K @ 60fps with Ray Tracing</span></h6>",
+            "<h6><span>Multiplayer</span><span>Supports up to 30 Players (PS Plus Required)</span></h6>",
+            "<h6><span>Audio</span><span>Tempest 3D AudioTech</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENHANCED VISUALS</span><span class='detail-specs-h6'>- Enjoy improved textures, lighting, and resolution with ray tracing and performance options on PS5.</span></h6>",
+            "<h6><span>IMMERSIVE AUDIO</span><span class='detail-specs-h6'>- Tempest 3D Audio provides precise sound from all directions, amplifying the immersive world of Los Santos.</span></h6>",
+            "<h6><span>EXPANDED GTA ONLINE</span><span class='detail-specs-h6'>- Access new updates including San Andreas Mercenaries, Drug Wars, and Bottom Dollar Bounties.</span></h6>",
+            "<h6><span>FAST LOADING</span><span class='detail-specs-h6'>- Jump into the action faster than ever thanks to the PS5’s ultra-high-speed SSD.</span></h6>",
+            "<h6><span>DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Adaptive triggers and haptics simulate real-world sensations like road bumps, gunfire, and weather.</span></h6>",
+            "<h6><span>REMOTE PLAY SUPPORTED</span><span class='detail-specs-h6'>- Play on other supported devices via PS Remote Play.</span></h6>",
+            "<h6><span>PERSISTENT ONLINE WORLD</span><span class='detail-specs-h6'>- Build your empire and rise through the criminal ranks in a living online universe.</span></h6>"
+        ],
+        tags: [
+            "gta 5",
+            "grand theft auto",
+            "ps5 gta",
+            "rockstar games",
+            "open world",
+            "crime",
+            "multiplayer",
+            "ray tracing",
+            "dualSense",
+            "3d audio"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/gta-v-play-station-5-ri9qXjBNpfteIktnALu0STYP.html?page=1&pos=6&cur_pos=6&ads_per_page=24&ads_count=78&lid=Lqv6mRhPtuDdkX8T&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/_UB5hpk0iqg?si=-pxxH57OD45JZpJD",
+        unboxingVideo: "https://www.youtube.com/embed/nZ1rTugGIkw?si=EkG2t0_9fFh_KBFF",
+        prevPrice: 5200,
+        nowPrice: 4000,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
     },
     {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159617/ps5-grand-theft-auto-v2_x4qx9z.png",
-      color: "ps5"
+        productID: 2042,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161147/ps5-call-of-duty-modern-warfare-ii-2_ujaj5r.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161144/ps5-call-of-duty-modern-warfare-ii_hzu96i.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161144/ps5-call-of-duty-modern-warfare-ii_hzu96i.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161147/ps5-call-of-duty-modern-warfare-ii-2_ujaj5r.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161154/ps5-call-of-duty-modern-warfare-ii-3_pn7n4i.png",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Call of Duty Modern Warfare II – Join Task Force 141 in Battle",
+        SubTitle: "FPS / Tactical / Action",
+        category: "games",
+        subCategory: ["playstation", "fps", "tactical", "action", "multiplayer"],
+        variant: "ps5",
+        brand: "Activision",
+        name: "ps5-call-of-duty-modern-warfare-ii",
+        description: "Modern Warfare II redefines the Call of Duty franchise with stunning visuals, gripping tactical combat, and the return of TF141 in their most thrilling operation yet.",
+        detailsDescription: "Call of Duty: Modern Warfare II thrusts you into the action with Captain Price, Ghost, Soap, Gaz, and the legendary TF141 team. The game offers fast-paced firefights, strategic infiltrations, and gripping underwater sieges, all with next-gen fidelity. Experience a rebuilt AI system, refined weapon customization through the new Gunsmith, and industry-leading photogrammetry technology. Dive into explosive single-player missions, dynamic multiplayer modes, and co-op experiences enhanced by 3D audio and DualSense haptics. Whether storming enemy compounds or battling online, MWII delivers the most immersive and advanced Call of Duty gameplay yet.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>FPS / Tactical / Action</span></h6>",
+            "<h6><span>Graphics</span><span>Ultra-Realistic with Ray Tracing</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online Modes + Co-op</span></h6>",
+            "<h6><span>Audio</span><span>Tempest 3D Audio + Immersive Effects</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>TF141 RETURNS</span><span class='detail-specs-h6'>- Captain Price, Ghost, Soap and Gaz unite to face the world's most dangerous threats.</span></h6>",
+            "<h6><span>ADVANCED COMBAT</span><span class='detail-specs-h6'>- Tactical gameplay with underwater sieges, vehicle-based assaults, and high-tech weaponry.</span></h6>",
+            "<h6><span>REALISM REDEFINED</span><span class='detail-specs-h6'>- Enhanced rendering, lighting, and photogrammetry deliver next-gen visuals.</span></h6>",
+            "<h6><span>GUNSMITH 2.0</span><span class='detail-specs-h6'>- All-new system for unprecedented weapon customization.</span></h6>",
+            "<h6><span>IMMERSIVE AUDIO</span><span class='detail-specs-h6'>- Hear every footstep, gunshot, and explosion in spatial clarity with 3D Audio support.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK + TRIGGERS</span><span class='detail-specs-h6'>- DualSense feedback lets you feel recoil, gear shifts, and tactical actions.</span></h6>",
+            "<h6><span>LIGHTNING-FAST LOAD TIMES</span><span class='detail-specs-h6'>- Ultra-high-speed SSD minimizes wait times and gets you straight into action.</span></h6>"
+        ],
+        tags: [
+            "call of duty",
+            "modern warfare 2",
+            "cod mw2",
+            "ps5 shooter",
+            "tactical fps",
+            "activision",
+            "3d audio",
+            "dualSense",
+            "task force 141"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/call-of-duty-modern-warfare-2-ps5-mg6YoQIR9UN29L9VtNKePR13.html?page=1&pos=11&cur_pos=11&ads_per_page=24&ads_count=48&lid=l6vypNfKHnYoZceG&indexPosition=10",
+        youtubeReview: "https://www.youtube.com/embed/j0OfQ-W48VE?si=OfOJ1WfuMJ7u2KYk",
+        unboxingVideo: "https://www.youtube.com/embed/t4zNOUAN0fM?si=cX8YEAT-WxVeM7K1",
+        prevPrice: 6500,
+        nowPrice: 5000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
     },
     {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747159618/ps5-grand-theft-auto-v-3_vzcgxh.png",
-      color: "ps5"
-    }
-  ],
-  defaultColor: "ps5",
-  Title: "GTA 5 – Experience Los Santos Like Never Before",
-  SubTitle: "Action / Open World",
-  category: "games",
-  subCategory: ["playstation", "action", "open-world", "crime", "multiplayer"],
-  variant: "ps5",
-  brand: "Rockstar Games",
-  name: "ps5-grand-theft-auto-v",
-  description: "Step into the world of Los Santos in GTA 5 for PS5, featuring enhanced visuals, expanded content, and immersive haptic feedback for a definitive crime saga experience.",
-  detailsDescription: "Grand Theft Auto V on PS5 takes full advantage of next-gen capabilities with faster loading speeds, 4K resolution at 60fps, and a city teeming with detail. Feel every explosion and engine rumble through DualSense adaptive triggers and haptic feedback. Enjoy exclusive GTA Online content like new vehicles, missions, and expansion packs including Los Santos Drug Wars, The Chop Shop, and more. With improved texture quality, ray tracing, and 3D spatial audio, every car chase and shootout feels more real than ever. Whether you’re diving into the campaign or building your criminal empire online with up to 30 players, GTA V delivers a rich, evolving sandbox like no other.",
-  topSpecs: [
-    "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
-    "<h6><span>Genre</span><span>Action / Open World / Crime</span></h6>",
-    "<h6><span>Resolution</span><span>4K @ 60fps with Ray Tracing</span></h6>",
-    "<h6><span>Multiplayer</span><span>Supports up to 30 Players (PS Plus Required)</span></h6>",
-    "<h6><span>Audio</span><span>Tempest 3D AudioTech</span></h6>"
-  ],
-  detailSpecs: [
-    "<h6><span>ENHANCED VISUALS</span><span class='detail-specs-h6'>- Enjoy improved textures, lighting, and resolution with ray tracing and performance options on PS5.</span></h6>",
-    "<h6><span>IMMERSIVE AUDIO</span><span class='detail-specs-h6'>- Tempest 3D Audio provides precise sound from all directions, amplifying the immersive world of Los Santos.</span></h6>",
-    "<h6><span>EXPANDED GTA ONLINE</span><span class='detail-specs-h6'>- Access new updates including San Andreas Mercenaries, Drug Wars, and Bottom Dollar Bounties.</span></h6>",
-    "<h6><span>FAST LOADING</span><span class='detail-specs-h6'>- Jump into the action faster than ever thanks to the PS5’s ultra-high-speed SSD.</span></h6>",
-    "<h6><span>DUALSENSE FEATURES</span><span class='detail-specs-h6'>- Adaptive triggers and haptics simulate real-world sensations like road bumps, gunfire, and weather.</span></h6>",
-    "<h6><span>REMOTE PLAY SUPPORTED</span><span class='detail-specs-h6'>- Play on other supported devices via PS Remote Play.</span></h6>",
-    "<h6><span>PERSISTENT ONLINE WORLD</span><span class='detail-specs-h6'>- Build your empire and rise through the criminal ranks in a living online universe.</span></h6>"
-  ],
-  tags: [
-    "gta 5",
-    "grand theft auto",
-    "ps5 gta",
-    "rockstar games",
-    "open world",
-    "crime",
-    "multiplayer",
-    "ray tracing",
-    "dualSense",
-    "3d audio"
-  ],
-  carousels: [],
-  storage: "",
-  dropURL: "https://jiji.co.ke/nairobi-central/videogames/gta-v-play-station-5-ri9qXjBNpfteIktnALu0STYP.html?page=1&pos=6&cur_pos=6&ads_per_page=24&ads_count=78&lid=Lqv6mRhPtuDdkX8T&indexPosition=5",
-  youtubeReview: "https://www.youtube.com/embed/_UB5hpk0iqg?si=-pxxH57OD45JZpJD",
-  unboxingVideo: "https://www.youtube.com/embed/nZ1rTugGIkw?si=EkG2t0_9fFh_KBFF",
-  prevPrice: 5200,
-  nowPrice: 4000,
-  stock: 12,
-  freeShipping: true,
-  condition: "New",
-  rating: 4.7
-},
-{
-  productID: 2042,
-  platform: "PlayStation",
-  platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-  playboxRating: "Blockbuster",
-  playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/blockbuster_o5xrgd.png",
-  detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161147/ps5-call-of-duty-modern-warfare-ii-2_ujaj5r.png",
-  mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161144/ps5-call-of-duty-modern-warfare-ii_hzu96i.png",
-  imageColorMap: [
-    {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161144/ps5-call-of-duty-modern-warfare-ii_hzu96i.png",
-      color: "ps5"
+        productID: 2043,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25-2_cuyb6u.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25_deqs6t.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25_deqs6t.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25-2_cuyb6u.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162141/ps5-nba-2k25-3_xz6tln.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "NBA 2K25 – Dominate the Court, Build Your Legacy",
+        SubTitle: "Sports / Basketball ",
+        category: "games",
+        subCategory: ["playstation", "sports", "basketball", "simulation", "multiplayer"],
+        variant: "ps5",
+        brand: "2K Sports",
+        name: "ps5-nba-2k25",
+        description: "Experience the most authentic basketball simulation with NBA 2K25 – powered by ProPLAY, loaded with rich modes, and bursting with 4K realism.",
+        detailsDescription: "NBA 2K25 takes next-gen basketball to new heights with ProPLAY technology that brings real NBA footage into your gameplay. Step onto the hardwood as a legend-in-the-making in myCAREER, dominate with all-time greats in myTEAM, run your franchise in myNBA, or make history in The W. Explore an all-new City packed with opportunities, and personalize your avatar with rich customization options. With 4K visuals, HDR support, DualSense integration, and lightning-fast load times, NBA 2K25 offers an unparalleled simulation of the NBA experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Basketball / Simulation</span></h6>",
+            "<h6><span>Graphics</span><span>4K UHD + HDR</span></h6>",
+            "<h6><span>Game Modes</span><span>myCAREER, myTEAM, myNBA, The W</span></h6>",
+            "<h6><span>Performance</span><span>Fast Load + DualSense Features</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PROPLAY TECH</span><span class='detail-specs-h6'>- Translates real NBA footage into hyper-realistic gameplay animations.</span></h6>",
+            "<h6><span>THE CITY</span><span class='detail-specs-h6'>- Compete and explore in an all-new City full of opportunity and challenges.</span></h6>",
+            "<h6><span>myCAREER</span><span class='detail-specs-h6'>- Build your legacy by surpassing legendary milestones and earning GOAT status.</span></h6>",
+            "<h6><span>myTEAM</span><span class='detail-specs-h6'>- Assemble your dream squad and dominate weekly challenges and rivals.</span></h6>",
+            "<h6><span>myNBA</span><span class='detail-specs-h6'>- Manage a team through different eras and cement your place in history.</span></h6>",
+            "<h6><span>THE W</span><span class='detail-specs-h6'>- Rise to greatness in WNBA-focused gameplay and unlock legacy-defining moments.</span></h6>",
+            "<h6><span>4K + HDR</span><span class='detail-specs-h6'>- Enjoy rich, lifelike visuals with ultra-sharp detail and dynamic lighting.</span></h6>",
+            "<h6><span>DUALSENSE SUPPORT</span><span class='detail-specs-h6'>- Feel the game with adaptive triggers and responsive haptic feedback.</span></h6>"
+        ],
+        tags: [
+            "nba 2k25",
+            "basketball",
+            "sports sim",
+            "mycareer",
+            "myteam",
+            "mynba",
+            "the w",
+            "2k sports",
+            "ps5 nba",
+            "proplay"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "",
+        youtubeReview: "https://www.youtube.com/embed/3R0QcC9hzJ4?si=34UeMAudnzNRxT0A",
+        unboxingVideo: "https://www.youtube.com/embed/89OVYj0dQTo?si=XAgVOCH-Ln3Y-Puh",
+        prevPrice: 7500,
+        nowPrice: 5800,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
     },
     {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161147/ps5-call-of-duty-modern-warfare-ii-2_ujaj5r.png",
-      color: "ps5"
+        productID: 2044,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069269/ps5-demons-souls-2_xzkdjl.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069269/ps5-demons-souls_tyxdd3.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069269/ps5-demons-souls_tyxdd3.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069269/ps5-demons-souls-2_xzkdjl.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069270/ps5-demons-souls-3_zbocbh.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Demon’s Souls – The Original Brutal RPG Reforged for PS5",
+        SubTitle: "Action RPG",
+        category: "games",
+        subCategory: ["playstation", "rpg", "dark-fantasy", "remake", "single-player"],
+        variant: "ps5",
+        brand: "Bluepoint Games",
+        name: "ps5-demons-souls",
+        description: "Rebuilt from the ground up for PS5, Demon’s Souls delivers stunning visuals, fast load times, and brutal dark fantasy action in its purest form.",
+        detailsDescription: "From PlayStation Studios and Bluepoint Games comes a full remake of the iconic PlayStation classic, Demon’s Souls. Journey through the cursed kingdom of Boletaria where deadly demons and twisted horrors await around every corner. Built for the PS5, enjoy breathtaking visuals, immersive 3D audio, and DualSense haptics that bring every clash to life. Choose between cinematic 4K visuals or fluid 60FPS performance as you take on the hardest of trials to defeat The Old One and restore light to the kingdom.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action RPG / Dark Fantasy</span></h6>",
+            "<h6><span>Graphics</span><span>4K Cinematic or Performance Mode</span></h6>",
+            "<h6><span>Game Modes</span><span>Single Player</span></h6>",
+            "<h6><span>Audio</span><span>3D Spatial Audio</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REBUILT CLASSIC</span><span class='detail-specs-h6'>- A complete remake of the PlayStation original, enhanced for the PS5 generation.</span></h6>",
+            "<h6><span>STUNNING VISUALS</span><span class='detail-specs-h6'>- Breathtaking detail and dynamic lighting bring Boletaria to life like never before.</span></h6>",
+            "<h6><span>PERFORMANCE MODES</span><span class='detail-specs-h6'>- Choose between cinematic 4K@30fps or performance mode at 60fps.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- DualSense controller feedback lets you feel every sword swing and magical blast.</span></h6>",
+            "<h6><span>FAST LOAD TIMES</span><span class='detail-specs-h6'>- Enter new zones and reload after death nearly instantly with PS5's SSD.</span></h6>",
+            "<h6><span>DARK FANTASY WORLD</span><span class='detail-specs-h6'>- Explore the twisted ruins of Boletaria filled with deadly foes and lost souls.</span></h6>",
+            "<h6><span>LEGENDARY DIFFICULTY</span><span class='detail-specs-h6'>- Face the original ‘Souls’ challenge that sparked a genre of unforgiving RPGs.</span></h6>"
+        ],
+        tags: [
+            "demon's souls",
+            "boletaria",
+            "soulslike",
+            "dark fantasy ps5",
+            "bluepoint games",
+            "action rpg",
+            "remake",
+            "hardcore game",
+            "ps5 exclusive"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/demons-souls-playstation-5-fZ9yCVNdc1qLXE1NBjtoduLR.html?page=1&pos=1&cur_pos=1&ads_per_page=16&ads_count=13&lid=Bf-yREZjx5LY3yz2&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/D2RNklx_MRk?si=ma8ReO0YPqWxgCKO",
+        unboxingVideo: "https://www.youtube.com/embed/JiqGi3GMTko?si=FPsgR4nC-i9NSBXN",
+        prevPrice: 6500,
+        nowPrice: 5500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
     },
     {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747161154/ps5-call-of-duty-modern-warfare-ii-3_pn7n4i.png",
-      color: "ps5"
-    }
-  ],
-  defaultColor: "ps5",
-  Title: "Call of Duty Modern Warfare II – Join Task Force 141 in Battle",
-  SubTitle: "FPS / Tactical / Action",
-  category: "games",
-  subCategory: ["playstation", "fps", "tactical", "action", "multiplayer"],
-  variant: "ps5",
-  brand: "Activision",
-  name: "ps5-call-of-duty-modern-warfare-ii",
-  description: "Modern Warfare II redefines the Call of Duty franchise with stunning visuals, gripping tactical combat, and the return of TF141 in their most thrilling operation yet.",
-  detailsDescription: "Call of Duty: Modern Warfare II thrusts you into the action with Captain Price, Ghost, Soap, Gaz, and the legendary TF141 team. The game offers fast-paced firefights, strategic infiltrations, and gripping underwater sieges, all with next-gen fidelity. Experience a rebuilt AI system, refined weapon customization through the new Gunsmith, and industry-leading photogrammetry technology. Dive into explosive single-player missions, dynamic multiplayer modes, and co-op experiences enhanced by 3D audio and DualSense haptics. Whether storming enemy compounds or battling online, MWII delivers the most immersive and advanced Call of Duty gameplay yet.",
-  topSpecs: [
-    "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
-    "<h6><span>Genre</span><span>FPS / Tactical / Action</span></h6>",
-    "<h6><span>Graphics</span><span>Ultra-Realistic with Ray Tracing</span></h6>",
-    "<h6><span>Multiplayer</span><span>Online Modes + Co-op</span></h6>",
-    "<h6><span>Audio</span><span>Tempest 3D Audio + Immersive Effects</span></h6>"
-  ],
-  detailSpecs: [
-    "<h6><span>TF141 RETURNS</span><span class='detail-specs-h6'>- Captain Price, Ghost, Soap and Gaz unite to face the world's most dangerous threats.</span></h6>",
-    "<h6><span>ADVANCED COMBAT</span><span class='detail-specs-h6'>- Tactical gameplay with underwater sieges, vehicle-based assaults, and high-tech weaponry.</span></h6>",
-    "<h6><span>REALISM REDEFINED</span><span class='detail-specs-h6'>- Enhanced rendering, lighting, and photogrammetry deliver next-gen visuals.</span></h6>",
-    "<h6><span>GUNSMITH 2.0</span><span class='detail-specs-h6'>- All-new system for unprecedented weapon customization.</span></h6>",
-    "<h6><span>IMMERSIVE AUDIO</span><span class='detail-specs-h6'>- Hear every footstep, gunshot, and explosion in spatial clarity with 3D Audio support.</span></h6>",
-    "<h6><span>HAPTIC FEEDBACK + TRIGGERS</span><span class='detail-specs-h6'>- DualSense feedback lets you feel recoil, gear shifts, and tactical actions.</span></h6>",
-    "<h6><span>LIGHTNING-FAST LOAD TIMES</span><span class='detail-specs-h6'>- Ultra-high-speed SSD minimizes wait times and gets you straight into action.</span></h6>"
-  ],
-  tags: [
-    "call of duty",
-    "modern warfare 2",
-    "cod mw2",
-    "ps5 shooter",
-    "tactical fps",
-    "activision",
-    "3d audio",
-    "dualSense",
-    "task force 141"
-  ],
-  carousels: [],
-  storage: "",
-  dropURL: "https://jiji.co.ke/nairobi-central/videogames/call-of-duty-modern-warfare-2-ps5-mg6YoQIR9UN29L9VtNKePR13.html?page=1&pos=11&cur_pos=11&ads_per_page=24&ads_count=48&lid=l6vypNfKHnYoZceG&indexPosition=10",
-  youtubeReview: "https://www.youtube.com/embed/j0OfQ-W48VE?si=OfOJ1WfuMJ7u2KYk",
-  unboxingVideo: "https://www.youtube.com/embed/t4zNOUAN0fM?si=cX8YEAT-WxVeM7K1",
-  prevPrice: 6500,
-  nowPrice: 5000,
-  stock: 10,
-  freeShipping: true,
-  condition: "New",
-  rating: 4.8
-},
-{
-  productID: 2043,
-  platform: "PlayStation",
-  platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
-  playboxRating: "Elite Sports",
-  playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164113/elite-sports_wygwyv.png",
-  detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25-2_cuyb6u.jpg",
-  mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25_deqs6t.png",
-  imageColorMap: [
-    {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25_deqs6t.png",
-      color: "ps5"
+        productID: 2045,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069953/ps5-deathloop-1_ljjsa2.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069953/ps5-deathloop_o1zsgf.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069953/ps5-deathloop_o1zsgf.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069953/ps5-deathloop-1_ljjsa2.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749069954/ps5-deathloop-2_kgqp3z.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Deathloop – Break the Loop or Die Trying",
+        SubTitle: "Action",
+        category: "games",
+        subCategory: ["playstation", "fps", "action", "multiplayer", "time loop"],
+        variant: "ps5",
+        brand: "Arkane Studios",
+        name: "ps5-deathloop",
+        description: "In Deathloop, you’re trapped in a never-ending day on the island of Blackreef, and the only way out is to kill eight key targets before the loop resets.",
+        detailsDescription: "Deathloop puts you in the shoes of Colt, an assassin stuck in a mysterious time loop on the island of Blackreef. With each failed attempt, you gain knowledge and tools to better approach your targets and alter the timeline. But you’re not alone—Julianna, a rival assassin, is hunting you, and she can be controlled by another player in online invasion mode. With stunning visuals, adaptive triggers, and immersive haptic feedback, Deathloop combines tight first-person shooting with a strategic roguelike twist.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>First-Person Shooter / Action</span></h6>",
+            "<h6><span>Game Modes</span><span>Single Player / Online Multiplayer</span></h6>",
+            "<h6><span>Structure</span><span>Time Loop Gameplay</span></h6>",
+            "<h6><span>Visuals</span><span>4K & HDR with immersive lighting</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>UNIQUE TIME LOOP</span><span class='detail-specs-h6'>- Relive the same day repeatedly and learn from every attempt to change fate.</span></h6>",
+            "<h6><span>DUAL ASSASSINS</span><span class='detail-specs-h6'>- Control Colt to break the loop or become Julianna to protect it in multiplayer mode.</span></h6>",
+            "<h6><span>MULTIPLAYER INVASION</span><span class='detail-specs-h6'>- Compete with other players online who can invade your game as Julianna.</span></h6>",
+            "<h6><span>STUNNING ENVIRONMENTS</span><span class='detail-specs-h6'>- Explore the retro-futuristic island of Blackreef with stylish and chaotic design.</span></h6>",
+            "<h6><span>ADAPTIVE TRIGGERS</span><span class='detail-specs-h6'>- Feel the tension of every weapon with realistic trigger resistance on DualSense.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- Get precise tactile sensations as you stealth, sprint, or engage in firefights.</span></h6>",
+            "<h6><span>STRATEGIC FREEDOM</span><span class='detail-specs-h6'>- Plan your approach, mix powers and weapons, and take down targets your way.</span></h6>"
+        ],
+        tags: [
+            "deathloop ps5",
+            "blackreef island",
+            "arkane studios",
+            "time loop game",
+            "fps with twist",
+            "julianna vs colt",
+            "dualsense haptics",
+            "adaptive triggers",
+            "ps5 shooter",
+            "roguelike fps"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/deathloop-ps-5-bbPNm8sl66jVWMNHhW15k9S4.html?page=1&pos=7&cur_pos=7&ads_per_page=17&ads_count=17&lid=vEU68mdWe9gCYCYu&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/Kn6xfWyYkB4?si=f41lasxBhUahfe3x",
+        unboxingVideo: "https://www.youtube.com/embed/Rzjq6myYALo?si=YzTBL2yD70yzIXtg",
+        prevPrice: 5500,
+        nowPrice: 4000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
     },
     {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162139/ps5-nba-2k25-2_cuyb6u.jpg",
-      color: "ps5"
+        productID: 2046,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749070619/ps5-assetto-corsa-competizione-3_fjvtln.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749070618/ps5-assetto-corsa-competizione_bwrmpv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749070618/ps5-assetto-corsa-competizione_bwrmpv.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749070619/ps5-assetto-corsa-competizione-3_fjvtln.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749070618/ps5-assetto-corsa-competizione-2_ysgxye.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Assetto Corsa Competizione – Race Realism Redefined",
+        SubTitle: "Racing / Simulation",
+        category: "games",
+        subCategory: ["playstation", "racing", "simulation", "multiplayer"],
+        variant: "ps5",
+        brand: "505 Games",
+        name: "ps5-assetto-corsa-competizione",
+        description: "Experience the thrill of GT racing in Assetto Corsa Competizione, now optimized for PS5 with 60 FPS, 4K resolution, and authentic motorsport simulation.",
+        detailsDescription: "Assetto Corsa Competizione delivers a hyper-realistic racing simulator experience based on the official GT World Challenge. Built with meticulous attention to detail, the PS5 version boasts smooth 60 FPS gameplay, 4K visuals, and an immersive driving feel. Compete online in lobbies supporting up to 30 players, manage tire wear and weather conditions, and enjoy updated content such as 2021 liveries and the BMW M4 GT3. With free upgrades for existing owners, the game redefines console GT racing at its best.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>GT Racing Simulator</span></h6>",
+            "<h6><span>Modes</span><span>Single Player / Multiplayer (up to 30)</span></h6>",
+            "<h6><span>Visuals</span><span>4K Resolution / 60 FPS</span></h6>",
+            "<h6><span>Upgrade</span><span>Free PS5 version for PS4 owners</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>GT SIMULATION</span><span class='detail-specs-h6'>- Official GT World Challenge game with deep car physics and race realism.</span></h6>",
+            "<h6><span>4K RESOLUTION</span><span class='detail-specs-h6'>- Crystal-clear visuals with upgraded lighting and texture detail.</span></h6>",
+            "<h6><span>60 FPS PERFORMANCE</span><span class='detail-specs-h6'>- Race smoothly with stable frame rates even in intense races.</span></h6>",
+            "<h6><span>MULTIPLAYER LOBBIES</span><span class='detail-specs-h6'>- Join up to 30 players online for competitive GT endurance racing.</span></h6>",
+            "<h6><span>BMW M4 GT3 & MORE</span><span class='detail-specs-h6'>- Race the latest GT3 cars and liveries from the 2021 season.</span></h6>",
+            "<h6><span>FREE UPGRADE</span><span class='detail-specs-h6'>- PS4 owners receive the PS5 version at no extra cost.</span></h6>",
+            "<h6><span>REALISTIC DRIVING FEEL</span><span class='detail-specs-h6'>- Master every corner with lifelike handling and tire feedback.</span></h6>"
+        ],
+        tags: [
+            "assetto corsa ps5",
+            "gt racing game",
+            "sim racing ps5",
+            "4k racing sim",
+            "bmw m4 gt3",
+            "multiplayer racing",
+            "ps5 simulation",
+            "realistic driving physics",
+            "505 games",
+            "competizione ps5"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/assetto-corsa-ps5-game-competizione-vaaZG51g2wMxI93j2Er3sX6h.html?page=1&pos=5&cur_pos=5&ads_per_page=11&ads_count=11&lid=fcNvyKCO113tz5ob&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/vcyP_822YWc?si=8d8v3nx1wnBmoYu1",
+        unboxingVideo: "https://www.youtube.com/embed/GPhXslJiuK8?si=Jj90uaHZQLojnpir",
+        prevPrice: 5500,
+        nowPrice: 4800,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
     },
     {
-      image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747162141/ps5-nba-2k25-3_xz6tln.jpg",
-      color: "ps5"
-    }
-  ],
-  defaultColor: "ps5",
-  Title: "NBA 2K25 – Dominate the Court, Build Your Legacy",
-  SubTitle: "Sports / Basketball ",
-  category: "games",
-  subCategory: ["playstation", "sports", "basketball", "simulation", "multiplayer"],
-  variant: "ps5",
-  brand: "2K Sports",
-  name: "ps5-nba-2k25",
-  description: "Experience the most authentic basketball simulation with NBA 2K25 – powered by ProPLAY, loaded with rich modes, and bursting with 4K realism.",
-  detailsDescription: "NBA 2K25 takes next-gen basketball to new heights with ProPLAY technology that brings real NBA footage into your gameplay. Step onto the hardwood as a legend-in-the-making in myCAREER, dominate with all-time greats in myTEAM, run your franchise in myNBA, or make history in The W. Explore an all-new City packed with opportunities, and personalize your avatar with rich customization options. With 4K visuals, HDR support, DualSense integration, and lightning-fast load times, NBA 2K25 offers an unparalleled simulation of the NBA experience.",
-  topSpecs: [
-    "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
-    "<h6><span>Genre</span><span>Sports / Basketball / Simulation</span></h6>",
-    "<h6><span>Graphics</span><span>4K UHD + HDR</span></h6>",
-    "<h6><span>Game Modes</span><span>myCAREER, myTEAM, myNBA, The W</span></h6>",
-    "<h6><span>Performance</span><span>Fast Load + DualSense Features</span></h6>"
-  ],
-  detailSpecs: [
-    "<h6><span>PROPLAY TECH</span><span class='detail-specs-h6'>- Translates real NBA footage into hyper-realistic gameplay animations.</span></h6>",
-    "<h6><span>THE CITY</span><span class='detail-specs-h6'>- Compete and explore in an all-new City full of opportunity and challenges.</span></h6>",
-    "<h6><span>myCAREER</span><span class='detail-specs-h6'>- Build your legacy by surpassing legendary milestones and earning GOAT status.</span></h6>",
-    "<h6><span>myTEAM</span><span class='detail-specs-h6'>- Assemble your dream squad and dominate weekly challenges and rivals.</span></h6>",
-    "<h6><span>myNBA</span><span class='detail-specs-h6'>- Manage a team through different eras and cement your place in history.</span></h6>",
-    "<h6><span>THE W</span><span class='detail-specs-h6'>- Rise to greatness in WNBA-focused gameplay and unlock legacy-defining moments.</span></h6>",
-    "<h6><span>4K + HDR</span><span class='detail-specs-h6'>- Enjoy rich, lifelike visuals with ultra-sharp detail and dynamic lighting.</span></h6>",
-    "<h6><span>DUALSENSE SUPPORT</span><span class='detail-specs-h6'>- Feel the game with adaptive triggers and responsive haptic feedback.</span></h6>"
-  ],
-  tags: [
-    "nba 2k25",
-    "basketball",
-    "sports sim",
-    "mycareer",
-    "myteam",
-    "mynba",
-    "the w",
-    "2k sports",
-    "ps5 nba",
-    "proplay"
-  ],
-  carousels: [],
-  storage: "",
-  dropURL: "",
-  youtubeReview: "https://www.youtube.com/embed/3R0QcC9hzJ4?si=34UeMAudnzNRxT0A",
-  unboxingVideo: "https://www.youtube.com/embed/89OVYj0dQTo?si=XAgVOCH-Ln3Y-Puh",
-  prevPrice: 7500,
-  nowPrice: 5800,
-  stock: 10,
-  freeShipping: true,
-  condition: "New",
-  rating: 4.7
-},
+        productID: 2047,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071213/ps5-marvels-guardians-of-the-galaxy-2_vsntt6.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071213/ps5-marvels-guardians-of-the-galaxy_akazzl.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071213/ps5-marvels-guardians-of-the-galaxy_akazzl.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071213/ps5-marvels-guardians-of-the-galaxy-2_vsntt6.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071213/ps5-marvels-guardians-of-the-galaxy-3_xzsyzm.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Marvel’s Guardians of the Galaxy – Chaos, Combat, and Cosmic Fun",
+        SubTitle: "Action / Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure", "sci-fi"],
+        variant: "ps5",
+        brand: "Square Enix",
+        name: "ps5-marvels-guardians-of-the-galaxy",
+        description: "Step into the jet boots of Star-Lord and lead the unpredictable Guardians across a galaxy-spanning adventure packed with action, comedy, and 80s music.",
+        detailsDescription: "Marvel’s Guardians of the Galaxy lets you command the crew in a thrilling third-person action-adventure experience. Take on the role of Star-Lord and lead the Guardians through cosmic chaos using dynamic combat, branching dialogue, and team-based strategies. Featuring an original story, stunning visuals, and a legendary ‘80s soundtrack, this game captures the essence of Marvel’s misfit heroes. With dual entitlement, unlock perks, and multiplayer options, the game is packed with replayability and character depth.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Action / Adventure / Sci-Fi</span></h6>",
+            "<h6><span>Perspective</span><span>Third-Person</span></h6>",
+            "<h6><span>Soundtrack</span><span>Classic 1980s Hits + Original Music</span></h6>",
+            "<h6><span>Visuals</span><span>Enhanced Graphics + Dynamic Effects</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENGAGING STORY</span><span class='detail-specs-h6'>- Original narrative inspired by 50+ years of Guardians lore.</span></h6>",
+            "<h6><span>DYNAMIC COMBAT</span><span class='detail-specs-h6'>- Use Element Blasters and team attacks in fluid battles.</span></h6>",
+            "<h6><span>MULTIPLAYER SUPPORT</span><span class='detail-specs-h6'>- Includes split-screen and cross-platform options.</span></h6>",
+            "<h6><span>CHARACTER BONDS</span><span class='detail-specs-h6'>- Shape your story through dialogue and team decisions.</span></h6>",
+            "<h6><span>UNLOCKABLE PERKS</span><span class='detail-specs-h6'>- Customize Star-Lord and his team with unique abilities.</span></h6>",
+            "<h6><span>DUAL ENTITLEMENT</span><span class='detail-specs-h6'>- Includes both PS4 and PS5 versions of the game.</span></h6>",
+            "<h6><span>GAME HELP</span><span class='detail-specs-h6'>- Integrated PS5 support to assist with tricky missions.</span></h6>"
+        ],
+        tags: [
+            "guardians of the galaxy ps5",
+            "marvel star-lord game",
+            "action adventure space",
+            "third person marvel game",
+            "galaxy exploration ps5",
+            "80s music game",
+            "dynamic combat ps5",
+            "square enix guardians",
+            "split-screen coop",
+            "ps5 marvel games"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/guardians-of-the-galaxy-ps5-CwzmF4CuahHGb0xwhkrJKCbj.html?page=1&pos=6&cur_pos=6&ads_per_page=10&ads_count=10&lid=E4xBNrCuUb63A4Nr&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/BtVPy8_lEQs?si=6h9bfGIMGhO1Y34Y",
+        unboxingVideo: "https://www.youtube.com/embed/891Eceng88Q?si=U9lI0qnTXT8V9y-_",
+        prevPrice: 5000,
+        nowPrice: 4200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2048,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071945/ps5-cricket-24-2_awzrg4.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071945/ps5-cricket-24_hobtyj.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071945/ps5-cricket-24_hobtyj.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071945/ps5-cricket-24-2_awzrg4.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749071946/ps5-cricket-24-3_pvxqqb.png",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Cricket 24 - Realism, Rivalries, and the Road to Glory",
+        SubTitle: "Sports / Cricket",
+        category: "games",
+        subCategory: ["playstation", "sports", "simulation", "multiplayer"],
+        variant: "ps5",
+        brand: "Big Ant Studios",
+        name: "ps5-cricket-24",
+        description: "Experience the most immersive and authentic cricket gameplay ever with Cricket 24 – the official Ashes experience, global licenses, and deep career progression.",
+        detailsDescription: "Cricket 24 on PS5 is the pinnacle of cricket simulation, combining realism with global cricketing passion. Featuring official licenses for over 300 players, you can engage in legendary rivalries like The Ashes or compete in leagues from around the world, including the BBL, CPL, and Indian T20. Career mode lets you forge your own legacy, from club level to international stardom. The game boasts cross-platform multiplayer, revamped fielding mechanics, and over 50 licensed stadiums, delivering the most comprehensive cricket experience ever.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Simulation</span></h6>",
+            "<h6><span>Licensing</span><span>300+ Players & Global Teams</span></h6>",
+            "<h6><span>Cross Platform</span><span>Yes, including online play</span></h6>",
+            "<h6><span>Stadiums</span><span>50+ Official Grounds</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>THE ASHES</span><span class='detail-specs-h6'>- Immersive Ashes experience with unique commentary and cutscenes.</span></h6>",
+            "<h6><span>OFFICIAL LICENSES</span><span class='detail-specs-h6'>- Includes Australia, England, India, West Indies, NZ, Ireland, and more.</span></h6>",
+            "<h6><span>CAREER MODE</span><span class='detail-specs-h6'>- Rise from local club to international star with dynamic progression paths.</span></h6>",
+            "<h6><span>REALISTIC FIELDING</span><span class='detail-specs-h6'>- Overhauled control system for reactive and strategic fielding.</span></h6>",
+            "<h6><span>CROSS-PLATFORM</span><span class='detail-specs-h6'>- Compete online with players across PlayStation, Xbox, and PC.</span></h6>",
+            "<h6><span>CUSTOM CONTENT</span><span class='detail-specs-h6'>- Share stadiums, teams, and players using the in-game academy.</span></h6>"
+        ],
+        tags: [
+            "cricket 24 ps5",
+            "ps5 cricket game",
+            "ashes cricket ps5",
+            "cricket simulator",
+            "career mode cricket",
+            "cross platform cricket game",
+            "bbpl t20 ps5",
+            "realistic cricket game",
+            "big ant studios cricket",
+            "multiplayer cricket game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/cricket-24-ps5-uCzdnqSBF3qqEwmxJ4rNvPk4.html?page=1&pos=9&cur_pos=9&ads_per_page=14&ads_count=11&lid=oC_YIl71rr0bZYsQ&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/K7q175NhE8s?si=K7gvsHNin6Z3jySq",
+        unboxingVideo: "https://www.youtube.com/embed/hZ6Jpf2i1cw?si=T0z0WxkA-802xmub",
+        prevPrice: 7500,
+        nowPrice: 6500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2048,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749072534/ps5-madden-nfl-24-2_gqd6st.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749072535/ps5-madden-nfl-24_oyexgv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749072535/ps5-madden-nfl-24_oyexgv.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749072534/ps5-madden-nfl-24-2_gqd6st.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749072535/ps5-madden-nfl-24-3_pz8dh9.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Madden NFL 24 – Realism Meets Gridiron Glory",
+        SubTitle: "Sports / NFL",
+        category: "games",
+        subCategory: ["playstation", "sports", "simulation", "multiplayer"],
+        variant: "ps5",
+        brand: "EA Sports",
+        name: "ps5-madden-nfl-24",
+        description: "Step onto the gridiron in Madden NFL 24, featuring breakthrough FieldSENSE and SAPIEN technologies for the most authentic NFL experience to date.",
+        detailsDescription: "Madden NFL 24 on PS5 takes realism and control to the next level with all-new FieldSENSE technology, delivering refined tackling, catching, and ball-handling animations. Powered by SAPIEN technology, player models are more lifelike than ever, with unique physiques and movement animations. Play through exciting modes like Superstar Showdown and Enhanced Franchise, or challenge up to five friends in multiplayer. With immersive 4K visuals, haptic feedback, and adaptive triggers on the DualSense controller, Madden NFL 24 is the most complete American football simulation yet.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Graphics</span><span>4K HDR</span></h6>",
+            "<h6><span>Multiplayer</span><span>Up to 6 Players Online</span></h6>",
+            "<h6><span>Franchise Mode</span><span>Enhanced with Draft & Customization</span></h6>",
+            "<h6><span>Technology</span><span>FieldSENSE + SAPIEN</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FIELDSENSE</span><span class='detail-specs-h6'>- A new physics-based gameplay system improving player control, tackles, and AI awareness.</span></h6>",
+            "<h6><span>SAPIEN TECH</span><span class='detail-specs-h6'>- Authentic player movement and variation thanks to new modeling systems.</span></h6>",
+            "<h6><span>SUPERSTAR SHOWDOWN</span><span class='detail-specs-h6'>- Fast-paced 3v3 and 6v6 arcade-style matches in condensed arenas.</span></h6>",
+            "<h6><span>FRANCHISE MODE</span><span class='detail-specs-h6'>- Manage your team with new features, from draft tools to training mini-games.</span></h6>",
+            "<h6><span>TRAINING CAMPS</span><span class='detail-specs-h6'>- Over 20 mini-games to improve skills and readiness pre-season.</span></h6>",
+            "<h6><span>DUALSENSE SUPPORT</span><span class='detail-specs-h6'>- Adaptive triggers and haptic feedback enhance realism in gameplay.</span></h6>"
+        ],
+        tags: [
+            "madden nfl 24 ps5",
+            "ea sports nfl game",
+            "nfl 24 franchise mode",
+            "american football game ps5",
+            "4k football game",
+            "fieldsense ps5",
+            "sapien technology madden",
+            "multiplayer football",
+            "madden superstar showdown",
+            "haptic feedback sports game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://www.phoneplacekenya.com/product/ps5-madden-nfl-24/",
+        youtubeReview: "https://www.youtube.com/embed/HnsHeeSxQ5w?si=VtqqCoGakNRryYKA",
+        unboxingVideo: "https://www.youtube.com/embed/EZrgXXHSaBQ?si=m_XThO-S9M-sjEd5",
+        prevPrice: 7500,
+        nowPrice: 6000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.3
+    },
+    {
+        productID: 2049,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749073480/ps5-devil-may-cry-5-2_a47oba.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749073480/ps5-devil-may-cry-5_o2ehwy.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749073480/ps5-devil-may-cry-5_o2ehwy.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749073480/ps5-devil-may-cry-5-2_a47oba.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749073481/ps5-devil-may-cry-5-3_qegiom.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "Devil May Cry 5 – High-Octane Demon-Slaying Action",
+        SubTitle: "Action/Combat",
+        category: "games",
+        subCategory: ["playstation", "action", "hack-and-slash"],
+        variant: "ps5",
+        brand: "Capcom",
+        name: "ps5-devil-may-cry-5",
+        description: "Unleash stylish combos and demonic powers in Devil May Cry 5, now enhanced for PS5 with ray tracing, 3D audio, and new game modes.",
+        detailsDescription: "Devil May Cry 5 on PS5 delivers the ultimate demon-hunting experience with visual and performance upgrades, including ray tracing, high frame rate mode, and 3D audio. Play as Nero, Dante, and the newly added Vergil, each with their own unique combat style. Dive into challenging new modes like Legendary Dark Knight and Turbo Mode, or face endless waves in the Bloody Palace. DualSense haptic feedback further immerses you in battle, making every slash, blast, and impact feel visceral. This edition also includes bonus content like Deluxe Edition items and EX Color costumes.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Graphics</span><span>Ray Tracing + High Frame Rate Mode</span></h6>",
+            "<h6><span>Audio</span><span>3D Tempest Audio</span></h6>",
+            "<h6><span>Playable Characters</span><span>Nero, Dante, Vergil</span></h6>",
+            "<h6><span>Modes</span><span>Bloody Palace, Turbo, Vergil Mode</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>VERGIL MODE</span><span class='detail-specs-h6'>- Play as Vergil with exclusive missions and combat abilities.</span></h6>",
+            "<h6><span>LEGENDARY DARK KNIGHT MODE</span><span class='detail-specs-h6'>- Face massive enemy hordes in this fan-favorite challenge mode.</span></h6>",
+            "<h6><span>TURBO MODE</span><span class='detail-specs-h6'>- Experience combat at 1.2x speed for faster, more intense action.</span></h6>",
+            "<h6><span>RAY TRACING</span><span class='detail-specs-h6'>- Enhanced lighting, reflections, and visuals for cinematic combat.</span></h6>",
+            "<h6><span>HIGH FRAME-RATE MODE</span><span class='detail-specs-h6'>- Enjoy ultra-smooth gameplay with up to 120 FPS.</span></h6>",
+            "<h6><span>HAPTIC FEEDBACK</span><span class='detail-specs-h6'>- DualSense enhances immersion with feedback for every impact.</span></h6>",
+            "<h6><span>3D AUDIO</span><span class='detail-specs-h6'>- Tempest AudioTech provides spatial awareness in chaotic battles.</span></h6>",
+            "<h6><span>ADDITIONAL CONTENT</span><span class='detail-specs-h6'>- Includes Deluxe Edition content and pre-order exclusive EX costumes.</span></h6>"
+        ],
+        tags: [
+            "devil may cry 5 ps5",
+            "dmc5 vergil mode",
+            "ray tracing ps5 action",
+            "hack and slash ps5",
+            "bloody palace mode",
+            "dmc5 turbo mode",
+            "capcom ps5 games",
+            "high frame rate combat",
+            "stylish action game",
+            "3d audio dmc5"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/devil-may-cry-5-special-edition-ps5-wPmQFsmdoSahIfsPSJVVdNbK.html?page=1&pos=2&cur_pos=2&ads_per_page=12&ads_count=12&lid=vfS6XVi9PtnYJwT3&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/teMfDQrgQXA?si=qXtU6anK_8bZB5jm",
+        unboxingVideo: "https://www.youtube.com/embed/XUCpe7O51qw?si=-t9j1fUA_I6VtwS2",
+        prevPrice: 5500,
+        nowPrice: 5000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2050,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749074063/ps5-wwe-2k22-2_r6z60d.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749074063/ps5-wwe-2k22_xnbkah.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749074063/ps5-wwe-2k22_xnbkah.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749074063/ps5-wwe-2k22-2_r6z60d.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749074062/ps5-wwe-2k22-3_tcxxnn.jpg",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps5",
+        Title: "WWE 2K22 – Rebuilt, Redesigned, Reignited",
+        SubTitle: "Sports / Wrestling",
+        category: "games",
+        subCategory: ["playstation", "sports", "wrestling"],
+        variant: "ps5",
+        brand: "2K Sports",
+        name: "ps5-wwe-2k22",
+        description: "Step into the ring with WWE 2K22, featuring redesigned gameplay, stunning visuals, and the most realistic WWE Superstars ever.",
+        detailsDescription: "WWE 2K22 returns with a completely rebuilt gameplay engine for a smoother, more immersive wrestling experience. Play through the legendary moments of Rey Mysterio's career in the 2K Showcase or take control in MyGM mode to manage your own WWE brand. Create your dream superstar with the expanded Creation Suite and dive into MyFACTION to build your perfect team. With support for up to 8 players online and PS5 DualSense enhancements like haptic feedback and adaptive triggers, WWE 2K22 delivers a next-gen wrestling experience like never before.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 5</span></h6>",
+            "<h6><span>Gameplay Engine</span><span>Redesigned for Realism</span></h6>",
+            "<h6><span>Modes</span><span>2K Showcase, MyGM, MyRISE, MyFACTION</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online up to 8 players</span></h6>",
+            "<h6><span>Superstars</span><span>Realistic WWE Legends & Roster</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>2K SHOWCASE</span><span class='detail-specs-h6'>- Relive Rey Mysterio’s greatest matches and milestones in WWE history.</span></h6>",
+            "<h6><span>REALISTIC SUPERSTARS</span><span class='detail-specs-h6'>- Play with highly detailed WWE Legends like The Rock, Goldberg, Sasha Banks, and more.</span></h6>",
+            "<h6><span>MYGM MODE</span><span class='detail-specs-h6'>- Draft your roster and run your own WWE brand in manager mode.</span></h6>",
+            "<h6><span>MYRISE MODE</span><span class='detail-specs-h6'>- Choose your path in male and female career storylines with narrative choices.</span></h6>",
+            "<h6><span>MYFACTION MODE</span><span class='detail-specs-h6'>- Build a faction with weekly content, new events, and live updates.</span></h6>",
+            "<h6><span>CREATION SUITE</span><span class='detail-specs-h6'>- Design your own superstars, arenas, and share them online.</span></h6>",
+            "<h6><span>NEW CONTROLS</span><span class='detail-specs-h6'>- Enjoy refined controls for more fluid and responsive gameplay.</span></h6>",
+            "<h6><span>DUALSENSE SUPPORT</span><span class='detail-specs-h6'>- Haptic feedback and adaptive triggers make each move feel real on PS5.</span></h6>"
+        ],
+        tags: [
+            "wwe 2k22 ps5",
+            "wwe 2k22 rey mysterio",
+            "ps5 wrestling games",
+            "mygm wwe 2k22",
+            "myfaction wwe",
+            "2k showcase ps5",
+            "create your superstar ps5",
+            "8 player online wrestling",
+            "sports simulation ps5",
+            "wwe legends ps5"
+        ],
+        carousels: [],
+        storage: "",
+    dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps5-wwe2k22-pYc3erONjcoXFqsQosbSO30R.html?page=1&pos=1&cur_pos=1&ads_per_page=10&ads_count=10&lid=XTQYsnG5kFRbrj6A&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/YvjYUYLKm0c?si=TA39-Dg0OX-HSrAr",
+        unboxingVideo: "https://www.youtube.com/embed/9qAXkXNhj4U?si=NeHmiiWx0HTtlFzi",
+        prevPrice: 5500,
+        nowPrice: 5000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
 
 
 
@@ -3348,6 +3924,22 @@ export const games = [
         condition: "New",
         rating: 4.8
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
