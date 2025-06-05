@@ -1452,7 +1452,7 @@ export const games = [
             }
         ],
         defaultColor: "ps5",
-        Title: "PS5 F1 2023 – Official Formula One Racing Game",
+        Title: "PS5 F1 23 - Official Formula One Racing Game",
         SubTitle: " Ps5/ Sports / Racing",
         category: "games",
         subCategory: ["playstation", "racing"],
@@ -1480,6 +1480,7 @@ export const games = [
         ],
         tags: [
             "f1",
+            "f1 23",
             "ps5",
             "formula 1",
             "racing",
@@ -1879,7 +1880,7 @@ export const games = [
             }
         ],
         defaultColor: "ps5",
-        Title: "PS5 Call of Duty: Vanguard",
+        Title: "PS5 Call of Duty: Vanguard - Rise on Every Front",
         SubTitle: " PS 5 / action shooter",
         category: "games",
         subCategory: ["playstation", "action", "shooter"],
@@ -4084,6 +4085,142 @@ export const games = [
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741941718/coldwar-ps4_lxkpq8.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741941718/coldwar-ps4_lxkpq8.png",
+                color: "standard"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
+                color: "standard"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty-2_v4tknn.jpg",
+                color: "standard"
+            }
+        ],
+        defaultColor: "standard",
+        Title: "PS4 Call of Duty: Cold War- First-Person Shooter",
+        SubTitle: "Ps4 / Shooter / Action",
+        category: "games",
+        subCategory: ["playstation", "shooter", "action", "multiplayer"],
+        variant: "ps4",
+        brand: "PlayStation",
+        name: "ps4-call-of-duty-cold-war",
+        description: "Call of Duty: Cold War drops you into the heart of the geopolitical battle of the early 1980s. Engage in intense single-player and multiplayer combat as you fight global threats in a world on the brink of war.",
+        detailsDescription: "Call of Duty: Cold War features a gripping campaign that takes players across historical battlefields, from dogfights over the Pacific to sniper battles in Stalingrad. Join elite operatives as they battle through covert operations, shaping history. The game also includes an integrated Warzone experience post-launch, bringing new battle royale and multiplayer content.",
+        detailSpecs: [
+            "<h6><span>Immersive Campaign</span><span> — Engage in thrilling missions across different warfronts</span></h6>",
+            "<h6><span>Multiplayer Action</span><span> — Classic Call of Duty combat with enhanced mechanics</span></h6>",
+            "<h6><span>Warzone Integration</span><span> — Seamlessly connects with Call of Duty Warzone</span></h6>",
+            "<h6><span>Confrontation Weapon Pack</span><span> — Exclusive in-game rewards and operator skins</span></h6>",
+            "<h6><span>Next-Gen Performance</span><span> — Optimized for PlayStation 4 with stunning visuals</span></h6>"
+        ],
+        topSpecs: [
+            "<h6><span>GAMEPLAY MODE</span><span class='detail-specs-h6'> Campaign, Multiplayer, Warzone</span></h6>",
+            "<h6><span>PLATFORM</span><span class='detail-specs-h6'> PlayStation 4</span></h6>",
+            "<h6><span>ONLINE MULTIPLAYER</span><span class='detail-specs-h6'> Requires PlayStation Plus for online play</span></h6>",
+            "<h6><span>WEIGHT</span><span class='detail-specs-h6'> 0.3kg</span></h6>",
+            "<h6><span>EXCLUSIVE CONTENT</span><span class='detail-specs-h6'> Confrontation Pack, Woods Operator, AR Weapon Blueprint</span></h6>"
+        ],
+        tags: [
+            "ps4-games",
+            "call-of-duty",
+            "first-person-shooter",
+            "warzone",
+            "multiplayer-game",
+            "campaign"
+        ],
+        carousels: ["bestSellers", "displayGames"],
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-call-of-duty-cold-war/?gad_source=1",
+        youtubeReview: "https://www.youtube.com/embed/8H4DdU8t7Dc?si=ajSN6sIRQUnQ1wQA",
+        unboxingVideo: "https://www.youtube.com/embed/bNrDnKtEAfI?si=z9kHhtuWHPhABfNa",
+        prevPrice: 6550,
+        nowPrice: 4999,
+        stock: "In stock",
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2255,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749125601/ps4-gta5-2_wngdvh.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749125600/ps4-gta5_shrkgx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749125600/ps4-gta5_shrkgx.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749125601/ps4-gta5-2_wngdvh.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749125600/ps4-gta5-3_djj2d0.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Grand Theft Auto V – Crime, Chaos, and Heists Redefined",
+        SubTitle: "Ps4 / Action / Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "open-world"],
+        variant: "ps4",
+        brand: "Rockstar Games",
+        name: "ps4-gta5",
+        description: "Experience the massive world of GTA V on PS4 with upgraded visuals, deeper gameplay, and access to Grand Theft Auto Online with all content updates.",
+        detailsDescription: "Grand Theft Auto V for PS4 offers the most expansive and immersive version of Los Santos and Blaine County. Play as Michael, Franklin, and Trevor in a gripping single-player narrative filled with high-stakes heists, criminal drama, and chaos. Enhanced with improved visuals, new activities, weapons, and weather systems, the world feels more alive than ever. GTA Online allows up to 30 players to engage in cooperative heists, races, business ventures, and custom missions. Rise to power as a CEO, start a Motorcycle Club, or dominate in unique Adversary Modes. Includes all previous updates and expansions for GTA Online.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Adventure, Open World</span></h6>",
+            "<h6><span>Players</span><span>1 Offline / Up to 30 Online</span></h6>",
+            "<h6><span>Publisher</span><span>Rockstar Games</span></h6>",
+            "<h6><span>Release Date</span><span>19 December 2017</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>THREE-CHARACTER CAMPAIGN</span><span class='detail-specs-h6'>- Switch between Michael, Trevor, and Franklin as they execute daring heists and navigate personal turmoil.</span></h6>",
+            "<h6><span>EXPANDED WORLD</span><span class='detail-specs-h6'>- Enhanced visuals, more wildlife, denser traffic, and richer environmental effects.</span></h6>",
+            "<h6><span>NEW CONTENT</span><span class='detail-specs-h6'>- Features new weapons, vehicles, and side activities unique to the PS4 version.</span></h6>",
+            "<h6><span>GRAND THEFT AUTO ONLINE</span><span class='detail-specs-h6'>- Access the full, dynamic GTA Online experience with all updates included.</span></h6>",
+            "<h6><span>ONLINE CAREERS</span><span class='detail-specs-h6'>- Become a CEO, Biker, Heist leader, or Adversary with deep multiplayer content and career paths.</span></h6>",
+            "<h6><span>USER-CREATED CONTENT</span><span class='detail-specs-h6'>- Create, share, and play custom missions and races with the community.</span></h6>"
+        ],
+        tags: [
+            "gta 5 ps4 game",
+            "grand theft auto v",
+            "gta online ps4",
+            "rockstar gta5",
+            "open world crime game",
+            "gta ps4 upgrades",
+            "heists gta v",
+            "gta multiplayer",
+            "gta los santos",
+            "gta character switch"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/grand-theft-auto-v-gta-5-ps4/",
+        youtubeReview: "https://www.youtube.com/embed/hQT0m_o73C4?si=NTUEUTKKHijxpQtb",
+        unboxingVideo: "https://www.youtube.com/embed/Rd8zCXsyZrQ?si=d5qxaE8dcKIz9bVx",
+        prevPrice: 3580,
+        nowPrice: 2999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2256,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
         detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741938259/apex-ps4-3_qqah8z.jpg",
         mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741938678/apex-ps4_lwazvp.png",
         imageColorMap: [
@@ -4144,69 +4281,916 @@ export const games = [
         rating: 4.7
     },
     {
-        productID: 2255,
+        productID: 2257,
         platform: "PlayStation",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741941718/coldwar-ps4_lxkpq8.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749126436/ps4-modern-warfare-2-3_hntkhh.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749126436/ps4-modern-warfare-2_x7tsrn.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741941718/coldwar-ps4_lxkpq8.png",
-                color: "standard"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749126436/ps4-modern-warfare-2_x7tsrn.png",
+                color: "ps4"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
-                color: "standard"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749126436/ps4-modern-warfare-2-3_hntkhh.jpg",
+                color: "ps4"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty-2_v4tknn.jpg",
-                color: "standard"
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749126437/ps4-modern-warfare-2-2_lrsole.jpg",
+                color: "ps4"
             }
         ],
-        defaultColor: "standard",
-        Title: "PS4 Call of Duty: Cold War- First-Person Shooter",
-        SubTitle: "Ps4 / Shooter / Action",
+        defaultColor: "ps4",
+        Title: "Call of Duty: Modern Warfare II – TF141 Returns in Full Force",
+        SubTitle: "Ps4 / Shooter / Campaign",
         category: "games",
-        subCategory: ["playstation", "shooter", "action", "multiplayer"],
+        subCategory: ["playstation", "shooter", "multiplayer"],
         variant: "ps4",
-        brand: "PlayStation",
-        name: "ps4-call-of-duty-cold-war",
-        description: "Call of Duty: Cold War drops you into the heart of the geopolitical battle of the early 1980s. Engage in intense single-player and multiplayer combat as you fight global threats in a world on the brink of war.",
-        detailsDescription: "Call of Duty: Cold War features a gripping campaign that takes players across historical battlefields, from dogfights over the Pacific to sniper battles in Stalingrad. Join elite operatives as they battle through covert operations, shaping history. The game also includes an integrated Warzone experience post-launch, bringing new battle royale and multiplayer content.",
-        detailSpecs: [
-            "<h6><span>Immersive Campaign</span><span> — Engage in thrilling missions across different warfronts</span></h6>",
-            "<h6><span>Multiplayer Action</span><span> — Classic Call of Duty combat with enhanced mechanics</span></h6>",
-            "<h6><span>Warzone Integration</span><span> — Seamlessly connects with Call of Duty Warzone</span></h6>",
-            "<h6><span>Confrontation Weapon Pack</span><span> — Exclusive in-game rewards and operator skins</span></h6>",
-            "<h6><span>Next-Gen Performance</span><span> — Optimized for PlayStation 4 with stunning visuals</span></h6>"
-        ],
+        brand: "Sony",
+        name: "ps4-modern-warfare-2",
+        description: "Join Task Force 141 in Call of Duty: Modern Warfare II and experience the return of legendary operatives in a cinematic campaign and advanced multiplayer combat.",
+        detailsDescription: "Call of Duty: Modern Warfare II picks up the thrilling saga of TF141, reuniting players with iconic characters like Captain Price, Soap, Gaz, and Ghost. In this next-gen installment, players undertake missions across diverse terrains—underwater, urban canals, fortified enemy compounds, and remote mountains. With an overhauled AI system, improved photogrammetry, enhanced sound, and lighting tech, Modern Warfare II sets a new benchmark in realism and immersion. Customize loadouts using the new Gunsmith system, engage in intense multiplayer battles, and take on narrative-driven Special Ops missions. Additionally, the game integrates with the new Warzone™ experience and delivers a calendar of post-launch content including maps, modes, and seasonal updates.",
         topSpecs: [
-            "<h6><span>GAMEPLAY MODE</span><span class='detail-specs-h6'> Campaign, Multiplayer, Warzone</span></h6>",
-            "<h6><span>PLATFORM</span><span class='detail-specs-h6'> PlayStation 4</span></h6>",
-            "<h6><span>ONLINE MULTIPLAYER</span><span class='detail-specs-h6'> Requires PlayStation Plus for online play</span></h6>",
-            "<h6><span>WEIGHT</span><span class='detail-specs-h6'> 0.3kg</span></h6>",
-            "<h6><span>EXCLUSIVE CONTENT</span><span class='detail-specs-h6'> Confrontation Pack, Woods Operator, AR Weapon Blueprint</span></h6>"
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Shooter, Campaign, Multiplayer</span></h6>",
+            "<h6><span>Players</span><span>1 Offline / Online Multiplayer</span></h6>",
+            "<h6><span>Publisher</span><span>Sony</span></h6>",
+            "<h6><span>Release Date</span><span>2022</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ICONIC CHARACTERS</span><span class='detail-specs-h6'>- Rejoin Captain Price, Soap, Gaz, and Ghost in a gripping global campaign.</span></h6>",
+            "<h6><span>NEXT-GEN GAMEPLAY</span><span class='detail-specs-h6'>- Realistic lighting, sound, rendering, and advanced AI deliver unmatched immersion.</span></h6>",
+            "<h6><span>ENHANCED GUNSMITH</span><span class='detail-specs-h6'>- New customization system gives players control over weapon tuning and attachments.</span></h6>",
+            "<h6><span>SPECIAL OPS MODE</span><span class='detail-specs-h6'>- Tactically driven co-op missions expand narrative gameplay.</span></h6>",
+            "<h6><span>WARZONE CONNECTION</span><span class='detail-specs-h6'>- Seamlessly connects with new Warzone™, introducing a redefined Battle Royale.</span></h6>",
+            "<h6><span>POST-LAUNCH CONTENT</span><span class='detail-specs-h6'>- Regular updates including maps, modes, seasonal events, and community features.</span></h6>"
         ],
         tags: [
-            "ps4-games",
-            "call-of-duty",
-            "first-person-shooter",
-            "warzone",
-            "multiplayer-game",
-            "campaign"
+            "call of duty ps4",
+            "modern warfare 2 ps4",
+            "cod mw2",
+            "task force 141",
+            "soap and ghost cod",
+            "cod special ops",
+            "cod campaign ps4",
+            "warzone ps4 link",
+            "shooter game ps4",
+            "cod multiplayer fps"
         ],
-        carousels: ["bestSellers", "displayGames"],
-        dropURL: "https://fortresselectronics.co.ke/product/ps4-call-of-duty-cold-war/?gad_source=1",
-        youtubeReview: "https://www.youtube.com/embed/8H4DdU8t7Dc?si=ajSN6sIRQUnQ1wQA",
-        unboxingVideo: "https://www.youtube.com/embed/bNrDnKtEAfI?si=z9kHhtuWHPhABfNa",
-        prevPrice: 6550,
-        nowPrice: 4999,
-        stock: "In stock",
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/call-of-duty-modern-warfare-2-ps4-game-wQepM3yvRb5SSZVvzIXm4Gt1.html?page=1&pos=8&cur_pos=8&ads_per_page=22&ads_count=21&lid=JQPJkRJNacVabdSm&indexPosition=7",
+        youtubeReview: "https://www.youtube.com/embed/j0OfQ-W48VE?si=5OTYzLQ0mkOBbev0",
+        unboxingVideo: "https://www.youtube.com/embed/aflFoHRCmRg?si=lfou5T4DROLHYn3p",
+        prevPrice: 6500,
+        nowPrice: 4800,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2258,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039617/ps5-call-of-duty-vanguard-2_qx20ij.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749128624/ps4-call-of-duty-vanguard_1_mo6hnc.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749128624/ps4-call-of-duty-vanguard_1_mo6hnc.png", // Image 1 of COD Vanguard PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039617/ps5-call-of-duty-vanguard-2_qx20ij.jpg", // Image 2 of COD Vanguard PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747039617/ps5-call-of-duty-vanguard-3_rfgsq2.png", // Image 3 of COD Vanguard PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Call of Duty: Vanguard - Rise on Every Front",
+        SubTitle: "Ps4 / Shooter / Campaign",
+        category: "games",
+        subCategory: ["playstation", "shooter", "wwii"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-call-of-duty-vanguard",
+        description: "Join a global task force and battle across the Pacific, Europe, and North Africa in Call of Duty: Vanguard’s cinematic WWII campaign and immersive multiplayer.",
+        detailsDescription: "Call of Duty: Vanguard takes you to the heart of WWII with a gripping narrative told through the eyes of elite soldiers from different nations. Engage in epic dogfights over the Pacific, covert ops in France, fierce resistance in Stalingrad, and fast-paced desert warfare in North Africa. Developed by Sledgehammer Games, Vanguard delivers a deeply immersive campaign, rich multiplayer options, and a fresh Zombies experience. Post-launch, it integrates with Call of Duty: Warzone, introducing new content and environments to explore. With intense gunplay, authentic WWII settings, and cinematic storytelling, Vanguard redefines the historical shooter genre for modern gamers.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Shooter, WWII, Campaign</span></h6>",
+            "<h6><span>Players</span><span>1 Offline / Online Multiplayer</span></h6>",
+            "<h6><span>Publisher</span><span>Activision</span></h6>",
+            "<h6><span>Release Date</span><span>November 2021</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>GLOBAL CAMPAIGN</span><span class='detail-specs-h6'>- Battle across the Pacific, Europe, and North Africa through multiple soldier perspectives.</span></h6>",
+            "<h6><span>WWII SETTING</span><span class='detail-specs-h6'>- Relive key moments in WWII with gripping storytelling and realistic combat mechanics.</span></h6>",
+            "<h6><span>MULTIPLAYER ACTION</span><span class='detail-specs-h6'>- Fast-paced online battles with new maps and progression systems.</span></h6>",
+            "<h6><span>ZOMBIES MODE</span><span class='detail-specs-h6'>- Survive undead waves in a thrilling cooperative mode developed by Treyarch.</span></h6>",
+            "<h6><span>WARZONE INTEGRATION</span><span class='detail-specs-h6'>- Seamlessly connects with Call of Duty: Warzone post-launch with new content and maps.</span></h6>",
+            "<h6><span>NEXT-GEN GRAPHICS</span><span class='detail-specs-h6'>- Enhanced visuals, realistic physics, and immersive sound design across platforms.</span></h6>"
+        ],
+        tags: [
+            "call of duty vanguard",
+            "cod vanguard ps4",
+            "ps4 wwii shooter",
+            "vanguard campaign",
+            "cod warzone integration",
+            "sledgehammer cod",
+            "cod zombies mode",
+            "historical fps",
+            "cod multiplayer ps4",
+            "activision shooter game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps4-call-of-duty-vanguard-8Qhh239MOfoW58TCjDOQJsBR.html?page=1&pos=3&cur_pos=3&ads_per_page=13&ads_count=13&lid=BgGy4Ncf-1m3cY4i&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/hDMXN82aQnY?si=FBMLYNO5VHYMSYQE",
+        unboxingVideo: "https://www.youtube.com/embed/JwmqYcDojwg?si=XhxcLaHjzwcmF0op",
+        prevPrice: 4500,
+        nowPrice: 4000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2259,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036447/ps5-elden-ring-3_zxkvrj.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749129915/ps4-elden-ring_vhn2pe.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749129915/ps4-elden-ring_vhn2pe.png", // Image 1 of Elden Ring
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036447/ps5-elden-ring-3_zxkvrj.jpg", // Image 2 of Elden Ring
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747036450/ps5-elden-ring-2_k1kqgl.jpg", // Image 3 of Elden Ring
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Elden Ring – Unravel the Mysteries of the Lands Between",
+        SubTitle: "RPG / Fantasy / Adventure",
+        category: "games",
+        subCategory: ["playstation", "rpg", "fantasy"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-elden-ring",
+        description: "Forge your destiny in the Lands Between, a vast fantasy world filled with secrets, enemies, and rich lore in Elden Ring for PS4.",
+        detailsDescription: "Elden Ring invites players into a dark and immersive fantasy world co-created by Hidetaka Miyazaki and George R. R. Martin. Venture through the interconnected regions of the Lands Between on foot or horseback, encountering complex dungeons, eerie swamps, and towering castles. Customize your character and define your playstyle with FromSoftware’s genre-defining combat mechanics, combining stealth, sorcery, melee, and spirit summoning. Encounter morally complex characters, sinister creatures, and powerful bosses while shaping the fate of a shattered world. With rich lore and seamless exploration, Elden Ring offers a grand and haunting RPG experience for both new and seasoned adventurers.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Fantasy RPG, Adventure</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Publisher</span><span>Bandai Namco</span></h6>",
+            "<h6><span>Release Date</span><span>21 Jan 2022</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>NEW FANTASY WORLD</span><span class='detail-specs-h6'>- Created by Hidetaka Miyazaki and George R. R. Martin, filled with deep lore and rich storytelling.</span></h6>",
+            "<h6><span>OPEN WORLD EXPLORATION</span><span class='detail-specs-h6'>- Traverse grand landscapes and detailed dungeons seamlessly, with freedom in movement and combat.</span></h6>",
+            "<h6><span>CHARACTER CUSTOMIZATION</span><span class='detail-specs-h6'>- Build your character with a variety of weapons, magic, and skills to match your playstyle.</span></h6>",
+            "<h6><span>ONLINE MULTIPLAYER</span><span class='detail-specs-h6'>- Summon allies or challenge other players in online co-op and PvP battles.</span></h6>",
+            "<h6><span>FROM SOFTWARE INNOVATION</span><span class='detail-specs-h6'>- Evolved combat, strategic depth, and narrative-driven design hallmarking a new era of RPGs.</span></h6>"
+        ],
+        tags: [
+            "elden ring ps4",
+            "fromsoftware rpg",
+            "open world fantasy",
+            "george rr martin game",
+            "ps4 action adventure",
+            "elden ring lands between",
+            "epic boss battles",
+            "ps4 magic combat",
+            "soulslike gameplay",
+            "bandai namco games"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/new-elden-ring-ps4-8PGX6EiymLmKVYEp1y0Ku5IK.html?page=1&pos=6&cur_pos=6&ads_per_page=24&ads_count=32&lid=Xmj3HIwbvljUj7vG&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/0uav6zQKiMQ?si=Do2WoMPIsOH6YDCv",
+        unboxingVideo: "https://www.youtube.com/embed/mY8za8LPLOA?si=AZa_6JJpXLFZF_yr",
+        prevPrice: 5500,
+        nowPrice: 4800,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2260,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994046/ps5-f1-2023-3_u4ln3m.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749132596/PS4_F1_2023_ncgb68.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749132596/PS4_F1_2023_ncgb68.png", // Image 1 of F1 2023 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994045/ps5-f1-2023-2_i7quz7.jpg", // Image 2 of F1 2023 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746994046/ps5-f1-2023-3_u4ln3m.jpg", // Image 3 of F1 2023 PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "F1 23 - Race to Glory in the 2023 F1 Championship",
+        SubTitle: "Ps4 / Sports / Racing",
+        category: "games",
+        subCategory: ["playstation", "racing", "sports"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-f1-2023",
+        description: "Dominate the track in F1 23 on PS4, the official game of the 2023 FIA Formula One World Championship, featuring new tracks, red flags, and Braking Point 2.",
+        detailsDescription: "F1 23 brings you the most authentic Formula 1 racing experience ever, with the return of Braking Point in a new story-driven chapter. Race across the newest circuits in Las Vegas and Qatar, and immerse yourself in strategic decision-making with the newly added red flags. Experience the thrill with 35% Race Distance, enhanced car handling, and official 2023 F1 teams and drivers. Build your legacy in My Team Career Mode, conquer F1 World with a new progression system, or challenge friends in split-screen and cross-platform multiplayer. Whether you're a seasoned pro or a rookie, F1 23 delivers intense action at every turn.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Simulation, Sports</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Publisher</span><span>EA Sports</span></h6>",
+            "<h6><span>Release Year</span><span>2023</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>NEW TRACKS</span><span class='detail-specs-h6'>- Race at the brand-new Las Vegas and Qatar circuits in thrilling, high-speed environments.</span></h6>",
+            "<h6><span>BRAKING POINT 2</span><span class='detail-specs-h6'>- Return to the dramatic story mode featuring intense rivalries and career choices.</span></h6>",
+            "<h6><span>F1 WORLD MODE</span><span class='detail-specs-h6'>- Complete challenges, unlock upgrades, and earn rewards in a dynamic new progression system.</span></h6>",
+            "<h6><span>REALISM & STRATEGY</span><span class='detail-specs-h6'>- Experience red flags, 35% race distance, and more authentic gameplay enhancements.</span></h6>",
+            "<h6><span>MULTIPLAYER OPTIONS</span><span class='detail-specs-h6'>- Includes cross-platform play, split-screen mode, Racenet Leagues, and full My Team Career Mode.</span></h6>"
+        ],
+        tags: [
+            "f1 23 ps4",
+            "formula 1 game",
+            "ea sports racing",
+            "braking point 2",
+            "ps4 racing simulator",
+            "my team f1 mode",
+            "codemasters games",
+            "2023 f1 drivers",
+            "f1 qatar vegas",
+            "split screen racing"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-f1-2023/",
+        youtubeReview: "https://www.youtube.com/embed/ZWDDZ6OVdIo?si=xmJwuHkPprIhGh0V",
+        unboxingVideo: "https://www.youtube.com/embed/X2HA9cOS-bg?si=JiEmJmRqTTvaPglg",
+        prevPrice: 6950,
+        nowPrice: 6000,
+        stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.8
+    },
+    {
+        productID: 2261,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995034/ps5-far-cry-6-2_tybyr7.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749133620/ps4-far-cry-6_auzlwi.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749133620/ps4-far-cry-6_auzlwi.png", // Image 1 of Far Cry 6 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995033/ps5-far-cry-6-2_bjp5pd.jpg", // Image 2 of Far Cry 6 PS5
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746995034/ps5-far-cry-6-2_tybyr7.png", // Image 3 of Far Cry 6 PS5
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Far Cry 6 – Ignite the Revolution in Yara",
+        SubTitle: "Ps4 / Action / Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "shooter"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-far-cry-6",
+        description: "Wage guerrilla warfare in Far Cry 6 for PS4 as you rise up against a brutal dictator in an explosive, open-world adventure.",
+        detailsDescription: "Far Cry 6 throws players into the revolutionary chaos of Yara, a Caribbean island under the iron rule of President Anton Castillo, played by Giancarlo Esposito. As Dani Rojas, join a modern-day guerrilla movement and fight to liberate the nation using an arsenal of resolver weapons, vehicles, and backpacks in the most expansive Far Cry title yet. Journey through jungles, coastal towns, and the capital Esperanza, confronting tyranny in a rich narrative filled with high-octane action and unpredictable moments. The Gold Edition includes the base game and Season Pass, unlocking three major DLCs where you play as iconic Far Cry villains and dive into twisted, surreal experiences. It also comes with Far Cry 3: Blood Dragon Classic Edition and exclusive themed content. Whether solo or with a friend in co-op, Far Cry 6 offers an unforgettable journey through revolution.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Adventure, Shooter</span></h6>",
+            "<h6><span>Edition</span><span>Gold Edition</span></h6>",
+            "<h6><span>Publisher</span><span>Ubisoft</span></h6>",
+            "<h6><span>Release Year</span><span>2021</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>GUERRILLA WARFARE</span><span class='detail-specs-h6'>- Play as Dani Rojas and take down a tyrant in a revolution powered by homemade gear and street-smart tactics.</span></h6>",
+            "<h6><span>EXPANSIVE WORLD</span><span class='detail-specs-h6'>- Explore a vast and diverse island—from lush jungles to urban capitals—rich with danger and opportunity.</span></h6>",
+            "<h6><span>GOLD EDITION CONTENT</span><span class='detail-specs-h6'>- Includes Season Pass with 3 villain-themed DLCs and Far Cry 3: Blood Dragon Classic Edition.</span></h6>",
+            "<h6><span>UNIQUE GEAR & VEHICLES</span><span class='detail-specs-h6'>- Use customizable resolver weapons, DIY vehicles, and deadly backpacks in creative combat.</span></h6>",
+            "<h6><span>CO-OP MULTIPLAYER</span><span class='detail-specs-h6'>- Team up with friends in online co-op and experience the campaign together.</span></h6>"
+        ],
+        tags: [
+            "far cry 6 ps4",
+            "guerrilla revolution game",
+            "ubisoft shooter",
+            "far cry anton castillo",
+            "open world fps",
+            "ps4 action games",
+            "dani rojas gameplay",
+            "gold edition far cry",
+            "far cry season pass",
+            "blood dragon dlc"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/farcry-6-new-ps4-X9pzVOdFZ2atGtFZc21h8yg.html?page=1&pos=9&cur_pos=9&ads_per_page=13&ads_count=13&lid=eBUd4ZMlFvz-_Wr4&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/eCH32PWpc1w?si=IwxIAV6WwkQABIik",
+        unboxingVideo: "https://www.youtube.com/embed/oUoPh9dB2es?si=gVho0iwsrlBEbxMV",
+        prevPrice: 4000,
+        nowPrice: 3500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2262,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747158215/ps5-ghost-of-tsushima-directors-cut-2_j1rj8c.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749135102/ps4-ghost-of-tsushima_xalng8.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749135102/ps4-ghost-of-tsushima_xalng8.png",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747158215/ps5-ghost-of-tsushima-directors-cut-2_j1rj8c.jpg",
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747158216/ps5-ghost-of-tsushima-directors-cut-3_ilkenc.png",
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Ghost of Tsushima – Defy Tradition, Become the Ghost",
+        SubTitle: "Ps4 / Action / Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-ghost-of-tsushima",
+        description: "Wield your katana as Jin Sakai in this sweeping samurai epic, now expanded in the Ghost of Tsushima: Director’s Cut for PS4.",
+        detailsDescription: "In Ghost of Tsushima: Director’s Cut, players step into the war-torn world of 13th-century Japan as Jin Sakai, a samurai torn between duty and the need to adopt new tactics to repel the Mongol invasion. As one of the last surviving members of his clan, Jin must transform into the Ghost to protect Tsushima. Explore a breathtaking open world filled with historical beauty, dynamic combat, and stealth elements. The Director’s Cut includes the acclaimed base game, the Iki Island expansion with new story content, and Legends online co-op mode inspired by Japanese folklore. Experience the emotional depth of Jin’s journey, enriched with new customization items, art books, developer commentary, and more in this definitive edition.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Adventure, Open World</span></h6>",
+            "<h6><span>Edition</span><span>Director's Cut</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>",
+            "<h6><span>Release Year</span><span>2021</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>THE GHOST RISES</span><span class='detail-specs-h6'>- Defend your homeland by mastering stealth, the bow, and the sword as you evolve from samurai to legend.</span></h6>",
+            "<h6><span>IKI ISLAND EXPANSION</span><span class='detail-specs-h6'>- Uncover a brand-new story on Iki Island with fresh enemies, quests, and emotional stakes.</span></h6>",
+            "<h6><span>LEGENDS MODE</span><span class='detail-specs-h6'>- Join friends in online 2-player story missions or 4-player wave-based survival, inspired by Japanese mythology.</span></h6>",
+            "<h6><span>DIRECTOR’S BONUS CONTENT</span><span class='detail-specs-h6'>- Includes art book, commentary with historians, and exclusive Hero of Tsushima gear set.</span></h6>",
+            "<h6><span>STUNNING WORLD</span><span class='detail-specs-h6'>- Roam Tsushima’s richly detailed countryside, sacred shrines, and war-ravaged towns.</span></h6>"
+        ],
+        tags: [
+            "ghost of tsushima ps4",
+            "samurai adventure game",
+            "director’s cut tsushima",
+            "japanese open world",
+            "mongol invasion game",
+            "action rpg ps4",
+            "sucker punch samurai",
+            "jin sakai ghost",
+            "iki island dlc",
+            "legends co-op mode"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps4-ghost-of-tsushima-new-pXzS3I5QitVbr5d5v2dTGttf.html?page=1&pos=2&cur_pos=2&ads_per_page=24&ads_count=34&lid=K5_i8-aCZ3Nh_ATH&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/MHrsygIxC5k?si=ZprR6Gkl2DwIxvXs",
+        unboxingVideo: "https://www.youtube.com/embed/kSAvzeopPC8?si=KTdJcaH7lfvNeB8",
+        prevPrice: 5600,
+        nowPrice: 4499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2263,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-2_qljqvv.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749136086/ps4-god-of-war_j939ic.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749136086/ps4-god-of-war_j939ic.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-2_qljqvv.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-3_quwfq7.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "God of War – Vengeance Meets Fatherhood",
+        SubTitle: "Ps4 / Action / Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-god-of-war",
+        description: "Join Kratos and Atreus on a gripping journey through Norse realms in this award-winning reimagining of the God of War series.",
+        detailsDescription: "God of War (2018) delivers a powerful reinvention of the iconic series, blending visceral combat, awe-inspiring Norse mythology, and a deep emotional narrative. Kratos, now a father, must guide his son Atreus through a world of gods, monsters, and moral choices, all while confronting his own past. Featuring over-the-shoulder camera gameplay, RPG elements, and an immersive, seamless world without cutscenes, this PS4 exclusive offers an unmatched cinematic and gameplay experience. Experience a tale of redemption, survival, and growth in a game that redefines action-adventure.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Adventure</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>",
+            "<h6><span>Release Year</span><span>2018</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>NORSE MYTHOLOGY REBORN</span><span class='detail-specs-h6'>- Journey through the realms of Midgard with gods, beasts, and ancient lore.</span></h6>",
+            "<h6><span>PARENT-SON DYNAMIC</span><span class='detail-specs-h6'>- Guide young Atreus and shape his future while uncovering a touching family story.</span></h6>",
+            "<h6><span>OVER-THE-SHOULDER COMBAT</span><span class='detail-specs-h6'>- Intimate camera angle enhances strategic, grounded battles using the Leviathan Axe.</span></h6>",
+            "<h6><span>SEAMLESS EXPERIENCE</span><span class='detail-specs-h6'>- No cutscenes. No camera cuts. A continuous cinematic adventure from start to finish.</span></h6>",
+            "<h6><span>ACCLAIMED EXCLUSIVE</span><span class='detail-specs-h6'>- Winner of multiple Game of the Year awards, praised for storytelling and innovation.</span></h6>"
+        ],
+        tags: [
+            "god of war ps4",
+            "kratos game",
+            "norse mythology game",
+            "playstation exclusive",
+            "atreus journey",
+            "action adventure ps4",
+            "leviathan axe combat",
+            "sony god of war",
+            "rpg ps4",
+            "game of the year"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-god-of-war/",
+        youtubeReview: "https://www.youtube.com/embed/x_MtcOznfM4?si=nBfz7ci9OQ8CoISF",
+        unboxingVideo: "https://www.youtube.com/embed/K0u_kAWLJOA?si=qlWajTggVDVrFGXY",
+        prevPrice: 4680,
+        nowPrice: 3200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2264,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-2_qljqvv.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749137012/ps4-god-of-war-ragnarok_t8lc1h.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749137012/ps4-god-of-war-ragnarok_t8lc1h.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-2_qljqvv.jpg", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746982548/ps5-god-of-war-ragnarok-3_quwfq7.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "God of War Ragnarök – The End Draws Near",
+        SubTitle: "Ps4 / Action / Adventure",
+        category: "games",
+        subCategory: ["playstation", "action", "adventure"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-god-of-war-ragnarok",
+        description: "Brace for the epic climax of Kratos and Atreus' journey as they travel the Nine Realms to prevent Ragnarök in this intense Norse action-adventure.",
+        detailsDescription: "God of War Ragnarök continues the emotional and thrilling saga of Kratos and Atreus as they prepare for the prophesied end of days. Set across the breathtaking and perilous Nine Realms, players will encounter mythical beasts, vengeful gods, and unrelenting winter as they unravel destiny's grip. Featuring refined and more expressive combat, powerful new abilities, and deeply emotional storytelling, Ragnarök offers a masterclass in action-adventure gameplay and narrative excellence. Stand against fate itself in a tale of fatherhood, loss, and resilience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Adventure</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>",
+            "<h6><span>Release Year</span><span>2022</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>THE NINE REALMS AWAIT</span><span class='detail-specs-h6'>- Explore beautifully dangerous Norse landscapes and face enemies from gods to giants.</span></h6>",
+            "<h6><span>LEGENDARY COMBAT RETURNS</span><span class='detail-specs-h6'>- Wield the Leviathan Axe and Blades of Chaos in enhanced, fluid combat with new techniques and abilities.</span></h6>",
+            "<h6><span>FATHER AND SON</span><span class='detail-specs-h6'>- Experience the deepening bond and evolving roles of Kratos and Atreus in the face of apocalypse.</span></h6>",
+            "<h6><span>MYTHIC SCALE</span><span class='detail-specs-h6'>- Confront your fate in a story-driven experience blending Norse mythology with unforgettable action.</span></h6>",
+            "<h6><span>PS4 OPTIMIZED</span><span class='detail-specs-h6'>- Epic visuals and seamless gameplay designed for peak performance on PlayStation 4.</span></h6>"
+        ],
+        tags: [
+            "god of war ragnarok ps4",
+            "kratos and atreus",
+            "norse mythology game",
+            "ragnarok playstation",
+            "playstation action game",
+            "nine realms game",
+            "leviathan axe",
+            "blades of chaos",
+            "sony god of war",
+            "ps4 adventure game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/god-of-war-ragnarok-game-ps4-tvRGa1CiY2exx8ihgf3wV4zW.html?page=1&pos=10&cur_pos=10&ads_per_page=24&ads_count=31&lid=4h6ccZvKbSTasaLP&indexPosition=9",
+        youtubeReview: "https://www.youtube.com/embed/x_MtcOznfM4?si=nBfz7ci9OQ8CoISF",
+        unboxingVideo: "https://www.youtube.com/embed/dIQGI36BxDE?si=2w94bO8ClfgXrH30",
+        prevPrice: 54660,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2265,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749138790/ps4-gran-turismo-sport-2_luxoqf.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749138789/ps4-gran-turismo-sport_iqe5yk.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749138789/ps4-gran-turismo-sport_iqe5yk.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749138790/ps4-gran-turismo-sport-2_luxoqf.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749138795/ps4-gran-turismo-sport-3_v6some.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Gran Turismo Sport – Real Driving Realism",
+        SubTitle: "Ps4 /Racing / Simulation",
+        category: "games",
+        subCategory: ["playstation", "racing", "simulation"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-gran-turismo-sport",
+        description: "Experience the definitive racing simulator built exclusively for PS4, featuring FIA-certified realism and thrilling online competition.",
+        detailsDescription: "Gran Turismo Sport is the ultimate motorsport experience, bringing the award-winning franchise to the PlayStation 4 for the first time. Access over 140 meticulously crafted high-performance vehicles and race across 19 real-world and historical GT locations with 27 layouts. Whether you're driving solo, battling friends, or climbing the ranks in FIA-sanctioned online competitions, GT Sport delivers pulse-pounding authenticity, speed, and control. Built from the ground up for PS4, this is racing at its most refined and competitive.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Simulation</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Developer</span><span>Polyphony Digital</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REAL DRIVING SIMULATOR</span><span class='detail-specs-h6'>- Award-winning series brings authentic motorsport to PS4.</span></h6>",
+            "<h6><span>ONLINE RACING COMPETITION</span><span class='detail-specs-h6'>- FIA-certified multiplayer challenges and tournaments.</span></h6>",
+            "<h6><span>140+ PREMIUM CARS</span><span class='detail-specs-h6'>- A collection of high-performance machines rendered with stunning detail.</span></h6>",
+            "<h6><span>27 TRACK LAYOUTS</span><span class='detail-specs-h6'>- Race across 19 real-world and legacy locations in diverse configurations.</span></h6>",
+            "<h6><span>BUILT FOR PS4</span><span class='detail-specs-h6'>- Optimized for speed, realism, and competitive thrill on the PlayStation 4.</span></h6>"
+        ],
+        tags: [
+            "gran turismo ps4",
+            "gt sport playstation",
+            "fia racing game",
+            "racing simulator ps4",
+            "ps4 driving game",
+            "sony racing simulator",
+            "online racing ps4",
+            "polyphony digital",
+            "playstation racing",
+            "gran turismo sport"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/gran-turismo-sport-split-screen-mAiwWIq8N9t6ChBpEWd3GsLV.html?page=1&pos=15&cur_pos=15&ads_per_page=24&ads_count=27&lid=1tqv-QYTWvn9xHgl&indexPosition=14",
+        youtubeReview: "https://www.youtube.com/embed/Dg7IlXnzl4M?si=ppE17nKB3L_l92S",
+        unboxingVideo: "https://www.youtube.com/embed/b2g-hb4CxWY?si=8o9ZDM896q5ciMhW",
+        prevPrice: 3000,
+        nowPrice: 2500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2266,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749141436/ps4-gran-turismo-7-2_uvtm5f.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749141436/ps4-gran-turismo-7_t7e1rn.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749141436/ps4-gran-turismo-7_t7e1rn.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749141436/ps4-gran-turismo-7-2_uvtm5f.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749141437/ps4-gran-turismo-7-3_xqtmbq.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Gran Turismo 7 - The Complete Driving Experience",
+        SubTitle: "Ps4 / Racing / Simulation",
+        category: "games",
+        subCategory: ["playstation", "racing", "simulation"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-gran-turismo-7",
+        description: "Gran Turismo 7 brings classic cars, iconic tracks, and deep customization back to the forefront in the ultimate PS4 racing experience.",
+        detailsDescription: "Gran Turismo 7 celebrates over two decades of racing heritage by combining the best elements of the series’ history with cutting-edge realism and customization. Drive legendary cars on iconic circuits, dive into the revived GT Simulation Mode, and test your skills in online FIA Championships and Sport Mode. Whether you're a racer, tuner, collector, or designer, GT7 delivers unparalleled variety and freedom. From immersive photo modes to in-depth driving school tutorials, this is the definitive way to ignite your passion for racing.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Sports, Simulation</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Developer</span><span>Polyphony Digital</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CELEBRATING 22 YEARS</span><span class='detail-specs-h6'>- Combines features from every major GT release.</span></h6>",
+            "<h6><span>GT SIMULATION MODE</span><span class='detail-specs-h6'>- Build your career from the ground up in classic mode.</span></h6>",
+            "<h6><span>ONLINE FIA CHAMPIONSHIPS</span><span class='detail-specs-h6'>- Race globally in officially sanctioned competitions.</span></h6>",
+            "<h6><span>DEEP CUSTOMIZATION</span><span class='detail-specs-h6'>- Fine-tune vehicles, create liveries, and optimize performance.</span></h6>",
+            "<h6><span>PHOTO & REPLAY MODES</span><span class='detail-specs-h6'>- Capture the beauty of cars and tracks with precision.</span></h6>"
+        ],
+        tags: [
+            "gt7 ps4",
+            "gran turismo 7 playstation",
+            "ps4 racing sim",
+            "f1 car tuner game",
+            "sony driving simulator",
+            "polyphony gran turismo",
+            "car collector game ps4",
+            "racing school ps4",
+            "custom cars ps4",
+            "gt7 simulation"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-gt-sports7/",
+        youtubeReview: "https://www.youtube.com/embed/Dg7IlXnzl4M?si=ppE17nKB3L_l92S",
+        unboxingVideo: "https://www.youtube.com/embed/b2g-hb4CxWY?si=8o9ZDM896q5ciMhW",
+        prevPrice: 5670,
+        nowPrice: 4999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2267,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749144332/ps4-horizon-zero-dawn-1_hecles.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749144333/ps4-horizon-zero-dawn_u5ij8e.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749144333/ps4-horizon-zero-dawn_u5ij8e.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749144332/ps4-horizon-zero-dawn-1_hecles.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749144330/ps4-horizon-zero-dawn-2_ptmhbh.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Horizon Zero Dawn – A Machine-Dominated World Unfolds",
+        SubTitle: "Ps4 / Open World / Adventure",
+        category: "games",
+        subCategory: ["playstation", "open-world", "rpg", "adventure"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-horizon-zero-dawn",
+        description: "Horizon Zero Dawn delivers a stunning open-world experience, where nature and technology collide in a gripping post-apocalyptic tale.",
+        detailsDescription: "Step into a lush, futuristic Earth as Aloy, a fierce hunter driven by curiosity and destiny. In Horizon Zero Dawn, uncover the mysteries of a forgotten civilization now ruled by awe-inspiring robotic creatures. Battle colossal machines with agility and strategy, using salvaged parts to craft powerful gear. Navigate sunken cities, dense forests, and snowy peaks while confronting the secrets behind Earth’s collapse and Aloy's origins. Developed by Guerrilla Games, this critically acclaimed title offers breathtaking visuals, fluid combat, and an unforgettable narrative.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Open World, Action RPG</span></h6>",
+            "<h6><span>Edition</span><span>Standard</span></h6>",
+            "<h6><span>Developer</span><span>Guerrilla Games</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>EXPANSIVE OPEN WORLD</span><span class='detail-specs-h6'>- Explore diverse terrains and ancient ruins in a vibrant future Earth.</span></h6>",
+            "<h6><span>INTENSE MACHINE BATTLES</span><span class='detail-specs-h6'>- Face overwhelming mechanical beasts with strategic, agile combat.</span></h6>",
+            "<h6><span>MYSTERIOUS NARRATIVE</span><span class='detail-specs-h6'>- Uncover ancient secrets that shaped the world and Aloy's destiny.</span></h6>",
+            "<h6><span>STUNNING VISUALS</span><span class='detail-specs-h6'>- Dynamic weather systems and full day/night cycle bring the world to life.</span></h6>",
+            "<h6><span>RICH CRAFTING SYSTEM</span><span class='detail-specs-h6'>- Scavenge parts to build weapons, traps, and gear to survive the wilds.</span></h6>"
+        ],
+        tags: [
+            "horizon ps4",
+            "zero dawn playstation",
+            "open world rpg ps4",
+            "post apocalyptic game",
+            "female lead adventure game",
+            "sony guerrilla games",
+            "machine combat ps4",
+            "ps4 aloy game",
+            "robot dinosaur game",
+            "horizon zero dawn kenya"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/horizon-zero-dawn-jSG2fHPs4Tuoao5tGA3JtLgX.html?page=1&pos=15&cur_pos=15&ads_per_page=24&ads_count=39&lid=8SIdn8rIPWMUFAkx&indexPosition=14",
+        youtubeReview: "https://www.youtube.com/embed/HrxIRk3q-ck?si=7bDK9Z_cfEYCCG-q",
+        unboxingVideo: "https://www.youtube.com/embed/yKLwbkbWQpc?si=Ll3mOeCyiHkdi_K2",
+        prevPrice: 4499,
+        nowPrice: 3000,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2268,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749146254/ps4-injustice-2-legendary-2_rctpqh.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749146258/ps4-injustice-2-legendary_m0kl97.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749146258/ps4-injustice-2-legendary_m0kl97.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749146254/ps4-injustice-2-legendary-2_rctpqh.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749146253/ps4-injustice-2-legendary-3_vkpqfo.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Injustice 2: Legendary Edition – The Ultimate DC Fighting Game",
+        SubTitle: "Ps4 / Fighting / Superhero",
+        category: "games",
+        subCategory: ["playstation", "fighting", "superhero", "action"],
+        variant: "ps4",
+        brand: "Sony",
+        name: "ps4-injustice-2-legendary",
+        description: "Unleash your inner hero or villain in the most expansive DC fighting experience ever with Injustice 2: Legendary Edition on PS4.",
+        detailsDescription: "Injustice 2: Legendary Edition puts the fate of Earth in your hands as you battle through an epic DC storyline packed with iconic characters and cinematic intensity. Customize heroes and villains with powerful gear and premiere skins, then shape how they fight and evolve. The Legendary Edition includes the base game and all DLC characters, such as Darkseid, Red Hood, Sub-Zero, Starfire, and more. Fight across evolving arenas in Gotham, Metropolis, and Atlantis as Batman and allies face off against those trying to restore Superman’s regime—while a new galactic threat looms. With the biggest DC roster yet and enhanced gameplay, this is the ultimate superhero fighting experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Fighting, Action</span></h6>",
+            "<h6><span>Edition</span><span>Legendary Edition</span></h6>",
+            "<h6><span>Publisher</span><span>Warner Bros. Interactive Entertainment</span></h6>",
+            "<h6><span>Includes</span><span>All DLC Characters + Premiere Skins</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CUSTOMIZABLE CHARACTERS</span><span class='detail-specs-h6'>- Personalize how each DC hero or villain looks, fights, and evolves with earned gear.</span></h6>",
+            "<h6><span>MASSIVE ROSTER</span><span class='detail-specs-h6'>- Fight as Batman, Superman, Supergirl, Aquaman, and DLC fighters like Sub-Zero and Black Manta.</span></h6>",
+            "<h6><span>CINEMATIC STORY</span><span class='detail-specs-h6'>- Follow the gripping continuation of the Injustice narrative post-Superman's fall.</span></h6>",
+            "<h6><span>EXPANSIVE ARENAS</span><span class='detail-specs-h6'>- Battle across iconic DC locations like Gotham City, Metropolis, and Atlantis.</span></h6>",
+            "<h6><span>PREMIERE SKINS</span><span class='detail-specs-h6'>- Unlock exclusive characters like Power Girl and Reverse-Flash with unique dialogue and visuals.</span></h6>"
+        ],
+        tags: [
+            "injustice 2 ps4",
+            "dc fighting game",
+            "batman vs superman game",
+            "legendary edition injustice",
+            "sub-zero injustice 2",
+            "ps4 superhero fighting",
+            "warner bros games",
+            "gotham city fighting",
+            "customize dc characters",
+            "injustice 2 kenya"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-injustice-2/",
+        youtubeReview: "https://www.youtube.com/embed/NcZhSxpR-WU?si=VvhRJzDYlFtQyZcU",
+        unboxingVideo: "https://www.youtube.com/embed/gibaQHGihCY?si=Q5xnKfUTSHvw_REE",
+        prevPrice: 3690,
+        nowPrice: 2999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2269,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749148293/ps4-mortal-kombat-11-2_znkr5x.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749148291/ps4-mortal-kombat-11_u3ptvg.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749148291/ps4-mortal-kombat-11_u3ptvg.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749148293/ps4-mortal-kombat-11-2_znkr5x.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749148292/ps4-mortal-kombat-11-3_kxijx7.png",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Mortal Kombat 11 – The Brutal Fighting Saga Continues",
+        SubTitle: "Ps4 / Fighting / Action",
+        category: "games",
+        subCategory: ["playstation", "fighting", "action", "cinematic"],
+        variant: "ps4",
+        brand: "Warner Bros.",
+        name: "ps4-mortal-kombat-11",
+        description: "Step into the ultimate fighting experience with Mortal Kombat 11 on PS4—featuring brutal battles, deep customization, and an epic new storyline.",
+        detailsDescription: "Mortal Kombat 11 delivers a gripping and cinematic continuation of the iconic franchise with its all-new time-bending story mode, an enhanced roster of 25 fighters, and deeper combat mechanics. Customize your favorite warriors with unique Skins, Gear, Special Moves, and even cinematic intros and outros using the innovative Custom Variation System. Battle across classic and new arenas, execute jaw-dropping Fatalities and Krushing Blows, and conquer challenges in Towers of Time. Whether you're a long-time Kombatant or new to the arena, MK11 offers a savage and cinematic fighting game experience like no other.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Fighting, Action</span></h6>",
+            "<h6><span>Modes</span><span>1-2 Players, Online Multiplayer</span></h6>",
+            "<h6><span>Characters</span><span>25+ including Geras, Scorpion, Sub-Zero</span></h6>",
+            "<h6><span>Developer</span><span>NetherRealm Studios</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STORY MODE</span><span class='detail-specs-h6'>- Continue the legendary saga with a time-warping narrative featuring Raiden, Kronika, and more.</span></h6>",
+            "<h6><span>CUSTOM CHARACTER VARIATIONS</span><span class='detail-specs-h6'>- Personalize fighters with unique Skins, Gear, and Special Abilities to match your style.</span></h6>",
+            "<h6><span>EXPANSIVE ROSTER</span><span class='detail-specs-h6'>- Play as new and returning fan-favorite characters like Skarlet, Sonya Blade, and Baraka.</span></h6>",
+            "<h6><span>TOWERS OF TIME</span><span class='detail-specs-h6'>- Test your skills through unique challenges and dynamic gameplay scenarios.</span></h6>",
+            "<h6><span>KRUSHING BLOWS & FATALITIES</span><span class='detail-specs-h6'>- Witness next-level violence and animation in signature MK style.</span></h6>"
+        ],
+        tags: [
+            "mortal kombat ps4",
+            "mk11 kenya",
+            "fatalities game",
+            "warner bros fighting",
+            "sonya blade scorpion",
+            "netherrealm studio games",
+            "mortal kombat storyline",
+            "brutal fighting games",
+            "ps4 2 player fighting",
+            "mk11 towers of time"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-mortal-kombat-11/",
+        youtubeReview: "https://www.youtube.com/embed/PAKxFFgVlqo?si=gni-loSmlGT1_ETC",
+        unboxingVideo: "https://www.youtube.com/embed/86D2q2Uvg9M?si=FS77gIgtet29vQCq",
+        prevPrice: 3680,
+        nowPrice: 2999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
     },
 
 
