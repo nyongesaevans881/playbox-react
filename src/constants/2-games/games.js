@@ -346,11 +346,11 @@ export const games = [
         ],
         carousels: [],
         storage: "",
-        dropURL: "https://www.phoneplacekenya.com/product/ps5-spiderman-miles-morales/#:~:text=PS5%20Spiderman%20Miles%20Morales%20price%20in%20Kenya%20is%20Kes%205%2C500.",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/spiderman-miles-morales-playstation-5-game-dMIms1KK4K79YtKXHrkIlIkT.html?page=1&pos=14&cur_pos=14&ads_per_page=24&ads_count=30&lid=0bCV34XS6JRr6Bpd&indexPosition=13",
         youtubeReview: "https://www.youtube.com/embed/_1iI9lEkP7I?si=JSzYAwPF5AGudYkL",
         unboxingVideo: "https://www.youtube.com/embed/qN3Y1DrMCX8?si=czarypLSVcD8pDr4",
-        prevPrice: 6000,
-        nowPrice: 5500,
+        prevPrice: 5500,
+        nowPrice: 4400,
         stock: 10,
         freeShipping: true,
         condition: "New",
@@ -4270,11 +4270,11 @@ export const games = [
             "shooter"
         ],
         carousels: ["indexGames", "displayGames"],
-        dropURL: "https://www.jumia.co.ke/sony-ea-sports-apex-legends-ps4-151816074.html?srsltid=AfmBOorcc2rDqf6PdJVUG81_gr8ZqfMuQYHhUr2FU9_sICYZPihnIgwd",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/apex-legends-ps4-cXVJpFcV1GXj8E6Uuhgq6JUa.html?page=1&pos=1&cur_pos=1&ads_per_page=3&ads_count=3&lid=7anLd9JF6eX7TRuT&indexPosition=0",
         youtubeReview: "https://www.youtube.com/embed/WolUV63AVgg?si=58HU072jfysLYyD-",
         unboxingVideo: "https://www.youtube.com/embed/KfCgnVpHv50?si=SM1kZU7dqqZC6ivi",
         prevPrice: 5400,
-        nowPrice: 1,
+        nowPrice: 5000,
         stock: 3,
         freeShipping: true,
         condition: "New",
@@ -5192,74 +5192,978 @@ export const games = [
         condition: "New",
         rating: 4.7
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+        productID: 2270,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749188892/name_ps4-mortal-kombat-11-ultimate-3_m6nbfw.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749188898/name_ps4-mortal-kombat-11-ultimate_avaxr7.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749188898/name_ps4-mortal-kombat-11-ultimate_avaxr7.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749188892/name_ps4-mortal-kombat-11-ultimate-3_m6nbfw.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749188893/name_ps4-mortal-kombat-11-ultimate-2_xgxfx2.png",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Mortal Kombat 11 Ultimate – Complete Brutality Unleashed",
+        SubTitle: "Ps4 / Fighting / Action",
+        category: "games",
+        subCategory: ["playstation", "fighting", "action", "complete-edition"],
+        variant: "ps4",
+        brand: "Warner Bros.",
+        name: "ps4-mortal-kombat-11-ultimate",
+        description: "Mortal Kombat 11 Ultimate delivers the most complete MK experience with all fighters, story content, and brutal finishing moves.",
+        detailsDescription: "Step into the ultimate Mortal Kombat experience with MK11 Ultimate for PS4. This edition features the full base game, all additional fighters including Kombat Pack 1, Kombat Pack 2, and the Aftermath Expansion. Fight with over 35 characters such as Rambo, Mileena, Rain, and RoboCop, each customizable with the advanced Character Variation System. Continue the dramatic saga in an all-new cinematic narrative that spans past and future. With enhanced visuals, Krushing Blows, Fatalities, and the Towers of Time challenge system, this is the definitive version for every Mortal Kombat fan.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Fighting, Action</span></h6>",
+            "<h6><span>Edition</span><span>Ultimate Edition (Base Game + All DLC)</span></h6>",
+            "<h6><span>Characters</span><span>35+ including Rambo, Mileena, Rain</span></h6>",
+            "<h6><span>Developer</span><span>NetherRealm Studios</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ALL-INCLUSIVE CONTENT</span><span class='detail-specs-h6'>- Includes MK11 base game, Kombat Pack 1, Kombat Pack 2, and the Aftermath Expansion.</span></h6>",
+            "<h6><span>CHARACTER VARIATION SYSTEM</span><span class='detail-specs-h6'>- Customize appearance, gear, and abilities with nearly infinite options.</span></h6>",
+            "<h6><span>CINEMATIC STORY</span><span class='detail-specs-h6'>- Battle through a gripping time-bending narrative spanning past and present.</span></h6>",
+            "<h6><span>EXPANDED ROSTER</span><span class='detail-specs-h6'>- Fight as new characters like Rambo, Rain, and Mileena alongside fan favorites.</span></h6>",
+            "<h6><span>TOWERS OF TIME</span><span class='detail-specs-h6'>- Conquer dynamic challenge modes to earn exclusive rewards.</span></h6>"
+        ],
+        tags: [
+            "mortal kombat 11 ultimate ps4",
+            "mk11 full edition",
+            "kombat pack kenya",
+            "rambo mortal kombat",
+            "mk11 aftermath expansion",
+            "warner bros fighting game",
+            "mileena rain ps4",
+            "brutal finishers mk",
+            "netherrealm studios game",
+            "ps4 complete edition fighting"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/mortal-kombat-11-ultimate-for-ps4-mk11-ultimate-aeqngxElGyZarbRkuW4jCNxN.html?page=1&pos=2&cur_pos=2&ads_per_page=23&ads_count=23&lid=N6OaUWxNVqY3-N5P&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/PAKxFFgVlqo?si=o7-ROhEprJUSLi-P",
+        unboxingVideo: "https://www.youtube.com/embed/86D2q2Uvg9M?si=JWe3822kbobSBmrB",
+        prevPrice: 3500,
+        nowPrice: 2999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2271,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040505/ps5-nba-2k24-2_i8ozcm.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749189603/ps4-nba-2k24-kobe-bryant-edition_csfbpa.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749189603/ps4-nba-2k24-kobe-bryant-edition_csfbpa.png", // NBA 2K24 PS5 image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040505/ps5-nba-2k24-2_i8ozcm.png", // NBA 2K24 PS5 image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1747040512/ps5-nba-2k24-3_yklmgy.png", // NBA 2K24 PS5 image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "NBA 2K24 Kobe Bryant Edition – Mamba Moments Come Alive",
+        SubTitle: "Ps4 / Sports / Basketball",
+        category: "games",
+        subCategory: ["playstation", "sports", "basketball", "career"],
+        variant: "ps4",
+        brand: "2K Sports",
+        name: "ps4-nba-2k24-kobe-bryant-edition",
+        description: "NBA 2K24 Kobe Bryant Edition honors the Black Mamba with immersive MAMBA MOMENTS™ and elite basketball gameplay across all modes.",
+        detailsDescription: "Step into greatness with NBA 2K24 Kobe Bryant Edition on PS4. Celebrate the legacy of one of the game's greatest icons through MAMBA MOMENTS™, letting players relive Kobe’s most iconic performances. Create your ultimate baller in MyCAREER and explore a scenic new coastal Neighborhood packed with quests and rivalries. Build a championship dream team in MyTEAM, combining past legends and current stars with a fresh salary cap mode. Manage franchises in MyNBA, and enjoy responsive gameplay with enhanced interior defense and fluid dribble controls. This edition delivers unmatched realism and tribute to a basketball legend.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Sports, Basketball</span></h6>",
+            "<h6><span>Edition</span><span>Kobe Bryant Edition</span></h6>",
+            "<h6><span>Game Modes</span><span>MyCAREER, MyTEAM, MyNBA, PLAY NOW</span></h6>",
+            "<h6><span>Legacy Feature</span><span>MAMBA MOMENTS™</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MAMBA MOMENTS™</span><span class='detail-specs-h6'>- Relive Kobe Bryant’s most legendary NBA games in cinematic fashion.</span></h6>",
+            "<h6><span>MYCAREER</span><span class='detail-specs-h6'>- Personalize your journey in a vibrant, cliffside Neighborhood with new quests and competition.</span></h6>",
+            "<h6><span>MYTEAM</span><span class='detail-specs-h6'>- Assemble dream squads with current stars and legends, featuring an all-new salary cap mode.</span></h6>",
+            "<h6><span>AUTHENTIC GAMEPLAY</span><span class='detail-specs-h6'>- Enhanced mechanics, defensive play, and dribbling systems for skill-based action.</span></h6>",
+            "<h6><span>MyNBA MODES</span><span class='detail-specs-h6'>- Become GM or Commissioner and lead your franchise through multiple basketball eras.</span></h6>"
+        ],
+        tags: [
+            "nba 2k24 ps4",
+            "kobe bryant edition kenya",
+            "mamba moments gameplay",
+            "basketball ps4 sports game",
+            "2k sports nba kenya",
+            "myteam mycareer nba",
+            "nba 2k24 mamba edition",
+            "ps4 basketball game",
+            "nba legends game",
+            "career mode basketball"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-nba-2k24-kobe-bryant-edition/",
+        youtubeReview: "https://www.youtube.com/embed/BD8rZIAxU7w?si=xmW65z-lCNM88l_P",
+        unboxingVideo: "https://www.youtube.com/embed/GITzbGIiNKg?si=1UQ8CjtZkxeFlAoL",
+        prevPrice: 5580,
+        nowPrice: 4499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2272,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749190267/ps4-need-for-speed-heat-2_zvgcvb.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749190268/ps4-need-for-speed-heat_mwjafv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749190268/ps4-need-for-speed-heat_mwjafv.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749190268/ps4-need-for-speed-heat-3_yjuav2.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749190267/ps4-need-for-speed-heat-2_zvgcvb.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Need for Speed Heat - Race by Day, Risk it All by Night",
+        SubTitle: "Ps4 / Racing / Open World",
+        category: "games",
+        subCategory: ["playstation", "racing", "open world", "car culture"],
+        variant: "ps4",
+        brand: "Electronic Arts",
+        name: "ps4-need-for-speed-heat",
+        description: "Burn through the streets in Need for Speed Heat, where risk equals reward in a dynamic open-world racing showdown.",
+        detailsDescription: "Need for Speed Heat on PS4 delivers the ultimate street racing experience with a day-versus-night dynamic, offering legal sanctioned races by day and dangerous underground competition by night. Customize your dream cars with deep tuning options, from engine upgrades to body kits and decals. Race through Palm City’s vibrant urban streets, uncovering shortcuts, secrets, and rival crews. Choose your path, rise through the ranks, and make a name in the underground scene. With thrilling multiplayer, a compelling story, and realistic visuals, Heat is the ultimate racer’s playground.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Open World</span></h6>",
+            "<h6><span>Racing Types</span><span>Circuit, Sprint, Drift, Drag</span></h6>",
+            "<h6><span>Car Roster</span><span>Includes Ferrari, Lamborghini, Porsche</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online races, global events</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OPEN WORLD EXPLORATION</span><span class='detail-specs-h6'>- Race through Palm City’s open streets, packed with shortcuts and hidden areas.</span></h6>",
+            "<h6><span>CAR CUSTOMIZATION</span><span class='detail-specs-h6'>- Tweak performance and visuals with extensive tuning and mods.</span></h6>",
+            "<h6><span>DAY & NIGHT CYCLE</span><span class='detail-specs-h6'>- Compete in legal races by day and risk it all in illicit nighttime events.</span></h6>",
+            "<h6><span>IMMERSIVE STORYLINE</span><span class='detail-specs-h6'>- Follow a story of rivalry, reputation, and street racing legacy.</span></h6>",
+            "<h6><span>COMPETITIVE MULTIPLAYER</span><span class='detail-specs-h6'>- Join global races, events, and leaderboards in real time.</span></h6>"
+        ],
+        tags: [
+            "nfs heat ps4",
+            "need for speed kenya",
+            "open world racing game",
+            "ps4 street racing game",
+            "ea racing game",
+            "car customization game",
+            "high speed racing ps4",
+            "palm city nfs",
+            "drift and drag racing",
+            "racing multiplayer ps4"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/need-for-speed-ps4-uX0aC9BCUQw1D0EPsAxf1QGr.html?page=1&pos=13&cur_pos=13&ads_per_page=24&ads_count=36&lid=1xc-qtlwG4xBjBiZ&indexPosition=12",
+        youtubeReview: "https://www.youtube.com/embed/SWN35tLhduQ?si=qd52chIYKp5eoMOe",
+        unboxingVideo: "https://www.youtube.com/embed/DMBmyJOmq68?si=RcaB1xMWeZzxv477",
+        prevPrice: 4200,
+        nowPrice: 3400,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2273,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749191510/ps4-need-for-speed-payback-2_vajvrr.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749191404/ps4-need-for-speed-payback_omxtcc.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749191404/ps4-need-for-speed-payback_omxtcc.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749191510/ps4-need-for-speed-payback-2_vajvrr.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749191511/ps4-need-for-speed-payback-3_ktcdf4.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Need for Speed Payback – High-Stakes Racing & Revenge",
+        SubTitle: "Ps4 / Racing / Open World",
+        category: "games",
+        subCategory: ["playstation", "racing", "action", "open world"],
+        variant: "ps4",
+        brand: "Electronic Arts",
+        name: "ps4-need-for-speed-payback",
+        description: "Race, wreck, and retaliate in Need for Speed Payback, where vengeance fuels every turn and nitrous-fueled escape.",
+        detailsDescription: "Need for Speed Payback delivers cinematic action mixed with classic underground street racing. Set in Fortune Valley, players switch between three unique characters—Tyler the Racer, Mac the Showman, and Jess the Wheelman—in a quest for revenge against The House, a cartel that controls the city’s underworld. Featuring thrilling heist missions, explosive set pieces, and deep car customization, Payback blends blockbuster storytelling with high-octane gameplay. Tackle intense off-road, drag, and circuit races while building your perfect ride and dominating the streets.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Action, Open World</span></h6>",
+            "<h6><span>Main Characters</span><span>Tyler, Mac, Jess</span></h6>",
+            "<h6><span>Car Classes</span><span>Race, Drift, Off-Road, Drag, Runner</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online & Offline modes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BLOCKBUSTER STORYLINE</span><span class='detail-specs-h6'>- Engage in high-stakes missions and take down the city’s elite cartel.</span></h6>",
+            "<h6><span>CHARACTER SWITCHING</span><span class='detail-specs-h6'>- Play as three distinct drivers with unique skills and stories.</span></h6>",
+            "<h6><span>DEEP CUSTOMIZATION</span><span class='detail-specs-h6'>- Upgrade every part of your car to gain a competitive edge.</span></h6>",
+            "<h6><span>OPEN WORLD FREEDOM</span><span class='detail-specs-h6'>- Roam the vast Fortune Valley and uncover hidden challenges and stashes.</span></h6>",
+            "<h6><span>HIGH-SPEED ACTION</span><span class='detail-specs-h6'>- Experience thrilling pursuits, heists, and cinematic crashes.</span></h6>"
+        ],
+        tags: [
+            "need for speed payback ps4",
+            "nfs revenge racing",
+            "open world racing game",
+            "fortune valley ps4",
+            "street racing kenya",
+            "ps4 action racing",
+            "custom car builder",
+            "ea racing games",
+            "ps4 nfs payback",
+            "underground racing game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-need-for-speed-playback/",
+        youtubeReview: "https://www.youtube.com/embed/otsod2n-JaE?si=rImM_Q6xtWlmFvtA",
+        unboxingVideo: "https://www.youtube.com/embed/9U2MRfv8HQg?si=25uL8t8gVHXqvmmU",
+        prevPrice: 4250,
+        nowPrice: 3500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2274,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193089/ps4-need-for-speed-rivals-2_e9r0vv.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193059/ps4-need-for-speed-rivals_o9lu6w.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193059/ps4-need-for-speed-rivals_o9lu6w.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193089/ps4-need-for-speed-rivals-2_e9r0vv.png",
+                color: "ps4"
+            },
+        ],
+        defaultColor: "ps4",
+        Title: "Need for Speed Rivals – Dominate as Racer or Cop",
+        SubTitle: "Ps4 / Racing / Open World",
+        category: "games",
+        subCategory: ["playstation", "racing", "action", "open world"],
+        variant: "ps4",
+        brand: "Electronic Arts",
+        name: "ps4-need-for-speed-rivals",
+        description: "Experience the ultimate rivalry in Need for Speed Rivals, where you can switch between racer and cop for non-stop high-speed battles.",
+        detailsDescription: "Need for Speed Rivals pits racers and cops in a fast-paced battle for dominance. Set in Redview County, you’ll choose your path—burn rubber and evade the law as a racer, or bring justice at 200 km/h as a cop. The game features AllDrive, a revolutionary system that seamlessly blends single and multiplayer gameplay. Unlock powerful tech, take on risky races, or enforce the rules in adrenaline-pumping pursuits. With dynamic weather and stunning graphics, Rivals delivers an immersive and unpredictable open-road experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Action, Open World</span></h6>",
+            "<h6><span>Roles</span><span>Racer or Cop</span></h6>",
+            "<h6><span>Multiplayer</span><span>AllDrive online integration</span></h6>",
+            "<h6><span>Location</span><span>Redview County</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>RACER VS COP DUALITY</span><span class='detail-specs-h6'>- Choose your side and experience unique missions and tech per faction.</span></h6>",
+            "<h6><span>ALLDRIVE SYSTEM</span><span class='detail-specs-h6'>- Seamless transition between single and multiplayer racing with friends online.</span></h6>",
+            "<h6><span>WEAPONIZED DRIVING</span><span class='detail-specs-h6'>- Use spike strips, EMPs, roadblocks, and more to take down rivals.</span></h6>",
+            "<h6><span>DYNAMIC WEATHER</span><span class='detail-specs-h6'>- Race through ever-changing weather for intense challenges and realism.</span></h6>",
+            "<h6><span>INTENSE PROGRESSION</span><span class='detail-specs-h6'>- Level up, unlock vehicles, and customize performance based on your role.</span></h6>"
+        ],
+        tags: [
+            "need for speed rivals ps4",
+            "cops vs racers ps4",
+            "open world racing",
+            "redview county game",
+            "ps4 racing action",
+            "ea games ps4",
+            "nfs rivals multiplayer",
+            "dynamic weather game",
+            "racer cop game ps4",
+            "car chase ps4 game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/rivals-need-for-speed-ps4-2IUME4FX55r1tSc3RIcdXn1I.html?page=1&pos=2&cur_pos=2&ads_per_page=24&ads_count=24&lid=PVsbxQgh6v_Wkg-h&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/oE0s9lgXL-s?si=0Bfd9i_cPZmhSTYQ",
+        unboxingVideo: "https://www.youtube.com/embed/YLMAvMZlCMY?si=1J8dZzi1YPAzlteT",
+        prevPrice: 3500,
+        nowPrice: 2999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2275,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193996/ps4-red-dead-redemption-2-2_gxk3fr.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193996/ps4-red-dead-redemption-2_xwqvtu.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193996/ps4-red-dead-redemption-2_xwqvtu.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193996/ps4-red-dead-redemption-2-2_gxk3fr.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749193996/ps4-red-dead-redemption-2-3_e5vwzl.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Red Dead Redemption 2 – Live the Outlaw Life",
+        SubTitle: "Ps4 / Action / Open World",
+        category: "games",
+        subCategory: ["playstation", "western", "action", "open world"],
+        variant: "ps4",
+        brand: "Rockstar Games",
+        name: "ps4-red-dead-redemption-2",
+        description: "Step into the boots of Arthur Morgan in a gripping outlaw saga set in the dying days of the Wild West.",
+        detailsDescription: "Red Dead Redemption 2 delivers an immersive story-driven experience from the creators of Grand Theft Auto V. As Arthur Morgan, enforcer of the Van der Linde gang, players must navigate the crumbling honor of outlaws in a stunning 19th-century American frontier. Every choice matters—from gunfights to how you treat your horse. Explore vast wilderness, small towns, and lively camps, with every detail crafted for realism. Build relationships, engage in dynamic conversations, hunt, fish, ride, rob, and survive in Rockstar's most intricate open world yet.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Western, Action, Open World</span></h6>",
+            "<h6><span>Protagonist</span><span>Arthur Morgan</span></h6>",
+            "<h6><span>Studio</span><span>Rockstar Games</span></h6>",
+            "<h6><span>Game World</span><span>Late 1800s America</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>VAST OPEN WORLD</span><span class='detail-specs-h6'>- Explore mountain trails, swamps, towns, and frontier wilderness.</span></h6>",
+            "<h6><span>IMMERSIVE STORYLINE</span><span class='detail-specs-h6'>- Follow Arthur’s internal conflict as loyalty and morality collide.</span></h6>",
+            "<h6><span>DEEP CHARACTER INTERACTION</span><span class='detail-specs-h6'>- Speak, threaten, defuse, or befriend NPCs with dynamic consequences.</span></h6>",
+            "<h6><span>HORSE COMPANIONSHIP</span><span class='detail-specs-h6'>- Form a bond with your horse to unlock new skills and trust.</span></h6>",
+            "<h6><span>REALISTIC MECHANICS</span><span class='detail-specs-h6'>- From weapon wear to weather systems, everything affects gameplay.</span></h6>"
+        ],
+        tags: [
+            "red dead redemption 2 ps4",
+            "rdr2 rockstar ps4",
+            "open world western",
+            "arthur morgan story",
+            "van der linde gang",
+            "outlaw game ps4",
+            "horse riding ps4",
+            "rdr2 open world",
+            "cowboy life game",
+            "epic action story ps4"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-red-dead-redemption-2/",
+        youtubeReview: "https://www.youtube.com/embed/yoFvVAMcwOE?si=81AEVrtXH-R5060N",
+        unboxingVideo: "https://www.youtube.com/embed/HNmhbnCZK2s?si=bnHoNnZI9gEl9PW1",
+        prevPrice: 3980,
+        nowPrice: 3499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2276,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749194711/ps4-spider-man-miles-morales-2_ozjhzv.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749194711/ps4-spider-man-miles-morales_h560r5.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749194711/ps4-spider-man-miles-morales_h560r5.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749194711/ps4-spider-man-miles-morales-2_ozjhzv.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749194711/ps4-spider-man-miles-morales-3_bx37vv.png",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Spider-Man: Miles Morales – Embrace the Mask",
+        SubTitle: "Ps4 / Action / Open World",
+        category: "games",
+        subCategory: ["playstation", "action", "superhero", "open world"],
+        variant: "ps4",
+        brand: "PlayStation Studios",
+        name: "ps4-spider-man-miles-morales",
+        description: "Step into the Spider-Verse as Miles Morales and defend Marvel’s New York in a gripping, heroic standalone story.",
+        detailsDescription: "In Marvel’s Spider-Man: Miles Morales, teenager Miles takes on the mantle of Spider-Man as he adjusts to life in a new neighborhood. With the city under threat from a ruthless energy corporation and a high-tech criminal army, Miles must master his explosive bio-electric venom powers, invisibility, and agile combat to protect those he loves. Swing through snow-covered streets, engage in cinematic combat, and uncover what it means to be a true hero. A powerful continuation of the Spider-Man universe filled with heart, action, and unforgettable storytelling.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Superhero, Open World</span></h6>",
+            "<h6><span>Protagonist</span><span>Miles Morales</span></h6>",
+            "<h6><span>Developer</span><span>Insomniac Games</span></h6>",
+            "<h6><span>Visual Style</span><span>Snowy, Urban, Cinematic</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>EXPLOSIVE ABILITIES</span><span class='detail-specs-h6'>- Master unique powers like venom blasts and invisibility that set Miles apart from Peter Parker.</span></h6>",
+            "<h6><span>STORY-DRIVEN ADVENTURE</span><span class='detail-specs-h6'>- Follow Miles on a personal journey of growth, identity, and heroism.</span></h6>",
+            "<h6><span>VIBRANT OPEN WORLD</span><span class='detail-specs-h6'>- Explore a snowy, bustling Harlem and greater New York with seamless traversal and rich detail.</span></h6>",
+            "<h6><span>HIGH-STAKES CONFLICT</span><span class='detail-specs-h6'>- Battle a corrupt energy corporation and a militant criminal faction for control of the city.</span></h6>",
+            "<h6><span>ICONIC SPIDER-MAN EXPERIENCE</span><span class='detail-specs-h6'>- Web-slinging, combat, and emotional storytelling elevate this superhero epic.</span></h6>"
+        ],
+        tags: [
+            "spider-man miles morales ps4",
+            "marvel spider-man game",
+            "miles morales playstation",
+            "superhero ps4 open world",
+            "venom powers spider-man",
+            "snowy new york ps4",
+            "insomniac games spider-man",
+            "miles morales standalone game",
+            "heroic spider-man story",
+            "ps4 marvel action"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "http://jiji.co.ke/nairobi-central/videogames/marvels-spider-man-miles-morales-ps4-game-brand-new-rq6fEJOc8LkHAH9qv4orx6vk.html?page=1&pos=3&cur_pos=3&ads_per_page=24&ads_count=30&lid=0bCV34XS6JRr6Bpd&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/_1iI9lEkP7I?si=8-ajP_CTlJL3ECRZ",
+        unboxingVideo: "https://www.youtube.com/embed/oKjMJEhkMCw?si=D6Mff6VM4dIwF3t-",
+        prevPrice: 5000,
+        nowPrice: 3999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2277,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749195737/ps4-the-crew-2-2_rlxuwm.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749195736/ps4-the-crew-2_kharaj.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749195736/ps4-the-crew-2_kharaj.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749195737/ps4-the-crew-2-2_rlxuwm.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749195739/ps4-the-crew-2-3_qo0bw8.png",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "The Crew 2 - Rule the Land, Sea & Sky",
+        SubTitle: "Ps4 / Racing / Open World",
+        category: "games",
+        subCategory: ["playstation", "racing", "open world", "multiplayer"],
+        variant: "ps4",
+        brand: "Ubisoft",
+        name: "ps4-the-crew-2",
+        description: "From coast to coast, dominate the streets, skies, and waves with the ultimate motorsports fantasy in The Crew 2.",
+        detailsDescription: "In The Crew 2, take on the entire US motorsports scene with total freedom. Race across America in iconic vehicles—from cars and bikes to boats and planes—through cities, deserts, rivers, and skies. Join four diverse motorsport families: street racing, pro racing, off-road, and freestyle. Discover unique disciplines, earn new rides, customize and show off your style, and conquer challenges. Break records, create viral moments, and leave your legacy across an open-world America built for racing fanatics. With single-player and multiplayer options, The Crew 2 delivers high-octane fun across every terrain imaginable.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Open World, Multiplayer</span></h6>",
+            "<h6><span>Developer</span><span>Ivory Tower</span></h6>",
+            "<h6><span>Publisher</span><span>Ubisoft</span></h6>",
+            "<h6><span>Rating</span><span>PEGI 12</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>LAND, SEA, AND SKY</span><span class='detail-specs-h6'>- Race in cars, boats, motorcycles, buggies, and planes across an open-world USA.</span></h6>",
+            "<h6><span>FREEDOM TO EXPLORE</span><span class='detail-specs-h6'>- Discover diverse regions, from city streets to open skies, each filled with challenges and events.</span></h6>",
+            "<h6><span>CUSTOMIZE AND COMPETE</span><span class='detail-specs-h6'>- Build your garage, upgrade your rides, and show off your unique style.</span></h6>",
+            "<h6><span>JOIN A MOTORSPORT FAMILY</span><span class='detail-specs-h6'>- Align with street racers, pros, off-roaders, or freestylers to shape your racing career.</span></h6>",
+            "<h6><span>SHARE YOUR LEGACY</span><span class='detail-specs-h6'>- Record, share, and challenge the community with your most thrilling moments and achievements.</span></h6>"
+        ],
+        tags: [
+            "the crew 2 ps4",
+            "open world racing game",
+            "ubisoft motorsport game",
+            "ps4 car boat plane racing",
+            "crew 2 street racing",
+            "multiplayer racing game ps4",
+            "ivory tower the crew",
+            "us motorsports ps4 game",
+            "freestyle offroad crew 2",
+            "ps4 racing simulator"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps4-crew-2-bdfLQvvD4BQ9SaBL7nI5iO6R.html?page=1&pos=7&cur_pos=7&ads_per_page=20&ads_count=20&lid=hB_lyzU93jjKYOsd&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/mEyzwFazXkk?si=n9l2q9HEqbQ_4qXc",
+        unboxingVideo: "https://www.youtube.com/embed/79-3D3fYVZc?si=lTN2gJSL_xk4NO1t",
+        prevPrice: 3200,
+        nowPrice: 2850,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2278,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749196899/ps4-the-last-of-us-part-ii-2_z0d4uz.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749196899/ps4-the-last-of-us-part-ii_eu2bux.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749196899/ps4-the-last-of-us-part-ii_eu2bux.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749196899/ps4-the-last-of-us-part-ii-2_z0d4uz.jpg",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749196901/ps4-the-last-of-us-part-ii-3_bcy0uh.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "The Last of Us Part II – Vengeance is Personal",
+        SubTitle: "Ps4 / Action / Survival",
+        category: "games",
+        subCategory: ["playstation", "action", "survival", "stealth"],
+        variant: "ps4",
+        brand: "Naughty Dog",
+        name: "ps4-the-last-of-us-part-ii",
+        description: "In a post-pandemic world, Ellie’s journey is one of revenge, loss, and redemption in a game that redefines emotional storytelling.",
+        detailsDescription: "Set five years after the original, The Last of Us Part II sees Ellie and Joel living in relative peace until a violent event sends Ellie on a path of vengeance. What follows is a gripping emotional narrative that blurs the lines of morality and justice. Navigate a hauntingly beautiful yet hostile world, from serene wilderness to ruined cities, encountering new threats and emotional depth at every turn. Engage in brutal melee combat, tense stealth, and survival action, all enhanced by Naughty Dog’s most advanced engine. This is Ellie’s story—harrowing, intense, and unforgettable.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Action, Survival, Stealth</span></h6>",
+            "<h6><span>Developer</span><span>Naughty Dog</span></h6>",
+            "<h6><span>Publisher</span><span>Sony Interactive Entertainment</span></h6>",
+            "<h6><span>Rating</span><span>PEGI 18</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>EMOTIONAL STORYLINE</span><span class='detail-specs-h6'>- Confront complex moral dilemmas as Ellie faces the consequences of her quest for justice.</span></h6>",
+            "<h6><span>INTENSE ACTION-SURVIVAL</span><span class='detail-specs-h6'>- Experience refined melee combat, dynamic stealth, and resourceful crafting systems.</span></h6>",
+            "<h6><span>IMMERSIVE WORLD</span><span class='detail-specs-h6'>- Journey through contrasting settings from peaceful forests to decaying cityscapes of Seattle.</span></h6>",
+            "<h6><span>REALISTIC DETAIL</span><span class='detail-specs-h6'>- Powered by Naughty Dog’s advanced engine, delivering lifelike environments and animations.</span></h6>",
+            "<h6><span>CUSTOMIZATION & UPGRADES</span><span class='detail-specs-h6'>- Personalize Ellie’s abilities to match your play style through weapons, skills, and gear.</span></h6>"
+        ],
+        tags: [
+            "the last of us part ii ps4",
+            "ellie joel revenge game",
+            "ps4 survival action",
+            "naughty dog post apocalyptic",
+            "emotional story ps4 game",
+            "stealth combat game",
+            "sony exclusive ps4",
+            "tense melee ps4",
+            "story-driven adventure",
+            "ps4 top rated narrative game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ps4-last-of-us-part-ii-fKlhyvFnlk6gdlBpeCCrYylg.html?page=1&pos=7&cur_pos=7&ads_per_page=11&ads_count=11&lid=A3to4pui-9aTLjrl&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/QwreMeXlFoY?si=UQXSEXJXsbmDh2lF",
+        unboxingVideo: "https://www.youtube.com/embed/btmN-bWwv0A?si=P39rzVFftHEHiYNS",
+        prevPrice: 4500,
+        nowPrice: 3999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2279,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749197637/ps4-the-witcher-3-wild-hunt-3_jnjblo.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749197634/ps4-the-witcher-3-wild-hunt_fmwgrv.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749197634/ps4-the-witcher-3-wild-hunt_fmwgrv.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749197637/ps4-the-witcher-3-wild-hunt-3_jnjblo.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749197638/ps4-the-witcher-3-wild-hunt-2_lfhwl2.png",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "The Witcher 3: Wild Hunt – A Monster Slayer’s Journey",
+        SubTitle: "Ps4 / Open World / Fantasy",
+        category: "games",
+        subCategory: ["playstation", "open world", "rpg", "fantasy"],
+        variant: "ps4",
+        brand: "CD Projekt RED",
+        name: "ps4-the-witcher-3-wild-hunt",
+        description: "Step into the boots of Geralt of Rivia, a legendary monster hunter, and traverse a massive open world in this critically acclaimed dark fantasy RPG.",
+        detailsDescription: "In *The Witcher 3: Wild Hunt*, you are Geralt of Rivia, a mercenary monster slayer on a quest to find the Child of Prophecy — a powerful entity that may alter the fate of the world. Explore a vast, war-torn continent filled with twisted beasts, political intrigue, and deep personal stories. With over 150 hours of gameplay including the acclaimed expansions *Hearts of Stone* and *Blood and Wine*, experience a branching narrative where your choices matter. Sail, ride, fight, and make your mark in a breathtaking world teeming with life, danger, and magic.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Open World, RPG, Fantasy</span></h6>",
+            "<h6><span>Developer</span><span>CD Projekt RED</span></h6>",
+            "<h6><span>Publisher</span><span>CD Projekt</span></h6>",
+            "<h6><span>Rating</span><span>PEGI 18</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>IMMENSE OPEN WORLD</span><span class='detail-specs-h6'>- Explore Novigrad, Skellige, and No Man’s Land with freedom by land or sea.</span></h6>",
+            "<h6><span>HUNDREDS OF HOURS</span><span class='detail-specs-h6'>- Over 100 hours of core and side content, plus 50+ more with expansions.</span></h6>",
+            "<h6><span>MEANINGFUL CHOICES</span><span class='detail-specs-h6'>- Branching narratives and multiple endings shaped by your actions.</span></h6>",
+            "<h6><span>COMPLETE EDITION</span><span class='detail-specs-h6'>- Includes Hearts of Stone and Blood & Wine expansions.</span></h6>",
+            "<h6><span>MASTERFUL RPG COMBAT</span><span class='detail-specs-h6'>- Utilize potions, magic, and swordplay to battle humans and monsters alike.</span></h6>"
+        ],
+        tags: [
+            "the witcher 3 wild hunt ps4",
+            "geralt of rivia game",
+            "open world rpg fantasy",
+            "cd projekt red game",
+            "ps4 story rich game",
+            "monster hunter rpg",
+            "the witcher complete edition",
+            "blood and wine expansion",
+            "hearts of stone ps4",
+            "massive open world game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/the-witcher-3-ps4-7LdcZW3MWxHatLLoKze3QbVu.html?page=1&pos=7&cur_pos=7&ads_per_page=13&ads_count=13&lid=GSO3o3VO7JQXeCE2&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/VpevTNRK-_M?si=MI3bLn-PvLAYejJu",
+        unboxingVideo: "https://www.youtube.com/embed/PNqmGT9mkOg?si=stLqOIWGhyxST2ws",
+        prevPrice: 4500,
+        nowPrice: 3500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2280,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749198433/ps4-watch-dogs-legion-2_idpqcj.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749198428/ps4-watch-dogs-legion_vkprwn.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749198428/ps4-watch-dogs-legion_vkprwn.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749198433/ps4-watch-dogs-legion-2_idpqcj.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749198432/ps4-watch-dogs-legion-3_zzkvwt.jpg",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "Watch Dogs: Legion – Take Back London",
+        SubTitle: "Ps4 / Open World / Hacktivist",
+        category: "games",
+        subCategory: ["playstation", "open world", "action", "hacktivist"],
+        variant: "ps4",
+        brand: "Ubisoft",
+        name: "ps4-watch-dogs-legion",
+        description: "Hack, infiltrate, and recruit anyone you see in a futuristic London where technology is both your weapon and your freedom.",
+        detailsDescription: "*Watch Dogs: Legion* challenges you to reclaim a dystopian London from oppressive powers by building a resistance using anyone you encounter. Each recruitable character has a unique background and abilities that can change your approach to every mission. Use stealth, hacking, and tactical combat as you explore iconic locations and manipulate the city’s infrastructure. Whether hijacking drones, deploying spider-bots, or cloaking in augmented reality, your resistance will need all the tech it can get. Play solo or team up online for co-op missions and endgame challenges in this ambitious open-world experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Open World, Action, Hacking</span></h6>",
+            "<h6><span>Developer</span><span>Ubisoft Toronto</span></h6>",
+            "<h6><span>Publisher</span><span>Ubisoft</span></h6>",
+            "<h6><span>Rating</span><span>PEGI 18</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PLAY AS ANYONE</span><span class='detail-specs-h6'>- Every person in the city can be recruited with their own backstory and skills.</span></h6>",
+            "<h6><span>OPEN-WORLD LONDON</span><span class='detail-specs-h6'>- Explore iconic landmarks in a futuristic, tech-powered city.</span></h6>",
+            "<h6><span>TECH-POWERED COMBAT</span><span class='detail-specs-h6'>- Hack, hijack, and use drones, spider-bots, and cloaking tech in real-time gameplay.</span></h6>",
+            "<h6><span>CO-OP MULTIPLAYER</span><span class='detail-specs-h6'>- Join friends online for cooperative missions and tactical endgame content.</span></h6>",
+            "<h6><span>CUSTOM RESISTANCE</span><span class='detail-specs-h6'>- Build your own diverse team and take the fight to those in control.</span></h6>"
+        ],
+        tags: [
+            "watch dogs legion ps4",
+            "hack london game",
+            "ps4 ubisoft action",
+            "play as anyone game",
+            "open world resistance",
+            "watch dogs series",
+            "legion ps4 sandbox",
+            "tech hacking ps4 game",
+            "futuristic london game",
+            "watch dogs legion gameplay"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://fortresselectronics.co.ke/product/ps4-watch-dog-leggion/",
+        youtubeReview: "https://www.youtube.com/embed/HgAG2pw13hc?si=WjZ59WSM5pVDvQm3",
+        unboxingVideo: "https://www.youtube.com/embed/vRw5QqiBQVg?si=eMYfhvD3OFkHke9r",
+        prevPrice: 3790,
+        nowPrice: 2999,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2281,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199276/ps4-wrc-10-2_rppbfh.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199275/ps4-wrc-10_x86vqm.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199275/ps4-wrc-10_x86vqm.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199276/ps4-wrc-10-2_rppbfh.png",
+                color: "ps4"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199276/ps4-wrc-10-3_gmhvpy.png",
+                color: "ps4"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "WRC 10 – Celebrate 50 Years of Rally",
+        SubTitle: "Racing / Simulation / Rally",
+        category: "games",
+        subCategory: ["playstation", "racing", "simulation", "rally"],
+        variant: "ps4",
+        brand: "Nacon",
+        name: "ps4-wrc-10",
+        description: "Experience 50 years of rally racing with upgraded realism, immersive physics, and competitive online modes.",
+        detailsDescription: "*WRC 10* commemorates the 50th anniversary of the World Rally Championship with a special edition packed with content. Relive historic moments with 19 legendary events and enjoy a revamped Career Mode hailed as one of the most immersive in any racing game. Customize your own team using the livery editor, and feel the thrill of rally driving with ultra-realistic physics that enhance aerodynamics, braking, and surface reactions. Compete globally in daily and weekly challenges, or host custom leagues via Clubs. This is the most complete rally simulator to date.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Racing, Simulation, Rally</span></h6>",
+            "<h6><span>Developer</span><span>Kylotonn</span></h6>",
+            "<h6><span>Publisher</span><span>Nacon</span></h6>",
+            "<h6><span>Rating</span><span>PEGI 3</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HISTORY MODE</span><span class='detail-specs-h6'>- Race through 19 legendary rally moments from 1973 to today, adapted to their respective eras.</span></h6>",
+            "<h6><span>ENHANCED CAREER MODE</span><span class='detail-specs-h6'>- Create your own team, use the livery editor, and climb the rally ranks.</span></h6>",
+            "<h6><span>REALISTIC PHYSICS</span><span class='detail-specs-h6'>- Experience better handling with improved aerodynamics, turbo, and braking on every surface.</span></h6>",
+            "<h6><span>COMPETITIVE eSPORTS</span><span class='detail-specs-h6'>- Join daily/weekly challenges or form Clubs to compete with friends and rivals.</span></h6>",
+            "<h6><span>IMMERSIVE SOUND DESIGN</span><span class='detail-specs-h6'>- Upgraded audio deepens the realism of rally stages and vehicles.</span></h6>"
+        ],
+        tags: [
+            "wrc 10 ps4",
+            "ps4 rally game",
+            "racing simulator 2021",
+            "wrc 50th anniversary",
+            "custom rally team",
+            "livery editor game",
+            "wrc esports ps4",
+            "historic rally mode",
+            "realistic racing ps4",
+            "nacon rally game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/wrc-10-ps4-video-game-A7vTKxRky5mT0P8iHmXD4Wzu.html?page=1&pos=5&cur_pos=5&ads_per_page=24&ads_count=31&lid=V9Ep_m-CEYVISKev&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/LmFzf1z4WwY?si=z8X9Fdl4T5FDMf_r",
+        unboxingVideo: "https://www.youtube.com/embed/PYxTf8kVpXI?si=6BTBg0vxkiV0ia86",
+        prevPrice: 4000,
+        nowPrice: 3500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2282,
+        platform: "PlayStation",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741160483/play-station-icon_xywilc.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992017/ps5-wwe-2k24-2_kdhhe2.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199871/ps4-wwe-2k24_1_wfy4zq.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749199871/ps4-wwe-2k24_1_wfy4zq.png", // PS5 Image 1
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992017/ps5-wwe-2k24-2_kdhhe2.png", // PS5 Image 2
+                color: "ps5"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1746992015/ps5-wwe-2k24-3_t5idro.jpg", // PS5 Image 3
+                color: "ps5"
+            }
+        ],
+        defaultColor: "ps4",
+        Title: "WWE 2K24 – WrestleMania Legacy Reborn",
+        SubTitle: "Ps4 / Sports / Wrestling",
+        category: "games",
+        subCategory: ["playstation", "sports", "wrestling", "simulation"],
+        variant: "ps4",
+        brand: "2K Sports",
+        name: "ps4-wwe-2k24",
+        description: "Relive 40 years of WrestleMania in WWE 2K24 with immersive match types, deep career modes, and the most legendary roster yet.",
+        detailsDescription: "*WWE 2K24* delivers the ultimate wrestling experience on PS4. Dive into a robust roster of WWE legends and rising stars in dynamic match types including Ambulance and Guest Referee matches. Celebrate four decades of WrestleMania in the Showcase of the Immortals, or shape your own legend in MyRISE career mode. Take charge behind the scenes in MyGM, or manage rivalries and title bouts in an enhanced Universe mode. Build your dream faction and climb the online leaderboards in MyFACTION. Whether you're in the spotlight or calling the shots, WWE 2K24 is your ticket to wrestling greatness.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>PlayStation 4</span></h6>",
+            "<h6><span>Genre</span><span>Wrestling, Sports, Simulation</span></h6>",
+            "<h6><span>Developer</span><span>Visual Concepts</span></h6>",
+            "<h6><span>Publisher</span><span>2K Sports</span></h6>",
+            "<h6><span>Rating</span><span>Teen</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SHOWCASE OF THE IMMORTALS</span><span class='detail-specs-h6'>- Celebrate 40 years of WrestleMania by reliving and rewriting legendary matches in WWE history.</span></h6>",
+            "<h6><span>VARIED MATCH PLAY</span><span class='detail-specs-h6'>- Experience chaotic brawls and unique match types like Ambulance, Gauntlet, and Guest Referee.</span></h6>",
+            "<h6><span>MYRISE & MYGM</span><span class='detail-specs-h6'>- Compete in personal story arcs or manage rosters and show drama from behind the scenes.</span></h6>",
+            "<h6><span>MYFACTION MODE</span><span class='detail-specs-h6'>- Assemble your ultimate WWE team and dominate online in ranked quickplay matches.</span></h6>",
+            "<h6><span>UNIVERSE MODE</span><span class='detail-specs-h6'>- Control the WWE landscape with evolving rivalries, show customization, and double-title bouts.</span></h6>"
+        ],
+        tags: [
+            "wwe 2k24 ps4",
+            "wrestling game 2024",
+            "wrestlemania showcase",
+            "myfaction ps4",
+            "wwe simulation game",
+            "wwe legends game",
+            "wwe universe mode",
+            "wwe 2k career mode",
+            "2k sports wrestling",
+            "ps4 wrestling simulator"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/wwe-2k24-ps4-game-w2k24-new-Ceg8dUAEMR4sw3brVpkZynsM.html?page=1&pos=1&cur_pos=1&ads_per_page=9&ads_count=9&lid=gBvFgs8LKmQ1Rylz&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/b7e-V-tY-zc?si=C1cb86SNprRsvDfx",
+        unboxingVideo: "https://www.youtube.com/embed/DEi36HXQvRc?si=_xgEXD5SEz2_MIXo",
+        prevPrice: 6500,
+        nowPrice: 4500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //-------------------- XBOX GAMES
 
     {
-        productID: 2003,
+        productID: 2501,
         platform: "Xbox",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
         playboxRating: "Classic",
@@ -5282,9 +6186,9 @@ export const games = [
         ],
         defaultColor: "standard",
         Title: "EA Sports FC25 Xbox Series X & XBox One",
-        SubTitle: "FC25 Xbox",
+        SubTitle: "Xbox / Sports / Football",
         category: "games",
-        subCategory: "xbox",
+        subCategory: ["xbox", "sports", "football", "simulation", "xbox-x", "xbox-one"],
         variant: "xbox",
         brand: "EA Sports",
         name: "ea-sports-fc25-xbox-x-and-xbox-one",
@@ -5324,73 +6228,1051 @@ export const games = [
         rating: 4.8
     },
     {
-        productID: 2004,
-        platform: "Nintendo",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        productID: 2502,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741889841/fc25-ps5-2_klvcmw.png",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741892162/fc25-switch_rkuwji.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232236/xbox-halo-wars-2-3_gbnknm.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232234/xbox-halo-wars-2_eodyzj.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741892162/fc25-switch_rkuwji.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232234/xbox-halo-wars-2_eodyzj.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232236/xbox-halo-wars-2-3_gbnknm.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232230/xbox-halo-wars-2-2_qpttc5.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Halo Wars 2 - Command the Battle for the Galaxy",
+        SubTitle: "XBox / Sci-Fi / Action",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "strategy", "sci-fi", "action"],
+        variant: "xbox",
+        brand: "343 Industries",
+        name: "xbox-halo-wars-2",
+        description: "Halo Wars 2 delivers fast-paced real-time strategy action in the Halo universe with explosive battles, deep tactics, and immersive story missions.",
+        detailsDescription: "In Halo Wars 2, command iconic Halo forces in a gripping RTS experience set on the Ark, a mysterious and ancient Forerunner installation. Continue the Halo saga through a brand-new storyline with returning heroes and face off against the brutal Banished, led by Atriox. Construct bases, command armies, and compete in 3v3 multiplayer matches or dive into Blitz mode—an exciting mix of card-based strategy and real-time combat. Whether you’re a veteran or new to the genre, Halo Wars 2 brings adrenaline-fueled tactics and rich sci-fi lore to the battlefield.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One</span></h6>",
+            "<h6><span>Genre</span><span>RTS / Sci-Fi / Action</span></h6>",
+            "<h6><span>Game Modes</span><span>Campaign, Multiplayer (1v1 to 3v3), Blitz</span></h6>",
+            "<h6><span>Story Setting</span><span>The Ark, post-Halo 5 timeline</span></h6>",
+            "<h6><span>Multiplayer</span><span>Xbox Live enabled, cooperative and versus modes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>EPIC STORY CAMPAIGN</span><span class='detail-specs-h6'>- Follow an all-new storyline continuing the Halo saga with explosive cutscenes and missions</span></h6>",
+            "<h6><span>REAL-TIME STRATEGY</span><span class='detail-specs-h6'>- Construct bases, deploy vehicles, and command troops in tactical warfare</span></h6>",
+            "<h6><span>BLITZ MODE</span><span class='detail-specs-h6'>- A fast-paced hybrid of RTS and card gameplay offering instant action battles</span></h6>",
+            "<h6><span>MULTIPLAYER WARFARE</span><span class='detail-specs-h6'>- Battle in intense 1v1, 2v2, or 3v3 matches against friends or Xbox Live opponents</span></h6>",
+            "<h6><span>STUNNING VISUALS</span><span class='detail-specs-h6'>- Cinematic storytelling paired with detailed battlefield environments</span></h6>"
+        ],
+        tags: [
+            "halo wars 2 xbox",
+            "xbox rts games",
+            "sci-fi strategy games",
+            "halo strategy game",
+            "xbox one halo wars",
+            "blitz halo wars 2",
+            "3v3 xbox live",
+            "build and battle halo",
+            "halo wars ark mission"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/halo-wars-2-xbox-one-game-new-sealed-cYpOknJDUmNKPJhFvK3rO9hE.html?page=1&pos=2&cur_pos=2&ads_per_page=6&ads_count=6&lid=gi9A5LdOcazSCtZa&indexPosition=1",
+        youtubeReview: "",
+        unboxingVideo: "",
+        prevPrice: 4999,
+        nowPrice: 4500,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+
+
+    {
+        productID: 2503,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741943669/coldwar-xbox_qc5bdj.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741943669/coldwar-xbox_qc5bdj.png",
                 color: "standard"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741889841/fc25-ps5-2_klvcmw.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
                 color: "standard"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741889841/fc25-ps5-3_dio5vo.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty-2_v4tknn.jpg",
                 color: "standard"
             }
         ],
         defaultColor: "standard",
-        Title: "EA Sports FC25 for Nintendo Switch",
-        SubTitle: "FC25 Nintendo",
+        Title: "Xbox Call of Duty: Cold War- First-Person Shooter",
+        SubTitle: "Xbox / Shooter / Action",
         category: "games",
-        subCategory: "nintendo",
-        variant: "nintendo-switch",
-        brand: "EA Sports",
-        name: "ea-sports-fc25-nintendo-switch",
-        description: "EA Sports FC25 for Nintendo Switch offers the most immersive football experience, featuring enhanced gameplay mechanics, AI-driven tactics, and new ways to play, including 5v5 Rush in Ultimate Team. Build your dream squad, compete in Clubs mode, and take control of the best teams from across the world.",
-        detailsDescription: "EA Sports FC 25 introduces revolutionary gameplay with FC IQ, an advanced AI model that influences team strategies and player roles. Play with over 19,000 players from 700+ authentic clubs, powered by real-world match data. Enjoy new ways to play, including Football Ultimate Team Rush, where you can build your 5-a-side squad and compete with friends. With enhanced realism and strategic depth, FC25 takes football gaming to the next level.",
-        detailSpecs: [
-            "<h6><span>FC IQ AI System</span><span> — Advanced real-world data-driven AI for better team tactics</span></h6>",
-            "<h6><span>Ultimate Team Rush</span><span> — Build a 5-a-side squad and play with friends</span></h6>",
-            "<h6><span>700+ Clubs</span><span> — Featuring real teams and players from top leagues</span></h6>",
-            "<h6><span>Manager Career Mode</span><span> — Lead your team with realistic managerial decisions</span></h6>",
-            "<h6><span>Multiplayer & Online Play</span><span> — Compete against others worldwide in various game modes</span></h6>"
-        ],
+        subCategory: ["xbox", "xbox-x", "xbox-one", "shooter", "action", "warzone"],
+        variant: "xbox",
+        brand: "Xbox",
+        name: "xbox-call-of-duty-cold-war",
+        description: "Call of Duty: Cold War drops you into the heart of the geopolitical battle of the early 1980s. Engage in intense single-player and multiplayer combat as you fight global threats in a world on the brink of war.",
+        detailsDescription: "Call of Duty: Cold War features a gripping campaign that takes players across historical battlefields, from dogfights over the Pacific to sniper battles in Stalingrad. Join elite operatives as they battle through covert operations, shaping history. The game also includes an integrated Warzone experience post-launch, bringing new battle royale and multiplayer content.",
         topSpecs: [
-            "<h6><span>GAMEPLAY MODES</span><span class='detail-specs-h6'> Ultimate Team, Career Mode, Clubs, Kick-Off, and VOLTA</span></h6>",
-            "<h6><span>ONLINE & OFFLINE</span><span class='detail-specs-h6'> Play solo, couch co-op, or online multiplayer</span></h6>",
-            "<h6><span>PLATFORM</span><span class='detail-specs-h6'> Nintendo Switch</span></h6>",
-            "<h6><span>REALISM</span><span class='detail-specs-h6'> Powered by real-world match data from top leagues</span></h6>",
-            "<h6><span>GRAPHICS & PERFORMANCE</span><span class='detail-specs-h6'> Next-gen graphics with fluid animations</span></h6>"
+            "<h6><span>GAMEPLAY MODE</span><span class='detail-specs-h6'> Campaign, Multiplayer, Warzone</span></h6>",
+            "<h6><span>PLATFORM</span><span class='detail-specs-h6'> XBox One, XBox Series X</span></h6>",
+            "<h6><span>ONLINE MULTIPLAYER</span><span class='detail-specs-h6'>Play online with people around the wordl</span></h6>",
+            "<h6><span>WEIGHT</span><span class='detail-specs-h6'> 0.3kg</span></h6>",
+            "<h6><span>EXCLUSIVE CONTENT</span><span class='detail-specs-h6'> Confrontation Pack, Woods Operator, AR Weapon Blueprint</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>Immersive Campaign</span><span> — Engage in thrilling missions across different warfronts</span></h6>",
+            "<h6><span>Multiplayer Action</span><span> — Classic Call of Duty combat with enhanced mechanics</span></h6>",
+            "<h6><span>Warzone Integration</span><span> — Seamlessly connects with Call of Duty Warzone</span></h6>",
+            "<h6><span>Confrontation Weapon Pack</span><span> — Exclusive in-game rewards and operator skins</span></h6>",
+            "<h6><span>Next-Gen Performance</span><span> — Optimized for XBox with stunning visuals</span></h6>"
         ],
         tags: [
-            "nintendo-switch-games",
-            "football-game",
-            "ea-sports",
-            "ultimate-team",
-            "fifa-alternative",
-            "career-mode"
+            "ps4-games",
+            "call-of-duty",
+            "first-person-shooter",
+            "warzone",
+            "multiplayer-game",
+            "campaign"
         ],
         carousels: ["indexGames", "displayGames"],
-        dropURL: "https://www.jumia.co.ke/ea-sports-fc-25-ninitendo-switch-278566733.html?gad_source=1&gclid=Cj0KCQjwhMq-BhCFARIsAGvo0KfVson9mUdDyL6QhQjVy1qpPl7dvBKw-t9CtJF-eFE9WGXXZ_mOPlsaAgaiEALw_wcB",
-        youtubeReview: "https://www.youtube.com/embed/wFYQ627lQYg?si=fsOBAMJBfnDyWpKy",
-        unboxingVideo: "https://www.youtube.com/embed/vJnYS4fx_8U?si=GUm4Qb3KBOYI8vUX",
-        prevPrice: 12800,
-        nowPrice: 1,
+        dropURL: "https://starmac.co.ke/product/xbox-series-call-of-duty-black-ops-cold-war-price-kenya/?srsltid=AfmBOorSA_lj0zfEN0oimN99Zp-v9gHQxtGQurO-4ft7q87ErOpUauwh",
+        youtubeReview: "https://www.youtube.com/embed/8H4DdU8t7Dc?si=ajSN6sIRQUnQ1wQA",
+        unboxingVideo: "https://www.youtube.com/embed/bNrDnKtEAfI?si=z9kHhtuWHPhABfNa",
+        prevPrice: 12890,
+        nowPrice: 9550,
+        stock: "In stock",
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2504,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749202734/xbox-ea-sports-fc-24-2_leas64.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749202734/xbox-ea-sports-fc-24_wiodum.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749202734/xbox-ea-sports-fc-24_wiodum.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749202734/xbox-ea-sports-fc-24-2_leas64.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749202733/xbox-ea-sports-fc-24-3_f2t0yp.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "EA SPORTS FC 24 – The Next Chapter of Football Gaming",
+        SubTitle: "Xbox / Sports / Football",
+        category: "games",
+        subCategory: ["xbox", "xbox-x", "xbox-one", "sports", "football"],
+        variant: "xbox",
+        brand: "EA Sports",
+        name: "xbox-ea-sports-fc-24",
+        description: "EA SPORTS FC 24 features over 19,000 licensed players, 700+ teams, and 30+ leagues for the most authentic football simulation yet.",
+        detailsDescription: "Step into a new era of football with EA SPORTS FC 24 on Xbox. Powered by the revolutionary HypermotionV and Frostbite™ Engine, this installment brings unmatched realism, fluid motion, and lifelike details. Experience PlayStyles enhanced by real-world Opta data, giving players distinct abilities and dynamic play on the pitch. Evolve your Ultimate Team™ with new progression mechanics, and include both men and women in your dream lineup. With support for cross-play, enriched Career modes, and optional in-game purchases, EA SPORTS FC 24 offers an immersive and modern take on The World's Game.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Xbox Series X</span></h6>",
+            "<h6><span>Engine</span><span>Frostbite™ with HypermotionV</span></h6>",
+            "<h6><span>Leagues Included</span><span>30+ licensed leagues</span></h6>",
+            "<h6><span>Game Modes</span><span>Career, Ultimate Team™, VOLTA, Clubs</span></h6>",
+            "<h6><span>Cross-play</span><span>Yes (same-gen platforms)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PLAYER BASE</span><span class='detail-specs-h6'>- Over 19,000 real players across 700+ teams and 30+ leagues.</span></h6>",
+            "<h6><span>TECHNOLOGY</span><span class='detail-specs-h6'>- HypermotionV and PlayStyles powered by Opta data for realism.</span></h6>",
+            "<h6><span>CAREER MODES</span><span class='detail-specs-h6'>- Includes enhanced Manager and Player Career modes.</span></h6>",
+            "<h6><span>ULTIMATE TEAM</span><span class='detail-specs-h6'>- Introduces Evolutions for dynamic player development.</span></h6>",
+            "<h6><span>WOMEN’S FOOTBALL</span><span class='detail-specs-h6'>- Mix men’s and women’s footballers in Ultimate Team™.</span></h6>",
+            "<h6><span>INTERACTIVE ELEMENTS</span><span class='detail-specs-h6'>- In-Game Purchases, Users Interact (ESRB Rating: E)</span></h6>"
+        ],
+        tags: [
+            "ea sports fc 24 xbox",
+            "fc 24 kenya price",
+            "xbox football game",
+            "fifa successor xbox",
+            "ea fc 24 ultimate team",
+            "fc 24 career mode xbox",
+            "ea sports kenya game",
+            "fc 24 hypermotion xbox",
+            "xbox series x football game",
+            "ea sports crossplay xbox"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/fc-25-x-box-one-x-box-series-x-nFdb2eOO5fiZcnT7GGEleGOn.html?page=1&pos=6&cur_pos=6&ads_per_page=7&ads_count=7&lid=8bNAz6mcDNDOZ7wc&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/XM4KTKakZ8M?si=f8j1WwX4JVKKhUBz",
+        unboxingVideo: "https://www.youtube.com/embed/2at0vLg_CVA?si=7vmlqhJM7h2mgPrx",
+        prevPrice: 6500,
+        nowPrice: 5200,
         stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.8
     },
-
     {
-        productID: 2006,
+        productID: 2505,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749205392/xbox-nba-2k21-3_bxnln1.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749205393/xbox-nba-2k21_aqycyh.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749205393/xbox-nba-2k21_aqycyh.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749205392/xbox-nba-2k21-3_bxnln1.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749205390/xbox-nba-2k21-2_wrwefl.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "NBA 2K21 – Where Everything Is Game",
+        SubTitle: "Xbox / Sports / Basketball",
+        category: "games",
+        subCategory: ["xbox", "xbox-x", "xbox-one", "sports", "basketball"],
+        variant: "xbox",
+        brand: "2K",
+        name: "xbox-nba-2k21",
+        description: "NBA 2K21 redefines basketball gaming with immersive modes, upgraded visuals, and iconic MyCAREER and MyTEAM features on Xbox.",
+        detailsDescription: "Step into the world of NBA 2K21 on Xbox and experience a basketball simulation like no other. Whether you're climbing the ranks in MyCAREER, building your dream team in MyTEAM, or exploring the never-sleeping Neighborhood, NBA 2K21 delivers authentic hoops action with stunning visuals and dynamic gameplay. With enhanced community features and multiple game modes, it's more than just basketball—it's culture, competition, and storytelling rolled into one unforgettable experience.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One / Series X</span></h6>",
+            "<h6><span>Game Modes</span><span>MyCAREER, MyTEAM, Neighborhood</span></h6>",
+            "<h6><span>Graphics</span><span>Next-gen compatible with enhanced realism</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online & Local</span></h6>",
+            "<h6><span>PEGI Rating</span><span>3+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MYCAREER</span><span class='detail-specs-h6'>- Create your player and rise to NBA stardom</span></h6>",
+            "<h6><span>MYTEAM</span><span class='detail-specs-h6'>- Draft the ultimate roster and challenge players worldwide</span></h6>",
+            "<h6><span>NEIGHBORHOOD</span><span class='detail-specs-h6'>- Immerse yourself in a vibrant 24/7 basketball community</span></h6>",
+            "<h6><span>ONLINE FEATURES</span><span class='detail-specs-h6'>- Compete, connect and progress with global players</span></h6>",
+            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- Lifelike player models and realistic court atmospheres</span></h6>"
+        ],
+        tags: [
+            "nba 2k21 xbox kenya",
+            "nba basketball xbox",
+            "nba 2k21 mycareer mode",
+            "nba 2k21 myteam xbox",
+            "nba 2k21 neighborhood",
+            "xbox basketball games kenya",
+            "2k sports nba 2021 xbox",
+            "nba 2k21 xbox one series x",
+            "best xbox sports games",
+            "nba 2k21 xbox price"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nba2k21-xbox-one-7qagaeVez8lmLtMlGgw28zYJ.html?page=1&pos=1&cur_pos=1&ads_per_page=4&ads_count=4&lid=ARIyr0ZpB8SzEauk&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/k-caUhgBPCY?si=5hNrBth1EgE53bhI",
+        unboxingVideo: "https://www.youtube.com/embed/iqsDhShc1Rg?si=7FC6tFipfP7Rfvl4",
+        prevPrice: 6999,
+        nowPrice: 6200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2506,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749206317/xbox-ea-sports-ufc-3-2_q6qzfj.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749206316/xbox-ea-sports-ufc-3_u5yadz.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749206316/xbox-ea-sports-ufc-3_u5yadz.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749206317/xbox-ea-sports-ufc-3-2_q6qzfj.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749206317/xbox-ea-sports-ufc-3-3_utxzk4.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "EA SPORTS UFC 3 – Step Into the Octagon with G.O.A.T. Ambition",
+        SubTitle: "Xbox / Sports / Fighting",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "sports", "fighting"],
+        variant: "xbox",
+        brand: "EA Sports",
+        name: "xbox-ea-sports-ufc-3",
+        description: "Enter the Octagon as Conor McGregor in EA SPORTS UFC 3 for Xbox, featuring a realistic fighting engine, career-driven progression, and highlight-worthy multiplayer matchups.",
+        detailsDescription: "EA SPORTS UFC 3 delivers a knockout experience with cutting-edge Real Player Motion animation technology, bringing fluid, responsive movement to every strike and takedown. Rise to fame with G.O.A.T. Career Mode—build hype, gain fans, and forge rivalries both inside and outside the Octagon. Whether playing solo or with friends in customized multiplayer modes, this installment delivers thrilling, cinematic MMA action that rewards strategy and skill at every level.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One</span></h6>",
+            "<h6><span>Main Mode</span><span>G.O.A.T. Career Mode</span></h6>",
+            "<h6><span>Multiplayer</span><span>Local & Online Multiplayer</span></h6>",
+            "<h6><span>Animation</span><span>Real Player Motion Tech</span></h6>",
+            "<h6><span>Cover Star</span><span>Conor McGregor</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REAL PLAYER MOTION</span><span class='detail-specs-h6'>- Revolutionary animation for realistic strikes and movement</span></h6>",
+            "<h6><span>G.O.A.T. CAREER MODE</span><span class='detail-specs-h6'>- Build hype, rivalries, and global recognition as you rise to champion status</span></h6>",
+            "<h6><span>MULTIPLAYER MODES</span><span class='detail-specs-h6'>- Custom matches and knockout moments with friends</span></h6>",
+            "<h6><span>VISUALS</span><span class='detail-specs-h6'>- Cinematic presentation with true-to-life fighter detail</span></h6>",
+            "<h6><span>FIGHTERS</span><span class='detail-specs-h6'>- Compete using a full roster of licensed UFC athletes</span></h6>"
+        ],
+        tags: [
+            "ufc 3 xbox kenya",
+            "ea sports ufc xbox game",
+            "xbox ufc conor mcgregor",
+            "ufc 3 goat career mode",
+            "ufc xbox multiplayer",
+            "real player motion ufc",
+            "best mma xbox games",
+            "ea ufc 3 xbox one",
+            "ufc xbox fight simulator",
+            "ufc 3 xbox price kenya"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ufc-3-xbox-one-kusqRdGbPZiW40KElhH4XRA6.html?page=1&pos=2&cur_pos=2&ads_per_page=2&ads_count=2&lid=rCq3Rca0XQ_vhwnp&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/caL_qhUIqhk?si=QsOzPyOgsMHGdB_T",
+        unboxingVideo: "https://www.youtube.com/embed/1LZD2dVdUgQ?si=JjSL6tjq_Vw4z5Ny",
+        prevPrice: 6350,
+        nowPrice: 5500,
+        stock: 7,
+        freeShipping: false,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2507,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749220121/xbox-elden-ring-2_djsuco.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749220121/xbox-elden-ring_hj4ceo.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749220121/xbox-elden-ring_hj4ceo.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749220121/xbox-elden-ring-2_djsuco.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749220119/xbox-elden-ring-3_sm4yz6.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Elden Ring – Conquer the Lands Between in This Epic Fantasy Adventure",
+        SubTitle: "Xbox / Fantasy / Action",
+        category: "games",
+        subCategory: ["xbox", "fantasy", "rpg"],
+        variant: "xbox",
+        brand: "FromSoftware",
+        name: "xbox-elden-ring",
+        description: "Embark on a mythical journey through the Lands Between in Elden Ring, a vast fantasy RPG offering deep character customization, intricate dungeons, and an immersive open world.",
+        detailsDescription: "Elden Ring is a new fantasy action RPG from the creators of Dark Souls. Explore a massive, interconnected world filled with breathtaking landscapes, hidden secrets, and challenging foes. Customize your character's weapons, armor, and magic to suit your play style—be it brute strength or sorcery. The game features asynchronous online elements and multiplayer support, delivering a unique blend of solo and cooperative gameplay. Forge your own path and rise as an Elden Lord in an epic, myth-driven narrative told in fragments.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Xbox Series X</span></h6>",
+            "<h6><span>Genre</span><span>Fantasy / Action RPG</span></h6>",
+            "<h6><span>Open World</span><span>Expansive environments with interconnected dungeons</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online Co-op & Asynchronous Play</span></h6>",
+            "<h6><span>Customization</span><span>Weapons, Armor, Magic, Character Appearance</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>WORLD DESIGN</span><span class='detail-specs-h6'>- Seamless blend of open fields and labyrinthine dungeons</span></h6>",
+            "<h6><span>CHARACTER DEVELOPMENT</span><span class='detail-specs-h6'>- Freely develop your build through stats, gear, and magic</span></h6>",
+            "<h6><span>STORY</span><span class='detail-specs-h6'>- Myth-inspired narrative revealed through exploration</span></h6>",
+            "<h6><span>ONLINE FEATURES</span><span class='detail-specs-h6'>- Join others in co-op or leave messages and signs</span></h6>",
+            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- Stunning visuals and atmosphere optimized for Xbox</span></h6>"
+        ],
+        tags: [
+            "elden ring xbox price kenya",
+            "elden ring xbox series x",
+            "elden ring rpg game",
+            "fantasy action rpg xbox",
+            "open world xbox game",
+            "elden ring multiplayer",
+            "fromsoftware xbox game",
+            "xbox elden ring kenya",
+            "epic rpg adventure xbox",
+            "elden ring xbox one"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/elden-ring-xbox-one-xbox-series-x-game-brand-new-xB9PwsHLS7ST7mvW1gDkWS9Z.html?page=1&pos=2&cur_pos=2&ads_per_page=3&ads_count=3&lid=ouzJ2nK8ocy1E3UB&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/0uav6zQKiMQ?si=7UwmWJzPnVbi9GXH",
+        unboxingVideo: "https://www.youtube.com/embed/E3Huy2cdih0?si=72HhEw5yIv6KkLvL",
+        prevPrice: 7450,
+        nowPrice: 6800,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2508,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749221029/xbox-modern-warfare-3-2_axupwt.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749221027/xbox-modern-warfare-3_loj8se.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749221027/xbox-modern-warfare-3_loj8se.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749221029/xbox-modern-warfare-3-2_axupwt.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749221029/xbox-modern-warfare-3-3_mgejjf.png",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Call of Duty Modern Warfare III – Face Makarov, Shape the Battlefield",
+        SubTitle: "Xbox / Shooter / Action",
+        category: "games",
+        subCategory: ["xbox", "xbox-x", "xbox-one", "shooter", "action"],
+        variant: "xbox",
+        brand: "Activision",
+        name: "xbox-modern-warfare-3",
+        description: "Step into the shoes of Task Force 141 once again in Modern Warfare III, as Captain Price and his team battle against a global threat in cinematic and open combat missions.",
+        detailsDescription: "Call of Duty: Modern Warfare III is the high-stakes sequel to the record-breaking Modern Warfare II. Captain Price and Task Force 141 face off against Vladimir Makarov, a war criminal orchestrating global chaos. This installment evolves gameplay with open combat missions, giving players more freedom in how they approach objectives. From high-impact cinematic sequences to strategic decision-making, players will adapt or die in a campaign where every choice shapes the mission. Expect adrenaline-fueled action, immersive storytelling, and next-gen performance optimized for Xbox.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Xbox Series X</span></h6>",
+            "<h6><span>Genre</span><span>Shooter / Action</span></h6>",
+            "<h6><span>Campaign</span><span>Cinematic & Open Combat Missions</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online PvP, Co-op Modes</span></h6>",
+            "<h6><span>Main Antagonist</span><span>Vladimir Makarov</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>STORY MODE</span><span class='detail-specs-h6'>- Follow Captain Price and Task Force 141 in a global battle against Makarov</span></h6>",
+            "<h6><span>MISSION VARIETY</span><span class='detail-specs-h6'>- Includes both cinematic sequences and open combat missions</span></h6>",
+            "<h6><span>PLAYER CHOICE</span><span class='detail-specs-h6'>- Tactical flexibility in loadouts, approaches, and paths</span></h6>",
+            "<h6><span>MULTIPLAYER MODES</span><span class='detail-specs-h6'>- Competitive and cooperative online options</span></h6>",
+            "<h6><span>GRAPHICS & AUDIO</span><span class='detail-specs-h6'>- High-fidelity visuals and immersive sound design for Xbox</span></h6>"
+        ],
+        tags: [
+            "call of duty xbox kenya",
+            "modern warfare 3 xbox",
+            "mw3 xbox price kenya",
+            "call of duty mw3 gameplay",
+            "mw3 task force 141",
+            "vladimir makarov game",
+            "xbox shooter games kenya",
+            "activision cod xbox",
+            "modern warfare campaign",
+            "mw3 multiplayer xbox"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/call-of-duty-modern-warfare-iii-xbox-icas98nCqYTypcVwcIHIiheq.html?page=1&pos=1&cur_pos=1&ads_per_page=2&ads_count=2&lid=WstMJE10ap9Z_6vC&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/eVNQ-T6blIA?si=yyMY5K9Q5sxMV7rF",
+        unboxingVideo: "https://www.youtube.com/embed/PKb-zfbpIHM?si=3e2_28gu8xyou71A",
+        prevPrice: 9500,
+        nowPrice: 10499,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2509,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749222177/xbox-ghost-recon-wildlands-2_fgldgd.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749222177/xbox-ghost-recon-wildlands_o06k31.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749222177/xbox-ghost-recon-wildlands_o06k31.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749222177/xbox-ghost-recon-wildlands-2_fgldgd.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749222177/xbox-ghost-recon-wildlands-3_svz58p.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Tom Clancy's Ghost Recon Wildlands – Dismantle the Cartel in Tactical Style",
+        SubTitle: "Xbox / Shooter / Open World",
+        category: "games",
+        subCategory: ["xbox", "xbox-x", "xbox-one", "tactical-shooter", "open-world"],
+        variant: "xbox",
+        brand: "Ubisoft",
+        name: "xbox-ghost-recon-wildlands",
+        description: "Enter the hostile terrain of Bolivia as a Ghost operative tasked with dismantling the Santa Blanca drug cartel in a vast open world with solo or co-op tactical gameplay.",
+        detailsDescription: "Tom Clancy’s Ghost Recon Wildlands delivers an immersive tactical shooter experience set in an expansive, dynamic open world. As part of an elite Ghost squad, players take on the powerful Santa Blanca cartel using a range of strategies—from stealth infiltration to explosive assaults. Solo with AI or in four-player co-op, every mission is yours to design. Customize weapons, adapt to dynamic weather and time-of-day systems, and navigate diverse biomes from jungle to desert. With cinematic storytelling and complete freedom of approach, Wildlands sets a new standard for tactical action games.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Series X</span></h6>",
+            "<h6><span>Genre</span><span>Tactical Shooter / Open World</span></h6>",
+            "<h6><span>Multiplayer</span><span>4-Player Online Co-op</span></h6>",
+            "<h6><span>Customization</span><span>Weapons, Gear & Appearance</span></h6>",
+            "<h6><span>Rating</span><span>M (Mature 17+)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>GAME WORLD</span><span class='detail-specs-h6'>- Massive open world set in Bolivia with diverse terrain and strategic points of interest</span></h6>",
+            "<h6><span>TACTICAL COMBAT</span><span class='detail-specs-h6'>- Approach missions solo or in co-op with freedom of strategy and weapon choice</span></h6>",
+            "<h6><span>STORYLINE</span><span class='detail-specs-h6'>- Engage in a gripping narrative to dismantle the Santa Blanca drug cartel</span></h6>",
+            "<h6><span>REALISM</span><span class='detail-specs-h6'>- Dynamic day-night cycle and weather add realism and tactical depth</span></h6>",
+            "<h6><span>CUSTOMIZATION</span><span class='detail-specs-h6'>- Personalize your loadout with a wide array of weapons and gear options</span></h6>"
+        ],
+        tags: [
+            "ghost recon wildlands xbox",
+            "tactical shooter xbox kenya",
+            "open world shooter xbox",
+            "ubisoft wildlands xbox",
+            "xbox bolivia cartel game",
+            "ghost recon game kenya",
+            "santa blanca xbox",
+            "co-op shooter xbox",
+            "wildlands xbox review",
+            "xbox tactical gameplay"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/tom-clancys-ghost-recon-wildlands-xbox-one-game-new-oBv6z8iFhzlJnVES3yHdsVrw.html?page=1&pos=2&cur_pos=2&ads_per_page=6&ads_count=6&lid=6JZgyFYk522f-Hxv&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/tPlGZ1V2byw?si=lsuOrbBOnNVezqQH",
+        unboxingVideo: "https://www.youtube.com/embed/5LJN49YhLYw?si=I0fBI5uNomePGLux",
+        prevPrice: 5100,
+        nowPrice: 4200,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2510,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749223234/xbox-ghost-recon-breakpoint-2_vmoth3.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749223233/xbox-ghost-recon-breakpoint_v7mnje.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749223233/xbox-ghost-recon-breakpoint_v7mnje.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749223234/xbox-ghost-recon-breakpoint-2_vmoth3.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749223235/xbox-ghost-recon-breakpoint-3_jdbogq.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Tom Clancy’s Ghost Recon Breakpoint – Survive Behind Enemy Lines",
+        SubTitle: "Xbox / Shooter / Open World",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "xbox-x", "tactical-shooter", "open-world", "action-rpg"],
+        variant: "xbox",
+        brand: "Ubisoft",
+        name: "xbox-ghost-recon-breakpoint",
+        description: "Ghost Recon Breakpoint puts you in the boots of a stranded Ghost operative fighting to survive on the rogue-controlled island of Auroa with deep tactical gameplay and survival elements.",
+        detailsDescription: "In Tom Clancy’s Ghost Recon Breakpoint, players step into the shoes of Lieutenant Colonel Nomad, navigating a treacherous archipelago ruled by former Ghosts turned enemies. Explore the massive island of Auroa solo or with up to three teammates in co-op mode. Engage in tactical combat using customizable weapons and gear, while managing injuries and surviving in hostile environments. Take on elite enemies with smart AI and leverage high-tech drones for reconnaissance and warfare. With immersive survival mechanics and PvP multiplayer, Breakpoint blends tactical realism with open-world freedom for the ultimate combat simulation.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Series X</span></h6>",
+            "<h6><span>Genre</span><span>Tactical Shooter / Open World / RPG</span></h6>",
+            "<h6><span>Multiplayer</span><span>4-Player Online Co-op + PvP</span></h6>",
+            "<h6><span>Combat Features</span><span>Custom Gear, Survival, Drones</span></h6>",
+            "<h6><span>Rating</span><span>M (Mature 17+)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SETTING</span><span class='detail-specs-h6'>- Explore the island of Auroa, a high-tech open-world ruled by rogue operatives</span></h6>",
+            "<h6><span>STORYLINE</span><span class='detail-specs-h6'>- Face off against ex-Ghost Cole D. Walker in a gripping military narrative</span></h6>",
+            "<h6><span>SURVIVAL MECHANICS</span><span class='detail-specs-h6'>- Manage wounds, stamina, and camouflage in unpredictable environments</span></h6>",
+            "<h6><span>CUSTOMIZATION</span><span class='detail-specs-h6'>- Modify weapons, gear, and skills to match your playstyle</span></h6>",
+            "<h6><span>MULTIPLAYER</span><span class='detail-specs-h6'>- Co-op with up to 4 players and engage in tactical 4v4 PvP battles</span></h6>"
+        ],
+        tags: [
+            "ghost recon breakpoint xbox",
+            "xbox tactical shooter kenya",
+            "survival shooter xbox",
+            "ghost recon auroa xbox",
+            "xbox rpg shooter",
+            "coop shooter xbox",
+            "pvp ghost recon kenya",
+            "breakpoint 4v4 multiplayer",
+            "ghost recon ubisoft kenya",
+            "ghost recon xbox review"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ghost-recon-breakpoint-xbox-one-ajvCazuu9UY41YnDOHJIMX25.html?page=1&pos=1&cur_pos=1&ads_per_page=2&ads_count=2&lid=4afwzUqNJ1E82vC1&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/qN_h7D8R9L8?si=oXP_FIrir2ogWznw",
+        unboxingVideo: "https://www.youtube.com/embed/TZH-94nAtnI?si=e-NbQiDkJwjhgXlM",
+        prevPrice: 6000,
+        nowPrice: 5400,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2511,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749224796/xbox-hitman-2-2_vjnxk7.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749224796/xbox-hitman-2_pizqk0.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749224796/xbox-hitman-2_pizqk0.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749224796/xbox-hitman-2-2_vjnxk7.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749224795/xbox-hitman-2-3_dpkl1s.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Hitman 2 – The Ultimate Stealth Sandbox Experience",
+        SubTitle: "Xbox / Stealth / Action",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "xbox-x", "stealth", "action", "sandbox"],
+        variant: "xbox",
+        brand: "Warner Bros. Interactive",
+        name: "xbox-hitman-2",
+        description: "Step into the shadows as Agent 47 in Hitman 2, a deadly globe-trotting adventure that tests your precision, stealth, and improvisation skills across six sprawling sandbox environments.",
+        detailsDescription: "In Hitman 2, you become the world's deadliest assassin. As Agent 47, travel across the globe—from sun-drenched streets to dangerous rainforests—tracking down and eliminating high-profile targets. Each mission is a sandbox of creative opportunity, encouraging you to approach your objective from any angle using disguises, stealth, or brute force. This sequel builds on the acclaimed Hitman formula with refined mechanics, expanded environments, and immersive scenarios that challenge even the most strategic minds. Take on the elusive Shadow Client and dismantle his militia piece by piece. Includes bonus access to Hitman: Sniper Assassin mode.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Series X Compatible</span></h6>",
+            "<h6><span>Genre</span><span>Stealth / Action / Sandbox</span></h6>",
+            "<h6><span>Mission Count</span><span>6 Open-Ended Levels</span></h6>",
+            "<h6><span>Extras</span><span>Includes Sniper Assassin Bonus Mode</span></h6>",
+            "<h6><span>Rating</span><span>M (Mature 17+)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MISSIONS</span><span class='detail-specs-h6'>- Six massive sandbox environments across the globe, each filled with deadly opportunities</span></h6>",
+            "<h6><span>GAMEPLAY STYLE</span><span class='detail-specs-h6'>- Emphasizes stealth, disguise, and creative assassinations</span></h6>",
+            "<h6><span>ENEMIES</span><span class='detail-specs-h6'>- Take on the Shadow Client's militia in a branching, multi-layered storyline</span></h6>",
+            "<h6><span>REPLAYABILITY</span><span class='detail-specs-h6'>- Multiple approaches and outcomes for each mission</span></h6>",
+            "<h6><span>BONUS MODE</span><span class='detail-specs-h6'>- Sniper Assassin included for pre-purchase access</span></h6>"
+        ],
+        tags: [
+            "hitman 2 xbox",
+            "agent 47 stealth game",
+            "xbox sandbox assassin",
+            "warner bros hitman xbox",
+            "xbox one stealth action",
+            "hitman sniper assassin kenya",
+            "hitman 2 xbox gameplay",
+            "hitman 2 rating mature",
+            "best stealth games xbox",
+            "xbox hitman kenya"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/xbox-one-hitman-2-compatible-with-xbox-series-wAM3lhyjOklpw5efF4MC5OzB.html?page=1&pos=6&cur_pos=6&ads_per_page=12&ads_count=12&lid=-ayZYVTrUD_sbfyD&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/bSTf8M4Q35Q?si=AebsVRlwJqpPF-YZ",
+        unboxingVideo: "https://www.youtube.com/embed/ZUC36oGSNLk?si=Ad7td6KqPjkChHyy",
+        prevPrice: 5999,
+        nowPrice: 4200,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2512,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749226236/xbox-far-cry-6-2_nvjori.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749226232/xbox-far-cry-6_zfaqlx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749226232/xbox-far-cry-6_zfaqlx.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749226236/xbox-far-cry-6-2_nvjori.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749226234/xbox-far-cry-6-3_yjqnss.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Far Cry 6 – Join the Revolution in Yara’s Biggest Fight",
+        SubTitle: "Xbox / Open World / FPS",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "xbox-x", "xbox-s", "open world", "fps", "adventure"],
+        variant: "xbox",
+        brand: "Ubisoft",
+        name: "xbox-far-cry-6",
+        description: "Far Cry 6 drops you into Yara, a tropical paradise frozen in time, where you fight as guerrilla Dani Rojas to overthrow a ruthless dictator and ignite a revolution.",
+        detailsDescription: "Step into the role of Dani Rojas in Far Cry 6, the most expansive entry in the franchise yet. Set in the fictional Caribbean island of Yara, ruled by the oppressive Anton Castillo, your mission is to lead a modern-day guerrilla uprising. Utilize a wide range of resolver weapons, makeshift gear, and customizable vehicles in a fight across jungles, cities, and coastlines. Experience explosive gameplay, rich storytelling, and unforgettable allies—including a lovable wiener dog companion named Chorizo. Whether solo or in co-op, your revolution starts now.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One & Series X|S Compatible</span></h6>",
+            "<h6><span>Genre</span><span>Open World / FPS / Action-Adventure</span></h6>",
+            "<h6><span>Protagonist</span><span>Dani Rojas – Male or Female</span></h6>",
+            "<h6><span>Main Antagonist</span><span>Anton Castillo (Played by Giancarlo Esposito)</span></h6>",
+            "<h6><span>Rating</span><span>M (Mature 17+)</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SETTING</span><span class='detail-specs-h6'>- Tropical island of Yara with dense jungles, cities, and coastal regions</span></h6>",
+            "<h6><span>WEAPONS</span><span class='detail-specs-h6'>- Resolver weapons, supremos, and DIY modifications</span></h6>",
+            "<h6><span>FACTIONS</span><span class='detail-specs-h6'>- Join the Libertad resistance and recruit companions including Chorizo the dog</span></h6>",
+            "<h6><span>VEHICLES</span><span class='detail-specs-h6'>- Craft and drive customizable guerrilla vehicles</span></h6>",
+            "<h6><span>CO-OP MODE</span><span class='detail-specs-h6'>- Team up with friends for seamless multiplayer rebellion</span></h6>"
+        ],
+        tags: [
+            "far cry 6 xbox",
+            "xbox far cry series",
+            "far cry 6 revolution",
+            "giancarlo esposito far cry",
+            "xbox one far cry 6",
+            "far cry 6 yara setting",
+            "fps games xbox",
+            "ubisoft far cry xbox",
+            "chorizo far cry dog",
+            "far cry 6 kenya game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/far-cry-6-xbox-one-series-x-yara-edition-farcry-6-fGe5APytGxPPeY7HYIesSiVL.html?page=1&pos=1&cur_pos=1&ads_per_page=3&ads_count=3&lid=Ts0g-9oUbCIkvR9x&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/eCH32PWpc1w?si=ZlrkVY49zFurErIc",
+        unboxingVideo: "https://www.youtube.com/embed/2ppFrxsSmSo?si=sQMYDBJ2OjIDnlhv",
+        prevPrice: 6499,
+        nowPrice: 5300,
+        stock: 18,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2513,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749228507/xbox-fifa-20-standard-edition-2_vnk2hi.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749228504/xbox-fifa-20-standard-edition_wsrkic.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749228504/xbox-fifa-20-standard-edition_wsrkic.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749228507/xbox-fifa-20-standard-edition-2_vnk2hi.jpg",
+                color: "xbox"
+            },
+        ],
+        defaultColor: "xbox",
+        Title: "FIFA 20 – Rule the Pitch and the Streets",
+        SubTitle: "Xbox / Sports / Football",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "sports", "football", "simulation"],
+        variant: "xbox",
+        brand: "EA Sports",
+        name: "xbox-fifa-20-standard-edition",
+        description: "FIFA 20 brings football to life with both professional leagues and the new street-style VOLTA mode, offering the most complete and expressive soccer gameplay yet.",
+        detailsDescription: "Experience the dual essence of The World's Game in FIFA 20 – dominate the pitch in the classic 11v11 matches or take it to the streets with EA SPORTS VOLTA. VOLTA mode delivers a fresh street football experience with global locations and deep character customization. Build your ultimate squad in FIFA Ultimate Team, featuring thousands of players and weekly challenges. FIFA 20 introduces Soccer Intelligence, enhancing player realism and tactical gameplay. Whether you’re looking to climb the ranks online or play for fun, FIFA 20 blends simulation and flair like never before.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Football / Simulation</span></h6>",
+            "<h6><span>Main Modes</span><span>Career, VOLTA Football, Ultimate Team</span></h6>",
+            "<h6><span>Engine</span><span>Frostbite 3 with Soccer Intelligence</span></h6>",
+            "<h6><span>Rating</span><span>E for Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>VOLTA MODE</span><span class='detail-specs-h6'>- A new street football mode with global venues and character building</span></h6>",
+            "<h6><span>ULTIMATE TEAM</span><span class='detail-specs-h6'>- Create your dream team with thousands of real players and weekly online competitions</span></h6>",
+            "<h6><span>REALISM ENGINE</span><span class='detail-specs-h6'>- Soccer Intelligence brings smarter AI and more realistic ball physics</span></h6>",
+            "<h6><span>CAREER MODE</span><span class='detail-specs-h6'>- Manage your club, scout talent, and take your team to glory</span></h6>",
+            "<h6><span>MULTIPLAYER</span><span class='detail-specs-h6'>- Online and local co-op or competitive play in various formats</span></h6>"
+        ],
+        tags: [
+            "fifa 20 xbox",
+            "fifa 20 volta mode",
+            "fifa 20 ultimate team",
+            "xbox football games",
+            "ea sports fifa 20",
+            "fifa 20 simulation",
+            "fifa street volta",
+            "xbox sports games",
+            "fifa 20 kenya sale",
+            "fifa 20 xbox one edition"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/fifa-20-xbox-one-new-sealed-krBFyE4toHldwMy3C9hHcEju.html?page=1&pos=3&cur_pos=3&ads_per_page=4&ads_count=4&lid=pTydWkZCA-2x2YIt&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/GCNbhH6jq_8?si=gDbh_xTdBVll0Zle",
+        unboxingVideo: "https://www.youtube.com/embed/nmVhPTAQyqw?si=ztmegyXpIFWlFbMM",
+        prevPrice: 6499,
+        nowPrice: 5999,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2514,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230253/xbox-fifa-23-one-3_p1z2ea.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230254/xbox-fifa-23-x_br6ynp.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230254/xbox-fifa-23-x_br6ynp.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230253/xbox-fifa-23-one-3_p1z2ea.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230258/xbox-fifa-23-one-2_fjck8l.png",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "FIFA 23 - XBox X - The World's Game, Evolved",
+        SubTitle: "Xbox X / Sports / Football",
+        category: "games",
+        subCategory: ["xbox", "xbox-x", "sports", "football", "simulation"],
+        variant: "xbox",
+        brand: "EA Sports",
+        name: "xbox-fifa-23",
+        description: "FIFA 23 delivers the ultimate football experience with HyperMotion2, Women’s Club Football, FIFA World Cup content, and the most realistic matchday feel yet.",
+        detailsDescription: "Experience the most authentic football game in FIFA 23. With HyperMotion2 Technology, you get twice the animation data and lifelike movement based on real-world match capture. Play through the FIFA World Cup Qatar 2022™ and Australia & New Zealand 2023™ tournaments, including women’s teams for the first time. Build your dream squad in FIFA Ultimate Team™, or take charge in Career Mode with Playable Highlights and real-world managers. FIFA 23 also revamps gameplay mechanics with more nuanced shooting, enhanced set pieces, and a redefined chemistry system. From solo campaigns to online showdowns, this is football like never before.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox Series X</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Football / Simulation</span></h6>",
+            "<h6><span>Engine</span><span>Frostbite with HyperMotion2 Technology</span></h6>",
+            "<h6><span>Game Modes</span><span>Ultimate Team, Career Mode, Pro Clubs, VOLTA</span></h6>",
+            "<h6><span>Rating</span><span>Rated E for Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HYPERMOTION2</span><span class='detail-specs-h6'>- Over 6000 animations for ultra-realistic movement captured from real matches</span></h6>",
+            "<h6><span>WOMEN'S FOOTBALL</span><span class='detail-specs-h6'>- Barclays FA WSL and Division 1 Arkema included with dedicated motion capture</span></h6>",
+            "<h6><span>WORLD CUP MODE</span><span class='detail-specs-h6'>- Men's FIFA World Cup Qatar 2022™ and Women’s World Cup Australia & New Zealand 2023™</span></h6>",
+            "<h6><span>ULTIMATE TEAM</span><span class='detail-specs-h6'>- FUT Moments, new Chemistry system, ICONs and FUT Heroes</span></h6>",
+            "<h6><span>CAREER MODE</span><span class='detail-specs-h6'>- Playable Highlights and real-world managers for deeper immersion</span></h6>",
+            "<h6><span>PRO CLUBS</span><span class='detail-specs-h6'>- Expanded player customization and Drop-In improvements</span></h6>",
+            "<h6><span>TRAINING CENTRE</span><span class='detail-specs-h6'>- New tutorial hub to develop fundamental skills through challenges</span></h6>"
+        ],
+        tags: [
+            "fifa 23 xbox",
+            "fifa 23 ultimate team",
+            "fifa 23 world cup",
+            "xbox football games",
+            "ea sports fifa 23",
+            "hyperMotion2 gameplay",
+            "fifa 23 women's football",
+            "xbox series x games",
+            "career mode fifa 23",
+            "fifa 23 kenya sale"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/fifa-2023-x-box-series-x-tNPNPb3befGYvUkHNk1hQP9R.html?page=1&pos=3&cur_pos=3&ads_per_page=4&ads_count=4&lid=mn9b7c4004Vhi2ep&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/Ye1Go-Ke1r4?si=3IyGMNRoOvOYl7JZ",
+        unboxingVideo: "https://www.youtube.com/embed/XvFXUT-s3fg?si=9ABb3-Tv-5P6EI38",
+        prevPrice: 8000,
+        nowPrice: 7499,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2515,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230258/xbox-fifa-23-one-2_fjck8l.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230264/xbox-fifa-23-one_my1gcl.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230264/xbox-fifa-23-one_my1gcl.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230258/xbox-fifa-23-one-2_fjck8l.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749230253/xbox-fifa-23-one-3_p1z2ea.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "FIFA 23 - XBox One - The Legacy Lives On",
+        SubTitle: "Xbox one / Sports / Football",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "sports", "football", "simulation"],
+        variant: "xbox",
+        brand: "EA Sports",
+        name: "xbox-fifa-23-one",
+        description: "FIFA 23 for Xbox One delivers authentic gameplay, Ultimate Team, World Cup content, and legacy features designed for fans of classic football simulation.",
+        detailsDescription: "Experience legacy gameplay in FIFA 23 for Xbox One, featuring all your favorite modes like Career Mode, Kick-Off, and the wildly popular FIFA Ultimate Team. Compete in the FIFA World Cup Qatar 2022™ and FIFA Women’s World Cup Australia & New Zealand 2023™ with updated kits, teams, and presentations. This edition refines core mechanics and retains a solid football foundation while offering seasonal updates and a refreshed interface. Perfect for those continuing their journey on Xbox One consoles.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Football / Simulation</span></h6>",
+            "<h6><span>Game Modes</span><span>Ultimate Team, Career Mode, Kick-Off, Tournaments</span></h6>",
+            "<h6><span>World Cup Content</span><span>Qatar 2022 & Women’s 2023</span></h6>",
+            "<h6><span>Rating</span><span>Rated E for Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>LEGACY EDITION</span><span class='detail-specs-h6'>- Classic gameplay with updated kits, squads, and tournaments</span></h6>",
+            "<h6><span>ULTIMATE TEAM</span><span class='detail-specs-h6'>- Build your squad and compete online with seasonal content and FUT Heroes</span></h6>",
+            "<h6><span>CAREER MODE</span><span class='detail-specs-h6'>- Manage teams or play your way to glory with updated rosters</span></h6>",
+            "<h6><span>WORLD CUP MODES</span><span class='detail-specs-h6'>- Celebrate global football with official tournament experiences</span></h6>",
+            "<h6><span>GRAPHICS</span><span class='detail-specs-h6'>- Optimized for Xbox One hardware with detailed animations and presentations</span></h6>",
+            "<h6><span>FAN FAVORITE MODES</span><span class='detail-specs-h6'>- VOLTA, Pro Clubs not available in this version</span></h6>"
+        ],
+        tags: [
+            "fifa 23 xbox one",
+            "fifa 23 legacy edition",
+            "ea sports fifa 23",
+            "fifa 23 world cup mode",
+            "xbox one football games",
+            "fifa ultimate team xbox one",
+            "fifa 23 kenya",
+            "career mode fifa 23",
+            "ea sports xbox football"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/fifa-23-xbox-one-540qVS3ikI5x5CDM606acrfh.html?page=1&pos=3&cur_pos=3&ads_per_page=13&ads_count=13&lid=bbGzQEaWSJIG3XBu&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/Ye1Go-Ke1r4?si=3IyGMNRoOvOYl7JZ",
+        unboxingVideo: "https://www.youtube.com/embed/XvFXUT-s3fg?si=9ABb3-Tv-5P6EI38",
+        prevPrice: 3999,
+        nowPrice: 2500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2516,
+        platform: "Xbox",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232225/xbox-forza-horizon-4-2_wt3zsh.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232224/xbox-forza-horizon-4_raqaxx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232224/xbox-forza-horizon-4_raqaxx.png",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232225/xbox-forza-horizon-4-2_wt3zsh.jpg",
+                color: "xbox"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749232229/xbox-forza-horizon-4-3_plkzgt.jpg",
+                color: "xbox"
+            }
+        ],
+        defaultColor: "xbox",
+        Title: "Forza Horizon 4 – Race Through the Seasons",
+        SubTitle: "Xbox / Racing / Open-World",
+        category: "games",
+        subCategory: ["xbox", "xbox-one", "xbox-x", "racing", "open-world", "simulation"],
+        variant: "xbox",
+        brand: "Playground Games",
+        name: "xbox-forza-horizon-4",
+        description: "Forza Horizon 4 on Xbox One delivers exhilarating open-world racing with over 450 cars and dynamic seasonal changes across Britain.",
+        detailsDescription: "Forza Horizon 4 immerses players in an open-world racing adventure set in a stunning recreation of Britain. With dynamic weather and seasonal changes, no two races are ever the same. Collect and race over 450 cars, design custom tracks, and compete online or offline in diverse game modes. Whether exploring solo or challenging friends in live multiplayer events, Horizon 4’s breathtaking visuals and smooth mechanics offer the ultimate driving fantasy.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Xbox One</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Open-World / Simulation</span></h6>",
+            "<h6><span>Game Modes</span><span>Single Player, Co-op, Online Multiplayer</span></h6>",
+            "<h6><span>Cars Available</span><span>450+ vehicles from iconic brands</span></h6>",
+            "<h6><span>Dynamic Seasons</span><span>Spring, Summer, Autumn, Winter</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>SEASONAL CHANGES</span><span class='detail-specs-h6'>- Explore Britain through ever-changing weather and terrain with unique events each season</span></h6>",
+            "<h6><span>CAR COLLECTION</span><span class='detail-specs-h6'>- Own and customize 450+ licensed vehicles from legendary manufacturers</span></h6>",
+            "<h6><span>SHARED WORLD</span><span class='detail-specs-h6'>- Connect and compete with players in real-time across a seamless open-world</span></h6>",
+            "<h6><span>ROUTE CREATOR</span><span class='detail-specs-h6'>- Design and share custom racing tracks with your community</span></h6>",
+            "<h6><span>MULTIPLAYER MODES</span><span class='detail-specs-h6'>- Experience solo campaigns, co-op challenges, and live online races</span></h6>"
+        ],
+        tags: [
+            "forza horizon 4 xbox",
+            "xbox racing games",
+            "forza horizon open world",
+            "dynamic seasons forza",
+            "forza 4 kenya",
+            "450 cars forza",
+            "xbox driving games",
+            "playground games forza",
+            "british racing game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/forza-horizon-4-xbox-one-new-and-sealed-OA1UnHWp8i87qgIeBrc9Wc.html?page=1&pos=2&cur_pos=2&ads_per_page=6&ads_count=6&lid=c5E61iJNKOpM0No9&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/2lKq3rFhark?si=J4q1Z3sltw2C5Vng",
+        unboxingVideo: "https://www.youtube.com/embed/HSrl2NDmuW8?si=WFYFaRdUCJtTk0iF",
+        prevPrice: 5999,
+        nowPrice: 4850,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2517,
         platform: "Xbox",
         platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
         playboxRating: "Classic",
@@ -5413,9 +7295,9 @@ export const games = [
         ],
         defaultColor: "standard",
         Title: "Sony EA Sports APEX LEGENDS Xbox - Battle Royale",
-        SubTitle: "LEGENDS Xbox",
+        SubTitle: "Xbox / Battle Royale",
         category: "games",
-        subCategory: "xbox",
+        subCategory: ["xbox", "xbox-x", "xbox-one", "shooter", "multiplayer", "battle-royale",],
         brand: "Apex",
         variant: "xbox",
         name: "sony-ea-sports-apex-legends-xbox",
@@ -5456,71 +7338,1081 @@ export const games = [
     },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
-        productID: 2009,
-        platform: "Xbox",
-        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741238046/xbox_tulsbu.png",
+        productID: 2751,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
         playboxRating: "Classic",
         playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
-        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
-        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741943669/coldwar-xbox_qc5bdj.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741889841/fc25-ps5-2_klvcmw.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741892162/fc25-switch_rkuwji.png",
         imageColorMap: [
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741943669/coldwar-xbox_qc5bdj.png",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741892162/fc25-switch_rkuwji.png",
                 color: "standard"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty_xqxvle.jpg",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741889841/fc25-ps5-2_klvcmw.png",
                 color: "standard"
             },
             {
-                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741940930/Call-of-Duty-2_v4tknn.jpg",
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741889841/fc25-ps5-3_dio5vo.png",
                 color: "standard"
             }
         ],
         defaultColor: "standard",
-        Title: "Xbox Call of Duty: Cold War- First-Person Shooter",
-        SubTitle: "COD: Cold War XBox",
+        Title: "EA Sports FC25 for Nintendo Switch",
+        SubTitle: "Nintendo / Sports / Football",
         category: "games",
-        subCategory: "xbox",
-        variant: "xbox",
-        brand: "Xbox",
-        name: "xbox-call-of-duty-cold-war",
-        description: "Call of Duty: Cold War drops you into the heart of the geopolitical battle of the early 1980s. Engage in intense single-player and multiplayer combat as you fight global threats in a world on the brink of war.",
-        detailsDescription: "Call of Duty: Cold War features a gripping campaign that takes players across historical battlefields, from dogfights over the Pacific to sniper battles in Stalingrad. Join elite operatives as they battle through covert operations, shaping history. The game also includes an integrated Warzone experience post-launch, bringing new battle royale and multiplayer content.",
-        topSpecs: [
-            "<h6><span>GAMEPLAY MODE</span><span class='detail-specs-h6'> Campaign, Multiplayer, Warzone</span></h6>",
-            "<h6><span>PLATFORM</span><span class='detail-specs-h6'> XBox One, XBox Series X</span></h6>",
-            "<h6><span>ONLINE MULTIPLAYER</span><span class='detail-specs-h6'>Play online with people around the wordl</span></h6>",
-            "<h6><span>WEIGHT</span><span class='detail-specs-h6'> 0.3kg</span></h6>",
-            "<h6><span>EXCLUSIVE CONTENT</span><span class='detail-specs-h6'> Confrontation Pack, Woods Operator, AR Weapon Blueprint</span></h6>"
-        ],
+        subCategory: ["nintendo", "sports", "football", "simulation",],
+        variant: "nintendo-switch",
+        brand: "EA Sports",
+        name: "ea-sports-fc25-nintendo-switch",
+        description: "EA Sports FC25 for Nintendo Switch offers the most immersive football experience, featuring enhanced gameplay mechanics, AI-driven tactics, and new ways to play, including 5v5 Rush in Ultimate Team. Build your dream squad, compete in Clubs mode, and take control of the best teams from across the world.",
+        detailsDescription: "EA Sports FC 25 introduces revolutionary gameplay with FC IQ, an advanced AI model that influences team strategies and player roles. Play with over 19,000 players from 700+ authentic clubs, powered by real-world match data. Enjoy new ways to play, including Football Ultimate Team Rush, where you can build your 5-a-side squad and compete with friends. With enhanced realism and strategic depth, FC25 takes football gaming to the next level.",
         detailSpecs: [
-            "<h6><span>Immersive Campaign</span><span> — Engage in thrilling missions across different warfronts</span></h6>",
-            "<h6><span>Multiplayer Action</span><span> — Classic Call of Duty combat with enhanced mechanics</span></h6>",
-            "<h6><span>Warzone Integration</span><span> — Seamlessly connects with Call of Duty Warzone</span></h6>",
-            "<h6><span>Confrontation Weapon Pack</span><span> — Exclusive in-game rewards and operator skins</span></h6>",
-            "<h6><span>Next-Gen Performance</span><span> — Optimized for XBox with stunning visuals</span></h6>"
+            "<h6><span>FC IQ AI System</span><span> — Advanced real-world data-driven AI for better team tactics</span></h6>",
+            "<h6><span>Ultimate Team Rush</span><span> — Build a 5-a-side squad and play with friends</span></h6>",
+            "<h6><span>700+ Clubs</span><span> — Featuring real teams and players from top leagues</span></h6>",
+            "<h6><span>Manager Career Mode</span><span> — Lead your team with realistic managerial decisions</span></h6>",
+            "<h6><span>Multiplayer & Online Play</span><span> — Compete against others worldwide in various game modes</span></h6>"
+        ],
+        topSpecs: [
+            "<h6><span>GAMEPLAY MODES</span><span class='detail-specs-h6'> Ultimate Team, Career Mode, Clubs, Kick-Off, and VOLTA</span></h6>",
+            "<h6><span>ONLINE & OFFLINE</span><span class='detail-specs-h6'> Play solo, couch co-op, or online multiplayer</span></h6>",
+            "<h6><span>PLATFORM</span><span class='detail-specs-h6'> Nintendo Switch</span></h6>",
+            "<h6><span>REALISM</span><span class='detail-specs-h6'> Powered by real-world match data from top leagues</span></h6>",
+            "<h6><span>GRAPHICS & PERFORMANCE</span><span class='detail-specs-h6'> Next-gen graphics with fluid animations</span></h6>"
         ],
         tags: [
-            "ps4-games",
-            "call-of-duty",
-            "first-person-shooter",
-            "warzone",
-            "multiplayer-game",
-            "campaign"
+            "nintendo-switch-games",
+            "football-game",
+            "ea-sports",
+            "ultimate-team",
+            "fifa-alternative",
+            "career-mode"
         ],
         carousels: ["indexGames", "displayGames"],
-        dropURL: "https://starmac.co.ke/product/xbox-series-call-of-duty-black-ops-cold-war-price-kenya/?srsltid=AfmBOorSA_lj0zfEN0oimN99Zp-v9gHQxtGQurO-4ft7q87ErOpUauwh",
-        youtubeReview: "https://www.youtube.com/embed/8H4DdU8t7Dc?si=ajSN6sIRQUnQ1wQA",
-        unboxingVideo: "https://www.youtube.com/embed/bNrDnKtEAfI?si=z9kHhtuWHPhABfNa",
-        prevPrice: 12890,
-        nowPrice: 9550,
-        stock: "In stock",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/ea-sports-fc-25-nintendo-switch-8LfGiP3vbY15Z2qYk9nBhylc.html?page=1&pos=6&cur_pos=6&ads_per_page=20&ads_count=16&lid=9KCQEBvrCvo86_Uj&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/vJnYS4fx_8U?si=GUm4Qb3KBOYI8vUX",
+        unboxingVideo: "https://www.youtube.com/embed/wFYQ627lQYg?si=fsOBAMJBfnDyWpKy",
+        prevPrice: 6800,
+        nowPrice: 5200,
+        stock: 10,
         freeShipping: true,
         condition: "New",
         rating: 4.8
     },
+    {
+        productID: 2752,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749233354/nintendo-sonic-frontiers-2_v3ed30.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749233353/nintendo-sonic-frontiers_ndvsa1.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749233353/nintendo-sonic-frontiers_ndvsa1.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749233354/nintendo-sonic-frontiers-2_v3ed30.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749233357/nintendo-sonic-frontiers-3_fwuohe.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Sonic Frontiers – Unleash Speed in a Mysterious World",
+        SubTitle: "Nintendo / Adventure / Action",
+        category: "games",
+        subCategory: ["nintendo", "adventure", "platformer", "action"],
+        variant: "nintendo",
+        brand: "SEGA",
+        name: "nintendo-sonic-frontiers",
+        description: "Step into Sonic’s most expansive adventure yet with open-zone gameplay, cyberspace challenges, and thrilling high-speed action.",
+        detailsDescription: "Sonic Frontiers redefines the platforming genre with the franchise's first open-zone gameplay. Set across vast Starfall Islands, players experience a high-speed journey filled with puzzles, hidden secrets, and cybernetic enemies. Harness the power of cyberspace in dynamic stages and use Sonic’s new abilities in fast-paced, stylish combat. With a narrative full of mystery and exploration, this is Sonic like you’ve never seen him before. Challenge yourself to uncover the truth behind the ancient technology and master the new frontier.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Adventure / Action Platformer</span></h6>",
+            "<h6><span>Release Year</span><span>2022</span></h6>",
+            "<h6><span>Game Modes</span><span>Single Player</span></h6>",
+            "<h6><span>Open-Zone Exploration</span><span>Yes</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>OPEN-ZONE PLATFORMING</span><span class='detail-specs-h6'>- Explore expansive environments and solve puzzles across Starfall Islands</span></h6>",
+            "<h6><span>HIGH-SPEED FREEDOM</span><span class='detail-specs-h6'>- Dash, climb, and spin through diverse terrains with signature Sonic speed</span></h6>",
+            "<h6><span>CYBERSPACE CHALLENGES</span><span class='detail-specs-h6'>- Dive into compact, fast-paced stages packed with classic Sonic action</span></h6>",
+            "<h6><span>CYBER-POWERED COMBAT</span><span class='detail-specs-h6'>- Use new abilities and combat mechanics to battle mysterious foes</span></h6>",
+            "<h6><span>NARRATIVE MYSTERY</span><span class='detail-specs-h6'>- Discover secrets and unlock Sonic’s purpose in this new adventure</span></h6>"
+        ],
+        tags: [
+            "sonic frontiers switch",
+            "nintendo sonic open world",
+            "sonic 2022 game",
+            "cyber combat sonic",
+            "starfall islands sonic",
+            "switch adventure platformer",
+            "sega sonic frontiers",
+            "nintendo high speed game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/sonic-frontiers-nintendo-switch-game-8DNlhPdbRi3dMILX1oJ211PW.html?page=2&pos=21&cur_pos=21&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=44",
+        youtubeReview: "https://www.youtube.com/embed/jkUgN0pItoU?si=AYVY7pJcSic-reCN",
+        unboxingVideo: "https://www.youtube.com/embed/8kmwKkALwnE?si=TtLflTSAFUYl187a",
+        prevPrice: 6999,
+        nowPrice: 5500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.3
+    },
+    {
+        productID: 2753,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749234371/nintendo-super-mario-party-2_pl3aht.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749234369/nintendo-super-mario-party_beddor.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749234369/nintendo-super-mario-party_beddor.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749234371/nintendo-super-mario-party-2_pl3aht.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749234372/nintendo-super-mario-party-3_munqky.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Super Mario Party – Bring the Party to the Switch!",
+        SubTitle: "Party / Family / Multiplayer",
+        category: "games",
+        subCategory: ["nintendo", "party", "family", "multiplayer"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-super-mario-party",
+        description: "Roll the dice and join Mario and friends in the ultimate digital board game party on the Nintendo Switch.",
+        detailsDescription: "Super Mario Party brings the classic Mario board game formula to life on the Nintendo Switch. Play as one of 20 iconic characters across exciting game boards full of traps, surprises, and mini-games. With over 80 unique mini-games and a variety of game modes, it’s the perfect game for family gatherings or parties. Compete in wild free-for-alls or team up in 2v2 and 1v3 challenges. Toad’s Rec Room even lets players with two consoles connect for exclusive minigame fun. Whether you're battling for stars or just looking for laughs, this party never stops!",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Party / Family Game</span></h6>",
+            "<h6><span>Release</span><span>2018</span></h6>",
+            "<h6><span>Game Modes</span><span>Local Multiplayer, Co-op, Toad’s Rec Room</span></h6>",
+            "<h6><span>Playable Characters</span><span>20+</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>80+ MINI-GAMES</span><span class='detail-specs-h6'>- Engage in unique and fun challenges for all skill levels</span></h6>",
+            "<h6><span>DYNAMIC GAME BOARDS</span><span class='detail-specs-h6'>- Each board offers different mechanics and surprises</span></h6>",
+            "<h6><span>TOAD'S REC ROOM</span><span class='detail-specs-h6'>- Enjoy linked-console play with exclusive multiplayer content</span></h6>",
+            "<h6><span>MULTIPLAYER MODES</span><span class='detail-specs-h6'>- Play solo, in teams, or 1v3 for endless party combinations</span></h6>",
+            "<h6><span>MUSHROOM KINGDOM VIBES</span><span class='detail-specs-h6'>- Jump into a colorful world full of charm and cheer</span></h6>"
+        ],
+        tags: [
+            "super mario party switch",
+            "nintendo board game party",
+            "mario switch multiplayer",
+            "family switch games",
+            "mario 4 player game",
+            "toads rec room",
+            "nintendo mini games",
+            "mario party couch co-op"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/super-mario-party-uKWfh4QxoMsK1ByNLkGUft9w.html?page=1&pos=9&cur_pos=9&ads_per_page=15&ads_count=15&lid=tRzuU8lBAFWtrD1M&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/6lrihmd9Exo?si=tIIdNYUwJpXMM9VS",
+        unboxingVideo: "https://www.youtube.com/embed/eUMIyFZhfvA?si=OA2Tvt-5agJb5AQE",
+        prevPrice: 6500,
+        nowPrice: 5999,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2754,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749237518/nintendo-mortal-kombat-1-2_jjzeu4.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749237518/nintendo-mortal-kombat-1_chviyl.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749237518/nintendo-mortal-kombat-1_chviyl.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749237518/nintendo-mortal-kombat-1-2_jjzeu4.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749237519/nintendo-mortal-kombat-1-3_uion7m.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Mortal Kombat 1 - A New Era Begins with Liu Kang",
+        SubTitle: "Nintendo / Fighting / Action",
+        category: "games",
+        subCategory: ["nintendo", "fighting", "action"],
+        variant: "nintendo",
+        brand: "NetherRealm Studios",
+        name: "nintendo-mortal-kombat-1",
+        description: "Step into a reborn Mortal Kombat universe forged by the Fire God Liu Kang, packed with brutal combat and iconic fatalities.",
+        detailsDescription: "Mortal Kombat 1 reboots the legendary franchise with a brand-new timeline crafted by Liu Kang himself. This entry introduces an overhauled fighting system, redesigned characters, fresh modes, and the visceral, cinematic brutality fans expect. Discover new alliances and rivalries in a gripping narrative experience, sharpen your skills in varied single-player and multiplayer modes, and dominate the arena with iconic finishers. Pre-order to unlock Shang Tsung as a playable character and get ready for an epic reinvention of Mortal Kombat.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Fighting / Action</span></h6>",
+            "<h6><span>Release</span><span>2023</span></h6>",
+            "<h6><span>Game Modes</span><span>Story Mode, Online PvP, Local Multiplayer</span></h6>",
+            "<h6><span>Pre-Order Bonus</span><span>Playable Shang Tsung</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REBORN UNIVERSE</span><span class='detail-specs-h6'>- Experience a completely reimagined Mortal Kombat world</span></h6>",
+            "<h6><span>FRESH FIGHTING MECHANICS</span><span class='detail-specs-h6'>- Redesigned system for faster, more tactical combat</span></h6>",
+            "<h6><span>GORY FATALITIES</span><span class='detail-specs-h6'>- Signature cinematic finishers return with even more intensity</span></h6>",
+            "<h6><span>CLASSIC CHARACTERS, REINVENTED</span><span class='detail-specs-h6'>- Familiar faces with new designs, powers, and alliances</span></h6>",
+            "<h6><span>SHANG TSUNG PLAYABLE</span><span class='detail-specs-h6'>- Bonus character included with pre-orders</span></h6>"
+        ],
+        tags: [
+            "mortal kombat 1 switch",
+            "nintendo fighting game",
+            "liu kang timeline",
+            "mortal kombat fatalities",
+            "mortal kombat shang tsung",
+            "mk1 nintendo",
+            "mortal kombat reboot",
+            "switch brutal action"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/mortal-kombat-1-mk-1-nintendo-switch-game-chTEzlK87KiqGlnWu8LIMizl.html?page=1&pos=2&cur_pos=2&ads_per_page=8&ads_count=8&lid=oILPvI0vLioeASVZ&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/B73QemN1ueM?si=yVWIK2KBONY0Yoym",
+        unboxingVideo: "https://www.youtube.com/embed/etI1C3Pi7mI?si=DZpR0RgDRfp20f4d",
+        prevPrice: 6499,
+        nowPrice: 5500,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2755,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749238723/nintendo-arms-2_mwiify.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749238722/nintendo-arms_xaykai.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749238722/nintendo-arms_xaykai.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749238723/nintendo-arms-2_mwiify.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749238721/nintendo-arms-3_dehzyl.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "ARMS – Stretch the Limits of Combat Fun",
+        SubTitle: "Fighting / Party",
+        category: "games",
+        subCategory: ["nintendo", "fighting", "party"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-arms",
+        description: "Enter the arena with extendable arms and strategic fighting action in Nintendo’s unique motion-controlled brawler.",
+        detailsDescription: "ARMS reinvents the fighting genre by arming fighters with springy, extendable limbs and customizable weapons. Engage in chaotic 1v1 or 2v2 battles using motion or button controls to launch punches, dodges, and blocks with precision. Pick from a roster of outlandish characters like ninjas and undead giants, each with unique powers such as teleportation and regeneration. Battle across dynamic stages with interactive hazards, locally or online, for non-stop stretch-based mayhem.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Fighting / Party</span></h6>",
+            "<h6><span>Release</span><span>2017</span></h6>",
+            "<h6><span>Modes</span><span>1v1, 2v2, Local & Online Multiplayer</span></h6>",
+            "<h6><span>Multiplayer</span><span>Local Wireless & Online Play</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>UNIQUE COMBAT SYSTEM</span><span class='detail-specs-h6'>- Stretchy, spring-powered arms for long-range brawling</span></h6>",
+            "<h6><span>CUSTOM LOADOUTS</span><span class='detail-specs-h6'>- Mix and match weapons for strategic combos</span></h6>",
+            "<h6><span>DIVERSE FIGHTERS</span><span class='detail-specs-h6'>- Play as ninjas, behemoths, and more with special powers</span></h6>",
+            "<h6><span>ARENA VARIETY</span><span class='detail-specs-h6'>- Battle in stages filled with traps and jump pads</span></h6>",
+            "<h6><span>MULTIPLAYER MODES</span><span class='detail-specs-h6'>- Play solo, co-op, or compete globally</span></h6>"
+        ],
+        tags: [
+            "nintendo arms game",
+            "switch fighting game",
+            "arms switch multiplayer",
+            "motion control fighting",
+            "unique brawler nintendo",
+            "spring arm combat",
+            "arms 2v2 mode",
+            "party fighting game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/arms-nintendo-switch-game-pmZO4OKBNr5JajRHli1gSejL.html?page=1&pos=1&cur_pos=1&ads_per_page=2&ads_count=2&lid=22wkdiBHetQ9Zl-S&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/YInVM0etkFI?si=LTJZ3WHEXN6-xhrE",
+        unboxingVideo: "https://www.youtube.com/embed/IRUU_t9poe0?si=oV1_28RIwbgPqWfp",
+        prevPrice: 6999,
+        nowPrice: 6200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2756,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239163/nintendo-arms-3_bepqqd.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239162/nintendo-arms_djku9u.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239162/nintendo-arms_djku9u.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239163/nintendo-arms-3_bepqqd.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239162/nintendo-arms-2_zmkj7q.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Minecraft – Build, Survive, Explore Endlessly",
+        SubTitle: "Sandbox / Adventure",
+        category: "games",
+        subCategory: ["nintendo", "sandbox", "adventure"],
+        variant: "nintendo",
+        brand: "Mojang Studios",
+        name: "nintendo-minecraft",
+        description: "Unleash your creativity in the ultimate block-building world of Minecraft, where your only limit is your imagination.",
+        detailsDescription: "Minecraft is the best-selling game of all time, offering a limitless sandbox world where players gather resources, build massive structures, and survive in procedurally generated environments. Play in Creative Mode with unlimited resources or dive into Survival Mode to craft, mine, and fend off enemies. The Nintendo Switch edition brings handheld freedom and multiplayer support, letting you build and adventure anytime, anywhere.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Sandbox / Adventure</span></h6>",
+            "<h6><span>Release</span><span>June 21, 2018</span></h6>",
+            "<h6><span>Modes</span><span>Creative, Survival, Adventure</span></h6>",
+            "<h6><span>Multiplayer</span><span>Local & Online Co-op</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>ENDLESS POSSIBILITIES</span><span class='detail-specs-h6'>- Build anything you imagine block by block</span></h6>",
+            "<h6><span>CREATIVE MODE</span><span class='detail-specs-h6'>- Unlimited resources and free building</span></h6>",
+            "<h6><span>SURVIVAL MODE</span><span class='detail-specs-h6'>- Gather, craft, and fend off monsters</span></h6>",
+            "<h6><span>WORLD EXPLORATION</span><span class='detail-specs-h6'>- Explore unique biomes and hidden dungeons</span></h6>",
+            "<h6><span>CO-OP & CROSS-PLAY</span><span class='detail-specs-h6'>- Join friends locally or online with full cross-platform play</span></h6>"
+        ],
+        tags: [
+            "minecraft nintendo switch",
+            "sandbox adventure game",
+            "block building survival",
+            "switch co-op game",
+            "minecraft survival mode",
+            "creative game kids",
+            "minecraft multiplayer switch",
+            "mojang nintendo"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/minecraft-nintendo-switch-game-kUjO9eiVUBA229WZqr0aLkCU.html?page=1&pos=7&cur_pos=7&ads_per_page=24&ads_count=29&lid=avBXxi49C93igg4q&indexPosition=6",
+        youtubeReview: "https://www.youtube.com/embed/5oghqTROa7o?si=9G0krBEc3s5bw1hp",
+        unboxingVideo: "https://www.youtube.com/embed/ZtrKZmUlUjg?si=1TYMsD2vo5hjPWgp",
+        prevPrice: 4500,
+        nowPrice: 3999,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2757,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239710/nintendo-gta-trilogy-definitive-2_ncsi6m.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239709/nintendo-gta-trilogy-definitive_jn9pb6.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239709/nintendo-gta-trilogy-definitive_jn9pb6.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239710/nintendo-gta-trilogy-definitive-2_ncsi6m.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749239711/nintendo-gta-trilogy-definitive-3_ik1yqc.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "GTA: The Trilogy Definitive – Three Classics Reimagined",
+        SubTitle: "Action / Open-World",
+        category: "games",
+        subCategory: ["nintendo", "action", "open-world"],
+        variant: "nintendo",
+        brand: "Rockstar Games",
+        name: "nintendo-gta-trilogy-definitive",
+        description: "Step back into Liberty City, Vice City, and San Andreas in this remastered collection of GTA classics for Nintendo Switch.",
+        detailsDescription: "Grand Theft Auto: The Trilogy – The Definitive Edition brings together three iconic games: GTA III, GTA: Vice City, and GTA: San Andreas. Each game has been enhanced with updated lighting, high-resolution textures, improved draw distances, modernized controls inspired by GTA V, and more. Whether you’re chasing revenge in Vice City or taking back the streets in San Andreas, this collection lets you relive Rockstar’s groundbreaking open-world legacy on the go with Nintendo Switch.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Action / Open-World</span></h6>",
+            "<h6><span>Games Included</span><span>GTA III, Vice City, San Andreas</span></h6>",
+            "<h6><span>Developer</span><span>Rockstar Games</span></h6>",
+            "<h6><span>Enhancements</span><span>High-res textures, improved lighting, modern controls</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>GTA III</span><span class='detail-specs-h6'>- Enter Liberty City’s underworld in this gritty crime saga</span></h6>",
+            "<h6><span>VICE CITY</span><span class='detail-specs-h6'>- Dominate the neon-soaked 80s as Tommy Vercetti</span></h6>",
+            "<h6><span>SAN ANDREAS</span><span class='detail-specs-h6'>- Follow CJ’s epic journey across cities, gangs, and betrayal</span></h6>",
+            "<h6><span>GRAPHICS UPGRADE</span><span class='detail-specs-h6'>- Modern lighting, shadows, and textures across all games</span></h6>",
+            "<h6><span>CONTROLS</span><span class='detail-specs-h6'>- Updated control scheme similar to GTA V for smoother gameplay</span></h6>"
+        ],
+        tags: [
+            "gta trilogy switch",
+            "gta vice city nintendo",
+            "gta san andreas definitive edition",
+            "rockstar games switch",
+            "nintendo open world gta",
+            "gta remastered switch",
+            "liberty city gta switch",
+            "grand theft auto collection"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/gta-trilogy-nintendo-switch-yPxV8DY5YBxec4zPhMYveVx2.html?page=1&pos=3&cur_pos=3&ads_per_page=4&ads_count=4&lid=Cjv_SgE5pDrfTipJ&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/Ul55KpKO7b8?si=m6kg0fcICski501e",
+        unboxingVideo: "https://www.youtube.com/embed/xAh8NCukuoc?si=Qk97Sjfepmc864Hz",
+        prevPrice: 5500,
+        nowPrice: 4999,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2758,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240480/nintendo-cars3-driven-to-win-2_g2g9ob.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240477/nintendo-cars3-driven-to-win_temc8o.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240477/nintendo-cars3-driven-to-win_temc8o.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240480/nintendo-cars3-driven-to-win-2_g2g9ob.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240479/nintendo-cars3-driven-to-win-3_k3btic.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Cars 3: Driven to Win – Race to the Finish Line!",
+        SubTitle: "Racing / Family",
+        category: "games",
+        subCategory: ["nintendo", "racing", "family"],
+        variant: "nintendo",
+        brand: "Disney • Pixar",
+        name: "nintendo-cars3-driven-to-win",
+        description: "Race with Lightning McQueen, Jackson Storm and more in this fast-paced action game based on Disney Pixar’s Cars 3.",
+        detailsDescription: "Cars 3: Driven to Win brings the high-octane excitement of the Disney Pixar film to your Nintendo Switch. Race with over 20 customizable characters, including Lightning McQueen, Cruz Ramirez, and Jackson Storm, across more than 20 iconic tracks like Radiator Springs. Test your skills in 6 dynamic game modes including Battle Race, and train to become the Ultimate Champion. Perfect for fans of all ages, this is a family-friendly racer full of thrills and cinematic charm.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Edition</span><span>Digital</span></h6>",
+            "<h6><span>Characters</span><span>Lightning McQueen, Cruz Ramirez, Jackson Storm & more</span></h6>",
+            "<h6><span>Game Modes</span><span>6 modes including Battle Race</span></h6>",
+            "<h6><span>Tracks</span><span>20+ tracks inspired by Cars 3</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>BASED ON MOVIE</span><span class='detail-specs-h6'>- Experience the world of Disney Pixar's Cars 3 in a high-speed game</span></h6>",
+            "<h6><span>RACERS</span><span class='detail-specs-h6'>- Over 20 playable characters from the Cars universe</span></h6>",
+            "<h6><span>TRACK LOCATIONS</span><span class='detail-specs-h6'>- Race through Radiator Springs and other fan-favorite locations</span></h6>",
+            "<h6><span>TRAINING & SKILLS</span><span class='detail-specs-h6'>- Improve your driving through dedicated training modes</span></h6>",
+            "<h6><span>MULTIPLAYER</span><span class='detail-specs-h6'>- Challenge friends and family in local multiplayer races</span></h6>"
+        ],
+        tags: [
+            "cars 3 switch game",
+            "disney pixar racing game",
+            "family racing nintendo",
+            "cars lightning mcqueen game",
+            "cars 3 digital edition",
+            "cars battle race switch",
+            "radiator springs racing"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nintendo-switch-cars-3-BviWtB0850myP2nAV789JMlE.html?page=1&pos=3&cur_pos=3&ads_per_page=12&ads_count=9&lid=5QJt-6sVUhC8DKCo&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/y2NUauz44u0?si=W8KMHaJ5sCQ7A892",
+        unboxingVideo: "https://www.youtube.com/embed/N7iMlN4Rb8Y?si=e5ntWO940eC82lGr",
+        prevPrice: 5450,
+        nowPrice: 4999,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.4
+    },
+    {
+        productID: 2759,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240973/nintendo-super-mario-maker-2-2_jfasjo.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240972/nintendo-super-mario-maker-2_jbzhe1.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240972/nintendo-super-mario-maker-2_jbzhe1.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240973/nintendo-super-mario-maker-2-2_jfasjo.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749240975/nintendo-super-mario-maker-2-3_zspmhn.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Super Mario Maker 2 – Build and Play Limitlessly!",
+        SubTitle: "Platformer / Creative",
+        category: "games",
+        subCategory: ["nintendo", "platformer", "creative"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-super-mario-maker-2",
+        description: "Create, share, and play side-scrolling Mario levels in a game that brings your imagination to life.",
+        detailsDescription: "Super Mario Maker 2 lets you build the Super Mario courses of your dreams. Featuring tools and themes from multiple Mario games, you can design elaborate levels and share them online for others to play. Jump into Story Mode to enjoy over 100 pre-made courses, or explore the endless creativity of the global Mario Maker community. With new elements like slopes, custom scrolling, and cooperative building, the possibilities are nearly endless.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Game Type</span><span>Platformer / Level Creator</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online & Local Multiplayer Supported</span></h6>",
+            "<h6><span>Modes</span><span>Story Mode, Course Maker, Online Courses</span></h6>",
+            "<h6><span>Design Tools</span><span>Classic and new tools from across Mario history</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>CREATE LEVELS</span><span class='detail-specs-h6'>- Use parts from classic and modern Mario games</span></h6>",
+            "<h6><span>STORY MODE</span><span class='detail-specs-h6'>- 100+ built-in courses to play and get inspired</span></h6>",
+            "<h6><span>ONLINE SHARING</span><span class='detail-specs-h6'>- Upload and download levels worldwide</span></h6>",
+            "<h6><span>CO-OP PLAY</span><span class='detail-specs-h6'>- Build levels together with a friend locally</span></h6>",
+            "<h6><span>NEW FEATURES</span><span class='detail-specs-h6'>- Slopes, custom scrolls, sound effects, and more</span></h6>"
+        ],
+        tags: [
+            "super mario maker 2",
+            "mario course builder switch",
+            "nintendo creative platformer",
+            "mario level creator",
+            "super mario maker game",
+            "play user levels mario",
+            "platform game design switch"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/super-mario-maker-2-nintendo-switch-AYEGTFjsD1OxDYNJKYYWPHFh.html?page=1&pos=5&cur_pos=5&ads_per_page=13&ads_count=10&lid=V0P1demGqCN3iBXY&indexPosition=4",
+        youtubeReview: "https://www.youtube.com/embed/HhkJuKKtTvM?si=2DzkFCkiOuFMa1im",
+        unboxingVideo: "https://www.youtube.com/embed/CYx9v7Mo94M?si=Us865_1o2O2YprDc",
+        prevPrice: 6500,
+        nowPrice: 5999,
+        stock: 20,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2760,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749241573/nintendo-nba-2k23-2_mvwsra.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749241572/nintendo-nba-2k23_dolbtp.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749241572/nintendo-nba-2k23_dolbtp.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749241573/nintendo-nba-2k23-2_mvwsra.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749241574/nintendo-nba-2k23-3_x6hrww.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "NBA 2K23 – Ball Like Never Before!",
+        SubTitle: "Sports / Basketball",
+        category: "games",
+        subCategory: ["nintendo", "sports", "basketball"],
+        variant: "nintendo",
+        brand: "2K Sports",
+        name: "nintendo-nba-2k23",
+        description: "Step into the shoes of legends and superstars in NBA 2K23 for Nintendo Switch, the ultimate basketball sim.",
+        detailsDescription: "NBA 2K23 brings you closer to real basketball action with advanced gameplay mechanics, stunning visuals, and multiple game modes. Whether you're building your dream team in MyTEAM, pursuing greatness in MyCAREER, or reliving iconic moments with Jordan Challenges, this game is packed with content. Play solo or challenge friends in local and online multiplayer. NBA 2K23 captures the intensity, competition, and culture of the sport like never before.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Game Type</span><span>Sports / Basketball</span></h6>",
+            "<h6><span>Multiplayer</span><span>Local & Online Multiplayer</span></h6>",
+            "<h6><span>Key Modes</span><span>MyCAREER, MyTEAM, Jordan Challenge</span></h6>",
+            "<h6><span>Visual Upgrades</span><span>Optimized for Switch with smooth animations</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>JORDAN CHALLENGE</span><span class='detail-specs-h6'>- Relive 15 iconic moments from Michael Jordan’s career</span></h6>",
+            "<h6><span>MyCAREER</span><span class='detail-specs-h6'>- Rise to fame in a cinematic single-player story mode</span></h6>",
+            "<h6><span>MyTEAM</span><span class='detail-specs-h6'>- Collect cards and build your ultimate dream team</span></h6>",
+            "<h6><span>MyNBA</span><span class='detail-specs-h6'>- Take control of your favorite franchise and dominate</span></h6>",
+            "<h6><span>FLEXIBLE PLAY</span><span class='detail-specs-h6'>- Play solo, local co-op, or battle online</span></h6>"
+        ],
+        tags: [
+            "nba 2k23 switch",
+            "basketball game switch",
+            "nba 2k multiplayer nintendo",
+            "sports game switch",
+            "nba 2k career mode",
+            "michael jordan 2k23",
+            "nintendo basketball sim"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nba-23-nintendo-switch-zTzRdS77sRaAZEAe6KuYxr5A.html?page=1&pos=4&cur_pos=4&ads_per_page=9&ads_count=8&lid=-B32XppEPe6sg9vt&indexPosition=3",
+        youtubeReview: "https://www.youtube.com/embed/857jkVK3tkM?si=cfniSxJUljNs1yr3",
+        unboxingVideo: "https://www.youtube.com/embed/M3REAnjdoKg?si=SA8gFnZ1TKkXfZIT",
+        prevPrice: 4700,
+        nowPrice: 3999,
+        stock: 18,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2761,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242210/nintendo-splatoon-3-2_hfenzu.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242208/nintendo-splatoon-3_tfelje.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242208/nintendo-splatoon-3_tfelje.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242210/nintendo-splatoon-3-2_hfenzu.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242214/nintendo-splatoon-3-4_pghf6s.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Splatoon 3 – Ink Your Turf in Style!",
+        SubTitle: "Action / Multiplayer Shooter",
+        category: "games",
+        subCategory: ["nintendo", "action", "shooter", "multiplayer"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-splatoon-3",
+        description: "Jump into the color-splashed chaos of Splatoon 3, a vibrant action shooter full of style, teamwork, and fast-paced fun.",
+        detailsDescription: "Set in the bustling city of Splatsville, Splatoon 3 features a thrilling mix of game modes including 4v4 Turf War battles, a cooperative Salmon Run, and a fresh single-player campaign. Compete with players online or enjoy local multiplayer with friends. With new weapons, stages, customization, and visuals, this is the definitive ink-based shooter for all ages.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Game Type</span><span>Action / Multiplayer Shooter</span></h6>",
+            "<h6><span>Multiplayer</span><span>Online & Local Multiplayer</span></h6>",
+            "<h6><span>Story Mode</span><span>Single-player campaign in Splatsville</span></h6>",
+            "<h6><span>Age Rating</span><span>10+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>TURF WAR</span><span class='detail-specs-h6'>- 4v4 ink-splatting battles to control the map</span></h6>",
+            "<h6><span>SALMON RUN</span><span class='detail-specs-h6'>- Co-op survival mode with waves of enemies</span></h6>",
+            "<h6><span>NEW CONTENT</span><span class='detail-specs-h6'>- Includes new maps, weapons, and gear</span></h6>",
+            "<h6><span>STORY CAMPAIGN</span><span class='detail-specs-h6'>- Take on a new single-player adventure</span></h6>",
+            "<h6><span>VISUALS</span><span class='detail-specs-h6'>- Vivid, stylized graphics and smooth mechanics</span></h6>"
+        ],
+        tags: [
+            "splatoon 3 nintendo switch",
+            "splatoon 3 kenya price",
+            "multiplayer switch shooter",
+            "splatoon salmon run",
+            "splatoon turf war",
+            "splatoon story mode"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/spatoon-3-nintendo-game-g9cXvPp5ljqICZnRFCwjVnib.html?page=1&pos=12&cur_pos=12&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=11",
+        youtubeReview: "https://www.youtube.com/embed/Z3qjATCE2dk?si=r_OEXHacwdNWLzPk   ",
+        unboxingVideo: "https://www.youtube.com/embed/vitNQUj4eq0?si=Nxac9qgRbIMTewA0",
+        prevPrice: 8500,
+        nowPrice: 7500,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+
+    {
+        productID: 2762,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242832/nintendo-zelda-skyward-sword-2_uu2yhh.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242831/nintendo-zelda-skyward-sword_ytpn0j.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242831/nintendo-zelda-skyward-sword_ytpn0j.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242832/nintendo-zelda-skyward-sword-2_uu2yhh.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749242832/nintendo-zelda-skyward-sword-3_x5peqf.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "The Legend of Zelda: Skyward Sword – Uncover the Origins of the Master Sword",
+        SubTitle: "Action-Adventure / Puzzle",
+        category: "games",
+        subCategory: ["nintendo", "action-adventure", "puzzle", "single-player"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-zelda-skyward-sword",
+        description: "Embark on a legendary quest as Link in Skyward Sword, the origin story of the Master Sword in the beloved Zelda series.",
+        detailsDescription: "The Legend of Zelda: Skyward Sword is a rich action-adventure game that takes players on a journey across the skies and into the depths of mysterious dungeons. Navigate a world filled with monsters, traps, and puzzles while wielding motion-controlled swordplay and unlocking secrets that define the origins of the Master Sword. With enhanced controls and improved visuals on Nintendo Switch, experience this timeless story in a whole new way.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Action-Adventure / Puzzle</span></h6>",
+            "<h6><span>Story Mode</span><span>Single-player Campaign</span></h6>",
+            "<h6><span>Motion Controls</span><span>Enhanced Swordplay with Joy-Con</span></h6>",
+            "<h6><span>Age Rating</span><span>10+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>MAIN CHARACTER</span><span class='detail-specs-h6'>- Play as Link on a heroic quest through sky and land</span></h6>",
+            "<h6><span>DUNGEON DESIGN</span><span class='detail-specs-h6'>- Solve puzzles and defeat bosses across immersive dungeons</span></h6>",
+            "<h6><span>SKYLOFT & SURFACE</span><span class='detail-specs-h6'>- Explore floating islands and the land below</span></h6>",
+            "<h6><span>CONTROLS</span><span class='detail-specs-h6'>- Supports both motion and traditional controls</span></h6>",
+            "<h6><span>REMASTERED FEATURES</span><span class='detail-specs-h6'>- Improved visuals, smoother performance, and streamlined gameplay</span></h6>"
+        ],
+        tags: [
+            "zelda skyward sword nintendo switch",
+            "legend of zelda kenya",
+            "zelda motion controls",
+            "skyward sword remake",
+            "zelda puzzle adventure",
+            "zelda origin story"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/legend-of-zelda-skyward-sword-hd-nintendo-switch-p0f2VvWRwoTkBiOGPzvKEdeb.html?page=1&pos=2&cur_pos=2&ads_per_page=5&ads_count=3&lid=WeeENmuLVh_mw4LG&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/IB6Kr5Ax0y0?si=lF4uCflYG9PMU64d",
+        unboxingVideo: "https://www.youtube.com/embed/KcE9QxcKY6w?si=SS2VvuaFod2YLPjr",
+        prevPrice: 8350,
+        nowPrice: 7999,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2763,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749243375/nintendo-pokemon-legends-arceus-2_nkzmpe.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749243372/nintendo-pokemon-legends-arceus_wqdhya.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749243372/nintendo-pokemon-legends-arceus_wqdhya.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749243375/nintendo-pokemon-legends-arceus-2_nkzmpe.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749243380/nintendo-pokemon-legends-arceus-3_wvblmt.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Pokémon Legends: Arceus – Journey to the Ancient Sinnoh Region",
+        SubTitle: "Action RPG / Adventure",
+        category: "games",
+        subCategory: ["nintendo", "action-rpg", "adventure", "open-world", "single-player"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-pokemon-legends-arceus",
+        description: "Explore the ancient Hisui region in Pokémon Legends: Arceus, where action and RPG elements blend to redefine the Pokémon experience.",
+        detailsDescription: "Set long before modern Pokémon games, Pokémon Legends: Arceus sends players to the Hisui region—eventually known as Sinnoh—where you join the Galaxy Expedition Team to study Pokémon and complete the region’s first Pokédex. Experience action-based catching mechanics, open-world exploration, and thrilling battles in a beautiful, pre-modern setting. Encounter wild Pokémon in natural habitats, engage in seamless battles, and unravel the mysteries behind the Legendary Arceus.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Action RPG / Adventure</span></h6>",
+            "<h6><span>Game Mode</span><span>Single-player</span></h6>",
+            "<h6><span>Open World</span><span>Explore ancient Sinnoh freely</span></h6>",
+            "<h6><span>Age Rating</span><span>7+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>HISUI REGION</span><span class='detail-specs-h6'>- Discover an ancient version of Sinnoh, rich in lore and wild Pokémon</span></h6>",
+            "<h6><span>NEW MECHANICS</span><span class='detail-specs-h6'>- Catch Pokémon directly in the overworld with stealth and skill</span></h6>",
+            "<h6><span>QUEST SYSTEM</span><span class='detail-specs-h6'>- Take on research tasks to help complete the first Pokédex</span></h6>",
+            "<h6><span>SEAMLESS BATTLES</span><span class='detail-specs-h6'>- Engage in real-time transitions between exploration and turn-based battles</span></h6>",
+            "<h6><span>LEGENDARY ARCEUS</span><span class='detail-specs-h6'>- Uncover the mystery behind the godlike Pokémon, Arceus</span></h6>"
+        ],
+        tags: [
+            "pokemon legends arceus switch",
+            "arceus kenya price",
+            "pokemon open world game",
+            "hisui region game",
+            "pokemon rpg nintendo",
+            "game freak arceus switch"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/pokemon-legend-arceus-nintendo-switch-xqm0VGQ4fFhN7SyPneW5LA3p.html?page=1&pos=3&cur_pos=3&ads_per_page=12&ads_count=9&lid=m91j8Zl1c-mQ2e0H&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/DR7ZooH9Zos?si=s6VrC-6lPKDm6JJ5",
+        unboxingVideo: "https://www.youtube.com/embed/x2Q5nU4KDWE?si=U9PUKWbWuaWeXBVv",
+        prevPrice: 7500,
+        nowPrice: 6900,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2764,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244045/nintendo-lego-movie-2-videogame-2_lg7vut.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244043/nintendo-lego-movie-2-videogame_gmt5i6.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244043/nintendo-lego-movie-2-videogame_gmt5i6.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244045/nintendo-lego-movie-2-videogame-2_lg7vut.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244049/nintendo-lego-movie-2-videogame-3_gilyp2.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "The LEGO Movie 2 Videogame – Rebuild and Rescue the LEGO Universe",
+        SubTitle: "Action / Adventure / Platformer",
+        category: "games",
+        subCategory: ["nintendo", "adventure", "platformer", "family", "lego"],
+        variant: "nintendo",
+        brand: "Warner Bros. Games",
+        name: "nintendo-lego-movie-2-videogame",
+        description: "Embark on a brick-built adventure in The LEGO Movie 2 Videogame, where creativity meets action in an epic mission across alien worlds.",
+        detailsDescription: "Inspired by the hit movie, The LEGO Movie 2 Videogame follows Emmet and friends as they venture beyond their homeworld to save their companions from the mysterious Systar System. Build structures, solve puzzles, and fight enemies across dynamic worlds full of LEGO creativity. With over 100 playable characters and unlockable items, this open-world adventure rewards imagination and exploration. Ideal for fans of all ages.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Adventure / Platformer</span></h6>",
+            "<h6><span>Game Mode</span><span>Single-player / Co-op</span></h6>",
+            "<h6><span>Playable Characters</span><span>100+ unlockable characters</span></h6>",
+            "<h6><span>Age Rating</span><span>7+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>NEW WORLDS</span><span class='detail-specs-h6'>- Explore unique alien environments from the Systar System</span></h6>",
+            "<h6><span>BUILD & COLLECT</span><span class='detail-specs-h6'>- Create LEGO structures to unlock rewards and progress missions</span></h6>",
+            "<h6><span>OVER 100 CHARACTERS</span><span class='detail-specs-h6'>- Play as Emmet, Lucy, Batman, and other LEGO icons</span></h6>",
+            "<h6><span>CO-OP GAMEPLAY</span><span class='detail-specs-h6'>- Team up with a friend in two-player cooperative mode</span></h6>",
+            "<h6><span>INSPIRED BY THE MOVIE</span><span class='detail-specs-h6'>- Relive scenes from The LEGO Movie 2 with interactive gameplay twists</span></h6>"
+        ],
+        tags: [
+            "lego movie 2 switch",
+            "lego videogame nintendo kenya",
+            "lego action platformer",
+            "nintendo lego games",
+            "family co-op games switch",
+            "lego movie 2 adventure"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nintendo-switch-lego-movie-2-wC73oMMWNoUTNTsm7jnJT6Xt.html?page=1&pos=15&cur_pos=15&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=14",
+        youtubeReview: "https://www.youtube.com/embed/9LXcodbRX-E?si=7hGlvSbGKnSvyxn6",
+        unboxingVideo: "https://www.youtube.com/embed/D9BJb1I50Ks?si=QbtMiyqjvc4JZSnf",
+        prevPrice: 5500,
+        nowPrice: 4800,
+        stock: 9,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2765,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244602/nintendo-super-smash-bros-ultimate-2_kytc7b.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244597/nintendo-super-smash-bros-ultimate_oue6bx.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244597/nintendo-super-smash-bros-ultimate_oue6bx.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244602/nintendo-super-smash-bros-ultimate-2_kytc7b.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749244603/nintendo-super-smash-bros-ultimate-3_n74468.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Super Smash Bros. Ultimate – The Ultimate Crossover Brawl",
+        SubTitle: "Fighting / Multiplayer",
+        category: "games",
+        subCategory: ["nintendo", "fighting", "multiplayer", "party", "action"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-super-smash-bros-ultimate",
+        description: "Battle it out with every character from the series in Super Smash Bros. Ultimate — the largest roster ever assembled in one epic fighter.",
+        detailsDescription: "Super Smash Bros. Ultimate brings together all past characters from the franchise alongside new challengers for the most complete fighting experience yet. Whether you're into casual fun or intense competition, the game features diverse modes including local multiplayer, online battles, single-player classic mode, and more. Fight across 100+ dynamic stages, use explosive items, and enjoy fan-favorite franchises clashing in high-speed action.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Fighting / Multiplayer</span></h6>",
+            "<h6><span>Game Modes</span><span>Single-player / Local & Online Multiplayer</span></h6>",
+            "<h6><span>Playable Characters</span><span>80+ fighters including every past character</span></h6>",
+            "<h6><span>Age Rating</span><span>10+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>FULL ROSTER</span><span class='detail-specs-h6'>- Play as every character from past Smash games plus new fighters</span></h6>",
+            "<h6><span>ICONIC STAGES</span><span class='detail-specs-h6'>- Over 100 stages from franchises like Zelda, Mario, and Pokémon</span></h6>",
+            "<h6><span>LOCAL & ONLINE MULTIPLAYER</span><span class='detail-specs-h6'>- Battle friends locally or test your skills worldwide</span></h6>",
+            "<h6><span>CLASSIC & SPIRITS MODE</span><span class='detail-specs-h6'>- Enjoy varied single-player campaigns and collectible battles</span></h6>",
+            "<h6><span>FULLY CUSTOMIZABLE</span><span class='detail-specs-h6'>- Adjust rules, items, and gameplay styles to match your play</span></h6>"
+        ],
+        tags: [
+            "super smash bros switch",
+            "smash bros ultimate kenya",
+            "nintendo crossover fighter",
+            "smash bros multiplayer game",
+            "party game nintendo switch",
+            "super smash ultimate battle"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/super-smash-bros-ultimate-nintendo-switch-hZkI5hzrAFs6uJ21cctISpgX.html?page=1&pos=2&cur_pos=2&ads_per_page=8&ads_count=8&lid=sXgU4Aq-Mb0YZFHz&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/tWo9wfsnj7M?si=dr4roUTZWnDF5vRQ",
+        unboxingVideo: "https://www.youtube.com/embed/WLu7e8RZoYc?si=PpJN2aYlOQ3gjWnQ",
+        prevPrice: 7500,
+        nowPrice: 6999,
+        stock: 13,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
