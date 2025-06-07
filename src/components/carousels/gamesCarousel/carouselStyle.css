@@ -168,7 +168,7 @@
 
       .carousel-component-item {
         max-width: 310px;
-        transform: scale(0.9);
+        transform: scale(0.95);
         margin: 0 auto;
     }
 

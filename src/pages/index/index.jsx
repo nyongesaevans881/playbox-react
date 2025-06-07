@@ -115,14 +115,14 @@ const Index = () => {
         <div className="home-page-games-content max-md:block max-md:mx-auto">
           <GamesCarousel setproductCategory={setproductCategory} setProductID={setProductID} setShowPopup={setShowPopup} />
         </div>
-        <div className="container absolute bottom-18 z-999 text-white px-5 flex gap-6 max-md:flex-col">
+        <div className="container absolute bottom-18 z-99 text-white px-5 flex gap-6 max-md:flex-col max-md:justify-center max-md:items-center">
           <div className="text-white w-80 flex items-center justify-between border-b-2 border-secondary">
             <img
-              className='h-40'
+              className='h-40 max-md:-translate-x-4'
               src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749309110/racing_qijlu2.png"
               alt="sports"
             />
-            <div className="flex flex-col items-start justify-center px-4 relative w-full">
+            <div className="flex flex-col items-start justify-center px-4 relative w-full max-md:transform max-md:translate-x-2">
               <h4 className='font-bold absolute text-2xl w-100 -top-1 -left-5'>Racing Games</h4>
               <div className='w-full pt-8'>
                 <a className='flex justify-between px-1 text-secondary font-bold border border-secondary w-full my-2 cursor-pointer hover:bg-secondary transition-4 hover:text-white' href="">
@@ -142,11 +142,11 @@ const Index = () => {
           </div>
           <div className="text-white w-80 flex items-center justify-between border-b-2 border-secondary">
             <img
-              className='h-40'
+              className='h-40 max-md:transform max-md:-translate-x-4'
               src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749305601/sports_1_j2ztt3.png"
               alt="sports"
             />
-            <div className="flex flex-col items-start justify-center px-4 relative w-full">
+            <div className="flex flex-col items-start justify-center px-4 relative w-full max-md:transform max-md:translate-x-2">
               <h4 className='font-bold absolute text-2xl w-100 -top-1 -left-5'>Sports Games</h4>
               <div className='w-full pt-8'>
                 <a className='flex justify-between px-1 text-secondary font-bold border border-secondary w-full my-2 cursor-pointer hover:bg-secondary transition-4 hover:text-white' href="">
@@ -166,11 +166,11 @@ const Index = () => {
           </div>
           <div className="text-white w-80 flex items-center justify-between border-b-2 border-secondary">
             <img
-              className='h-40'
+              className='h-40 max-md:-translate-x-4'
               src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749310258/shooter_xtyihk.png"
               alt="sports"
             />
-            <div className="flex flex-col items-start justify-center px-4 relative w-full">
+            <div className="flex flex-col items-start justify-center px-4 relative w-full max-md:transform max-md:translate-x-2">
               <h4 className='font-bold absolute text-2xl w-100 -top-1 -left-5'>Shooter Games</h4>
               <div className='w-full pt-8'>
                 <a className='flex justify-between px-1 text-secondary font-bold border border-secondary w-full my-2 cursor-pointer hover:bg-secondary transition-4 hover:text-white' href="">
@@ -190,11 +190,11 @@ const Index = () => {
           </div>
           <div className="text-white w-80 flex items-center justify-between border-b-2 border-secondary">
             <img
-              className='h-40'
+              className='h-40 max-md:-translate-x-4'
               src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749311463/adventure_s5599h.png"
               alt="sports"
             />
-            <div className="flex flex-col items-start justify-center px-4 relative w-full">
+            <div className="flex flex-col items-start justify-center px-4 relative w-full max-md:transform max-md:translate-x-2">
               <h4 className='font-bold absolute text-2xl w-100 -top-1 -left-5'>Adventure</h4>
               <div className='w-full pt-8'>
                 <a className='flex justify-between px-1 text-secondary font-bold border border-secondary w-full my-2 cursor-pointer hover:bg-secondary transition-4 hover:text-white' href="">
