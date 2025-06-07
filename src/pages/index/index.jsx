@@ -75,7 +75,7 @@ const Index = () => {
               <a href="/products/keyboards">
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741498214/keyboard_tvlrnd.png" alt="" className='cursor-pointer' title='Click to explore gaming keyboards' />
               </a>
-              <div className='flex justify-between max-md:mx-6'>
+              <div className='flex justify-between max-md:mx-0 max-md:w-full'>
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1742219751/pc-case-1_rdvuec.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' title='Click to explore gaming pc cases' />
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1744298582/mouse-black_hik0da.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary' title='Click to explore gaming mice' />
                 <img src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1745177821/lenovo-r27fc-30-3_nhl9jc.png" alt="" className='h-20 border border-gray-300 cursor-pointer hover:border-primary p-1' />
@@ -99,6 +99,9 @@ const Index = () => {
               <SpideyDialogBox text='Build a <span>KILLER SETUP!</span> We provide you with all the essential components and guides.' imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png' />
             </div>
             <img className='pc-spidey' src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png" alt="" loading='lazy' />
+            <div className="">
+              <Button49 text={"Shop PC Items"} to={"/products/hardware"} />
+            </div>
           </div>
         </div>
 

@@ -323,6 +323,13 @@
         width: 100%;
         height: 1700px;
     }
+      .paybox-skins-heading h2 {
+        font-size: 18px;
+      }
+      .paybox-skins-heading p {
+        font-size: 14px;
+        text-align: center;
+      }
 
     .paybox-laptops-buttons-wrapper {
       padding-left: 0;
