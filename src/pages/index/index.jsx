@@ -96,11 +96,11 @@ const Index = () => {
           <PcSetUpComponent />
           <div className="pc-spidey-commment">
             <div className="pc-spidey-commment-box-wrapper">
-              <SpideyDialogBox text='Build a <span>KILLER SETUP!</span> We provide you with all the essential components and guides.' imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png' />
+              <SpideyDialogBox text='Build a <span>FULL SETUP!</span> We provide you with all the essential components and guides.' imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png' />
             </div>
             <img className='pc-spidey' src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png" alt="" loading='lazy' />
-            <div className="">
-              <Button49 text={"Shop PC Items"} to={"/products/hardware"} />
+            <div className="paybox-laptops-buttons-wrapper max-md:mx-4 max-md:mt-15">
+              <Button49 text={"Shop PC All Items"} to={"/products/pc"} />
             </div>
           </div>
         </div>
