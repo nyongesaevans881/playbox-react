@@ -192,6 +192,6 @@
 
   @media (max-width: 768px) { 
       .fixed-cart-icon{
-        transform: scale(0.7) translateX(.5rem);
+        transform: scale(0.7) translateX(.6rem);
       }
   }
