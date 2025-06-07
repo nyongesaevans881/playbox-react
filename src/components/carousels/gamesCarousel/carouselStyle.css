@@ -4,6 +4,7 @@
     font-size: 30px;
     padding-bottom: 2rem;
     font-weight: 900;
+    line-height: 35px;
   }
   
   .gradient-text {
@@ -167,6 +168,8 @@
 
       .carousel-component-item {
         max-width: 310px;
+        transform: scale(0.9);
+        margin: 0 auto;
     }
 
     .carousel-component-buttons {

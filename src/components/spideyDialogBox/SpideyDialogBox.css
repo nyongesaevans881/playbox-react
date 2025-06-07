@@ -46,7 +46,7 @@
     .spidey-dialog-box {
         width: 200px;
         height: 70px;
-        column-gap: 1px;
+        column-gap: 10px;
     }
 
     .spidey-dialog-box p {

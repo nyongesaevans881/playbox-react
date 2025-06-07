@@ -1,0 +1,6 @@
+
+  @media (max-width: 768px) { 
+      .contact-sidebar-icon{
+        transform: scale(0.7) translateX(.5rem);
+      }
+  }

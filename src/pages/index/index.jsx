@@ -99,7 +99,7 @@ const Index = () => {
               <SpideyDialogBox text='Build a <span>FULL SETUP!</span> We provide you with all the essential components and guides.' imageSrc='https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png' />
             </div>
             <img className='pc-spidey' src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png" alt="" loading='lazy' />
-            <div className="paybox-laptops-buttons-wrapper max-md:mx-4 max-md:mt-15">
+            <div className="paybox-laptops-buttons-wrapper max-md:mx-4 max-md:pt-12">
               <Button49 text={"Shop PC All Items"} to={"/products/pc"} />
             </div>
           </div>
@@ -123,12 +123,6 @@ const Index = () => {
       {/*=========== START: PS-5: ACCESSORIES & SKINS SECTION ============*/}
       <div className="white-accessories-secion">
         <div className="spidey-separator z-2">
-          <div className="spidey-separator-dialog-box-wrapper">
-            <SpideyDialogBox
-              imageSrc="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/pc_tj25og.png"
-              text="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quae accusantium."
-            />
-          </div>
           <img className='separator-image' src="https://res.cloudinary.com/dnrlt7lhe/image/upload/v1743931764/spider-separator_dnxt9h.png" alt="" loading='lazy' />
         </div>
 
