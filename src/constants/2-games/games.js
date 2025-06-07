@@ -8388,11 +8388,667 @@ export const games = [
         condition: "New",
         rating: 4.9
     },
+    {
+        productID: 2765,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749278146/nintendo-wreckfest-2_ceb931.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749278146/nintendo-wreckfest_v35qfi.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749278146/nintendo-wreckfest_v35qfi.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749278146/nintendo-wreckfest-2_ceb931.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749278146/nintendo-wreckfest-3_keg7we.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Wreckfest – Smash, Race & Dominate the Arena",
+        SubTitle: "Racing / Multiplayer",
+        category: "games",
+        subCategory: ["nintendo", "racing", "multiplayer", "action"],
+        variant: "nintendo",
+        brand: "THQ Nordic",
+        name: "nintendo-wreckfest",
+        description: "Crash and burn in Wreckfest, the ultimate demolition racer packed with custom rides, realistic physics, and no-holds-barred fun.",
+        detailsDescription: "Wreckfest on Nintendo Switch delivers chaotic, full-contact racing at its finest. Experience intense collisions, insane vehicle damage, and white-knuckle races across derby arenas and unpredictable tracks. Customize your ride for banger races or build a tank for demolition events. From hilarious lawn mower races to full-throttle multiplayer brawls, Wreckfest offers a destructive motorsport experience like no other. Whether you're chasing trophies in Career Mode or wrecking friends online, it's time to bring the carnage!",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Destruction / Simulation</span></h6>",
+            "<h6><span>Game Modes</span><span>Single-player / Multiplayer</span></h6>",
+            "<h6><span>Customization</span><span>Car visuals & physics-based upgrades</span></h6>",
+            "<h6><span>Age Rating</span><span>16+ Teen</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REALISTIC PHYSICS</span><span class='detail-specs-h6'>- True-to-life vehicle damage and collisions</span></h6>",
+            "<h6><span>CRAZY VEHICLE VARIETY</span><span class='detail-specs-h6'>- From lawn mowers to buses and muscle cars</span></h6>",
+            "<h6><span>DERBY & RACING MODES</span><span class='detail-specs-h6'>- Compete in classic circuits and chaotic destruction arenas</span></h6>",
+            "<h6><span>MULTIPLAYER SUPPORT</span><span class='detail-specs-h6'>- Smash into friends and foes online</span></h6>",
+            "<h6><span>CHALLENGE MODES</span><span class='detail-specs-h6'>- Enjoy wacky events with wild vehicles</span></h6>"
+        ],
+        tags: [
+            "wreckfest nintendo switch",
+            "demolition derby game switch",
+            "car crash racing game",
+            "switch wreckfest kenya",
+            "wreckfest online multiplayer",
+            "destruction racing simulator"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/wreckfest-nintendo-game-pICiT5fjQBOWNnJWVi4mD30o.html?page=1&pos=2&cur_pos=2&ads_per_page=5&ads_count=3&lid=4KHh3E7VWR4Wq2Kz&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/lmQ0qrFKp84?si=07TdI32PxWzszVgB",
+        unboxingVideo: "https://www.youtube.com/embed/sDXUBbWTBpE?si=JRbMTK4xWO54999L",
+        prevPrice: 6800,
+        nowPrice: 5950,
+        stock: 9,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.6
+    },
+    {
+        productID: 2766,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279055/nintendo-kirby-forgotten-land-3_c3wgop.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279055/nintendo-kirby-forgotten-land_cmbxzt.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279055/nintendo-kirby-forgotten-land_cmbxzt.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279055/nintendo-kirby-forgotten-land-2_sazpuv.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279055/nintendo-kirby-forgotten-land-3_c3wgop.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Kirby and the Forgotten Land – A 3D Adventure Awaits",
+        SubTitle: "Adventure / Platformer / Co-op",
+        category: "games",
+        subCategory: ["nintendo", "adventure", "platformer", "family"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-kirby-forgotten-land",
+        description: "Explore a mysterious world and copy powerful abilities as Kirby in this charming and action-packed 3D platformer for Nintendo Switch.",
+        detailsDescription: "Kirby and the Forgotten Land transports players to a world of abandoned civilization, where Kirby must use his copy abilities—both classic and new—to uncover secrets and defeat enemies. With 3D platforming stages and creative level design, the game blends exploration with action and puzzles. Play solo or team up with a friend in local co-op as Bandana Waddle Dee. Between adventures, relax in Waddle Dee Town, engage in mini-games, and compare your scores online!",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Adventure / Platformer</span></h6>",
+            "<h6><span>Game Modes</span><span>Single-player / Local Co-op</span></h6>",
+            "<h6><span>Abilities</span><span>Classic and new copy powers</span></h6>",
+            "<h6><span>Age Rating</span><span>7+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>3D EXPLORATION</span><span class='detail-specs-h6'>- Navigate colorful, mysterious worlds full of surprises</span></h6>",
+            "<h6><span>COPY ABILITIES</span><span class='detail-specs-h6'>- Use Sword, Ice, Drill, Ranger and more powers</span></h6>",
+            "<h6><span>WADDLE DEE TOWN</span><span class='detail-specs-h6'>- Play mini-games, relax, and access online scoreboards</span></h6>",
+            "<h6><span>CO-OP GAMEPLAY</span><span class='detail-specs-h6'>- Team up with a friend as Bandana Waddle Dee</span></h6>",
+            "<h6><span>CHARMING WORLD</span><span class='detail-specs-h6'>- Abandoned malls and unique environments to explore</span></h6>"
+        ],
+        tags: [
+            "kirby forgotten land switch",
+            "nintendo kirby game",
+            "kirby 3d adventure",
+            "co-op platformer switch",
+            "waddle dee town game",
+            "family friendly switch game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/kirby-and-the-forgotten-land-nintendo-switch-game-jMHSumJTn8AHeoiGt0Yqe5Zi.html?page=1&pos=3&cur_pos=3&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/p0xjzJTmYvk?si=754JuChnGZy9aGFC",
+        unboxingVideo: "https://www.youtube.com/embed/TIz5FasNkjQ?si=RGB8OCOuXMsY9fu4",
+        prevPrice: 8200,
+        nowPrice: 7950,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2767,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279662/nintendo-cuphead-2_netknx.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279662/nintendo-cuphead_mp2gpd.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279662/nintendo-cuphead_mp2gpd.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279662/nintendo-cuphead-2_netknx.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749279668/nintendo-cuphead-3_apsvqv.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Cuphead – A Hand-Drawn Run & Gun Classic",
+        SubTitle: "Run & Gun / Boss Rush / Co-op",
+        category: "games",
+        subCategory: ["nintendo", "action", "platformer", "retro"],
+        variant: "nintendo",
+        brand: "Studio MDHR",
+        name: "nintendo-cuphead",
+        description: "Cuphead brings 1930s animation to life in a brutal, boss-filled run and gun adventure. Play solo or co-op and master the art of dodging, shooting, and surviving.",
+        detailsDescription: "Cuphead is a visually unique action game styled after 1930s cartoons. Play as Cuphead or Mugman through intense, side-scrolling levels and imaginative boss fights. Every frame is hand-drawn, every background painted, and every sound original jazz—true to its vintage inspiration. Master challenging mechanics, uncover secrets, and pay off your debt to the devil in this critically acclaimed indie hit. Local co-op and powerful upgrades make it as strategic as it is stylish.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Run & Gun / Action</span></h6>",
+            "<h6><span>Game Modes</span><span>Single-player / Local Co-op</span></h6>",
+            "<h6><span>Art Style</span><span>Hand-drawn 1930s animation</span></h6>",
+            "<h6><span>Age Rating</span><span>10+ Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>INTENSE BOSS BATTLES</span><span class='detail-specs-h6'>- Face dozens of screen-filling, beautifully animated bosses</span></h6>",
+            "<h6><span>HAND-CRAFTED VISUALS</span><span class='detail-specs-h6'>- Traditional cel animation and watercolor backdrops</span></h6>",
+            "<h6><span>JAZZ SOUNDTRACK</span><span class='detail-specs-h6'>- Authentic 1930s jazz recordings add vintage charm</span></h6>",
+            "<h6><span>CO-OP MODE</span><span class='detail-specs-h6'>- Play with a friend as Mugman in local co-op</span></h6>",
+            "<h6><span>UPGRADES & ABILITIES</span><span class='detail-specs-h6'>- Unlock weapons and super moves as you progress</span></h6>"
+        ],
+        tags: [
+            "cuphead switch game",
+            "cuphead and mugman",
+            "hand drawn action game",
+            "boss rush platformer",
+            "retro cartoon shooter",
+            "cuphead co-op nintendo"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/cuphead-nintendo-game-43bLGUp7wtQwXn7X34ZMc2mD.html?page=1&pos=9&cur_pos=9&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/rWNM4Cxry8o?si=SQZJ9HHH1Gd71W8s",
+        unboxingVideo: "https://www.youtube.com/embed/k0EsjOQlDUg?si=Ak39R-bBs7HfRAPo",
+        prevPrice: 6500,
+        nowPrice: 5950,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2768,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749280817/nintendo-switch-sports-3_fsbwds.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749280816/nintendo-switch-sports_kt7kva.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749280816/nintendo-switch-sports_kt7kva.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749280817/nintendo-switch-sports-2_zavpq8.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749280817/nintendo-switch-sports-3_fsbwds.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749280817/nintendo-switch-sports-4_plgd43.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Nintendo Switch Sports – Get Active with 7 Sports!",
+        SubTitle: "Motion / Sports / Multiplayer",
+        category: "games",
+        subCategory: ["nintendo", "sports", "family", "motion-control"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "nintendo-switch-sports",
+        description: "Swing, kick, spike, and bowl your way through 7 motion-controlled sports with family and friends. Nintendo Switch Sports brings the fun of fitness to your living room.",
+        detailsDescription: "Nintendo Switch Sports is your all-in-one motion-controlled sports game, featuring Tennis, Volleyball, Soccer, Badminton, Bowling, Chambara (swordplay), and Golf. Whether you're playing solo, with friends locally, or competing online, this game brings fitness and fun together with immersive Joy-Con controls. Use the included Leg Strap for soccer matches, or team up on one console for multiplayer madness. Perfect for players of all ages and skill levels.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Motion Control</span></h6>",
+            "<h6><span>Game Modes</span><span>Single-player / Local & Online Multiplayer</span></h6>",
+            "<h6><span>Accessories</span><span>Leg Strap compatible (for Soccer)</span></h6>",
+            "<h6><span>Age Rating</span><span>Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>7 SPORTS INCLUDED</span><span class='detail-specs-h6'>- Tennis, Volleyball, Soccer, Bowling, Badminton, Chambara, Golf</span></h6>",
+            "<h6><span>MOTION CONTROLS</span><span class='detail-specs-h6'>- Use Joy-Con movements for realistic gameplay</span></h6>",
+            "<h6><span>LEG STRAP MODE</span><span class='detail-specs-h6'>- Kick the ball in Soccer using the Leg Strap accessory</span></h6>",
+            "<h6><span>LOCAL & ONLINE PLAY</span><span class='detail-specs-h6'>- Compete with family or challenge global players</span></h6>",
+            "<h6><span>TEAM UP</span><span class='detail-specs-h6'>- Some sports support co-op on a single system</span></h6>"
+        ],
+        tags: [
+            "switch sports game",
+            "nintendo motion sports",
+            "soccer tennis bowling volleyball",
+            "chambara golf badminton",
+            "family multiplayer switch sports",
+            "leg strap accessory game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nintendo-switch-sports-brand-new-video-game-fUQX95tIseJQgwDIQhDYj5qx.html?page=1&pos=3&cur_pos=3&ads_per_page=21&ads_count=51&lid=Dtrs6JJijSha5REW&indexPosition=2",
+        youtubeReview: "https://www.youtube.com/embed/EK0uD4bDWTw?si=ZjOIc-psmn-EnpDp",
+        unboxingVideo: "https://www.youtube.com/embed/yqDtS1RgrKA?si=SqUrqcUsYtaLDQVp",
+        prevPrice: 8999,
+        nowPrice: 8200,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.5
+    },
+    {
+        productID: 2769,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749282936/zelda-links-awakening-2_blzn3p.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749282936/zelda-links-awakening_xoet2q.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749282936/zelda-links-awakening_xoet2q.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749282936/zelda-links-awakening-2_blzn3p.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749282937/zelda-links-awakening-3_sozdco.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "The Legend of Zelda: Link’s Awakening – Awaken the Wind Fish!",
+        SubTitle: "Adventure / Puzzle",
+        category: "games",
+        subCategory: ["nintendo", "adventure", "puzzle", "zelda"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "zelda-links-awakening",
+        description: "Explore Koholint Island in a reimagined classic adventure! Solve puzzles, battle monsters, and uncover the mystery of the Wind Fish in Link's most charming quest.",
+        detailsDescription: "In The Legend of Zelda: Link’s Awakening, play as Link stranded on the enigmatic Koholint Island. Rebuilt from the ground up with a unique toy-like art style, this remake of the 1993 classic invites you to explore mysterious dungeons, interact with quirky characters, and uncover secrets hidden across the island. Enhanced with new features like Chamber Dungeons, improved inventory management, and gorgeous re-orchestrated music, this edition adds fresh depth to a beloved tale. Use amiibo to unlock exclusive content and master mini-games for extra rewards.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Adventure / Puzzle</span></h6>",
+            "<h6><span>Gameplay</span><span>Single-player</span></h6>",
+            "<h6><span>Visual Style</span><span>HD cartoon-like remake</span></h6>",
+            "<h6><span>Age Rating</span><span>Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>REIMAGINED CLASSIC</span><span class='detail-specs-h6'>- Full remake of the Game Boy classic with modern visuals and music</span></h6>",
+            "<h6><span>CHAMBER DUNGEONS</span><span class='detail-specs-h6'>- Build and play your own custom dungeons using earned Chamber Stones</span></h6>",
+            "<h6><span>AMIIBO SUPPORT</span><span class='detail-specs-h6'>- Unlock extra content and exclusive dungeon chambers</span></h6>",
+            "<h6><span>ENHANCED GAMEPLAY</span><span class='detail-specs-h6'>- Equip more items, track progress, and enjoy updated controls</span></h6>",
+            "<h6><span>CHARMING CHARACTERS</span><span class='detail-specs-h6'>- Interact with a lively and memorable cast throughout your quest</span></h6>"
+        ],
+        tags: [
+            "zelda switch game",
+            "link’s awakening remake",
+            "nintendo zelda puzzle adventure",
+            "wind fish dungeon quest",
+            "chamber dungeon creator",
+            "amiibo zelda content"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/zelda-links-awakening-umu6rHWbvpW6vZXKUegiPzrm.html?page=1&pos=2&cur_pos=2&ads_per_page=6&ads_count=4&lid=926jOtrLjkihfr6G&indexPosition=1",
+        youtubeReview: "https://www.youtube.com/embed/vO52tpksq8g?si=I4fl7FB2Xv0j8Cls",
+        unboxingVideo: "https://www.youtube.com/embed/eqHtNWusdPU?si=Zi0Th3EZLvQE7MVL",
+        prevPrice: 6500,
+        nowPrice: 5950,
+        stock: 10,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2770,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749283674/mario-kart-8-deluxe-2_c1ojbi.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749283671/mario-kart-8-deluxe_kbizwq.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749283671/mario-kart-8-deluxe_kbizwq.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749283674/mario-kart-8-deluxe-2_c1ojbi.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749283674/mario-kart-8-deluxe-3_m7gup1.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Mario Kart 8 Deluxe – Race Anytime, Anywhere!",
+        SubTitle: "Arcade / Racing / Party",
+        category: "games",
+        subCategory: ["nintendo", "racing", "multiplayer", "arcade"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "mario-kart-8-deluxe",
+        description: "Speed, spin, and soar across the Mushroom Kingdom in the ultimate kart racing experience! Join Mario and friends in fast-paced, gravity-defying fun with multiplayer modes and iconic items.",
+        detailsDescription: "Mario Kart 8 Deluxe for Nintendo Switch brings exhilarating arcade-style racing with 48 courses, a massive roster of characters, and all DLC content from the original. Experience anti-gravity driving, classic battle modes, and fan-favorite items like Boo and the Feather. Race locally with friends or challenge players worldwide in online tournaments. With flexible controls and handheld play, Mario Kart 8 Deluxe delivers endless fun whether at home or on the go.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Racing / Arcade</span></h6>",
+            "<h6><span>Modes</span><span>Single-player, Local Multiplayer, Online</span></h6>",
+            "<h6><span>Playable Characters</span><span>Mario, Luigi, Link, Inkling, and more</span></h6>",
+            "<h6><span>Age Rating</span><span>Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>48 COURSES</span><span class='detail-specs-h6'>- Race across all original and DLC tracks</span></h6>",
+            "<h6><span>REVAMPED BATTLE MODE</span><span class='detail-specs-h6'>- Includes Balloon Battle, Renegade Roundup, and more</span></h6>",
+            "<h6><span>DOUBLE ITEM SLOT</span><span class='detail-specs-h6'>- Hold two items to mix up the action</span></h6>",
+            "<h6><span>GUEST CHARACTERS</span><span class='detail-specs-h6'>- Play as Inkling Girl/Boy, Link, and more</span></h6>",
+            "<h6><span>HANDHELD & DOCKED PLAY</span><span class='detail-specs-h6'>- Enjoy anywhere, anytime with all control schemes</span></h6>"
+        ],
+        tags: [
+            "mario kart switch",
+            "mario racing game",
+            "nintendo multiplayer racing",
+            "kart battle mode",
+            "mario kart 8 deluxe dlc",
+            "fun switch party game"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nintendo-mario-kart-8-deluxe-zjsgh4gAln3zVjZmRhbjwU7E.html?page=1&pos=9&cur_pos=9&ads_per_page=15&ads_count=12&lid=jOely8oPRpdxYha1&indexPosition=8",
+        youtubeReview: "https://www.youtube.com/embed/-o6HeaVNFLE?si=SJWwCGdfT-ZuU9_J",
+        unboxingVideo: "https://www.youtube.com/embed/nTXuelxUpuc?si=bRVbty4uHq0cZivj",
+        prevPrice: 7500,
+        nowPrice: 6450,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
+    {
+        productID: 2771,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749284447/super-mario-bros-wonder-2_uthzav.jpg",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749284445/super-mario-bros-wonder_c9leg2.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749284445/super-mario-bros-wonder_c9leg2.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749284447/super-mario-bros-wonder-2_uthzav.jpg",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749284447/super-mario-bros-wonder-3_hkwz5d.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Super Mario Bros. Wonder – A Magical Mario Adventure!",
+        SubTitle: "Platformer / Side-Scrolling",
+        category: "games",
+        subCategory: ["nintendo", "platformer", "family", "adventure"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "super-mario-bros-wonder",
+        description: "Explore the Flower Kingdom in this dazzling side-scrolling adventure packed with unpredictable surprises, new power-ups, and your favorite Mario characters.",
+        detailsDescription: "Super Mario Bros. Wonder brings a fresh twist to the beloved 2D Mario formula. Set in the vibrant Flower Kingdom, players will discover Wonder Flowers that alter the gameplay in wild and unexpected ways. Choose from a huge cast including Mario, Luigi, Peach, Daisy, Toads, and more. With new power-ups like the Elephant Fruit and the option to play as damage-immune characters like Yoshi or Nabbit, this is the most accessible and chaotic Mario experience yet. Perfect for solo players or fun-filled multiplayer sessions.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Platformer / Side-Scrolling</span></h6>",
+            "<h6><span>Modes</span><span>Single-player, Multiplayer (Local)</span></h6>",
+            "<h6><span>Playable Characters</span><span>Mario, Luigi, Peach, Daisy, Toads, Yoshis, Nabbit</span></h6>",
+            "<h6><span>Age Rating</span><span>Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>WONDER FLOWERS</span><span class='detail-specs-h6'>- Trigger game-altering effects with each flower</span></h6>",
+            "<h6><span>ELEPHANT POWER-UP</span><span class='detail-specs-h6'>- Smash through obstacles and spray water</span></h6>",
+            "<h6><span>EXTENDED CHARACTER ROSTER</span><span class='detail-specs-h6'>- Includes Daisy and multiple Yoshi colors</span></h6>",
+            "<h6><span>FAMILY-FRIENDLY MODES</span><span class='detail-specs-h6'>- Play as Yoshi or Nabbit for a no-damage experience</span></h6>",
+            "<h6><span>4-PLAYER CO-OP</span><span class='detail-specs-h6'>- Enjoy chaotic fun with friends and family</span></h6>"
+        ],
+        tags: [
+            "super mario wonder",
+            "2d mario game",
+            "nintendo platformer",
+            "family friendly switch game",
+            "mario multiplayer",
+            "wonder flower mario"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/super-mario-bros-wonder-nintendo-switch-game-brand-new-ySosVo4nOPsrh9GnRpyd6ccm.html?page=1&pos=1&cur_pos=1&ads_per_page=8&ads_count=6&lid=49JZHY0DmHgoOdGP&indexPosition=0",
+        youtubeReview: "https://www.youtube.com/embed/S8mbe6mF0js?si=cP9pBAknHyQe22Sg",
+        unboxingVideo: "https://www.youtube.com/embed/M5wVt_owOfo?si=L-LQgV1wjsoJpBI1",
+        prevPrice: 7999,
+        nowPrice: 7500,
+        stock: 15,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
+    {
+        productID: 2772,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285206/zelda-tears-of-the-kingdom-2_bg7izl.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285205/zelda-tears-of-the-kingdom_am3v4n.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285205/zelda-tears-of-the-kingdom_am3v4n.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285206/zelda-tears-of-the-kingdom-2_bg7izl.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285206/zelda-tears-of-the-kingdom-3_cfmnvz.jpg",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "The Legend of Zelda: Tears of the Kingdom – Rise Above Hyrule",
+        SubTitle: "Action-Adventure / Open-World",
+        category: "games",
+        subCategory: ["nintendo", "adventure", "open-world", "rpg"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "zelda-tears-of-the-kingdom",
+        description: "Soar between sky islands and ancient lands in Link’s newest adventure, where creativity, combat, and exploration combine like never before.",
+        detailsDescription: "The Legend of Zelda: Tears of the Kingdom is the epic sequel to Breath of the Wild. Journey through the vast land of Hyrule and explore mysterious floating islands in the skies above. Players wield powerful new abilities to build, traverse, and fight in inventive ways. The fate of the kingdom is in your hands as you face sinister forces and uncover the secrets of a shattered world. With unmatched freedom, dynamic physics, and imaginative gameplay, this title is a must-play for fans of open-world adventures.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Action-Adventure / RPG</span></h6>",
+            "<h6><span>Modes</span><span>Single-player</span></h6>",
+            "<h6><span>World</span><span>Expansive Hyrule + Sky Islands</span></h6>",
+            "<h6><span>Age Rating</span><span>Teen</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>NEW ABILITIES</span><span class='detail-specs-h6'>- Fuse, Ultrahand, Recall, Ascend for creative problem solving</span></h6>",
+            "<h6><span>SKY & LAND EXPLORATION</span><span class='detail-specs-h6'>- Traverse between Hyrule and airborne isles</span></h6>",
+            "<h6><span>INNOVATIVE COMBAT</span><span class='detail-specs-h6'>- Combine weapons and tactics for endless variety</span></h6>",
+            "<h6><span>DEEP LORE</span><span class='detail-specs-h6'>- Uncover ancient secrets and mysteries</span></h6>",
+            "<h6><span>STUNNING VISUALS</span><span class='detail-specs-h6'>- Gorgeous art and immersive environments</span></h6>"
+        ],
+        tags: [
+            "zelda tears of the kingdom",
+            "botw sequel",
+            "open world zelda",
+            "nintendo adventure game",
+            "hyrule sky islands",
+            "link abilities"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-cMhyfGqrD2dUu01ESEQaqOjw.html?page=1&pos=6&cur_pos=6&ads_per_page=17&ads_count=11&lid=JM9x29CYasKahCGO&indexPosition=5",
+        youtubeReview: "https://www.youtube.com/embed/ZdVO_fYoF5g?si=25TW9XdD1DHbT6yO",
+        unboxingVideo: "https://www.youtube.com/embed/WdtKgBEKcgc?si=Olbh0LrqC3ewCMRZ",
+        prevPrice: 8499,
+        nowPrice: 79850,
+        stock: 12,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.9
+    },
 
-
-
-
-
+    {
+        productID: 2773,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285832/fc-24-nintendo-switch-2_yzbkdk.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285831/fc-24-nintendo-switch_dwqzmp.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285831/fc-24-nintendo-switch_dwqzmp.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749285832/fc-24-nintendo-switch-2_yzbkdk.png",
+                color: "nintendo"
+            },
+        ],
+        defaultColor: "nintendo",
+        Title: "Nintendo Switch FC 24 – Ultimate Football Reimagined",
+        SubTitle: "Sports / Football",
+        category: "games",
+        subCategory: ["nintendo", "sports", "football", "simulation"],
+        variant: "nintendo",
+        brand: "EA Sports",
+        name: "fc-24-nintendo-switch",
+        description: "Step onto the pitch in EA SPORTS FC 24, the most immersive football experience on Nintendo Switch™—now powered by the Frostbite™ Engine.",
+        detailsDescription: "EA SPORTS FC™ 24 marks a new era of football gaming on Nintendo Switch. With 19,000+ licensed players, 700+ teams, and 30+ leagues, realism is unmatched. For the first time ever, the Frostbite™ Engine comes to Switch, alongside Opta-powered PlayStyles that bring every athlete’s signature skills to life. Build your dream team with Ultimate Team™, now featuring Evolutions and women footballers. Whether it’s Pro Clubs, VOLTA, or FUT Rivals, this is the most complete football simulation on a handheld console.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Sports / Football Simulation</span></h6>",
+            "<h6><span>Modes</span><span>Single-player, Multiplayer, Online</span></h6>",
+            "<h6><span>Engine</span><span>Frostbite™ on Switch</span></h6>",
+            "<h6><span>Age Rating</span><span>Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>PLAYSTYLES POWERED BY OPTA</span><span class='detail-specs-h6'>- Unique traits interpreted from real-world data</span></h6>",
+            "<h6><span>FROSTBITE™ ENGINE</span><span class='detail-specs-h6'>- Debuts on Nintendo Switch for enhanced realism</span></h6>",
+            "<h6><span>ULTIMATE TEAM</span><span class='detail-specs-h6'>- Build, evolve, and compete with club legends</span></h6>",
+            "<h6><span>WOMEN IN FUT</span><span class='detail-specs-h6'>- Mixed squads now possible with female stars</span></h6>",
+            "<h6><span>VOLTA & CLUBS</span><span class='detail-specs-h6'>- Create and customize your Pro, compete with friends</span></h6>"
+        ],
+        tags: [
+            "ea sports fc 24",
+            "fifa 24 nintendo switch",
+            "frostbite engine switch",
+            "football game nintendo",
+            "ultimate team evolutions",
+            "volta football clubs"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/nintendo-switch-fc-24-fifa-24-for-nintendo-switch-oled-al0hHFYYOzgw04Nv2ZXe1QPD.html?page=1&pos=18&cur_pos=18&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=17",
+        youtubeReview: "https://www.youtube.com/embed/fjUP1qap0OA?si=JVbE4xnZ53VS-9cS",
+        unboxingVideo: "https://www.youtube.com/embed/bRqsafGUp2o?si=na23ua7_-0PSO3C9",
+        prevPrice: 5980,
+        nowPrice: 5499,
+        stock: 16,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.7
+    },
+    {
+        productID: 2774,
+        platform: "Nintendo",
+        platformIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741719646/nintendo_p60ade.png",
+        playboxRating: "Classic",
+        playboxRatingIcon: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1741164079/classic_fkc8lw.png",
+        detailsPoster: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749286588/super-mario-bros-u-deluxe-nintendo-switch-3_s5y7de.png",
+        mainproductImage: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749286586/super-mario-bros-u-deluxe-nintendo-switch_tbccls.png",
+        imageColorMap: [
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749286586/super-mario-bros-u-deluxe-nintendo-switch_tbccls.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749286588/super-mario-bros-u-deluxe-nintendo-switch-3_s5y7de.png",
+                color: "nintendo"
+            },
+            {
+                image: "https://res.cloudinary.com/dnrlt7lhe/image/upload/v1749286589/super-mario-bros-u-deluxe-nintendo-switch-2_pkge8l.png",
+                color: "nintendo"
+            }
+        ],
+        defaultColor: "nintendo",
+        Title: "Super Mario Bros. U Deluxe – Classic Platforming, Reinvented",
+        SubTitle: "Adventure / Platformer",
+        category: "games",
+        subCategory: ["nintendo", "platformer", "family", "adventure"],
+        variant: "nintendo",
+        brand: "Nintendo",
+        name: "super-mario-bros-u-deluxe-nintendo-switch",
+        description: "Join Mario, Luigi, and friends in this enhanced side-scrolling adventure packed with 164 courses, new characters, and family-friendly action!",
+        detailsDescription: "Super Mario Bros. U Deluxe bundles the original New Super Mario Bros. U and New Super Luigi U into one massive side-scrolling adventure on Nintendo Switch. Featuring over 160 levels, new characters like Toadette and Nabbit who are optimized for younger or new players, and three bonus modes including Challenges and Coin Battle. Play solo or with up to three friends in co-op, and switch between TV, tabletop, or handheld mode for nonstop Mushroom Kingdom fun.",
+        topSpecs: [
+            "<h6><span>Platform</span><span>Nintendo Switch</span></h6>",
+            "<h6><span>Genre</span><span>Adventure / Platformer / Family</span></h6>",
+            "<h6><span>Modes</span><span>Single-player, Local Multiplayer</span></h6>",
+            "<h6><span>Courses</span><span>164 Across Both Games</span></h6>",
+            "<h6><span>Age Rating</span><span>Everyone</span></h6>"
+        ],
+        detailSpecs: [
+            "<h6><span>2-IN-1 PACKAGE</span><span class='detail-specs-h6'>- Includes New Super Mario Bros. U + New Super Luigi U</span></h6>",
+            "<h6><span>NEW CHARACTERS</span><span class='detail-specs-h6'>- Play as Toadette and Nabbit—easier for beginners</span></h6>",
+            "<h6><span>GAME MODES</span><span class='detail-specs-h6'>- Includes Challenges, Boost Rush, and Coin Battle</span></h6>",
+            "<h6><span>LOCAL MULTIPLAYER</span><span class='detail-specs-h6'>- Team up with 1–3 friends (accessories sold separately)</span></h6>",
+            "<h6><span>PLAY ANYWHERE</span><span class='detail-specs-h6'>- TV, tabletop, and handheld modes supported</span></h6>"
+        ],
+        tags: [
+            "super mario bros u deluxe",
+            "mario switch platformer",
+            "family friendly nintendo game",
+            "new super luigi u",
+            "toadette nabbitt characters",
+            "side scrolling mario switch"
+        ],
+        carousels: [],
+        storage: "",
+        dropURL: "https://jiji.co.ke/nairobi-central/videogames/super-mario-bros-u-deluxe-nintendo-switch-game-new-CpdDIRuXOIVci1vE89jQz0O6.html?page=2&pos=6&cur_pos=6&ads_per_page=24&ads_count=265&lid=piL1QixfjvPSltA7&indexPosition=29",
+        youtubeReview: "https://www.youtube.com/embed/yb0ha_UQXFo?si=W4GKvMJ9z8SukBlG",
+        unboxingVideo: "https://www.youtube.com/embed/0LbHBMtHUw0?si=LnFhytP0Bsao9zx4",
+        prevPrice: 7999,
+        nowPrice: 6950,
+        stock: 18,
+        freeShipping: true,
+        condition: "New",
+        rating: 4.8
+    },
 
 
 
